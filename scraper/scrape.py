@@ -38,7 +38,7 @@ UTC = timezone.utc
 NY = ZoneInfo("America/New_York")
 UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
-SCRAPER_VERSION = "2.3"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
+SCRAPER_VERSION = "2.4"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
 NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
 CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
@@ -302,6 +302,8 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
     m = re.search(r"(?:Address|Location|Where)\s*:\s*([^\n]+)", e["description"])
     if not loc and m:
         loc = m.group(1).strip()
+    if PLACEHOLDER_LOC.search(loc):
+        loc = ""
     p = place(loc)
     if p["country"] == "Unknown" or p["city"] == "Location on listing":
         hc, hco = hint_place(f"{e['title']} {e['description'][:300]}")
