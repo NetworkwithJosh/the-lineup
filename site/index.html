@@ -139,6 +139,11 @@
   .ev__act { display: flex; flex-direction: column; gap: var(--sc-1); align-items: flex-end; }
   .btn { display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; padding: 0.35rem 0.65rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink); cursor: pointer; text-decoration: none; white-space: nowrap; transition: border-color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out); }
   .btn:active { transform: scale(0.97); }
+  .pick-link { display: inline-block; margin-top: var(--sc-2); font-size: 0.8rem; color: var(--sc-ink-dim); }
+  .pick-link:hover { color: var(--sc-accent); }
+  .board__row { display: flex; align-items: center; justify-content: space-between; gap: var(--sc-3); }
+  .feed__scope { color: var(--sc-ink-soft); font-size: 0.9rem; }
+  .group[hidden] { display: none; }
   .btn--ghost { border-color: transparent; color: var(--sc-ink-dim); }
   .btn--ghost:hover { color: var(--sc-ink); border-color: var(--sc-hairline-strong); }
   @media (max-width: 640px) { .ev__act .btn { min-height: 40px; padding: 0.5rem 0.85rem; } }
@@ -240,10 +245,24 @@
       <label class="sc-label" for="country">Country</label>
       <select class="pick" id="country"></select>
     </div>
+    <div class="group" id="state-g" hidden>
+      <label class="sc-label" for="state">State</label>
+      <select class="pick" id="state"></select>
+      <a class="pick-link" id="state-page" href="/us/">Every state at a glance</a>
+    </div>
     <div class="group">
       <label class="sc-label" for="metro">City</label>
       <select class="pick" id="metro"></select>
       <p class="pick-hint" id="metro-hint">Pick your city and the slider tells you what you can reach after work.</p>
+    </div>
+    <div class="group">
+      <span class="sc-label" id="when-l">When</span>
+      <div class="seg seg--4" role="group" aria-labelledby="when-l" data-filter="when">
+        <button type="button" data-v="all" aria-pressed="true">Any time</button>
+        <button type="button" data-v="week" aria-pressed="false">This week</button>
+        <button type="button" data-v="weekend" aria-pressed="false">Weekend</button>
+        <button type="button" data-v="month" aria-pressed="false">30 days</button>
+      </div>
     </div>
     <div class="group">
       <span class="sc-label" id="show-l">Show</span>
@@ -261,7 +280,7 @@
 
   <main class="board" id="board">
     <div class="board__head">
-      <h2 id="board-h">Coming up</h2>
+      <div class="board__row"><h2 id="board-h">Coming up</h2><button class="btn btn--ghost" type="button" id="share">Share this view</button></div>
       <p class="sc-body" id="board-sub"></p>
     </div>
     <div class="changes" id="changes" hidden>
@@ -273,8 +292,9 @@
     <div id="list"><p class="empty">Loading events.</p></div>
 
     <section class="feed" id="feed" aria-labelledby="feed-h">
-      <h2 id="feed-h">Keep the whole lineup in your calendar</h2>
+      <h2 id="feed-h">Keep the lineup in your calendar</h2>
       <p>Subscribe once. New events appear on their own, moved ones update, and cancelled ones show as cancelled in your calendar. It refreshes every day.</p>
+      <p class="feed__scope" id="feed-scope"></p>
       <div class="feed__row">
         <label class="sr" for="feed-url">Calendar feed address</label>
         <input id="feed-url" readonly value="">
@@ -293,7 +313,10 @@
 (() => {
   const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "America/New_York";
   const $ = (s) => document.querySelector(s);
-  const state = { off: 1080, trip: 45, topic: "all", country: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
+  const state = { off: 1080, trip: 45, topic: "all", when: "all", country: "", region: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
+  const STATES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",DC:"Washington DC"};
+  const slugOf = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const isUS = () => state.country === "United States";
   let EVENTS = [], DATA = {};
   const NOW = Date.now(), WEEK = 7 * 864e5;
 
@@ -345,18 +368,31 @@
   // ---------- filters
   function inPlace(e) {
     if (e.online) return state.online;
+    if (state.metro) return e.metro === state.metro;  // a metro can cross state lines (NYC + North Jersey)
     if (state.country && e.country !== state.country) return false;
-    if (state.metro && e.metro !== state.metro) return false;
+    if (isUS() && state.region && e.state !== state.region) return false;
     return true;
+  }
+  function inWhen(e) {
+    if (state.when === "all") return true;
+    const s = toDate(e, "start").getTime(), en = toDate(e, "end").getTime(), now = Date.now();
+    if (state.when === "month") return s <= now + 30 * 864e5;
+    if (state.when === "week") return s <= now + 7 * 864e5;
+    // the coming Saturday and Sunday (or today/tomorrow if it's already the weekend)
+    const d = new Date(); d.setHours(0, 0, 0, 0);
+    const toSat = (6 - d.getDay() + 7) % 7, sat = new Date(d.getTime() + (d.getDay() === 0 ? -1 : toSat) * 864e5);
+    const monday = sat.getTime() + 2 * 864e5;
+    return s < monday && en >= sat.getTime();
   }
   function visible() {
     const q = state.q.trim().toLowerCase();
     return EVENTS.filter(e => {
       if (state.topic !== "all" && !e.tags.includes(state.topic)) return false;
       if (!inPlace(e)) return false;
+      if (!inWhen(e)) return false;
       if (state.free && !/^free/i.test(e.cost)) return false;
       if (state.change && changeOf(e) !== state.change) return false;
-      if (q && !`${e.title} ${e.venue} ${e.city} ${e.country} ${e.about} ${e.kind} ${e.source}`.toLowerCase().includes(q)) return false;
+      if (q && !`${e.title} ${e.venue} ${e.city} ${e.state ? STATES[e.state] + " " + e.state : ""} ${e.country} ${e.about} ${e.kind} ${e.source}`.toLowerCase().includes(q)) return false;
       if (state.make && reach(e).k !== "make") return false;
       return true;
     });
@@ -376,7 +412,7 @@
     return out;
   }
   const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: tzOf(e), month: "long", year: "numeric" }).format(toDate(e, "start"));
-  const placeLabel = () => state.metro || state.country || "worldwide";
+  const placeLabel = () => state.metro || (isUS() && state.region ? STATES[state.region] : "") || state.country || "worldwide";
 
   function render(animate) {
     const list = visible();
@@ -384,7 +420,7 @@
     for (const e of list) { const k = monthKey(e); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); }
     const live = state.change ? list.length : list.filter(e => !isCx(e)).length;
     const noun = state.change ? `${state.change} ${live === 1 ? "event" : "events"}` : (live === 1 ? "event" : "events");
-    $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${state.make ? " you can make" : ""}.`;
+    $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
     if (!list.length) {
       $("#list").innerHTML = `<div class="empty"><p>Nothing matches. Try another city, a later off time, or turn off some filters.</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
       $("#reset").onclick = resetFilters;
@@ -395,7 +431,7 @@
       html += `<section class="month" aria-label="${esc(m)}"><h3><span>${esc(m)}</span><span>${evs.length}</span></h3>`;
       for (const e of evs) {
         const w = when(e), r = reach(e), ch = changeOf(e);
-        const where = e.online ? ["Online"] : [e.venue !== e.city ? e.venue : "", e.city, e.country !== "United States" || !state.country ? e.country : ""];
+        const where = e.online ? ["Online"] : [e.venue !== e.city ? e.venue : "", e.city + (e.state && !(isUS() && state.region) ? ", " + e.state : ""), e.country !== "United States" || !state.country ? e.country : ""];
         const meta = [...where, e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("");
         const flag = ch === "new" ? `<span class="flag flag--new">New</span>` : ch === "updated" ? `<span class="flag flag--upd">Updated</span>` : ch === "cancelled" ? `<span class="flag flag--cx">Cancelled</span>` : "";
         const confirm = !ch && (e.status === "verify" || e.status === "recurring") ? ` <span class="ev__day">(confirm)</span>` : "";
@@ -455,11 +491,24 @@
     $("#country").innerHTML = `<option value="">Everywhere</option>` + countries.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} (${n})</option>`).join("");
     if (state.country && !byCountry[state.country]) state.country = "";
     $("#country").value = state.country;
+    fillStates();
+  }
+  function fillStates() {
+    $("#state-g").hidden = !isUS();
+    if (!isUS()) { state.region = ""; fillMetro(); return; }
+    const counts = {};
+    for (const e of EVENTS) if (!e.online && !isCx(e) && e.country === "United States" && e.state) counts[e.state] = (counts[e.state] || 0) + 1;
+    const list = Object.keys(STATES).filter(k => counts[k]).sort((a, b) => STATES[a].localeCompare(STATES[b]));
+    $("#state").innerHTML = `<option value="">All states</option>` + list.map(k => `<option value="${k}">${esc(STATES[k])} (${counts[k]})</option>`).join("");
+    if (state.region && !counts[state.region]) state.region = "";
+    $("#state").value = state.region;
+    $("#state-page").href = state.region ? `/us/${slugOf(STATES[state.region])}/` : "/us/";
+    $("#state-page").textContent = state.region ? `${STATES[state.region]} page and feed` : "Every state at a glance";
     fillMetro();
   }
   function fillMetro() {
     const counts = {};
-    for (const e of EVENTS) if (!e.online && !isCx(e) && (!state.country || e.country === state.country) && e.metro && e.metro !== "Location on listing") counts[e.metro] = (counts[e.metro] || 0) + 1;
+    for (const e of EVENTS) if (!e.online && !isCx(e) && (!state.country || e.country === state.country) && (!isUS() || !state.region || e.state === state.region) && e.metro && e.metro !== "Location on listing") counts[e.metro] = (counts[e.metro] || 0) + 1;
     const metros = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     $("#metro").innerHTML = `<option value="">Any city</option>` + metros.map(([m, n]) => `<option value="${esc(m)}">${esc(m)} (${n})</option>`).join("");
     if (state.metro && !counts[state.metro]) state.metro = "";
@@ -472,14 +521,39 @@
   }
 
   function paintKnob(el) { el.style.setProperty("--fill", ((el.value - el.min) / (el.max - el.min) * 100) + "%"); }
-  function update(animate) { render(animate); verdict(); changesStrip(); }
+  function update(animate) { render(animate); verdict(); changesStrip(); syncUrl(); feedScope(); }
+
+  // ---------- shareable links: the address bar always describes what you're looking at
+  const URL_KEYS = { country: "country", region: "state", metro: "city", topic: "topic", when: "when", q: "q" };
+  function readUrl() {
+    const p = new URLSearchParams(location.search); let any = false;
+    for (const [k, u] of Object.entries(URL_KEYS)) if (p.has(u)) { state[k] = p.get(u); any = true; }
+    if (p.has("off")) { const m = p.get("off").match(/^(\d{1,2}):?(\d{2})?$/); if (m) { state.off = Math.min(1260, Math.max(900, +m[1] * 60 + (+m[2] || 0))); any = true; } }
+    if (p.has("state") && !p.has("country")) state.country = "United States";
+    return any;
+  }
+  function viewUrl() {
+    const p = new URLSearchParams();
+    for (const [k, u] of Object.entries(URL_KEYS)) if (state[k] && state[k] !== "all") p.set(u, state[k]);
+    return location.pathname + (p.toString() ? "?" + p.toString() : "");
+  }
+  function syncUrl() { try { history.replaceState(null, "", viewUrl()); } catch (_) {} }
+
+  // ---------- a calendar feed for the place you picked
+  function feedScope() {
+    const st = isUS() && state.region ? state.region : "";
+    const feed = new URL(st ? `feeds/${st.toLowerCase()}.ics` : "lineup.ics", location.href).href, webcal = feed.replace(/^https?:/, "webcal:");
+    $("#feed-url").value = feed; $("#ical").href = webcal;
+    $("#gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+    $("#feed-scope").textContent = st ? `This feed has only ${STATES[st]} events. Clear the state to get everything.` : "This feed has every event on the board. Pick a US state above to get a feed with just that state.";
+  }
   function resetFilters() {
-    Object.assign(state, { topic: "all", make: false, free: false, change: "", q: "", online: true });
+    Object.assign(state, { topic: "all", when: "all", make: false, free: false, change: "", q: "", online: true });
     document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === "all")));
     ["#t-make", "#t-free"].forEach(id => $(id).setAttribute("aria-pressed", "false")); $("#t-online").setAttribute("aria-pressed", "true");
     $("#q").value = ""; save(); update(true);
   }
-  function save() { try { localStorage.setItem("lineup2", JSON.stringify({ off: state.off, trip: state.trip, country: state.country, metro: state.metro, topic: state.topic, online: state.online })); } catch (_) {} }
+  function save() { try { localStorage.setItem("lineup2", JSON.stringify({ off: state.off, trip: state.trip, country: state.country, region: state.region, metro: state.metro, topic: state.topic, online: state.online })); } catch (_) {} }
   function load() { try { const v = JSON.parse(localStorage.getItem("lineup2") || "null"); if (v) Object.assign(state, v); else state.country = guessCountry(); } catch (_) { state.country = guessCountry(); } }
 
   // ---------- single-event .ics
@@ -530,7 +604,8 @@
         save(); update(true);
       });
     });
-    $("#country").addEventListener("change", (ev) => { state.country = ev.target.value; state.metro = ""; fillMetro(); save(); update(true); });
+    $("#country").addEventListener("change", (ev) => { state.country = ev.target.value; state.region = ""; state.metro = ""; fillStates(); save(); update(true); });
+    $("#state").addEventListener("change", (ev) => { state.region = ev.target.value; state.metro = ""; fillStates(); save(); update(true); });
     $("#metro").addEventListener("change", (ev) => { state.metro = ev.target.value; save(); update(true); });
     [["#t-make", "make"], ["#t-free", "free"], ["#t-online", "online"]].forEach(([id, key]) => {
       $(id).setAttribute("aria-pressed", String(state[key]));
@@ -548,13 +623,21 @@
     $("#gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
     $("#copy").addEventListener("click", async (ev) => {
       const b = ev.currentTarget;
-      try { await navigator.clipboard.writeText(feed); b.textContent = "Copied"; } catch (_) { $("#feed-url").select(); b.textContent = "Press Ctrl+C"; }
+      try { await navigator.clipboard.writeText($("#feed-url").value); b.textContent = "Copied"; } catch (_) { $("#feed-url").select(); b.textContent = "Press Ctrl+C"; }
       setTimeout(() => (b.textContent = "Copy feed"), 1800);
     });
   }
 
   async function boot() {
-    load(); wire();
+    load(); const fromUrl = readUrl(); wire();
+    if (fromUrl) $("#q").value = state.q;
+    $("#share").addEventListener("click", async (ev) => {
+      const b = ev.currentTarget, url = location.origin + viewUrl();
+      try {
+        if (navigator.share && matchMedia("(pointer: coarse)").matches) await navigator.share({ title: "The Lineup", url });
+        else { await navigator.clipboard.writeText(url); b.textContent = "Link copied"; setTimeout(() => (b.textContent = "Share this view"), 1800); }
+      } catch (_) {}
+    });
     try {
       DATA = await (await fetch("data/events.json", { cache: "no-cache" })).json();
       const today = new Date(); today.setHours(0, 0, 0, 0);

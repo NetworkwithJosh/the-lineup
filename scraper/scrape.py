@@ -38,7 +38,7 @@ UTC = timezone.utc
 NY = ZoneInfo("America/New_York")
 UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
-SCRAPER_VERSION = "2.4"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
+SCRAPER_VERSION = "2.5"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
 NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
 CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
@@ -53,7 +53,7 @@ def is_it(text: str) -> bool:
 
 AI_WORDS = re.compile(r"\b(ai|a\.i\.|artificial intelligence|llms?|agents?|agentic|machine learning|ml|genai|gen ai|claude|gpt\w*|openai|anthropic|copilot|rag|mcp|deep learning|neural|nlp)\b", re.I)
 ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|webcast|livestream|live stream|google meet|microsoft teams|remote|brighttalk|webex|gotowebinar|crowdcast|on24|hopin|youtube live|twitch)\b", re.I)
-SKIP_TITLES = re.compile(r"\b(cfp|call for (papers|speakers|proposals)|submission deadline|deadline|hiring test|career queries)\b", re.I)
+SKIP_TITLES = re.compile(r"\b(cfp|call for (papers|speakers|proposals)|submission deadline|deadline|hiring test|career queries|donations?|fundraiser|webinar recording|office hours for organizers)\b", re.I)
 
 US_STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split())
 COUNTRY_ALIASES = {
@@ -61,13 +61,15 @@ COUNTRY_ALIASES = {
     "united states": "United States", "united states of america": "United States",
     "uk": "United Kingdom", "u.k.": "United Kingdom", "england": "United Kingdom", "scotland": "United Kingdom",
     "wales": "United Kingdom", "great britain": "United Kingdom", "united kingdom": "United Kingdom",
-    "uae": "United Arab Emirates", "the netherlands": "Netherlands", "deutschland": "Germany",
+    "uae": "United Arab Emirates", "the netherlands": "Netherlands", "deutschland": "Germany", "brasil": "Brazil", "españa": "Spain", "türkiye": "Turkey", "turkiye": "Turkey", "the uk": "United Kingdom", "nederland": "Netherlands", "méxico": "Mexico", "schweiz": "Switzerland", "österreich": "Austria", "italia": "Italy", "polska": "Poland", "france": "France", "japan": "Japan", "日本": "Japan",
     "ksa": "Saudi Arabia", "south korea": "South Korea", "korea": "South Korea",
 }
 METROS = {
     "New York area": ["new york", "nyc", "manhattan", "brooklyn", "queens", "bronx", "staten island", "jersey city",
                       "hoboken", "newark", "edison", "westfield", "perth amboy", "union", "elmwood park", "paramus",
-                      "hackensack", "parsippany", "morristown", "stamford", "white plains", "long island city"],
+                      "hackensack", "parsippany", "morristown", "stamford", "white plains", "long island city",
+                      "iselin", "avenel", "clifton", "montclair", "wayne", "paterson", "secaucus", "fort lee", "woodbridge",
+                      "summit", "weehawken", "florham park", "astoria", "yonkers", "new rochelle", "mahwah"],
     "Philadelphia area": ["philadelphia", "philly", "king of prussia", "camden"],
     "Washington DC area": ["washington", "arlington", "alexandria", "reston", "herndon", "tysons", "bethesda", "national harbor", "mclean"],
     "San Francisco Bay Area": ["san francisco", "oakland", "san jose", "palo alto", "mountain view", "santa clara", "sunnyvale", "menlo park", "berkeley"],
@@ -154,6 +156,82 @@ def parse_ics(text: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------- places
+STATE_NAMES = {"AL":"Alabama","AK":"Alaska","AZ":"Arizona","AR":"Arkansas","CA":"California","CO":"Colorado","CT":"Connecticut","DE":"Delaware","FL":"Florida","GA":"Georgia","HI":"Hawaii","ID":"Idaho","IL":"Illinois","IN":"Indiana","IA":"Iowa","KS":"Kansas","KY":"Kentucky","LA":"Louisiana","ME":"Maine","MD":"Maryland","MA":"Massachusetts","MI":"Michigan","MN":"Minnesota","MS":"Mississippi","MO":"Missouri","MT":"Montana","NE":"Nebraska","NV":"Nevada","NH":"New Hampshire","NJ":"New Jersey","NM":"New Mexico","NY":"New York","NC":"North Carolina","ND":"North Dakota","OH":"Ohio","OK":"Oklahoma","OR":"Oregon","PA":"Pennsylvania","RI":"Rhode Island","SC":"South Carolina","SD":"South Dakota","TN":"Tennessee","TX":"Texas","UT":"Utah","VT":"Vermont","VA":"Virginia","WA":"Washington","WV":"West Virginia","WI":"Wisconsin","WY":"Wyoming","DC":"Washington DC"}
+_C = """
+NY: new york, nyc, manhattan, brooklyn, queens, bronx, staten island, long island city, white plains, yonkers, albany, buffalo, rochester, syracuse, ithaca, long island, hempstead, garden city, melville, new rochelle, tarrytown, astoria
+NJ: jersey city, hoboken, newark, edison, iselin, westfield, perth amboy, union, elmwood park, paramus, hackensack, parsippany, morristown, red bank, clifton, avenel, princeton, new brunswick, piscataway, trenton, camden, cherry hill, montclair, summit, secaucus, weehawken, fort lee, wayne, paterson, toms river, freehold, holmdel, somerset, bridgewater, florham park, mahwah, woodbridge, eatontown, mount laurel
+CT: stamford, hartford, new haven, norwalk, greenwich, bridgeport
+PA: philadelphia, philly, king of prussia, pittsburgh, harrisburg, easton, allentown, bethlehem, malvern, wayne pa, conshohocken, lancaster, state college, scranton, erie
+DE: wilmington, newark de, dover
+MD: baltimore, bethesda, rockville, columbia, annapolis, silver spring, gaithersburg, fort meade, laurel, national harbor, hanover
+DC: washington, washington dc, washington d.c.
+VA: arlington, alexandria, reston, herndon, tysons, tysons corner, mclean, fairfax, chantilly, richmond, virginia beach, norfolk, chesapeake, ashburn, leesburg, vienna va, lorton, roanoke, charlottesville
+MA: boston, cambridge, somerville, worcester, waltham, burlington, lowell
+RI: providence
+NH: manchester nh, nashua, portsmouth
+VT: burlington vt
+ME: portland me
+NC: raleigh, durham, charlotte, chapel hill, cary, research triangle park, greensboro, wilmington nc, asheville
+SC: charleston, columbia sc, greenville
+GA: atlanta, alpharetta, sandy springs, marietta, savannah, augusta, macon, dalton, norcross, duluth ga
+FL: miami, tampa, orlando, jacksonville, fort lauderdale, boca raton, west palm beach, tallahassee, st. petersburg, saint petersburg, melbourne fl, sarasota, naples, gainesville, pensacola, bonita springs, cocoa beach
+AL: birmingham, huntsville, montgomery, mobile
+TN: nashville, memphis, knoxville, chattanooga
+KY: louisville, lexington
+OH: columbus, cleveland, cincinnati, dayton, akron, toledo
+MI: detroit, ann arbor, grand rapids, lansing, southfield, troy
+IN: indianapolis, fort wayne, bloomington
+IL: chicago, rosemont, schaumburg, naperville, evanston, oak brook, springfield il
+WI: milwaukee, madison
+MN: minneapolis, st. paul, saint paul, bloomington mn
+IA: des moines, cedar rapids, iowa city
+MO: st. louis, saint louis, kansas city, springfield mo
+KS: wichita, overland park
+NE: omaha, lincoln
+OK: oklahoma city, tulsa
+AR: little rock, bentonville
+LA: new orleans, baton rouge
+TX: dallas, houston, austin, san antonio, fort worth, plano, irving, frisco, el paso, richardson, the woodlands, round rock, arlington tx
+CO: denver, boulder, colorado springs, aurora, fort collins
+UT: salt lake city, lehi, provo, ogden
+AZ: phoenix, scottsdale, tempe, tucson, mesa, chandler
+NV: las vegas, reno, henderson
+NM: albuquerque, santa fe
+CA: los angeles, santa monica, pasadena, irvine, anaheim, san diego, san francisco, oakland, san jose, palo alto, mountain view, santa clara, sunnyvale, menlo park, berkeley, cupertino, sacramento, el segundo, culver city, long beach, rancho cordova, redwood city, san mateo, fremont, walnut creek, riverside, fresno, burbank, newport beach, costa mesa, south san francisco, emeryville, hollywood
+OR: portland, beaverton, eugene, salem
+WA: seattle, bellevue, redmond, tacoma, spokane, kirkland, everett
+ID: boise
+MT: bozeman, missoula
+AK: anchorage
+HI: honolulu
+"""
+CITY_STATE = {}
+for line in _C.strip().splitlines():
+    st, cities = line.split(":", 1)
+    for c in cities.split(","):
+        CITY_STATE.setdefault(c.strip(), st.strip())
+AMBIGUOUS_CITIES = {"cambridge", "birmingham", "richmond", "manchester", "melbourne", "durham", "newcastle", "hamilton", "london", "perth", "windsor", "kingston", "victoria", "dover", "lincoln", "salem", "aurora", "columbia", "springfield", "wilmington", "portland", "arlington", "burlington", "lexington", "laurel", "hanover", "union", "summit", "wayne", "troy", "vienna", "naples", "frisco", "duluth", "bloomington", "georgetown"}
+STATE_BY_NAME = {v.lower(): k for k, v in STATE_NAMES.items()}
+
+
+def find_state(location: str, city: str, country: str) -> str:
+    """Two-letter US state for an event, or "" if we can't tell or it isn't in the US."""
+    if country and country not in ("United States", "Unknown"):
+        return ""
+    text = f"{city}, {location}"
+    for part in reversed([p.strip() for p in text.split(",") if p.strip()]):
+        m = re.fullmatch(r"([A-Z]{2})(?:\s+\d{5}(?:-\d{4})?)?", part) or re.search(r"\b([A-Z]{2})\s+\d{5}\b", part)
+        if m and m.group(1) in US_STATES:
+            return m.group(1)
+        low = re.sub(r"\s+\d{5}.*$", "", part.lower()).strip(" .")
+        if low in STATE_BY_NAME and low not in ("washington", "new york"):
+            return STATE_BY_NAME[low]
+    name = re.split(r",", city or "")[0].strip().lower()
+    if name in CITY_STATE and (country == "United States" or name not in AMBIGUOUS_CITIES):
+        return CITY_STATE[name]
+    return ""
+
+
 def norm_country(s: str) -> str:
     s = s.strip().strip(".")
     if not s:
@@ -209,6 +287,21 @@ def hint_place(text: str) -> tuple[str, str]:
     return "", ""
 
 
+_KNOWN: set = set()
+
+
+def known_countries() -> set:
+    if not _KNOWN:
+        _KNOWN.update(c for c in COUNTRY_HINTS if c not in REGION_WORDS)
+        _KNOWN.update(CITY_HINTS.values())
+        _KNOWN.update(COUNTRY_ALIASES.values())
+        _KNOWN.update(["Hong Kong", "Taiwan", "China", "Croatia", "Serbia", "Bulgaria", "Slovakia", "Slovenia", "Iceland",
+                       "Cyprus", "Malta", "Bahrain", "Kuwait", "Oman", "Jordan", "Lebanon", "Ghana", "Rwanda", "Uganda",
+                       "Ethiopia", "Bangladesh", "Sri Lanka", "Nepal", "Uruguay", "Ecuador", "Dominican Republic",
+                       "Puerto Rico", "Jamaica", "Gibraltar", "Monaco", "Georgia", "Armenia", "Kazakhstan", "Uzbekistan"])
+    return _KNOWN
+
+
 PLACEHOLDER_LOC = re.compile(r"check (the )?event page|location on listing|register to see|link visible|details to follow|\btbd\b|\btba\b|to be announced|see description", re.I)
 
 
@@ -216,7 +309,7 @@ def place(location: str, city: str = "", country: str = "") -> dict:
     """Work out city, country and metro from whatever the source gives us."""
     location = re.sub(r"\s+", " ", location or "").strip()
     if ONLINE_WORDS.search(location) or ONLINE_WORDS.search(city) or (city or "").lower() == "online":
-        return {"online": True, "city": "Online", "country": "Online", "metro": "Online"}
+        return {"online": True, "city": "Online", "country": "Online", "metro": "Online", "state": ""}
     parts = [p.strip() for p in location.split(",") if p.strip()]
     if country:
         country = norm_country(country)
@@ -229,21 +322,39 @@ def place(location: str, city: str = "", country: str = "") -> dict:
                 country = "United States"
                 break
             cleaned = re.sub(r"\b\d{3,6}(-\d{4})?\b", "", part).strip()
-            if cleaned and not re.search(r"\d", cleaned) and len(cleaned.split()) <= 4:
+            if cleaned.lower() in STATE_BY_NAME:
+                country = "United States"
+                break
+            if cleaned and not re.search(r"\d", cleaned) and norm_country(cleaned) in known_countries():
                 country = norm_country(cleaned)
                 break
+    if not country and location and not city:
+        hc, hco = hint_place(location)
+        if hc:
+            city, country = hc, hco
+        elif hco:
+            country = hco
     if not city:
         # "Venue, 123 Street, City, ST 10001, United States" -> City
-        cands = [p for p in parts if not re.search(r"\d", p) and norm_country(p) != country and p.upper() not in US_STATES]
-        city = cands[-1] if cands else ""
+        cands = [p for p in parts if not re.search(r"\d", p) and norm_country(p) != country and p.upper() not in US_STATES
+                 and p.lower() not in STATE_BY_NAME]
+        named = [p for p in cands if p.lower() in CITY_STATE or p in CITY_HINTS]
+        hc = hint_place(location)[0] if location else ""
+        city = named[-1] if named else (hc or (cands[-1] if cands else ""))
     city_name = re.split(r",", city)[0].strip()
     low = city_name.lower()
-    metro = next((m for m, names in METROS.items() if low in names or any(n == low for n in names)), city_name)
+    metro = city_name
+    if country in ("", "United States") or (country == "United Kingdom" and low == "london"):
+        metro = next((m for m, names in METROS.items() if low in names), city_name)
     if not country and metro in METROS and metro not in ("London",):
         country = "United States"
     if metro == "London" and not country:
         country = "United Kingdom"
-    return {"online": False, "city": city_name or "Location on listing", "country": country or "Unknown", "metro": metro or city_name}
+    st = find_state(location, city, country)
+    if st and not country:
+        country = "United States"
+    return {"online": False, "city": city_name or "Location on listing", "country": country or "Unknown", "metro": metro or city_name,
+            "state": st if country == "United States" else ""}
 
 
 # ---------------------------------------------------------------- shaping
@@ -308,7 +419,7 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
     if p["country"] == "Unknown" or p["city"] == "Location on listing":
         hc, hco = hint_place(f"{e['title']} {e['description'][:300]}")
         if hc or hco:
-            p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing"}
+            p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing", "state": ""}
     if (p["country"] == "Unknown" or p["city"] == "Location on listing") and src.get("home"):
         p = place("", src["home"])  # a local group's events default to its home city
     uid = e["uid"] or norm_title(e["title"])
@@ -480,14 +591,44 @@ def pull_confs_tech(cfg: dict, start: date, end: date, report: list) -> list[dic
 
 
 # ---------------------------------------------------------------- dedupe
+STOP = {"the", "and", "for", "with", "meetup", "meeting", "event", "events", "monthly", "chapter", "edition", "annual", "official",
+        "2026", "2027", "nyc", "new", "york", "online", "virtual", "in-person", "night", "session"}
+
+
+def title_tokens(t: str) -> set:
+    return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 2 and w not in STOP}
+
+
+def same_event(a: dict, b: dict) -> bool:
+    pa, pb = (a.get("metro") or ""), (b.get("metro") or "")
+    unknown = {"Location on listing", "", "Unknown"}
+    if a.get("online") != b.get("online") or not (pa == pb or pa in unknown or pb in unknown):
+        return False  # same name in two different cities is two events
+    na, nb = norm_title(a["title"]), norm_title(b["title"])
+    if na[:28] == nb[:28]:
+        return True
+    if min(len(na), len(nb)) >= 14 and (na in nb or nb in na):
+        return True
+    ta, tb = title_tokens(a["title"]), title_tokens(b["title"])
+    close = len(ta) >= 3 and len(tb) >= 3 and len(ta & tb) / len(ta | tb) >= 0.6
+    nested = min(len(ta), len(tb)) >= 2 and (ta <= tb or tb <= ta)
+    return close or nested
+
+
 def dedupe(events: list[dict]) -> list[dict]:
+    """Merge the same event listed by several sources. Keeps the most trustworthy copy."""
     rank = {"confirmed": 4, "listed": 3, "verify": 2, "recurring": 1, "cancelled": 0}
-    seen: dict[str, dict] = {}
-    for e in events:
-        key = norm_title(e["title"])[:28] + e["start"][:10]
-        if key not in seen or rank.get(e["status"], 0) > rank.get(seen[key]["status"], 0):
-            seen[key] = e
-    return list(seen.values())
+
+    def score(e):
+        return (rank.get(e["status"], 0), e.get("city") not in ("Location on listing", "", None), bool(e.get("about")), bool(e.get("tz")))
+
+    by_day: dict[str, list[dict]] = {}
+    for e in sorted(events, key=score, reverse=True):
+        day = by_day.setdefault(e["start"][:10], [])
+        if any(same_event(e, k) for k in day):
+            continue
+        day.append(e)
+    return [e for day in by_day.values() for e in day]
 
 
 # ---------------------------------------------------------------- change tracking
@@ -663,11 +804,13 @@ def main() -> int:
     for f in one_dir.glob("*.ics"):
         if f.name not in keep:
             f.unlink()
+    import pages  # per-state pages and feeds
+    state_urls = pages.build(events, STATE_NAMES, write_ics, datetime.now(UTC), ROOT / "site")
+    urls = ["https://thelineup.dev/"] + state_urls
     (ROOT / "site" / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f'  <url><loc>https://thelineup.dev/</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n'
-        '</urlset>\n')
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls)
+        + "</urlset>\n")
     ok = sum(1 for r in report if r.get("ok"))
     print(f"{payload['count']} events ({stats}). Sources ok: {ok}/{len(report)}")
     for r in report:

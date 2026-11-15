@@ -718,6 +718,352 @@
         "it"
       ],
       "home": "Sydney, Australia"
+    },
+    {
+      "slug": "HoustonSecurity",
+      "name": "Houston CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Houston, TX"
+    },
+    {
+      "slug": "austin-cybersecurity-meetup",
+      "name": "Austin Cybersecurity Professionals",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "cybersecurity",
+      "name": "San Antonio Cybersecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "San Antonio, TX"
+    },
+    {
+      "slug": "austin-cybersecurity-collective",
+      "name": "Austin Cybersecurity Collective",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "dallas-cloud-security-meetup",
+      "name": "Dallas Cloud Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dallas, TX"
+    },
+    {
+      "slug": "austin-infosec",
+      "name": "Austin DFIR",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "austinsecurity",
+      "name": "Austin CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "defcon512",
+      "name": "DC512 (DEF CON Austin)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "DallasSecurity",
+      "name": "Dallas CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dallas, TX"
+    },
+    {
+      "slug": "austin-ai-security-meetup-group",
+      "name": "Austin AI Security",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "ai-security-engineers-austin-tx",
+      "name": "AI Sec Eng Austin",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Austin, TX"
+    },
+    {
+      "slug": "aws-dallas",
+      "name": "AWS Dallas-Fort Worth",
+      "tags": [
+        "it"
+      ],
+      "home": "Dallas, TX"
+    },
+    {
+      "slug": "atlanta-it-security-networking-meetup-group",
+      "name": "Atlanta IT Security Networking",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "atlantasecurity",
+      "name": "Atlanta CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "cover6-community-atlanta",
+      "name": "Cover6 Community Atlanta",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "ethical-hackers",
+      "name": "DC404 (DEF CON Atlanta)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "blackhack-society-atlanta",
+      "name": "BlackHack Society Atlanta",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "Atlanta-AWS-User-Group",
+      "name": "AWS Atlanta",
+      "tags": [
+        "it"
+      ],
+      "home": "Atlanta, GA"
+    },
+    {
+      "slug": "raleigh-cybersecurity-meetup-group",
+      "name": "Raleigh Cybersecurity",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Raleigh, NC"
+    },
+    {
+      "slug": "charlottesecurity",
+      "name": "Charlotte CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Charlotte, NC"
+    },
+    {
+      "slug": "cyberunity",
+      "name": "CyberUnity Charlotte",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Charlotte, NC"
+    },
+    {
+      "slug": "charlotte-cyber-tavern",
+      "name": "Charlotte Cyber Tavern",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Charlotte, NC"
+    },
+    {
+      "slug": "NashSec",
+      "name": "NashSec (Nashville)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Nashville, TN"
+    },
+    {
+      "slug": "SeattleSecurity",
+      "name": "Seattle CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Seattle, WA"
+    },
+    {
+      "slug": "denver-security",
+      "name": "Denver CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Denver, CO"
+    },
+    {
+      "slug": "denver-cloud-security-meetup",
+      "name": "Denver Cloud Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Denver, CO"
+    },
+    {
+      "slug": "Denver-Cloud-Security-Alliance-Meetup",
+      "name": "CSA Denver",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Denver, CO"
+    },
+    {
+      "slug": "STL-CYBER-Meetup",
+      "name": "STL Cyber (St. Louis)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "St. Louis, MO"
+    },
+    {
+      "slug": "owasp-cleveland-group",
+      "name": "OWASP Cleveland",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Cleveland, OH"
+    },
+    {
+      "slug": "centralflcitysec",
+      "name": "Central FL CitySec (CitrusSec / CigarCitySec)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Orlando, FL"
+    },
+    {
+      "slug": "tampa-threat-analysis-meetup-group",
+      "name": "Tampa Cybersecurity Network",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tampa, FL"
+    },
+    {
+      "slug": "tampa-bay-area-cybersecurity-meetup-group",
+      "name": "Tampa Bay Cybersecurity",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tampa, FL"
+    },
+    {
+      "slug": "csnp-orlando-cybersecurity",
+      "name": "Orlando CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Orlando, FL"
+    },
+    {
+      "slug": "tampa-splunk-security-meetup",
+      "name": "Tampa Splunk Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tampa, FL"
+    },
+    {
+      "slug": "swflsec-southwest-florida-infosec-meetup",
+      "name": "SWFLSec (Fort Myers)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Fort Myers, FL"
+    },
+    {
+      "slug": "MDcybercommunity",
+      "name": "Maryland Cyber Community",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Columbia, MD"
+    },
+    {
+      "slug": "DCCISSP",
+      "name": "DC MD VA CISSP Group",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Arlington, VA"
+    },
+    {
+      "slug": "We-Protect-PHX",
+      "name": "We Protect PHX",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Phoenix, AZ"
+    },
+    {
+      "slug": "defcon617",
+      "name": "DC617 (Boston)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Boston, MA"
+    },
+    {
+      "slug": "The-Boston-Amazon-Web-Services-Meetup-Group",
+      "name": "AWS Boston",
+      "tags": [
+        "it"
+      ],
+      "home": "Boston, MA"
+    },
+    {
+      "slug": "chicagosecurity",
+      "name": "Chicago CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Chicago, IL"
+    },
+    {
+      "slug": "AWS-Chicago",
+      "name": "AWS Chicago",
+      "tags": [
+        "it"
+      ],
+      "home": "Chicago, IL"
+    },
+    {
+      "slug": "evolvesec-la-cyber-security",
+      "name": "EvolveSec LA",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Los Angeles, CA"
     }
   ],
   "luma_calendars": [
