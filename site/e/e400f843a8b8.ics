@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e400f843a8b8@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261210
+SUMMARY:Gartner Identity & Access Management Summit
+LOCATION:Caesars Forum\, Las Vegas\, United States
+DESCRIPTION:Identity governance and securing AI agent identities. https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+STATUS:CONFIRMED
+URL:https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

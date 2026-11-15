@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:91a659f5ea11@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270220
+SUMMARY:Wild West Hackin' Fest @ Mile High
+LOCATION:Sheraton Denver Downtown\, Denver\, United States
+DESCRIPTION:Community-first\, open-source tools\, hands-on. https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
+STATUS:CONFIRMED
+URL:https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

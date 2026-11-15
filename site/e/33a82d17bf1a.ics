@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:33a82d17bf1a@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261117T130000Z
+DTEND:20261117T230000Z
+SUMMARY:The 18th Edition of the New York Official Cybersecurity Summit
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:OWASP New York City Chapter **“In Honor of Security Awareness Month and The 18th Edition of the New York Official Cybersecurity Summit** ***OWASP NYC Chapter is offering exclusive Complimentary Admission for our network! https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

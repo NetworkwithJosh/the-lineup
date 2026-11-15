@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0f92984fb7d9@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261118T180000Z
+DTEND:20261118T210000Z
+SUMMARY:AI and Biotech Happy Hour @ London Life Sciences Week
+LOCATION:Check event page for more details.\, London\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/504n8w32 Address: Check event page for more details. Hosted by Kevin Barona https://luma.com/event/evt-3CE10EwUHDDgkbM
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-3CE10EwUHDDgkbM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

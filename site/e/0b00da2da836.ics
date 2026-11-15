@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0b00da2da836@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261124T130000Z
+DTEND:20261124T140000Z
+SUMMARY:Webinar | From Design to Deploy — Continuous Security with AWS Security Agent
+LOCATION:Online
+DESCRIPTION:As organizations struggle with manual penetration testing\, code review bottlenecks\, and outdated threat models\, the AWS Security Agent changes the equation by proactively securing applications from design through deploym https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

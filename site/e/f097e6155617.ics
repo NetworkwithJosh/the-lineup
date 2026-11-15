@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f097e6155617@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261215T160000Z
+DTEND:20261215T180000Z
+SUMMARY:Microsoft workshop: Defender for Cloud posture management
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, United States
+DESCRIPTION:Cloud security posture management in Azure. https://developer.microsoft.com/en-us/reactor/
+STATUS:CONFIRMED
+URL:https://developer.microsoft.com/en-us/reactor/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:57f79865cca5@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:WiCyS Eastern Canada Affliate | BSides Ottawa 2026
+LOCATION:Ottawa Conference and Event Centre\, Ontario\, Canada
+DESCRIPTION:WiCyS Eastern Canada is proud to be an official Community Partner of BSides Ottawa 2026! Join Ottawa’s cybersecurity community for two days of technical talks\, hands-on activities\, workshops\, challenges\, and networking o https://www.wicys.org/event/wicys-eastern-canada-affliate-bsides-ottawa-2026/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-eastern-canada-affliate-bsides-ottawa-2026/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

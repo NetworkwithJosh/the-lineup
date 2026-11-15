@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:559214e24beb@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261119T130000Z
+DTEND:20261119T140000Z
+SUMMARY:Webinar | CyberPhysical CyberSecurity
+LOCATION:Online
+DESCRIPTION:In this WiCyS webinar\, Ford Motor Company will do a deep dive into the cyber physical realm\, discussing what it means to secure the physical environment against cyber threats. WiCyS is proud to provide members the opport https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

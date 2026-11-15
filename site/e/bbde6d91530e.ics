@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bbde6d91530e@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261209T163000Z
+DTEND:20261209T173000Z
+SUMMARY:WiCyS UKI | BlackHat(HER) Executive Reception
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:An exclusive gathering for senior women leaders across cybersecurity\, technology\, government\, and critical infrastructure. Connect with CISOs\, executives\, founders\, and decision-makers in an intimate setting designed for https://www.wicys.org/event/wicys-uki-blackhather-executive-reception/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhather-executive-reception/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

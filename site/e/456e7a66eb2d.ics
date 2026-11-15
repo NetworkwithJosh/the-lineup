@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:456e7a66eb2d@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261229T230000Z
+DTEND:20261230T020000Z
+SUMMARY:Brooklyn NYSEC
+LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, United States
+DESCRIPTION:The Brooklyn edition of NYSEC\, only on fifth Tuesdays. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
+URL:https://securitycalendar.com/jersey-city-nj.html
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

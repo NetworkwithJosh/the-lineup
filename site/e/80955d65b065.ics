@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:80955d65b065@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270311
+SUMMARY:Annual Global Summit on Artificial Intelligence and Machine Learning
+LOCATION:Barcelona\, Barcelona\, Spain
+DESCRIPTION:https://vividglobalsummits.com/2027/artificial-intelligence
+STATUS:CONFIRMED
+URL:https://vividglobalsummits.com/2027/artificial-intelligence
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

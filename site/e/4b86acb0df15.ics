@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4b86acb0df15@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261210T160000Z
+DTEND:20261210T170000Z
+SUMMARY:United States Threat Landscape 2027
+LOCATION:Location on listing\, Location on listing\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/USthreatintelcloudsek Hosted by Team CloudSEK https://luma.com/event/evt-BGJornbgXQAb2FS
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-BGJornbgXQAb2FS
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

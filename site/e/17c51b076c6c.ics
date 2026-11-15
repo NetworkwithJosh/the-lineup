@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:17c51b076c6c@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261201T130000Z
+DTEND:20261201T140000Z
+SUMMARY:Webinar | When Cyber Gets Physical: An Introduction to OT Cybersecurity
+LOCATION:Online
+DESCRIPTION:Cybersecurity doesn’t stop at laptops\, servers\, and data. It extends into the physical world. Operational Technology (OT) powers the systems and processes behind manufacturing\, energy\, transportation\, and other critical  https://www.wicys.org/event/webinar-when-cyber-gets-physical-an-introduction-to-ot-cybersecurity/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-when-cyber-gets-physical-an-introduction-to-ot-cybersecurity/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

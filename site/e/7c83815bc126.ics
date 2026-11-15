@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7c83815bc126@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261203T150000Z
+DTEND:20261203T170000Z
+SUMMARY:Microsoft workshop: Data Security with Purview
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, United States
+DESCRIPTION:Data classification\, DLP and compliance with Purview. https://developer.microsoft.com/en-us/reactor/
+STATUS:CONFIRMED
+URL:https://developer.microsoft.com/en-us/reactor/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

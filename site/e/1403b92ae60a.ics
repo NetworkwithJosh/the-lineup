@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1403b92ae60a@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261127T180000Z
+DTEND:20261127T190000Z
+SUMMARY:Cybersecurity Workshop Essentials
+LOCATION:Online
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/593131 Source: https://events.vtools.ieee.org/m/593131 https://events.vtools.ieee.org/m/593131
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/593131
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

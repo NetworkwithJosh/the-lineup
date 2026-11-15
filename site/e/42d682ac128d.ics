@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:42d682ac128d@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261211
+SUMMARY:The AI Summit New York
+LOCATION:Javits Center\, 429 11th Ave\, Manhattan\, United States
+DESCRIPTION:Enterprise AI conference. Day 1 8am to 6pm\, Day 2 8am to 5pm. https://newyork.theaisummit.com/experience/travel-accommodation/
+STATUS:CONFIRMED
+URL:https://newyork.theaisummit.com/experience/travel-accommodation/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

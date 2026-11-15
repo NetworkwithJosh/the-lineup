@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:15551dca0682@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270220
+SUMMARY:Zero Trust World 2027
+LOCATION:Orlando\, FL\, Orlando\, United States
+DESCRIPTION:Hands-on zero trust labs\, hosted by ThreatLocker. https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+STATUS:CONFIRMED
+URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

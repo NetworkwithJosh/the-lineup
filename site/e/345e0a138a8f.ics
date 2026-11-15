@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:345e0a138a8f@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261211T130000Z
+DTEND:20261211T230000Z
+SUMMARY:BSides Philadelphia
+LOCATION:Live! Casino & Hotel\, 900 Packer Ave\, Philadelphia\, United States
+DESCRIPTION:Community security conference. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
+URL:https://securitycalendar.com/jersey-city-nj.html
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:416e4d267020@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261210T143000Z
+DTEND:20261210T153000Z
+SUMMARY:WiCyS UKI | BlackHat(HER) Mentorship Program
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:Join BlackHat (HER) and WiCyS UKI for the inaugural mentorship event that connects emerging leaders with senior women executives through small-group rotational sessions. Engage with new mentors\, gain career insights\, and https://www.wicys.org/event/wicys-uki-blackhather-mentorship-program/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhather-mentorship-program/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

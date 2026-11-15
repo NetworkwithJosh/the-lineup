@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a2bef211ac66@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261117T130000Z
+DTEND:20261117T224500Z
+SUMMARY:The Official Cybersecurity Summit: New York
+LOCATION:Sheraton New York Times Square\, 811 7th Ave\, Manhattan\, United States
+DESCRIPTION:One-day executive summit. AI and automation risk\, resilience. https://cybersecuritysummit.com/summit/new-york/
+STATUS:CONFIRMED
+URL:https://cybersecuritysummit.com/summit/new-york/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

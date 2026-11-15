@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7bed77d9804b@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:1
+DTSTART:20261202T130000Z
+DTEND:20261202T140000Z
+SUMMARY:Webinar | Post-Quantum Migration in Practice: Assessing Readiness and Planning Strategically
+LOCATION:Online
+DESCRIPTION:As the transition to post-quantum cryptography (PQC) gains momentum\, organizations face a critical challenge: moving beyond initial preparation to make informed decisions about migration strategy\, technology readiness\, a https://www.wicys.org/event/webinar-post-quantum-migration-in-practice-assessing-readiness-and-planning-strategically/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-post-quantum-migration-in-practice-assessing-readiness-and-planning-strategically/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

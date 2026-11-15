@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa0cfb696a00@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20270406T220000Z
+DTEND:20270407T003000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

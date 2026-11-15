@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:94b71d483531@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261205
+SUMMARY:AWS re:Invent 2026
+LOCATION:Venetian\, Caesars Forum\, MGM\, Wynn\, Las Vegas\, United States
+DESCRIPTION:Cloud and agentic AI. Anthropic and OpenAI are listed sponsors. https://web.govevents.com/details/98147/aws-reinvent-2026
+STATUS:CONFIRMED
+URL:https://web.govevents.com/details/98147/aws-reinvent-2026
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

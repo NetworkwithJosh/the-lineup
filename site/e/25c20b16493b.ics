@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:25c20b16493b@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270213
+SUMMARY:Munich Cyber Security Conference 2027
+LOCATION:Chamber of Commerce (IHK)\, Munich\, Germany
+DESCRIPTION:Senior-leader cyber policy forum. https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
+STATUS:CONFIRMED
+URL:https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

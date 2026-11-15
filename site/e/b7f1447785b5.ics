@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b7f1447785b5@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:WiCyS | Executive Leaders Network
+LOCATION:Online
+DESCRIPTION:The Executive Leaders Network brings together top cybersecurity leaders to share insights\, solve challenges\, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-12-17/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-12-17/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:160d744b97c5@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261119T133000Z
+DTEND:20261119T200000Z
+SUMMARY:NY AI Security & Data Protection Summit
+LOCATION:Likely Conrad New York Downtown\, Manhattan\, United States
+DESCRIPTION:AI data flows\, compliance\, breach response\, third-party risk. One listing says Nov 17\, so confirm. https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
+STATUS:CONFIRMED
+URL:https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

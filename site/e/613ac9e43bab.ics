@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:613ac9e43bab@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261204
+SUMMARY:Black Hat MEA 2026
+LOCATION:Riyadh Exhibition & Convention Center\, Malham\, Riyadh\, Saudi Arabia
+DESCRIPTION:Briefings\, trainings\, exhibition and a large CTF. https://blackhatmea.com/about-us
+STATUS:CONFIRMED
+URL:https://blackhatmea.com/about-us
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

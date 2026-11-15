@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e4beb3abcb5@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261208T173000Z
+DTEND:20261208T213000Z
+SUMMARY:CISO Strategy Salon - London
+LOCATION:estiatorio Milos\, estiatorio Milos\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/4goilkdv Address: estiatorio Milos London\, United Kingdom Hosted by Alchemy Cyber & Jessica Churchill https://luma.com/alchemycyber
+STATUS:CONFIRMED
+URL:https://luma.com/alchemycyber
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

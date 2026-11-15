@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:860466f8789e@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261209T130000Z
+DTEND:20261209T220000Z
+SUMMARY:3rd IEEE Summit on Applied AI for Bioinformatics and Cybersecurity (ABC)
+LOCATION:Online
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/575832 Source: https://events.vtools.ieee.org/m/575832 https://events.vtools.ieee.org/m/575832
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/575832
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

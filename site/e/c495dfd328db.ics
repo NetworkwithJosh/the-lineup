@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c495dfd328db@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20261201T190000Z
+DTEND:20261202T130000Z
+SUMMARY:WiCyS Professional Affiliate Leaders Only Meeting
+LOCATION:Online
+DESCRIPTION:WiCyS Professional Affiliate Leaders-Only Meeting: We are all Stronger Together. As WiCyS professional affiliates trailblaze through their regional\, specialty\, or corporate affiliate programs\, we collectively meet monthl https://www.wicys.org/event/wicys-professional-affiliate-leaders-only-meeting-9/2026-12-01/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-professional-affiliate-leaders-only-meeting-9/2026-12-01/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

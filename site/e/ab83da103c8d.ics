@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ab83da103c8d@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Cybersecurity Summit: Implications of AI (virtual)
+LOCATION:Online
+DESCRIPTION:AI governance and AI threats for security leaders. https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
+STATUS:CONFIRMED
+URL:https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

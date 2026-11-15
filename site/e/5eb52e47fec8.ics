@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5eb52e47fec8@the-lineup
+DTSTAMP:20261115T175606Z
+SEQUENCE:0
+DTSTART:20270223T130000Z
+DTEND:20270223T230000Z
+SUMMARY:The Official Cybersecurity Summit: New York (spring)
+LOCATION:Sheraton New York Times Square\, Manhattan\, United States
+DESCRIPTION:Spring edition of the one-day executive summit. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
+URL:https://securitycalendar.com/jersey-city-nj.html
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
