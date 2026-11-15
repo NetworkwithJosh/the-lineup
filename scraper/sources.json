@@ -2,24 +2,6 @@
   "_note": "Every feed the scraper pulls each run. A dead feed is skipped and its events are kept as they were (never marked cancelled) until it works again. Tags: cyber, ai, it. require_keywords=true means only events that mention cyber, AI or IT words are kept (for mixed calendars).",
   "ics_urls": [
     {
-      "name": "Black Hills Infosec events",
-      "url": "https://www.blackhillsinfosec.com/events/list/?ical=1",
-      "page": "https://www.blackhillsinfosec.com/events/",
-      "tags": [
-        "cyber"
-      ],
-      "require_keywords": true
-    },
-    {
-      "name": "Black Hills Infosec conferences",
-      "url": "https://www.blackhillsinfosec.com/events/category/conference/?ical=1",
-      "page": "https://www.blackhillsinfosec.com/events/",
-      "tags": [
-        "cyber"
-      ],
-      "require_keywords": true
-    },
-    {
       "name": "WiCyS events",
       "url": "https://www.wicys.org/events/list/?ical=1",
       "page": "https://www.wicys.org/events/",
@@ -100,14 +82,16 @@
       "name": "OWASP NYC",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "NY-Enterprise-Information-Security-Meetup",
       "name": "NY Enterprise Information Security",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "defcon212",
@@ -121,14 +105,16 @@
       "name": "New York AI Forum",
       "tags": [
         "ai"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "nyc-applied-ai-builders",
       "name": "NYC Applied AI Builders",
       "tags": [
         "ai"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "cybersecurity-ai-pros",
@@ -151,49 +137,40 @@
       "name": "CyberMorris (NJ)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Morristown, NJ"
     },
     {
       "slug": "jersey-shore-cyber-collective",
       "name": "Jersey Shore Cyber Collective",
       "tags": [
         "cyber"
-      ]
-    },
-    {
-      "slug": "DEFCON201",
-      "name": "DC201 (DEF CON NJ)",
-      "tags": [
-        "cyber"
-      ]
+      ],
+      "home": "Red Bank, NJ"
     },
     {
       "slug": "newark-cyber-security-for-control-systems",
       "name": "Newark OT/ICS Security",
       "tags": [
         "cyber"
-      ]
-    },
-    {
-      "slug": "nyc-cybersecurity-meetup-group",
-      "name": "NYC Cybersecurity Meetup",
-      "tags": [
-        "cyber"
-      ]
+      ],
+      "home": "Newark, NJ"
     },
     {
       "slug": "cybersecurity-careers",
       "name": "Cybersecurity Careers",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "Women-in-Cybersecurity-Information-Security-New-York",
       "name": "Women's Society of Cyberjutsu NY",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "ai-security-engineers-nyc",
@@ -201,14 +178,16 @@
       "tags": [
         "cyber",
         "ai"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "aittg-nyc",
       "name": "AICamp NYC",
       "tags": [
         "ai"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "big-data",
@@ -216,21 +195,8 @@
       "tags": [
         "ai"
       ],
-      "require_keywords": true
-    },
-    {
-      "slug": "nyc-ai-salon",
-      "name": "AI Salon NYC",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "slug": "new-york-ai-and-llm-meetup-group",
-      "name": "New York AI and LLM",
-      "tags": [
-        "ai"
-      ]
+      "require_keywords": true,
+      "home": "New York, NY"
     },
     {
       "slug": "microsoft-reactor-new-york",
@@ -245,161 +211,152 @@
       "name": "AWS New York",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "AzureNYC",
       "name": "Azure NYC",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "nycdevops",
       "name": "NYC DevOps",
       "tags": [
         "it"
-      ]
-    },
-    {
-      "slug": "metro-nyc-it-meetup-group",
-      "name": "IT Professionals in Metro NYC",
-      "tags": [
-        "it"
-      ]
+      ],
+      "home": "New York, NY"
     },
     {
       "slug": "nj-help-desk-it-support-networking",
       "name": "NJ IT Support Professionals",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "Newark, NJ"
     },
     {
       "slug": "new-jersey-business-and-tech-meetup",
       "name": "NJ Business and Tech",
       "tags": [
         "it"
-      ]
-    },
-    {
-      "slug": "LOPSA-NJ",
-      "name": "LOPSA New Jersey (sysadmins)",
-      "tags": [
-        "it"
-      ]
+      ],
+      "home": "Iselin, NJ"
     },
     {
       "slug": "NorthernNJRHUG",
       "name": "New Jersey Red Hat Users",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "Iselin, NJ"
     },
     {
       "slug": "DevOpsandAutomationNJ",
       "name": "DevOps and Automation NJ",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "Clifton, NJ"
     },
     {
       "slug": "NJAzureUserGroup",
       "name": "NJ Azure User Group",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "Iselin, NJ"
     },
     {
       "slug": "dc_215",
       "name": "DC215 (DEF CON Philly)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Philadelphia, PA"
     },
     {
       "slug": "SecShell",
       "name": "Philly Security Shell",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Philadelphia, PA"
     },
     {
       "slug": "DEFCON610",
       "name": "DC610 (Easton PA)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Easton, PA"
     },
     {
       "slug": "owasp-philadelphia-chapter",
       "name": "OWASP Philadelphia",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Philadelphia, PA"
     },
     {
       "slug": "women-in-cybersecurity-cyberjutsu-philly",
       "name": "Cyberjutsu Philly",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Philadelphia, PA"
     },
     {
       "slug": "the-boston-security-meetup",
       "name": "Boston Security Meetup",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Cambridge, MA"
     },
     {
       "slug": "boston-security-group",
       "name": "Boston Security Group",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Boston, MA"
     },
     {
       "slug": "OWASPBoston",
       "name": "OWASP Boston",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Boston, MA"
     },
     {
       "slug": "burbsec",
       "name": "BurbSec (Chicago)",
       "tags": [
         "cyber"
-      ]
-    },
-    {
-      "slug": "information-systems-security-association-national-capital",
-      "name": "ISSA National Capital (DC)",
-      "tags": [
-        "cyber"
-      ]
-    },
-    {
-      "slug": "Cloud-Security-Alliance-Washington-DC-Metro-Area-Meetup",
-      "name": "CSA DC Metro",
-      "tags": [
-        "cyber"
-      ]
+      ],
+      "home": "Chicago, IL"
     },
     {
       "slug": "issa-hampton-roads",
       "name": "ISSA Hampton Roads",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Virginia Beach, VA"
     },
     {
       "slug": "bay-area-owasp",
       "name": "Bay Area OWASP",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "San Francisco, CA"
     },
     {
       "slug": "aiseceng-san-francisco-bay-area",
@@ -407,7 +364,8 @@
       "tags": [
         "cyber",
         "ai"
-      ]
+      ],
+      "home": "San Francisco, CA"
     },
     {
       "slug": "bay-area-ai-security-research",
@@ -415,7 +373,8 @@
       "tags": [
         "cyber",
         "ai"
-      ]
+      ],
+      "home": "San Francisco, CA"
     },
     {
       "slug": "ai-sec",
@@ -430,105 +389,120 @@
       "name": "DevSecCon SF Bay Area",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "San Francisco, CA"
     },
     {
       "slug": "women-in-security-silicon-valley",
       "name": "Women in Security Silicon Valley",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "San Jose, CA"
     },
     {
       "slug": "issa-la",
       "name": "ISSA Los Angeles",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Los Angeles, CA"
     },
     {
       "slug": "lasc-csa",
       "name": "CSA Southern California",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Los Angeles, CA"
     },
     {
       "slug": "South-Florida-ISSA-Chapter",
       "name": "South Florida ISSA",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Fort Lauderdale, FL"
     },
     {
       "slug": "CSAHoustonChapter",
       "name": "CSA Houston",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Houston, TX"
     },
     {
       "slug": "cloud-security-alliance-seattle-chapter",
       "name": "CSA Seattle",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Seattle, WA"
     },
     {
       "slug": "cloud-security-alliance-las-vegas",
       "name": "CSA Las Vegas",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Las Vegas, NV"
     },
     {
       "slug": "cloud-security-alliance-triangle-chapter",
       "name": "CSA Triangle (NC)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Raleigh, NC"
     },
     {
       "slug": "owasp-denver-chapter",
       "name": "OWASP Denver",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Denver, CO"
     },
     {
       "slug": "owasp-msp-meetup",
       "name": "OWASP Twin Cities",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Minneapolis, MN"
     },
     {
       "slug": "spacecoastsec",
       "name": "Space Coast Sec (FL)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Melbourne, FL"
     },
     {
       "slug": "dc214dfw",
       "name": "DC214 (Dallas)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Dallas, TX"
     },
     {
       "slug": "dc608madison",
       "name": "DCG Madison",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Madison, WI"
     },
     {
       "slug": "WiCyS-North-Carolina-Affiliate",
       "name": "WiCyS North Carolina",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Raleigh, NC"
     },
     {
       "slug": "womenincybersecurity",
@@ -542,7 +516,8 @@
       "name": "Women in Cybersecurity Houston",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Houston, TX"
     },
     {
       "slug": "ai-security-collective",
@@ -555,20 +530,6 @@
     {
       "slug": "free-cyber-security-training",
       "name": "Free Cyber Security Training",
-      "tags": [
-        "cyber"
-      ]
-    },
-    {
-      "slug": "cybersecurity-how-to-break-in-and-progress-in-it",
-      "name": "Breaking Into Cybersecurity",
-      "tags": [
-        "cyber"
-      ]
-    },
-    {
-      "slug": "modern-cybersecurity",
-      "name": "Modern CyberSecurity",
       "tags": [
         "cyber"
       ]
@@ -588,18 +549,12 @@
       ]
     },
     {
-      "slug": "toronto-cybersecurity-meetup-group",
-      "name": "Toronto Cybersecurity Happy Hour",
-      "tags": [
-        "cyber"
-      ]
-    },
-    {
       "slug": "Cyber-Ladies-Toronto",
       "name": "Leading Cyber Ladies Toronto",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Toronto, Canada"
     },
     {
       "slug": "taico-toronto-artificial-intelligence-and-cybersecurity-org",
@@ -607,77 +562,80 @@
       "tags": [
         "cyber",
         "ai"
-      ]
+      ],
+      "home": "Toronto, Canada"
     },
     {
       "slug": "Toronto-Cyber-Security-for-Control-Systems",
       "name": "Toronto OT/ICS Security",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Toronto, Canada"
     },
     {
       "slug": "northtorontoug",
       "name": "North Toronto Cloud & DevOps",
       "tags": [
         "it"
-      ]
+      ],
+      "home": "Toronto, Canada"
     },
     {
       "slug": "sectalks-london",
       "name": "SecTalks London",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "London, United Kingdom"
     },
     {
       "slug": "cloud-security-london",
       "name": "Cloud Security London",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "London, United Kingdom"
     },
     {
       "slug": "london-security-engineering-group",
       "name": "London Security Engineering",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "London, United Kingdom"
     },
     {
       "slug": "OWASP-London",
       "name": "OWASP London",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "London, United Kingdom"
     },
     {
       "slug": "OWASP-Cambridge-Meetup",
       "name": "OWASP Cambridge",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Cambridge, United Kingdom"
     },
     {
       "slug": "wiccaNL",
       "name": "WICCA (Netherlands)",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Amsterdam, Netherlands"
     },
     {
       "slug": "women4cybernl",
       "name": "Women4Cyber Netherlands",
       "tags": [
         "cyber"
-      ]
-    },
-    {
-      "slug": "women4cyber_sweden",
-      "name": "Women4Cyber Sweden",
-      "tags": [
-        "cyber"
-      ]
+      ],
+      "home": "Amsterdam, Netherlands"
     },
     {
       "slug": "ai-guardians-dutch-chapter",
@@ -685,63 +643,72 @@
       "tags": [
         "cyber",
         "ai"
-      ]
+      ],
+      "home": "Amsterdam, Netherlands"
     },
     {
       "slug": "cloud-security-alliance-csa-luxembourg-chapter",
       "name": "CSA Luxembourg",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Luxembourg, Luxembourg"
     },
     {
       "slug": "Information-Systems-Security-Assn-Brussels-EU-Chapter",
       "name": "ISSA Brussels",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Brussels, Belgium"
     },
     {
       "slug": "div0_sg",
       "name": "Div0 Singapore",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Singapore, Singapore"
     },
     {
       "slug": "owasp-new-zealand-chapter-auckland",
       "name": "OWASP New Zealand",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Auckland, New Zealand"
     },
     {
       "slug": "Application-Security-OWASP-Melbourne",
       "name": "OWASP Melbourne",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Melbourne, Australia"
     },
     {
       "slug": "brisbane-owasp-meetup-group",
       "name": "OWASP Brisbane",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Brisbane, Australia"
     },
     {
       "slug": "cyberconsultingroom",
       "name": "Cyber Consulting Room Sydney",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Sydney, Australia"
     },
     {
       "slug": "Cyber-Risk-in-Sydney",
       "name": "Cyber Risk in Sydney",
       "tags": [
         "cyber"
-      ]
+      ],
+      "home": "Sydney, Australia"
     },
     {
       "slug": "sydney-aws-devsecops",
@@ -749,7 +716,8 @@
       "tags": [
         "cyber",
         "it"
-      ]
+      ],
+      "home": "Sydney, Australia"
     }
   ],
   "luma_calendars": [
