@@ -1,8 +1,54 @@
 {
- "generatedAt": "2026-11-15T11:34-05:00",
+ "generatedAt": "2026-11-15T11:49-05:00",
  "windowDays": 150,
- "count": 44,
- "sources": [],
+ "count": 45,
+ "sources": [
+  {
+   "source": "OWASP NYC",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "NY Enterprise Information Security",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "DC212 (DEF CON NYC)",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "Empire Hacking",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "New York AI Forum",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "NYC Applied AI Builders",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Claude Community Events",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Cycore Secure",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "CloudSEK Events",
+   "ok": true,
+   "events": 0
+  }
+ ],
  "events": [
   {
    "title": "Microsoft Ignite 2026",
@@ -46,6 +92,27 @@
    "source": "Checked by hand",
    "status": "confirmed",
    "id": "a66ab533c1b0"
+  },
+  {
+   "id": "f2c5e7434dbe",
+   "title": "The 18th Edition of the New York Official Cybersecurity Summit",
+   "start": "2026-11-17T08:00-05:00",
+   "end": "2026-11-17T18:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "city": "",
+   "region": "local",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/",
+   "about": "OWASP New York City Chapter **“In Honor of Security Awareness Month and The 18th Edition of the New York Official Cybersecurity Summit** ***OWASP NYC Chapter is offering exclusive Complimentary Admission for our network!",
+   "source": "OWASP NYC",
+   "status": "listed"
   },
   {
    "id": "6fd98138bb2b",
