@@ -1,13 +1,11 @@
 {
- "generatedAt": "2026-11-15T18:41-05:00",
+ "generatedAt": "2026-11-15T18:46-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
  "count": 364,
  "changes": {
-  "new": 0,
-  "updated": 0,
-  "cancelled": 0
+  "cancelled": 4
  },
  "sources": [
   {
@@ -536,11 +534,6 @@
    "events": 0
   },
   {
-   "source": "Charlotte Cyber Tavern",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "source": "NashSec (Nashville)",
    "ok": true,
    "events": 4
@@ -554,11 +547,6 @@
    "source": "Denver CyberSecurity (CSNP)",
    "ok": true,
    "events": 0
-  },
-  {
-   "source": "Denver Cloud Security",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
   },
   {
    "source": "CSA Denver",
@@ -581,11 +569,6 @@
    "events": 7
   },
   {
-   "source": "Tampa Cybersecurity Network",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "source": "Tampa Bay Cybersecurity",
    "ok": true,
    "events": 0
@@ -604,11 +587,6 @@
    "source": "SWFLSec (Fort Myers)",
    "ok": true,
    "events": 0
-  },
-  {
-   "source": "Maryland Cyber Community",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
   },
   {
    "source": "DC MD VA CISSP Group",
