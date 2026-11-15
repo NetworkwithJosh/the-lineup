@@ -1,28 +1,32 @@
 {
- "generatedAt": "2026-11-15T12:04-05:00",
+ "generatedAt": "2026-11-15T12:05-05:00",
  "baselineAt": "2026-11-15T12:04-05:00",
  "windowDays": 180,
- "count": 130,
+ "count": 125,
  "changes": {
-  "new": 0,
-  "updated": 0,
-  "cancelled": 0
+  "updated": 15,
+  "cancelled": 7
  },
  "sources": [
   {
-   "source": "Black Hills Infosec conference calendar",
+   "source": "Black Hills Infosec events",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "Black Hills Infosec conferences",
    "ok": false,
    "error": "HTTP Error 404: Not Found"
   },
   {
    "source": "WiCyS events",
    "ok": true,
-   "events": 30
+   "events": 29
   },
   {
    "source": "OpenSSF events",
    "ok": true,
-   "events": 2
+   "events": 1
   },
   {
    "source": "Cybersecurity conference calendar (Smart Calendars)",
@@ -72,7 +76,7 @@
   {
    "source": "Claude Community Events",
    "ok": true,
-   "events": 3
+   "events": 0
   },
   {
    "source": "Cycore Secure",
@@ -117,60 +121,6 @@
  ],
  "events": [
   {
-   "id": "d5f7d2973c96",
-   "title": "ChiBrrCon 2027: Renaissance CFP Now Open",
-   "start": "2026-09-27",
-   "end": "2026-11-30",
-   "allDay": true,
-   "tz": null,
-   "venue": "Online",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "format": "Online",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Conference",
-   "url": "https://www.wicys.org/event/chibrrcon-2027-renaissance-cfp-now-open/",
-   "about": "New ideas, new technologies, new ways of seeing—and a whole lot of uncertainty. It’s remembered as an age of enlightenment. But imagine living through it. The world was changing faster than people could understand or ada",
-   "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "8eecbfeb9405",
-   "title": "CFP OPEN FOSDEM 2027: Beyond the CRA – Building Secure and Resilient Open Source",
-   "start": "2026-11-05",
-   "end": "2026-11-30",
-   "allDay": true,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Conference",
-   "url": "https://openssf.org/event/fosdem-2027-beyond-the-cra-building-secure-and-resilient-open-source/",
-   "about": "Last edition, the CRA in Practice DevRoom at FOSDEM 2026 brought together developers, maintainers, stewards, manufacturers, security practitioners, policymakers, and standards contributors to move the conversation around",
-   "source": "OpenSSF events",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
    "id": "2d3e545ec56b",
    "title": "CSTAM 3.0: Tunisia’s Bridge to the Global Tech World [CANCELLED]",
    "start": "2026-11-14T10:00+00:00",
@@ -194,7 +144,8 @@
    "status": "cancelled",
    "cancelReason": "Cancelled by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 0,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "e468f4451783",
@@ -281,7 +232,7 @@
    "venue": "London",
    "online": false,
    "city": "London",
-   "country": "U.K",
+   "country": "United Kingdom",
    "metro": "London",
    "format": "In person + online",
    "cost": "Check listing",
@@ -357,9 +308,9 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -406,12 +357,12 @@
    "end": "2026-11-17T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -424,7 +375,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "a1722b4fc33e",
@@ -526,7 +481,8 @@
    "status": "cancelled",
    "cancelReason": "Cancelled by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 0,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "f689362259e5",
@@ -535,12 +491,12 @@
    "end": "2026-11-18T15:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -552,7 +508,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "ca9245538aa6",
@@ -587,11 +547,11 @@
    "end": "2026-11-18T21:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-3CE10EwUHDDgkbM",
+   "venue": "Check event page for more details.",
    "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "city": "London",
+   "country": "United Kingdom",
+   "metro": "London",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -599,13 +559,17 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/cycore-secure",
+   "url": "https://luma.com/event/evt-3CE10EwUHDDgkbM",
    "about": "Get up-to-date information at: https://luma.com/504n8w32 Address: Check event page for more details. Hosted by Kevin Barona",
    "source": "Cycore Secure",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Check event page for more details."
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "bb7c4e9c99af",
@@ -640,24 +604,28 @@
    "end": "2026-11-19T03:30+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-YBY9TdrVdZvX4nQ",
+   "venue": "Check event page for more details.",
    "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/alchemycyber",
+   "url": "https://luma.com/event/evt-YBY9TdrVdZvX4nQ",
    "about": "Get up-to-date information at: https://luma.com/1zlmfg4i Address: Check event page for more details. Hosted by Alchemy Cyber, Pavan Kushwaha & Team Threatcop",
    "source": "Alchemy Cyber",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Check event page for more details."
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "57f79865cca5",
@@ -795,12 +763,12 @@
    "end": "2026-11-19T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -812,7 +780,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "75bfed4dded6",
@@ -898,24 +870,28 @@
    "end": "2026-11-20T03:30+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-iYDmzHo4xHtyHNk",
+   "venue": "Check event page for more details.",
    "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/alchemycyber",
+   "url": "https://luma.com/event/evt-iYDmzHo4xHtyHNk",
    "about": "Get up-to-date information at: https://luma.com/h310rny8 Address: Check event page for more details. Hosted by Alchemy Cyber & Or Meshulam",
    "source": "Alchemy Cyber",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Check event page for more details."
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "2c00542b0b4f",
@@ -966,11 +942,12 @@
    "status": "cancelled",
    "cancelReason": "Cancelled by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 0,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "b22b3c5f6fb2",
-   "title": "OWASP AppSec Days India 2026 — Conference Dates",
+   "title": "OWASP AppSec Days India 2026",
    "start": "2026-11-21",
    "end": "2026-11-22",
    "allDay": true,
@@ -978,8 +955,8 @@
    "venue": "Location on listing",
    "online": false,
    "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "country": "India",
+   "metro": "Location on listing",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -1041,10 +1018,11 @@
    "url": "https://luma.com/claude",
    "about": "Get up-to-date information at: https://luma.com/995 Hosted by Cactro | India’s Fairest Technical Test",
    "source": "Claude Community Events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "0b00da2da836",
@@ -1053,12 +1031,12 @@
    "end": "2026-11-24T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -1071,7 +1049,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "ab85e704ac73",
@@ -1094,10 +1076,11 @@
    "url": "https://luma.com/claude",
    "about": "Get up-to-date information at: https://luma.com/ask-swap Hosted by Cactro | India’s Fairest Technical Test",
    "source": "Claude Community Events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "947a9c088b7e",
@@ -1109,7 +1092,7 @@
    "venue": "London",
    "online": false,
    "city": "London",
-   "country": "U.K",
+   "country": "United Kingdom",
    "metro": "London",
    "format": "In person",
    "cost": "Check listing",
@@ -1126,7 +1109,7 @@
   },
   {
    "id": "d964ab467f2e",
-   "title": "OWASP BeNeLux 2026 — Conference Dates",
+   "title": "OWASP BeNeLux 2026",
    "start": "2026-11-26",
    "end": "2026-11-27",
    "allDay": true,
@@ -1160,8 +1143,8 @@
    "venue": "MN",
    "online": false,
    "city": "Location on listing",
-   "country": "United States",
-   "metro": "",
+   "country": "Nigeria",
+   "metro": "Location on listing",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -1248,10 +1231,11 @@
    "url": "https://luma.com/claude",
    "about": "Get up-to-date information at: https://luma.com/9-9-6 Hosted by Cactro | India’s Fairest Technical Test",
    "source": "Claude Community Events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "title": "AWS re:Invent 2026",
@@ -1361,12 +1345,12 @@
    "end": "2026-12-01T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -1378,7 +1362,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "0d336f19bb9d",
@@ -1404,7 +1392,8 @@
    "status": "cancelled",
    "cancelReason": "Cancelled by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 0,
+   "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "f8601a75ea38",
@@ -1465,24 +1454,28 @@
    "end": "2026-12-02T05:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-TJBoc37gxop6DiF",
+   "venue": "Check event page for more details.",
    "online": false,
-   "city": "Location on listing",
+   "city": "Check event page for more details.",
    "country": "Unknown",
-   "metro": "",
+   "metro": "Check event page for more details.",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/aikidosecurity",
+   "url": "https://luma.com/event/evt-TJBoc37gxop6DiF",
    "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 4 others",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Check event page for more details."
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "a96ffe911cd0",
@@ -1544,12 +1537,12 @@
    "end": "2026-12-02T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -1561,7 +1554,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "title": "ISC2 New Jersey Chapter Holiday Dinner",
@@ -1673,12 +1670,12 @@
    "end": "2026-12-03T14:00+00:00",
    "allDay": false,
    "tz": "UTC",
-   "venue": "BrightTALK",
-   "online": false,
-   "city": "Location on listing",
-   "country": "BrightTALK",
-   "metro": "",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -1690,7 +1687,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "3f866d62f1d9",
@@ -1699,24 +1700,28 @@
    "end": "2026-12-04T04:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-HeCfXvtAE0v3JGX",
+   "venue": "Check event page for more details.",
    "online": false,
-   "city": "Location on listing",
+   "city": "Check event page for more details.",
    "country": "Unknown",
-   "metro": "",
+   "metro": "Check event page for more details.",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/alchemycyber",
+   "url": "https://luma.com/event/evt-HeCfXvtAE0v3JGX",
    "about": "Get up-to-date information at: https://luma.com/58m3v3a2 Address: Check event page for more details. Hosted by Alchemy Cyber & Aqsa Taylor",
    "source": "Alchemy Cyber",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Check event page for more details."
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "b2c7d1c4012f",
@@ -2007,7 +2012,7 @@
    "end": "2026-12-09T07:30+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-cuZ0xJCCJeeu5V2",
+   "venue": "Location on listing",
    "online": false,
    "city": "Location on listing",
    "country": "Unknown",
@@ -2019,13 +2024,17 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/cloudsekevents",
+   "url": "https://luma.com/event/evt-cuZ0xJCCJeeu5V2",
    "about": "Get up-to-date information at: https://luma.com/MEthreatintelcloudsek Hosted by Team CloudSEK",
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Location on listing"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "448a299559d9",
@@ -2034,11 +2043,11 @@
    "end": "2026-12-09T11:30+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-TegLG74O34ftdwq",
+   "venue": "Location on listing",
    "online": false,
    "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "country": "India",
+   "metro": "Location on listing",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -2046,13 +2055,17 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/cloudsekevents",
+   "url": "https://luma.com/event/evt-TegLG74O34ftdwq",
    "about": "Get up-to-date information at: https://luma.com/INDthreatintelcloudsek Hosted by Aarthi Srinivasan",
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Location on listing"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "7df3823b602e",
@@ -2166,11 +2179,11 @@
    "end": "2026-12-10T17:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "https://luma.com/event/evt-BGJornbgXQAb2FS",
+   "venue": "Location on listing",
    "online": false,
    "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
+   "country": "United States",
+   "metro": "Location on listing",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -2178,13 +2191,17 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/cloudsekevents",
+   "url": "https://luma.com/event/evt-BGJornbgXQAb2FS",
    "about": "Get up-to-date information at: https://luma.com/USthreatintelcloudsek Hosted by Team CloudSEK",
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Location on listing"
+   ],
+   "changedAt": "2026-11-15T12:05-05:00"
   },
   {
    "id": "8a2520a6ff2a",
@@ -2731,7 +2748,7 @@
    "venue": "San Francisco",
    "online": false,
    "city": "San Francisco",
-   "country": "U.S.A",
+   "country": "United States",
    "metro": "San Francisco Bay Area",
    "format": "In person",
    "cost": "Check listing",
@@ -2756,7 +2773,7 @@
    "venue": "London",
    "online": false,
    "city": "London",
-   "country": "U.K",
+   "country": "United Kingdom",
    "metro": "London",
    "format": "In person",
    "cost": "Check listing",
@@ -3285,7 +3302,7 @@
    "venue": "Pasadena",
    "online": false,
    "city": "Pasadena",
-   "country": "U.S.A",
+   "country": "United States",
    "metro": "Los Angeles area",
    "format": "In person",
    "cost": "Check listing",
@@ -3327,7 +3344,7 @@
   },
   {
    "id": "fa2ba6091da0",
-   "title": "OWASP BASC 2027 — Conference Dates",
+   "title": "OWASP BASC 2027",
    "start": "2027-04-03",
    "end": "2027-04-03",
    "allDay": true,
