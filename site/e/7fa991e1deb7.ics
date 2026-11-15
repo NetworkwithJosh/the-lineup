@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7fa991e1deb7@the-lineup
-DTSTAMP:20261115T223241Z
+DTSTAMP:20261115T223733Z
 SEQUENCE:0
 DTSTART:20261120T140000Z
 DTEND:20261120T220000Z
 SUMMARY:Power BI Dashboard in a Day | Hands on Workshop
-LOCATION:Location on listing\, Location on listing
+LOCATION:Location on listing\, Iselin\, United States
 DESCRIPTION:New Jersey Business and Tech Meetup 📈 **From Raw Data to Stunning Dashboards—in One Day!** Join our **FREE Microsoft Power BI Dashboard in a Day Workshop** and learn to build interactive dashboards\, create insightful rep https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317302648/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317302648/

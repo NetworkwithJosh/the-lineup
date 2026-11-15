@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:06d0b176fe5a@the-lineup
-DTSTAMP:20261115T223241Z
+DTSTAMP:20261115T223733Z
 SEQUENCE:0
 DTSTART:20261117T190000Z
 DTEND:20261117T194500Z
 SUMMARY:AI Is Only as Secure as Its Cloud
-LOCATION:Location on listing\, Location on listing
+LOCATION:Location on listing\, Los Angeles\, United States
 DESCRIPTION:Cloud Security Alliance\, SoCal Chapter **Session 1: Stop Cloud Misconfigurations and Cut the Alert Noise** **Speaker:** Dwight Philpotts **Title:** Principal Sales Engineer\, Aryon Security **Duration:** 30 minutes **Sess https://www.meetup.com/csa-socal/events/317201594/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/csa-socal/events/317201594/
