@@ -2,457 +2,1616 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//The Lineup//EN
 CALSCALE:GREGORIAN
+METHOD:PUBLISH
 X-WR-CALNAME:The Lineup: cyber + AI meetups
-X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:2d4ee443d474@the-lineup
-DTSTAMP:20261115T165027Z
+UID:d5f7d2973c96@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261201
+SUMMARY:ChiBrrCon 2027: Renaissance CFP Now Open
+LOCATION:Online
+DESCRIPTION:New ideas\, new technologies\, new ways of seeing—and a whole lot of uncertainty. It’s remembered as an age of enlightenment. But imagine living through it. The world was changing faster than people could understand or ada https://www.wicys.org/event/chibrrcon-2027-renaissance-cfp-now-open/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/chibrrcon-2027-renaissance-cfp-now-open/
+END:VEVENT
+BEGIN:VEVENT
+UID:8eecbfeb9405@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261201
+SUMMARY:CFP OPEN FOSDEM 2027: Beyond the CRA – Building Secure and Resilient Open Source
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Last edition\, the CRA in Practice DevRoom at FOSDEM 2026 brought together developers\, maintainers\, stewards\, manufacturers\, security practitioners\, policymakers\, and standards contributors to move the conversation around https://openssf.org/event/fosdem-2027-beyond-the-cra-building-secure-and-resilient-open-source/
+STATUS:CONFIRMED
+URL:https://openssf.org/event/fosdem-2027-beyond-the-cra-building-secure-and-resilient-open-source/
+END:VEVENT
+BEGIN:VEVENT
+UID:2d3e545ec56b@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261114T100000Z
+DTEND:20261116T160000Z
+SUMMARY:CANCELLED: CSTAM 3.0: Tunisia’s Bridge to the Global Tech World [CANCELLED]
+LOCATION:Hammamet\, Nabeul\, Tunisia
+DESCRIPTION:Cancelled by the organizer Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/572225 Source: https://events.vtools.ieee.org/m/572225 https://events.vtools.ieee.org/m/572225
+STATUS:CANCELLED
+URL:https://events.vtools.ieee.org/m/572225
+END:VEVENT
+BEGIN:VEVENT
+UID:e468f4451783@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+SUMMARY:AI Engineering Summit
+LOCATION:Berlin\, Berlin\, Germany
+DESCRIPTION:https://ai-engineering-summit.de
+STATUS:CONFIRMED
+URL:https://ai-engineering-summit.de
+END:VEVENT
+BEGIN:VEVENT
+UID:eb93b55e8ba9@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+SUMMARY:API Conference Berlin
+LOCATION:Berlin\, Berlin\, Germany
+DESCRIPTION:https://apiconference.net/berlin
+STATUS:CONFIRMED
+URL:https://apiconference.net/berlin
+END:VEVENT
+BEGIN:VEVENT
+UID:3f887992aa9d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+SUMMARY:MLCon Berlin
+LOCATION:Berlin\, Berlin\, Germany
+DESCRIPTION:https://mlconference.ai/berlin
+STATUS:CONFIRMED
+URL:https://mlconference.ai/berlin
+END:VEVENT
+BEGIN:VEVENT
+UID:dec3324b2cd6@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261118
+SUMMARY:NextGen Intelligence Conference: Data\, Cloud & AI
+LOCATION:London\, London\, U.K
+DESCRIPTION:https://techaiconf.com
+STATUS:CONFIRMED
+URL:https://techaiconf.com
+END:VEVENT
+BEGIN:VEVENT
+UID:7c845b5a541b@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261116T170600Z
+DTEND:20261120T170800Z
+SUMMARY:Cybersecurity Donation
+LOCATION:Falls Church\, Virginia\, United States
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/592879 Source: https://events.vtools.ieee.org/m/592879 https://events.vtools.ieee.org/m/592879
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/592879
+END:VEVENT
+BEGIN:VEVENT
+UID:b597f5e94a4c@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261121
 SUMMARY:Microsoft Ignite 2026
-LOCATION:Moscone Center\, San Francisco\, CA
+LOCATION:Moscone Center\, San Francisco\, United States
 DESCRIPTION:Copilot\, AI agents and security. Keynotes stream free. https://ignite.microsoft.com
+STATUS:CONFIRMED
 URL:https://ignite.microsoft.com
 END:VEVENT
 BEGIN:VEVENT
-UID:a66ab533c1b0@the-lineup
-DTSTAMP:20261115T165027Z
-DTSTART:20261117T130000Z
-DTEND:20261117T224500Z
-SUMMARY:The Official Cybersecurity Summit: New York
-LOCATION:Sheraton New York Times Square\, 811 7th Ave\, Manhattan\, NY
-DESCRIPTION:One-day executive summit. AI and automation risk\, resilience. https://cybersecuritysummit.com/summit/new-york/
-URL:https://cybersecuritysummit.com/summit/new-york/
-END:VEVENT
-BEGIN:VEVENT
-UID:f2c5e7434dbe@the-lineup
-DTSTAMP:20261115T165027Z
+UID:33a82d17bf1a@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261117T130000Z
 DTEND:20261117T230000Z
 SUMMARY:The 18th Edition of the New York Official Cybersecurity Summit
-LOCATION:Location on listing
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:OWASP New York City Chapter **“In Honor of Security Awareness Month and The 18th Edition of the New York Official Cybersecurity Summit** ***OWASP NYC Chapter is offering exclusive Complimentary Admission for our network! https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/
+STATUS:CONFIRMED
 URL:https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/
 END:VEVENT
 BEGIN:VEVENT
-UID:6fd98138bb2b@the-lineup
-DTSTAMP:20261115T165027Z
+UID:a2bef211ac66@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261117T130000Z
+DTEND:20261117T224500Z
+SUMMARY:The Official Cybersecurity Summit: New York
+LOCATION:Sheraton New York Times Square\, 811 7th Ave\, Manhattan\, United States
+DESCRIPTION:One-day executive summit. AI and automation risk\, resilience. https://cybersecuritysummit.com/summit/new-york/
+STATUS:CONFIRMED
+URL:https://cybersecuritysummit.com/summit/new-york/
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2f759c4dc7@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261117T130000Z
+DTEND:20261117T140000Z
+SUMMARY:Webinar | Identity Is the New Front Line: Rethinking IAM for AI Agents
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:What happens when an AI agent does exactly what it is allowed to do\, but not what anyone intended? Identity and access models were built for people and predictable software\, and agents challenge some of the assumptions b https://www.wicys.org/event/webinar-identity-is-the-new-front-line-rethinking-iam-for-ai-agents/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-identity-is-the-new-front-line-rethinking-iam-for-ai-agents/
+END:VEVENT
+BEGIN:VEVENT
+UID:a1722b4fc33e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261117T230000Z
 DTEND:20261118T020000Z
 SUMMARY:NYSEC
-LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
 DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
-UID:49980929c545@the-lineup
-DTSTAMP:20261115T165027Z
+UID:ae5997b2c0e4@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261117T230000Z
+DTEND:20261118T020000Z
+SUMMARY:Cyber Mission 2026 – Hack the Attack
+LOCATION:Innovation Hub\, Panamá\, Panama
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/593790 Source: https://events.vtools.ieee.org/m/593790 https://events.vtools.ieee.org/m/593790
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/593790
+END:VEVENT
+BEGIN:VEVENT
+UID:5817d268a83c@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:SecureWorld East (virtual)
 LOCATION:Online
 DESCRIPTION:Regional SecureWorld content streamed virtually. https://www.secureworld.io/events
+STATUS:CONFIRMED
 URL:https://www.secureworld.io/events
 END:VEVENT
 BEGIN:VEVENT
-UID:0b8bd1a74ed4@the-lineup
-DTSTAMP:20261115T165027Z
+UID:481a1819da7d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261118T070000Z
+DTEND:20261120T154500Z
+SUMMARY:CANCELLED: IEEE Design Methodologies Conference (DMC) 2026 [CANCELLED]
+LOCATION:AAU Innovate\, Nordjyllands Amt\, Denmark
+DESCRIPTION:Cancelled by the organizer Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/532660 Source: https://events.vtools.ieee.org/m/532660 https://events.vtools.ieee.org/m/532660
+STATUS:CANCELLED
+URL:https://events.vtools.ieee.org/m/532660
+END:VEVENT
+BEGIN:VEVENT
+UID:f689362259e5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261118T140000Z
+DTEND:20261118T150000Z
+SUMMARY:Webinar | Empowered by Certifications: A Career Panel
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:Are certifications worth the time\, cost\, and effort? In this WiCyS webinar\, Dell will bring together two cybersecurity professionals to share how credentials like CISSP\, PMP\, CRISC\, and others have shaped their career pa https://www.wicys.org/event/webinar-empowered-by-certifications-a-career-panel/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-empowered-by-certifications-a-career-panel/
+END:VEVENT
+BEGIN:VEVENT
+UID:ca9245538aa6@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261118T173000Z
+DTEND:20261118T200000Z
+SUMMARY:WiCyS NE Ohio | Cracking the Interview Code: Year-End Event
+LOCATION:TrustedSec\, Fairlawn\, United States
+DESCRIPTION:Join WiCyS Northeast Ohio for its annual year-end event as it closes out the year with an evening of networking\, awards\, announcements\, and career-building insights! Food and drink will be provided! Connect with fellow c https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f92984fb7d9@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261118T180000Z
+DTEND:20261118T210000Z
+SUMMARY:AI and Biotech Happy Hour @ London Life Sciences Week
+LOCATION:https://luma.com/event/evt-3CE10EwUHDDgkbM\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/504n8w32 Address: Check event page for more details. Hosted by Kevin Barona https://luma.com/cycore-secure
+STATUS:CONFIRMED
+URL:https://luma.com/cycore-secure
+END:VEVENT
+BEGIN:VEVENT
+UID:bb7c4e9c99af@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261119T000000Z
+DTEND:20261119T010000Z
+SUMMARY:WiCyS Florida Affiliate | The Voice of Deception: How Vishing Exploits Human Emotion
+LOCATION:Online
+DESCRIPTION:Would you recognize a social engineering attack if you heard one? Explore how voice phishing exploits human emotion\, trust\, and influence. Would you recognize a social engineering attack if you heard one? Not every phish https://www.wicys.org/event/wicys-florida-affiliate-the-voice-of-deception-how-vishing-exploits-human-emotion/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-florida-affiliate-the-voice-of-deception-how-vishing-exploits-human-emotion/
+END:VEVENT
+BEGIN:VEVENT
+UID:7d9be887aea8@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261118T233000Z
+DTEND:20261119T033000Z
+SUMMARY:CISO Strategy Salon - Austin
+LOCATION:https://luma.com/event/evt-YBY9TdrVdZvX4nQ\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/1zlmfg4i Address: Check event page for more details. Hosted by Alchemy Cyber\, Pavan Kushwaha & Team Threatcop https://luma.com/alchemycyber
+STATUS:CONFIRMED
+URL:https://luma.com/alchemycyber
+END:VEVENT
+BEGIN:VEVENT
+UID:57f79865cca5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:WiCyS Eastern Canada Affliate | BSides Ottawa 2026
+LOCATION:Ottawa Conference and Event Centre\, Ontario\, Canada
+DESCRIPTION:WiCyS Eastern Canada is proud to be an official Community Partner of BSides Ottawa 2026! Join Ottawa’s cybersecurity community for two days of technical talks\, hands-on activities\, workshops\, challenges\, and networking o https://www.wicys.org/event/wicys-eastern-canada-affliate-bsides-ottawa-2026/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-eastern-canada-affliate-bsides-ottawa-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:c40958703175@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:WiCyS Minnesota Affiliate | SecureWorld Twin Cities
+LOCATION:JW Marriot Minneapolis Mall of America\, Bloomington\, United States
+DESCRIPTION:WiCyS Minnesota will have a table in the Networking Hall at SecureWorld Twin Cities. Stop by to meet the affiliate\, hear about upcoming events\, and connect with women and allies in the Twin Cities cybersecurity community https://www.wicys.org/event/wicys-minnesota-affiliate-secureworld-twin-cities/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-minnesota-affiliate-secureworld-twin-cities/
+END:VEVENT
+BEGIN:VEVENT
+UID:7e1351d5d5ad@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:WiCyS | Executive Leaders Network
+LOCATION:Online
+DESCRIPTION:The Executive Leaders Network brings together top cybersecurity leaders to share insights\, solve challenges\, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-11-19/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-11-19/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b67dc3fa2d2@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:X-Ops Conference Madrid
+LOCATION:Madrid\, Madrid\, Spain
+DESCRIPTION:https://xopsconference.com
+STATUS:CONFIRMED
+URL:https://xopsconference.com
+END:VEVENT
+BEGIN:VEVENT
+UID:160d744b97c5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261119T133000Z
 DTEND:20261119T200000Z
 SUMMARY:NY AI Security & Data Protection Summit
-LOCATION:Likely Conrad New York Downtown\, Manhattan\, NY
+LOCATION:Likely Conrad New York Downtown\, Manhattan\, United States
 DESCRIPTION:AI data flows\, compliance\, breach response\, third-party risk. One listing says Nov 17\, so confirm. https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
+STATUS:CONFIRMED
 URL:https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
 END:VEVENT
 BEGIN:VEVENT
-UID:4137948abc39@the-lineup
-DTSTAMP:20261115T165027Z
+UID:559214e24beb@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261119T130000Z
+DTEND:20261119T140000Z
+SUMMARY:Webinar | CyberPhysical CyberSecurity
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:In this WiCyS webinar\, Ford Motor Company will do a deep dive into the cyber physical realm\, discussing what it means to secure the physical environment against cyber threats. WiCyS is proud to provide members the opport https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/
+END:VEVENT
+BEGIN:VEVENT
+UID:75bfed4dded6@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261119T143000Z
+DTEND:20261120T010000Z
+SUMMARY:GCSI CIOTManuSec 2026 Conference – AI Adoption & Cyber Readiness
+LOCATION:IIT Chicago Kent College of Law\, Illinois\, United States
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/591951 Source: https://events.vtools.ieee.org/m/591951 https://events.vtools.ieee.org/m/591951
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/591951
+END:VEVENT
+BEGIN:VEVENT
+UID:2a75ca4fd859@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261119T233000Z
 DTEND:20261120T020000Z
 SUMMARY:ISACA New Jersey Chapter Membership Meeting
-LOCATION:Pines Manor\, 2085 State Route 27\, Edison\, NJ
+LOCATION:Pines Manor\, 2085 State Route 27\, Edison\, United States
 DESCRIPTION:IT audit\, risk and GRC professionals. https://engage.isaca.org/newjerseychapter/home
+STATUS:CONFIRMED
 URL:https://engage.isaca.org/newjerseychapter/home
 END:VEVENT
 BEGIN:VEVENT
-UID:81872671ef1d@the-lineup
-DTSTAMP:20261115T165027Z
+UID:946b2dfe41eb@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261120T000000Z
 DTEND:20261120T020000Z
 SUMMARY:DC908 talk: The Com and the Cybercrime Ecosystem
-LOCATION:Westfield Memorial Library\, 550 E Broad St\, Westfield\, NJ
+LOCATION:Westfield Memorial Library\, 550 E Broad St\, Westfield\, United States
 DESCRIPTION:DEF CON group talk. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
-UID:e61b449abf50@the-lineup
-DTSTAMP:20261115T165027Z
+UID:8539d340991c@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261119T233000Z
+DTEND:20261120T033000Z
+SUMMARY:CISO Strategy Salon - Houston
+LOCATION:https://luma.com/event/evt-iYDmzHo4xHtyHNk\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/h310rny8 Address: Check event page for more details. Hosted by Alchemy Cyber & Or Meshulam https://luma.com/alchemycyber
+STATUS:CONFIRMED
+URL:https://luma.com/alchemycyber
+END:VEVENT
+BEGIN:VEVENT
+UID:2c00542b0b4f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Agentic Engineering Days Zurich
+LOCATION:Zurich\, Zurich\, Switzerland
+DESCRIPTION:https://www.agenticdays.com
+STATUS:CONFIRMED
+URL:https://www.agenticdays.com
+END:VEVENT
+BEGIN:VEVENT
+UID:055a7548371f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261120T070000Z
+DTEND:20261120T170000Z
+SUMMARY:CANCELLED: IEEE ComSoc Student Tech Leadership Conference France (STLC)🎓 [CANCELLED]
+LOCATION:3 Rue Joliot-Curie\, Ile-de-France\, France
+DESCRIPTION:Cancelled by the organizer Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/572639 Source: https://events.vtools.ieee.org/m/572639 https://events.vtools.ieee.org/m/572639
+STATUS:CANCELLED
+URL:https://events.vtools.ieee.org/m/572639
+END:VEVENT
+BEGIN:VEVENT
+UID:b22b3c5f6fb2@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:OWASP AppSec Days India 2026 — Conference Dates
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:OWASP AppSec Days event. Event details: https://india.appsecdays.org/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://india.appsecdays.org/ https://india.appsecdays.org/
+STATUS:CONFIRMED
+URL:https://india.appsecdays.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cd8bffc936a1@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+SUMMARY:WiCyS Austin Affiliate | Monthly Social
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:21e68a08cb59@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261122T033000Z
+DTEND:20261122T113000Z
+SUMMARY:Backend Engineer Hiring Test
+LOCATION:https://luma.com/event/evt-1BzOjsSUjUVUi2F\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/995 Hosted by Cactro | India’s Fairest Technical Test https://luma.com/claude
+STATUS:CONFIRMED
+URL:https://luma.com/claude
+END:VEVENT
+BEGIN:VEVENT
+UID:0b00da2da836@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261124T130000Z
+DTEND:20261124T140000Z
+SUMMARY:Webinar | From Design to Deploy — Continuous Security with AWS Security Agent
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:As organizations struggle with manual penetration testing\, code review bottlenecks\, and outdated threat models\, the AWS Security Agent changes the equation by proactively securing applications from design through deploym https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab85e704ac73@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261124T133000Z
+DTEND:20261124T143000Z
+SUMMARY:Career Queries w/ Swapnil
+LOCATION:https://luma.com/event/evt-l0Cq6fIDyEwzjSZ\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/ask-swap Hosted by Cactro | India’s Fairest Technical Test https://luma.com/claude
+STATUS:CONFIRMED
+URL:https://luma.com/claude
+END:VEVENT
+BEGIN:VEVENT
+UID:947a9c088b7e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261127
+SUMMARY:AI World Congress
+LOCATION:London\, London\, U.K
+DESCRIPTION:https://aiconference.london
+STATUS:CONFIRMED
+URL:https://aiconference.london
+END:VEVENT
+BEGIN:VEVENT
+UID:d964ab467f2e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:OWASP BeNeLux 2026 — Conference Dates
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:OWASP AppSec Days event. Event details: https://2026.owaspbenelux.eu/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://2026.owaspbenelux.eu/ https://2026.owaspbenelux.eu/
+STATUS:CONFIRMED
+URL:https://2026.owaspbenelux.eu/
+END:VEVENT
+BEGIN:VEVENT
+UID:62bd60f8bb51@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261126T093000Z
+DTEND:20261126T130000Z
+SUMMARY:WiCyS Nigeria Affiliate | Progress\, Priorities\, partnerships: Shaping the Next Chapter of WiCyS Nigeria
+LOCATION:MN\, Location on listing\, United States
+DESCRIPTION:This year’s Leadership Forum will bring together a select group of accomplished women and men from technology\, cybersecurity\, government\, industry\, and academia for a candid\, forward-looking conversation on strengthening https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/
+END:VEVENT
+BEGIN:VEVENT
+UID:1409518c5659@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+SUMMARY:Workplace Ninjas India
+LOCATION:Delhi\, Delhi\, India
+DESCRIPTION:https://www.wpninjas-india.com
+STATUS:CONFIRMED
+URL:https://www.wpninjas-india.com
+END:VEVENT
+BEGIN:VEVENT
+UID:1403b92ae60a@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261127T180000Z
+DTEND:20261127T190000Z
+SUMMARY:Cybersecurity Workshop Essentials
+LOCATION:Online
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/593131 Source: https://events.vtools.ieee.org/m/593131 https://events.vtools.ieee.org/m/593131
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/593131
+END:VEVENT
+BEGIN:VEVENT
+UID:7a0bc0f82177@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261129T033000Z
+DTEND:20261129T113000Z
+SUMMARY:Fullstack Developer Hiring Test
+LOCATION:https://luma.com/event/evt-FGxPTqfqrWEJ63r\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/9-9-6 Hosted by Cactro | India’s Fairest Technical Test https://luma.com/claude
+STATUS:CONFIRMED
+URL:https://luma.com/claude
+END:VEVENT
+BEGIN:VEVENT
+UID:94b71d483531@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261205
 SUMMARY:AWS re:Invent 2026
-LOCATION:Venetian\, Caesars Forum\, MGM\, Wynn\, Las Vegas\, NV
+LOCATION:Venetian\, Caesars Forum\, MGM\, Wynn\, Las Vegas\, United States
 DESCRIPTION:Cloud and agentic AI. Anthropic and OpenAI are listed sponsors. https://web.govevents.com/details/98147/aws-reinvent-2026
+STATUS:CONFIRMED
 URL:https://web.govevents.com/details/98147/aws-reinvent-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:0665cab66956@the-lineup
-DTSTAMP:20261115T165027Z
+UID:f4d469f0a3c5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261204
+SUMMARY:ESPC
+LOCATION:Amsterdam\, Amsterdam\, Netherlands
+DESCRIPTION:https://www.sharepointeurope.com
+STATUS:CONFIRMED
+URL:https://www.sharepointeurope.com
+END:VEVENT
+BEGIN:VEVENT
+UID:5806a3a35734@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261205
+SUMMARY:IT Security Summit Munich
+LOCATION:Munich\, Munich\, Germany
+DESCRIPTION:https://it-security-summit.com/munich
+STATUS:CONFIRMED
+URL:https://it-security-summit.com/munich
+END:VEVENT
+BEGIN:VEVENT
+UID:613ac9e43bab@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261204
 SUMMARY:Black Hat MEA 2026
 LOCATION:Riyadh Exhibition & Convention Center\, Malham\, Riyadh\, Saudi Arabia
 DESCRIPTION:Briefings\, trainings\, exhibition and a large CTF. https://blackhatmea.com/about-us
+STATUS:CONFIRMED
 URL:https://blackhatmea.com/about-us
 END:VEVENT
 BEGIN:VEVENT
-UID:c4b7b3a49a3a@the-lineup
-DTSTAMP:20261115T165027Z
+UID:17c51b076c6c@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261201T130000Z
+DTEND:20261201T140000Z
+SUMMARY:Webinar | When Cyber Gets Physical: An Introduction to OT Cybersecurity
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:Cybersecurity doesn’t stop at laptops\, servers\, and data. It extends into the physical world. Operational Technology (OT) powers the systems and processes behind manufacturing\, energy\, transportation\, and other critical  https://www.wicys.org/event/webinar-when-cyber-gets-physical-an-introduction-to-ot-cybersecurity/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-when-cyber-gets-physical-an-introduction-to-ot-cybersecurity/
+END:VEVENT
+BEGIN:VEVENT
+UID:0d336f19bb9d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261201T170000Z
+DTEND:20261204T010000Z
+SUMMARY:CANCELLED: IEEE International Conference on Smart Connected Systems and Emerging Technologies (IEEE SCSETech 2026) [CANCELLED]
+LOCATION:Online
+DESCRIPTION:Cancelled by the organizer Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/562920 Source: https://events.vtools.ieee.org/m/562920 https://events.vtools.ieee.org/m/562920
+STATUS:CANCELLED
+URL:https://events.vtools.ieee.org/m/562920
+END:VEVENT
+BEGIN:VEVENT
+UID:f8601a75ea38@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261201T230000Z
 DTEND:20261202T013000Z
 SUMMARY:Microsoft Reactor: MVP Feature Series
-LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
 DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
-UID:112c2f6f5799@the-lineup
-DTSTAMP:20261115T165027Z
+UID:c495dfd328db@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261201T190000Z
+DTEND:20261202T130000Z
+SUMMARY:WiCyS Professional Affiliate Leaders Only Meeting
+LOCATION:Online
+DESCRIPTION:WiCyS Professional Affiliate Leaders-Only Meeting: We are all Stronger Together. As WiCyS professional affiliates trailblaze through their regional\, specialty\, or corporate affiliate programs\, we collectively meet monthl https://www.wicys.org/event/wicys-professional-affiliate-leaders-only-meeting-9/2026-12-01/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-professional-affiliate-leaders-only-meeting-9/2026-12-01/
+END:VEVENT
+BEGIN:VEVENT
+UID:64c65b3bd4c2@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261202T020000Z
+DTEND:20261202T050000Z
+SUMMARY:Omega Mart After Hours @re:Invent
+LOCATION:https://luma.com/event/evt-TJBoc37gxop6DiF\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 4 others https://luma.com/aikidosecurity
+STATUS:CONFIRMED
+URL:https://luma.com/aikidosecurity
+END:VEVENT
+BEGIN:VEVENT
+UID:a96ffe911cd0@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261202T080000Z
+DTEND:20261202T090000Z
+SUMMARY:WiCyS Professional Affiliate International Leaders Only Meeting
+LOCATION:Online
+DESCRIPTION:WiCyS Professional Affiliate Leaders-Only Meeting: We are all Stronger Together. As WiCyS professional affiliates trail blaze through their regional\, specialty\, or corporate affiliate programs\, we collectively meet month https://www.wicys.org/event/wicys-professional-affiliate-international-leaders-only-meeting-10/2026-12-02/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-professional-affiliate-international-leaders-only-meeting-10/2026-12-02/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf52da390ac@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261202T080000Z
+DTEND:20261202T103000Z
+SUMMARY:WiCyS | Women in Security Breakfast at AWS re:Invent
+LOCATION:Braseria by EDO\, Las Vegas\, United States
+DESCRIPTION:AWS re:Invent runs more than 2\,000 sessions and few are built for the women who run security. This one is. Join Fortinet\, AWS and WiCyS for a private breakfast on Wednesday\, December 2 at Braseria by EDO\, 1 mile from the https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinvent/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinvent/
+END:VEVENT
+BEGIN:VEVENT
+UID:7bed77d9804b@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261202T130000Z
+DTEND:20261202T140000Z
+SUMMARY:Webinar | Post-Quantum Migration in Practice: Assessing Readiness and Planning Strategically
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:As the transition to post-quantum cryptography (PQC) gains momentum\, organizations face a critical challenge: moving beyond initial preparation to make informed decisions about migration strategy\, technology readiness\, a https://www.wicys.org/event/webinar-post-quantum-migration-in-practice-assessing-readiness-and-planning-strategically/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-post-quantum-migration-in-practice-assessing-readiness-and-planning-strategically/
+END:VEVENT
+BEGIN:VEVENT
+UID:e91f836ab561@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T030000Z
 SUMMARY:ISC2 New Jersey Chapter Holiday Dinner
-LOCATION:The Armory NJ\, 200 Front St\, Perth Amboy\, NJ
+LOCATION:The Armory NJ\, 200 Front St\, Perth Amboy\, United States
 DESCRIPTION:Chapter holiday dinner and networking. https://isc2njchapter.curated.co
+STATUS:CONFIRMED
 URL:https://isc2njchapter.curated.co
 END:VEVENT
 BEGIN:VEVENT
-UID:5b3250c0eacc@the-lineup
-DTSTAMP:20261115T165027Z
+UID:ab83da103c8d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Cybersecurity Summit: Implications of AI (virtual)
 LOCATION:Online
 DESCRIPTION:AI governance and AI threats for security leaders. https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
+STATUS:CONFIRMED
 URL:https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
 END:VEVENT
 BEGIN:VEVENT
-UID:11c6eab6e4a1@the-lineup
-DTSTAMP:20261115T165027Z
+UID:7c83815bc126@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261203T150000Z
 DTEND:20261203T170000Z
 SUMMARY:Microsoft workshop: Data Security with Purview
-LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, NY
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, United States
 DESCRIPTION:Data classification\, DLP and compliance with Purview. https://developer.microsoft.com/en-us/reactor/
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
-UID:4e4835e683e3@the-lineup
-DTSTAMP:20261115T165027Z
+UID:7d51cdc18409@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261203T123000Z
+DTEND:20261203T143000Z
+SUMMARY:Birth of the AI CISO: A Leadership Roundtable
+LOCATION:Hyderabad\, Telangana\, India
+DESCRIPTION:Get up-to-date information at: https://luma.com/aicisohyd Address: Hyderabad Hyderabad\, India Hosted by Team CloudSEK & Rahul Dhiman https://luma.com/cloudsekevents
+STATUS:CONFIRMED
+URL:https://luma.com/cloudsekevents
+END:VEVENT
+BEGIN:VEVENT
+UID:e85a1962f3da@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261203T130000Z
+DTEND:20261203T140000Z
+SUMMARY:Webinar | How Non-Linear Careers and Changing Cyber Expectations are Creating New Opportunities for Everyone
+LOCATION:BrightTALK\, Location on listing\, BrightTALK
+DESCRIPTION:A career in cybersecurity rarely follows a straight line. Many professionals navigate “squiggly careers” shaped by curiosity\, adaptability\, and the reality of balancing professional ambition with real-life responsibiliti https://www.wicys.org/event/webinar/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar/
+END:VEVENT
+BEGIN:VEVENT
+UID:3f866d62f1d9@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:CISO Strategy Salon - AWS ReInvent 2026
+LOCATION:https://luma.com/event/evt-HeCfXvtAE0v3JGX\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/58m3v3a2 Address: Check event page for more details. Hosted by Alchemy Cyber & Aqsa Taylor https://luma.com/alchemycyber
+STATUS:CONFIRMED
+URL:https://luma.com/alchemycyber
+END:VEVENT
+BEGIN:VEVENT
+UID:b2c7d1c4012f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261204T220000Z
 DTEND:20261205T000000Z
 SUMMARY:NYC2600
-LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
 DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:31dfe420bba8@the-lineup
-DTSTAMP:20261115T165027Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261210
-SUMMARY:Gartner Identity & Access Management Summit
-LOCATION:Caesars Forum\, Las Vegas\, NV
-DESCRIPTION:Identity governance and securing AI agent identities. https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
-URL:https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+UID:9da8c0f58e2a@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261205T033000Z
+DTEND:20261205T103000Z
+SUMMARY:CyberShield: Student Workshop on Cybersecurity Essentials and Digital Safety
+LOCATION:kozhikode\, Kerala\, India
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/580275 Source: https://events.vtools.ieee.org/m/580275 https://events.vtools.ieee.org/m/580275
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/580275
 END:VEVENT
 BEGIN:VEVENT
-UID:0f0574c8b3e9@the-lineup
-DTSTAMP:20261115T165027Z
+UID:edc6b1344927@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261211
 SUMMARY:Black Hat Europe 2026
-LOCATION:ExCeL London\, London\, UK
+LOCATION:ExCeL London\, London\, United Kingdom
 DESCRIPTION:AI Security Summit on Dec 8. https://blackhat.com/html/press/2026-10-29.html
+STATUS:CONFIRMED
 URL:https://blackhat.com/html/press/2026-10-29.html
 END:VEVENT
 BEGIN:VEVENT
-UID:b17712c483ee@the-lineup
-DTSTAMP:20261115T165027Z
+UID:e400f843a8b8@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261210
+SUMMARY:Gartner Identity & Access Management Summit
+LOCATION:Caesars Forum\, Las Vegas\, United States
+DESCRIPTION:Identity governance and securing AI agent identities. https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+STATUS:CONFIRMED
+URL:https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+END:VEVENT
+BEGIN:VEVENT
+UID:a0db0b82a05b@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261211
+SUMMARY:IT-Tage
+LOCATION:Frankfurt am Main\, Frankfurt am Main\, Germany
+DESCRIPTION:https://www.it-tage.org
+STATUS:CONFIRMED
+URL:https://www.it-tage.org
+END:VEVENT
+BEGIN:VEVENT
+UID:0baced3e8fce@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261211
+SUMMARY:WiCyS UKI | BlackHat Europe 2026
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:Join the WiCyS UKI affiliate at BlackHat Europe to connect with WiCyS members. Stop by our booth to meet our affiliate\, grab some swag\, and learn more about WiCyS. For more than 20 years\, Black Hat has provided attendees https://www.wicys.org/event/wicys-uki-blackhat-europe-2026/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhat-europe-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:1e4beb3abcb5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261208T173000Z
+DTEND:20261208T213000Z
+SUMMARY:CISO Strategy Salon - London
+LOCATION:estiatorio Milos\, estiatorio Milos\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/4goilkdv Address: estiatorio Milos London\, United Kingdom Hosted by Alchemy Cyber & Jessica Churchill https://luma.com/alchemycyber
+STATUS:CONFIRMED
+URL:https://luma.com/alchemycyber
+END:VEVENT
+BEGIN:VEVENT
+UID:d468ed8716e3@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Financial Services AI Security Forum
+LOCATION:New York Hilton Midtown\, New York\, United States
+DESCRIPTION:As a proud partner of the inaugural Financial Services AI Security Forum\, we are pleased to offer the WiCyS community an exclusive registration rate of just $195. Artificial intelligence is rapidly reshaping financial se https://www.wicys.org/event/financial-services-ai-security-forum/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/financial-services-ai-security-forum/
+END:VEVENT
+BEGIN:VEVENT
+UID:72241ab11097@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261211
+SUMMARY:Great International AI Native Summit (GAINS)
+LOCATION:Bangalore\, Bangalore\, India
+DESCRIPTION:https://ainativesummit.com
+STATUS:CONFIRMED
+URL:https://ainativesummit.com
+END:VEVENT
+BEGIN:VEVENT
+UID:42d682ac128d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
 SUMMARY:The AI Summit New York
-LOCATION:Javits Center\, 429 11th Ave\, Manhattan\, NY
+LOCATION:Javits Center\, 429 11th Ave\, Manhattan\, United States
 DESCRIPTION:Enterprise AI conference. Day 1 8am to 6pm\, Day 2 8am to 5pm. https://newyork.theaisummit.com/experience/travel-accommodation/
+STATUS:CONFIRMED
 URL:https://newyork.theaisummit.com/experience/travel-accommodation/
 END:VEVENT
 BEGIN:VEVENT
-UID:acb2fa3bfb84@the-lineup
-DTSTAMP:20261115T165027Z
+UID:36c8afc8f056@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:WiCyS Conference 2027 | General Registration NOW Open
+LOCATION:Online
+DESCRIPTION:WiCyS 2027 is the go-to event for cybersecurity professionals\, students\, and organizations. The conference is the flagship event to recruit\, retain and advance women in cybersecurity. Join the WiCyS Community in Denver\,  https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
+END:VEVENT
+BEGIN:VEVENT
+UID:6d400fb4fa62@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261209T070000Z
+DTEND:20261209T073000Z
+SUMMARY:Middle East Threat Landscape 2027
+LOCATION:https://luma.com/event/evt-cuZ0xJCCJeeu5V2\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/MEthreatintelcloudsek Hosted by Team CloudSEK https://luma.com/cloudsekevents
+STATUS:CONFIRMED
+URL:https://luma.com/cloudsekevents
+END:VEVENT
+BEGIN:VEVENT
+UID:448a299559d9@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261209T103000Z
+DTEND:20261209T113000Z
+SUMMARY:India Threat Landscape 2027
+LOCATION:https://luma.com/event/evt-TegLG74O34ftdwq\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/INDthreatintelcloudsek Hosted by Aarthi Srinivasan https://luma.com/cloudsekevents
+STATUS:CONFIRMED
+URL:https://luma.com/cloudsekevents
+END:VEVENT
+BEGIN:VEVENT
+UID:7df3823b602e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261209T103000Z
+DTEND:20261209T113000Z
+SUMMARY:WiCyS UKI | BlackHat(HER) MeetUp
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:An informal community gathering for women and allies across all career levels. No presentations—just authentic conversations\, new connections\, and community-building in a welcoming environment. Whether you’re a student\,  https://www.wicys.org/event/wicys-uki-blackhather-meetup/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhather-meetup/
+END:VEVENT
+BEGIN:VEVENT
+UID:860466f8789e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261209T130000Z
+DTEND:20261209T220000Z
+SUMMARY:3rd IEEE Summit on Applied AI for Bioinformatics and Cybersecurity (ABC)
+LOCATION:Online
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/575832 Source: https://events.vtools.ieee.org/m/575832 https://events.vtools.ieee.org/m/575832
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/575832
+END:VEVENT
+BEGIN:VEVENT
+UID:bbde6d91530e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261209T163000Z
+DTEND:20261209T173000Z
+SUMMARY:WiCyS UKI | BlackHat(HER) Executive Reception
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:An exclusive gathering for senior women leaders across cybersecurity\, technology\, government\, and critical infrastructure. Connect with CISOs\, executives\, founders\, and decision-makers in an intimate setting designed for https://www.wicys.org/event/wicys-uki-blackhather-executive-reception/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhather-executive-reception/
+END:VEVENT
+BEGIN:VEVENT
+UID:416e4d267020@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261210T143000Z
+DTEND:20261210T153000Z
+SUMMARY:WiCyS UKI | BlackHat(HER) Mentorship Program
+LOCATION:ExCeL London\, London\, United Kingdom
+DESCRIPTION:Join BlackHat (HER) and WiCyS UKI for the inaugural mentorship event that connects emerging leaders with senior women executives through small-group rotational sessions. Engage with new mentors\, gain career insights\, and https://www.wicys.org/event/wicys-uki-blackhather-mentorship-program/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-uki-blackhather-mentorship-program/
+END:VEVENT
+BEGIN:VEVENT
+UID:4b86acb0df15@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261210T160000Z
+DTEND:20261210T170000Z
+SUMMARY:United States Threat Landscape 2027
+LOCATION:https://luma.com/event/evt-BGJornbgXQAb2FS\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/USthreatintelcloudsek Hosted by Team CloudSEK https://luma.com/cloudsekevents
+STATUS:CONFIRMED
+URL:https://luma.com/cloudsekevents
+END:VEVENT
+BEGIN:VEVENT
+UID:8a2520a6ff2a@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261211T020000Z
+DTEND:20261211T040000Z
+SUMMARY:Securing Tomorrow: Aikido Security Dinner | Nashville
+LOCATION:888\, Nashville\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/securing-tomorrow-nashville Address: 888 Nashville\, TN United States Hosted by Alexa\, Brandon Brodkin & John Amaral https://luma.com/aikidosecurity
+STATUS:CONFIRMED
+URL:https://luma.com/aikidosecurity
+END:VEVENT
+BEGIN:VEVENT
+UID:b4975fdc19ca@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261211T033000Z
+DTEND:20261212T113000Z
+SUMMARY:IEEE Vehicular Technology Society Student & Young Professionals Congress 2026
+LOCATION:Symbiosis Institute of Technology Hyderabad\, Telengana\, India
+DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/576147 Source: https://events.vtools.ieee.org/m/576147 https://events.vtools.ieee.org/m/576147
+STATUS:CONFIRMED
+URL:https://events.vtools.ieee.org/m/576147
+END:VEVENT
+BEGIN:VEVENT
+UID:345e0a138a8f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261211T130000Z
 DTEND:20261211T230000Z
 SUMMARY:BSides Philadelphia
-LOCATION:Live! Casino & Hotel\, 900 Packer Ave\, Philadelphia\, PA
+LOCATION:Live! Casino & Hotel\, 900 Packer Ave\, Philadelphia\, United States
 DESCRIPTION:Community security conference. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
-UID:127a18aafedc@the-lineup
-DTSTAMP:20261115T165027Z
+UID:f097e6155617@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261215T160000Z
 DTEND:20261215T180000Z
 SUMMARY:Microsoft workshop: Defender for Cloud posture management
-LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, NY
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, United States
 DESCRIPTION:Cloud security posture management in Azure. https://developer.microsoft.com/en-us/reactor/
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
-UID:2209030b4734@the-lineup
-DTSTAMP:20261115T165027Z
+UID:080d9ef15c05@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261215T230000Z
 DTEND:20261216T020000Z
 SUMMARY:NYSEC
-LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
 DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
-UID:d720822e4931@the-lineup
-DTSTAMP:20261115T165027Z
+UID:7420cc103cdf@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Cybersecurity Summit: GRC (virtual)
 LOCATION:Online
 DESCRIPTION:Governance\, risk and compliance. https://infosec-conferences.com/us-state/new-york/
+STATUS:CONFIRMED
 URL:https://infosec-conferences.com/us-state/new-york/
 END:VEVENT
 BEGIN:VEVENT
-UID:10e56e1115ee@the-lineup
-DTSTAMP:20261115T165027Z
+UID:e974224430ab@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+SUMMARY:AI for Developers
+LOCATION:Online
+DESCRIPTION:https://aiconference.dev
+STATUS:CONFIRMED
+URL:https://aiconference.dev
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f1447785b5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:WiCyS | Executive Leaders Network
+LOCATION:Online
+DESCRIPTION:The Executive Leaders Network brings together top cybersecurity leaders to share insights\, solve challenges\, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-12-17/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-12-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:5bce2a4ab826@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20261219T150000Z
+DTEND:20261219T170000Z
+SUMMARY:WiCyS Austin Affiliate | Monthly Social
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-12-19/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-12-19/
+END:VEVENT
+BEGIN:VEVENT
+UID:72e1a4547ff1@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261231
 SUMMARY:40C3: Chaos Communication Congress
 LOCATION:Hamburg Messe\, Hamburg\, Germany
 DESCRIPTION:Europe's biggest hacker congress. Talks stream free. https://events.ccc.de/en/category/40c3/
+STATUS:CONFIRMED
 URL:https://events.ccc.de/en/category/40c3/
 END:VEVENT
 BEGIN:VEVENT
-UID:3833d7f1e58d@the-lineup
-DTSTAMP:20261115T165027Z
+UID:456e7a66eb2d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20261229T230000Z
 DTEND:20261230T020000Z
 SUMMARY:Brooklyn NYSEC
-LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, NY
+LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, United States
 DESCRIPTION:The Brooklyn edition of NYSEC\, only on fifth Tuesdays. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
-UID:3a2b51b8f44e@the-lineup
-DTSTAMP:20261115T165027Z
+UID:84847f6ae751@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270101T220000Z
 DTEND:20270102T000000Z
 SUMMARY:NYC2600
-LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
 DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:54f7bfa25e60@the-lineup
-DTSTAMP:20261115T165027Z
+UID:5067265cfe98@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270105T230000Z
 DTEND:20270106T013000Z
 SUMMARY:Microsoft Reactor: MVP Feature Series
-LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
 DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
-UID:87ebe6e3b9dc@the-lineup
-DTSTAMP:20261115T165027Z
+UID:9de7e769d0a5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270111
+SUMMARY:AI Conf Asia
+LOCATION:Kathmandu\, Kathmandu\, Nepal
+DESCRIPTION:https://aiconf.asia
+STATUS:CONFIRMED
+URL:https://aiconf.asia
+END:VEVENT
+BEGIN:VEVENT
+UID:4a68f8b9f50f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20270116T150000Z
+DTEND:20270116T170000Z
+SUMMARY:WiCyS Austin Affiliate | Monthly Social
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-01-16/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-01-16/
+END:VEVENT
+BEGIN:VEVENT
+UID:b45b9a756717@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270119T230000Z
 DTEND:20270120T020000Z
 SUMMARY:NYSEC
-LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
 DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
-UID:d02448720ffd@the-lineup
-DTSTAMP:20261115T165027Z
+UID:88a2cbe185ec@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:WiCyS | Executive Leaders Network
+LOCATION:Online
+DESCRIPTION:The Executive Leaders Network brings together top cybersecurity leaders to share insights\, solve challenges\, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-01-21/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-01-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:76c47517b8a1@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270128
 SUMMARY:Cybertech Global Tel Aviv 2027
 LOCATION:Expo Tel Aviv\, Pavilion 2\, Tel Aviv\, Israel
 DESCRIPTION:International cyber industry and government event. https://www.cybertechisrael.com/sites/cybertlv2022/files/2026-06/brochure%20global%20tlv%202027.pdf
+STATUS:CONFIRMED
 URL:https://www.cybertechisrael.com/sites/cybertlv2022/files/2026-06/brochure%20global%20tlv%202027.pdf
 END:VEVENT
 BEGIN:VEVENT
-UID:09ab3fa81591@the-lineup
-DTSTAMP:20261115T165027Z
+UID:823d782447e8@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270204
+SUMMARY:3rd International Conference on Artificial Intelligence and Data Science
+LOCATION:Dubai\, Dubai\, United Arab Emirates
+DESCRIPTION:https://datascience.averconferences.com
+STATUS:CONFIRMED
+URL:https://datascience.averconferences.com
+END:VEVENT
+BEGIN:VEVENT
+UID:77a465bb32e4@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:WiCyS | SANS Executive Cybersecurity Exercise
+LOCATION:Online
+DESCRIPTION:The 90 minute SANS Introductory Cyber Crisis Exercise (Virtual) places participants in a realistic\, facilitated cyber incident where they will work alongside peers from multiple organizations to navigate complex business https://www.wicys.org/event/wicys-sans-executive-cybersecurity-exercise/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-sans-executive-cybersecurity-exercise/
+END:VEVENT
+BEGIN:VEVENT
+UID:2898f8fc3904@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270202T230000Z
 DTEND:20270203T013000Z
 SUMMARY:Microsoft Reactor: MVP Feature Series
-LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
 DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
-UID:dfc655b6f7d3@the-lineup
-DTSTAMP:20261115T165027Z
+UID:ae5cb5be58e5@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270205
+SUMMARY:Daytona Compute
+LOCATION:San Francisco\, San Francisco\, U.S.A
+DESCRIPTION:https://compute.daytona.io
+STATUS:CONFIRMED
+URL:https://compute.daytona.io
+END:VEVENT
+BEGIN:VEVENT
+UID:700575626c82@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270205
+SUMMARY:TechEx Global
+LOCATION:London\, London\, U.K
+DESCRIPTION:https://techexevent.com/global
+STATUS:CONFIRMED
+URL:https://techexevent.com/global
+END:VEVENT
+BEGIN:VEVENT
+UID:85ee7019b4f4@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270205T220000Z
 DTEND:20270206T000000Z
 SUMMARY:NYC2600
-LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
 DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:473a4af130ec@the-lineup
-DTSTAMP:20261115T165027Z
+UID:2f7544652736@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
 SUMMARY:DistrictCon Year 2
-LOCATION:Washington\, DC\, Washington\, DC
+LOCATION:Washington\, DC\, Washington\, United States
 DESCRIPTION:Weekend hacker con mixing tech and policy. https://sessionize.com/districtcon-year-2/
+STATUS:CONFIRMED
 URL:https://sessionize.com/districtcon-year-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:f954726027b8@the-lineup
-DTSTAMP:20261115T165027Z
+UID:25c20b16493b@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270213
 SUMMARY:Munich Cyber Security Conference 2027
 LOCATION:Chamber of Commerce (IHK)\, Munich\, Germany
 DESCRIPTION:Senior-leader cyber policy forum. https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
+STATUS:CONFIRMED
 URL:https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
 END:VEVENT
 BEGIN:VEVENT
-UID:f17deba34282@the-lineup
-DTSTAMP:20261115T165027Z
+UID:cec3d13343b7@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270216T230000Z
 DTEND:20270217T020000Z
 SUMMARY:NYSEC
-LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
 DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
-UID:76626ea819df@the-lineup
-DTSTAMP:20261115T165027Z
-DTSTART;VALUE=DATE:20270217
-DTEND;VALUE=DATE:20270220
-SUMMARY:Zero Trust World 2027
-LOCATION:Orlando\, FL\, Orlando\, FL
-DESCRIPTION:Hands-on zero trust labs\, hosted by ThreatLocker. https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
-URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:7339f7de4443@the-lineup
-DTSTAMP:20261115T165027Z
+UID:91a659f5ea11@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270220
 SUMMARY:Wild West Hackin' Fest @ Mile High
-LOCATION:Sheraton Denver Downtown\, Denver\, CO
+LOCATION:Sheraton Denver Downtown\, Denver\, United States
 DESCRIPTION:Community-first\, open-source tools\, hands-on. https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
+STATUS:CONFIRMED
 URL:https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
-UID:30993144ca45@the-lineup
-DTSTAMP:20261115T165027Z
+UID:15551dca0682@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270220
+SUMMARY:Zero Trust World 2027
+LOCATION:Orlando\, FL\, Orlando\, United States
+DESCRIPTION:Hands-on zero trust labs\, hosted by ThreatLocker. https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+STATUS:CONFIRMED
+URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b4111aa626f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:WiCyS | Executive Leaders Network
+LOCATION:Online
+DESCRIPTION:The Executive Leaders Network brings together top cybersecurity leaders to share insights\, solve challenges\, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-02-18/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-02-18/
+END:VEVENT
+BEGIN:VEVENT
+UID:5eb52e47fec8@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270223T130000Z
 DTEND:20270223T230000Z
 SUMMARY:The Official Cybersecurity Summit: New York (spring)
-LOCATION:Sheraton New York Times Square\, Manhattan\, NY
+LOCATION:Sheraton New York Times Square\, Manhattan\, United States
 DESCRIPTION:Spring edition of the one-day executive summit. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
-UID:5e3f8bed6879@the-lineup
-DTSTAMP:20261115T165027Z
+UID:49461a53df78@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:SecureWorld: AI Strategy\, Governance & Growth (virtual)
 LOCATION:Online
 DESCRIPTION:AI strategy and AI governance programs. https://www.secureworld.io/events
+STATUS:CONFIRMED
 URL:https://www.secureworld.io/events
 END:VEVENT
 BEGIN:VEVENT
-UID:960b4e733388@the-lineup
-DTSTAMP:20261115T165027Z
+UID:de025e1fa0e6@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270302T230000Z
 DTEND:20270303T013000Z
 SUMMARY:Microsoft Reactor: MVP Feature Series
-LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
 DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
-UID:38a2e4925980@the-lineup
-DTSTAMP:20261115T165027Z
+UID:122bc13d408e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270305T220000Z
 DTEND:20270306T000000Z
 SUMMARY:NYC2600
-LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
 DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:16b2707d9785@the-lineup
-DTSTAMP:20261115T165027Z
+UID:80955d65b065@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270311
+SUMMARY:Annual Global Summit on Artificial Intelligence and Machine Learning
+LOCATION:Barcelona\, Barcelona\, Spain
+DESCRIPTION:https://vividglobalsummits.com/2027/artificial-intelligence
+STATUS:CONFIRMED
+URL:https://vividglobalsummits.com/2027/artificial-intelligence
+END:VEVENT
+BEGIN:VEVENT
+UID:97085202a78e@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270319
 SUMMARY:NVIDIA GTC 2027
-LOCATION:San Jose McEnery Convention Center\, San Jose\, CA
+LOCATION:San Jose McEnery Convention Center\, San Jose\, United States
 DESCRIPTION:Agentic AI and AI infrastructure. https://www.nvidia.com/en-us/gtc/faq/
+STATUS:CONFIRMED
 URL:https://www.nvidia.com/en-us/gtc/faq/
 END:VEVENT
 BEGIN:VEVENT
-UID:f494550da4d3@the-lineup
-DTSTAMP:20261115T165027Z
+UID:e1de3fc67242@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Open Source SecurityCon Europe 2027
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:https://openssf.org/event/open-source-securitycon/
+STATUS:CONFIRMED
+URL:https://openssf.org/event/open-source-securitycon/
+END:VEVENT
+BEGIN:VEVENT
+UID:3af324545be3@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270319
+SUMMARY:Dutch AI Conference
+LOCATION:Amsterdam\, Amsterdam\, Netherlands
+DESCRIPTION:https://aiconference.nl
+STATUS:CONFIRMED
+URL:https://aiconference.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:cf510c351dae@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270318
+SUMMARY:GITEX AI LATAM
+LOCATION:São Paulo\, São Paulo\, Brazil
+DESCRIPTION:https://www.gitexlatam.com
+STATUS:CONFIRMED
+URL:https://www.gitexlatam.com
+END:VEVENT
+BEGIN:VEVENT
+UID:b10d274db372@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270316T220000Z
 DTEND:20270317T010000Z
 SUMMARY:NYSEC
-LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
 DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
-UID:0515f56fa392@the-lineup
-DTSTAMP:20261115T165027Z
+UID:940813b50752@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270322
+SUMMARY:International Conference on Artificial Intelligence and Machine Learning
+LOCATION:Barcelona\, Barcelona\, Spain
+DESCRIPTION:https://aiml.scientificmeditech.com
+STATUS:CONFIRMED
+URL:https://aiml.scientificmeditech.com
+END:VEVENT
+BEGIN:VEVENT
+UID:e3802e0ad281@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Cloud Security USA
-LOCATION:Venue TBA\, Manhattan\, NY
+LOCATION:Venue TBA\, Manhattan\, United States
 DESCRIPTION:Cloud security conference. https://infosec-conferences.com/event/20270324-cloud-usa-conference/
+STATUS:CONFIRMED
 URL:https://infosec-conferences.com/event/20270324-cloud-usa-conference/
 END:VEVENT
 BEGIN:VEVENT
-UID:01543f7fcf71@the-lineup
-DTSTAMP:20261115T165027Z
+UID:6e2a12eac8c3@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270330T220000Z
 DTEND:20270331T010000Z
 SUMMARY:Brooklyn NYSEC
-LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, NY
+LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, United States
 DESCRIPTION:The Brooklyn edition of NYSEC\, only on fifth Tuesdays. https://securitycalendar.com/jersey-city-nj.html
+STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
-UID:9e4a42e82a4a@the-lineup
-DTSTAMP:20261115T165027Z
+UID:e8bbb2ccfb47@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270403
+SUMMARY:SunSecCon
+LOCATION:Pasadena\, Pasadena\, U.S.A
+DESCRIPTION:https://www.sunseccon.org/2027
+STATUS:CONFIRMED
+URL:https://www.sunseccon.org/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:7888204faddc@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270402T210000Z
 DTEND:20270402T230000Z
 SUMMARY:NYC2600
-LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
 DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:8c0718d4a329@the-lineup
-DTSTAMP:20261115T165027Z
+UID:fa2ba6091da0@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:OWASP BASC 2027 — Conference Dates
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:OWASP AppSec Days event. Event details: https://basconf.org/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://basconf.org/ https://basconf.org/
+STATUS:CONFIRMED
+URL:https://basconf.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:fa0cfb696a00@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
 DTSTART:20270406T220000Z
 DTEND:20270407T003000Z
 SUMMARY:Microsoft Reactor: MVP Feature Series
-LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
 DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:9629693314fc@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270409
+SUMMARY:BSides Prague
+LOCATION:Prague\, Prague\, Czech Republic
+DESCRIPTION:https://bsidesprg.cz
+STATUS:CONFIRMED
+URL:https://bsidesprg.cz
+END:VEVENT
+BEGIN:VEVENT
+UID:848707c86f9f@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270420
+SUMMARY:AI Coding Summit Asia
+LOCATION:Singapore\, Singapore\, Singapore
+DESCRIPTION:https://aicodingsummit.com/asia
+STATUS:CONFIRMED
+URL:https://aicodingsummit.com/asia
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9d3b548789@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270417
+SUMMARY:GENAIX: Global Generative & Agentic AI Summit
+LOCATION:Singapore\, Singapore\, Singapore
+DESCRIPTION:https://genaixworld.com
+STATUS:CONFIRMED
+URL:https://genaixworld.com
+END:VEVENT
+BEGIN:VEVENT
+UID:2386af22359d@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20270420T220000Z
+DTEND:20270421T010000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, United States
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+STATUS:CONFIRMED
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:4f5876bf6812@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270423
+SUMMARY:GITEX AI MEDITERRANEAN
+LOCATION:Rome\, Rome\, Italy
+DESCRIPTION:https://www.gitexitaly.com
+STATUS:CONFIRMED
+URL:https://www.gitexitaly.com
+END:VEVENT
+BEGIN:VEVENT
+UID:60e514317bcb@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20270504T220000Z
+DTEND:20270505T003000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, United States
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+STATUS:CONFIRMED
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:d61b38844700@the-lineup
+DTSTAMP:20261115T170427Z
+SEQUENCE:0
+DTSTART:20270507T210000Z
+DTEND:20270507T230000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, United States
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+STATUS:CONFIRMED
+URL:https://www.2600.com/meetings
 END:VEVENT
 END:VCALENDAR
