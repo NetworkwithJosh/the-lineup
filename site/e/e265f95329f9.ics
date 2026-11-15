@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e265f95329f9@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261202T000000Z
+DTEND:20261202T030000Z
+SUMMARY:DefCon North Atlanta (DC770)
+LOCATION:Location on listing\, Las Vegas\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Details Q: What are DC-Groups? A: The DEF CON Groups were spawned from the annual DEF CON security conference in Las Vegas. The DEF CON Groups (DCGs or DC-Grou https://www.meetup.com/ethical-hackers/events/317236100/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/317236100/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

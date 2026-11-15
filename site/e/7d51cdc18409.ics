@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7d51cdc18409@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261203T123000Z
 DTEND:20261203T143000Z
 SUMMARY:Birth of the AI CISO: A Leadership Roundtable
-LOCATION:Hyderabad\, Telangana\, India
+LOCATION:Hyderabad\, Hyderabad\, India
 DESCRIPTION:Get up-to-date information at: https://luma.com/aicisohyd Address: Hyderabad Hyderabad\, India Hosted by Team CloudSEK & Rahul Dhiman https://luma.com/cloudsekevents
 STATUS:CONFIRMED
 URL:https://luma.com/cloudsekevents

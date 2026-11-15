@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6998f7ce31fc@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261203T173000Z
 DTEND:20261203T210000Z
 SUMMARY:AI Builders Hamburg - Dec 3
-LOCATION:House of AI Hamburg\, House of AI Hamburg\, Germany
+LOCATION:House of AI Hamburg\, Hamburg\, Germany
 DESCRIPTION:Get up-to-date information at: https://luma.com/hamburg-dec3 Address: House of AI Hamburg House of AI Hamburg\, Germany Hosted by AI Builders\, Jan Schnedler & Martin Zielinski https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders

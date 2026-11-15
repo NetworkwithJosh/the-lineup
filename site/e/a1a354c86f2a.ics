@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a1a354c86f2a@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261201T190000Z
+DTEND:20261201T200000Z
+SUMMARY:PHX~CURRENTS
+LOCATION:Location on listing\, Phoenix\, United States
+DESCRIPTION:PROTECTPHX **So\, you just discuss the tech news?** Well\, yes. But we do this because there are benefits for our careers. Here are some of those benefits: * Learn faster with real‑world context * Cut through hype and focu https://www.meetup.com/protectphx/events/316780172/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/protectphx/events/316780172/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

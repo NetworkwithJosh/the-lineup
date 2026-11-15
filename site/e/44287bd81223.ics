@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:44287bd81223@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20270324T180000Z
 DTEND:20270324T210000Z
 SUMMARY:AI Builders London - Mar 24
-LOCATION:beyond The Bower\, beyond The Bower\, United Kingdom
+LOCATION:beyond The Bower\, London\, United Kingdom
 DESCRIPTION:Get up-to-date information at: https://luma.com/lon-mar24 Address: beyond The Bower beyond The Bower London\, United Kingdom Hosted by AI Builders https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders

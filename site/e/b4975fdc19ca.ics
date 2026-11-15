@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b4975fdc19ca@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261211T033000Z
 DTEND:20261212T113000Z
 SUMMARY:IEEE Vehicular Technology Society Student & Young Professionals Congress 2026
-LOCATION:Symbiosis Institute of Technology Hyderabad\, Telengana\, India
+LOCATION:Symbiosis Institute of Technology Hyderabad\, Hyderabad\, India
 DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/576147 Source: https://events.vtools.ieee.org/m/576147 https://events.vtools.ieee.org/m/576147
 STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/576147

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:32992b4f1ea3@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261118T223000Z
+DTEND:20261119T010000Z
+SUMMARY:Building With AI | ART-ificial Intelligence | w/The AI Collective
+LOCATION:Serendipity Labs - Stamford\, Stamford\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford\, CT United States Hosted by Isadore Johnson & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+END:VCALENDAR

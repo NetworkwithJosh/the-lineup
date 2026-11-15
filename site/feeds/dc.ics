@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2f7544652736@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:DistrictCon Year 2
+LOCATION:Washington\, DC\, Washington\, United States
+DESCRIPTION:Weekend hacker con mixing tech and policy. https://sessionize.com/districtcon-year-2/
+STATUS:CONFIRMED
+URL:https://sessionize.com/districtcon-year-2/
+END:VEVENT
+END:VCALENDAR

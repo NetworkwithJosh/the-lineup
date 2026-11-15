@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e2666bba821b@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261116T213000Z
 DTEND:20261117T000000Z
 SUMMARY:AI and the Future of Work (w/ The AI Collective)
-LOCATION:Oracle do Brasil Sistemas\, São Paulo - SP\, Brazil
+LOCATION:Oracle do Brasil Sistemas\, São Paulo\, Brazil
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sa-11-16 Address: Oracle do Brasil Sistemas São Paulo\, SP Brazil Hosted by The AI Collective\, Luiz Real & Edd Martins https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective

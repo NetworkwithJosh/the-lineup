@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b1704138e82b@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270420T223000Z
+DTEND:20270421T003000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/hcflttykcgbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/hcflttykcgbbc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ca9245538aa6@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261118T173000Z
+DTEND:20261118T200000Z
+SUMMARY:WiCyS NE Ohio | Cracking the Interview Code: Year-End Event
+LOCATION:TrustedSec\, Fairlawn\, United States
+DESCRIPTION:Join WiCyS Northeast Ohio for its annual year-end event as it closes out the year with an evening of networking\, awards\, announcements\, and career-building insights! Food and drink will be provided! Connect with fellow c https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/
+END:VEVENT
+BEGIN:VEVENT
+UID:b855b1b964cc@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261202T220000Z
+DTEND:20261203T003000Z
+SUMMARY:AI Open Mic and Networking (w/ The AI Collective)
+LOCATION:Missing Falls Brewery\, Akron\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cl-12-2 Address: Missing Falls Brewery Akron\, OH United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+END:VCALENDAR

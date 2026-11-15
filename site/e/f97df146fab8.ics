@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f97df146fab8@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261120T003000Z
 DTEND:20261120T020000Z
 SUMMARY:Your Automations Just Became a Legal Question (w/ The AI Collective)
-LOCATION:ACA\, ACA\, Suite E
+LOCATION:ACA\, Suite E
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cos-nov-townhall Address: ACA\, 905 Garden of the Gods Rd\, Suite E Hosted by The AI Collective & 6 others https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective

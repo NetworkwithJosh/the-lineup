@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:28b1c5d5e557@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261206T010000Z
+DTEND:20261208T030000Z
+SUMMARY:PyLadiesCon 2026
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:AWS Chicago User Group Join the global online PyLadies conference! PyLadies Conference (PyLadiesCon) is the fourth PyLadies conference\, an exciting online and FREE event dedicated to empowerment\, learning\, and diversity  https://www.meetup.com/aws-chicago/events/317382465/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aws-chicago/events/317382465/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

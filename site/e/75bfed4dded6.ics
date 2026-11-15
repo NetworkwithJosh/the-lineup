@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:75bfed4dded6@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261119T143000Z
 DTEND:20261120T010000Z
 SUMMARY:GCSI CIOTManuSec 2026 Conference – AI Adoption & Cyber Readiness
-LOCATION:IIT Chicago Kent College of Law\, Illinois\, United States
+LOCATION:IIT Chicago Kent College of Law\, Chicago\, United States
 DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/591951 Source: https://events.vtools.ieee.org/m/591951 https://events.vtools.ieee.org/m/591951
 STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/591951

@@ -1,0 +1,237 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:8a3d4196e3e7@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261116T230000Z
+DTEND:20261117T010000Z
+SUMMARY:Grok Bot Atlanta Meetup
+LOCATION:Tech North Atlanta\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/2ac0v8fs Address: Tech North Atlanta Alpharetta\, GA United States Hosted by Raj Poloju & 3 others https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
+UID:27b02a001c6d@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261117T233000Z
+DTEND:20261118T013000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/314101557/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/314101557/
+END:VEVENT
+BEGIN:VEVENT
+UID:993f16c6935d@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261117T233000Z
+DTEND:20261118T020000Z
+SUMMARY:Knowns and Unknowns: Testing AI-Generated Code
+LOCATION:Roam Dunwoody\, Atlanta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/ajug-uuog Address: Roam Dunwoody Atlanta\, GA United States Hosted by Atlanta Java Users Group https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
+UID:c64a3f7e88be@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T003000Z
+SUMMARY:vCISO Pathway: From Analyst to CISO
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta 📅 New date: we moved this session to Wednesday\, November 18\, same time (6 PM ET). See you there. Every path we've walked this fall ends up in the same room: the one where somebody decides what  https://www.meetup.com/cover6-community-atlanta/events/316737279/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/316737279/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e343f311d94@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261118T223000Z
+DTEND:20261119T013000Z
+SUMMARY:Agent Demo Night (w/ The AI Collective Atlanta)
+LOCATION:Tech North Atlanta\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:f32199d40dcf@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+SUMMARY:Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)
+LOCATION:Revival Wines\, Fayetteville\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:4ef92e9fe276@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261119T223000Z
+DTEND:20261120T010000Z
+SUMMARY:Sandy Springs AI Meetup (w/ The AI Collective)
+LOCATION:Mutation Brewing and Distilling Company\, Sandy Springs\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-19-2 Address: Mutation Brewing and Distilling Company Sandy Springs\, GA United States Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ee1b72589d1a@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261121T220000Z
+DTEND:20261122T010000Z
+SUMMARY:Services is the new SaaS: A Gathering of IT services leaders in Atlanta
+LOCATION:190 Bluegrass Valley Pkwy\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta\, GA United States Hosted by Moring AI & Balaji Nagaraj Kumar https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
+UID:f921a3d7b48a@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261203T233000Z
+DTEND:20261204T013000Z
+SUMMARY:Ethical Hacker Tactics\, CTF & Tech Talks Monthly by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety) @ [Freeside Atlanta](https://www.freesideatlanta.org/)** **BlackHack Society of Atlanta** hosts a monthly o https://www.meetup.com/blackhack-society-atlanta/events/317364983/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/317364983/
+END:VEVENT
+BEGIN:VEVENT
+UID:655502189f4a@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261204T230000Z
+DTEND:20261205T010000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/315395636/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/315395636/
+END:VEVENT
+BEGIN:VEVENT
+UID:3fe73379ab73@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261215T233000Z
+DTEND:20261216T013000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/316031991/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/316031991/
+END:VEVENT
+BEGIN:VEVENT
+UID:79007d35673b@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270101T230000Z
+DTEND:20270102T010000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/315395638/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/315395638/
+END:VEVENT
+BEGIN:VEVENT
+UID:c1f28ff4904d@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270119T233000Z
+DTEND:20270120T013000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/314101558/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/314101558/
+END:VEVENT
+BEGIN:VEVENT
+UID:0317cbfabe5b@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270205T230000Z
+DTEND:20270206T010000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/jnlmbvykcdbhb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcdbhb/
+END:VEVENT
+BEGIN:VEVENT
+UID:05a253ee6fc2@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270216T233000Z
+DTEND:20270217T013000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/316031992/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/316031992/
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e60f4d54ed@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270305T230000Z
+DTEND:20270306T010000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/jnlmbvykcfbhb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcfbhb/
+END:VEVENT
+BEGIN:VEVENT
+UID:699f2ce757a5@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270316T223000Z
+DTEND:20270317T003000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/314101559/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/314101559/
+END:VEVENT
+BEGIN:VEVENT
+UID:7b09b67409bb@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270402T220000Z
+DTEND:20270403T000000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
+END:VEVENT
+BEGIN:VEVENT
+UID:b1704138e82b@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270420T223000Z
+DTEND:20270421T003000Z
+SUMMARY:Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black https://www.meetup.com/blackhack-society-atlanta/events/hcflttykcgbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/hcflttykcgbbc/
+END:VEVENT
+END:VCALENDAR

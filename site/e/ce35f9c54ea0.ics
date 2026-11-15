@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ce35f9c54ea0@the-lineup
-DTSTAMP:20261115T224149Z
+DTSTAMP:20261115T234206Z
 SEQUENCE:0
 DTSTART:20261116T153000Z
 DTEND:20261116T183000Z
 SUMMARY:AI build & distribution workshop @ SLUSH
-LOCATION:Hive Helsinki\, Hive Helsinki\, Finland
+LOCATION:Hive Helsinki\, Helsinki\, Finland
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-11-16 Address: Hive Helsinki Arrival instructions: Type 'Hive Helsinki' in your maps application to see the exact location of the entrance. The entire campus is acce https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective

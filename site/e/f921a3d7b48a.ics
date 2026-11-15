@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f921a3d7b48a@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261203T233000Z
+DTEND:20261204T013000Z
+SUMMARY:Ethical Hacker Tactics\, CTF & Tech Talks Monthly by BlackHack Society
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:BlackHack Society - Atlanta **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety) @ [Freeside Atlanta](https://www.freesideatlanta.org/)** **BlackHack Society of Atlanta** hosts a monthly o https://www.meetup.com/blackhack-society-atlanta/events/317364983/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/blackhack-society-atlanta/events/317364983/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

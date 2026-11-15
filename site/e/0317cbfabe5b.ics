@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0317cbfabe5b@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20270205T230000Z
+DTEND:20270206T010000Z
+SUMMARY:Monthly 2600 Meeting!
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/jnlmbvykcdbhb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcdbhb/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

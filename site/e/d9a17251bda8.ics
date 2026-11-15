@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d9a17251bda8@the-lineup
+DTSTAMP:20261115T234206Z
+SEQUENCE:0
+DTSTART:20261117T003000Z
+DTEND:20261117T020000Z
+SUMMARY:AI Study Group - Backpropogation
+LOCATION:Location on listing\, St. Louis\, United States
+DESCRIPTION:STL CYBER Meetup ​This Monday's presentation and group session will recap on Lecture 5: Multilayer Perceptrons (L05) and Lecture 6: Backpropogation (L06) as part of a series on ML Deep Learning. [Lecture notes from Roger https://www.meetup.com/stl-cyber-meetup/events/317444071/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/stl-cyber-meetup/events/317444071/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
