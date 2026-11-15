@@ -1,12 +1,13 @@
 # The Lineup
 
-Cybersecurity and AI meetups and conferences around NYC, NJ and Philly, plus the US, international and online. Tell it when you get off work and how long it takes you to get there, and it shows what you can actually make.
+Cybersecurity and AI meetups and conferences worldwide, refreshed every day. Tell it when you get off work and how long it takes you to get there, and it shows what you can actually make.
 
 It only lists events other people organize. It does not run, host or sell tickets to anything.
 
 ## How it works
 
-- `scraper/scrape.py` pulls public calendar feeds (Meetup groups, Luma calendars, any ICS link), expands standing meetups from `recurring.json`, merges hand-checked events from `curated.json`, and writes `site/data/events.json` plus a subscribable feed at `site/lineup.ics`. Standard library only.
+- `scraper/scrape.py` pulls public sources worldwide (ICS calendars like Black Hills Infosec, WiCyS, OpenSSF and conference feeds; Meetup groups; Luma calendars; the confs.tech open dataset), expands standing meetups from `recurring.json`, merges hand-checked events from `curated.json`, and writes `site/data/events.json` plus a subscribable feed at `site/lineup.ics`. Standard library only.
+- Every run is compared with the last one. New events get a New tag, moved ones show what changed, and events that the organizer cancels (or that disappear from a working feed) show as Cancelled for up to 14 days. The calendar feed sends those cancellations too. If a source is down, its events are kept as they were and never marked cancelled.
 - `site/index.html` is the whole site: the workday slider, filters, the board, and the feed link.
 - `.github/workflows/refresh.yml` runs the scraper every morning and publishes the site to GitHub Pages.
 

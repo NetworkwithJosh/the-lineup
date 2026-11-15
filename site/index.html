@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Lineup: cyber and AI meetups you can actually make</title>
-<meta name="description" content="Cybersecurity and AI meetups and conferences around NYC and NJ, plus the US, international and online. Tell it when you get off work and it shows what you can still make.">
+<meta name="description" content="Cybersecurity and AI meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
 <meta name="theme-color" content="#0b0d10">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
 <link rel="alternate" type="text/calendar" title="The Lineup feed" href="lineup.ics">
@@ -156,6 +156,29 @@
   .colophon { margin-top: var(--sc-6); font-size: 0.78rem; color: var(--ink-dim); line-height: 1.6; max-width: 70ch; }
   .colophon a { color: var(--sc-ink-soft); }
   .sources { font-family: var(--sc-font-mono); font-size: 0.72rem; color: var(--ink-dim); margin-top: var(--sc-2); }
+  .pick { width: 100%; padding: 0.5rem 0.7rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: var(--sc-surface); color: var(--sc-ink); font-size: var(--sc-t-sm); }
+  .pick:focus-visible { outline: 2px solid var(--sc-accent); outline-offset: 2px; }
+  .pick-hint { font-size: 0.78rem; color: var(--ink-dim); margin: var(--sc-2) 0 0; line-height: 1.45; }
+  .bar__new { color: var(--sc-accent); }
+  @media (max-width: 640px) { .bar__new { display: none; } }
+  .changes { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sc-2); margin: calc(-1 * var(--sc-2)) 0 var(--sc-6); }
+  .changes .sc-label { margin-right: var(--sc-1); }
+  .chip { font-size: 0.8rem; padding: 0.3rem 0.65rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink); cursor: pointer; display: inline-flex; align-items: center; gap: 0.45em; transition: border-color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out); }
+  .chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; }
+  .chip--new::before { background: var(--sc-accent); }
+  .chip--upd::before { background: #8fc4ff; }
+  .chip--cx::before { background: #ff8a7a; }
+  .chip[aria-pressed=true] { background: var(--sc-ink); color: var(--sc-canvas); border-color: var(--sc-ink); }
+  .chip:active { transform: scale(0.97); }
+  .chip[hidden] { display: none; }
+  .flag { display: inline-block; font-family: var(--sc-font-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 4px; vertical-align: 0.15em; margin-right: 0.45em; font-weight: 500; }
+  .flag--new { background: var(--sc-accent); color: var(--sc-accent-ink); }
+  .flag--upd { background: #1b2a3a; color: #a9d2ff; }
+  .flag--cx { background: #3a1d1b; color: #ffb1a6; }
+  .ev__change { margin-top: var(--sc-2); font-size: var(--sc-t-sm); color: #a9d2ff; }
+  .ev__cx { margin-top: var(--sc-2); font-size: var(--sc-t-sm); color: #ffb1a6; }
+  .ev.is-cx .ev__title a { text-decoration: line-through; text-decoration-thickness: 1px; color: var(--sc-ink-soft); }
+  .ev.is-cx .ev__date { color: var(--sc-ink-soft); }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>
 </head>
@@ -163,6 +186,7 @@
 <header class="bar">
   <a class="bar__mark" href="#board"><i aria-hidden="true"></i>The Lineup</a>
   <span class="bar__live"><b id="bar-count">0</b> upcoming</span>
+  <span class="bar__live bar__new" id="bar-new" hidden></span>
   <span class="bar__updated" id="bar-updated">loading feeds</span>
   <span class="bar__sp"></span>
   <a class="bar__link" href="#feed">Feed</a>
@@ -172,7 +196,7 @@
 <div class="app">
   <aside class="side" aria-label="Your schedule and filters">
     <section class="shift" aria-labelledby="shift-h">
-      <h1 id="shift-h">Cyber and AI meetups you can actually make.</h1>
+      <h1 id="shift-h">Cyber and AI meetups worldwide, filtered to the ones you can actually make.</h1>
       <p class="hint">Set when you get off work and how long it takes you to get there.</p>
 
       <div class="knob">
@@ -202,20 +226,20 @@
       </div>
     </div>
     <div class="group">
-      <span class="sc-label" id="where-l">Where</span>
-      <div class="seg" role="group" aria-labelledby="where-l" data-filter="region">
-        <button type="button" data-v="local" aria-pressed="true">NYC + NJ + PA</button>
-        <button type="button" data-v="online" aria-pressed="false">Online</button>
-        <button type="button" data-v="us" aria-pressed="false">US</button>
-        <button type="button" data-v="world" aria-pressed="false">International</button>
-        <button type="button" data-v="all" aria-pressed="false">Everywhere</button>
-      </div>
+      <label class="sc-label" for="country">Country</label>
+      <select class="pick" id="country"></select>
+    </div>
+    <div class="group">
+      <label class="sc-label" for="metro">City</label>
+      <select class="pick" id="metro"></select>
+      <p class="pick-hint" id="metro-hint">Pick your city and the slider tells you what you can reach after work.</p>
     </div>
     <div class="group">
       <span class="sc-label" id="show-l">Show</span>
       <div class="row-toggles" role="group" aria-labelledby="show-l">
         <button type="button" class="toggle" id="t-make" aria-pressed="false">Only what I can make</button>
         <button type="button" class="toggle" id="t-free" aria-pressed="false">Free only</button>
+        <button type="button" class="toggle" id="t-online" aria-pressed="true">Include online</button>
       </div>
     </div>
     <div class="group">
@@ -229,11 +253,17 @@
       <h2 id="board-h">Coming up</h2>
       <p class="sc-body" id="board-sub"></p>
     </div>
+    <div class="changes" id="changes" hidden>
+      <span class="sc-label">This week</span>
+      <button type="button" class="chip chip--new" data-change="new" aria-pressed="false"></button>
+      <button type="button" class="chip chip--upd" data-change="updated" aria-pressed="false"></button>
+      <button type="button" class="chip chip--cx" data-change="cancelled" aria-pressed="false"></button>
+    </div>
     <div id="list"><p class="empty">Loading events.</p></div>
 
     <section class="feed" id="feed" aria-labelledby="feed-h">
       <h2 id="feed-h">Keep the whole lineup in your calendar</h2>
-      <p>Subscribe once. New meetups show up on their own as the feeds refresh every day.</p>
+      <p>Subscribe once. New events appear on their own, moved ones update, and cancelled ones show as cancelled in your calendar. It refreshes every day.</p>
       <div class="feed__row">
         <label class="sr" for="feed-url">Calendar feed address</label>
         <input id="feed-url" readonly value="">
@@ -247,57 +277,75 @@
   </main>
 </div>
 
+
 <script>
 (() => {
-  const TZ = "America/New_York";
+  const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "America/New_York";
   const $ = (s) => document.querySelector(s);
-  const state = { off: 1080, trip: 45, topic: "all", region: "local", make: false, free: false, q: "" };
-  let EVENTS = [], META = {};
+  const state = { off: 1080, trip: 45, topic: "all", country: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
+  let EVENTS = [], DATA = {};
+  const NOW = Date.now(), WEEK = 7 * 864e5;
 
-  // ---------- time helpers: everything is judged on New York wall-clock time
-  const fmtParts = (d, opts) => Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: TZ, ...opts }).formatToParts(d).map(p => [p.type, p.value]));
-  const minsNY = (d) => { const p = fmtParts(d, { hour: "numeric", minute: "2-digit", hour12: false }); return (+p.hour % 24) * 60 + +p.minute; };
-  const dayNY = (d) => fmtParts(d, { weekday: "short" }).weekday;
-  const clock = (m) => { const h = Math.floor(m / 60), mm = m % 60, ap = h >= 12 ? "PM" : "AM"; return `${((h + 11) % 12) + 1}:${String(mm).padStart(2, "0")} ${ap}`; };
-  const dateOnly = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d, 17)); }; // noon NY, no day shift
+  // ---------- time: in-person events are judged on the clock where they happen, online ones on yours
+  const parts = (d, tz, o) => Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, ...o }).formatToParts(d).map(p => [p.type, p.value]));
+  const minsIn = (d, tz) => { const p = parts(d, tz, { hour: "numeric", minute: "2-digit", hour12: false }); return (+p.hour % 24) * 60 + +p.minute; };
+  const dayIn = (d, tz) => parts(d, tz, { weekday: "short" }).weekday;
+  const clock = (m) => { const h = Math.floor(m / 60) % 24, mm = m % 60; return `${((h + 11) % 12) + 1}:${String(mm).padStart(2, "0")} ${h >= 12 ? "PM" : "AM"}`; };
+  const dateOnly = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d, 12)); };
   const toDate = (e, k) => e.allDay ? dateOnly(e[k]) : new Date(e[k]);
-  const isWeekend = (d) => ["Sat", "Sun"].includes(dayNY(d));
+  const tzOf = (e) => e.allDay ? "UTC" : (e.online ? USER_TZ : (e.tz || USER_TZ));
+  const weekend = (d, tz) => ["Sat", "Sun"].includes(dayIn(d, tz));
   const mins = (n) => n < 60 ? `${n} min` : `${Math.floor(n / 60)} hr${n % 60 ? " " + (n % 60) + " min" : ""}`;
+  const shortTz = (d, tz) => parts(d, tz, { timeZoneName: "short" }).timeZoneName;
 
-  // ---------- the signature move: can you make it?
+  // ---------- the signature move
   function reach(e) {
-    const s = toDate(e, "start"), en = toDate(e, "end");
-    const online = e.region === "online";
-    const away = e.region === "us" || e.region === "world";
+    if (e.status === "cancelled") return { k: "off", t: "Cancelled" };
+    const s = toDate(e, "start"), en = toDate(e, "end"), tz = tzOf(e);
     const multi = e.allDay && e.start !== e.end;
-    if (away && !online) return { k: "off", t: multi ? "Travel and time off" : "Travel needed" };
+    const local = state.metro && !e.online && e.metro === state.metro;
+    const farAway = state.metro && !e.online && e.metro !== state.metro;
+    if (farAway) return { k: "off", t: multi ? "Travel and time off" : "Travel needed" };
     if (e.allDay) {
-      if (!multi && isWeekend(s)) return { k: "weekend", t: "On a weekend" };
       if (multi) {
-        let d = new Date(s), wk = 0; while (d <= en) { if (isWeekend(d)) wk++; d = new Date(d.getTime() + 864e5); }
-        return wk ? { k: "weekend", t: "Partly on a weekend" } : { k: "off", t: online ? "Daytime, during work" : "Needs time off" };
+        let d = new Date(s), wk = 0; while (d <= en) { if (weekend(d, "UTC")) wk++; d = new Date(d.getTime() + 864e5); }
+        return wk ? { k: "weekend", t: "Partly on a weekend" } : { k: "off", t: e.online ? "Daytime, during work" : "Needs time off" };
       }
-      return { k: "off", t: online ? "Daytime, during work" : "Needs time off" };
+      return weekend(s, "UTC") ? { k: "weekend", t: "On a weekend" } : { k: "off", t: e.online ? "Daytime, during work" : "Needs time off" };
     }
-    if (isWeekend(s)) return { k: "weekend", t: "On a weekend" };
-    const startM = minsNY(s), endM = minsNY(en) || 1440;
-    const free = state.off + (online ? 0 : state.trip);
+    if (weekend(s, tz)) return { k: "weekend", t: "On a weekend" };
+    const startM = minsIn(s, tz), endM = minsIn(en, tz) || 1440;
+    const free = state.off + (e.online ? 0 : state.trip);
+    const tag = (!local && !e.online) ? " if you're local" : "";
     if (free <= startM) {
       const early = startM - free;
-      return { k: "make", t: online ? "You're free before it starts" : (early === 0 ? "You'd walk in right on time" : `You'd walk in ${mins(early)} early`) };
+      return { k: "make", t: e.online ? "You're free before it starts" : (early === 0 ? `You'd walk in right on time${tag}` : `You'd walk in ${mins(early)} early${tag}`) };
     }
-    if (free < endM - 30) return { k: "late", t: `You'd catch the last ${mins(endM - free)}` };
+    if (free < endM - 30) return { k: "late", t: `You'd catch the last ${mins(endM - free)}${tag}` };
     return { k: "off", t: startM < state.off ? "During work hours" : "Ends before you get there" };
   }
 
+  // ---------- change flags
+  const isNew = (e) => e.status !== "recurring" && e.status !== "cancelled" && e.firstSeen && DATA.baselineAt && e.firstSeen > DATA.baselineAt && NOW - new Date(e.firstSeen) < WEEK;
+  const isUpd = (e) => e.status !== "cancelled" && e.changedAt && NOW - new Date(e.changedAt) < WEEK;
+  const isCx = (e) => e.status === "cancelled";
+  const changeOf = (e) => isCx(e) ? "cancelled" : isNew(e) ? "new" : isUpd(e) ? "updated" : "";
+
   // ---------- filters
+  function inPlace(e) {
+    if (e.online) return state.online;
+    if (state.country && e.country !== state.country) return false;
+    if (state.metro && e.metro !== state.metro) return false;
+    return true;
+  }
   function visible() {
     const q = state.q.trim().toLowerCase();
     return EVENTS.filter(e => {
       if (state.topic !== "all" && !e.tags.includes(state.topic)) return false;
-      if (state.region !== "all" && e.region !== state.region) return false;
+      if (!inPlace(e)) return false;
       if (state.free && !/^free/i.test(e.cost)) return false;
-      if (q && !`${e.title} ${e.venue} ${e.city} ${e.about} ${e.kind} ${e.source}`.toLowerCase().includes(q)) return false;
+      if (state.change && changeOf(e) !== state.change) return false;
+      if (q && !`${e.title} ${e.venue} ${e.city} ${e.country} ${e.about} ${e.kind} ${e.source}`.toLowerCase().includes(q)) return false;
       if (state.make && reach(e).k !== "make") return false;
       return true;
     });
@@ -306,28 +354,28 @@
   // ---------- rendering
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   function when(e) {
-    const s = toDate(e, "start"), en = toDate(e, "end");
-    const day = new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "short" }).format(s);
-    const date = new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric" }).format(s);
-    let time;
-    if (e.allDay) {
-      time = e.start === e.end ? "All day" : "to " + new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric" }).format(en);
-    } else {
-      time = clock(minsNY(s));
-      if (e.region !== "local" && e.region !== "online") time += " ET";
+    const s = toDate(e, "start"), en = toDate(e, "end"), tz = tzOf(e);
+    const f = (d, o) => new Intl.DateTimeFormat("en-US", { timeZone: tz, ...o }).format(d);
+    const out = { day: f(s, { weekday: "short" }), date: f(s, { month: "short", day: "numeric" }) };
+    if (e.allDay) out.time = e.start === e.end ? "All day" : "to " + f(en, { month: "short", day: "numeric" });
+    else {
+      out.time = clock(minsIn(s, tz));
+      if (!e.online && tz !== USER_TZ && shortTz(s, tz) !== shortTz(s, USER_TZ)) out.time += " " + shortTz(s, tz);
     }
-    return { day, date, time };
+    return out;
   }
-  const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "long", year: "numeric" }).format(toDate(e, "start"));
+  const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: tzOf(e), month: "long", year: "numeric" }).format(toDate(e, "start"));
+  const placeLabel = () => state.metro || state.country || "worldwide";
 
   function render(animate) {
     const list = visible();
     const groups = new Map();
     for (const e of list) { const k = monthKey(e); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); }
-    const regionName = { local: "around NYC, NJ and Philly", online: "online", us: "around the US", world: "international", all: "everywhere" }[state.region];
-    $("#board-sub").textContent = `${list.length} ${list.length === 1 ? "event" : "events"} ${regionName}${state.make ? " you can make" : ""}.`;
+    const live = state.change ? list.length : list.filter(e => !isCx(e)).length;
+    const noun = state.change ? `${state.change} ${live === 1 ? "event" : "events"}` : (live === 1 ? "event" : "events");
+    $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${state.make ? " you can make" : ""}.`;
     if (!list.length) {
-      $("#list").innerHTML = `<div class="empty"><p>Nothing matches. Try a later off time, a shorter trip, or turn off "Only what I can make".</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
+      $("#list").innerHTML = `<div class="empty"><p>Nothing matches. Try another city, a later off time, or turn off some filters.</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
       $("#reset").onclick = resetFilters;
       return;
     }
@@ -335,18 +383,22 @@
     for (const [m, evs] of groups) {
       html += `<section class="month" aria-label="${esc(m)}"><h3><span>${esc(m)}</span><span>${evs.length}</span></h3>`;
       for (const e of evs) {
-        const w = when(e), r = reach(e);
-        const meta = [e.venue, e.city !== e.venue ? e.city : "", e.cost, e.kind].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("");
-        const confirm = e.status === "verify" || e.status === "recurring" ? ` <span class="ev__day">(confirm)</span>` : "";
-        html += `<article class="ev${r.k === "off" ? " is-off" : ""}${animate ? " is-new" : ""}" data-id="${e.id}">
+        const w = when(e), r = reach(e), ch = changeOf(e);
+        const where = e.online ? ["Online"] : [e.venue !== e.city ? e.venue : "", e.city, e.country !== "United States" || !state.country ? e.country : ""];
+        const meta = [...where, e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("");
+        const flag = ch === "new" ? `<span class="flag flag--new">New</span>` : ch === "updated" ? `<span class="flag flag--upd">Updated</span>` : ch === "cancelled" ? `<span class="flag flag--cx">Cancelled</span>` : "";
+        const confirm = !ch && (e.status === "verify" || e.status === "recurring") ? ` <span class="ev__day">(confirm)</span>` : "";
+        html += `<article class="ev${r.k === "off" && !isCx(e) ? " is-off" : ""}${isCx(e) ? " is-cx" : ""}${animate ? " is-new" : ""}">
           <div class="ev__when"><div class="ev__day">${esc(w.day)}</div><div class="ev__date">${esc(w.date)}</div><div class="ev__time">${esc(w.time)}</div></div>
-          <div><h4 class="ev__title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}${confirm}</h4>
+          <div><h4 class="ev__title">${flag}${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}${confirm}</h4>
             <p class="ev__meta">${meta}</p>
-            ${e.about ? `<p class="ev__about">${esc(e.about)}</p>` : ""}
-            <div class="ev__reach reach--${r.k}">${esc(r.t)}</div>
-            <div class="ev__tags">${e.tags.map(t => `<span>${t === "ai" ? "AI" : "Cyber"}</span>`).join("")}<span class="ev__src">via ${esc(e.source.toLowerCase())}</span></div>
+            ${isCx(e) ? `<p class="ev__cx">${esc(e.cancelReason || "Cancelled")}. Check the organizer's page to be sure.</p>` : ""}
+            ${ch === "updated" && e.changes ? `<p class="ev__change">${e.changes.map(esc).join(". ")}.</p>` : ""}
+            ${e.about && !isCx(e) ? `<p class="ev__about">${esc(e.about)}</p>` : ""}
+            ${isCx(e) ? "" : `<div class="ev__reach reach--${r.k}">${esc(r.t)}</div>`}
+            <div class="ev__tags">${e.tags.map(t => `<span>${t === "ai" ? "AI" : "Cyber"}</span>`).join("")}<span class="ev__src">via ${esc(({ "Checked by hand": "hand-checked list", "Standing meetup": "standing schedule" })[e.source] || e.source)}</span></div>
           </div>
-          <div class="ev__act"><button class="btn" type="button" data-add="${e.id}">Add to calendar</button></div>
+          <div class="ev__act">${isCx(e) ? "" : `<button class="btn" type="button" data-add="${e.id}">Add to calendar</button>`}</div>
         </article>`;
       }
       html += `</section>`;
@@ -354,61 +406,92 @@
     $("#list").innerHTML = html;
   }
 
-  function verdict() {
-    const now = Date.now(), horizon = now + 30 * 864e5;
-    const pool = EVENTS.filter(e => {
-      const t = toDate(e, "start").getTime();
-      return t >= now && t <= horizon && (state.topic === "all" || e.tags.includes(state.topic)) && (e.region === "local" || e.region === "online");
+  function changesStrip() {
+    const pool = EVENTS.filter(e => inPlace(e) && (state.topic === "all" || e.tags.includes(state.topic)));
+    const n = { new: pool.filter(isNew).length, updated: pool.filter(isUpd).length, cancelled: pool.filter(isCx).length };
+    const label = { new: "new", updated: "updated", cancelled: "cancelled" };
+    let any = false;
+    document.querySelectorAll("[data-change]").forEach(b => {
+      const k = b.dataset.change; b.hidden = !n[k]; any = any || n[k] > 0;
+      b.textContent = `${n[k]} ${label[k]}`; b.setAttribute("aria-pressed", String(state.change === k));
     });
-    const ok = pool.filter(e => reach(e).k === "make" && !isWeekend(toDate(e, "start")));
+    $("#changes").hidden = !any;
+    const totalNew = EVENTS.filter(isNew).length;
+    $("#bar-new").hidden = !totalNew; $("#bar-new").textContent = `${totalNew} new this week`;
+  }
+
+  function verdict() {
+    const horizon = NOW + 30 * 864e5;
+    const pool = EVENTS.filter(e => { const t = toDate(e, "start").getTime(); return t >= NOW && t <= horizon && !isCx(e) && inPlace(e) && (state.topic === "all" || e.tags.includes(state.topic)); });
+    const ok = pool.filter(e => reach(e).k === "make");
     $("#v-n").textContent = ok.length;
-    $("#v-t").textContent = `${ok.length === 1 ? "weeknight event" : "weeknight events"} you can make in the next 30 days, leaving at ${clock(state.off)}.`;
+    const where = state.metro ? ` around ${state.metro}` : "";
+    $("#v-t").textContent = `${ok.length === 1 ? "weeknight event" : "weeknight events"}${where} you can make in the next 30 days, leaving at ${clock(state.off)}.`;
     const next = ok[0];
     if (next) {
       const w = when(next);
       $("#v-next").innerHTML = `Next up: <a href="${esc(next.url)}" target="_blank" rel="noopener">${esc(next.title)}</a>, ${esc(w.day)} ${esc(w.date)} at ${esc(w.time)}. ${esc(reach(next).t)}.`;
-    } else {
-      $("#v-next").textContent = "Nothing reachable on a weeknight yet. Weekend and online events are still on the board.";
-    }
+    } else $("#v-next").textContent = state.metro ? "Nothing reachable on a weeknight yet. Weekend and online events are still on the board." : "Pick your city for a real count.";
+    $("#metro-hint").hidden = !!state.metro;
   }
 
-  function paintKnob(el) { const f = (el.value - el.min) / (el.max - el.min) * 100; el.style.setProperty("--fill", f + "%"); }
-  function update(animate) { render(animate); verdict(); }
+  // ---------- place pickers, built from the data
+  function fillPickers() {
+    const inPerson = EVENTS.filter(e => !e.online && !isCx(e));
+    const byCountry = {};
+    for (const e of inPerson) if (e.country && e.country !== "Unknown") byCountry[e.country] = (byCountry[e.country] || 0) + 1;
+    const countries = Object.entries(byCountry).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    $("#country").innerHTML = `<option value="">Everywhere</option>` + countries.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} (${n})</option>`).join("");
+    if (state.country && !byCountry[state.country]) state.country = "";
+    $("#country").value = state.country;
+    fillMetro();
+  }
+  function fillMetro() {
+    const counts = {};
+    for (const e of EVENTS) if (!e.online && !isCx(e) && (!state.country || e.country === state.country) && e.metro && e.metro !== "Location on listing") counts[e.metro] = (counts[e.metro] || 0) + 1;
+    const metros = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    $("#metro").innerHTML = `<option value="">Any city</option>` + metros.map(([m, n]) => `<option value="${esc(m)}">${esc(m)} (${n})</option>`).join("");
+    if (state.metro && !counts[state.metro]) state.metro = "";
+    $("#metro").value = state.metro;
+  }
+  function guessCountry() {
+    if (/^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Indiana|Kentucky|Boise)|^Pacific\/Honolulu/.test(USER_TZ)) return "United States";
+    if (/^Europe\/London/.test(USER_TZ)) return "United Kingdom";
+    return "";
+  }
 
+  function paintKnob(el) { el.style.setProperty("--fill", ((el.value - el.min) / (el.max - el.min) * 100) + "%"); }
+  function update(animate) { render(animate); verdict(); changesStrip(); }
   function resetFilters() {
-    Object.assign(state, { topic: "all", region: "local", make: false, free: false, q: "" });
-    document.querySelectorAll(".seg").forEach(g => g.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === state[g.dataset.filter]))));
-    $("#t-make").setAttribute("aria-pressed", "false"); $("#t-free").setAttribute("aria-pressed", "false"); $("#q").value = "";
-    save(); update(true);
+    Object.assign(state, { topic: "all", make: false, free: false, change: "", q: "", online: true });
+    document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === "all")));
+    ["#t-make", "#t-free"].forEach(id => $(id).setAttribute("aria-pressed", "false")); $("#t-online").setAttribute("aria-pressed", "true");
+    $("#q").value = ""; save(); update(true);
   }
-
-  // ---------- remember the visitor's settings on this device only
-  function save() { try { localStorage.setItem("lineup", JSON.stringify({ off: state.off, trip: state.trip, region: state.region, topic: state.topic })); } catch (_) {} }
-  function load() { try { Object.assign(state, JSON.parse(localStorage.getItem("lineup") || "{}")); } catch (_) {} }
+  function save() { try { localStorage.setItem("lineup2", JSON.stringify({ off: state.off, trip: state.trip, country: state.country, metro: state.metro, topic: state.topic, online: state.online })); } catch (_) {} }
+  function load() { try { const v = JSON.parse(localStorage.getItem("lineup2") || "null"); if (v) Object.assign(state, v); else state.country = guessCountry(); } catch (_) { state.country = guessCountry(); } }
 
   // ---------- single-event .ics
   const icsDate = (d) => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  const icsEsc = (s) => String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+  const icsEsc = (s) => String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
   function downloadIcs(e) {
-    const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "BEGIN:VEVENT", `UID:${e.id}@the-lineup`, `DTSTAMP:${icsDate(new Date())}`];
+    const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "BEGIN:VEVENT", `UID:${e.id}@the-lineup`, `DTSTAMP:${icsDate(new Date())}`, `SEQUENCE:${e.seq || 0}`];
     if (e.allDay) {
-      const [y, m, d] = e.end.split("-").map(Number); const after = new Date(Date.UTC(y, m - 1, d + 1));
-      L.push(`DTSTART;VALUE=DATE:${e.start.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${after.toISOString().slice(0, 10).replace(/-/g, "")}`);
+      const [y, m, d] = e.end.split("-").map(Number);
+      L.push(`DTSTART;VALUE=DATE:${e.start.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${new Date(Date.UTC(y, m - 1, d + 1)).toISOString().slice(0, 10).replace(/-/g, "")}`);
     } else L.push(`DTSTART:${icsDate(new Date(e.start))}`, `DTEND:${icsDate(new Date(e.end))}`);
-    L.push(`SUMMARY:${icsEsc(e.title)}`, `LOCATION:${icsEsc([e.venue, e.city].filter(x => x && x !== "Online").join(", ") || "Online")}`, `DESCRIPTION:${icsEsc(e.about + " " + e.url)}`);
+    L.push(`SUMMARY:${icsEsc(e.title)}`, `LOCATION:${icsEsc(e.online ? "Online" : [e.venue, e.city, e.country].filter(x => x && x !== "Unknown").join(", "))}`, `DESCRIPTION:${icsEsc((e.about || "") + " " + (e.url || ""))}`);
     if (e.url) L.push(`URL:${e.url}`);
     L.push("BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", "DESCRIPTION:Tomorrow", "END:VALARM", "END:VEVENT", "END:VCALENDAR");
-    const blob = new Blob([L.join("\r\n") + "\r\n"], { type: "text/calendar" });
-    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: e.title.replace(/[^\w]+/g, "-").slice(0, 60) + ".ics" });
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([L.join("\r\n") + "\r\n"], { type: "text/calendar" })), download: e.title.replace(/[^\w]+/g, "-").slice(0, 60) + ".ics" });
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   }
 
   // ---------- wiring
   function wire() {
     const off = $("#off"), trip = $("#trip");
-    off.value = state.off; trip.value = state.trip;
-    [off, trip].forEach(paintKnob);
-    $("#off-v").textContent = clock(state.off); $("#trip-v").textContent = mins(state.trip);
+    off.value = state.off; trip.value = state.trip; [off, trip].forEach(paintKnob);
+    $("#off-v").textContent = clock(state.off); $("#trip-v").textContent = mins(state.trip) || "0 min";
     let raf = 0;
     const onKnob = () => {
       state.off = +off.value; state.trip = +trip.value;
@@ -426,21 +509,22 @@
         save(); update(true);
       });
     });
-    [["#t-make", "make"], ["#t-free", "free"]].forEach(([id, key]) => $(id).addEventListener("click", (ev) => {
-      state[key] = !state[key]; ev.currentTarget.setAttribute("aria-pressed", String(state[key])); update(true);
-    }));
+    $("#country").addEventListener("change", (ev) => { state.country = ev.target.value; state.metro = ""; fillMetro(); save(); update(true); });
+    $("#metro").addEventListener("change", (ev) => { state.metro = ev.target.value; save(); update(true); });
+    [["#t-make", "make"], ["#t-free", "free"], ["#t-online", "online"]].forEach(([id, key]) => {
+      $(id).setAttribute("aria-pressed", String(state[key]));
+      $(id).addEventListener("click", (ev) => { state[key] = !state[key]; ev.currentTarget.setAttribute("aria-pressed", String(state[key])); if (key === "online") save(); update(true); });
+    });
+    $("#changes").addEventListener("click", (ev) => { const b = ev.target.closest("[data-change]"); if (!b) return; state.change = state.change === b.dataset.change ? "" : b.dataset.change; update(true); });
     let qt; $("#q").addEventListener("input", (ev) => { clearTimeout(qt); qt = setTimeout(() => { state.q = ev.target.value; update(false); }, 120); });
     $("#list").addEventListener("click", (ev) => { const b = ev.target.closest("[data-add]"); if (b) downloadIcs(EVENTS.find(e => e.id === b.dataset.add)); });
 
-    const feed = new URL("lineup.ics", location.href).href;
-    const webcal = feed.replace(/^https?:/, "webcal:");
-    $("#feed-url").value = feed;
-    $("#ical").href = webcal;
+    const feed = new URL("lineup.ics", location.href).href, webcal = feed.replace(/^https?:/, "webcal:");
+    $("#feed-url").value = feed; $("#ical").href = webcal;
     $("#gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
     $("#copy").addEventListener("click", async (ev) => {
       const b = ev.currentTarget;
-      try { await navigator.clipboard.writeText(feed); b.textContent = "Copied"; }
-      catch (_) { $("#feed-url").select(); b.textContent = "Press Ctrl+C"; }
+      try { await navigator.clipboard.writeText(feed); b.textContent = "Copied"; } catch (_) { $("#feed-url").select(); b.textContent = "Press Ctrl+C"; }
       setTimeout(() => (b.textContent = "Copy feed"), 1800);
     });
   }
@@ -448,18 +532,16 @@
   async function boot() {
     load(); wire();
     try {
-      const r = await fetch("data/events.json", { cache: "no-cache" });
-      const data = await r.json();
-      META = data;
+      DATA = await (await fetch("data/events.json", { cache: "no-cache" })).json();
       const today = new Date(); today.setHours(0, 0, 0, 0);
-      EVENTS = data.events.filter(e => toDate(e, "end") >= today);
-      $("#bar-count").textContent = EVENTS.length;
-      const up = new Date(data.generatedAt);
-      $("#bar-updated").textContent = "updated " + new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(up);
-      const ok = (data.sources || []).filter(s => s.ok).map(s => s.source);
-      $("#sources").textContent = "Sources this run: " + (ok.length ? ok.join(", ") + ", plus " : "") + "standing meetups and hand-checked listings.";
-      update(true);
+      EVENTS = DATA.events.filter(e => toDate(e, "end") >= today).map(e => ({ ...e, online: e.online ?? (e.region === "online"), country: e.country || "Unknown", metro: e.metro || e.city }));
+      $("#bar-count").textContent = EVENTS.filter(e => !isCx(e)).length;
+      $("#bar-updated").textContent = "updated " + new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date(DATA.generatedAt));
+      const ok = (DATA.sources || []).filter(s => s.ok).length, all = (DATA.sources || []).length;
+      $("#sources").textContent = `Pulled from ${ok} of ${all} live sources this run, plus standing meetups and hand-checked listings. Dead sources are skipped and their events are kept, not marked cancelled.`;
+      fillPickers(); update(true);
     } catch (err) {
+      console.error(err);
       $("#list").innerHTML = `<p class="empty">The event list did not load. Refresh the page, or grab the calendar feed below.</p>`;
     }
   }

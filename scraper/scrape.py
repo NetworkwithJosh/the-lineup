@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """The Lineup scraper.
 
-Pulls cybersecurity and AI events from public calendar feeds (Meetup groups,
-Luma calendars, plain ICS URLs), expands standing meetups from rules, merges
-hand-checked one-off events, and writes:
+Pulls cybersecurity and AI events from public sources worldwide (ICS calendar
+feeds, Meetup groups, Luma calendars, the confs.tech open dataset), expands
+standing meetups from rules, merges hand-checked events, then compares the
+result with the previous run so the site can show what is new, what changed
+and what was cancelled.
 
+Writes:
   site/data/events.json   what the website reads
   site/lineup.ics         a calendar feed people can subscribe to
+                          (cancellations go out as STATUS:CANCELLED)
 
-Standard library only, so it runs anywhere Python 3.10+ runs.
-Usage:  python scraper/scrape.py [--days 150] [--offline]
+Standard library only. Python 3.10+.
+Usage:  python scraper/scrape.py [--days 180] [--offline] [--fixture file.ics]
 """
 from __future__ import annotations
 
@@ -19,6 +23,7 @@ import json
 import re
 import sys
 import urllib.request
+from collections import Counter
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -27,19 +32,42 @@ ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "scraper"
 OUT_JSON = ROOT / "site" / "data" / "events.json"
 OUT_ICS = ROOT / "site" / "lineup.ics"
-HOME_TZ = ZoneInfo("America/New_York")
-UA = "TheLineupBot/1.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds)"
+UTC = timezone.utc
+NY = ZoneInfo("America/New_York")
+UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
+CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
-CYBER_WORDS = re.compile(r"\b(cyber|security|infosec|hack|ctf|owasp|isaca|isc2|issa|grc|soc|threat|pentest|red team|blue team|privacy|zero trust|appsec|devsecops|malware|defcon|bsides)\b", re.I)
-AI_WORDS = re.compile(r"\b(ai|a\.i\.|llm|agent|agents|agentic|machine learning|ml|genai|claude|gpt|openai|anthropic|copilot|rag|mcp)\b", re.I)
-ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|livestream|google meet|teams)\b", re.I)
-LOCAL_WORDS = re.compile(r"\b(new york|nyc|manhattan|brooklyn|queens|bronx|jersey|nj|newark|hoboken|princeton|philadelphia|philly|pa|stamford|ct|connecticut|long island)\b", re.I)
+CYBER_WORDS = re.compile(r"\b(cyber\w*|security|infosec|hack\w*|ctf|owasp|isaca|isc2|\(isc\)2|issa|grc|soc|threat\w*|pentest\w*|red team|blue team|privacy|zero trust|appsec|devsecops|malware|def ?con|bsides|ransomware|incident response|identity|iam|cissp|cism|wicys|infragard)\b", re.I)
+AI_WORDS = re.compile(r"\b(ai|a\.i\.|artificial intelligence|llms?|agents?|agentic|machine learning|ml|genai|gen ai|claude|gpt\w*|openai|anthropic|copilot|rag|mcp|deep learning|neural|nlp)\b", re.I)
+ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|livestream|google meet|microsoft teams|remote)\b", re.I)
+
+US_STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split())
+COUNTRY_ALIASES = {
+    "usa": "United States", "u.s.a.": "United States", "us": "United States", "u.s.": "United States",
+    "united states": "United States", "united states of america": "United States",
+    "uk": "United Kingdom", "u.k.": "United Kingdom", "england": "United Kingdom", "scotland": "United Kingdom",
+    "wales": "United Kingdom", "great britain": "United Kingdom", "united kingdom": "United Kingdom",
+    "uae": "United Arab Emirates", "the netherlands": "Netherlands", "deutschland": "Germany",
+    "ksa": "Saudi Arabia", "south korea": "South Korea", "korea": "South Korea",
+}
+METROS = {
+    "New York area": ["new york", "nyc", "manhattan", "brooklyn", "queens", "bronx", "staten island", "jersey city",
+                      "hoboken", "newark", "edison", "westfield", "perth amboy", "union", "elmwood park", "paramus",
+                      "hackensack", "parsippany", "morristown", "stamford", "white plains", "long island city"],
+    "Philadelphia area": ["philadelphia", "philly", "king of prussia", "camden"],
+    "Washington DC area": ["washington", "arlington", "alexandria", "reston", "herndon", "tysons", "bethesda", "national harbor", "mclean"],
+    "San Francisco Bay Area": ["san francisco", "oakland", "san jose", "palo alto", "mountain view", "santa clara", "sunnyvale", "menlo park", "berkeley"],
+    "Los Angeles area": ["los angeles", "santa monica", "pasadena", "irvine", "anaheim"],
+    "Boston area": ["boston", "cambridge", "somerville"],
+    "London": ["london"],
+}
 
 
 # ---------------------------------------------------------------- fetching
-def fetch(url: str, timeout: int = 20) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/calendar, text/html, */*"})
+def fetch(url: str, timeout: int = 25) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/calendar, application/json, text/html, */*"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
 
@@ -56,71 +84,108 @@ def unfold(text: str) -> list[str]:
 
 
 def unescape(v: str) -> str:
-    return v.replace("\\n", "\n").replace("\\N", "\n").replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\").strip()
+    v = v.replace("\\n", "\n").replace("\\N", "\n").replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\")
+    v = re.sub(r"<[^>]+>", " ", v)  # some feeds put HTML in descriptions
+    return re.sub(r"[ \t]+", " ", v).strip()
 
 
-def parse_dt(value: str, params: dict) -> tuple[datetime, bool]:
-    """Return (aware datetime in HOME_TZ, all_day)."""
+def parse_dt(value: str, params: dict) -> tuple[datetime, bool, str | None]:
+    """Return (aware datetime, all_day, IANA tz name if the feed named one)."""
     if params.get("VALUE") == "DATE" or re.fullmatch(r"\d{8}", value):
         d = datetime.strptime(value[:8], "%Y%m%d").date()
-        return datetime.combine(d, time(0, 0), HOME_TZ), True
+        return datetime.combine(d, time(12, 0), UTC), True, None
     if value.endswith("Z"):
-        dt = datetime.strptime(value[:15], "%Y%m%dT%H%M%S").replace(tzinfo=timezone.utc)
-    else:
-        tz = HOME_TZ
-        if "TZID" in params:
-            try:
-                tz = ZoneInfo(params["TZID"].strip('"'))
-            except Exception:
-                tz = HOME_TZ
-        dt = datetime.strptime(value[:15], "%Y%m%dT%H%M%S").replace(tzinfo=tz)
-    return dt.astimezone(HOME_TZ), False
+        return datetime.strptime(value[:15], "%Y%m%dT%H%M%S").replace(tzinfo=UTC), False, None
+    tzname = params.get("TZID", "").strip('"') or None
+    try:
+        tz = ZoneInfo(tzname) if tzname else UTC
+    except Exception:
+        tz, tzname = UTC, None
+    return datetime.strptime(value[:15], "%Y%m%dT%H%M%S").replace(tzinfo=tz), False, tzname
 
 
 def parse_ics(text: str) -> list[dict]:
-    events, cur = [], None
+    raw_events, cur = [], None
     for line in unfold(text):
         if line == "BEGIN:VEVENT":
             cur = {}
         elif line == "END:VEVENT":
             if cur is not None:
-                events.append(cur)
+                raw_events.append(cur)
             cur = None
         elif cur is not None and ":" in line:
             head, value = line.split(":", 1)
             parts = head.split(";")
-            name = parts[0].upper()
             params = dict(p.split("=", 1) for p in parts[1:] if "=" in p)
-            cur[name] = (value, params)
+            cur[parts[0].upper()] = (value, params)
     out = []
-    for e in events:
+    for e in raw_events:
         if "DTSTART" not in e or "SUMMARY" not in e:
             continue
-        if e.get("STATUS", ("",))[0].upper() == "CANCELLED":
-            continue
-        start, all_day = parse_dt(*e["DTSTART"])
-        end = parse_dt(*e["DTEND"])[0] if "DTEND" in e else start + timedelta(hours=2)
-        if all_day and "DTEND" in e:
-            end = end - timedelta(days=1)  # ICS all-day DTEND is exclusive
+        start, all_day, tzname = parse_dt(*e["DTSTART"])
+        if "DTEND" in e:
+            end = parse_dt(*e["DTEND"])[0]
+            if all_day:
+                end -= timedelta(days=1)  # ICS all-day DTEND is exclusive
+        else:
+            end = start + (timedelta(0) if all_day else timedelta(hours=2))
         out.append({
+            "uid": e.get("UID", ("",))[0],
             "title": unescape(e["SUMMARY"][0]),
-            "start": start, "end": end, "allDay": all_day,
+            "start": start, "end": end, "allDay": all_day, "tzname": tzname,
             "location": unescape(e.get("LOCATION", ("",))[0]),
             "url": unescape(e.get("URL", ("",))[0]),
-            "description": unescape(e.get("DESCRIPTION", ("",))[0])[:600],
+            "description": unescape(e.get("DESCRIPTION", ("",))[0])[:800],
+            "cancelled": e.get("STATUS", ("",))[0].upper() == "CANCELLED" or bool(re.match(r"^\s*(cancel+ed|canceled)\b", unescape(e["SUMMARY"][0]), re.I)),
         })
     return out
 
 
+# ---------------------------------------------------------------- places
+def norm_country(s: str) -> str:
+    s = s.strip().strip(".")
+    if not s:
+        return ""
+    if s.upper() in US_STATES:
+        return "United States"
+    return COUNTRY_ALIASES.get(s.lower(), s)
+
+
+def place(location: str, city: str = "", country: str = "") -> dict:
+    """Work out city, country and metro from whatever the source gives us."""
+    location = re.sub(r"\s+", " ", location or "").strip()
+    if ONLINE_WORDS.search(location) or ONLINE_WORDS.search(city) or (city or "").lower() == "online":
+        return {"online": True, "city": "Online", "country": "Online", "metro": "Online"}
+    parts = [p.strip() for p in location.split(",") if p.strip()]
+    if country:
+        country = norm_country(country)
+    elif city and "," in city:
+        country = norm_country(city.rsplit(",", 1)[1])
+    elif parts:
+        for part in reversed(parts):
+            m = re.search(r"\b([A-Z]{2})\b(?:\s+\d{5}(-\d{4})?)?$", part)
+            if m and m.group(1) in US_STATES:
+                country = "United States"
+                break
+            cleaned = re.sub(r"\b\d{3,6}(-\d{4})?\b", "", part).strip()
+            if cleaned and not re.search(r"\d", cleaned) and len(cleaned.split()) <= 4:
+                country = norm_country(cleaned)
+                break
+    if not city:
+        # "Venue, 123 Street, City, ST 10001, United States" -> City
+        cands = [p for p in parts if not re.search(r"\d", p) and norm_country(p) != country and p.upper() not in US_STATES]
+        city = cands[-1] if cands else ""
+    city_name = re.split(r",", city)[0].strip()
+    low = city_name.lower()
+    metro = next((m for m, names in METROS.items() if low in names or any(n == low for n in names)), city_name)
+    if not country and metro in METROS and metro not in ("London",):
+        country = "United States"
+    if metro == "London" and not country:
+        country = "United Kingdom"
+    return {"online": False, "city": city_name or "Location on listing", "country": country or "Unknown", "metro": metro or city_name}
+
+
 # ---------------------------------------------------------------- shaping
-def classify_region(location: str, default: str) -> str:
-    if ONLINE_WORDS.search(location or ""):
-        return "online"
-    if LOCAL_WORDS.search(location or ""):
-        return "local"
-    return default
-
-
 def tags_for(text: str, base: list[str]) -> list[str]:
     tags = set(base)
     if CYBER_WORDS.search(text):
@@ -130,60 +195,59 @@ def tags_for(text: str, base: list[str]) -> list[str]:
     return sorted(tags)
 
 
-def split_location(loc: str) -> tuple[str, str]:
-    loc = re.sub(r"\s+", " ", loc or "").strip()
-    if not loc:
-        return "Location on listing", ""
-    parts = [p.strip() for p in loc.split(",")]
-    if len(parts) >= 3:
-        return ", ".join(parts[:2]), ", ".join(parts[2:4])
-    return loc, ""
-
-
 def guess_cost(text: str) -> str:
     if re.search(r"\bfree\b", text, re.I):
         return "Free"
-    m = re.search(r"\$\s?\d[\d,]*(\.\d\d)?", text)
+    m = re.search(r"(?:\$|€|£)\s?\d[\d,]*(\.\d\d)?", text)
     return m.group(0).replace(" ", "") if m else "Check listing"
 
 
-def make_id(title: str, start: datetime) -> str:
-    key = re.sub(r"[^a-z0-9]+", "", title.lower())[:40] + start.strftime("%Y%m%d")
-    return hashlib.sha1(key.encode()).hexdigest()[:12]
+def h(*parts: str) -> str:
+    return hashlib.sha1("|".join(parts).encode()).hexdigest()[:12]
 
 
-def iso(dt: datetime, all_day: bool) -> str:
-    return dt.date().isoformat() if all_day else dt.isoformat(timespec="minutes")
+def norm_title(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", t.lower())
 
 
-def shape_feed_event(e: dict, src: dict, source_name: str) -> dict | None:
+def iso_local(dt: datetime, all_day: bool, tzname: str | None) -> str:
+    if all_day:
+        return dt.date().isoformat()
+    return dt.astimezone(ZoneInfo(tzname) if tzname else UTC).isoformat(timespec="minutes")
+
+
+def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) -> dict | None:
+    if src.get("skip_titles") and re.search(src["skip_titles"], e["title"], re.I):
+        return None
     text = f"{e['title']} {e['description']} {e['location']}"
-    region = classify_region(e["location"], src.get("region", "local"))
-    if src.get("only_near") and region != "online":
-        if not any(w in e["location"].lower() for w in src["only_near"]):
+    tags = tags_for(text, [] if src.get("require_keywords") else src.get("tags", []))
+    if src.get("require_keywords"):
+        if not (CYBER_WORDS.search(text) or AI_WORDS.search(text)):
             return None
-    tags = tags_for(text, src.get("tags", []))
+        tags = sorted(set(tags) | set(src.get("tags", [])))
     if not tags:
         return None
-    venue, city = split_location(e["location"])
-    if region == "online":
-        venue, city = "Online", "Online"
+    p = place(e["location"])
+    uid = e["uid"] or norm_title(e["title"])
+    key = uid if uid_counts[uid] <= 1 else f"{uid}{e['start'].date()}"
     return {
-        "id": make_id(e["title"], e["start"]),
-        "title": e["title"],
-        "start": iso(e["start"], e["allDay"]),
-        "end": iso(e["end"], e["allDay"]),
+        "id": h(source_name, key),
+        "title": re.sub(r"^\s*(cancel+ed|canceled)\s*[:\-]\s*", "", e["title"], flags=re.I),
+        "start": iso_local(e["start"], e["allDay"], e["tzname"]),
+        "end": iso_local(e["end"], e["allDay"], e["tzname"]),
         "allDay": e["allDay"],
-        "tz": "America/New_York",
-        "venue": venue, "city": city, "region": region,
-        "format": "Online" if region == "online" else "In person",
+        "tz": e["tzname"],
+        "venue": "Online" if p["online"] else (e["location"].split(",")[0].strip() if e["location"] else "Location on listing"),
+        **p,
+        "format": "Online" if p["online"] else "In person",
         "cost": guess_cost(text),
         "tags": tags,
-        "kind": "Meetup",
+        "kind": "Conference" if e["allDay"] and e["end"].date() > e["start"].date() else ("Event" if e["allDay"] else "Meetup"),
         "url": e["url"] or src.get("page", ""),
         "about": re.sub(r"\s+", " ", e["description"])[:220],
         "source": source_name,
-        "status": "listed",
+        "status": "cancelled" if e["cancelled"] else "listed",
+        "cancelReason": "Cancelled by the organizer" if e["cancelled"] else None,
     }
 
 
@@ -202,16 +266,18 @@ def expand_rules(rules: list[dict], start: date, end: date) -> list[dict]:
             d = nth_weekday(y, m, WEEKDAYS[r["weekday"]], r["nth"])
             if not d or d < start or d > end:
                 continue
+            tz = ZoneInfo(r.get("tz", "America/New_York"))
             hs, ms = map(int, r["start"].split(":"))
             he, me = map(int, r["end"].split(":"))
-            s = datetime.combine(d, time(hs, ms), HOME_TZ)
-            e = datetime.combine(d, time(he, me), HOME_TZ)
+            s = datetime.combine(d, time(hs, ms), tz)
+            e = datetime.combine(d, time(he, me), tz)
             out.append({
-                "id": make_id(r["title"], s), "title": r["title"],
-                "start": iso(s, False), "end": iso(e, False), "allDay": False, "tz": "America/New_York",
-                "venue": r["venue"], "city": r["city"], "region": r["region"], "format": r["format"],
-                "cost": r["cost"], "tags": r["tags"], "kind": r["kind"], "url": r["url"], "about": r["about"],
-                "source": "Standing meetup", "status": "recurring",
+                "id": h("standing", r["title"], d.isoformat()), "title": r["title"],
+                "start": s.isoformat(timespec="minutes"), "end": e.isoformat(timespec="minutes"),
+                "allDay": False, "tz": r.get("tz", "America/New_York"),
+                "venue": r["venue"], **place(r["venue"], r["city"]),
+                "format": r["format"], "cost": r["cost"], "tags": r["tags"], "kind": r["kind"],
+                "url": r["url"], "about": r["about"], "source": "Standing meetup", "status": "recurring",
             })
         m += 1
         if m == 13:
@@ -220,97 +286,219 @@ def expand_rules(rules: list[dict], start: date, end: date) -> list[dict]:
 
 
 def load_curated(start: date, end: date) -> list[dict]:
-    data = json.loads((CFG / "curated.json").read_text())
     out = []
-    for c in data["events"]:
+    for c in json.loads((CFG / "curated.json").read_text())["events"]:
         all_day = len(c["start"]) == 10
-        tz = ZoneInfo(c.get("tz", "America/New_York"))
+        tzname = c.get("tz", "America/New_York")
+        tz = ZoneInfo(tzname)
         if all_day:
             s_date, e_date = date.fromisoformat(c["start"]), date.fromisoformat(c["end"])
+            s_str, e_str = c["start"], c["end"]
         else:
             s_dt = datetime.fromisoformat(c["start"]).replace(tzinfo=tz)
             e_dt = datetime.fromisoformat(c["end"]).replace(tzinfo=tz)
             s_date, e_date = s_dt.date(), e_dt.date()
+            s_str, e_str = s_dt.isoformat(timespec="minutes"), e_dt.isoformat(timespec="minutes")
         if e_date < start or s_date > end:
             continue
-        ev = {k: c[k] for k in ("title", "venue", "city", "region", "format", "cost", "tags", "kind", "url", "about")}
-        ev.update({
-            "start": c["start"] if all_day else s_dt.isoformat(timespec="minutes"),
-            "end": c["end"] if all_day else e_dt.isoformat(timespec="minutes"),
-            "allDay": all_day, "tz": c.get("tz", "America/New_York"),
-            "source": "Checked by hand", "status": c.get("status", "confirmed"),
-        })
-        ev["id"] = make_id(c["title"], datetime.combine(s_date, time(0), HOME_TZ))
+        ev = {k: c[k] for k in ("title", "venue", "format", "cost", "tags", "kind", "url", "about")}
+        ev.update(place(c["venue"], c["city"], c.get("country", "")))
+        ev.update({"id": h("curated", norm_title(c["title"])), "start": s_str, "end": e_str, "allDay": all_day,
+                   "tz": tzname, "source": "Checked by hand", "status": c.get("status", "confirmed")})
         out.append(ev)
     return out
 
 
 # ---------------------------------------------------------------- sources
-def pull_feeds(sources: dict, start: date, end: date, report: list) -> list[dict]:
-    out = []
+def pull_ics_sources(sources: dict, start: date, end: date, report: list) -> list[dict]:
     jobs = []
-    for g in sources.get("meetup_groups", []):
-        jobs.append((g, f"https://www.meetup.com/{g['slug']}/events/ical/", g["name"], f"https://www.meetup.com/{g['slug']}/events/"))
-    for c in sources.get("luma_calendars", []):
-        jobs.append((c, None, c["name"], f"https://luma.com/{c['slug']}"))
     for u in sources.get("ics_urls", []):
-        jobs.append((u, u["url"], u["name"], u.get("page", u["url"])))
-    for src, url, name, page in jobs:
-        src = {**src, "page": page}
+        jobs.append((u, u["url"], u["name"]))
+    for g in sources.get("meetup_groups", []):
+        jobs.append(({**g, "page": f"https://www.meetup.com/{g['slug']}/events/"}, f"https://www.meetup.com/{g['slug']}/events/ical/", g["name"]))
+    for c in sources.get("luma_calendars", []):
+        jobs.append(({**c, "page": f"https://luma.com/{c['slug']}"}, None, c["name"]))
+    out = []
+    for src, url, name in jobs:
         try:
             if url is None:  # Luma: find the calendar id on its public page, then use its ICS feed
-                html = fetch(page)
-                m = re.search(r"\bcal-[A-Za-z0-9]{8,}\b", html)
+                m = re.search(r"\bcal-[A-Za-z0-9]{8,}\b", fetch(src["page"]))
                 if not m:
                     raise ValueError("calendar id not found on page")
                 url = f"https://api.lu.ma/ics/get?entity=calendar&id={m.group(0)}"
             evs = parse_ics(fetch(url))
+            uid_counts = Counter(e["uid"] for e in evs if e["uid"])
             kept = 0
             for e in evs:
                 if e["end"].date() < start or e["start"].date() > end:
                     continue
-                shaped = shape_feed_event(e, src, name)
+                shaped = shape_feed_event(e, src, name, uid_counts)
                 if shaped:
                     out.append(shaped)
                     kept += 1
             report.append({"source": name, "ok": True, "events": kept})
         except Exception as exc:  # one dead feed never breaks the run
-            report.append({"source": name, "ok": False, "error": str(exc)[:120]})
+            report.append({"source": name, "ok": False, "error": str(exc)[:140]})
     return out
 
 
-# ---------------------------------------------------------------- output
+def pull_confs_tech(cfg: dict, start: date, end: date, report: list) -> list[dict]:
+    out = []
+    for t in cfg.get("topics", []):
+        name = f"confs.tech: {t['topic']}"
+        try:
+            kept = 0
+            for year in sorted({start.year, end.year}):
+                try:
+                    data = json.loads(fetch(f"{cfg['base']}/{year}/{t['topic']}.json"))
+                except urllib.error.HTTPError as exc:
+                    if exc.code == 404:
+                        continue
+                    raise
+                for c in data:
+                    s, e = date.fromisoformat(c["startDate"]), date.fromisoformat(c.get("endDate") or c["startDate"])
+                    if e < start or s > end:
+                        continue
+                    text = f"{c['name']} {c.get('url', '')}"
+                    if t.get("require_keywords") and not (CYBER_WORDS.search(text) or AI_WORDS.search(text)):
+                        continue
+                    tags = tags_for(text, t.get("tags", []))
+                    if not tags:
+                        continue
+                    online_only = c.get("online") and not c.get("city")
+                    p = place("Online" if online_only else "", c.get("city", ""), "" if online_only else c.get("country", ""))
+                    out.append({
+                        "id": h("confs", norm_title(c["name"]), str(s.year)), "title": c["name"],
+                        "start": s.isoformat(), "end": e.isoformat(), "allDay": True, "tz": None,
+                        "venue": "Online" if p["online"] else p["city"], **p,
+                        "format": "Online" if p["online"] else ("In person + online" if c.get("online") else "In person"),
+                        "cost": "Check listing", "tags": tags, "kind": "Conference" if e > s else "Event",
+                        "url": c.get("url", ""), "about": "", "source": "confs.tech", "status": "listed",
+                    })
+                    kept += 1
+            report.append({"source": name, "ok": True, "events": kept})
+        except Exception as exc:
+            report.append({"source": name, "ok": False, "error": str(exc)[:140]})
+    return out
+
+
+# ---------------------------------------------------------------- dedupe
 def dedupe(events: list[dict]) -> list[dict]:
+    rank = {"confirmed": 4, "listed": 3, "verify": 2, "recurring": 1, "cancelled": 0}
     seen: dict[str, dict] = {}
-    rank = {"confirmed": 3, "listed": 2, "verify": 1, "recurring": 0}
     for e in events:
-        key = re.sub(r"[^a-z0-9]+", "", e["title"].lower())[:28] + e["start"][:10]
+        key = norm_title(e["title"])[:28] + e["start"][:10]
         if key not in seen or rank.get(e["status"], 0) > rank.get(seen[key]["status"], 0):
             seen[key] = e
-    return sorted(seen.values(), key=lambda e: (e["start"][:10], e["start"]))
+    return list(seen.values())
 
 
+# ---------------------------------------------------------------- change tracking
+def fmt_when(e: dict) -> str:
+    if e["allDay"]:
+        s, en = date.fromisoformat(e["start"]), date.fromisoformat(e["end"])
+        if s == en:
+            return f"{s:%b} {s.day}"
+        return f"{s:%b} {s.day} to {en.day}" if s.month == en.month else f"{s:%b} {s.day} to {en:%b} {en.day}"
+    d = datetime.fromisoformat(e["start"])
+    return f"{d:%b} {d.day} at {d.strftime('%I:%M %p').lstrip('0')}"
+
+
+def track_changes(current: list[dict], prev: dict | None, failed_sources: set, now: datetime) -> tuple[list[dict], str, dict]:
+    """Stamp each event with firstSeen / changes / cancellations relative to the previous run."""
+    now_s = now.isoformat(timespec="minutes")
+    if not prev or "baselineAt" not in prev:
+        baseline = now_s  # first tracked run: nothing counts as new yet
+        for e in current:
+            e.update({"firstSeen": now_s, "seq": 0})
+        return current, baseline, {"new": 0, "updated": 0, "cancelled": 0}
+
+    baseline = prev["baselineAt"]
+    old = {e["id"]: e for e in prev.get("events", [])}
+    today = now.date()
+    cutoff = (now - timedelta(days=NEW_DAYS)).isoformat(timespec="minutes")
+    stats = Counter()
+
+    seen_ids = set()
+    for e in current:
+        seen_ids.add(e["id"])
+        o = old.get(e["id"])
+        if not o:
+            e.update({"firstSeen": now_s, "seq": 0})
+            if e["status"] == "cancelled":
+                e["cancelledAt"] = now_s
+            continue
+        e["firstSeen"] = o.get("firstSeen", baseline)
+        e["seq"] = o.get("seq", 0)
+        changes = []
+        if (e["start"], e["end"]) != (o["start"], o["end"]):
+            changes.append(f"Now {fmt_when(e)} (was {fmt_when(o)})")
+        if e.get("venue") != o.get("venue") and o.get("venue") and e["status"] != "cancelled":
+            changes.append(f"New venue: {e['venue']}")
+        if o.get("status") == "cancelled" and e["status"] != "cancelled":
+            changes.append("Back on after being cancelled")
+        if e["status"] == "cancelled" and o.get("status") != "cancelled":
+            e["cancelledAt"] = now_s
+            e["seq"] += 1
+        elif e["status"] == "cancelled":
+            e["cancelledAt"] = o.get("cancelledAt", now_s)
+        if changes:
+            e.update({"changes": changes, "changedAt": now_s, "seq": e["seq"] + 1})
+        elif o.get("changedAt", "") >= cutoff:
+            e.update({"changes": o.get("changes", []), "changedAt": o["changedAt"]})
+
+    # Events that were on the board last run and are gone now.
+    for oid, o in old.items():
+        if oid in seen_ids:
+            continue
+        start_d = date.fromisoformat(o["start"][:10])
+        if start_d < today:
+            continue  # it simply happened
+        if o["source"] in failed_sources:
+            current.append(o)  # feed was down this run: keep it as it was, never call it cancelled
+            continue
+        cancelled_at = o.get("cancelledAt") or now_s
+        if o.get("status") == "cancelled" and cancelled_at < (now - timedelta(days=CANCEL_KEEP_DAYS)).isoformat():
+            continue
+        o = {**o, "status": "cancelled", "cancelledAt": cancelled_at,
+             "cancelReason": o.get("cancelReason") or "No longer listed by the organizer",
+             "seq": o.get("seq", 0) + (0 if o.get("status") == "cancelled" else 1)}
+        current.append(o)
+
+    for e in current:
+        if e["status"] == "cancelled" and e.get("cancelledAt", "") >= cutoff:
+            stats["cancelled"] += 1
+        elif e["status"] != "recurring" and e.get("firstSeen", "") > baseline and e["firstSeen"] >= cutoff:
+            stats["new"] += 1
+        elif e.get("changedAt", "") >= cutoff:
+            stats["updated"] += 1
+    return current, baseline, dict(stats)
+
+
+# ---------------------------------------------------------------- output
 def ics_escape(s: str) -> str:
-    return s.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+    return (s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
 def write_ics(events: list[dict], stamp: datetime) -> str:
-    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "CALSCALE:GREGORIAN",
-             "X-WR-CALNAME:The Lineup: cyber + AI meetups", "X-WR-TIMEZONE:America/New_York",
-             "REFRESH-INTERVAL;VALUE=DURATION:P1D"]
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             "X-WR-CALNAME:The Lineup: cyber + AI meetups", "REFRESH-INTERVAL;VALUE=DURATION:P1D",
+             "X-PUBLISHED-TTL:P1D"]
     for e in events:
-        lines += ["BEGIN:VEVENT", f"UID:{e['id']}@the-lineup", f"DTSTAMP:{stamp.strftime('%Y%m%dT%H%M%SZ')}"]
+        lines += ["BEGIN:VEVENT", f"UID:{e['id']}@the-lineup", f"DTSTAMP:{stamp:%Y%m%dT%H%M%SZ}", f"SEQUENCE:{e.get('seq', 0)}"]
         if e["allDay"]:
             s = date.fromisoformat(e["start"]); en = date.fromisoformat(e["end"]) + timedelta(days=1)
             lines += [f"DTSTART;VALUE=DATE:{s:%Y%m%d}", f"DTEND;VALUE=DATE:{en:%Y%m%d}"]
         else:
-            s = datetime.fromisoformat(e["start"]).astimezone(timezone.utc)
-            en = datetime.fromisoformat(e["end"]).astimezone(timezone.utc)
+            s = datetime.fromisoformat(e["start"]).astimezone(UTC)
+            en = datetime.fromisoformat(e["end"]).astimezone(UTC)
             lines += [f"DTSTART:{s:%Y%m%dT%H%M%SZ}", f"DTEND:{en:%Y%m%dT%H%M%SZ}"]
-        loc = ", ".join(x for x in (e["venue"], e["city"]) if x and x != "Online") or "Online"
-        lines += [f"SUMMARY:{ics_escape(e['title'])}", f"LOCATION:{ics_escape(loc)}",
-                  f"DESCRIPTION:{ics_escape((e['about'] + ' ' + e['url']).strip())}"]
-        if e["url"]:
+        loc = "Online" if e.get("online") else ", ".join(x for x in (e["venue"], e["city"], e["country"]) if x and x not in ("Unknown",))
+        title = ("CANCELLED: " if e["status"] == "cancelled" else "") + e["title"]
+        desc = " ".join(x for x in ((e.get("cancelReason") or "") if e["status"] == "cancelled" else "", e.get("about", ""), e.get("url", "")) if x)
+        lines += [f"SUMMARY:{ics_escape(title)}", f"LOCATION:{ics_escape(loc)}", f"DESCRIPTION:{ics_escape(desc)}",
+                  f"STATUS:{'CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'}"]
+        if e.get("url"):
             lines.append(f"URL:{e['url']}")
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
@@ -319,38 +507,51 @@ def write_ics(events: list[dict], stamp: datetime) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=150, help="how far ahead to look")
-    ap.add_argument("--offline", action="store_true", help="skip network feeds (curated + standing only)")
-    ap.add_argument("--fixture", help="parse this local .ics file as an extra feed (testing)")
+    ap.add_argument("--days", type=int, default=180, help="how far ahead to look")
+    ap.add_argument("--offline", action="store_true", help="skip network sources (hand-checked + standing only)")
+    ap.add_argument("--fixture", action="append", default=[], help="parse a local .ics as an extra feed (testing)")
+    ap.add_argument("--now", help="pretend it is this ISO time (testing)")
     args = ap.parse_args()
 
-    now = datetime.now(HOME_TZ)
+    now = datetime.fromisoformat(args.now).astimezone(NY) if args.now else datetime.now(NY)
     start, end = now.date(), now.date() + timedelta(days=args.days)
     sources = json.loads((CFG / "sources.json").read_text())
     rules = json.loads((CFG / "recurring.json").read_text())["rules"]
+    prev = json.loads(OUT_JSON.read_text()) if OUT_JSON.exists() else None
     report: list = []
 
     events = load_curated(start, end) + expand_rules(rules, start, end)
-    if args.fixture:
-        for e in parse_ics(Path(args.fixture).read_text()):
-            shaped = shape_feed_event(e, {"tags": [], "region": "local", "page": ""}, "Fixture feed")
-            if shaped and e["end"].date() >= start:
-                events.append(shaped)
+    for fx in args.fixture:
+        evs = parse_ics(Path(fx).read_text())
+        uc = Counter(e["uid"] for e in evs if e["uid"])
+        for e in evs:
+            if e["end"].date() >= start:
+                shaped = shape_feed_event(e, {"tags": [], "page": ""}, "Fixture feed", uc)
+                if shaped:
+                    events.append(shaped)
         report.append({"source": "Fixture feed", "ok": True})
     if not args.offline:
-        events += pull_feeds(sources, start, end, report)
+        events += pull_ics_sources(sources, start, end, report)
+        events += pull_confs_tech(sources.get("confs_tech", {}), start, end, report)
 
+    failed = {r["source"] for r in report if not r.get("ok")}
+    if args.offline and prev:  # offline test runs must not cancel feed events
+        failed |= {e["source"] for e in prev.get("events", [])} - {"Checked by hand", "Standing meetup", "Fixture feed"}
     events = dedupe(events)
+    events, baseline, stats = track_changes(events, prev, failed, now)
+    events.sort(key=lambda e: (e["start"][:10], e["start"], e["title"]))
+
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"generatedAt": now.isoformat(timespec="minutes"), "windowDays": args.days,
-               "count": len(events), "sources": report, "events": events}
+    payload = {"generatedAt": now.isoformat(timespec="minutes"), "baselineAt": baseline, "windowDays": args.days,
+               "count": sum(1 for e in events if e["status"] != "cancelled"), "changes": stats,
+               "sources": report, "events": events}
     OUT_JSON.write_text(json.dumps(payload, indent=1, ensure_ascii=False))
-    OUT_ICS.write_text(write_ics(events, datetime.now(timezone.utc)))
+    OUT_ICS.write_text(write_ics(events, datetime.now(UTC)))
     ok = sum(1 for r in report if r.get("ok"))
-    print(f"{len(events)} events written. Feeds ok: {ok}/{len(report)}")
+    print(f"{payload['count']} events ({stats}). Sources ok: {ok}/{len(report)}")
     for r in report:
         if not r.get("ok"):
-            print(f"  feed failed: {r['source']}: {r['error']}", file=sys.stderr)
+            print(f"  source failed: {r['source']}: {r['error']}", file=sys.stderr)
     return 0
 
 
