@@ -22,6 +22,8 @@ import hashlib
 import json
 import re
 import sys
+import time as _time
+from concurrent.futures import ThreadPoolExecutor
 import urllib.request
 from collections import Counter
 from datetime import date, datetime, time, timedelta, timezone
@@ -36,11 +38,19 @@ UTC = timezone.utc
 NY = ZoneInfo("America/New_York")
 UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
-SCRAPER_VERSION = "2.1"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
+SCRAPER_VERSION = "2.2"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
 NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
 CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
 CYBER_WORDS = re.compile(r"\b(cyber\w*|security|infosec|hack\w*|ctf|owasp|isaca|isc2|\(isc\)2|issa|grc|soc|threat\w*|pentest\w*|red team|blue team|privacy|zero trust|appsec|devsecops|malware|def ?con|bsides|ransomware|incident response|identity|iam|cissp|cism|wicys|infragard)\b", re.I)
+IT_WORDS = re.compile(r"\b(sysadmins?|system administrat\w*|help ?desk|it support|it pros?|it professionals?|devops|sre|cloud|aws|azure|gcp|kubernetes|k8s|linux|cisco|ccna|comptia|servicenow|intune|m365|microsoft 365|active directory|entra|powershell|vmware|terraform|homelab|network engineer\w*|infrastructure|data ?center|red hat|rhel)\b", re.I)
+IT_CAPS = re.compile(r"\bIT\b")
+
+
+def is_it(text: str) -> bool:
+    return bool(IT_WORDS.search(text) or IT_CAPS.search(text))
+
+
 AI_WORDS = re.compile(r"\b(ai|a\.i\.|artificial intelligence|llms?|agents?|agentic|machine learning|ml|genai|gen ai|claude|gpt\w*|openai|anthropic|copilot|rag|mcp|deep learning|neural|nlp)\b", re.I)
 ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|webcast|livestream|live stream|google meet|microsoft teams|remote|brighttalk|webex|gotowebinar|crowdcast|on24|hopin|youtube live|twitch)\b", re.I)
 SKIP_TITLES = re.compile(r"\b(cfp|call for (papers|speakers|proposals)|submission deadline|deadline|hiring test|career queries)\b", re.I)
@@ -240,6 +250,8 @@ def tags_for(text: str, base: list[str]) -> list[str]:
         tags.add("cyber")
     if AI_WORDS.search(text):
         tags.add("ai")
+    if is_it(text):
+        tags.add("it")
     return sorted(tags)
 
 
@@ -273,7 +285,7 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
     text = f"{e['title']} {e['description']} {e['location']}"
     tags = tags_for(text, [] if src.get("require_keywords") else src.get("tags", []))
     if src.get("require_keywords"):
-        if not (CYBER_WORDS.search(text) or AI_WORDS.search(text)):
+        if not (CYBER_WORDS.search(text) or AI_WORDS.search(text) or is_it(text)):
             return None
         tags = sorted(set(tags) | set(src.get("tags", [])))
     if not tags:
@@ -380,27 +392,41 @@ def pull_ics_sources(sources: dict, start: date, end: date, report: list) -> lis
         jobs.append(({**g, "page": f"https://www.meetup.com/{g['slug']}/events/"}, f"https://www.meetup.com/{g['slug']}/events/ical/", g["name"]))
     for c in sources.get("luma_calendars", []):
         jobs.append(({**c, "page": f"https://luma.com/{c['slug']}"}, None, c["name"]))
+    def grab(job):
+        src, url, name = job
+        last = None
+        for attempt in range(3):  # Meetup sometimes answers 403/429 when hit fast; back off and retry
+            try:
+                if url is None:  # Luma: find the calendar id on its public page, then use its ICS feed
+                    m = re.search(r"\bcal-[A-Za-z0-9]{8,}\b", fetch(src["page"]))
+                    if not m:
+                        raise ValueError("calendar id not found on page")
+                    return parse_ics(fetch(f"https://api.lu.ma/ics/get?entity=calendar&id={m.group(0)}")), None
+                return parse_ics(fetch(url)), None
+            except Exception as exc:
+                last = exc
+                if "404" in str(exc) or "calendar id" in str(exc):
+                    break
+                _time.sleep(2 + attempt * 3)
+        return None, last
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results = list(pool.map(grab, jobs))
     out = []
-    for src, url, name in jobs:
-        try:
-            if url is None:  # Luma: find the calendar id on its public page, then use its ICS feed
-                m = re.search(r"\bcal-[A-Za-z0-9]{8,}\b", fetch(src["page"]))
-                if not m:
-                    raise ValueError("calendar id not found on page")
-                url = f"https://api.lu.ma/ics/get?entity=calendar&id={m.group(0)}"
-            evs = parse_ics(fetch(url))
-            uid_counts = Counter(e["uid"] for e in evs if e["uid"])
-            kept = 0
-            for e in evs:
-                if e["end"].date() < start or e["start"].date() > end:
-                    continue
-                shaped = shape_feed_event(e, src, name, uid_counts)
-                if shaped:
-                    out.append(shaped)
-                    kept += 1
-            report.append({"source": name, "ok": True, "events": kept})
-        except Exception as exc:  # one dead feed never breaks the run
-            report.append({"source": name, "ok": False, "error": str(exc)[:140]})
+    for (src, url, name), (evs, err) in zip(jobs, results):
+        if evs is None:  # one dead feed never breaks the run
+            report.append({"source": name, "ok": False, "error": str(err)[:140]})
+            continue
+        uid_counts = Counter(e["uid"] for e in evs if e["uid"])
+        kept = 0
+        for e in evs:
+            if e["end"].date() < start or e["start"].date() > end:
+                continue
+            shaped = shape_feed_event(e, src, name, uid_counts)
+            if shaped:
+                out.append(shaped)
+                kept += 1
+        report.append({"source": name, "ok": True, "events": kept})
     return out
 
 
@@ -422,7 +448,7 @@ def pull_confs_tech(cfg: dict, start: date, end: date, report: list) -> list[dic
                     if e < start or s > end:
                         continue
                     text = f"{c['name']} {c.get('url', '')}"
-                    if t.get("require_keywords") and not (CYBER_WORDS.search(text) or AI_WORDS.search(text)):
+                    if t.get("require_keywords") and not (CYBER_WORDS.search(text) or AI_WORDS.search(text) or is_it(text)):
                         continue
                     tags = tags_for(text, t.get("tags", []))
                     if not tags:
@@ -550,7 +576,7 @@ def ics_escape(s: str) -> str:
 def write_ics(events: list[dict], stamp: datetime, single: bool = False) -> str:
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH"]
     if not single:
-        lines += ["X-WR-CALNAME:The Lineup: cyber + AI meetups", "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D"]
+        lines += ["X-WR-CALNAME:The Lineup: cyber, AI + IT meetups", "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D"]
     for e in events:
         lines += ["BEGIN:VEVENT", f"UID:{e['id']}@the-lineup", f"DTSTAMP:{stamp:%Y%m%dT%H%M%SZ}", f"SEQUENCE:{e.get('seq', 0)}"]
         if e["allDay"]:

@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Lineup: cyber and AI meetups you can actually make</title>
-<meta name="description" content="Cybersecurity and AI meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
+<title>The Lineup: cyber, AI and IT meetups you can actually make</title>
+<meta name="description" content="Cybersecurity, AI and IT meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
 <meta name="theme-color" content="#0b0d10">
 <link rel="canonical" href="https://thelineup.dev/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://thelineup.dev/">
-<meta property="og:title" content="The Lineup: cyber and AI meetups you can actually make">
-<meta property="og:description" content="Cybersecurity and AI meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
+<meta property="og:title" content="The Lineup: cyber, AI and IT meetups you can actually make">
+<meta property="og:description" content="Cybersecurity, AI and IT meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Lineup","url":"https://thelineup.dev/","description":"Cybersecurity and AI meetups and conferences worldwide, updated every day."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Lineup","url":"https://thelineup.dev/","description":"Cybersecurity, AI and IT meetups and conferences worldwide, updated every day."}</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
 <link rel="alternate" type="text/calendar" title="The Lineup feed" href="lineup.ics">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -206,7 +206,7 @@
 <div class="app">
   <aside class="side" aria-label="Your schedule and filters">
     <section class="shift" aria-labelledby="shift-h">
-      <h1 id="shift-h">Cyber and AI meetups worldwide, filtered to the ones you can actually make.</h1>
+      <h1 id="shift-h">Cyber, AI and IT meetups worldwide, filtered to the ones you can actually make.</h1>
       <p class="hint">Set when you get off work and how long it takes you to get there.</p>
 
       <div class="knob">
@@ -233,6 +233,7 @@
         <button type="button" data-v="all" aria-pressed="true">All</button>
         <button type="button" data-v="cyber" aria-pressed="false">Cyber</button>
         <button type="button" data-v="ai" aria-pressed="false">AI</button>
+        <button type="button" data-v="it" aria-pressed="false">IT</button>
       </div>
     </div>
     <div class="group">
@@ -406,7 +407,7 @@
             ${ch === "updated" && e.changes ? `<p class="ev__change">${e.changes.map(esc).join(". ")}.</p>` : ""}
             ${e.about && !isCx(e) ? `<p class="ev__about">${esc(e.about)}</p>` : ""}
             ${isCx(e) ? "" : `<div class="ev__reach reach--${r.k}">${esc(r.t)}</div>`}
-            <div class="ev__tags">${e.tags.map(t => `<span>${t === "ai" ? "AI" : "Cyber"}</span>`).join("")}<span class="ev__src">via ${esc(({ "Checked by hand": "hand-checked list", "Standing meetup": "standing schedule" })[e.source] || e.source)}</span></div>
+            <div class="ev__tags">${e.tags.map(t => `<span>${({ ai: "AI", it: "IT", cyber: "Cyber" })[t] || t}</span>`).join("")}<span class="ev__src">via ${esc(({ "Checked by hand": "hand-checked list", "Standing meetup": "standing schedule" })[e.source] || e.source)}</span></div>
           </div>
           <div class="ev__act">${isCx(e) ? "" : `<a class="btn" href="e/${e.id}.ics" data-add="${e.id}">Add to calendar</a><a class="btn btn--ghost" href="${gcal(e)}" target="_blank" rel="noopener">Google</a>`}</div>
         </article>`;

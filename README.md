@@ -1,6 +1,6 @@
 # The Lineup
 
-Cybersecurity and AI meetups and conferences worldwide, refreshed every day. Tell it when you get off work and how long it takes you to get there, and it shows what you can actually make.
+Cybersecurity, AI and IT meetups and conferences worldwide, refreshed every day. Tell it when you get off work and how long it takes you to get there, and it shows what you can actually make.
 
 It only lists events other people organize. It does not run, host or sell tickets to anything.
 
