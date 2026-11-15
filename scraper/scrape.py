@@ -36,6 +36,7 @@ UTC = timezone.utc
 NY = ZoneInfo("America/New_York")
 UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+SCRAPER_VERSION = "2.1"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
 NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
 CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
@@ -468,10 +469,15 @@ def fmt_when(e: dict) -> str:
 def track_changes(current: list[dict], prev: dict | None, failed_sources: set, now: datetime) -> tuple[list[dict], str, dict]:
     """Stamp each event with firstSeen / changes / cancellations relative to the previous run."""
     now_s = now.isoformat(timespec="minutes")
-    if not prev or "baselineAt" not in prev:
-        baseline = now_s  # first tracked run: nothing counts as new yet
+    if not prev or "baselineAt" not in prev or prev.get("scraperVersion") != SCRAPER_VERSION:
+        # First tracked run, or the scraper's rules changed: start a fresh comparison.
+        baseline = now_s
+        old_seen = {e["id"]: e for e in (prev or {}).get("events", [])}
         for e in current:
-            e.update({"firstSeen": now_s, "seq": 0})
+            o = old_seen.get(e["id"], {})
+            e.update({"firstSeen": o.get("firstSeen", now_s), "seq": o.get("seq", 0)})
+            if e["status"] == "cancelled":
+                e["cancelledAt"] = o.get("cancelledAt", now_s)
         return current, baseline, {"new": 0, "updated": 0, "cancelled": 0}
 
     baseline = prev["baselineAt"]
@@ -603,7 +609,7 @@ def main() -> int:
     events.sort(key=lambda e: (e["start"][:10], e["start"], e["title"]))
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"generatedAt": now.isoformat(timespec="minutes"), "baselineAt": baseline, "windowDays": args.days,
+    payload = {"generatedAt": now.isoformat(timespec="minutes"), "baselineAt": baseline, "scraperVersion": SCRAPER_VERSION, "windowDays": args.days,
                "count": sum(1 for e in events if e["status"] != "cancelled"), "changes": stats,
                "sources": report, "events": events}
     OUT_JSON.write_text(json.dumps(payload, indent=1, ensure_ascii=False))
