@@ -1,0 +1,17 @@
+{
+  "_note": "Feeds the scraper pulls every run. Add a group by its Meetup URL slug or its Luma calendar slug. Tags: cyber, ai. Region: local (NY/NJ/PA/CT area), us, world, online.",
+  "meetup_groups": [
+    {"slug": "owasp-new-york-city-chapter", "name": "OWASP NYC", "tags": ["cyber"], "region": "local"},
+    {"slug": "NY-Enterprise-Information-Security-Meetup", "name": "NY Enterprise Information Security", "tags": ["cyber"], "region": "local"},
+    {"slug": "defcon212", "name": "DC212 (DEF CON NYC)", "tags": ["cyber"], "region": "local"},
+    {"slug": "Empire-Hacking", "name": "Empire Hacking", "tags": ["cyber"], "region": "local"},
+    {"slug": "artificial-intelligence-nyc", "name": "New York AI Forum", "tags": ["ai"], "region": "local"},
+    {"slug": "nyc-applied-ai-builders", "name": "NYC Applied AI Builders", "tags": ["ai"], "region": "local"}
+  ],
+  "luma_calendars": [
+    {"slug": "claude", "name": "Claude Community Events", "tags": ["ai"], "region_from_location": true, "only_near": ["new york", "brooklyn", "jersey", "nj", "manhattan", "philadelphia"]},
+    {"slug": "cycore-secure", "name": "Cycore Secure", "tags": ["cyber", "ai"], "region_from_location": true, "only_near": ["new york", "brooklyn", "jersey", "nj", "manhattan", "philadelphia"]},
+    {"slug": "cloudsekevents", "name": "CloudSEK Events", "tags": ["cyber", "ai"], "region_from_location": true, "only_near": ["new york", "brooklyn", "jersey", "nj", "manhattan", "online", "zoom", "virtual"]}
+  ],
+  "ics_urls": []
+}

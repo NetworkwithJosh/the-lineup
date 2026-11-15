@@ -1,0 +1,3 @@
+scrollcraft/builds/*/lab/
+__pycache__/
+.env

@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Lineup: cyber and AI meetups you can actually make</title>
+<meta name="description" content="Cybersecurity and AI meetups and conferences around NYC and NJ, plus the US, international and online. Tell it when you get off work and it shows what you can still make.">
+<meta name="theme-color" content="#0b0d10">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
+<link rel="alternate" type="text/calendar" title="The Lineup feed" href="lineup.ics">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scrollcraft.css">
+<style>
+  :root {
+    --sc-canvas:     #0b0d10;
+    --sc-surface:    #12161b;
+    --sc-ink:        #e9edf1;
+    --sc-ink-soft:   #9aa7b4;
+    --sc-accent:     #ffb547;
+    --sc-accent-ink: #17120a;
+    --sc-font-display: "Geist", system-ui, sans-serif;
+    --sc-font-text:    "Geist", system-ui, sans-serif;
+    --sc-font-mono:    "Geist Mono", ui-monospace, monospace;
+    --ink-dim: #7d8996;
+    --raise: #171c22;
+    --bar-h: 3rem;
+  }
+  body { letter-spacing: 0.002em; line-height: 1.64; }
+
+  /* app chrome: the status bar is the nav */
+  .bar {
+    position: sticky; top: 0; z-index: 60;
+    display: flex; align-items: center; gap: var(--sc-5);
+    height: var(--bar-h); padding-inline: var(--sc-gutter);
+    background: var(--sc-canvas);
+    border-bottom: 1px solid var(--sc-hairline);
+    font-family: var(--sc-font-mono); font-size: var(--sc-t-xs); color: var(--sc-ink-soft);
+    letter-spacing: 0.02em;
+  }
+  .bar__mark { white-space: nowrap; color: var(--sc-ink); font-family: var(--sc-font-text); font-weight: 600; font-size: 0.95rem; letter-spacing: -0.01em; text-decoration: none; display: flex; align-items: center; gap: var(--sc-2); }
+  .bar__mark i { width: 8px; height: 8px; border-radius: 2px; background: var(--sc-accent); display: inline-block; }
+  .bar__live { display: flex; align-items: center; gap: var(--sc-2); }
+  .bar__live b { color: var(--sc-ink); font-weight: 500; }
+  .bar__sp { flex: 1; }
+  .bar a.bar__link { color: var(--sc-ink-soft); text-decoration: none; padding: var(--sc-1) var(--sc-2); border-radius: var(--sc-r-sm); transition: color 150ms var(--sc-ease-out); }
+  .bar a.bar__link:hover { color: var(--sc-ink); }
+  @media (max-width: 640px) { .bar__updated { display: none; } .bar { gap: var(--sc-3); } .bar a.bar__link { padding-inline: var(--sc-1); } }
+
+  /* layout: sidebar of controls + the board */
+  .app { display: grid; grid-template-columns: 19rem minmax(0, 1fr); gap: 0; max-width: 92rem; margin-inline: auto; }
+  .side {
+    position: sticky; top: var(--bar-h); align-self: start;
+    height: calc(100svh - var(--bar-h)); overflow: auto;
+    padding: var(--sc-6) var(--sc-5) var(--sc-6) var(--sc-gutter);
+    border-right: 1px solid var(--sc-hairline);
+  }
+  .board { padding: var(--sc-6) var(--sc-gutter) var(--sc-8) var(--sc-6); min-width: 0; }
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; }
+    .side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--sc-hairline); padding: var(--sc-5) var(--sc-gutter); }
+    .board { padding: var(--sc-5) var(--sc-gutter) var(--sc-8); }
+  }
+
+  /* the workday panel: the signature move */
+  .shift { padding-bottom: var(--sc-6); border-bottom: 1px solid var(--sc-hairline); }
+  .shift h1 { font-size: 1.35rem; line-height: 1.18; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 var(--sc-2); text-wrap: balance; }
+  .shift p.hint { margin: 0 0 var(--sc-5); color: var(--sc-ink-soft); font-size: var(--sc-t-sm); line-height: 1.5; }
+  .knob { margin-top: var(--sc-5); }
+  .knob__top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--sc-2); }
+  .knob__top label { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); }
+  .knob__val { font-family: var(--sc-font-mono); font-size: 1.5rem; color: var(--sc-ink); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+  input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 28px; background: transparent; cursor: pointer; margin: 0; }
+  input[type=range]::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: linear-gradient(to right, var(--sc-accent) var(--fill, 50%), color-mix(in oklab, var(--sc-ink) 16%, transparent) var(--fill, 50%)); }
+  input[type=range]::-moz-range-track { height: 4px; border-radius: 2px; background: color-mix(in oklab, var(--sc-ink) 16%, transparent); }
+  input[type=range]::-moz-range-progress { height: 4px; border-radius: 2px; background: var(--sc-accent); }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 20px; height: 20px; margin-top: -8px; border-radius: 50%; background: var(--sc-ink); border: 4px solid var(--sc-accent); box-shadow: var(--sc-e1); transition: transform 140ms var(--sc-ease-out); }
+  input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--sc-ink); border: 4px solid var(--sc-accent); }
+  input[type=range]:active::-webkit-slider-thumb { transform: scale(1.12); }
+  .scale { display: flex; justify-content: space-between; font-family: var(--sc-font-mono); font-size: 0.7rem; color: var(--ink-dim); margin-top: 2px; }
+
+  .verdict { margin-top: var(--sc-6); padding: var(--sc-4); border-radius: var(--sc-r-md); background: var(--raise); box-shadow: var(--sc-edge), var(--sc-e1); }
+  .verdict__n { font-family: var(--sc-font-mono); font-size: 2.6rem; line-height: 1; color: var(--sc-accent); letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+  .verdict__t { font-size: var(--sc-t-sm); color: var(--sc-ink); margin-top: var(--sc-2); line-height: 1.45; }
+  .verdict__next { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); margin-top: var(--sc-3); line-height: 1.45; border-top: 1px solid var(--sc-hairline); padding-top: var(--sc-3); }
+  .verdict__next a { color: var(--sc-ink); }
+
+  /* filters */
+  .group { margin-top: var(--sc-6); }
+  .group > .sc-label { display: block; margin-bottom: var(--sc-2); }
+  .seg { display: flex; flex-wrap: wrap; gap: var(--sc-1); }
+  .seg button, .toggle {
+    font-size: var(--sc-t-sm); padding: 0.4rem 0.7rem; border-radius: var(--sc-r-sm);
+    border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink-soft); cursor: pointer;
+    transition: color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), border-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out);
+  }
+  .seg button:active, .toggle:active { transform: scale(0.97); }
+  @media (hover: hover) and (pointer: fine) { .seg button:hover, .toggle:hover { color: var(--sc-ink); border-color: color-mix(in oklab, var(--sc-ink) 40%, transparent); } }
+  .seg button[aria-pressed=true], .toggle[aria-pressed=true] { background: var(--sc-ink); color: var(--sc-canvas); border-color: var(--sc-ink); }
+  .search { width: 100%; padding: 0.55rem 0.75rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: var(--sc-surface); color: var(--sc-ink); }
+  .search::placeholder { color: var(--ink-dim); }
+  .search:focus { outline: 2px solid var(--sc-accent); outline-offset: 2px; border-color: transparent; }
+  .row-toggles { display: flex; flex-wrap: wrap; gap: var(--sc-1); }
+
+  /* the board */
+  .board__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sc-3) var(--sc-5); margin-bottom: var(--sc-5); }
+  .board__head h2 { font-size: var(--sc-t-xl); font-weight: 600; letter-spacing: -0.025em; margin: 0; line-height: 1.1; }
+  .board__head .sc-body { font-size: var(--sc-t-sm); }
+  .month { margin-top: var(--sc-8); }
+  .month:first-of-type { margin-top: 0; }
+  .month h3 { font-family: var(--sc-font-mono); font-size: var(--sc-t-xs); font-weight: 500; letter-spacing: var(--sc-track-wide); text-transform: uppercase; color: var(--sc-ink-soft); margin: 0 0 var(--sc-2); padding-bottom: var(--sc-2); border-bottom: 1px solid var(--sc-hairline); display: flex; justify-content: space-between; }
+  .ev { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) auto; gap: var(--sc-2) var(--sc-5); padding: var(--sc-4) 0; border-bottom: 1px solid var(--sc-hairline); align-items: start; }
+  .ev__when { font-family: var(--sc-font-mono); font-variant-numeric: tabular-nums; line-height: 1.3; }
+  .ev__day { font-size: 0.72rem; letter-spacing: 0.08em; color: var(--sc-ink-soft); text-transform: uppercase; }
+  .ev__date { font-size: 1.15rem; color: var(--sc-ink); letter-spacing: -0.02em; }
+  .ev__time { font-size: 0.78rem; color: var(--sc-ink-soft); margin-top: 2px; }
+  .ev__title { font-size: 1.04rem; font-weight: 500; line-height: 1.35; margin: 0; letter-spacing: -0.01em; text-wrap: pretty; }
+  .ev__title a { text-decoration: none; }
+  .ev__title a:hover { text-decoration: underline; }
+  .ev__meta { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); margin: 3px 0 0; line-height: 1.5; }
+  .ev__meta span + span::before { content: "·"; margin: 0 0.45em; color: var(--ink-dim); }
+  .ev__about { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); margin: var(--sc-2) 0 0; max-width: 64ch; line-height: 1.55; }
+  .ev__reach { margin-top: var(--sc-2); font-family: var(--sc-font-mono); font-size: 0.76rem; letter-spacing: 0.01em; display: flex; align-items: center; gap: 0.5em; }
+  .ev__reach::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: none; }
+  .reach--make { color: var(--sc-accent); }
+  .reach--late { color: #d9c39c; }
+  .reach--weekend { color: #b9c7d4; }
+  .reach--off { color: var(--ink-dim); }
+  .ev__tags { display: flex; gap: var(--sc-2); font-family: var(--sc-font-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim); margin-top: var(--sc-2); }
+  .ev__src { margin-left: auto; text-transform: none; letter-spacing: 0.01em; }
+  .ev__act { display: flex; flex-direction: column; gap: var(--sc-1); align-items: flex-end; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; padding: 0.35rem 0.65rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink); cursor: pointer; text-decoration: none; white-space: nowrap; transition: border-color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out); }
+  .btn:active { transform: scale(0.97); }
+  @media (hover: hover) and (pointer: fine) { .btn:hover { border-color: var(--sc-ink); } }
+  .ev.is-off .ev__title, .ev.is-off .ev__date { color: var(--sc-ink-soft); }
+  .ev.is-new { animation: rowin 260ms var(--sc-ease-out) both; }
+  @keyframes rowin { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 640px) {
+    .ev { grid-template-columns: 4.6rem minmax(0, 1fr); }
+    .ev__src { margin-left: auto; text-transform: none; letter-spacing: 0.01em; }
+  .ev__act { grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; }
+  }
+  .empty { padding: var(--sc-7) 0; color: var(--sc-ink-soft); max-width: 46ch; }
+  .empty button { margin-top: var(--sc-3); }
+
+  /* close: the feed, an actual input */
+  .feed { margin-top: var(--sc-9); padding: var(--sc-6); border-radius: var(--sc-r-md); background: var(--sc-surface); box-shadow: var(--sc-edge), var(--sc-e2); }
+  .feed h2 { font-size: var(--sc-t-lg); font-weight: 600; letter-spacing: -0.02em; margin: 0; }
+  .feed p { margin: var(--sc-2) 0 var(--sc-4); color: var(--sc-ink-soft); font-size: var(--sc-t-sm); max-width: 58ch; }
+  .feed__row { display: flex; gap: var(--sc-2); flex-wrap: wrap; }
+  .feed__row input { flex: 1 1 18rem; min-width: 0; font-family: var(--sc-font-mono); font-size: 0.85rem; padding: 0.6rem 0.75rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: var(--sc-canvas); color: var(--sc-ink); }
+  .feed__row .btn { padding: 0.6rem 1rem; font-size: 0.875rem; }
+  .btn--solid { background: var(--sc-accent); color: var(--sc-accent-ink); border-color: var(--sc-accent); font-weight: 500; padding: 0.6rem 1rem; font-size: 0.875rem; }
+  @media (hover: hover) and (pointer: fine) { .btn--solid:hover { border-color: var(--sc-accent); background: #ffc266; } }
+  .colophon { margin-top: var(--sc-6); font-size: 0.78rem; color: var(--ink-dim); line-height: 1.6; max-width: 70ch; }
+  .colophon a { color: var(--sc-ink-soft); }
+  .sources { font-family: var(--sc-font-mono); font-size: 0.72rem; color: var(--ink-dim); margin-top: var(--sc-2); }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="bar__mark" href="#board"><i aria-hidden="true"></i>The Lineup</a>
+  <span class="bar__live"><b id="bar-count">0</b> upcoming</span>
+  <span class="bar__updated" id="bar-updated">loading feeds</span>
+  <span class="bar__sp"></span>
+  <a class="bar__link" href="#feed">Feed</a>
+  <a class="bar__link" id="bar-repo" href="https://github.com/NetworkwithJosh/the-lineup">Source</a>
+</header>
+
+<div class="app">
+  <aside class="side" aria-label="Your schedule and filters">
+    <section class="shift" aria-labelledby="shift-h">
+      <h1 id="shift-h">Cyber and AI meetups you can actually make.</h1>
+      <p class="hint">Set when you get off work and how long it takes you to get there.</p>
+
+      <div class="knob">
+        <div class="knob__top"><label for="off">I'm off at</label><output class="knob__val" id="off-v" for="off">6:00 PM</output></div>
+        <input id="off" type="range" min="900" max="1260" step="15" value="1080" aria-describedby="off-scale">
+        <div class="scale" id="off-scale" aria-hidden="true"><span>3 PM</span><span>6 PM</span><span>9 PM</span></div>
+      </div>
+      <div class="knob">
+        <div class="knob__top"><label for="trip">Getting there</label><output class="knob__val" id="trip-v" for="trip">45 min</output></div>
+        <input id="trip" type="range" min="0" max="120" step="5" value="45">
+        <div class="scale" aria-hidden="true"><span>0</span><span>1 hr</span><span>2 hr</span></div>
+      </div>
+
+      <div class="verdict" aria-live="polite">
+        <div class="verdict__n" id="v-n">0</div>
+        <div class="verdict__t" id="v-t">weeknight events you can make in the next 30 days.</div>
+        <div class="verdict__next" id="v-next"></div>
+      </div>
+    </section>
+
+    <div class="group">
+      <span class="sc-label" id="topic-l">Topic</span>
+      <div class="seg" role="group" aria-labelledby="topic-l" data-filter="topic">
+        <button type="button" data-v="all" aria-pressed="true">All</button>
+        <button type="button" data-v="cyber" aria-pressed="false">Cyber</button>
+        <button type="button" data-v="ai" aria-pressed="false">AI</button>
+      </div>
+    </div>
+    <div class="group">
+      <span class="sc-label" id="where-l">Where</span>
+      <div class="seg" role="group" aria-labelledby="where-l" data-filter="region">
+        <button type="button" data-v="local" aria-pressed="true">NYC + NJ + PA</button>
+        <button type="button" data-v="online" aria-pressed="false">Online</button>
+        <button type="button" data-v="us" aria-pressed="false">US</button>
+        <button type="button" data-v="world" aria-pressed="false">International</button>
+        <button type="button" data-v="all" aria-pressed="false">Everywhere</button>
+      </div>
+    </div>
+    <div class="group">
+      <span class="sc-label" id="show-l">Show</span>
+      <div class="row-toggles" role="group" aria-labelledby="show-l">
+        <button type="button" class="toggle" id="t-make" aria-pressed="false">Only what I can make</button>
+        <button type="button" class="toggle" id="t-free" aria-pressed="false">Free only</button>
+      </div>
+    </div>
+    <div class="group">
+      <label class="sc-label" for="q" style="display:block;margin-bottom:var(--sc-2)">Search</label>
+      <input class="search" id="q" type="search" placeholder="OWASP, ISACA, agents, Brooklyn" autocomplete="off">
+    </div>
+  </aside>
+
+  <main class="board" id="board">
+    <div class="board__head">
+      <h2 id="board-h">Coming up</h2>
+      <p class="sc-body" id="board-sub"></p>
+    </div>
+    <div id="list"><p class="empty">Loading events.</p></div>
+
+    <section class="feed" id="feed" aria-labelledby="feed-h">
+      <h2 id="feed-h">Keep the whole lineup in your calendar</h2>
+      <p>Subscribe once. New meetups show up on their own as the feeds refresh every day.</p>
+      <div class="feed__row">
+        <label class="sr" for="feed-url">Calendar feed address</label>
+        <input id="feed-url" readonly value="">
+        <button class="btn btn--solid" type="button" id="copy">Copy feed</button>
+        <a class="btn" id="gcal" href="#" target="_blank" rel="noopener">Google Calendar</a>
+        <a class="btn" id="ical" href="#">Apple / Outlook</a>
+      </div>
+      <p class="colophon">The Lineup lists events other people organize. It does not run or sell tickets to any of them. Dates and venues change, so check the organizer's page before you go. Items marked "confirm" come from listings that disagree or from a standing schedule.</p>
+      <p class="sources" id="sources"></p>
+    </section>
+  </main>
+</div>
+
+<script>
+(() => {
+  const TZ = "America/New_York";
+  const $ = (s) => document.querySelector(s);
+  const state = { off: 1080, trip: 45, topic: "all", region: "local", make: false, free: false, q: "" };
+  let EVENTS = [], META = {};
+
+  // ---------- time helpers: everything is judged on New York wall-clock time
+  const fmtParts = (d, opts) => Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: TZ, ...opts }).formatToParts(d).map(p => [p.type, p.value]));
+  const minsNY = (d) => { const p = fmtParts(d, { hour: "numeric", minute: "2-digit", hour12: false }); return (+p.hour % 24) * 60 + +p.minute; };
+  const dayNY = (d) => fmtParts(d, { weekday: "short" }).weekday;
+  const clock = (m) => { const h = Math.floor(m / 60), mm = m % 60, ap = h >= 12 ? "PM" : "AM"; return `${((h + 11) % 12) + 1}:${String(mm).padStart(2, "0")} ${ap}`; };
+  const dateOnly = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d, 17)); }; // noon NY, no day shift
+  const toDate = (e, k) => e.allDay ? dateOnly(e[k]) : new Date(e[k]);
+  const isWeekend = (d) => ["Sat", "Sun"].includes(dayNY(d));
+  const mins = (n) => n < 60 ? `${n} min` : `${Math.floor(n / 60)} hr${n % 60 ? " " + (n % 60) + " min" : ""}`;
+
+  // ---------- the signature move: can you make it?
+  function reach(e) {
+    const s = toDate(e, "start"), en = toDate(e, "end");
+    const online = e.region === "online";
+    const away = e.region === "us" || e.region === "world";
+    const multi = e.allDay && e.start !== e.end;
+    if (away && !online) return { k: "off", t: multi ? "Travel and time off" : "Travel needed" };
+    if (e.allDay) {
+      if (!multi && isWeekend(s)) return { k: "weekend", t: "On a weekend" };
+      if (multi) {
+        let d = new Date(s), wk = 0; while (d <= en) { if (isWeekend(d)) wk++; d = new Date(d.getTime() + 864e5); }
+        return wk ? { k: "weekend", t: "Partly on a weekend" } : { k: "off", t: online ? "Daytime, during work" : "Needs time off" };
+      }
+      return { k: "off", t: online ? "Daytime, during work" : "Needs time off" };
+    }
+    if (isWeekend(s)) return { k: "weekend", t: "On a weekend" };
+    const startM = minsNY(s), endM = minsNY(en) || 1440;
+    const free = state.off + (online ? 0 : state.trip);
+    if (free <= startM) {
+      const early = startM - free;
+      return { k: "make", t: online ? "You're free before it starts" : (early === 0 ? "You'd walk in right on time" : `You'd walk in ${mins(early)} early`) };
+    }
+    if (free < endM - 30) return { k: "late", t: `You'd catch the last ${mins(endM - free)}` };
+    return { k: "off", t: startM < state.off ? "During work hours" : "Ends before you get there" };
+  }
+
+  // ---------- filters
+  function visible() {
+    const q = state.q.trim().toLowerCase();
+    return EVENTS.filter(e => {
+      if (state.topic !== "all" && !e.tags.includes(state.topic)) return false;
+      if (state.region !== "all" && e.region !== state.region) return false;
+      if (state.free && !/^free/i.test(e.cost)) return false;
+      if (q && !`${e.title} ${e.venue} ${e.city} ${e.about} ${e.kind} ${e.source}`.toLowerCase().includes(q)) return false;
+      if (state.make && reach(e).k !== "make") return false;
+      return true;
+    });
+  }
+
+  // ---------- rendering
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  function when(e) {
+    const s = toDate(e, "start"), en = toDate(e, "end");
+    const day = new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "short" }).format(s);
+    const date = new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric" }).format(s);
+    let time;
+    if (e.allDay) {
+      time = e.start === e.end ? "All day" : "to " + new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric" }).format(en);
+    } else {
+      time = clock(minsNY(s));
+      if (e.region !== "local" && e.region !== "online") time += " ET";
+    }
+    return { day, date, time };
+  }
+  const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "long", year: "numeric" }).format(toDate(e, "start"));
+
+  function render(animate) {
+    const list = visible();
+    const groups = new Map();
+    for (const e of list) { const k = monthKey(e); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); }
+    const regionName = { local: "around NYC, NJ and Philly", online: "online", us: "around the US", world: "international", all: "everywhere" }[state.region];
+    $("#board-sub").textContent = `${list.length} ${list.length === 1 ? "event" : "events"} ${regionName}${state.make ? " you can make" : ""}.`;
+    if (!list.length) {
+      $("#list").innerHTML = `<div class="empty"><p>Nothing matches. Try a later off time, a shorter trip, or turn off "Only what I can make".</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
+      $("#reset").onclick = resetFilters;
+      return;
+    }
+    let html = "";
+    for (const [m, evs] of groups) {
+      html += `<section class="month" aria-label="${esc(m)}"><h3><span>${esc(m)}</span><span>${evs.length}</span></h3>`;
+      for (const e of evs) {
+        const w = when(e), r = reach(e);
+        const meta = [e.venue, e.city !== e.venue ? e.city : "", e.cost, e.kind].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("");
+        const confirm = e.status === "verify" || e.status === "recurring" ? ` <span class="ev__day">(confirm)</span>` : "";
+        html += `<article class="ev${r.k === "off" ? " is-off" : ""}${animate ? " is-new" : ""}" data-id="${e.id}">
+          <div class="ev__when"><div class="ev__day">${esc(w.day)}</div><div class="ev__date">${esc(w.date)}</div><div class="ev__time">${esc(w.time)}</div></div>
+          <div><h4 class="ev__title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}${confirm}</h4>
+            <p class="ev__meta">${meta}</p>
+            ${e.about ? `<p class="ev__about">${esc(e.about)}</p>` : ""}
+            <div class="ev__reach reach--${r.k}">${esc(r.t)}</div>
+            <div class="ev__tags">${e.tags.map(t => `<span>${t === "ai" ? "AI" : "Cyber"}</span>`).join("")}<span class="ev__src">via ${esc(e.source.toLowerCase())}</span></div>
+          </div>
+          <div class="ev__act"><button class="btn" type="button" data-add="${e.id}">Add to calendar</button></div>
+        </article>`;
+      }
+      html += `</section>`;
+    }
+    $("#list").innerHTML = html;
+  }
+
+  function verdict() {
+    const now = Date.now(), horizon = now + 30 * 864e5;
+    const pool = EVENTS.filter(e => {
+      const t = toDate(e, "start").getTime();
+      return t >= now && t <= horizon && (state.topic === "all" || e.tags.includes(state.topic)) && (e.region === "local" || e.region === "online");
+    });
+    const ok = pool.filter(e => reach(e).k === "make" && !isWeekend(toDate(e, "start")));
+    $("#v-n").textContent = ok.length;
+    $("#v-t").textContent = `${ok.length === 1 ? "weeknight event" : "weeknight events"} you can make in the next 30 days, leaving at ${clock(state.off)}.`;
+    const next = ok[0];
+    if (next) {
+      const w = when(next);
+      $("#v-next").innerHTML = `Next up: <a href="${esc(next.url)}" target="_blank" rel="noopener">${esc(next.title)}</a>, ${esc(w.day)} ${esc(w.date)} at ${esc(w.time)}. ${esc(reach(next).t)}.`;
+    } else {
+      $("#v-next").textContent = "Nothing reachable on a weeknight yet. Weekend and online events are still on the board.";
+    }
+  }
+
+  function paintKnob(el) { const f = (el.value - el.min) / (el.max - el.min) * 100; el.style.setProperty("--fill", f + "%"); }
+  function update(animate) { render(animate); verdict(); }
+
+  function resetFilters() {
+    Object.assign(state, { topic: "all", region: "local", make: false, free: false, q: "" });
+    document.querySelectorAll(".seg").forEach(g => g.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === state[g.dataset.filter]))));
+    $("#t-make").setAttribute("aria-pressed", "false"); $("#t-free").setAttribute("aria-pressed", "false"); $("#q").value = "";
+    save(); update(true);
+  }
+
+  // ---------- remember the visitor's settings on this device only
+  function save() { try { localStorage.setItem("lineup", JSON.stringify({ off: state.off, trip: state.trip, region: state.region, topic: state.topic })); } catch (_) {} }
+  function load() { try { Object.assign(state, JSON.parse(localStorage.getItem("lineup") || "{}")); } catch (_) {} }
+
+  // ---------- single-event .ics
+  const icsDate = (d) => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const icsEsc = (s) => String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+  function downloadIcs(e) {
+    const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "BEGIN:VEVENT", `UID:${e.id}@the-lineup`, `DTSTAMP:${icsDate(new Date())}`];
+    if (e.allDay) {
+      const [y, m, d] = e.end.split("-").map(Number); const after = new Date(Date.UTC(y, m - 1, d + 1));
+      L.push(`DTSTART;VALUE=DATE:${e.start.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${after.toISOString().slice(0, 10).replace(/-/g, "")}`);
+    } else L.push(`DTSTART:${icsDate(new Date(e.start))}`, `DTEND:${icsDate(new Date(e.end))}`);
+    L.push(`SUMMARY:${icsEsc(e.title)}`, `LOCATION:${icsEsc([e.venue, e.city].filter(x => x && x !== "Online").join(", ") || "Online")}`, `DESCRIPTION:${icsEsc(e.about + " " + e.url)}`);
+    if (e.url) L.push(`URL:${e.url}`);
+    L.push("BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", "DESCRIPTION:Tomorrow", "END:VALARM", "END:VEVENT", "END:VCALENDAR");
+    const blob = new Blob([L.join("\r\n") + "\r\n"], { type: "text/calendar" });
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: e.title.replace(/[^\w]+/g, "-").slice(0, 60) + ".ics" });
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  // ---------- wiring
+  function wire() {
+    const off = $("#off"), trip = $("#trip");
+    off.value = state.off; trip.value = state.trip;
+    [off, trip].forEach(paintKnob);
+    $("#off-v").textContent = clock(state.off); $("#trip-v").textContent = mins(state.trip);
+    let raf = 0;
+    const onKnob = () => {
+      state.off = +off.value; state.trip = +trip.value;
+      $("#off-v").textContent = clock(state.off); $("#trip-v").textContent = state.trip ? mins(state.trip) : "0 min";
+      paintKnob(off); paintKnob(trip);
+      cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { update(false); save(); });
+    };
+    off.addEventListener("input", onKnob); trip.addEventListener("input", onKnob);
+    document.querySelectorAll(".seg").forEach(g => {
+      g.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === state[g.dataset.filter])));
+      g.addEventListener("click", (ev) => {
+        const b = ev.target.closest("button"); if (!b) return;
+        state[g.dataset.filter] = b.dataset.v;
+        g.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+        save(); update(true);
+      });
+    });
+    [["#t-make", "make"], ["#t-free", "free"]].forEach(([id, key]) => $(id).addEventListener("click", (ev) => {
+      state[key] = !state[key]; ev.currentTarget.setAttribute("aria-pressed", String(state[key])); update(true);
+    }));
+    let qt; $("#q").addEventListener("input", (ev) => { clearTimeout(qt); qt = setTimeout(() => { state.q = ev.target.value; update(false); }, 120); });
+    $("#list").addEventListener("click", (ev) => { const b = ev.target.closest("[data-add]"); if (b) downloadIcs(EVENTS.find(e => e.id === b.dataset.add)); });
+
+    const feed = new URL("lineup.ics", location.href).href;
+    const webcal = feed.replace(/^https?:/, "webcal:");
+    $("#feed-url").value = feed;
+    $("#ical").href = webcal;
+    $("#gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+    $("#copy").addEventListener("click", async (ev) => {
+      const b = ev.currentTarget;
+      try { await navigator.clipboard.writeText(feed); b.textContent = "Copied"; }
+      catch (_) { $("#feed-url").select(); b.textContent = "Press Ctrl+C"; }
+      setTimeout(() => (b.textContent = "Copy feed"), 1800);
+    });
+  }
+
+  async function boot() {
+    load(); wire();
+    try {
+      const r = await fetch("data/events.json", { cache: "no-cache" });
+      const data = await r.json();
+      META = data;
+      const today = new Date(); today.setHours(0, 0, 0, 0);
+      EVENTS = data.events.filter(e => toDate(e, "end") >= today);
+      $("#bar-count").textContent = EVENTS.length;
+      const up = new Date(data.generatedAt);
+      $("#bar-updated").textContent = "updated " + new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(up);
+      const ok = (data.sources || []).filter(s => s.ok).map(s => s.source);
+      $("#sources").textContent = "Sources this run: " + (ok.length ? ok.join(", ") + ", plus " : "") + "standing meetups and hand-checked listings.";
+      update(true);
+    } catch (err) {
+      $("#list").innerHTML = `<p class="empty">The event list did not load. Refresh the page, or grab the calendar feed below.</p>`;
+    }
+  }
+  boot();
+})();
+</script>
+</body>
+</html>

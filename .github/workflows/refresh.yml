@@ -1,0 +1,40 @@
+name: Refresh the lineup
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # every day, ~5-6am New York time
+  workflow_dispatch:         # run it by hand from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull the feeds
+        run: python scraper/scrape.py --days 150
+      - name: Save the new events
+        run: |
+          git config user.name "lineup-bot"
+          git config user.email "lineup-bot@users.noreply.github.com"
+          git add site/data/events.json site/lineup.ics
+          git diff --cached --quiet || git commit -m "Refresh events" && git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,448 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:The Lineup: cyber + AI meetups
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VEVENT
+UID:2d4ee443d474@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+SUMMARY:Microsoft Ignite 2026
+LOCATION:Moscone Center\, San Francisco\, CA
+DESCRIPTION:Copilot\, AI agents and security. Keynotes stream free. https://ignite.microsoft.com
+URL:https://ignite.microsoft.com
+END:VEVENT
+BEGIN:VEVENT
+UID:a66ab533c1b0@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261117T130000Z
+DTEND:20261117T224500Z
+SUMMARY:The Official Cybersecurity Summit: New York
+LOCATION:Sheraton New York Times Square\, 811 7th Ave\, Manhattan\, NY
+DESCRIPTION:One-day executive summit. AI and automation risk\, resilience. https://cybersecuritysummit.com/summit/new-york/
+URL:https://cybersecuritysummit.com/summit/new-york/
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd98138bb2b@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261117T230000Z
+DTEND:20261118T020000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:49980929c545@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:SecureWorld East (virtual)
+LOCATION:Online
+DESCRIPTION:Regional SecureWorld content streamed virtually. https://www.secureworld.io/events
+URL:https://www.secureworld.io/events
+END:VEVENT
+BEGIN:VEVENT
+UID:0b8bd1a74ed4@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261119T133000Z
+DTEND:20261119T200000Z
+SUMMARY:NY AI Security & Data Protection Summit
+LOCATION:Likely Conrad New York Downtown\, Manhattan\, NY
+DESCRIPTION:AI data flows\, compliance\, breach response\, third-party risk. One listing says Nov 17\, so confirm. https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
+URL:https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
+END:VEVENT
+BEGIN:VEVENT
+UID:4137948abc39@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261119T233000Z
+DTEND:20261120T020000Z
+SUMMARY:ISACA New Jersey Chapter Membership Meeting
+LOCATION:Pines Manor\, 2085 State Route 27\, Edison\, NJ
+DESCRIPTION:IT audit\, risk and GRC professionals. https://engage.isaca.org/newjerseychapter/home
+URL:https://engage.isaca.org/newjerseychapter/home
+END:VEVENT
+BEGIN:VEVENT
+UID:81872671ef1d@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261120T000000Z
+DTEND:20261120T020000Z
+SUMMARY:DC908 talk: The Com and the Cybercrime Ecosystem
+LOCATION:Westfield Memorial Library\, 550 E Broad St\, Westfield\, NJ
+DESCRIPTION:DEF CON group talk. https://securitycalendar.com/jersey-city-nj.html
+URL:https://securitycalendar.com/jersey-city-nj.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e61b449abf50@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261205
+SUMMARY:AWS re:Invent 2026
+LOCATION:Venetian\, Caesars Forum\, MGM\, Wynn\, Las Vegas\, NV
+DESCRIPTION:Cloud and agentic AI. Anthropic and OpenAI are listed sponsors. https://web.govevents.com/details/98147/aws-reinvent-2026
+URL:https://web.govevents.com/details/98147/aws-reinvent-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:0665cab66956@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261204
+SUMMARY:Black Hat MEA 2026
+LOCATION:Riyadh Exhibition & Convention Center\, Malham\, Riyadh\, Saudi Arabia
+DESCRIPTION:Briefings\, trainings\, exhibition and a large CTF. https://blackhatmea.com/about-us
+URL:https://blackhatmea.com/about-us
+END:VEVENT
+BEGIN:VEVENT
+UID:c4b7b3a49a3a@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261201T230000Z
+DTEND:20261202T013000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:112c2f6f5799@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261202T230000Z
+DTEND:20261203T030000Z
+SUMMARY:ISC2 New Jersey Chapter Holiday Dinner
+LOCATION:The Armory NJ\, 200 Front St\, Perth Amboy\, NJ
+DESCRIPTION:Chapter holiday dinner and networking. https://isc2njchapter.curated.co
+URL:https://isc2njchapter.curated.co
+END:VEVENT
+BEGIN:VEVENT
+UID:5b3250c0eacc@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Cybersecurity Summit: Implications of AI (virtual)
+LOCATION:Online
+DESCRIPTION:AI governance and AI threats for security leaders. https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
+URL:https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
+END:VEVENT
+BEGIN:VEVENT
+UID:11c6eab6e4a1@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261203T150000Z
+DTEND:20261203T170000Z
+SUMMARY:Microsoft workshop: Data Security with Purview
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, NY
+DESCRIPTION:Data classification\, DLP and compliance with Purview. https://developer.microsoft.com/en-us/reactor/
+URL:https://developer.microsoft.com/en-us/reactor/
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4835e683e3@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261204T220000Z
+DTEND:20261205T000000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+URL:https://www.2600.com/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:31dfe420bba8@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261210
+SUMMARY:Gartner Identity & Access Management Summit
+LOCATION:Caesars Forum\, Las Vegas\, NV
+DESCRIPTION:Identity governance and securing AI agent identities. https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+URL:https://www.luminik.io/events/gartner-identity-access-management-summit-nevada/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f0574c8b3e9@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261211
+SUMMARY:Black Hat Europe 2026
+LOCATION:ExCeL London\, London\, UK
+DESCRIPTION:AI Security Summit on Dec 8. https://blackhat.com/html/press/2026-10-29.html
+URL:https://blackhat.com/html/press/2026-10-29.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b17712c483ee@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261211
+SUMMARY:The AI Summit New York
+LOCATION:Javits Center\, 429 11th Ave\, Manhattan\, NY
+DESCRIPTION:Enterprise AI conference. Day 1 8am to 6pm\, Day 2 8am to 5pm. https://newyork.theaisummit.com/experience/travel-accommodation/
+URL:https://newyork.theaisummit.com/experience/travel-accommodation/
+END:VEVENT
+BEGIN:VEVENT
+UID:acb2fa3bfb84@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261211T130000Z
+DTEND:20261211T230000Z
+SUMMARY:BSides Philadelphia
+LOCATION:Live! Casino & Hotel\, 900 Packer Ave\, Philadelphia\, PA
+DESCRIPTION:Community security conference. https://securitycalendar.com/jersey-city-nj.html
+URL:https://securitycalendar.com/jersey-city-nj.html
+END:VEVENT
+BEGIN:VEVENT
+UID:127a18aafedc@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261215T160000Z
+DTEND:20261215T180000Z
+SUMMARY:Microsoft workshop: Defender for Cloud posture management
+LOCATION:Microsoft NYC (confirm venue)\, Manhattan\, NY
+DESCRIPTION:Cloud security posture management in Azure. https://developer.microsoft.com/en-us/reactor/
+URL:https://developer.microsoft.com/en-us/reactor/
+END:VEVENT
+BEGIN:VEVENT
+UID:2209030b4734@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261215T230000Z
+DTEND:20261216T020000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:d720822e4931@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Cybersecurity Summit: GRC (virtual)
+LOCATION:Online
+DESCRIPTION:Governance\, risk and compliance. https://infosec-conferences.com/us-state/new-york/
+URL:https://infosec-conferences.com/us-state/new-york/
+END:VEVENT
+BEGIN:VEVENT
+UID:10e56e1115ee@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261231
+SUMMARY:40C3: Chaos Communication Congress
+LOCATION:Hamburg Messe\, Hamburg\, Germany
+DESCRIPTION:Europe's biggest hacker congress. Talks stream free. https://events.ccc.de/en/category/40c3/
+URL:https://events.ccc.de/en/category/40c3/
+END:VEVENT
+BEGIN:VEVENT
+UID:3833d7f1e58d@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20261229T230000Z
+DTEND:20261230T020000Z
+SUMMARY:Brooklyn NYSEC
+LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, NY
+DESCRIPTION:The Brooklyn edition of NYSEC\, only on fifth Tuesdays. https://securitycalendar.com/jersey-city-nj.html
+URL:https://securitycalendar.com/jersey-city-nj.html
+END:VEVENT
+BEGIN:VEVENT
+UID:3a2b51b8f44e@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270101T220000Z
+DTEND:20270102T000000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+URL:https://www.2600.com/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:54f7bfa25e60@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270105T230000Z
+DTEND:20270106T013000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:87ebe6e3b9dc@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270119T230000Z
+DTEND:20270120T020000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:d02448720ffd@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270128
+SUMMARY:Cybertech Global Tel Aviv 2027
+LOCATION:Expo Tel Aviv\, Pavilion 2\, Tel Aviv\, Israel
+DESCRIPTION:International cyber industry and government event. https://www.cybertechisrael.com/sites/cybertlv2022/files/2026-06/brochure%20global%20tlv%202027.pdf
+URL:https://www.cybertechisrael.com/sites/cybertlv2022/files/2026-06/brochure%20global%20tlv%202027.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:09ab3fa81591@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270202T230000Z
+DTEND:20270203T013000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:dfc655b6f7d3@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270205T220000Z
+DTEND:20270206T000000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+URL:https://www.2600.com/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:473a4af130ec@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:DistrictCon Year 2
+LOCATION:Washington\, DC\, Washington\, DC
+DESCRIPTION:Weekend hacker con mixing tech and policy. https://sessionize.com/districtcon-year-2/
+URL:https://sessionize.com/districtcon-year-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:f954726027b8@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270213
+SUMMARY:Munich Cyber Security Conference 2027
+LOCATION:Chamber of Commerce (IHK)\, Munich\, Germany
+DESCRIPTION:Senior-leader cyber policy forum. https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
+URL:https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:f17deba34282@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270216T230000Z
+DTEND:20270217T020000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:76626ea819df@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270220
+SUMMARY:Zero Trust World 2027
+LOCATION:Orlando\, FL\, Orlando\, FL
+DESCRIPTION:Hands-on zero trust labs\, hosted by ThreatLocker. https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:7339f7de4443@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270220
+SUMMARY:Wild West Hackin' Fest @ Mile High
+LOCATION:Sheraton Denver Downtown\, Denver\, CO
+DESCRIPTION:Community-first\, open-source tools\, hands-on. https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
+URL:https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-Prospectus-4-22-2026.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:30993144ca45@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270223T130000Z
+DTEND:20270223T230000Z
+SUMMARY:The Official Cybersecurity Summit: New York (spring)
+LOCATION:Sheraton New York Times Square\, Manhattan\, NY
+DESCRIPTION:Spring edition of the one-day executive summit. https://securitycalendar.com/jersey-city-nj.html
+URL:https://securitycalendar.com/jersey-city-nj.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5e3f8bed6879@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:SecureWorld: AI Strategy\, Governance & Growth (virtual)
+LOCATION:Online
+DESCRIPTION:AI strategy and AI governance programs. https://www.secureworld.io/events
+URL:https://www.secureworld.io/events
+END:VEVENT
+BEGIN:VEVENT
+UID:960b4e733388@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270302T230000Z
+DTEND:20270303T013000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+BEGIN:VEVENT
+UID:38a2e4925980@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270305T220000Z
+DTEND:20270306T000000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+URL:https://www.2600.com/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:16b2707d9785@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270319
+SUMMARY:NVIDIA GTC 2027
+LOCATION:San Jose McEnery Convention Center\, San Jose\, CA
+DESCRIPTION:Agentic AI and AI infrastructure. https://www.nvidia.com/en-us/gtc/faq/
+URL:https://www.nvidia.com/en-us/gtc/faq/
+END:VEVENT
+BEGIN:VEVENT
+UID:f494550da4d3@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270316T220000Z
+DTEND:20270317T010000Z
+SUMMARY:NYSEC
+LOCATION:d.b.a.\, 41 1st Ave\, Manhattan\, NY
+DESCRIPTION:Informal infosec drinks meetup. No dues\, no talks. https://sockpuppet.org/nysec
+URL:https://sockpuppet.org/nysec
+END:VEVENT
+BEGIN:VEVENT
+UID:0515f56fa392@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Cloud Security USA
+LOCATION:Venue TBA\, Manhattan\, NY
+DESCRIPTION:Cloud security conference. https://infosec-conferences.com/event/20270324-cloud-usa-conference/
+URL:https://infosec-conferences.com/event/20270324-cloud-usa-conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:01543f7fcf71@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270330T220000Z
+DTEND:20270331T010000Z
+SUMMARY:Brooklyn NYSEC
+LOCATION:Someday Bar\, 364 Atlantic Ave\, Brooklyn\, NY
+DESCRIPTION:The Brooklyn edition of NYSEC\, only on fifth Tuesdays. https://securitycalendar.com/jersey-city-nj.html
+URL:https://securitycalendar.com/jersey-city-nj.html
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4a42e82a4a@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270402T210000Z
+DTEND:20270402T230000Z
+SUMMARY:NYC2600
+LOCATION:Citigroup Center food court\, 601 Lexington Ave\, Manhattan\, NY
+DESCRIPTION:Long-running hacker meetup. Not posted every month\, so check before going. https://www.2600.com/meetings
+URL:https://www.2600.com/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:8c0718d4a329@the-lineup
+DTSTAMP:20261115T163457Z
+DTSTART:20270406T220000Z
+DTEND:20270407T003000Z
+SUMMARY:Microsoft Reactor: MVP Feature Series
+LOCATION:Microsoft\, 11 Times Square\, 640 8th Ave\, Manhattan\, NY
+DESCRIPTION:Two talks by Microsoft MVPs and an hour of networking. Register each month. https://developer.microsoft.com/en-us/reactor/series/S-1470
+URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
+END:VEVENT
+END:VCALENDAR

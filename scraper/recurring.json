@@ -1,0 +1,9 @@
+{
+  "_note": "Standing meetups that repeat on a rule. nth = which weekday of the month (1-5). Dates are expanded every run. Always confirm with the organizer.",
+  "rules": [
+    {"title": "NYSEC", "nth": 3, "weekday": "TU", "start": "18:00", "end": "21:00", "venue": "d.b.a., 41 1st Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://sockpuppet.org/nysec", "about": "Informal infosec drinks meetup. No dues, no talks."},
+    {"title": "Brooklyn NYSEC", "nth": 5, "weekday": "TU", "start": "18:00", "end": "21:00", "venue": "Someday Bar, 364 Atlantic Ave", "city": "Brooklyn, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://securitycalendar.com/jersey-city-nj.html", "about": "The Brooklyn edition of NYSEC, only on fifth Tuesdays."},
+    {"title": "NYC2600", "nth": 1, "weekday": "FR", "start": "17:00", "end": "19:00", "venue": "Citigroup Center food court, 601 Lexington Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://www.2600.com/meetings", "about": "Long-running hacker meetup. Not posted every month, so check before going."},
+    {"title": "Microsoft Reactor: MVP Feature Series", "nth": 1, "weekday": "TU", "start": "18:00", "end": "20:30", "venue": "Microsoft, 11 Times Square, 640 8th Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["ai", "cyber"], "kind": "Meetup", "url": "https://developer.microsoft.com/en-us/reactor/series/S-1470", "about": "Two talks by Microsoft MVPs and an hour of networking. Register each month."}
+  ]
+}
