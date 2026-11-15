@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:763775ae921b@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:0
 DTSTART:20261123T233000Z
 DTEND:20261124T013000Z
 SUMMARY:Build Your First AI Agent with n8n | AI Collective x n8n Douglasville
-LOCATION:Check event page for more details.\, Check event page for more details.
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-do-11-23 Address: Check event page for more details. Hosted by The AI Collective\, Cheryl Tibbs & Mark Michelson https://luma.com/event/evt-qC1ZkEM7NjlIN7Y
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-qC1ZkEM7NjlIN7Y

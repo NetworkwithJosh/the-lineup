@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:916f3b17b2d3@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:0
 DTSTART:20261118T083000Z
 DTEND:20261118T110000Z
 SUMMARY:Solo Travellers' Tea Break
-LOCATION:Check event page for more details.\, Check event page for more details.
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20261118 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-saszhj6lQHIVkaa
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-saszhj6lQHIVkaa

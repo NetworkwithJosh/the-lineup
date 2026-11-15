@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3f866d62f1d9@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:1
 DTSTART:20261204T010000Z
 DTEND:20261204T040000Z
 SUMMARY:CISO Strategy Salon - AWS ReInvent 2026
-LOCATION:Check event page for more details.\, Check event page for more details.
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:Get up-to-date information at: https://luma.com/58m3v3a2 Address: Check event page for more details. Hosted by Alchemy Cyber & Aqsa Taylor https://luma.com/event/evt-HeCfXvtAE0v3JGX
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-HeCfXvtAE0v3JGX

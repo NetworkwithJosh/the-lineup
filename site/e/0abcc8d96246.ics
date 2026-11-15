@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0abcc8d96246@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:0
 DTSTART:20261126T020000Z
 DTEND:20261126T050000Z
 SUMMARY:#LATechWeek AI Collective Pitch Night (w/ The AI Collective)
-LOCATION:Check event page for more details.\, Check event page for more details.
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-la-og-pitch-night Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-YY3wwNrsTyfjSQw
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-YY3wwNrsTyfjSQw

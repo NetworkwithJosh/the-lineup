@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7d9be887aea8@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:1
 DTSTART:20261118T233000Z
 DTEND:20261119T033000Z
 SUMMARY:CISO Strategy Salon - Austin
-LOCATION:Check event page for more details.\, Austin\, United States
+LOCATION:Location on listing\, Austin\, United States
 DESCRIPTION:Get up-to-date information at: https://luma.com/1zlmfg4i Address: Check event page for more details. Hosted by Alchemy Cyber\, Pavan Kushwaha & Team Threatcop https://luma.com/event/evt-YBY9TdrVdZvX4nQ
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-YBY9TdrVdZvX4nQ

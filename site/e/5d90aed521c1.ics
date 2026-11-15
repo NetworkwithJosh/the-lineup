@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5d90aed521c1@the-lineup
-DTSTAMP:20261115T223733Z
+DTSTAMP:20261115T224149Z
 SEQUENCE:0
 DTSTART:20261126T073000Z
 DTEND:20261126T090000Z
 SUMMARY:Network event with the AI Collective
-LOCATION:Check event page for more details.\, Check event page for more details.
+LOCATION:Location on listing\, Location on listing
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ad-11-12 Address: Check event page for more details. Hosted by The AI Collective\, Nick Marlow & Guillaume Leroux https://luma.com/event/evt-1FDGHEnrfEPFKRM
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-1FDGHEnrfEPFKRM
