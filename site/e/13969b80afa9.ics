@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:13969b80afa9@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261205T110000Z
+DTEND:20261205T153000Z
+SUMMARY:Movie Hits Music Night
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20261205 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-gKF4KnwqW6vP2TO
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-gKF4KnwqW6vP2TO
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6b3fa1810558@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T070000Z
+DTEND:20261201T110000Z
+SUMMARY:C-Suite Dinner: AI Disasters in Critical Infrastuctures (w/ The AI Collective\, FACCI and Visione Group)
+LOCATION:GEORGES\, GEORGES\, Australia
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ad-12-1 Address: GEORGES Adelaide\, SA Australia Hosted by The AI Collective & Guillaume Leroux https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

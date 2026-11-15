@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c955720e74f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T093000Z
+DTEND:20261204T180000Z
+SUMMARY:Build & Pitch: Cria e Apresenta o Teu Projeto num Dia
+LOCATION:Coimbra\, Coimbra\, Portugal
+DESCRIPTION:Get up-to-date information at: https://luma.com/build-pitch Address: Coimbra Coimbra\, Portugal Hosted by Pedro Costa & The AI Collective https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

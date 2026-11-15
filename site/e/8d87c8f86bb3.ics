@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8d87c8f86bb3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T140000Z
+DTEND:20261211T220000Z
+SUMMARY:BSides Philly
+LOCATION:Location on listing\, Philadelphia\, United States
+DESCRIPTION:DC215 BSides Philly is one of our favorite days of the year and DC215 is proud to be part of it. Find us running the lockpicking village\, Meshtastic mesh networking demos\, and drone exhibitions. Come learn something new\, https://www.meetup.com/dc_215/events/316690037/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/316690037/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ca2eb058ec6b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T010000Z
+DTEND:20261120T030000Z
+SUMMARY:Multiplayer AI for HR: Show-and-Tell + MIXER
+LOCATION:576 Folsom St floor 3\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/promptql-HR-showandtell Address: 576 Folsom St floor 3 We’re looking forward to seeing you! Doors open at 5 pm\, so please wait until then to ring the buzzer. Thanks for hel https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

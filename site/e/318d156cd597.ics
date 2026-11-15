@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:318d156cd597@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T090000Z
+DTEND:20261204T100000Z
+SUMMARY:Beyond AI Readiness: Architecting the Intelligent Enterprise (w/ The AI Collective)
+LOCATION:Location on listing\, Stockholm\, Sweden
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-ai-ready-2 Hosted by The AI Collective\, Neelima Misra & Data & AI Stockholm https://luma.com/event/evt-pBKW8j8QhoYmrfT
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-pBKW8j8QhoYmrfT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

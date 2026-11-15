@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:efcf61051be7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T180000Z
+DTEND:20261124T190000Z
+SUMMARY:New Year\, New Bot - Bring Your AI Desk Robot to Life
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements\, connect it to a .NET backend and dashboard\, and create a first end-to-end interaction. This hands- https://www.meetup.com/microsoft-reactor-new-york/events/317164178/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317164178/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

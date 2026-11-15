@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f11f831cc628@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T083000Z
+DTEND:20261128T113000Z
+SUMMARY:GTM Rewind 2026: What Worked. What Flopped. What’s Next.
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gtm-rewind Address: Check event page for more details. Hosted by The AI Collective & Women in Product Marketing™ https://luma.com/event/evt-U7GTbfJZwAdOiQO
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-U7GTbfJZwAdOiQO
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

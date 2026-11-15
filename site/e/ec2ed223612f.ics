@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ec2ed223612f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T230000Z
+DTEND:20261120T020000Z
+SUMMARY:AI Builders Miami - Nov 19
+LOCATION:The HUB @ Office Logic\, Miami\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/mia-nov19 Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States Hosted by AI Builders & 3 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

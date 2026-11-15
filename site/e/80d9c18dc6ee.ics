@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:80d9c18dc6ee@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261130T233000Z
+DTEND:20261201T003000Z
+SUMMARY:Lunch with a Side of AI (w/ AI Collective NZ)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-nz-12-1 Hosted by The AI Collective & Nadia Ellis https://luma.com/event/evt-vjP1GzbAMNW01HM
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-vjP1GzbAMNW01HM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

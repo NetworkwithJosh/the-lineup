@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:960c7292acd6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T130000Z
+DTEND:20261201T140000Z
+SUMMARY:Seguridad\, Gobernanza y Resolución de Problemas para DevOps en Power Platform
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York La sesión final presentará las mejores prácticas empresariales para operar Power Platform y Azure DevOps de forma segura y consistente. Se abordarán temas como los service principals\, la gestió https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

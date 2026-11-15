@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee46ff21fc37@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T020000Z
+SUMMARY:Altera Meetup: Build an Original AI Story
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/8voz4ng1 Address: Check event page for more details. Hosted by Altera Media https://luma.com/event/evt-JhTJpxmlUulWB5v
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-JhTJpxmlUulWB5v
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

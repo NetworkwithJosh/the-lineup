@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a0690ca3b9de@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261215T170000Z
+DTEND:20261215T203000Z
+SUMMARY:AI Builders Monthly - Berlin
+LOCATION:Mindspace Zimmerstrasse\, Mindspace Zimmerstrasse\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/ber-dec15 Address: Mindspace Zimmerstrasse Mindspace Zimmerstrasse Berlin\, Germany Hosted by AI Builders & Andrei Mărcuţ https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

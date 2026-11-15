@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e9077deaeac@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T130000Z
+DTEND:20261118T140000Z
+SUMMARY:From Insight to “What If?”: Planning in Microsoft Fabric (Option 2)
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Knowing what happened is just the beginning. With Planning in Microsoft Fabric\, turn insights into forecasts\, scenarios\, and plans that help answer the bigger question: what if? Bring data\, ana https://www.meetup.com/microsoft-reactor-new-york/events/317094650/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317094650/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

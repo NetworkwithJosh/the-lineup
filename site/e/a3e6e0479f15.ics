@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a3e6e0479f15@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T230000Z
+DTEND:20261202T020000Z
+SUMMARY:Stamford AI Meetup | w/ The AI Collective
+LOCATION:Point Cafè - 2200 Atlantic St.\, Location on listing\, Stamford (Harbor Point)
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-12-1 Address: Point Cafè - 2200 Atlantic St.\, Stamford (Harbor Point) Hosted by The AI Collective & Darrell DeMakes https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

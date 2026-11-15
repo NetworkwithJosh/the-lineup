@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bff93bb1115d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261217T020000Z
+DTEND:20261217T050000Z
+SUMMARY:AI Builders Los Angeles - Dec 16
+LOCATION:Location on listing\, Los Angeles\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lax-dec16 Hosted by AI Builders & angel.pichardo https://luma.com/event/evt-5X0Amy1nyYs4fd8
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-5X0Amy1nyYs4fd8
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

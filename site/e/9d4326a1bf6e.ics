@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9d4326a1bf6e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T230000Z
+DTEND:20261203T003000Z
+SUMMARY:Fonzi's Devs & Drinks
+LOCATION:Check event page for more details.\, Location on listing\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-6w25 Address: Check event page for more details. Hosted by Gwendolyn Canada & Lauren Cotta https://luma.com/event/evt-EIHjVVX9DzFs821
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-EIHjVVX9DzFs821
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

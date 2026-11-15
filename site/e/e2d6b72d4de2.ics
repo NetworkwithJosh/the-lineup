@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e2d6b72d4de2@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270224T163000Z
+DTEND:20270224T200000Z
+SUMMARY:AI Builders Amsterdam - Feb 24
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-feb24 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

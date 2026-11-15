@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:beafdc55aeab@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270211T094500Z
+DTEND:20270211T160000Z
+SUMMARY:WTC BUILDATHON - Feb 11
+LOCATION:World Trade Center (Amsterdam)\, World Trade Center (Amsterdam)\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-feb11 Address: World Trade Center (Amsterdam) WTC Amsterdam Amsterdam\, Netherlands Hosted by AI Builders & 4 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

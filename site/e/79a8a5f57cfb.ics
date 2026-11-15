@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:79a8a5f57cfb@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T180000Z
+DTEND:20261118T213000Z
+SUMMARY:AI Builders Lisbon - Nov 18
+LOCATION:IDEA Spaces - São Sebastião\, IDEA Spaces - São Sebastião\, Portugal
+DESCRIPTION:Get up-to-date information at: https://luma.com/lis-nov18 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa\, Portugal Hosted by AI Builders & Filipe Mendes https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

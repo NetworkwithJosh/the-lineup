@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ec16d9364f14@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T013000Z
+DTEND:20261203T033000Z
+SUMMARY:Fund or Fold: How VCs Actually Decide
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective\, Vik Ghai & Sunil Grover https://luma.com/event/evt-DQisopGtHNvKpHw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-DQisopGtHNvKpHw
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

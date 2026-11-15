@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f3af3340ec01@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270105T013000Z
+DTEND:20270105T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttykccbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttykccbgb/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

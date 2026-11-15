@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:900287855c9d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270122T000000Z
+DTEND:20270122T023000Z
+SUMMARY:AI Collective x Gauntlet AI | Inside the Gauntlet (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gauntlet-nov10 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-IEXHqrE2vl7O4Zt
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-IEXHqrE2vl7O4Zt
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

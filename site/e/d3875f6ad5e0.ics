@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d3875f6ad5e0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T050000Z
+DTEND:20261121T071500Z
+SUMMARY:AI Paper Discussion ft. AIC Delhi Paper Club (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Delhi\, India
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-de-11-7 Address: Check event page for more details. Hosted by The AI Collective\, Albert Jokelin & Shresth Shukla https://luma.com/event/evt-4MQDVDKwGZO3dRW
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-4MQDVDKwGZO3dRW
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

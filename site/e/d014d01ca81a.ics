@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d014d01ca81a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+SUMMARY:Smart Nation Expo 2026
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-sne2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-2qHFv5XIrPkPqqy
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-2qHFv5XIrPkPqqy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

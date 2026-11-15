@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//The Lineup//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:The Lineup: cyber + AI meetups
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:2d3e545ec56b@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261114T100000Z
 DTEND:20261116T160000Z
@@ -19,8 +19,20 @@ STATUS:CANCELLED
 URL:https://events.vtools.ieee.org/m/572225
 END:VEVENT
 BEGIN:VEVENT
+UID:6bde29f93f8c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261114T180000Z
+DTEND:20261115T030000Z
+SUMMARY:She Builds: A Women in AI × Lovable Hackathon
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/lw202zjx Address: Check event page for more details. Hosted by Women in AI Club & 6 others https://luma.com/event/evt-WmcFSQ1lBmjJiST
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-WmcFSQ1lBmjJiST
+END:VEVENT
+BEGIN:VEVENT
 UID:e468f4451783@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
@@ -32,7 +44,7 @@ URL:https://ai-engineering-summit.de
 END:VEVENT
 BEGIN:VEVENT
 UID:eb93b55e8ba9@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
@@ -44,7 +56,7 @@ URL:https://apiconference.net/berlin
 END:VEVENT
 BEGIN:VEVENT
 UID:3f887992aa9d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
@@ -56,7 +68,7 @@ URL:https://mlconference.ai/berlin
 END:VEVENT
 BEGIN:VEVENT
 UID:dec3324b2cd6@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261118
@@ -67,8 +79,68 @@ STATUS:CONFIRMED
 URL:https://techaiconf.com
 END:VEVENT
 BEGIN:VEVENT
+UID:138adf0ee41d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T170000Z
+DTEND:20261116T180000Z
+SUMMARY:From AI Pilot to Production on Google Cloud
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Moving an AI project from pilot to production is not always straightforward. Many businesses have promising AI projects but face challenges when it comes to scaling and implementation. https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317252739/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317252739/
+END:VEVENT
+BEGIN:VEVENT
+UID:ce35f9c54ea0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T153000Z
+DTEND:20261116T183000Z
+SUMMARY:AI build & distribution workshop @ SLUSH
+LOCATION:Hive Helsinki\, Hive Helsinki\, Finland
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-11-16 Address: Hive Helsinki Arrival instructions: Type 'Hive Helsinki' in your maps application to see the exact location of the entrance. The entire campus is acce https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:9424d29d1d52@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T160000Z
+DTEND:20261116T170000Z
+SUMMARY:AI & Beyond - Navigating Opportunities in an AI-Driven World (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-ws-series-2 Hosted by The AI Collective\, Neelima Misra & Nithya Narayanan https://luma.com/event/evt-AObtrZzp5pBxvqV
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-AObtrZzp5pBxvqV
+END:VEVENT
+BEGIN:VEVENT
+UID:da9ee7bded83@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T213000Z
+DTEND:20261116T223000Z
+SUMMARY:GenAI Tokenomics
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:AWS New York | Official Meetup The price of a token decreases each year\, but AI bills increase. This session shows where tokens go and how to measure the cost of each business outcome. It also shows the levers that decre https://www.meetup.com/aws-nyc/events/317274346/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aws-nyc/events/317274346/
+END:VEVENT
+BEGIN:VEVENT
+UID:cbe1a6356aaa@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T170000Z
+DTEND:20261116T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Monday\, Nov 16
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-gt6z Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-OMGXQbOez1tiVeB
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-OMGXQbOez1tiVeB
+END:VEVENT
+BEGIN:VEVENT
 UID:7c845b5a541b@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261116T170600Z
 DTEND:20261120T170800Z
@@ -79,8 +151,56 @@ STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/592879
 END:VEVENT
 BEGIN:VEVENT
+UID:93e3168610b0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T190000Z
+DTEND:20261117T230000Z
+SUMMARY:PROMPT: New York
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & 3 others https://luma.com/event/evt-SPw2EENLbIPAMB1
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-SPw2EENLbIPAMB1
+END:VEVENT
+BEGIN:VEVENT
+UID:c99e5da3faf5@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T013000Z
+DTEND:20261117T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/317169795/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/317169795/
+END:VEVENT
+BEGIN:VEVENT
+UID:e2666bba821b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T213000Z
+DTEND:20261117T000000Z
+SUMMARY:AI and the Future of Work (w/ The AI Collective)
+LOCATION:Oracle do Brasil Sistemas\, São Paulo - SP\, Brazil
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sa-11-16 Address: Oracle do Brasil Sistemas São Paulo\, SP Brazil Hosted by The AI Collective\, Luiz Real & Edd Martins https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:8a3d4196e3e7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T230000Z
+DTEND:20261117T010000Z
+SUMMARY:Grok Bot Atlanta Meetup
+LOCATION:Tech North Atlanta\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/2ac0v8fs Address: Tech North Atlanta Alpharetta\, GA United States Hosted by Raj Poloju & 3 others https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
 UID:b597f5e94a4c@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261121
@@ -91,8 +211,20 @@ STATUS:CONFIRMED
 URL:https://ignite.microsoft.com
 END:VEVENT
 BEGIN:VEVENT
+UID:d014d01ca81a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+SUMMARY:Smart Nation Expo 2026
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-sne2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-2qHFv5XIrPkPqqy
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-2qHFv5XIrPkPqqy
+END:VEVENT
+BEGIN:VEVENT
 UID:33a82d17bf1a@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261117T130000Z
 DTEND:20261117T230000Z
@@ -104,7 +236,7 @@ URL:https://www.meetup.com/owasp-new-york-city-chapter/events/317365518/
 END:VEVENT
 BEGIN:VEVENT
 UID:a2bef211ac66@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261117T130000Z
 DTEND:20261117T224500Z
@@ -115,8 +247,32 @@ STATUS:CONFIRMED
 URL:https://cybersecuritysummit.com/summit/new-york/
 END:VEVENT
 BEGIN:VEVENT
+UID:1c570fd9292c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T100000Z
+DTEND:20261117T130000Z
+SUMMARY:Code Meets Animation: LottieFiles x The AI Collective
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-11-17 Address: Check event page for more details. Hosted by The AI Collective\, Alix & Madeline Chen https://luma.com/event/evt-RAp0BO7hQilm0J6
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-RAp0BO7hQilm0J6
+END:VEVENT
+BEGIN:VEVENT
+UID:06d0b176fe5a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T190000Z
+DTEND:20261117T194500Z
+SUMMARY:AI Is Only as Secure as Its Cloud
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Cloud Security Alliance\, SoCal Chapter **Session 1: Stop Cloud Misconfigurations and Cut the Alert Noise** **Speaker:** Dwight Philpotts **Title:** Principal Sales Engineer\, Aryon Security **Duration:** 30 minutes **Sess https://www.meetup.com/csa-socal/events/317201594/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/csa-socal/events/317201594/
+END:VEVENT
+BEGIN:VEVENT
 UID:bc2f759c4dc7@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261117T130000Z
 DTEND:20261117T140000Z
@@ -127,8 +283,56 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-identity-is-the-new-front-line-rethinking-iam-for-ai-agents/
 END:VEVENT
 BEGIN:VEVENT
+UID:4d25ea7b8fd3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T150000Z
+DTEND:20261117T180000Z
+SUMMARY:Claude SMB Workshop with Winventions
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/9ehg0793 Address: Check event page for more details. Hosted by Bukie Faforiji https://luma.com/event/evt-9v7A9wCLb2nfTnD
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-9v7A9wCLb2nfTnD
+END:VEVENT
+BEGIN:VEVENT
+UID:968de0b43d5e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T163000Z
+DTEND:20261117T200000Z
+SUMMARY:AI Builders Berlin
+LOCATION:CIC Berlin\, CIC Berlin\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/ber-nov17 Address: CIC Berlin Æthos Foundation\, CIC Berlin Berlin\, Berlin Germany Hosted by AI Builders & 5 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:dc02452dc486@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T170000Z
+DTEND:20261117T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Tuesday\, Nov 17
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-nr5q Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-cFkB2NkRcS2w5xU
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-cFkB2NkRcS2w5xU
+END:VEVENT
+BEGIN:VEVENT
+UID:0913f3a5e3b3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T013000Z
+DTEND:20261118T043000Z
+SUMMARY:The Future of Cybersecurity & Operating Enterprise AI at Scale
+LOCATION:Location on listing\, Los Angeles\, United States
+DESCRIPTION:ISSA Los Angeles **You must register on Eventbrite to attend:** [PURCHASE TICKETS HERE](https://www.eventbrite.com/e/the-future-of-cybersecurity-operating-enterprise-ai-at-scale-tickets-2002318473455) Hear 3 speakers on  https://www.meetup.com/issa-la/events/317388125/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-la/events/317388125/
+END:VEVENT
+BEGIN:VEVENT
 UID:a1722b4fc33e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261117T230000Z
 DTEND:20261118T020000Z
@@ -139,8 +343,32 @@ STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
+UID:3f1ca6bce658@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T230000Z
+DTEND:20261118T020000Z
+SUMMARY:Norfolk Cybersecurity Networking & Happy Hour
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View\, Norfolk. Happy hour is till 8pm with fantastic deals\, check the 2nd i https://www.meetup.com/issa-hampton-roads/events/317115177/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/317115177/
+END:VEVENT
+BEGIN:VEVENT
+UID:8f27c1d53f79@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T000000Z
+DTEND:20261121T020000Z
+SUMMARY:Microsoft Ignite 2026 | Online
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Your code. Your cloud. Your agents. Watch Microsoft Ignite 2026 online. Agents now take on whole coding tasks in parallel\, and they need infrastructure\, data and operations that can keep up. At https://www.meetup.com/microsoft-reactor-new-york/events/317139111/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317139111/
+END:VEVENT
+BEGIN:VEVENT
 UID:ae5997b2c0e4@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261117T230000Z
 DTEND:20261118T020000Z
@@ -151,8 +379,20 @@ STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/593790
 END:VEVENT
 BEGIN:VEVENT
+UID:993f16c6935d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261117T233000Z
+DTEND:20261118T020000Z
+SUMMARY:Knowns and Unknowns: Testing AI-Generated Code
+LOCATION:Roam Dunwoody\, Atlanta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/ajug-uuog Address: Roam Dunwoody Atlanta\, GA United States Hosted by Atlanta Java Users Group https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
 UID:5817d268a83c@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
@@ -163,8 +403,32 @@ STATUS:CONFIRMED
 URL:https://www.secureworld.io/events
 END:VEVENT
 BEGIN:VEVENT
+UID:2f7a51554fa6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T000000Z
+DTEND:20261118T090000Z
+SUMMARY:GBS Global Summit 2026
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-ggs2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-PiBjiykQ8dchfYA
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-PiBjiykQ8dchfYA
+END:VEVENT
+BEGIN:VEVENT
+UID:fdcd7ab602eb@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T010000Z
+DTEND:20261118T033000Z
+SUMMARY:AI Infrastructure Night
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/1ihtxydc Address: Check event page for more details. Hosted by Sharone Ofer & 4 others https://luma.com/event/evt-AHPQAW3LgSsBeua
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-AHPQAW3LgSsBeua
+END:VEVENT
+BEGIN:VEVENT
 UID:481a1819da7d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261118T070000Z
 DTEND:20261120T154500Z
@@ -175,8 +439,68 @@ STATUS:CANCELLED
 URL:https://events.vtools.ieee.org/m/532660
 END:VEVENT
 BEGIN:VEVENT
+UID:1e9077deaeac@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T130000Z
+DTEND:20261118T140000Z
+SUMMARY:From Insight to “What If?”: Planning in Microsoft Fabric (Option 2)
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Knowing what happened is just the beginning. With Planning in Microsoft Fabric\, turn insights into forecasts\, scenarios\, and plans that help answer the bigger question: what if? Bring data\, ana https://www.meetup.com/microsoft-reactor-new-york/events/317094650/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317094650/
+END:VEVENT
+BEGIN:VEVENT
+UID:916f3b17b2d3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T083000Z
+DTEND:20261118T110000Z
+SUMMARY:Solo Travellers' Tea Break
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20261118 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-saszhj6lQHIVkaa
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-saszhj6lQHIVkaa
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0f0c5a99cf@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T150000Z
+DTEND:20261118T160000Z
+SUMMARY:Doing More with Limited Resources: Prioritizing Public Sector AI Projects
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Learn how to balance innovation with governance\, risk management\, and accountability while building a practical roadmap for AI adoption that delivers measurable results. This session e https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317256027/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317256027/
+END:VEVENT
+BEGIN:VEVENT
+UID:97558f389331@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T170000Z
+DTEND:20261118T180000Z
+SUMMARY:AI-Ready Infrastructure: Cisco Insights for Networks & Data Centers | Free
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup ## Is Your IT Infrastructure AI-Ready? Cisco Insights for Data Centers & Networks **AI is transforming enterprise IT. Are your infrastructure and skills ready for what's next?** 🔗 **[R https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317299475/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317299475/
+END:VEVENT
+BEGIN:VEVENT
+UID:7173c4098718@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T180000Z
+DTEND:20261118T193000Z
+SUMMARY:Seminar: Where Engineering Meets Cybersecurity:Skills That Bridge the OT Divide
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Newark Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
+END:VEVENT
+BEGIN:VEVENT
 UID:f689362259e5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261118T140000Z
 DTEND:20261118T150000Z
@@ -187,8 +511,44 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-empowered-by-certifications-a-career-panel/
 END:VEVENT
 BEGIN:VEVENT
+UID:77ba22c00355@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T153000Z
+DTEND:20261118T170000Z
+SUMMARY:Nashville ETA AI Workshop
+LOCATION:Nashville Entrepreneur Center\, Nashville\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/pxvl12rc Address: Nashville Entrepreneur Center Nashville\, TN United States Hosted by Joseph Steigman https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
+UID:86044c479a33@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T163000Z
+DTEND:20261118T200000Z
+SUMMARY:AI Builders Amsterdam - Nov 18
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-nov18 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders\, Cansu Akman & Cris https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:1e5504a4ab6a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T170000Z
+DTEND:20261118T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Wednesday\, Nov 18
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-ey6f Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-3CtqKWoMhwqp50o
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-3CtqKWoMhwqp50o
+END:VEVENT
+BEGIN:VEVENT
 UID:ca9245538aa6@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261118T173000Z
 DTEND:20261118T200000Z
@@ -199,8 +559,32 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/
 END:VEVENT
 BEGIN:VEVENT
+UID:79a8a5f57cfb@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T180000Z
+DTEND:20261118T213000Z
+SUMMARY:AI Builders Lisbon - Nov 18
+LOCATION:IDEA Spaces - São Sebastião\, IDEA Spaces - São Sebastião\, Portugal
+DESCRIPTION:Get up-to-date information at: https://luma.com/lis-nov18 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa\, Portugal Hosted by AI Builders & Filipe Mendes https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:20a88585c2c5@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T180000Z
+DTEND:20261118T193000Z
+SUMMARY:AI Collective Connect: Madrid × Barcelona (w/ The AI Collective)
+LOCATION:Location on listing\, Barcelona\, Spain
+DESCRIPTION:Get up-to-date information at: https://luma.com/AICollective_Madrid_Barcelona Hosted by The AI Collective & 7 others https://luma.com/event/evt-6YqNoKFO4uJK5W0
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-6YqNoKFO4uJK5W0
+END:VEVENT
+BEGIN:VEVENT
 UID:0f92984fb7d9@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261118T180000Z
 DTEND:20261118T210000Z
@@ -211,8 +595,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/event/evt-3CE10EwUHDDgkbM
 END:VEVENT
 BEGIN:VEVENT
+UID:eda2bae61d42@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+SUMMARY:Cybersecurity Social/Happy Hour meetup for networking\, meeting new people
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals\, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. W https://www.meetup.com/issa-hampton-roads/events/315950066/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/315950066/
+END:VEVENT
+BEGIN:VEVENT
 UID:bb7c4e9c99af@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261119T000000Z
 DTEND:20261119T010000Z
@@ -223,8 +619,68 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-florida-affiliate-the-voice-of-deception-how-vishing-exploits-human-emotion/
 END:VEVENT
 BEGIN:VEVENT
+UID:5e343f311d94@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T223000Z
+DTEND:20261119T013000Z
+SUMMARY:Agent Demo Night (w/ The AI Collective Atlanta)
+LOCATION:Tech North Atlanta\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:32992b4f1ea3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T223000Z
+DTEND:20261119T010000Z
+SUMMARY:Building With AI | ART-ificial Intelligence | w/The AI Collective
+LOCATION:Serendipity Labs - Stamford\, Stamford\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford\, CT United States Hosted by Isadore Johnson & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ad0143cc641c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T223000Z
+DTEND:20261119T003000Z
+SUMMARY:Talent on Tap
+LOCATION:Check event page for more details.\, Location on listing\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/fonzinyc-86ay Address: Check event page for more details. Hosted by Gwendolyn Canada & Lauren Cotta https://luma.com/event/evt-fxoopZoQaUosqK1
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-fxoopZoQaUosqK1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee46ff21fc37@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T020000Z
+SUMMARY:Altera Meetup: Build an Original AI Story
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/8voz4ng1 Address: Check event page for more details. Hosted by Altera Media https://luma.com/event/evt-JhTJpxmlUulWB5v
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-JhTJpxmlUulWB5v
+END:VEVENT
+BEGIN:VEVENT
+UID:f32199d40dcf@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+SUMMARY:Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)
+LOCATION:Revival Wines\, Fayetteville\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
 UID:7d9be887aea8@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261118T233000Z
 DTEND:20261119T033000Z
@@ -236,7 +692,7 @@ URL:https://luma.com/event/evt-YBY9TdrVdZvX4nQ
 END:VEVENT
 BEGIN:VEVENT
 UID:57f79865cca5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261121
@@ -248,7 +704,7 @@ URL:https://www.wicys.org/event/wicys-eastern-canada-affliate-bsides-ottawa-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:c40958703175@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
@@ -260,7 +716,7 @@ URL:https://www.wicys.org/event/wicys-minnesota-affiliate-secureworld-twin-citie
 END:VEVENT
 BEGIN:VEVENT
 UID:7e1351d5d5ad@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
@@ -272,7 +728,7 @@ URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-11-19/
 END:VEVENT
 BEGIN:VEVENT
 UID:1b67dc3fa2d2@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
@@ -283,8 +739,68 @@ STATUS:CONFIRMED
 URL:https://xopsconference.com
 END:VEVENT
 BEGIN:VEVENT
+UID:4131bb20a99c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T000000Z
+DTEND:20261119T010000Z
+SUMMARY:Ship Happens 🚀 Turn Your Idea Into an AI Business in 4 Weeks: Launch & Week 1 (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ny-11-18 Hosted by The AI Collective & Kirsten Co https://luma.com/event/evt-ef1ewezdW777hbC
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-ef1ewezdW777hbC
+END:VEVENT
+BEGIN:VEVENT
+UID:a2cd6d6f7969@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T010000Z
+DTEND:20261119T050000Z
+SUMMARY:ClawMax.ai Build Night San Francisco
+LOCATION:Digital Jungle SF\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/clawmax-build-night-1 Address: Digital Jungle SF San Francisco\, CA United States Hosted by Adam Chan & 3 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:8d4679009e5a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T020000Z
+DTEND:20261119T043000Z
+SUMMARY:Fonzi's Startup Spotlight
+LOCATION:Check event page for more details.\, Location on listing\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-uogj Address: Check event page for more details. Hosted by Gwendolyn Canada & 3 others https://luma.com/event/evt-2RSySnTIHgcmHmW
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-2RSySnTIHgcmHmW
+END:VEVENT
+BEGIN:VEVENT
+UID:48e679b654b4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T023000Z
+DTEND:20261119T053000Z
+SUMMARY:The AI Search Operators Dinner
+LOCATION:San Francisco\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lvzwkmc2 Address: San Francisco San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:a68950b2d1ee@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T040000Z
+DTEND:20261119T050000Z
+SUMMARY:AI and the New Abundance and Scarcity\, with Mustafa Suleyman\, Sarah Guo and Aaron Bastani
+LOCATION:The Commonwealth Club\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/d1kj9otd Address: The Commonwealth Club San Francisco\, CA United States Hosted by Commonwealth Club World Affairs & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
 UID:160d744b97c5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261119T133000Z
 DTEND:20261119T200000Z
@@ -295,8 +811,44 @@ STATUS:CONFIRMED
 URL:https://infosec-conferences.com/event/20261119-new-york-ai-security-and-data-protection-summit/
 END:VEVENT
 BEGIN:VEVENT
+UID:2f068950ac79@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T150000Z
+DTEND:20261119T230000Z
+SUMMARY:Gemini for Google Workspace
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Want to get more out of Google Workspace? Join us to explore how Gemini can make everyday tasks easier\, from drafting emails and creating documents to working with spreadsheets and pre https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317269074/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317269074/
+END:VEVENT
+BEGIN:VEVENT
+UID:63e4ad1b9c07@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T160000Z
+DTEND:20261119T170000Z
+SUMMARY:How Copilot\, Fabric IQ\, Fabric Apps\, and Your Data Fit Together
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York There are a lot of new names in the Fabric AI story. Let’s slow down and connect the pieces. We’ll look at how Copilot\, Fabric IQ\, Fabric Apps\, and your data work together\, what each one is for https://www.meetup.com/microsoft-reactor-new-york/events/317094727/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317094727/
+END:VEVENT
+BEGIN:VEVENT
+UID:ae50ca754be4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T170000Z
+DTEND:20261119T190000Z
+SUMMARY:Microsoft Fabric Masterclass Series: Build Intelligent Analytics Solutions
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Discover how Microsoft Fabric brings data engineering\, data integration\, and business intelligence together to simplify analytics and support smarter business decisions. Explore how On https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317191284/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317191284/
+END:VEVENT
+BEGIN:VEVENT
 UID:559214e24beb@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261119T130000Z
 DTEND:20261119T140000Z
@@ -308,7 +860,7 @@ URL:https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/
 END:VEVENT
 BEGIN:VEVENT
 UID:75bfed4dded6@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261119T143000Z
 DTEND:20261120T010000Z
@@ -319,8 +871,140 @@ STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/591951
 END:VEVENT
 BEGIN:VEVENT
+UID:8c5fc57b0af7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T150000Z
+DTEND:20261120T050000Z
+SUMMARY:Batchery AI Startup Studio Office Hours (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-11-19 Address: Check event page for more details. Hosted by The AI Collective & Connecticut AI Collective https://luma.com/event/evt-8vy6vi8ySC79v2d
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-8vy6vi8ySC79v2d
+END:VEVENT
+BEGIN:VEVENT
+UID:5deade943fa7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T170000Z
+DTEND:20261119T190000Z
+SUMMARY:AI SCALE-UP: From First AI Initiatives to Company-Wide Transformation
+LOCATION:Infinum\, Zagreb\, Croatia
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-scale-up Address: Infinum Zagreb\, Croatia Hosted by Tanja Dzido & 5 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:90abbf450c12@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T170000Z
+DTEND:20261119T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Thursday\, Nov 19
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-y97s Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-qRLBds6HtL6DDmn
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-qRLBds6HtL6DDmn
+END:VEVENT
+BEGIN:VEVENT
+UID:b0242064207a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T170000Z
+DTEND:20261119T210000Z
+SUMMARY:Vibin' Out with Hartford AI Collective w/ The AI Collective
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ha-11-19 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-rO6HFT7NRwHo46H
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-rO6HFT7NRwHo46H
+END:VEVENT
+BEGIN:VEVENT
+UID:8ca98052d0b9@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:November Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Bay Area OWASP Join us for the November Bay Area OWASP Meetup\, proudly sponsored by **Endor Labs.** Spend the evening with fellow security professionals for talks\, networking\, and discussion on how AI agents are changing https://www.meetup.com/bay-area-owasp/events/317378254/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/bay-area-owasp/events/317378254/
+END:VEVENT
+BEGIN:VEVENT
+UID:f00ba826349f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T223000Z
+DTEND:20261120T010000Z
+SUMMARY:CSA Triangle November Meet-Up | Surviving 2027: Live and Unscripted
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Cloud Security Alliance Triangle Chapter Panel Discussion Topic: "Surviving 2027: Live and Unscripted – A Candid\, No-Pitch Look at Cloud Data and Privacy Risk" Highlights of Panel discussion: Vendors and their customers\, https://www.meetup.com/cloud-security-alliance-triangle-chapter/events/317177583/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cloud-security-alliance-triangle-chapter/events/317177583/
+END:VEVENT
+BEGIN:VEVENT
+UID:e433b4e90bcd@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T223000Z
+DTEND:20261120T013000Z
+SUMMARY:Enterprise AI Showcase with CircleCI\, Faros\, groundcover
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:NYC AI Developers Group **Important:** Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026111914) is required for admission. (RSVP on meetup is turned off) Welcome to the Enterprise AI Showcase https://www.meetup.com/aittg-nyc/events/317292418/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aittg-nyc/events/317292418/
+END:VEVENT
+BEGIN:VEVENT
+UID:2513e639f57a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T180000Z
+DTEND:20261119T210000Z
+SUMMARY:OWASP London Chapter Meetup -NOTE: REGISTER ON EVENTBRITE!
+LOCATION:Location on listing\, London\, United Kingdom
+DESCRIPTION:OWASP London Chapter **NOTE: REGISTRATION IS ON EVENTBRITE** You can register to attend this event here: https://www.eventbrite.co.uk/e/owasp-london-chapter-meetup-in-person-tickets-2003898415103?aff=mu https://www.meetup.com/owasp-london/events/317164660/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-london/events/317164660/
+END:VEVENT
+BEGIN:VEVENT
+UID:419da5716738@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Monthly Meeting November 2026
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:South Florida ISSA Chapter **Part 1:** Join us for our November chapter meeting\, where we will hold elections for the following Board positions: * **Vice President** * **Treasurer** * **Director of Membership** * **Direc https://www.meetup.com/south-florida-issa-chapter/events/314336919/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/south-florida-issa-chapter/events/314336919/
+END:VEVENT
+BEGIN:VEVENT
+UID:7bb59ad7bb28@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T000000Z
+DTEND:20261120T030000Z
+SUMMARY:BurbSec West - Sponsored by Concentric AI!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec West\, sponsored by [Concentric AI](https://concentric.ai/)!** 🍻🎉 Are you ready for a night of geeking out\, making new fri https://www.meetup.com/burbsec/events/316485910/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316485910/
+END:VEVENT
+BEGIN:VEVENT
+UID:d85231761eef@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T233000Z
+DTEND:20261120T013000Z
+SUMMARY:Boston Security November Meetup
+LOCATION:Location on listing\, Boston\, United States
+DESCRIPTION:Boston Security Meetup ***Important Notices*** **Starting in May 2026 we will start using Meetup's QR code check-in process to make sure only registered users are allowed at our events. We will also start tracking regist https://www.meetup.com/the-boston-security-meetup/events/317374220/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/the-boston-security-meetup/events/317374220/
+END:VEVENT
+BEGIN:VEVENT
 UID:2a75ca4fd859@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261119T233000Z
 DTEND:20261120T020000Z
@@ -332,7 +1016,7 @@ URL:https://engage.isaca.org/newjerseychapter/home
 END:VEVENT
 BEGIN:VEVENT
 UID:946b2dfe41eb@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261120T000000Z
 DTEND:20261120T020000Z
@@ -343,8 +1027,44 @@ STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
+UID:4ef92e9fe276@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T223000Z
+DTEND:20261120T010000Z
+SUMMARY:Sandy Springs AI Meetup (w/ The AI Collective)
+LOCATION:Mutation Brewing and Distilling Company\, Sandy Springs\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-19-2 Address: Mutation Brewing and Distilling Company Sandy Springs\, GA United States Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ec2ed223612f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T230000Z
+DTEND:20261120T020000Z
+SUMMARY:AI Builders Miami - Nov 19
+LOCATION:The HUB @ Office Logic\, Miami\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/mia-nov19 Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States Hosted by AI Builders & 3 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:7cc2f6a2e4a8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T230000Z
+DTEND:20261120T013000Z
+SUMMARY:AI and the Future of Work : A community mixer
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-si-11-19 Address: Check event page for more details. Hosted by The AI Collective\, Meheret Egzerab & chaitanya gunupudi https://luma.com/event/evt-W9PmRHrllH16NlF
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-W9PmRHrllH16NlF
+END:VEVENT
+BEGIN:VEVENT
 UID:8539d340991c@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261119T233000Z
 DTEND:20261120T033000Z
@@ -355,8 +1075,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/event/evt-iYDmzHo4xHtyHNk
 END:VEVENT
 BEGIN:VEVENT
+UID:34f6786cb5a9@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T233000Z
+DTEND:20261120T013000Z
+SUMMARY:Get Together. Explore AI. (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-duluth-nov2026 Address: Check event page for more details. Hosted by The AI Collective\, Nick Cybela & Mark Michelson https://luma.com/event/evt-DnET1dbY4CHYIo4
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-DnET1dbY4CHYIo4
+END:VEVENT
+BEGIN:VEVENT
 UID:2c00542b0b4f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
@@ -367,8 +1099,104 @@ STATUS:CONFIRMED
 URL:https://www.agenticdays.com
 END:VEVENT
 BEGIN:VEVENT
+UID:9a392fbdf220@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:droidCon India
+LOCATION:Bengaluru\, Bengaluru\, India
+DESCRIPTION:https://india.droidcon.com
+STATUS:CONFIRMED
+URL:https://india.droidcon.com
+END:VEVENT
+BEGIN:VEVENT
+UID:13a5e061389b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T000000Z
+DTEND:20261120T023000Z
+SUMMARY:AI Alien Alert! An Out-of-This-World App Build Night (w/ The AI Collective)
+LOCATION:Cafe Stella\, Norfolk\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk\, VA United States Hosted by The AI Collective\, Tiffany Richardson & Howard Hesson https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:c99f352cfc39@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T000000Z
+DTEND:20261120T020000Z
+SUMMARY:People\, Pints\, + Possibilities @ Creature Comforts
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-17 Address: Check event page for more details. Hosted by The AI Collective\, Charlie Ye & Kristen Morales https://luma.com/event/evt-tJE6qoHB1AtULei
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-tJE6qoHB1AtULei
+END:VEVENT
+BEGIN:VEVENT
+UID:90e8b8912b1e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T003000Z
+DTEND:20261120T040000Z
+SUMMARY:Graphs for Engineering\, Part 2
+LOCATION:AWS Builder Loft\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/js68jbj1 Address: AWS Builder Loft San Francisco\, California United States Hosted by Neo4j & 3 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:f97df146fab8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T003000Z
+DTEND:20261120T020000Z
+SUMMARY:Your Automations Just Became a Legal Question (w/ The AI Collective)
+LOCATION:ACA\, ACA\, Suite E
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cos-nov-townhall Address: ACA\, 905 Garden of the Gods Rd\, Suite E Hosted by The AI Collective & 6 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ca2eb058ec6b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T010000Z
+DTEND:20261120T030000Z
+SUMMARY:Multiplayer AI for HR: Show-and-Tell + MIXER
+LOCATION:576 Folsom St floor 3\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/promptql-HR-showandtell Address: 576 Folsom St floor 3 We’re looking forward to seeing you! Doors open at 5 pm\, so please wait until then to ring the buzzer. Thanks for hel https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:2dbc16385f44@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T023000Z
+DTEND:20261120T050000Z
+SUMMARY:GTM & AI Dinner
+LOCATION:Palio\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/gtm-ai-sf Address: Palio San Francisco\, CA United States Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:042a5023895c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T030000Z
+DTEND:20261120T060000Z
+SUMMARY:From Prompt to Checkout: A Private Dinner for Shopify Operators
+LOCATION:San Francisco\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/yywc4cqm Address: San Francisco San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
 UID:055a7548371f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261120T070000Z
 DTEND:20261120T170000Z
@@ -379,8 +1207,68 @@ STATUS:CANCELLED
 URL:https://events.vtools.ieee.org/m/572639
 END:VEVENT
 BEGIN:VEVENT
+UID:fb1f2165566b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T090000Z
+DTEND:20261120T210000Z
+SUMMARY:AI Builders × commIT | Hack Day Berlin 2026
+LOCATION:ImmoScout24\, Berlin\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/ber-nov20-hday Address: ImmoScout24 ImmoScout24 Berlin\, Germany Hosted by AI Builders & 9 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa991e1deb7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T140000Z
+DTEND:20261120T220000Z
+SUMMARY:Power BI Dashboard in a Day | Hands on Workshop
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup 📈 **From Raw Data to Stunning Dashboards—in One Day!** Join our **FREE Microsoft Power BI Dashboard in a Day Workshop** and learn to build interactive dashboards\, create insightful rep https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317302648/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317302648/
+END:VEVENT
+BEGIN:VEVENT
+UID:19bcb154fa05@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T170000Z
+DTEND:20261120T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Friday\, Nov 20
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-bz50 Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-m2WyX4usvhIF2hK
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-m2WyX4usvhIF2hK
+END:VEVENT
+BEGIN:VEVENT
+UID:2c493e5ea4e6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T230000Z
+DTEND:20261121T040000Z
+SUMMARY:CURTISCON
+LOCATION:Location on listing\, Philadelphia\, United States
+DESCRIPTION:DC215 CurtisCon is an annual combination birthday party and hacker "convention" held in Philadelphia\, PA to celebrate the music and ephemera of hacker culture and the fact that Curtis hasn't died yet. CurtisCon is (and w https://www.meetup.com/dc_215/events/317080834/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/317080834/
+END:VEVENT
+BEGIN:VEVENT
+UID:9e3df90823a8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T230000Z
+DTEND:20261121T020000Z
+SUMMARY:Third Friday Lockpicking Workshop
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Come join us for our monthly Third Friday Lockpicking Workshop at Wooden Shoe Books! Whether you're a novice who just stumbled upon LockpickingLawyer\, a seasoned safecracker\, or somewhere in between\, come join us f https://www.meetup.com/dc_215/events/317007934/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/317007934/
+END:VEVENT
+BEGIN:VEVENT
 UID:b22b3c5f6fb2@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
@@ -391,8 +1279,44 @@ STATUS:CONFIRMED
 URL:https://india.appsecdays.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:c73404167991@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:AI Builders Los Angeles - Nov 20
+LOCATION:Location on listing\, Los Angeles\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lax-nov20 Hosted by AI Builders & angel.pichardo https://luma.com/event/evt-E0nbQoWy51h0kCK
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-E0nbQoWy51h0kCK
+END:VEVENT
+BEGIN:VEVENT
+UID:b3889274b4dd@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T030000Z
+DTEND:20261121T040000Z
+SUMMARY:Nerds Winter of Code
+LOCATION:Paytm\, Noida\, India
+DESCRIPTION:Get up-to-date information at: https://luma.com/nerds-winter-of-code Address: Paytm Noida\, India Hosted by Aditya & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:d3875f6ad5e0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T050000Z
+DTEND:20261121T071500Z
+SUMMARY:AI Paper Discussion ft. AIC Delhi Paper Club (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Delhi\, India
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-de-11-7 Address: Check event page for more details. Hosted by The AI Collective\, Albert Jokelin & Shresth Shukla https://luma.com/event/evt-4MQDVDKwGZO3dRW
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-4MQDVDKwGZO3dRW
+END:VEVENT
+BEGIN:VEVENT
 UID:cd8bffc936a1@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
@@ -403,8 +1327,92 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/
 END:VEVENT
 BEGIN:VEVENT
+UID:ebf90032a320@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T170000Z
+DTEND:20261122T020000Z
+SUMMARY:The 610 Netrun! A Capture the Flag in Downtown Easton!
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Join DEF CON 610 for our 7th annual 610 Netrun! NOTE: We've had to move the event from Nov 7 to Nov 21 due to Baconfest! You should check out Baconfest in Easton\, PA on the 7th\, but come back on the 21st for  https://www.meetup.com/defcon610/events/316241205/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/316241205/
+END:VEVENT
+BEGIN:VEVENT
+UID:cd44650a479f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T180000Z
+DTEND:20261121T220000Z
+SUMMARY:AI Architect Me!
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ch-11-21 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-lfWs5Aje4xdu6kg
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-lfWs5Aje4xdu6kg
+END:VEVENT
+BEGIN:VEVENT
+UID:ee1b72589d1a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T220000Z
+DTEND:20261122T010000Z
+SUMMARY:Services is the new SaaS: A Gathering of IT services leaders in Atlanta
+LOCATION:190 Bluegrass Valley Pkwy\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta\, GA United States Hosted by Moring AI & Balaji Nagaraj Kumar https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+END:VEVENT
+BEGIN:VEVENT
+UID:0a754e8e6c25@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261123T170000Z
+DTEND:20261123T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Monday\, Nov 23
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-em4z Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-4csaOZKt3NiBvOQ
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-4csaOZKt3NiBvOQ
+END:VEVENT
+BEGIN:VEVENT
+UID:d21776781217@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T013000Z
+DTEND:20261124T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/317279553/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/317279553/
+END:VEVENT
+BEGIN:VEVENT
+UID:763775ae921b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261123T233000Z
+DTEND:20261124T013000Z
+SUMMARY:Build Your First AI Agent with n8n | AI Collective x n8n Douglasville
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-do-11-23 Address: Check event page for more details. Hosted by The AI Collective\, Cheryl Tibbs & Mark Michelson https://luma.com/event/evt-qC1ZkEM7NjlIN7Y
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-qC1ZkEM7NjlIN7Y
+END:VEVENT
+BEGIN:VEVENT
+UID:f2d1f20f528b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T140000Z
+DTEND:20261124T150000Z
+SUMMARY:Agentes sin caos: gobernar datos\, permisos y costes en Copilot Studio
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Crear un agente lleva diez minutos. Gobernarlo\, no. En esta sesión vemos lo que pasa después del "qué chulo": permisos sobre datos internos\, DLPs\, licencias y costes reales de los agentes en Co https://www.meetup.com/microsoft-reactor-new-york/events/316683505/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/316683505/
+END:VEVENT
+BEGIN:VEVENT
 UID:0b00da2da836@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261124T130000Z
 DTEND:20261124T140000Z
@@ -415,8 +1423,68 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/
 END:VEVENT
 BEGIN:VEVENT
+UID:efcf61051be7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T180000Z
+DTEND:20261124T190000Z
+SUMMARY:New Year\, New Bot - Bring Your AI Desk Robot to Life
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements\, connect it to a .NET backend and dashboard\, and create a first end-to-end interaction. This hands- https://www.meetup.com/microsoft-reactor-new-york/events/317164178/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317164178/
+END:VEVENT
+BEGIN:VEVENT
+UID:1e0949e7a84b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T140000Z
+DTEND:20261124T200000Z
+SUMMARY:Lovable Promptathon Bucharest: From Vibe to Live (w/ The AI Collective)
+LOCATION:Builders House\, Builders House\, Romania
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-11-24 Address: Builders House 1st floor (Etaj 1)\, Open Space area București\, Romania Hosted by The AI Collective & 7 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:595c8233d2aa@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T160000Z
+DTEND:20261124T170000Z
+SUMMARY:Marketing Agents: How AI Agents Are Taking On Marketing Work
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-11-24 Hosted by The AI Collective & 4 others https://luma.com/event/evt-AugGgSt8JozkbRV
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-AugGgSt8JozkbRV
+END:VEVENT
+BEGIN:VEVENT
+UID:fec077ee404e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T170000Z
+DTEND:20261124T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Tuesday\, Nov 24
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-jymn Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-2ww88d7v3XpT4gu
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-2ww88d7v3XpT4gu
+END:VEVENT
+BEGIN:VEVENT
+UID:f488763b1c19@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261124T233000Z
+DTEND:20261125T020000Z
+SUMMARY:Toronto Revenue Leaders Dinner
+LOCATION:Lucie\, Toronto\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto\, ON Canada Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
 UID:947a9c088b7e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
@@ -427,8 +1495,80 @@ STATUS:CONFIRMED
 URL:https://aiconference.london
 END:VEVENT
 BEGIN:VEVENT
+UID:dd98ded891e8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Beyond Prompts: Microsoft Copilot Agents & Cowork for Business Unlocked
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information\, analyze data\, and handle tasks across different business function https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
+END:VEVENT
+BEGIN:VEVENT
+UID:4be49358649e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261125T190000Z
+DTEND:20261125T200000Z
+SUMMARY:De las ideas a la acción con Copilot: convierte una idea en un experimento
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York Generar ideas con inteligencia artificial es fácil. El verdadero reto es identificar cuáles tienen potencial y decidir qué hacer con ellas. En esta sesión práctica utilizaremos Microsoft Copilo https://www.meetup.com/microsoft-reactor-new-york/events/316558001/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/316558001/
+END:VEVENT
+BEGIN:VEVENT
+UID:975f27cf3f82@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261125T170000Z
+DTEND:20261125T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Wednesday\, Nov 25
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-b9wy Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-GUTJIfcwvhHjbyp
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-GUTJIfcwvhHjbyp
+END:VEVENT
+BEGIN:VEVENT
+UID:52a05b24ff84@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261125T180000Z
+DTEND:20261125T210000Z
+SUMMARY:Joint CTF [IN-PERSON]: OWASP London Chapter & Security Builders Club
+LOCATION:Location on listing\, London\, United Kingdom
+DESCRIPTION:OWASP London Chapter **IMPORTANT: REGISTER on Eventbrite:** [https://www.eventbrite.co.uk/e/joint-ctf-owasp-london-chapter-security-builders-club-tickets-2004550817456?aff=mu](https://www.eventbrite.co.uk/e/joint-ctf-owa https://www.meetup.com/owasp-london/events/317357985/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-london/events/317357985/
+END:VEVENT
+BEGIN:VEVENT
+UID:7a216408101a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T000000Z
+DTEND:20261126T055500Z
+SUMMARY:BurbSec East - Sponsors Wanted!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/316679057/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316679057/
+END:VEVENT
+BEGIN:VEVENT
+UID:135b7a26b894@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T010000Z
+DTEND:20261126T020000Z
+SUMMARY:Red Team Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?  https://www.meetup.com/dc608madison/events/316673024/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/316673024/
+END:VEVENT
+BEGIN:VEVENT
 UID:d964ab467f2e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
@@ -439,8 +1579,32 @@ STATUS:CONFIRMED
 URL:https://2026.owaspbenelux.eu/
 END:VEVENT
 BEGIN:VEVENT
+UID:0abcc8d96246@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T020000Z
+DTEND:20261126T050000Z
+SUMMARY:#LATechWeek AI Collective Pitch Night (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-la-og-pitch-night Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-YY3wwNrsTyfjSQw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-YY3wwNrsTyfjSQw
+END:VEVENT
+BEGIN:VEVENT
+UID:5d90aed521c1@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T073000Z
+DTEND:20261126T090000Z
+SUMMARY:Network event with the AI Collective
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ad-11-12 Address: Check event page for more details. Hosted by The AI Collective\, Nick Marlow & Guillaume Leroux https://luma.com/event/evt-1FDGHEnrfEPFKRM
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-1FDGHEnrfEPFKRM
+END:VEVENT
+BEGIN:VEVENT
 UID:62bd60f8bb51@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261126T093000Z
 DTEND:20261126T130000Z
@@ -451,8 +1615,80 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/
 END:VEVENT
 BEGIN:VEVENT
+UID:e83786fae95f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T133000Z
+DTEND:20261126T163000Z
+SUMMARY:AI Builders Dubai - Nov 26
+LOCATION:Oracle Systems Limited\, Dubai\, United Arab Emirates
+DESCRIPTION:Get up-to-date information at: https://luma.com/dxb-nov26 Address: Oracle Systems Limited Oracle Systems Limited Dubai\, United Arab Emirates Hosted by AI Builders\, Ahsan Mahmud & Bon Consultancy https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:1e15112e86fc@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:Why Should I Care About the EU AI Act?
+LOCATION:Maria 01\, Helsinki\, Finland
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-why-should-i-care-about-the-eu-ai-act Address: Maria 01 Event Space\, Building 1 (main building) Helsinki\, Finland Hosted by The AI Collective & 6 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ff456991a8e3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T170000Z
+DTEND:20261126T200000Z
+SUMMARY:AI Builders Vienna - Nov 26
+LOCATION:Oracle Austria GmbH\, Oracle Austria GmbH\, Austria
+DESCRIPTION:Get up-to-date information at: https://luma.com/vie-nov26 Address: Oracle Austria GmbH Oracle Austria GmbH Wien\, Austria Hosted by AI Builders & Arne Lotze https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:3ba8686016d6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T173000Z
+DTEND:20261126T200000Z
+SUMMARY:AI Builders Barcelona - Nov 26
+LOCATION:eDreams ODIGEO\, Eixample\, Spain
+DESCRIPTION:Get up-to-date information at: https://luma.com/bcn-nov26 Address: eDreams ODIGEO eDreams ODIGEO Barcelona\, Spain Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:e9d04a9f3ed7@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261127T000000Z
+DTEND:20261127T055500Z
+SUMMARY:BurbSec East - Sponsors Wanted!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/317320238/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317320238/
+END:VEVENT
+BEGIN:VEVENT
+UID:c45821c22821@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261127T000000Z
+DTEND:20261127T020000Z
+SUMMARY:Burbsec Northwest - Sponsors Welcome!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec Northwest!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of  https://www.meetup.com/burbsec/events/317320678/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317320678/
+END:VEVENT
+BEGIN:VEVENT
 UID:1409518c5659@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
@@ -464,7 +1700,7 @@ URL:https://www.wpninjas-india.com
 END:VEVENT
 BEGIN:VEVENT
 UID:1403b92ae60a@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261127T180000Z
 DTEND:20261127T190000Z
@@ -475,8 +1711,80 @@ STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/593131
 END:VEVENT
 BEGIN:VEVENT
+UID:1ba7c64995ab@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:FOSS for All Conference
+LOCATION:Seoul\, Seoul\, South Korea
+DESCRIPTION:https://2026.fossforall.org
+STATUS:CONFIRMED
+URL:https://2026.fossforall.org
+END:VEVENT
+BEGIN:VEVENT
+UID:d1413c5607ae@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T060000Z
+DTEND:20261128T120000Z
+SUMMARY:Domain Experts\, Assemble: A Lovable x AI Collective Build Day (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-is-9-5 Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-Htx7MDTwhhasRBi
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Htx7MDTwhhasRBi
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b8a13d433a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T060000Z
+DTEND:20261128T110000Z
+SUMMARY:LEADERSHIP LINKEDIN NETWORKING SUMMIT 2026
+LOCATION:Nina Next Space\, Hồ Chí Minh\, Vietnam
+DESCRIPTION:Get up-to-date information at: https://luma.com/pr9k3uap Address: Nina Next Space Thành phố Hồ Chí Minh\, Vietnam Hosted by Lê Uyên Thảo & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:f11f831cc628@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T083000Z
+DTEND:20261128T113000Z
+SUMMARY:GTM Rewind 2026: What Worked. What Flopped. What’s Next.
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gtm-rewind Address: Check event page for more details. Hosted by The AI Collective & Women in Product Marketing™ https://luma.com/event/evt-U7GTbfJZwAdOiQO
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-U7GTbfJZwAdOiQO
+END:VEVENT
+BEGIN:VEVENT
+UID:ca13e3b028fe@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Study Hall / Work on CTFs
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Time to get together and work on or just discuss the CTF. https://www.meetup.com/dc_215/events/315839479/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/315839479/
+END:VEVENT
+BEGIN:VEVENT
+UID:6b1ba9fdb62e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261129T170000Z
+DTEND:20261129T203000Z
+SUMMARY:AI SPY: Projekcija dokumentarca i debatno veče (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-se-11-29 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-FzoXpUk8piWVFb0
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-FzoXpUk8piWVFb0
+END:VEVENT
+BEGIN:VEVENT
 UID:94b71d483531@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261205
@@ -487,8 +1795,20 @@ STATUS:CONFIRMED
 URL:https://web.govevents.com/details/98147/aws-reinvent-2026
 END:VEVENT
 BEGIN:VEVENT
+UID:96bb4d1df3ee@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261205
+SUMMARY:DevOpsCon Munich
+LOCATION:Munich\, Munich\, Germany
+DESCRIPTION:https://devopscon.io/muenchen
+STATUS:CONFIRMED
+URL:https://devopscon.io/muenchen
+END:VEVENT
+BEGIN:VEVENT
 UID:f4d469f0a3c5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261204
@@ -500,7 +1820,7 @@ URL:https://www.sharepointeurope.com
 END:VEVENT
 BEGIN:VEVENT
 UID:5806a3a35734@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261205
@@ -511,8 +1831,68 @@ STATUS:CONFIRMED
 URL:https://it-security-summit.com/munich
 END:VEVENT
 BEGIN:VEVENT
+UID:8d48d9421f1e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261130T170000Z
+DTEND:20261130T180000Z
+SUMMARY:The Future of IT: AI\, Automation & Intelligent Networking | Free Webinar
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup ## From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 **[Register for Free – Reserve Your Seat](https://www.netcomlearning.com/webinar/from-cli-to-agenticops-fut https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
+END:VEVENT
+BEGIN:VEVENT
+UID:86321fbc6c3c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261130T183000Z
+DTEND:20261130T193000Z
+SUMMARY:From Copilot License to Business Impact: Closing the AI Adoption Gap
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real opportunity li https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
+END:VEVENT
+BEGIN:VEVENT
+UID:57e5a8917c3d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261130T170000Z
+DTEND:20261130T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Monday\, Nov 30
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-2c9z Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-ZictTn2VzKsvK4B
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-ZictTn2VzKsvK4B
+END:VEVENT
+BEGIN:VEVENT
+UID:028981fe8782@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T013000Z
+DTEND:20261201T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/317376591/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/317376591/
+END:VEVENT
+BEGIN:VEVENT
+UID:80d9c18dc6ee@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261130T233000Z
+DTEND:20261201T003000Z
+SUMMARY:Lunch with a Side of AI (w/ AI Collective NZ)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-nz-12-1 Hosted by The AI Collective & Nadia Ellis https://luma.com/event/evt-vjP1GzbAMNW01HM
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-vjP1GzbAMNW01HM
+END:VEVENT
+BEGIN:VEVENT
 UID:613ac9e43bab@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261204
@@ -523,8 +1903,56 @@ STATUS:CONFIRMED
 URL:https://blackhatmea.com/about-us
 END:VEVENT
 BEGIN:VEVENT
+UID:053d08b27ba0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261204
+SUMMARY:Build It Summit
+LOCATION:Paris\, Paris\, France
+DESCRIPTION:https://builditsummit.com
+STATUS:CONFIRMED
+URL:https://builditsummit.com
+END:VEVENT
+BEGIN:VEVENT
+UID:6b3fa1810558@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T070000Z
+DTEND:20261201T110000Z
+SUMMARY:C-Suite Dinner: AI Disasters in Critical Infrastuctures (w/ The AI Collective\, FACCI and Visione Group)
+LOCATION:GEORGES\, GEORGES\, Australia
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ad-12-1 Address: GEORGES Adelaide\, SA Australia Hosted by The AI Collective & Guillaume Leroux https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:960c7292acd6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T130000Z
+DTEND:20261201T140000Z
+SUMMARY:Seguridad\, Gobernanza y Resolución de Problemas para DevOps en Power Platform
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York La sesión final presentará las mejores prácticas empresariales para operar Power Platform y Azure DevOps de forma segura y consistente. Se abordarán temas como los service principals\, la gestió https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e1b7ba061d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T083000Z
+DTEND:20261201T183000Z
+SUMMARY:Small Business AI Builder Tour: London
+LOCATION:Location on listing\, London\, United Kingdom
+DESCRIPTION:Find more information on https://luma.com/ai-builders https://www.eventbrite.com/e/small-business-ai-builder-tour-london-registration-2003546014062?aff=partneraibuildercamp
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/small-business-ai-builder-tour-london-registration-2003546014062?aff=partneraibuildercamp
+END:VEVENT
+BEGIN:VEVENT
 UID:17c51b076c6c@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261201T130000Z
 DTEND:20261201T140000Z
@@ -535,8 +1963,20 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-when-cyber-gets-physical-an-introduction-to-ot-cybersecurity/
 END:VEVENT
 BEGIN:VEVENT
+UID:0807a2418a44@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T170000Z
+DTEND:20261201T200000Z
+SUMMARY:AI Builders Warsaw - Dec 1
+LOCATION:Just Join IT\, Just Join IT\, Poland
+DESCRIPTION:Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa\, Poland Hosted by AI Builders & 3 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:0d336f19bb9d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261201T170000Z
 DTEND:20261204T010000Z
@@ -547,8 +1987,20 @@ STATUS:CANCELLED
 URL:https://events.vtools.ieee.org/m/562920
 END:VEVENT
 BEGIN:VEVENT
+UID:4f9d71512ccb@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T170000Z
+DTEND:20261201T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Tuesday\, Dec 1
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-4b4m Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-KTMzYdzRO71LDbH
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-KTMzYdzRO71LDbH
+END:VEVENT
+BEGIN:VEVENT
 UID:f8601a75ea38@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261201T230000Z
 DTEND:20261202T013000Z
@@ -560,7 +2012,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:c495dfd328db@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261201T190000Z
 DTEND:20261202T130000Z
@@ -571,8 +2023,20 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-professional-affiliate-leaders-only-meeting-9/2026-12-01/
 END:VEVENT
 BEGIN:VEVENT
+UID:a3e6e0479f15@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261201T230000Z
+DTEND:20261202T020000Z
+SUMMARY:Stamford AI Meetup | w/ The AI Collective
+LOCATION:Point Cafè - 2200 Atlantic St.\, Location on listing\, Stamford (Harbor Point)
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-12-1 Address: Point Cafè - 2200 Atlantic St.\, Stamford (Harbor Point) Hosted by The AI Collective & Darrell DeMakes https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
 UID:64c65b3bd4c2@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261202T020000Z
 DTEND:20261202T050000Z
@@ -584,7 +2048,7 @@ URL:https://luma.com/event/evt-TJBoc37gxop6DiF
 END:VEVENT
 BEGIN:VEVENT
 UID:a96ffe911cd0@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261202T080000Z
 DTEND:20261202T090000Z
@@ -596,7 +2060,7 @@ URL:https://www.wicys.org/event/wicys-professional-affiliate-international-leade
 END:VEVENT
 BEGIN:VEVENT
 UID:eaf52da390ac@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261202T080000Z
 DTEND:20261202T103000Z
@@ -608,7 +2072,7 @@ URL:https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinven
 END:VEVENT
 BEGIN:VEVENT
 UID:7bed77d9804b@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261202T130000Z
 DTEND:20261202T140000Z
@@ -619,8 +2083,56 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-post-quantum-migration-in-practice-assessing-readiness-and-planning-strategically/
 END:VEVENT
 BEGIN:VEVENT
+UID:e1cebb2aa757@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T153000Z
+DTEND:20261202T183000Z
+SUMMARY:Checking the checkers: AI\, Evidence and Health Claims (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Phoenix\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-health-claims-evidence-checking Address: Check event page for more details. Hosted by The AI Collective\, Neelima Misra & Lola Phoenix https://luma.com/event/evt-qUGv2h03rWXmX1F
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-qUGv2h03rWXmX1F
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2bcc592efc@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T170000Z
+DTEND:20261202T184500Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Wednesday\, Dec 2
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-8i73 Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-T39cmr7zAIb1Q4W
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-T39cmr7zAIb1Q4W
+END:VEVENT
+BEGIN:VEVENT
+UID:b392a4d4f388@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T230000Z
+DTEND:20261203T010000Z
+SUMMARY:Cracking : Subverting Legacy Software
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Legacy software: the stuff nobody wants to touch and everybody still depends on. Join DC215's AppSec Village session as Ag digs into how he cracked some legacy business software\, and why that matters for anyone def https://www.meetup.com/dc_215/events/317398760/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/317398760/
+END:VEVENT
+BEGIN:VEVENT
+UID:07ee2a21ec06@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T230000Z
+DTEND:20261203T020000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/317363355/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/317363355/
+END:VEVENT
+BEGIN:VEVENT
 UID:e91f836ab561@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T030000Z
@@ -631,8 +2143,44 @@ STATUS:CONFIRMED
 URL:https://isc2njchapter.curated.co
 END:VEVENT
 BEGIN:VEVENT
+UID:b855b1b964cc@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T220000Z
+DTEND:20261203T003000Z
+SUMMARY:AI Open Mic and Networking (w/ The AI Collective)
+LOCATION:Missing Falls Brewery\, Akron\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cl-12-2 Address: Missing Falls Brewery Akron\, OH United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:5fee2f6e6fca@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T220000Z
+DTEND:20261203T020000Z
+SUMMARY:NYC Pitch Night (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ny-12-02 Address: Check event page for more details. Hosted by The AI Collective\, Tejas Ravindra & Rami A https://luma.com/event/evt-EQg3ApxBf4g5FJM
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-EQg3ApxBf4g5FJM
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4326a1bf6e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261202T230000Z
+DTEND:20261203T003000Z
+SUMMARY:Fonzi's Devs & Drinks
+LOCATION:Check event page for more details.\, Location on listing\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-6w25 Address: Check event page for more details. Hosted by Gwendolyn Canada & Lauren Cotta https://luma.com/event/evt-EIHjVVX9DzFs821
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-EIHjVVX9DzFs821
+END:VEVENT
+BEGIN:VEVENT
 UID:ab83da103c8d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
@@ -643,8 +2191,44 @@ STATUS:CONFIRMED
 URL:https://www.govinfosecurity.com/events/cybersecurity-summit-implications-ai-virtual-e-534
 END:VEVENT
 BEGIN:VEVENT
+UID:ec16d9364f14@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T013000Z
+DTEND:20261203T033000Z
+SUMMARY:Fund or Fold: How VCs Actually Decide
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective\, Vik Ghai & Sunil Grover https://luma.com/event/evt-DQisopGtHNvKpHw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-DQisopGtHNvKpHw
+END:VEVENT
+BEGIN:VEVENT
+UID:df0b5f50eba9@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T020000Z
+DTEND:20261203T033000Z
+SUMMARY:Fonzi's Talent on Tap
+LOCATION:Check event page for more details.\, Location on listing\, Canada
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-dvva Address: Check event page for more details. Hosted by Gwendolyn Canada\, Lauren Cotta & Chase Woolard https://luma.com/event/evt-k5oWWl4goEQxmrw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-k5oWWl4goEQxmrw
+END:VEVENT
+BEGIN:VEVENT
+UID:29bbafe6da78@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T100000Z
+DTEND:20261203T130000Z
+SUMMARY:The Agora: an open Forum on AI (Eng/中文)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-12-3 Address: Check event page for more details. Hosted by The AI Collective & Alix https://luma.com/event/evt-QQHNJAPGXHAkgJw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-QQHNJAPGXHAkgJw
+END:VEVENT
+BEGIN:VEVENT
 UID:7c83815bc126@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261203T150000Z
 DTEND:20261203T170000Z
@@ -656,7 +2240,7 @@ URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
 UID:7d51cdc18409@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261203T123000Z
 DTEND:20261203T143000Z
@@ -667,8 +2251,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/cloudsekevents
 END:VEVENT
 BEGIN:VEVENT
+UID:42090eb8d403@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T130000Z
+DTEND:20261203T143000Z
+SUMMARY:Building a Startup 101 (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-la-12-3 Hosted by The AI Collective & Harmony Abayomi https://luma.com/event/evt-vq68NeVmLEQdg6R
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-vq68NeVmLEQdg6R
+END:VEVENT
+BEGIN:VEVENT
 UID:e85a1962f3da@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261203T130000Z
 DTEND:20261203T140000Z
@@ -679,8 +2275,68 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar/
 END:VEVENT
 BEGIN:VEVENT
+UID:a634bd397f3b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T200000Z
+DTEND:20261203T230000Z
+SUMMARY:CigarSec - Co-Working & Cigars before Prime!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events Attention all IT enthusiasts and cigar aficionados! Get ready to kick off BurbsecPrime in style with CigarSec\, the ultimate pre-event meetup that combines the  https://www.meetup.com/burbsec/events/317285209/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317285209/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b44fe7f838d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T150000Z
+DTEND:20261203T180000Z
+SUMMARY:OpenAI Technical Practitioner Training (Lawrence\, KS)
+LOCATION:2033 Becker Dr\, Lawrence\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/OpenAITraining Address: 2033 Becker Dr Lawrence\, KS United States Hosted by The AI Collective\, Ted Kihm & Daniel Green https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:ab82c2015a39@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T170000Z
+DTEND:20261203T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Thursday\, Dec 3
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-6mz7 Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-wv9xZpw50iCWaU0
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-wv9xZpw50iCWaU0
+END:VEVENT
+BEGIN:VEVENT
+UID:6998f7ce31fc@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T173000Z
+DTEND:20261203T210000Z
+SUMMARY:AI Builders Hamburg - Dec 3
+LOCATION:House of AI Hamburg\, House of AI Hamburg\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/hamburg-dec3 Address: House of AI Hamburg House of AI Hamburg\, Germany Hosted by AI Builders\, Jan Schnedler & Martin Zielinski https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:0c638af75784@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T000000Z
+DTEND:20261204T020000Z
+SUMMARY:Burbsec Prime - Sponsor Ops Available!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec Prime! 🍻🎉** Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of info https://www.meetup.com/burbsec/events/317373436/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317373436/
+END:VEVENT
+BEGIN:VEVENT
 UID:3f866d62f1d9@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261204T010000Z
 DTEND:20261204T040000Z
@@ -691,8 +2347,68 @@ STATUS:CONFIRMED
 URL:https://luma.com/event/evt-HeCfXvtAE0v3JGX
 END:VEVENT
 BEGIN:VEVENT
+UID:606b5a1156f8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T020000Z
+DTEND:20261204T043000Z
+SUMMARY:From AI Ideas to Impact: Stories\, Growth & a Year-End Celebration (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-tr-12-3 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-UamvCUgoBxsxGnG
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-UamvCUgoBxsxGnG
+END:VEVENT
+BEGIN:VEVENT
+UID:318d156cd597@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T090000Z
+DTEND:20261204T100000Z
+SUMMARY:Beyond AI Readiness: Architecting the Intelligent Enterprise (w/ The AI Collective)
+LOCATION:Location on listing\, Stockholm\, Sweden
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-ai-ready-2 Hosted by The AI Collective\, Neelima Misra & Data & AI Stockholm https://luma.com/event/evt-pBKW8j8QhoYmrfT
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-pBKW8j8QhoYmrfT
+END:VEVENT
+BEGIN:VEVENT
+UID:5c955720e74f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T093000Z
+DTEND:20261204T180000Z
+SUMMARY:Build & Pitch: Cria e Apresenta o Teu Projeto num Dia
+LOCATION:Coimbra\, Coimbra\, Portugal
+DESCRIPTION:Get up-to-date information at: https://luma.com/build-pitch Address: Coimbra Coimbra\, Portugal Hosted by Pedro Costa & The AI Collective https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:3e99aac4d3a8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T170000Z
+DTEND:20261204T180000Z
+SUMMARY:Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:NYC AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event  https://www.meetup.com/aittg-nyc/events/317412006/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aittg-nyc/events/317412006/
+END:VEVENT
+BEGIN:VEVENT
+UID:52453e1c2fb6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T170000Z
+DTEND:20261204T183000Z
+SUMMARY:The AI Collective Podcast with AJ & Catherine: Friday\, Dec 4
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/genai-5nj1 Address: Check event page for more details. Hosted by The AI Collective\, AJ Green & Catherine McMillan https://luma.com/event/evt-xYKL07Bh8Lk4OkE
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-xYKL07Bh8Lk4OkE
+END:VEVENT
+BEGIN:VEVENT
 UID:b2c7d1c4012f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261204T220000Z
 DTEND:20261205T000000Z
@@ -703,8 +2419,32 @@ STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:2e5c041a96b4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T230000Z
+DTEND:20261205T020000Z
+SUMMARY:Open House
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Join us at Ex Machina Parlor and Reclaimers Hall as we celebrate the hacker spirit! Show off your latest toy or project. Whether it's your war driving rig or your shiny new Flipper Zero we want to see what you're d https://www.meetup.com/dc_215/events/316815980/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/316815980/
+END:VEVENT
+BEGIN:VEVENT
+UID:5ffa5da6cfaa@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261204T183000Z
+DTEND:20261204T203000Z
+SUMMARY:Founder Fridays: The AI Collective x Unstuck Labs
+LOCATION:Unstuck Labs\, Arlington\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dc-12-4 Address: Unstuck Labs Come and meet us on 8th floor! Arlington\, VA United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
 UID:9da8c0f58e2a@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261205T033000Z
 DTEND:20261205T103000Z
@@ -715,8 +2455,20 @@ STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/580275
 END:VEVENT
 BEGIN:VEVENT
+UID:13969b80afa9@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261205T110000Z
+DTEND:20261205T153000Z
+SUMMARY:Movie Hits Music Night
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20261205 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-gKF4KnwqW6vP2TO
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-gKF4KnwqW6vP2TO
+END:VEVENT
+BEGIN:VEVENT
 UID:edc6b1344927@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261211
@@ -728,7 +2480,7 @@ URL:https://blackhat.com/html/press/2026-10-29.html
 END:VEVENT
 BEGIN:VEVENT
 UID:e400f843a8b8@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261210
@@ -740,7 +2492,7 @@ URL:https://www.luminik.io/events/gartner-identity-access-management-summit-neva
 END:VEVENT
 BEGIN:VEVENT
 UID:a0db0b82a05b@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261211
@@ -752,7 +2504,7 @@ URL:https://www.it-tage.org
 END:VEVENT
 BEGIN:VEVENT
 UID:0baced3e8fce@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261211
@@ -763,8 +2515,44 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-uki-blackhat-europe-2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:f8c1d1706583@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261207T150000Z
+DTEND:20261207T160000Z
+SUMMARY:Building a Project-Ready Public Sector Workforce for 2027
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Success starts with having the right skills\, capabilities\, and people in place. Discover how public sector organizations can plan workforce capabilities\, bridge skill gaps\, and build p https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
+END:VEVENT
+BEGIN:VEVENT
+UID:f2434e4c482f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261207T110000Z
+DTEND:20261207T140000Z
+SUMMARY:From Vibe to Live\, Lovable Virtual Office Hours｜Lovable 線上 Office Hour
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-12-7_main Hosted by The AI Collective & Grace Pan https://luma.com/event/evt-n9ogEMxck80yIPh
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-n9ogEMxck80yIPh
+END:VEVENT
+BEGIN:VEVENT
+UID:e6f17a12f04d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261208T013000Z
+DTEND:20261208T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttyjcqbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqbkb/
+END:VEVENT
+BEGIN:VEVENT
 UID:1e4beb3abcb5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261208T173000Z
 DTEND:20261208T213000Z
@@ -776,7 +2564,7 @@ URL:https://luma.com/alchemycyber
 END:VEVENT
 BEGIN:VEVENT
 UID:d468ed8716e3@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
@@ -788,7 +2576,7 @@ URL:https://www.wicys.org/event/financial-services-ai-security-forum/
 END:VEVENT
 BEGIN:VEVENT
 UID:72241ab11097@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
@@ -800,7 +2588,7 @@ URL:https://ainativesummit.com
 END:VEVENT
 BEGIN:VEVENT
 UID:42d682ac128d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
@@ -812,7 +2600,7 @@ URL:https://newyork.theaisummit.com/experience/travel-accommodation/
 END:VEVENT
 BEGIN:VEVENT
 UID:36c8afc8f056@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
@@ -823,8 +2611,20 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
 END:VEVENT
 BEGIN:VEVENT
+UID:963a3f49a647@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261211
+SUMMARY:droidcon London
+LOCATION:London\, London\, United Kingdom
+DESCRIPTION:https://london.droidcon.com
+STATUS:CONFIRMED
+URL:https://london.droidcon.com
+END:VEVENT
+BEGIN:VEVENT
 UID:6d400fb4fa62@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261209T070000Z
 DTEND:20261209T073000Z
@@ -836,7 +2636,7 @@ URL:https://luma.com/event/evt-cuZ0xJCCJeeu5V2
 END:VEVENT
 BEGIN:VEVENT
 UID:448a299559d9@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261209T103000Z
 DTEND:20261209T113000Z
@@ -848,7 +2648,7 @@ URL:https://luma.com/event/evt-TegLG74O34ftdwq
 END:VEVENT
 BEGIN:VEVENT
 UID:7df3823b602e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261209T103000Z
 DTEND:20261209T113000Z
@@ -860,7 +2660,7 @@ URL:https://www.wicys.org/event/wicys-uki-blackhather-meetup/
 END:VEVENT
 BEGIN:VEVENT
 UID:860466f8789e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261209T130000Z
 DTEND:20261209T220000Z
@@ -872,7 +2672,7 @@ URL:https://events.vtools.ieee.org/m/575832
 END:VEVENT
 BEGIN:VEVENT
 UID:bbde6d91530e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261209T163000Z
 DTEND:20261209T173000Z
@@ -883,8 +2683,32 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-uki-blackhather-executive-reception/
 END:VEVENT
 BEGIN:VEVENT
+UID:a5bd4ef44e5d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261209T233000Z
+DTEND:20261210T013000Z
+SUMMARY:Cyberdeck Show & Tell
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:SpaceCoastSec - Space Coast's Information Security Community 💾🕶️ JACK IN. From *Neuromancer* and *Snow Crash* to *Johnny Mnemonic*\, *Ghost in the Shell*\, *Hackers*\, and decades of cyberpunk fever dreams… the cyberdeck es https://www.meetup.com/spacecoastsec/events/316438270/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/spacecoastsec/events/316438270/
+END:VEVENT
+BEGIN:VEVENT
+UID:71d26f5217b5@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261209T230000Z
+DTEND:20261210T013000Z
+SUMMARY:AI Hype vs Reality and Governance (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-in-12-9 Address: Check event page for more details. Hosted by The AI Collective & Gervais Johnson https://luma.com/event/evt-WY03XtuTbBHPZnI
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-WY03XtuTbBHPZnI
+END:VEVENT
+BEGIN:VEVENT
 UID:416e4d267020@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261210T143000Z
 DTEND:20261210T153000Z
@@ -896,7 +2720,7 @@ URL:https://www.wicys.org/event/wicys-uki-blackhather-mentorship-program/
 END:VEVENT
 BEGIN:VEVENT
 UID:4b86acb0df15@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:1
 DTSTART:20261210T160000Z
 DTEND:20261210T170000Z
@@ -907,8 +2731,80 @@ STATUS:CONFIRMED
 URL:https://luma.com/event/evt-BGJornbgXQAb2FS
 END:VEVENT
 BEGIN:VEVENT
+UID:46bd4d3ca804@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261210T230000Z
+DTEND:20261211T020000Z
+SUMMARY:BurbSec Southeast - Sponsors Welcome
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec Southeast! 🍻🎉** Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of  https://www.meetup.com/burbsec/events/316614480/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316614480/
+END:VEVENT
+BEGIN:VEVENT
+UID:a2299449d1ae@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261210T230000Z
+DTEND:20261211T010000Z
+SUMMARY:Holiday Party
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:South Florida ISSA Chapter **Join us for our annual Holiday Party as we wrap up the year with the South Florida cybersecurity community.** We’re getting together at Dave & Buster’s in Hollywood for a night of great conve https://www.meetup.com/south-florida-issa-chapter/events/314337168/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/south-florida-issa-chapter/events/314337168/
+END:VEVENT
+BEGIN:VEVENT
+UID:3501c4597180@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T055900Z
+SUMMARY:BurbSec Pilsen - Sponsors Wanted!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/316727056/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316727056/
+END:VEVENT
+BEGIN:VEVENT
+UID:468e0520e922@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T030000Z
+SUMMARY:Burbsec North - Sponsors Welcome
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events BurbSec North is the Northern Suburb offshoot of the famous Chicagoland BurbSec meetups. Information Security enthusiasts of all skill and career levels are we https://www.meetup.com/burbsec/events/317417117/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317417117/
+END:VEVENT
+BEGIN:VEVENT
+UID:f969423022f0@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T030000Z
+SUMMARY:Burbsec South - Sponsor Wanted
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec South! 🍻🎉** Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of info https://www.meetup.com/burbsec/events/317263940/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317263940/
+END:VEVENT
+BEGIN:VEVENT
+UID:f117399e656c@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261210T223000Z
+DTEND:20261211T013000Z
+SUMMARY:AI Builders Washington DC
+LOCATION:Refraction Innovation Hub\, McLean\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/dc-dec10 Address: Refraction Innovation Hub Refraction Innovation Hub McLean\, VA United States Hosted by AI Builders & Lucky Bakhtawar https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:8a2520a6ff2a@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
@@ -920,7 +2816,7 @@ URL:https://luma.com/aikidosecurity
 END:VEVENT
 BEGIN:VEVENT
 UID:b4975fdc19ca@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261211T033000Z
 DTEND:20261212T113000Z
@@ -932,7 +2828,7 @@ URL:https://events.vtools.ieee.org/m/576147
 END:VEVENT
 BEGIN:VEVENT
 UID:345e0a138a8f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261211T130000Z
 DTEND:20261211T230000Z
@@ -943,8 +2839,80 @@ STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
+UID:8d87c8f86bb3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T140000Z
+DTEND:20261211T220000Z
+SUMMARY:BSides Philly
+LOCATION:Location on listing\, Philadelphia\, United States
+DESCRIPTION:DC215 BSides Philly is one of our favorite days of the year and DC215 is proud to be part of it. Find us running the lockpicking village\, Meshtastic mesh networking demos\, and drone exhibitions. Come learn something new\, https://www.meetup.com/dc_215/events/316690037/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/316690037/
+END:VEVENT
+BEGIN:VEVENT
+UID:2d42df4820ec@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T230000Z
+DTEND:20261212T010000Z
+SUMMARY:Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads ### **Moved to Tap It Local in Chesapeake** ## **Attention Information Security and Cybersecurity Professionals!** Are you looking to meet new people who share  https://www.meetup.com/issa-hampton-roads/events/316842274/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/316842274/
+END:VEVENT
+BEGIN:VEVENT
+UID:141bc522a663@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261212T160000Z
+DTEND:20261212T190000Z
+SUMMARY:Soldering Village Workshop
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Join DC215 for a hands-on Soldering Village Workshop at Reclaimers Hall! Whether you’re a complete beginner or looking to sharpen your skills\, this event is perfect for anyone interested in learning the art of sold https://www.meetup.com/dc_215/events/317262610/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/317262610/
+END:VEVENT
+BEGIN:VEVENT
+UID:4c4df41300e2@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261212T160000Z
+DTEND:20261212T180000Z
+SUMMARY:Study Hall / Work on CTFs
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Time to get together and work on or just discuss the CTF. https://www.meetup.com/dc_215/events/pplcztyjcqbqb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/pplcztyjcqbqb/
+END:VEVENT
+BEGIN:VEVENT
+UID:70a78c96fbb8@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261214T180000Z
+DTEND:20261214T190000Z
+SUMMARY:AI Roundtable #30: What Actually Worked: The Most Useful AI Use Cases of 2026 (w/ The AI Collective Kansas City & Voyage Consulting Group)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kc-roundtable30 Hosted by The AI Collective & 4 others https://luma.com/event/evt-gTbeprq8kAXNmCx
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-gTbeprq8kAXNmCx
+END:VEVENT
+BEGIN:VEVENT
+UID:42f175d97182@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261215T013000Z
+DTEND:20261215T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttyjcqbsb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqbsb/
+END:VEVENT
+BEGIN:VEVENT
 UID:f097e6155617@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261215T160000Z
 DTEND:20261215T180000Z
@@ -955,8 +2923,32 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
+UID:a0690ca3b9de@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261215T170000Z
+DTEND:20261215T203000Z
+SUMMARY:AI Builders Monthly - Berlin
+LOCATION:Mindspace Zimmerstrasse\, Mindspace Zimmerstrasse\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/ber-dec15 Address: Mindspace Zimmerstrasse Mindspace Zimmerstrasse Berlin\, Germany Hosted by AI Builders & Andrei Mărcuţ https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:6a4ded669109@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261216T013000Z
+DTEND:20261216T043000Z
+SUMMARY:Las Vegas Cyber Holiday Party
+LOCATION:Location on listing\, Las Vegas\, United States
+DESCRIPTION:Cloud Security Alliance - Las Vegas **Join us for the Las Vegas Cyber Holiday Party!** **The Cloud Security Alliance Las Vegas Chapter is bringing together members of Las Vegas’ technology\, cybersecurity and professional https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/
+END:VEVENT
+BEGIN:VEVENT
 UID:080d9ef15c05@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261215T230000Z
 DTEND:20261216T020000Z
@@ -967,8 +2959,20 @@ STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
+UID:fd99a5c64b1f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261215T230000Z
+DTEND:20261216T020000Z
+SUMMARY:Norfolk Cybersecurity Networking & Happy Hour
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View\, Norfolk. Happy hour is till 8pm with fantastic deals\, check the 2nd i https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcqbtb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcqbtb/
+END:VEVENT
+BEGIN:VEVENT
 UID:7420cc103cdf@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
@@ -979,8 +2983,44 @@ STATUS:CONFIRMED
 URL:https://infosec-conferences.com/us-state/new-york/
 END:VEVENT
 BEGIN:VEVENT
+UID:688a6aa2f4e6@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261216T163000Z
+DTEND:20261216T200000Z
+SUMMARY:AI Builders Amsterdam - Dec 16
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-dec16 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:b3b23ad49b98@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T010000Z
+SUMMARY:Cybersecurity Social/Happy Hour meetup for networking\, meeting new people
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals\, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. W https://www.meetup.com/issa-hampton-roads/events/fqwmbvyjcqbvb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/fqwmbvyjcqbvb/
+END:VEVENT
+BEGIN:VEVENT
+UID:afb42ddcce96@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T010000Z
+SUMMARY:Demo Night (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ha-12-24 Address: Check event page for more details. Hosted by The AI Collective\, Kyle Sparzo & Nisreen Cain https://luma.com/event/evt-Hz3sCWjbSSzHgBg
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Hz3sCWjbSSzHgBg
+END:VEVENT
+BEGIN:VEVENT
 UID:e974224430ab@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261219
@@ -992,7 +3032,7 @@ URL:https://aiconference.dev
 END:VEVENT
 BEGIN:VEVENT
 UID:b7f1447785b5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
@@ -1003,8 +3043,44 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-12-17/
 END:VEVENT
 BEGIN:VEVENT
+UID:b3e1585036f3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261217T010000Z
+DTEND:20261217T040000Z
+SUMMARY:Holiday Party | Reception @Downtown SF
+LOCATION:447 Sutter St\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/holiday-party-2026 Address: 447 Sutter St San Francisco\, CA United States Hosted by TechEquity Ai & 4 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:bff93bb1115d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261217T020000Z
+DTEND:20261217T050000Z
+SUMMARY:AI Builders Los Angeles - Dec 16
+LOCATION:Location on listing\, Los Angeles\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lax-dec16 Hosted by AI Builders & angel.pichardo https://luma.com/event/evt-5X0Amy1nyYs4fd8
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-5X0Amy1nyYs4fd8
+END:VEVENT
+BEGIN:VEVENT
+UID:1c557999de2d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261218T230000Z
+DTEND:20261219T020000Z
+SUMMARY:Third Friday Lockpicking Workshop
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Come join us for our monthly Third Friday Lockpicking Workshop at Wooden Shoe Books! Whether you're a novice who just stumbled upon LockpickingLawyer\, a seasoned safecracker\, or somewhere in between\, come join us f https://www.meetup.com/dc_215/events/tgsrztyjcqbxb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/tgsrztyjcqbxb/
+END:VEVENT
+BEGIN:VEVENT
 UID:5bce2a4ab826@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261219T150000Z
 DTEND:20261219T170000Z
@@ -1015,8 +3091,32 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-12-19/
 END:VEVENT
 BEGIN:VEVENT
+UID:a706c082ba03@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261222T013000Z
+DTEND:20261222T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttyjcqbcc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqbcc/
+END:VEVENT
+BEGIN:VEVENT
+UID:4b56132467ac@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261226T160000Z
+DTEND:20261226T180000Z
+SUMMARY:Study Hall / Work on CTFs
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Time to get together and work on or just discuss the CTF. https://www.meetup.com/dc_215/events/pplcztyjcqbjc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/pplcztyjcqbjc/
+END:VEVENT
+BEGIN:VEVENT
 UID:72e1a4547ff1@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261231
@@ -1027,8 +3127,20 @@ STATUS:CONFIRMED
 URL:https://events.ccc.de/en/category/40c3/
 END:VEVENT
 BEGIN:VEVENT
+UID:e80297f81f81@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261229T013000Z
+DTEND:20261229T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttyjcqblc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqblc/
+END:VEVENT
+BEGIN:VEVENT
 UID:456e7a66eb2d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20261229T230000Z
 DTEND:20261230T020000Z
@@ -1040,7 +3152,7 @@ URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
 UID:84847f6ae751@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270101T220000Z
 DTEND:20270102T000000Z
@@ -1051,8 +3163,20 @@ STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:f3af3340ec01@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270105T013000Z
+DTEND:20270105T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttykccbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttykccbgb/
+END:VEVENT
+BEGIN:VEVENT
 UID:5067265cfe98@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270105T230000Z
 DTEND:20270106T013000Z
@@ -1063,8 +3187,20 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
+UID:f70e5b345e2e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270106T230000Z
+DTEND:20270107T020000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykccbjb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykccbjb/
+END:VEVENT
+BEGIN:VEVENT
 UID:9de7e769d0a5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
@@ -1075,8 +3211,56 @@ STATUS:CONFIRMED
 URL:https://aiconf.asia
 END:VEVENT
 BEGIN:VEVENT
+UID:8dd1f53a9076@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270112T013000Z
+DTEND:20270112T023000Z
+SUMMARY:DC608 Coding Night
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program https://www.meetup.com/dc608madison/events/hgpsttykccbpb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/hgpsttykccbpb/
+END:VEVENT
+BEGIN:VEVENT
+UID:a39963315ea4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270112T170000Z
+DTEND:20270113T010000Z
+SUMMARY:AI Agent Workshop + Company Brain Hackathon
+LOCATION:135 Constitution Dr\, Menlo Park\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/izataj4q Address: 135 Constitution Dr Menlo Park\, CA United States Hosted by TechEquity Ai & 4 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
+UID:4c177301f760@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270113T170000Z
+DTEND:20270113T200000Z
+SUMMARY:AI Builders Warsaw - Jan 13
+LOCATION:Warsaw\, Warsaw\, Poland
+DESCRIPTION:Get up-to-date information at: https://luma.com/waw-jan13 Address: Warsaw Warsaw\, Poland Hosted by AI Builders & 3 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:35a22d30ef5d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270114T150000Z
+DTEND:20270114T233000Z
+SUMMARY:AI Builders x Base44 Buildathon
+LOCATION:The HUB @ Office Logic\, Miami\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/mia-jan14-hday Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States Hosted by AI Builders\, Richmond Taylor & Base44 · https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:4a68f8b9f50f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270116T150000Z
 DTEND:20270116T170000Z
@@ -1088,7 +3272,7 @@ URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-01-
 END:VEVENT
 BEGIN:VEVENT
 UID:b45b9a756717@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270119T230000Z
 DTEND:20270120T020000Z
@@ -1099,8 +3283,32 @@ STATUS:CONFIRMED
 URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
+UID:64e2e822c839@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270120T163000Z
+DTEND:20270120T200000Z
+SUMMARY:AI Builders Amsterdam - Jan 20
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-jan20 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:0f46b2954b91@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270120T180000Z
+DTEND:20270120T210000Z
+SUMMARY:AI Builders London - Jan 20
+LOCATION:beyond The Bower\, beyond The Bower\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/lon-jan20 Address: beyond The Bower beyond The Bower London\, United Kingdom Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:88a2cbe185ec@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
@@ -1111,8 +3319,32 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-01-21/
 END:VEVENT
 BEGIN:VEVENT
+UID:900287855c9d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270122T000000Z
+DTEND:20270122T023000Z
+SUMMARY:AI Collective x Gauntlet AI | Inside the Gauntlet (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gauntlet-nov10 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-IEXHqrE2vl7O4Zt
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-IEXHqrE2vl7O4Zt
+END:VEVENT
+BEGIN:VEVENT
+UID:171f7abafef1@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270122T230000Z
+DTEND:20270123T020000Z
+SUMMARY:AI Builders Miami - Jan 22
+LOCATION:The HUB @ Office Logic\, Miami\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/mia-jan22 Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States Hosted by AI Builders & Richmond Taylor https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:76c47517b8a1@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270128
@@ -1123,8 +3355,20 @@ STATUS:CONFIRMED
 URL:https://www.cybertechisrael.com/sites/cybertlv2022/files/2026-06/brochure%20global%20tlv%202027.pdf
 END:VEVENT
 BEGIN:VEVENT
+UID:416a3eb0082e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270126T233000Z
+DTEND:20270127T043000Z
+SUMMARY:Monthly Ai Forum: Talks + AI Agent Workshops
+LOCATION:135 Constitution Dr\, Menlo Park\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-forum-jan-2027 Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States Hosted by TechEquity Ai  https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
 UID:823d782447e8@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270204
@@ -1136,7 +3380,7 @@ URL:https://datascience.averconferences.com
 END:VEVENT
 BEGIN:VEVENT
 UID:77a465bb32e4@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
@@ -1148,7 +3392,7 @@ URL:https://www.wicys.org/event/wicys-sans-executive-cybersecurity-exercise/
 END:VEVENT
 BEGIN:VEVENT
 UID:2898f8fc3904@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270202T230000Z
 DTEND:20270203T013000Z
@@ -1160,7 +3404,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:ae5cb5be58e5@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270205
@@ -1172,7 +3416,7 @@ URL:https://compute.daytona.io
 END:VEVENT
 BEGIN:VEVENT
 UID:700575626c82@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270205
@@ -1183,8 +3427,32 @@ STATUS:CONFIRMED
 URL:https://techexevent.com/global
 END:VEVENT
 BEGIN:VEVENT
+UID:62a94623edaa@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270203T103000Z
+DTEND:20270203T133000Z
+SUMMARY:Leadership in the AI Era
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20270203 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-Rdl2Rpc6IsDtRtw
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Rdl2Rpc6IsDtRtw
+END:VEVENT
+BEGIN:VEVENT
+UID:1d1dede922e4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270203T230000Z
+DTEND:20270204T020000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykcdbfb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykcdbfb/
+END:VEVENT
+BEGIN:VEVENT
 UID:85ee7019b4f4@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270205T220000Z
 DTEND:20270206T000000Z
@@ -1196,7 +3464,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:2f7544652736@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
@@ -1208,7 +3476,7 @@ URL:https://sessionize.com/districtcon-year-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:25c20b16493b@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270213
@@ -1219,8 +3487,32 @@ STATUS:CONFIRMED
 URL:https://www.helpnetsecurity.com/event/munich-cyber-security-conference-2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:beafdc55aeab@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270211T094500Z
+DTEND:20270211T160000Z
+SUMMARY:WTC BUILDATHON - Feb 11
+LOCATION:World Trade Center (Amsterdam)\, World Trade Center (Amsterdam)\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-feb11 Address: World Trade Center (Amsterdam) WTC Amsterdam Amsterdam\, Netherlands Hosted by AI Builders & 4 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:143d91348af1@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270213T060000Z
+DTEND:20270213T130000Z
+SUMMARY:HeyGen is coming to Islamabad!!! | AI Avatar Pop-Up (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/78_657 Address: Check event page for more details. Hosted by The AI Collective\, Fatima Nadeem & Shaheer Akhtar https://luma.com/event/evt-oikPvOMAqEsmV1p
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-oikPvOMAqEsmV1p
+END:VEVENT
+BEGIN:VEVENT
 UID:cec3d13343b7@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270216T230000Z
 DTEND:20270217T020000Z
@@ -1232,7 +3524,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:91a659f5ea11@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270220
@@ -1244,7 +3536,7 @@ URL:https://wildwesthackinfest.com/wp-content/uploads/2026/05/WWHF-Denver-2027-P
 END:VEVENT
 BEGIN:VEVENT
 UID:15551dca0682@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270220
@@ -1256,7 +3548,7 @@ URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:1b4111aa626f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
@@ -1267,8 +3559,44 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-02-18/
 END:VEVENT
 BEGIN:VEVENT
+UID:3b48206ad7ad@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270218T180000Z
+DTEND:20270218T210000Z
+SUMMARY:AI Builders London - AI Software Factory Edition - Feb 18
+LOCATION:Civo Tech Junction\, First Floor\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/lon-feb18 Address: Civo Tech Junction Civo Tech Junction London\, United Kingdom Hosted by AI Builders\, Neo4j & Port.io - https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:91021f1da338@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270218T230000Z
+DTEND:20270219T020000Z
+SUMMARY:AI Builders Miami - Feb 18
+LOCATION:The HUB @ Office Logic\, Miami\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/mia-feb18 Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States Hosted by AI Builders & Richmond Taylor https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:aec78d0137ef@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270218T233000Z
+DTEND:20270219T043000Z
+SUMMARY:Monthly Ai Forum: Talks + AI Agent Workshops
+LOCATION:135 Constitution Dr\, Menlo Park\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-forum-feb-2027 Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States Hosted by TechEquity Ai  https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+END:VEVENT
+BEGIN:VEVENT
 UID:5eb52e47fec8@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270223T130000Z
 DTEND:20270223T230000Z
@@ -1279,8 +3607,20 @@ STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
+UID:e2d6b72d4de2@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270224T163000Z
+DTEND:20270224T200000Z
+SUMMARY:AI Builders Amsterdam - Feb 24
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-feb24 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:49461a53df78@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
@@ -1291,8 +3631,20 @@ STATUS:CONFIRMED
 URL:https://www.secureworld.io/events
 END:VEVENT
 BEGIN:VEVENT
+UID:b1c7cb0fd228@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270306
+SUMMARY:BASTA! Spring
+LOCATION:Frankfurt am Main\, Frankfurt am Main\, Germany
+DESCRIPTION:https://basta.net/frankfurt
+STATUS:CONFIRMED
+URL:https://basta.net/frankfurt
+END:VEVENT
+BEGIN:VEVENT
 UID:de025e1fa0e6@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270302T230000Z
 DTEND:20270303T013000Z
@@ -1303,8 +3655,20 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
+UID:1504c9f6d521@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270303T230000Z
+DTEND:20270304T020000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykcfbfb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykcfbfb/
+END:VEVENT
+BEGIN:VEVENT
 UID:122bc13d408e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270305T220000Z
 DTEND:20270306T000000Z
@@ -1316,7 +3680,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:80955d65b065@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270311
@@ -1328,7 +3692,7 @@ URL:https://vividglobalsummits.com/2027/artificial-intelligence
 END:VEVENT
 BEGIN:VEVENT
 UID:97085202a78e@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270319
@@ -1340,7 +3704,7 @@ URL:https://www.nvidia.com/en-us/gtc/faq/
 END:VEVENT
 BEGIN:VEVENT
 UID:e1de3fc67242@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
@@ -1352,7 +3716,7 @@ URL:https://openssf.org/event/open-source-securitycon/
 END:VEVENT
 BEGIN:VEVENT
 UID:3af324545be3@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270319
@@ -1364,7 +3728,7 @@ URL:https://aiconference.nl
 END:VEVENT
 BEGIN:VEVENT
 UID:cf510c351dae@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270318
@@ -1376,7 +3740,7 @@ URL:https://www.gitexlatam.com
 END:VEVENT
 BEGIN:VEVENT
 UID:b10d274db372@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270316T220000Z
 DTEND:20270317T010000Z
@@ -1388,7 +3752,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:940813b50752@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270322
@@ -1399,8 +3763,20 @@ STATUS:CONFIRMED
 URL:https://aiml.scientificmeditech.com
 END:VEVENT
 BEGIN:VEVENT
+UID:e7fccae41b5e@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270320T040000Z
+DTEND:20270320T093000Z
+SUMMARY:Find Work Fast 3.0: The Battle of Generations
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-kul-20270320 Address: Check event page for more details. Hosted by The AI Collective & 3 others https://luma.com/event/evt-BJHKt32MucrI4mH
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-BJHKt32MucrI4mH
+END:VEVENT
+BEGIN:VEVENT
 UID:e3802e0ad281@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
@@ -1411,8 +3787,32 @@ STATUS:CONFIRMED
 URL:https://infosec-conferences.com/event/20270324-cloud-usa-conference/
 END:VEVENT
 BEGIN:VEVENT
+UID:3467a046aa3f@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270324T163000Z
+DTEND:20270324T200000Z
+SUMMARY:AI Builders Amsterdam - Mar 24
+LOCATION:StartDock Coworking Prins Hendrikkade\, StartDock Coworking Prins Hendrikkade\, Netherlands
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-mar24 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
+UID:44287bd81223@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270324T180000Z
+DTEND:20270324T210000Z
+SUMMARY:AI Builders London - Mar 24
+LOCATION:beyond The Bower\, beyond The Bower\, United Kingdom
+DESCRIPTION:Get up-to-date information at: https://luma.com/lon-mar24 Address: beyond The Bower beyond The Bower London\, United Kingdom Hosted by AI Builders https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+END:VEVENT
+BEGIN:VEVENT
 UID:6e2a12eac8c3@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270330T220000Z
 DTEND:20270331T010000Z
@@ -1423,8 +3823,20 @@ STATUS:CONFIRMED
 URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
+UID:7a37c7d72ad1@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270405
+SUMMARY:SCaLE
+LOCATION:Pasadena\, Pasadena\, United States
+DESCRIPTION:https://www.socallinuxexpo.org/scale/24x
+STATUS:CONFIRMED
+URL:https://www.socallinuxexpo.org/scale/24x
+END:VEVENT
+BEGIN:VEVENT
 UID:e8bbb2ccfb47@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270403
@@ -1436,7 +3848,7 @@ URL:https://www.sunseccon.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:7888204faddc@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270402T210000Z
 DTEND:20270402T230000Z
@@ -1448,7 +3860,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2ba6091da0@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
@@ -1460,7 +3872,7 @@ URL:https://basconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0cfb696a00@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270406T220000Z
 DTEND:20270407T003000Z
@@ -1472,7 +3884,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:9629693314fc@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270409
@@ -1483,8 +3895,20 @@ STATUS:CONFIRMED
 URL:https://bsidesprg.cz
 END:VEVENT
 BEGIN:VEVENT
+UID:e6bb3e9a747a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270407T220000Z
+DTEND:20270408T010000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykcgbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykcgbkb/
+END:VEVENT
+BEGIN:VEVENT
 UID:848707c86f9f@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270420
@@ -1496,7 +3920,7 @@ URL:https://aicodingsummit.com/asia
 END:VEVENT
 BEGIN:VEVENT
 UID:dc9d3b548789@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270417
@@ -1508,7 +3932,7 @@ URL:https://genaixworld.com
 END:VEVENT
 BEGIN:VEVENT
 UID:2386af22359d@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270420T220000Z
 DTEND:20270421T010000Z
@@ -1520,7 +3944,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5876bf6812@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270423
@@ -1532,7 +3956,7 @@ URL:https://www.gitexitaly.com
 END:VEVENT
 BEGIN:VEVENT
 UID:60e514317bcb@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270504T220000Z
 DTEND:20270505T003000Z
@@ -1543,8 +3967,20 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
+UID:35d83f58492d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270505T220000Z
+DTEND:20270506T010000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykchbhb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykchbhb/
+END:VEVENT
+BEGIN:VEVENT
 UID:d61b38844700@the-lineup
-DTSTAMP:20261115T222910Z
+DTSTAMP:20261115T223241Z
 SEQUENCE:0
 DTSTART:20270507T210000Z
 DTEND:20270507T230000Z

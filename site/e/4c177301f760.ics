@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4c177301f760@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270113T170000Z
+DTEND:20270113T200000Z
+SUMMARY:AI Builders Warsaw - Jan 13
+LOCATION:Warsaw\, Warsaw\, Poland
+DESCRIPTION:Get up-to-date information at: https://luma.com/waw-jan13 Address: Warsaw Warsaw\, Poland Hosted by AI Builders & 3 others https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee1b72589d1a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261121T220000Z
+DTEND:20261122T010000Z
+SUMMARY:Services is the new SaaS: A Gathering of IT services leaders in Atlanta
+LOCATION:190 Bluegrass Valley Pkwy\, Alpharetta\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta\, GA United States Hosted by Moring AI & Balaji Nagaraj Kumar https://luma.com/aicatl
+STATUS:CONFIRMED
+URL:https://luma.com/aicatl
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

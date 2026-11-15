@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d1413c5607ae@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261128T060000Z
+DTEND:20261128T120000Z
+SUMMARY:Domain Experts\, Assemble: A Lovable x AI Collective Build Day (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-is-9-5 Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-Htx7MDTwhhasRBi
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Htx7MDTwhhasRBi
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

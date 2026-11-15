@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:138adf0ee41d@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261116T170000Z
+DTEND:20261116T180000Z
+SUMMARY:From AI Pilot to Production on Google Cloud
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:New Jersey Business and Tech Meetup Moving an AI project from pilot to production is not always straightforward. Many businesses have promising AI projects but face challenges when it comes to scaling and implementation. https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317252739/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317252739/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

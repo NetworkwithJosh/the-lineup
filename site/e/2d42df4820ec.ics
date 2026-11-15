@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2d42df4820ec@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T230000Z
+DTEND:20261212T010000Z
+SUMMARY:Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads ### **Moved to Tap It Local in Chesapeake** ## **Attention Information Security and Cybersecurity Professionals!** Are you looking to meet new people who share  https://www.meetup.com/issa-hampton-roads/events/316842274/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/316842274/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

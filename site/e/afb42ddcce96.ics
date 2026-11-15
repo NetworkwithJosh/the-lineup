@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:afb42ddcce96@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T010000Z
+SUMMARY:Demo Night (w/ The AI Collective)
+LOCATION:Check event page for more details.\, Check event page for more details.
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ha-12-24 Address: Check event page for more details. Hosted by The AI Collective\, Kyle Sparzo & Nisreen Cain https://luma.com/event/evt-Hz3sCWjbSSzHgBg
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Hz3sCWjbSSzHgBg
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

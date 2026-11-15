@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:141bc522a663@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261212T160000Z
+DTEND:20261212T190000Z
+SUMMARY:Soldering Village Workshop
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DC215 Join DC215 for a hands-on Soldering Village Workshop at Reclaimers Hall! Whether you’re a complete beginner or looking to sharpen your skills\, this event is perfect for anyone interested in learning the art of sold https://www.meetup.com/dc_215/events/317262610/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc_215/events/317262610/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

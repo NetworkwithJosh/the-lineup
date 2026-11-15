@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a39963315ea4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270112T170000Z
+DTEND:20270113T010000Z
+SUMMARY:AI Agent Workshop + Company Brain Hackathon
+LOCATION:135 Constitution Dr\, Menlo Park\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/izataj4q Address: 135 Constitution Dr Menlo Park\, CA United States Hosted by TechEquity Ai & 4 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

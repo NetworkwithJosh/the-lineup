@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a634bd397f3b@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261203T200000Z
+DTEND:20261203T230000Z
+SUMMARY:CigarSec - Co-Working & Cigars before Prime!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events Attention all IT enthusiasts and cigar aficionados! Get ready to kick off BurbsecPrime in style with CigarSec\, the ultimate pre-event meetup that combines the  https://www.meetup.com/burbsec/events/317285209/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317285209/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

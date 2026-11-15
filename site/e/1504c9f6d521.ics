@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1504c9f6d521@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20270303T230000Z
+DTEND:20270304T020000Z
+SUMMARY:DEF CON 610 Monthly Meetup
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:DEF CON 610 Welcome to DEF CON 610! Please join us the First Wednesday of the month at The Vault Brewing in Easton! Schedule: 6pm - 7pm Setup / Meet & Greet 7pm - Swap Starts General Stuff We Always Have: Lock picking wi https://www.meetup.com/defcon610/events/nqlpxtykcfbfb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon610/events/nqlpxtykcfbfb/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

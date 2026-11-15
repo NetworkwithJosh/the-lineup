@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:48e679b654b4@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261119T023000Z
+DTEND:20261119T053000Z
+SUMMARY:The AI Search Operators Dinner
+LOCATION:San Francisco\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lvzwkmc2 Address: San Francisco San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

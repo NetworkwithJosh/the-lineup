@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7a216408101a@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T000000Z
+DTEND:20261126T055500Z
+SUMMARY:BurbSec East - Sponsors Wanted!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/316679057/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316679057/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

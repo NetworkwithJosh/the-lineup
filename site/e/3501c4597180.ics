@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3501c4597180@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T055900Z
+SUMMARY:BurbSec Pilsen - Sponsors Wanted!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/316727056/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316727056/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

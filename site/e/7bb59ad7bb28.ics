@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7bb59ad7bb28@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261120T000000Z
+DTEND:20261120T030000Z
+SUMMARY:BurbSec West - Sponsored by Concentric AI!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec West\, sponsored by [Concentric AI](https://concentric.ai/)!** 🍻🎉 Are you ready for a night of geeking out\, making new fri https://www.meetup.com/burbsec/events/316485910/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/316485910/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

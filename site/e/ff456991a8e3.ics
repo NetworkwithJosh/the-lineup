@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ff456991a8e3@the-lineup
+DTSTAMP:20261115T223241Z
+SEQUENCE:0
+DTSTART:20261126T170000Z
+DTEND:20261126T200000Z
+SUMMARY:AI Builders Vienna - Nov 26
+LOCATION:Oracle Austria GmbH\, Oracle Austria GmbH\, Austria
+DESCRIPTION:Get up-to-date information at: https://luma.com/vie-nov26 Address: Oracle Austria GmbH Oracle Austria GmbH Wien\, Austria Hosted by AI Builders & Arne Lotze https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
