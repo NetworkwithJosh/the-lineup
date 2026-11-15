@@ -1,40 +1,176 @@
 {
   "_note": "Every feed the scraper pulls each run. A dead feed is skipped and its events are kept as they were (never marked cancelled) until it works again. Tags: cyber, ai. require_keywords=true means only events that mention cyber or AI words are kept (for mixed calendars).",
-
   "ics_urls": [
-    {"name": "Black Hills Infosec conference calendar", "url": "https://www.blackhillsinfosec.com/events/category/conference/list/?ical=1", "page": "https://www.blackhillsinfosec.com/events/", "tags": ["cyber"], "require_keywords": true},
-    {"name": "WiCyS events", "url": "https://www.wicys.org/events/list/?ical=1", "page": "https://www.wicys.org/events/", "tags": ["cyber"]},
-    {"name": "OpenSSF events", "url": "https://openssf.org/our-events/list/?ical=1", "page": "https://openssf.org/our-events/", "tags": ["cyber"]},
-    {"name": "Cybersecurity conference calendar (Smart Calendars)", "url": "https://smartcalendars.ai/cal/c47ad735e3b62f9caca58b4b6f6a1965316eebbb9d75f42069807420844fff68.ics", "page": "https://www.smartcalendars.ai/en/feeds/cybersecurity-conference-calendar", "tags": ["cyber"], "skip_titles": "call for|cfp|deadline|submission"},
-    {"name": "Major security conferences (Smart Calendars)", "url": "https://smartcalendars.ai/cal/d062f4c4740f672341c1439f7d9ed92ac795e6acc435ce78493910674936f504.ics", "page": "https://www.smartcalendars.ai/en/feeds/major-cybersecurity-conferences", "tags": ["cyber"], "skip_titles": "call for|cfp|deadline|submission"}
+    {
+      "name": "Black Hills Infosec events",
+      "url": "https://www.blackhillsinfosec.com/events/list/?ical=1",
+      "page": "https://www.blackhillsinfosec.com/events/",
+      "tags": [
+        "cyber"
+      ],
+      "require_keywords": true
+    },
+    {
+      "name": "Black Hills Infosec conferences",
+      "url": "https://www.blackhillsinfosec.com/events/category/conference/?ical=1",
+      "page": "https://www.blackhillsinfosec.com/events/",
+      "tags": [
+        "cyber"
+      ],
+      "require_keywords": true
+    },
+    {
+      "name": "WiCyS events",
+      "url": "https://www.wicys.org/events/list/?ical=1",
+      "page": "https://www.wicys.org/events/",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "name": "OpenSSF events",
+      "url": "https://openssf.org/our-events/list/?ical=1",
+      "page": "https://openssf.org/our-events/",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "name": "Cybersecurity conference calendar (Smart Calendars)",
+      "url": "https://smartcalendars.ai/cal/c47ad735e3b62f9caca58b4b6f6a1965316eebbb9d75f42069807420844fff68.ics",
+      "page": "https://www.smartcalendars.ai/en/feeds/cybersecurity-conference-calendar",
+      "tags": [
+        "cyber"
+      ],
+      "skip_titles": "call for|cfp|deadline|submission"
+    },
+    {
+      "name": "Major security conferences (Smart Calendars)",
+      "url": "https://smartcalendars.ai/cal/d062f4c4740f672341c1439f7d9ed92ac795e6acc435ce78493910674936f504.ics",
+      "page": "https://www.smartcalendars.ai/en/feeds/major-cybersecurity-conferences",
+      "tags": [
+        "cyber"
+      ],
+      "skip_titles": "call for|cfp|deadline|submission"
+    }
   ],
-
   "confs_tech": {
     "_note": "Open conference dataset (github.com/tech-conferences/conference-data). Security is taken whole; the other topics only when they mention AI.",
     "base": "https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences",
     "topics": [
-      {"topic": "security", "tags": ["cyber"]},
-      {"topic": "data", "tags": [], "require_keywords": true},
-      {"topic": "general", "tags": [], "require_keywords": true},
-      {"topic": "devops", "tags": [], "require_keywords": true}
+      {
+        "topic": "security",
+        "tags": [
+          "cyber"
+        ]
+      },
+      {
+        "topic": "data",
+        "tags": [],
+        "require_keywords": true
+      },
+      {
+        "topic": "general",
+        "tags": [],
+        "require_keywords": true
+      },
+      {
+        "topic": "devops",
+        "tags": [],
+        "require_keywords": true
+      }
     ]
   },
-
   "meetup_groups": [
-    {"slug": "owasp-new-york-city-chapter", "name": "OWASP NYC", "tags": ["cyber"]},
-    {"slug": "NY-Enterprise-Information-Security-Meetup", "name": "NY Enterprise Information Security", "tags": ["cyber"]},
-    {"slug": "defcon212", "name": "DC212 (DEF CON NYC)", "tags": ["cyber"]},
-    {"slug": "artificial-intelligence-nyc", "name": "New York AI Forum", "tags": ["ai"]},
-    {"slug": "nyc-applied-ai-builders", "name": "NYC Applied AI Builders", "tags": ["ai"]},
-    {"slug": "cybersecurity-ai-pros", "name": "Cybersecurity & AI Pros", "tags": ["cyber", "ai"]},
-    {"slug": "cybersecurity-and-ai-usergroup", "name": "Cybersecurity and AI Usergroup", "tags": ["cyber", "ai"]}
+    {
+      "slug": "owasp-new-york-city-chapter",
+      "name": "OWASP NYC",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "slug": "NY-Enterprise-Information-Security-Meetup",
+      "name": "NY Enterprise Information Security",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "slug": "defcon212",
+      "name": "DC212 (DEF CON NYC)",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "slug": "artificial-intelligence-nyc",
+      "name": "New York AI Forum",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "slug": "nyc-applied-ai-builders",
+      "name": "NYC Applied AI Builders",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "slug": "cybersecurity-ai-pros",
+      "name": "Cybersecurity & AI Pros",
+      "tags": [
+        "cyber",
+        "ai"
+      ]
+    },
+    {
+      "slug": "cybersecurity-and-ai-usergroup",
+      "name": "Cybersecurity and AI Usergroup",
+      "tags": [
+        "cyber",
+        "ai"
+      ]
+    }
   ],
-
   "luma_calendars": [
-    {"slug": "claude", "name": "Claude Community Events", "tags": ["ai"]},
-    {"slug": "cycore-secure", "name": "Cycore Secure", "tags": ["cyber", "ai"]},
-    {"slug": "cloudsekevents", "name": "CloudSEK Events", "tags": ["cyber", "ai"]},
-    {"slug": "aikidosecurity", "name": "Aikido Security", "tags": ["cyber"]},
-    {"slug": "alchemycyber", "name": "Alchemy Cyber", "tags": ["cyber"]}
+    {
+      "slug": "claude",
+      "name": "Claude Community Events",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "slug": "cycore-secure",
+      "name": "Cycore Secure",
+      "tags": [
+        "cyber",
+        "ai"
+      ]
+    },
+    {
+      "slug": "cloudsekevents",
+      "name": "CloudSEK Events",
+      "tags": [
+        "cyber",
+        "ai"
+      ]
+    },
+    {
+      "slug": "aikidosecurity",
+      "name": "Aikido Security",
+      "tags": [
+        "cyber"
+      ]
+    },
+    {
+      "slug": "alchemycyber",
+      "name": "Alchemy Cyber",
+      "tags": [
+        "cyber"
+      ]
+    }
   ]
 }

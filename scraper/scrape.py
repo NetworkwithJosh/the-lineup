@@ -41,7 +41,8 @@ CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
 CYBER_WORDS = re.compile(r"\b(cyber\w*|security|infosec|hack\w*|ctf|owasp|isaca|isc2|\(isc\)2|issa|grc|soc|threat\w*|pentest\w*|red team|blue team|privacy|zero trust|appsec|devsecops|malware|def ?con|bsides|ransomware|incident response|identity|iam|cissp|cism|wicys|infragard)\b", re.I)
 AI_WORDS = re.compile(r"\b(ai|a\.i\.|artificial intelligence|llms?|agents?|agentic|machine learning|ml|genai|gen ai|claude|gpt\w*|openai|anthropic|copilot|rag|mcp|deep learning|neural|nlp)\b", re.I)
-ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|livestream|google meet|microsoft teams|remote)\b", re.I)
+ONLINE_WORDS = re.compile(r"\b(online|virtual|zoom|webinar|webcast|livestream|live stream|google meet|microsoft teams|remote|brighttalk|webex|gotowebinar|crowdcast|on24|hopin|youtube live|twitch)\b", re.I)
+SKIP_TITLES = re.compile(r"\b(cfp|call for (papers|speakers|proposals)|submission deadline|deadline|hiring test|career queries)\b", re.I)
 
 US_STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split())
 COUNTRY_ALIASES = {
@@ -148,7 +149,53 @@ def norm_country(s: str) -> str:
         return ""
     if s.upper() in US_STATES:
         return "United States"
-    return COUNTRY_ALIASES.get(s.lower(), s)
+    key = s.lower().replace(".", "").strip()
+    return COUNTRY_ALIASES.get(key, COUNTRY_ALIASES.get(s.lower(), s))
+
+
+CITY_HINTS = {
+    "New York": "United States", "Brooklyn": "United States", "Jersey City": "United States", "Philadelphia": "United States",
+    "Boston": "United States", "Washington": "United States", "Arlington": "United States", "Baltimore": "United States",
+    "Atlanta": "United States", "Miami": "United States", "Tampa": "United States", "Orlando": "United States",
+    "Chicago": "United States", "Detroit": "United States", "Minneapolis": "United States", "Dallas": "United States",
+    "Houston": "United States", "Austin": "United States", "San Antonio": "United States", "Denver": "United States",
+    "Phoenix": "United States", "Las Vegas": "United States", "Los Angeles": "United States", "San Diego": "United States",
+    "San Francisco": "United States", "San Jose": "United States", "Seattle": "United States", "Portland": "United States",
+    "Raleigh": "United States", "Charlotte": "United States", "Nashville": "United States", "Pittsburgh": "United States",
+    "Toronto": "Canada", "Montreal": "Canada", "Vancouver": "Canada", "Ottawa": "Canada", "Calgary": "Canada",
+    "London": "United Kingdom", "Manchester": "United Kingdom", "Edinburgh": "United Kingdom", "Dublin": "Ireland",
+    "Paris": "France", "Lyon": "France", "Berlin": "Germany", "Munich": "Germany", "Hamburg": "Germany", "Frankfurt": "Germany",
+    "Amsterdam": "Netherlands", "Brussels": "Belgium", "Madrid": "Spain", "Barcelona": "Spain", "Lisbon": "Portugal",
+    "Rome": "Italy", "Milan": "Italy", "Zurich": "Switzerland", "Geneva": "Switzerland", "Vienna": "Austria",
+    "Stockholm": "Sweden", "Oslo": "Norway", "Copenhagen": "Denmark", "Helsinki": "Finland", "Warsaw": "Poland",
+    "Prague": "Czechia", "Athens": "Greece", "Istanbul": "Turkey", "Tel Aviv": "Israel", "Dubai": "United Arab Emirates",
+    "Abu Dhabi": "United Arab Emirates", "Riyadh": "Saudi Arabia", "Doha": "Qatar", "Cairo": "Egypt", "Lagos": "Nigeria",
+    "Nairobi": "Kenya", "Johannesburg": "South Africa", "Cape Town": "South Africa", "Mumbai": "India", "Bengaluru": "India",
+    "Bangalore": "India", "Delhi": "India", "New Delhi": "India", "Hyderabad": "India", "Pune": "India", "Chennai": "India",
+    "Singapore": "Singapore", "Kuala Lumpur": "Malaysia", "Jakarta": "Indonesia", "Manila": "Philippines", "Bangkok": "Thailand",
+    "Hong Kong": "Hong Kong", "Tokyo": "Japan", "Seoul": "South Korea", "Sydney": "Australia", "Melbourne": "Australia",
+    "Brisbane": "Australia", "Auckland": "New Zealand", "Sao Paulo": "Brazil", "São Paulo": "Brazil", "Mexico City": "Mexico",
+    "Bogota": "Colombia", "Buenos Aires": "Argentina", "Santiago": "Chile", "Lima": "Peru", "Panama City": "Panama",
+}
+COUNTRY_HINTS = ["United States", "Canada", "United Kingdom", "Ireland", "France", "Germany", "Netherlands", "Belgium", "Spain",
+                 "Portugal", "Italy", "Switzerland", "Austria", "Sweden", "Norway", "Denmark", "Finland", "Poland", "Greece",
+                 "Turkey", "Israel", "Egypt", "Nigeria", "Kenya", "South Africa", "India", "Pakistan", "Singapore", "Malaysia",
+                 "Indonesia", "Philippines", "Thailand", "Vietnam", "Japan", "South Korea", "Australia", "New Zealand", "Brazil",
+                 "Mexico", "Colombia", "Argentina", "Chile", "Peru", "Saudi Arabia", "Qatar", "Tunisia", "Morocco", "Romania",
+                 "Ukraine", "Estonia", "Lithuania", "Latvia", "Hungary", "Czechia", "Luxembourg", "Panama", "Costa Rica",
+                 "Middle East", "Europe", "BeNeLux", "Benelux", "LATAM", "Africa", "Asia"]
+REGION_WORDS = {"Middle East", "Europe", "BeNeLux", "Benelux", "LATAM", "Africa", "Asia"}
+
+
+def hint_place(text: str) -> tuple[str, str]:
+    """Find a city or country named in a title or description."""
+    for city, country in sorted(CITY_HINTS.items(), key=lambda kv: -len(kv[0])):
+        if re.search(rf"(?<![A-Za-z]){re.escape(city)}(?![A-Za-z])", text):
+            return city, country
+    for country in COUNTRY_HINTS:
+        if re.search(rf"(?<![A-Za-z]){re.escape(country)}(?![A-Za-z])", text):
+            return "", "" if country in REGION_WORDS else country
+    return "", ""
 
 
 def place(location: str, city: str = "", country: str = "") -> dict:
@@ -219,6 +266,9 @@ def iso_local(dt: datetime, all_day: bool, tzname: str | None) -> str:
 def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) -> dict | None:
     if src.get("skip_titles") and re.search(src["skip_titles"], e["title"], re.I):
         return None
+    if SKIP_TITLES.search(e["title"]):
+        return None
+    e = {**e, "title": re.sub(r"\s*[\u2014\u2013-]+\s*Conference Dates\s*$", "", e["title"]).strip()}
     text = f"{e['title']} {e['description']} {e['location']}"
     tags = tags_for(text, [] if src.get("require_keywords") else src.get("tags", []))
     if src.get("require_keywords"):
@@ -227,7 +277,18 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
         tags = sorted(set(tags) | set(src.get("tags", [])))
     if not tags:
         return None
-    p = place(e["location"])
+    loc = e["location"]
+    url = e["url"]
+    if loc.startswith("http"):
+        url, loc = url or loc, ""
+    m = re.search(r"(?:Address|Location|Where)\s*:\s*([^\n]+)", e["description"])
+    if not loc and m:
+        loc = m.group(1).strip()
+    p = place(loc)
+    if p["country"] == "Unknown" or p["city"] == "Location on listing":
+        hc, hco = hint_place(f"{e['title']} {e['description'][:300]}")
+        if hc or hco:
+            p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing"}
     uid = e["uid"] or norm_title(e["title"])
     key = uid if uid_counts[uid] <= 1 else f"{uid}{e['start'].date()}"
     return {
@@ -237,13 +298,13 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
         "end": iso_local(e["end"], e["allDay"], e["tzname"]),
         "allDay": e["allDay"],
         "tz": e["tzname"],
-        "venue": "Online" if p["online"] else (e["location"].split(",")[0].strip() if e["location"] else "Location on listing"),
+        "venue": "Online" if p["online"] else (loc.split(",")[0].strip() if loc else "Location on listing"),
         **p,
         "format": "Online" if p["online"] else "In person",
         "cost": guess_cost(text),
         "tags": tags,
         "kind": "Conference" if e["allDay"] and e["end"].date() > e["start"].date() else ("Event" if e["allDay"] else "Meetup"),
-        "url": e["url"] or src.get("page", ""),
+        "url": url or src.get("page", ""),
         "about": re.sub(r"\s+", " ", e["description"])[:220],
         "source": source_name,
         "status": "cancelled" if e["cancelled"] else "listed",
