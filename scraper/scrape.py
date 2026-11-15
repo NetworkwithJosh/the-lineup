@@ -614,6 +614,11 @@ def main() -> int:
                "sources": report, "events": events}
     OUT_JSON.write_text(json.dumps(payload, indent=1, ensure_ascii=False))
     OUT_ICS.write_text(write_ics(events, datetime.now(UTC)))
+    (ROOT / "site" / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f'  <url><loc>https://thelineup.dev/</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n'
+        '</urlset>\n')
     ok = sum(1 for r in report if r.get("ok"))
     print(f"{payload['count']} events ({stats}). Sources ok: {ok}/{len(report)}")
     for r in report:
