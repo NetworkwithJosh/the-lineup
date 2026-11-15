@@ -138,7 +138,7 @@ def parse_ics(text: str) -> list[dict]:
             "location": unescape(e.get("LOCATION", ("",))[0]),
             "url": unescape(e.get("URL", ("",))[0]),
             "description": unescape(e.get("DESCRIPTION", ("",))[0])[:800],
-            "cancelled": e.get("STATUS", ("",))[0].upper() == "CANCELLED" or bool(re.match(r"^\s*(cancel+ed|canceled)\b", unescape(e["SUMMARY"][0]), re.I)),
+            "cancelled": e.get("STATUS", ("",))[0].upper() == "CANCELLED" or bool(re.search(r"^\s*(cancel+ed)\b|\[(cancel+ed)\]", unescape(e["SUMMARY"][0]), re.I)),
         })
     return out
 
@@ -294,7 +294,7 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
     key = uid if uid_counts[uid] <= 1 else f"{uid}{e['start'].date()}"
     return {
         "id": h(source_name, key),
-        "title": re.sub(r"^\s*(cancel+ed|canceled)\s*[:\-]\s*", "", e["title"], flags=re.I),
+        "title": re.sub(r"\s*\[(cancel+ed)\]\s*", " ", re.sub(r"^\s*cancel+ed\s*[:\-]\s*", "", e["title"], flags=re.I), flags=re.I).strip(),
         "start": iso_local(e["start"], e["allDay"], e["tzname"]),
         "end": iso_local(e["end"], e["allDay"], e["tzname"]),
         "allDay": e["allDay"],
