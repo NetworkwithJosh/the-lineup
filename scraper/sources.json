@@ -890,14 +890,6 @@
       "home": "Charlotte, NC"
     },
     {
-      "slug": "charlotte-cyber-tavern",
-      "name": "Charlotte Cyber Tavern",
-      "tags": [
-        "cyber"
-      ],
-      "home": "Charlotte, NC"
-    },
-    {
       "slug": "NashSec",
       "name": "NashSec (Nashville)",
       "tags": [
@@ -916,14 +908,6 @@
     {
       "slug": "denver-security",
       "name": "Denver CyberSecurity (CSNP)",
-      "tags": [
-        "cyber"
-      ],
-      "home": "Denver, CO"
-    },
-    {
-      "slug": "denver-cloud-security-meetup",
-      "name": "Denver Cloud Security",
       "tags": [
         "cyber"
       ],
@@ -962,14 +946,6 @@
       "home": "Orlando, FL"
     },
     {
-      "slug": "tampa-threat-analysis-meetup-group",
-      "name": "Tampa Cybersecurity Network",
-      "tags": [
-        "cyber"
-      ],
-      "home": "Tampa, FL"
-    },
-    {
       "slug": "tampa-bay-area-cybersecurity-meetup-group",
       "name": "Tampa Bay Cybersecurity",
       "tags": [
@@ -1000,14 +976,6 @@
         "cyber"
       ],
       "home": "Fort Myers, FL"
-    },
-    {
-      "slug": "MDcybercommunity",
-      "name": "Maryland Cyber Community",
-      "tags": [
-        "cyber"
-      ],
-      "home": "Columbia, MD"
     },
     {
       "slug": "DCCISSP",
