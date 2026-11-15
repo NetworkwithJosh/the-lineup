@@ -547,10 +547,10 @@ def ics_escape(s: str) -> str:
     return (s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
-def write_ics(events: list[dict], stamp: datetime) -> str:
-    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-             "X-WR-CALNAME:The Lineup: cyber + AI meetups", "REFRESH-INTERVAL;VALUE=DURATION:P1D",
-             "X-PUBLISHED-TTL:P1D"]
+def write_ics(events: list[dict], stamp: datetime, single: bool = False) -> str:
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH"]
+    if not single:
+        lines += ["X-WR-CALNAME:The Lineup: cyber + AI meetups", "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D"]
     for e in events:
         lines += ["BEGIN:VEVENT", f"UID:{e['id']}@the-lineup", f"DTSTAMP:{stamp:%Y%m%dT%H%M%SZ}", f"SEQUENCE:{e.get('seq', 0)}"]
         if e["allDay"]:
@@ -567,6 +567,8 @@ def write_ics(events: list[dict], stamp: datetime) -> str:
                   f"STATUS:{'CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'}"]
         if e.get("url"):
             lines.append(f"URL:{e['url']}")
+        if single:
+            lines += ["BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", "DESCRIPTION:Tomorrow", "END:VALARM"]
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
@@ -614,6 +616,18 @@ def main() -> int:
                "sources": report, "events": events}
     OUT_JSON.write_text(json.dumps(payload, indent=1, ensure_ascii=False))
     OUT_ICS.write_text(write_ics(events, datetime.now(UTC)))
+    # one small .ics per event: phones open a real file URL far more reliably than a JS download
+    one_dir = ROOT / "site" / "e"
+    one_dir.mkdir(exist_ok=True)
+    keep = set()
+    for e in events:
+        if e["status"] != "cancelled":
+            f = one_dir / f"{e['id']}.ics"
+            f.write_text(write_ics([e], datetime.now(UTC), single=True))
+            keep.add(f.name)
+    for f in one_dir.glob("*.ics"):
+        if f.name not in keep:
+            f.unlink()
     (ROOT / "site" / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

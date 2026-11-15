@@ -139,6 +139,9 @@
   .ev__act { display: flex; flex-direction: column; gap: var(--sc-1); align-items: flex-end; }
   .btn { display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; padding: 0.35rem 0.65rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink); cursor: pointer; text-decoration: none; white-space: nowrap; transition: border-color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out); }
   .btn:active { transform: scale(0.97); }
+  .btn--ghost { border-color: transparent; color: var(--sc-ink-dim); }
+  .btn--ghost:hover { color: var(--sc-ink); border-color: var(--sc-hairline-strong); }
+  @media (max-width: 640px) { .ev__act .btn { min-height: 40px; padding: 0.5rem 0.85rem; } }
   @media (hover: hover) and (pointer: fine) { .btn:hover { border-color: var(--sc-ink); } }
   .ev.is-off .ev__title, .ev.is-off .ev__date { color: var(--sc-ink-soft); }
   .ev.is-new { animation: rowin 260ms var(--sc-ease-out) both; }
@@ -276,7 +279,7 @@
         <label class="sr" for="feed-url">Calendar feed address</label>
         <input id="feed-url" readonly value="">
         <button class="btn btn--solid" type="button" id="copy">Copy feed</button>
-        <a class="btn" id="gcal" href="#" target="_blank" rel="noopener">Google Calendar</a>
+        <a class="btn" id="gcal" href="#" target="_blank" rel="noopener">Google</a>
         <a class="btn" id="ical" href="#">Apple / Outlook</a>
       </div>
       <p class="colophon">The Lineup lists events other people organize. It does not run or sell tickets to any of them. Dates and venues change, so check the organizer's page before you go. Items marked "confirm" come from listings that disagree or from a standing schedule.</p>
@@ -406,7 +409,7 @@
             ${isCx(e) ? "" : `<div class="ev__reach reach--${r.k}">${esc(r.t)}</div>`}
             <div class="ev__tags">${e.tags.map(t => `<span>${t === "ai" ? "AI" : "Cyber"}</span>`).join("")}<span class="ev__src">via ${esc(({ "Checked by hand": "hand-checked list", "Standing meetup": "standing schedule" })[e.source] || e.source)}</span></div>
           </div>
-          <div class="ev__act">${isCx(e) ? "" : `<button class="btn" type="button" data-add="${e.id}">Add to calendar</button>`}</div>
+          <div class="ev__act">${isCx(e) ? "" : `<a class="btn" href="e/${e.id}.ics" data-add="${e.id}">Add to calendar</a><a class="btn btn--ghost" href="${gcal(e)}" target="_blank" rel="noopener">Google</a>`}</div>
         </article>`;
       }
       html += `</section>`;
@@ -481,7 +484,7 @@
 
   // ---------- single-event .ics
   const icsDate = (d) => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  const icsEsc = (s) => String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+  const icsEsc = (s) => String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
   function downloadIcs(e) {
     const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The Lineup//EN", "BEGIN:VEVENT", `UID:${e.id}@the-lineup`, `DTSTAMP:${icsDate(new Date())}`, `SEQUENCE:${e.seq || 0}`];
     if (e.allDay) {
@@ -493,6 +496,16 @@
     L.push("BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", "DESCRIPTION:Tomorrow", "END:VALARM", "END:VEVENT", "END:VCALENDAR");
     const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([L.join("\r\n") + "\r\n"], { type: "text/calendar" })), download: e.title.replace(/[^\w]+/g, "-").slice(0, 60) + ".ics" });
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  function gcal(e) {
+    const f = (d) => icsDate(new Date(d));
+    let dates;
+    if (e.allDay) { const [y, m, d] = e.end.split("-").map(Number); dates = e.start.replace(/-/g, "") + "/" + new Date(Date.UTC(y, m - 1, d + 1)).toISOString().slice(0, 10).replace(/-/g, ""); }
+    else dates = f(e.start) + "/" + f(e.end);
+    const loc = e.online ? "Online" : [e.venue, e.city, e.country].filter(x => x && x !== "Unknown").join(", ");
+    const q = new URLSearchParams({ action: "TEMPLATE", text: e.title, dates, location: loc, details: ((e.about || "") + "\n\n" + (e.url || "")).trim() });
+    return "https://calendar.google.com/calendar/render?" + q.toString();
   }
 
   // ---------- wiring
@@ -525,7 +538,10 @@
     });
     $("#changes").addEventListener("click", (ev) => { const b = ev.target.closest("[data-change]"); if (!b) return; state.change = state.change === b.dataset.change ? "" : b.dataset.change; update(true); });
     let qt; $("#q").addEventListener("input", (ev) => { clearTimeout(qt); qt = setTimeout(() => { state.q = ev.target.value; update(false); }, 120); });
-    $("#list").addEventListener("click", (ev) => { const b = ev.target.closest("[data-add]"); if (b) downloadIcs(EVENTS.find(e => e.id === b.dataset.add)); });
+    $("#list").addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-add]"); if (!b || location.protocol === "https:") return;
+      ev.preventDefault(); downloadIcs(EVENTS.find(e => e.id === b.dataset.add));
+    });
 
     const feed = new URL("lineup.ics", location.href).href, webcal = feed.replace(/^https?:/, "webcal:");
     $("#feed-url").value = feed; $("#ical").href = webcal;
