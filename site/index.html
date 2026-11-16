@@ -442,7 +442,10 @@
     for (const e of list) { const k = monthKey(e); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); }
     const live = state.change ? list.length : list.filter(e => !isCx(e)).length;
     const noun = state.change ? `${state.change} ${live === 1 ? "event" : "events"}` : (live === 1 ? "event" : "events");
-    $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
+    const emptyState = isUS() && state.region && !state.metro && !EVENTS.some(e => e.state === state.region && !e.online && !isCx(e));
+    if (emptyState) {
+      $("#board-sub").innerHTML = `Nothing listed in ${esc(STATES[state.region])} yet${live ? `, so here ${live === 1 ? "is 1 online event" : `are ${live} online events`} you can join from there` : ""}. Know a group in ${esc(STATES[state.region])}? <a href="/submit/">Add it</a>.`;
+    } else $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
     if (!list.length) {
       const noneInState = isUS() && state.region && !EVENTS.some(e => e.state === state.region && !isCx(e));
       $("#list").innerHTML = noneInState
