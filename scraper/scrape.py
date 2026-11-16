@@ -179,12 +179,12 @@ AL: birmingham, huntsville, montgomery, mobile
 TN: nashville, memphis, knoxville, chattanooga
 KY: louisville, lexington
 OH: columbus, cleveland, cincinnati, dayton, akron, toledo
-MI: detroit, ann arbor, grand rapids, lansing, southfield, troy
+MI: detroit, ann arbor, grand rapids, lansing, southfield, troy, jackson mi
 IN: indianapolis, fort wayne, bloomington
 IL: chicago, rosemont, schaumburg, naperville, evanston, oak brook, springfield il
 WI: milwaukee, madison
 MN: minneapolis, st. paul, saint paul, bloomington mn
-IA: des moines, cedar rapids, iowa city
+IA: des moines, west des moines, cedar rapids, iowa city
 MO: st. louis, saint louis, kansas city, springfield mo
 KS: wichita, overland park
 NE: omaha, lincoln

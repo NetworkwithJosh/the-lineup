@@ -1032,6 +1032,121 @@
         "cyber"
       ],
       "home": "Los Angeles, CA"
+    },
+    {
+      "slug": "arbsec",
+      "name": "ARBSEC (Ann Arbor)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Ann Arbor, MI"
+    },
+    {
+      "slug": "misec-jackson",
+      "name": "MiSec Jackson",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Jackson, MI"
+    },
+    {
+      "slug": "Indianapolis-2600-Computer-Security-InfoSec-Group",
+      "name": "Indianapolis 2600",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Indianapolis, IN"
+    },
+    {
+      "slug": "meetup-group-dckbmrby",
+      "name": "Indianapolis Technology & Society",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Indianapolis, IN",
+      "require_keywords": true
+    },
+    {
+      "slug": "owasp-slc",
+      "name": "Wasatch AppSec (OWASP Salt Lake City)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Salt Lake City, UT"
+    },
+    {
+      "slug": "okcsec",
+      "name": "OKC InfoSec",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Oklahoma City, OK"
+    },
+    {
+      "slug": "reddirthackers",
+      "name": "Red Dirt Hackers (DC405)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Oklahoma City, OK"
+    },
+    {
+      "slug": "charleston-infosec-group",
+      "name": "Charleston Infosec Group",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Charleston, SC"
+    },
+    {
+      "slug": "trisecai-low-country",
+      "name": "TriSecAI Low Country",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Charleston, SC"
+    },
+    {
+      "slug": "colasec",
+      "name": "ColaSec (Columbia SC)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Columbia, SC"
+    },
+    {
+      "slug": "cloud-security-alliance-alabama-chapter",
+      "name": "CSA Alabama",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Birmingham, AL"
+    },
+    {
+      "slug": "hack-the-box-meetup-huntsville-al-us",
+      "name": "Hack The Box Huntsville",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Huntsville, AL"
+    },
+    {
+      "slug": "tricy-triangle-cyber-security",
+      "name": "TriCy Triangle Cyber",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Raleigh, NC"
+    },
+    {
+      "slug": "iowa-infosec",
+      "name": "Iowa InfoSec / SecDSM",
+      "tags": [
+        "cyber"
+      ],
+      "home": "West Des Moines, IA"
     }
   ],
   "luma_calendars": [

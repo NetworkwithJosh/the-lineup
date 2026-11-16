@@ -444,8 +444,11 @@
     const noun = state.change ? `${state.change} ${live === 1 ? "event" : "events"}` : (live === 1 ? "event" : "events");
     $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
     if (!list.length) {
-      $("#list").innerHTML = `<div class="empty"><p>Nothing matches. Try another city, a later off time, or turn off some filters.</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
-      $("#reset").onclick = resetFilters;
+      const noneInState = isUS() && state.region && !EVENTS.some(e => e.state === state.region && !isCx(e));
+      $("#list").innerHTML = noneInState
+        ? `<div class="empty"><p>Nothing listed in ${esc(STATES[state.region])} yet. We only show meetups that publish a calendar we can follow, and we haven't found one there. If you know a cyber, AI or IT group in ${esc(STATES[state.region])}, add it and it'll show up here on the next refresh.</p><a class="btn btn--solid" href="/submit/">Add a group</a> <button class="btn" type="button" id="reset">See all states</button></div>`
+        : `<div class="empty"><p>Nothing matches. Try another city, a later off time, or turn off some filters.</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
+      $("#reset").onclick = noneInState ? () => { state.region = ""; state.metro = ""; fillStates(); save(); update(true); } : resetFilters;
       return;
     }
     let html = "";
@@ -520,12 +523,13 @@
     if (!isUS()) { state.region = ""; fillMetro(); return; }
     const counts = {};
     for (const e of EVENTS) if (!e.online && !isCx(e) && e.country === "United States" && e.state) counts[e.state] = (counts[e.state] || 0) + 1;
-    const list = Object.keys(STATES).filter(k => counts[k]).sort((a, b) => STATES[a].localeCompare(STATES[b]));
-    $("#state").innerHTML = `<option value="">All states</option>` + list.map(k => `<option value="${k}">${esc(STATES[k])} (${counts[k]})</option>`).join("");
-    if (state.region && !counts[state.region]) state.region = "";
+    const list = Object.keys(STATES).sort((a, b) => STATES[a].localeCompare(STATES[b]));  // every state, even ones with nothing yet
+    $("#state").innerHTML = `<option value="">All states</option>` + list.map(k => `<option value="${k}">${esc(STATES[k])} (${counts[k] || 0})</option>`).join("");
+    if (state.region && !STATES[state.region]) state.region = "";
     $("#state").value = state.region;
-    $("#state-page").href = state.region ? `/us/${slugOf(STATES[state.region])}/` : "/us/";
-    $("#state-page").textContent = state.region ? `${STATES[state.region]} page and feed` : "Every state at a glance";
+    const has = state.region && counts[state.region];
+    $("#state-page").href = has ? `/us/${slugOf(STATES[state.region])}/` : state.region ? "/submit/" : "/us/";
+    $("#state-page").textContent = has ? `${STATES[state.region]} page and feed` : state.region ? `Know a group in ${STATES[state.region]}? Add it` : "Every state at a glance";
     fillMetro();
   }
   function fillMetro() {
