@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:730fdfe10a9f@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:SecDSM Monthly Meeting
+LOCATION:Location on listing\, West Des Moines\, United States
+DESCRIPTION:Iowa InfoSec Talk Time: 7:00PM Speaker: Craig Leabhart **Talk Title: Everything is a Date** Abstract: Tips and tricks to make Excel work for you. Because why work harder when you can work smarter. About Craig Leabhart: C https://www.meetup.com/iowa-infosec/events/317265556/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/iowa-infosec/events/317265556/
+END:VEVENT
+BEGIN:VEVENT
+UID:75ac5122faad@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20270108T000000Z
+DTEND:20270108T030000Z
+SUMMARY:SecDSM Monthly Meeting
+LOCATION:Location on listing\, West Des Moines\, United States
+DESCRIPTION:Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/
+END:VEVENT
+BEGIN:VEVENT
+UID:7b15d7b0ffd6@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20270205T000000Z
+DTEND:20270205T030000Z
+SUMMARY:SecDSM Monthly Meeting
+LOCATION:Location on listing\, West Des Moines\, United States
+DESCRIPTION:Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som https://www.meetup.com/iowa-infosec/events/fvlwbvykcdbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/iowa-infosec/events/fvlwbvykcdbgb/
+END:VEVENT
+BEGIN:VEVENT
+UID:08610d6f60a1@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20270305T000000Z
+DTEND:20270305T030000Z
+SUMMARY:SecDSM Monthly Meeting
+LOCATION:Location on listing\, West Des Moines\, United States
+DESCRIPTION:Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som https://www.meetup.com/iowa-infosec/events/fvlwbvykcfbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/iowa-infosec/events/fvlwbvykcfbgb/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:93e9a34b4cfc@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20270123T000000Z
+DTEND:20270123T020000Z
+SUMMARY:Huntsville Hack The Box: Meetup #18
+LOCATION:UAH I2C\, Huntsville\, United States
+DESCRIPTION:Hack The Box Meetup: Huntsville\, AL\, US Huntsville Hack The Box – Monthly Meetup (In-Person + Online) Location: UAH I2C\, Huntsville\, AL Time: Starts at 6:00 PM – drop in anytime! Discord (join us online!): https://discor https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

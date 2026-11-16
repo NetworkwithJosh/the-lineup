@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:13fdaad5ca5d@the-lineup
+DTSTAMP:20261116T131617Z
+SEQUENCE:0
+DTSTART:20261119T000000Z
+DTEND:20261119T020000Z
+SUMMARY:Next to Last Wednesday Talks on Tap
+LOCATION:Location on listing\, Charleston\, United States
+DESCRIPTION:Charleston InfoSec Group Hey Ninjas it is time to get ready for our monthly meet up a little early this month\, on the "next to last" Wednesday of the month (November 18!) and not long after our recent local double securi https://www.meetup.com/chsinfosec/events/317364814/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/chsinfosec/events/317364814/
+END:VEVENT
+END:VCALENDAR

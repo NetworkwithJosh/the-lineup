@@ -1,11 +1,13 @@
 {
- "generatedAt": "2026-11-15T19:01-05:00",
+ "generatedAt": "2026-11-16T08:15-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 364,
+ "count": 368,
  "changes": {
-  "cancelled": 4
+  "cancelled": 6,
+  "new": 7,
+  "updated": 1
  },
  "sources": [
   {
@@ -624,6 +626,76 @@
    "events": 0
   },
   {
+   "source": "ARBSEC (Ann Arbor)",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "MiSec Jackson",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Indianapolis 2600",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "Indianapolis Technology & Society",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Wasatch AppSec (OWASP Salt Lake City)",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "OKC InfoSec",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Red Dirt Hackers (DC405)",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Charleston Infosec Group",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "TriSecAI Low Country",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "ColaSec (Columbia SC)",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "CSA Alabama",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Hack The Box Huntsville",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "TriCy Triangle Cyber",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Iowa InfoSec / SecDSM",
+   "ok": true,
+   "events": 4
+  },
+  {
    "source": "Claude Community Events",
    "ok": true,
    "events": 0
@@ -636,7 +708,7 @@
   {
    "source": "CloudSEK Events",
    "ok": true,
-   "events": 4
+   "events": 3
   },
   {
    "source": "Aikido Security",
@@ -666,12 +738,12 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 27
+   "events": 26
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 11
+   "events": 10
   },
   {
    "source": "AI Collective Atlanta",
@@ -737,34 +809,6 @@
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 0,
    "cancelledAt": "2026-11-15T12:05-05:00"
-  },
-  {
-   "id": "6bde29f93f8c",
-   "title": "She Builds: A Women in AI × Lovable Hackathon",
-   "start": "2026-11-14T18:00+00:00",
-   "end": "2026-11-15T03:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-WmcFSQ1lBmjJiST",
-   "about": "Get up-to-date information at: https://luma.com/lw202zjx Address: Check event page for more details. Hosted by Women in AI Club & 6 others",
-   "source": "TechEquity AI (Silicon Valley)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
   },
   {
    "id": "e468f4451783",
@@ -1056,7 +1100,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-SPw2EENLbIPAMB1",
-   "about": "Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & 3 others",
+   "about": "Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & CT Turanli",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -1830,6 +1874,33 @@
    "seq": 0
   },
   {
+   "id": "dfda08a6caf2",
+   "title": "November Meetup - SAINTCON Recap",
+   "start": "2026-11-18T12:00-07:00",
+   "end": "2026-11-18T13:30-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-slc/events/317303101/",
+   "about": "OWASP SLC / Wasatch AppSec SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s conference. What talks were worth your time? What missed the mark? Which ",
+   "source": "Wasatch AppSec (OWASP Salt Lake City)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "7173c4098718",
    "title": "Seminar: Where Engineering Meets Cybersecurity:Skills That Bridge the OT Divide",
    "start": "2026-11-18T13:00-05:00",
@@ -2206,6 +2277,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "13fdaad5ca5d",
+   "title": "Next to Last Wednesday Talks on Tap",
+   "start": "2026-11-18T19:00-05:00",
+   "end": "2026-11-18T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Charleston",
+   "country": "United States",
+   "metro": "Charleston",
+   "state": "SC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/chsinfosec/events/317364814/",
+   "about": "Charleston InfoSec Group Hey Ninjas it is time to get ready for our monthly meet up a little early this month, on the \"next to last\" Wednesday of the month (November 18!) and not long after our recent local double securi",
+   "source": "Charleston Infosec Group",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
    "seq": 0
   },
   {
@@ -3833,33 +3931,6 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "c73404167991",
-   "title": "AI Builders Los Angeles - Nov 20",
-   "start": "2026-11-21T02:00+00:00",
-   "end": "2026-11-21T05:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Los Angeles",
-   "country": "United States",
-   "metro": "Los Angeles area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-E0nbQoWy51h0kCK",
-   "about": "Get up-to-date information at: https://luma.com/lax-nov20 Hosted by AI Builders & angel.pichardo",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
   },
   {
@@ -6131,10 +6202,11 @@
    "url": "https://luma.com/cloudsekevents",
    "about": "Get up-to-date information at: https://luma.com/aicisohyd Address: Hyderabad Hyderabad, India Hosted by Team CloudSEK & Rahul Dhiman",
    "source": "CloudSEK Events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T08:15-05:00"
   },
   {
    "id": "42090eb8d403",
@@ -6324,6 +6396,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "730fdfe10a9f",
+   "title": "SecDSM Monthly Meeting",
+   "start": "2026-12-03T18:00-06:00",
+   "end": "2026-12-03T21:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Des Moines",
+   "country": "United States",
+   "metro": "West Des Moines",
+   "state": "IA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/iowa-infosec/events/317265556/",
+   "about": "Iowa InfoSec Talk Time: 7:00PM Speaker: Craig Leabhart **Talk Title: Everything is a Date** Abstract: Tips and tricks to make Excel work for you. Because why work harder when you can work smarter. About Craig Leabhart: C",
+   "source": "Iowa InfoSec / SecDSM",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
    "seq": 0
   },
   {
@@ -8049,10 +8148,11 @@
    "url": "https://luma.com/event/evt-5X0Amy1nyYs4fd8",
    "about": "Get up-to-date information at: https://luma.com/lax-dec16 Hosted by AI Builders & angel.pichardo",
    "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T08:15-05:00"
   },
   {
    "id": "1c557999de2d",
@@ -8430,6 +8530,33 @@
    "seq": 0
   },
   {
+   "id": "75ac5122faad",
+   "title": "SecDSM Monthly Meeting",
+   "start": "2027-01-07T18:00-06:00",
+   "end": "2027-01-07T21:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Des Moines",
+   "country": "United States",
+   "metro": "West Des Moines",
+   "state": "IA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/",
+   "about": "Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som",
+   "source": "Iowa InfoSec / SecDSM",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "9de7e769d0a5",
    "title": "AI Conf Asia",
    "start": "2027-01-09",
@@ -8781,6 +8908,64 @@
    "seq": 0
   },
   {
+   "id": "c73404167991",
+   "title": "AI Builders Los Angeles - Jan 21",
+   "start": "2027-01-22T02:00+00:00",
+   "end": "2027-01-22T05:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Los Angeles",
+   "country": "United States",
+   "metro": "Los Angeles area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-E0nbQoWy51h0kCK",
+   "about": "Get up-to-date information at: https://luma.com/lax-jan21 Hosted by AI Builders & angel.pichardo",
+   "source": "AI Builders",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Jan 22 at 2:00 AM (was Nov 21 at 2:00 AM)"
+   ],
+   "changedAt": "2026-11-16T08:15-05:00"
+  },
+  {
+   "id": "93e9a34b4cfc",
+   "title": "Huntsville Hack The Box: Meetup #18",
+   "start": "2027-01-22T18:00-06:00",
+   "end": "2027-01-22T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "UAH I2C",
+   "online": false,
+   "city": "Huntsville",
+   "country": "United States",
+   "metro": "Huntsville",
+   "state": "AL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/",
+   "about": "Hack The Box Meetup: Huntsville, AL, US Huntsville Hack The Box – Monthly Meetup (In-Person + Online) Location: UAH I2C, Huntsville, AL Time: Starts at 6:00 PM – drop in anytime! Discord (join us online!): https://discor",
+   "source": "Hack The Box Huntsville",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "171f7abafef1",
    "title": "AI Builders Miami - Jan 22",
    "start": "2027-01-22T23:00+00:00",
@@ -9099,6 +9284,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7b15d7b0ffd6",
+   "title": "SecDSM Monthly Meeting",
+   "start": "2027-02-04T18:00-06:00",
+   "end": "2027-02-04T21:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Des Moines",
+   "country": "United States",
+   "metro": "West Des Moines",
+   "state": "IA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/iowa-infosec/events/fvlwbvykcdbgb/",
+   "about": "Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som",
+   "source": "Iowa InfoSec / SecDSM",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
    "seq": 0
   },
   {
@@ -9713,6 +9925,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "08610d6f60a1",
+   "title": "SecDSM Monthly Meeting",
+   "start": "2027-03-04T18:00-06:00",
+   "end": "2027-03-04T21:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Des Moines",
+   "country": "United States",
+   "metro": "West Des Moines",
+   "state": "IA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/iowa-infosec/events/fvlwbvykcfbgb/",
+   "about": "Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som",
+   "source": "Iowa InfoSec / SecDSM",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T08:15-05:00",
    "seq": 0
   },
   {

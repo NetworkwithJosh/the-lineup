@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:93e3168610b0@the-lineup
-DTSTAMP:20261116T000150Z
+DTSTAMP:20261116T131617Z
 SEQUENCE:0
 DTSTART:20261116T190000Z
 DTEND:20261117T230000Z
 SUMMARY:PROMPT: New York
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & 3 others https://luma.com/event/evt-SPw2EENLbIPAMB1
+DESCRIPTION:Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & CT Turanli https://luma.com/event/evt-SPw2EENLbIPAMB1
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-SPw2EENLbIPAMB1
 BEGIN:VALARM
