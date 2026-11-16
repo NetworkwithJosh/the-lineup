@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6ba78cece6e7@the-lineup
+DTSTAMP:20261116T203122Z
+SEQUENCE:0
+DTSTART:20261121T120000Z
+DTEND:20261121T143000Z
+SUMMARY:AI Over Coffee (w/ The AI Collective - Abu Dhabi)
+LOCATION:Location on listing\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ab-11-21 Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-Sru73Einfc5XKrd
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-Sru73Einfc5XKrd
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-16T08:19-05:00",
+ "generatedAt": "2026-11-16T15:30-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 368,
+ "count": 370,
  "changes": {
-  "cancelled": 6,
-  "new": 7,
-  "updated": 1
+  "new": 15,
+  "updated": 5,
+  "cancelled": 12
  },
  "sources": [
   {
@@ -98,7 +98,7 @@
   {
    "source": "AICamp NYC",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "NYC Big Data / AI",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 74
+   "events": 72
   },
   {
    "source": "NY AI Engineers",
@@ -753,12 +753,12 @@
   {
    "source": "confs.tech: security",
    "ok": true,
-   "events": 10
+   "events": 11
   },
   {
    "source": "confs.tech: data",
    "ok": true,
-   "events": 15
+   "events": 17
   },
   {
    "source": "confs.tech: general",
@@ -938,10 +938,11 @@
    "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317252739/",
    "about": "New Jersey Business and Tech Meetup Moving an AI project from pilot to production is not always straightforward. Many businesses have promising AI projects but face challenges when it comes to scaling and implementation.",
    "source": "NJ Business and Tech",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "ce35f9c54ea0",
@@ -965,10 +966,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-fi-11-16 Address: Hive Helsinki Arrival instructions: Type 'Hive Helsinki' in your maps application to see the exact location of the entrance. The entire campus is acce",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "9424d29d1d52",
@@ -992,10 +994,11 @@
    "url": "https://luma.com/event/evt-AObtrZzp5pBxvqV",
    "about": "Get up-to-date information at: https://luma.com/aic-sw-ws-series-2 Hosted by The AI Collective, Neelima Misra & Nithya Narayanan",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "da9ee7bded83",
@@ -1047,10 +1050,11 @@
    "url": "https://luma.com/event/evt-OMGXQbOez1tiVeB",
    "about": "Get up-to-date information at: https://luma.com/genai-gt6z Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "d9a17251bda8",
@@ -1102,10 +1106,11 @@
    "url": "https://luma.com/event/evt-SPw2EENLbIPAMB1",
    "about": "Get up-to-date information at: https://luma.com/d49b833j Hosted by Emrah Kurtulmus & CT Turanli",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "c99e5da3faf5",
@@ -1351,6 +1356,33 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
+  },
+  {
+   "id": "0c9765fd8d05",
+   "title": "Building Trust Together: The AI Governance Dialogue (w/ The AI Collective)",
+   "start": "2026-11-17T15:00+00:00",
+   "end": "2026-11-17T17:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-SLnRxJaSc3APfiT",
+   "about": "Get up-to-date information at: https://luma.com/aic-du-11-17 Hosted by The AI Collective & AI Governance Corridor",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T15:30-05:00",
+   "seq": 0
   },
   {
    "id": "4d25ea7b8fd3",
@@ -1845,6 +1877,68 @@
    "seq": 0
   },
   {
+   "id": "7173c4098718",
+   "title": "(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide",
+   "start": "2026-11-18T11:00-05:00",
+   "end": "2026-11-18T12:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Newark",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/",
+   "about": "Newark Cyber Security for Control Systems **Control systems are under constant threat, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes",
+   "source": "Newark OT/ICS Security",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Nov 18 at 11:00 AM (was Nov 18 at 1:00 PM)"
+   ],
+   "changedAt": "2026-11-16T15:30-05:00"
+  },
+  {
+   "id": "39577acc9c3c",
+   "title": "(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide",
+   "start": "2026-11-18T11:00-05:00",
+   "end": "2026-11-18T12:30-05:00",
+   "allDay": false,
+   "tz": "America/Toronto",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Toronto",
+   "country": "Canada",
+   "metro": "Toronto",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/toronto-cyber-security-for-control-systems/events/317408131/",
+   "about": "Toronto Cyber Security for Control Systems **Control systems are under constant threat, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) take",
+   "source": "Toronto OT/ICS Security",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Nov 18 at 11:00 AM (was Nov 18 at 1:00 PM)"
+   ],
+   "changedAt": "2026-11-16T15:30-05:00"
+  },
+  {
    "id": "97558f389331",
    "title": "AI-Ready Infrastructure: Cisco Insights for Networks & Data Centers | Free",
    "start": "2026-11-18T12:00-05:00",
@@ -1898,60 +1992,6 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-16T08:15-05:00",
-   "seq": 0
-  },
-  {
-   "id": "7173c4098718",
-   "title": "Seminar: Where Engineering Meets Cybersecurity:Skills That Bridge the OT Divide",
-   "start": "2026-11-18T13:00-05:00",
-   "end": "2026-11-18T14:30-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Newark",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/",
-   "about": "Newark Cyber Security for Control Systems **Control systems are under constant threat, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes",
-   "source": "Newark OT/ICS Security",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "39577acc9c3c",
-   "title": "Seminar: Where Engineering Meets Cybersecurity:Skills That Bridge the OT Divide",
-   "start": "2026-11-18T13:00-05:00",
-   "end": "2026-11-18T14:30-05:00",
-   "allDay": false,
-   "tz": "America/Toronto",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Toronto",
-   "country": "Canada",
-   "metro": "Toronto",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/toronto-cyber-security-for-control-systems/events/317408131/",
-   "about": "Toronto Cyber Security for Control Systems **Control systems are under constant threat, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) take",
-   "source": "Toronto OT/ICS Security",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
   {
@@ -2361,33 +2401,6 @@
    "seq": 0
   },
   {
-   "id": "32992b4f1ea3",
-   "title": "Building With AI | ART-ificial Intelligence | w/The AI Collective",
-   "start": "2026-11-18T22:30+00:00",
-   "end": "2026-11-19T01:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Serendipity Labs - Stamford",
-   "online": false,
-   "city": "Stamford",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "CT",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford, CT United States Hosted by Isadore Johnson & 4 others",
-   "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
    "id": "ad0143cc641c",
    "title": "Talent on Tap",
    "start": "2026-11-18T22:30+00:00",
@@ -2440,6 +2453,37 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
+  },
+  {
+   "id": "32992b4f1ea3",
+   "title": "Building With AI | ART-ificial Intelligence | w/The AI Collective",
+   "start": "2026-11-18T23:00+00:00",
+   "end": "2026-11-19T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Serendipity Labs - Stamford",
+   "online": false,
+   "city": "Stamford",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "CT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford, CT United States Hosted by Isadore Johnson & 4 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Nov 18 at 11:00 PM (was Nov 18 at 10:30 PM)"
+   ],
+   "changedAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "f32199d40dcf",
@@ -2630,6 +2674,37 @@
    "seq": 0
   },
   {
+   "id": "48e679b654b4",
+   "title": "The AI Search Afternoon",
+   "start": "2026-11-19T00:00+00:00",
+   "end": "2026-11-19T02:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "San Francisco",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/techequity-ai-community",
+   "about": "Get up-to-date information at: https://luma.com/lvzwkmc2 Address: San Francisco San Francisco, CA United States Hosted by Harshul Lodha",
+   "source": "TechEquity AI (Silicon Valley)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Nov 19 at 12:00 AM (was Nov 19 at 2:30 AM)"
+   ],
+   "changedAt": "2026-11-16T15:30-05:00"
+  },
+  {
    "id": "a2cd6d6f7969",
    "title": "ClawMax.ai Build Night San Francisco",
    "start": "2026-11-19T01:00+00:00",
@@ -2678,33 +2753,6 @@
    "url": "https://luma.com/event/evt-2RSySnTIHgcmHmW",
    "about": "Get up-to-date information at: https://luma.com/ai-uogj Address: Check event page for more details. Hosted by Gwendolyn Canada & 3 others",
    "source": "SF AI Engineers",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "48e679b654b4",
-   "title": "The AI Search Operators Dinner",
-   "start": "2026-11-19T02:30+00:00",
-   "end": "2026-11-19T05:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "San Francisco",
-   "online": false,
-   "city": "San Francisco",
-   "country": "United States",
-   "metro": "San Francisco Bay Area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
-   "about": "Get up-to-date information at: https://luma.com/lvzwkmc2 Address: San Francisco San Francisco, CA United States Hosted by Harshul Lodha",
-   "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2954,6 +3002,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "cf2248ad1f5d",
+   "title": "WiCyS Minnesota Affiliate | 4th Annual End of Year Cheer",
+   "start": "2026-11-19T16:30+00:00",
+   "end": "2026-11-19T19:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Mall of America Studio on 4",
+   "online": false,
+   "city": "Bloomington",
+   "country": "United States",
+   "metro": "Bloomington",
+   "state": "MN",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-minnesota-affiliate-4th-annual-end-of-year-cheer/",
+   "about": "Join WiCyS Minnesota and their partners for the 4th Annual End of Year Cheer! This annual tradition brings the Twin Cities cybersecurity community together to kick off the holiday season, celebrate the power of connectio",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 0
   },
   {
@@ -4012,6 +4087,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6ba78cece6e7",
+   "title": "AI Over Coffee (w/ The AI Collective - Abu Dhabi)",
+   "start": "2026-11-21T12:00+00:00",
+   "end": "2026-11-21T14:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "metro": "Abu Dhabi",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-Sru73Einfc5XKrd",
+   "about": "Get up-to-date information at: https://luma.com/aic-ab-11-21 Address: Check event page for more details. Hosted by The AI Collective & 4 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 0
   },
   {
@@ -5721,6 +5823,32 @@
    "seq": 0
   },
   {
+   "id": "aa55e5d5b9af",
+   "title": "Oh My Hack",
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "allDay": true,
+   "tz": null,
+   "venue": "Warsaw",
+   "online": false,
+   "city": "Warsaw",
+   "country": "Poland",
+   "metro": "Warsaw",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://omhconf.pl",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T15:30-05:00",
+   "seq": 0
+  },
+  {
    "id": "64c65b3bd4c2",
    "title": "Omega Mart After Hours @re:Invent",
    "start": "2026-12-02T02:00+00:00",
@@ -6723,6 +6851,32 @@
    "seq": 0
   },
   {
+   "id": "5eca38956f5f",
+   "title": "AICD Summit",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "allDay": true,
+   "tz": null,
+   "venue": "Tunis",
+   "online": false,
+   "city": "Tunis",
+   "country": "Tunisia",
+   "metro": "Tunis",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Conference",
+   "url": "https://aicommunitydays.ai/events/aicd-summit-2026",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T15:30-05:00",
+   "seq": 0
+  },
+  {
    "id": "9da8c0f58e2a",
    "title": "CyberShield: Student Workshop on Cybersecurity Essentials and Digital Safety",
    "start": "2026-12-05T03:30+00:00",
@@ -6962,6 +7116,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0a1ef5d3e4d6",
+   "title": "Microsoft AI for Healthcare Masterclass",
+   "start": "2026-12-08T12:00-05:00",
+   "end": "2026-12-08T14:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Iselin",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/",
+   "about": "New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to explor",
+   "source": "NJ Business and Tech",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 0
   },
   {
@@ -7234,6 +7416,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "8854c9a2a421",
+   "title": "AI Webinar (Diagrid and AWS) - Durable Execution for Agents",
+   "start": "2026-12-09T13:00-05:00",
+   "end": "2026-12-09T14:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/aittg-nyc/events/317458985/",
+   "about": "NYC AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event ",
+   "source": "AICamp NYC",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 0
   },
   {
@@ -9627,10 +9837,11 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-02-18/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T15:30-05:00"
   },
   {
    "id": "3b48206ad7ad",
@@ -10828,6 +11039,32 @@
    "source": "Standing meetup",
    "status": "recurring",
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "be4ab16553fe",
+   "title": "Enterprise AI Summit",
+   "start": "2027-05-05",
+   "end": "2027-05-06",
+   "allDay": true,
+   "tz": null,
+   "venue": "Portland",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Conference",
+   "url": "https://events.itrevolution.com/2027-portland/",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 0
   },
   {

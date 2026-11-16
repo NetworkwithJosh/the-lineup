@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0c9765fd8d05@the-lineup
+DTSTAMP:20261116T203122Z
+SEQUENCE:0
+DTSTART:20261117T150000Z
+DTEND:20261117T173000Z
+SUMMARY:Building Trust Together: The AI Governance Dialogue (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-du-11-17 Hosted by The AI Collective & AI Governance Corridor https://luma.com/event/evt-SLnRxJaSc3APfiT
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-SLnRxJaSc3APfiT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

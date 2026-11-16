@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7173c4098718@the-lineup
-DTSTAMP:20261116T132004Z
-SEQUENCE:0
-DTSTART:20261118T180000Z
-DTEND:20261118T193000Z
-SUMMARY:Seminar: Where Engineering Meets Cybersecurity:Skills That Bridge the OT Divide
+DTSTAMP:20261116T203122Z
+SEQUENCE:1
+DTSTART:20261118T160000Z
+DTEND:20261118T173000Z
+SUMMARY:(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide
 LOCATION:Location on listing\, Newark\, United States
 DESCRIPTION:Newark Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
 STATUS:CONFIRMED
