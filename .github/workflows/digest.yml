@@ -1,0 +1,25 @@
+name: Weekly email
+
+on:
+  schedule:
+    - cron: "23 11 * * 1"   # Mondays, about 6:20 AM New York time, after the daily refresh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and hand off the weekly emails
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          DIGEST_MODE: ${{ vars.DIGEST_MODE || 'draft' }}
+        run: python scraper/digest.py

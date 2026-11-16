@@ -1114,5 +1114,7 @@
         "ai"
       ]
     }
-  ]
+  ],
+  "submissions_csv": "",
+  "_note_submissions": "Published CSV of the Approved tab of the submissions sheet. Empty = off."
 }

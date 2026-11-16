@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a meetup | The Lineup</title><meta name="description" content="Add a cybersecurity, AI or IT meetup or group to The Lineup."><link rel="canonical" href="https://thelineup.dev/submit/">
+<meta property="og:title" content="Submit a meetup | The Lineup"><meta property="og:description" content="Add a cybersecurity, AI or IT meetup or group to The Lineup."><meta property="og:url" content="https://thelineup.dev/submit/">
+<meta name="theme-color" content="#0b0d10">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--card:#12161b;--line:#232a32;--ink:#e9edf1;--soft:#9aa7b4;--dim:#7d8996;--acc:#ffb547}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Geist,system-ui,sans-serif}
+a{color:var(--ink)}a:hover{color:var(--acc)}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 64px}
+.top{display:flex;align-items:center;gap:10px;font-weight:600;text-decoration:none;margin-bottom:28px}
+.top i{width:12px;height:12px;border-radius:3px;background:var(--acc);display:inline-block}
+h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+.lede{color:var(--soft);margin:0 0 22px;max-width:62ch}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 30px}
+.btn{display:inline-flex;align-items:center;min-height:42px;padding:.55rem 1rem;border-radius:8px;border:1px solid var(--line);text-decoration:none;font-size:.9rem}
+.btn--solid{background:var(--acc);color:#17120a;border-color:var(--acc);font-weight:600}
+.btn--solid:hover{color:#17120a}
+h2{font:500 .78rem/1 "Geist Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin:30px 0 8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.ev{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.when{font:500 .85rem/1.35 "Geist Mono",ui-monospace,monospace;color:var(--soft)}.when b{display:block;color:var(--ink);font-weight:500}
+.ev h3{font-size:1rem;margin:0 0 4px;font-weight:600}.ev h3 a{text-decoration:none}
+.meta{color:var(--soft);font-size:.88rem;margin:0}.tags{color:var(--dim);font:500 .72rem "Geist Mono",monospace;letter-spacing:.06em;text-transform:uppercase;margin-top:4px}
+.states{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;padding:0;list-style:none}
+.states a{display:flex;justify-content:space-between;padding:12px 14px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:var(--card)}
+.states span{color:var(--dim);font-family:"Geist Mono",monospace}
+.foot{color:var(--dim);font-size:.85rem;margin-top:36px}
+.formbox iframe{width:100%;height:1500px;border:0;border-radius:10px;background:#fff}h2+.lede{margin-top:10px}</style></head>
+<body><div class="wrap"><a class="top" href="/"><i></i>The Lineup</a><h1>Add a meetup to The Lineup</h1>
+<p class="lede">Run a cybersecurity, AI or IT meetup, or know one that's missing? Send it here. Groups are best: give us the Meetup, Luma or calendar link and every future event shows up on its own, with changes and cancellations kept in sync.</p>
+<h2>What we list</h2>
+<p class="lede">Free or paid events that are open to the public: chapter meetings (ISACA, ISSA, OWASP, ISC2, CSA), DEF CON groups and CitySec nights, BSides, AI and cloud user groups, career and networking nights. No sales webinars or private events. Every submission is checked by a person before it goes live, usually within a few days.</p>
+<div class="formbox" id="formbox"><p class="lede">The form is loading. If it doesn't show up, <a id="formlink" href="#">open it in a new tab</a>.</p></div>
+<script>
+  const FORM = "";  // Google Form link (viewform). Set once the form exists.
+  if (FORM) {
+    document.getElementById("formlink").href = FORM;
+    document.getElementById("formbox").innerHTML = `<iframe src="${FORM}?embedded=true" title="Submit a meetup" loading="lazy"></iframe><p class="lede" style="margin-top:12px">Trouble with the form? <a href="${FORM}" target="_blank" rel="noopener">Open it in a new tab</a>.</p>`;
+  } else {
+    document.getElementById("formbox").innerHTML = `<p class="lede">Submissions open soon.</p>`;
+  }
+</script>
+<p class="foot">The Lineup lists events other people organize and refreshes every day. Check the organizer's page before you go.</p></div></body></html>

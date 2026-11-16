@@ -775,6 +775,18 @@ def main() -> int:
                 if shaped:
                     events.append(shaped)
         report.append({"source": "Fixture feed", "ok": True})
+    if not args.offline and sources.get("submissions_csv"):
+        import submissions  # approved community submissions from the /submit/ form
+        try:
+            extra, single = submissions.load(fetch(sources["submissions_csv"]), place, h, US_STATES, start, end)
+            known = {k: {(x.get("slug") or x.get("url", "")).lower() for x in sources.get(k, [])} for k in extra}
+            for k, items in extra.items():
+                sources.setdefault(k, []).extend(x for x in items if (x.get("slug") or x.get("url", "")).lower() not in known[k])
+            events += single
+            report.append({"source": "Community submissions", "ok": True, "events": len(single),
+                           "groups": sum(len(v) for v in extra.values())})
+        except Exception as exc:
+            report.append({"source": "Community submissions", "ok": False, "error": str(exc)[:140]})
     if not args.offline:
         events += pull_ics_sources(sources, start, end, report)
         events += pull_confs_tech(sources.get("confs_tech", {}), start, end, report)
@@ -806,7 +818,7 @@ def main() -> int:
             f.unlink()
     import pages  # per-state pages and feeds
     state_urls = pages.build(events, STATE_NAMES, write_ics, datetime.now(UTC), ROOT / "site")
-    urls = ["https://thelineup.dev/"] + state_urls
+    urls = ["https://thelineup.dev/", "https://thelineup.dev/submit/"] + state_urls
     (ROOT / "site" / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls)

@@ -142,6 +142,13 @@
   .pick-link { display: inline-block; margin-top: var(--sc-2); font-size: 0.8rem; color: var(--sc-ink-dim); }
   .pick-link:hover { color: var(--sc-accent); }
   .board__row { display: flex; align-items: center; justify-content: space-between; gap: var(--sc-3); }
+  .mail { margin-top: var(--sc-7); padding: var(--sc-5, 1.5rem); border: 1px solid var(--sc-hairline-strong); border-radius: var(--sc-r-md, 10px); background: var(--sc-surface); }
+  .mail[hidden] { display: none; }
+  .mail h2 { margin: 0 0 var(--sc-2); font-size: 1.15rem; }
+  .mail p { color: var(--sc-ink-soft); margin: 0 0 var(--sc-4, 1rem); font-size: 0.92rem; }
+  .mail__row { display: flex; flex-wrap: wrap; gap: var(--sc-2); }
+  .mail__row input[type=email] { flex: 1 1 220px; min-height: 42px; padding: 0 0.8rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: var(--sc-canvas); color: var(--sc-ink); font: inherit; }
+  .mail__row .pick { flex: 0 1 190px; width: auto; }
   .feed__scope { color: var(--sc-ink-soft); font-size: 0.9rem; }
   .group[hidden] { display: none; }
   .btn--ghost { border-color: transparent; color: var(--sc-ink-dim); }
@@ -205,6 +212,7 @@
   <span class="bar__live bar__new" id="bar-new" hidden></span>
   <span class="bar__updated" id="bar-updated">loading feeds</span>
   <span class="bar__sp"></span>
+  <a class="bar__link" href="/submit/">Submit</a>
   <a class="bar__link" href="#feed">Feed</a>
 </header>
 
@@ -291,6 +299,19 @@
     </div>
     <div id="list"><p class="empty">Loading events.</p></div>
 
+    <section class="mail" id="mail" aria-labelledby="mail-h" hidden>
+      <h2 id="mail-h">Get your state's lineup every Monday</h2>
+      <p>One short email a week with the meetups near you, plus a few good online ones. Unsubscribe anytime.</p>
+      <form class="mail__row" id="mail-form" method="post" target="_blank" rel="noopener">
+        <label class="sr" for="mail-email">Email</label>
+        <input id="mail-email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+        <label class="sr" for="mail-state">Your state</label>
+        <select class="pick" id="mail-state" name="tag" required></select>
+        <input type="hidden" name="embed" value="1">
+        <button class="btn btn--solid" type="submit">Subscribe</button>
+      </form>
+    </section>
+
     <section class="feed" id="feed" aria-labelledby="feed-h">
       <h2 id="feed-h">Keep the lineup in your calendar</h2>
       <p>Subscribe once. New events appear on their own, moved ones update, and cancelled ones show as cancelled in your calendar. It refreshes every day.</p>
@@ -315,6 +336,7 @@
   const $ = (s) => document.querySelector(s);
   const state = { off: 1080, trip: 45, topic: "all", when: "all", country: "", region: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
   const STATES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",DC:"Washington DC"};
+  const NEWSLETTER = "";  // Buttondown username; the signup box stays hidden until this is set
   const slugOf = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const isUS = () => state.country === "United States";
   let EVENTS = [], DATA = {};
@@ -540,6 +562,14 @@
   function syncUrl() { try { history.replaceState(null, "", viewUrl()); } catch (_) {} }
 
   // ---------- a calendar feed for the place you picked
+  function mailBox() {
+    if (!NEWSLETTER) return;
+    $("#mail").hidden = false;
+    $("#mail-form").action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
+    const opts = Object.keys(STATES).sort((a, b) => STATES[a].localeCompare(STATES[b])).map(k => `<option value="${k}">${esc(STATES[k])}</option>`).join("");
+    $("#mail-state").innerHTML = `<option value="">Pick your state</option><option value="US">All of the US</option>` + opts;
+    if (isUS() && state.region) $("#mail-state").value = state.region;
+  }
   function feedScope() {
     const st = isUS() && state.region ? state.region : "";
     const feed = new URL(st ? `feeds/${st.toLowerCase()}.ics` : "lineup.ics", location.href).href, webcal = feed.replace(/^https?:/, "webcal:");
@@ -646,7 +676,7 @@
       $("#bar-updated").textContent = "updated " + new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date(DATA.generatedAt));
       const ok = (DATA.sources || []).filter(s => s.ok).length, all = (DATA.sources || []).length;
       $("#sources").textContent = `Pulled from ${ok} of ${all} live sources this run, plus standing meetups and hand-checked listings. Dead sources are skipped and their events are kept, not marked cancelled.`;
-      fillPickers(); update(true);
+      fillPickers(); update(true); mailBox();
     } catch (err) {
       console.error(err);
       $("#list").innerHTML = `<p class="empty">The event list did not load. Refresh the page, or grab the calendar feed below.</p>`;
