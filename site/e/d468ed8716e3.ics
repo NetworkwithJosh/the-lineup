@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d468ed8716e3@the-lineup
-DTSTAMP:20261116T203122Z
+DTSTAMP:20261117T041247Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Financial Services AI Security Forum
 LOCATION:New York Hilton Midtown\, New York\, United States
-DESCRIPTION:As a proud partner of the inaugural Financial Services AI Security Forum\, we are pleased to offer the WiCyS community an exclusive registration rate of just $195. Artificial intelligence is rapidly reshaping financial se https://www.wicys.org/event/financial-services-ai-security-forum/
+DESCRIPTION:WiCyS is a Proud Partner of the Financial Services AI Security Forum\, taking place on December 9 at the New York Hilton Midtown\, and we are inviting you to join us! Explore trust\, risk\, and resilience in the age of AI al https://www.wicys.org/event/financial-services-ai-security-forum/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/financial-services-ai-security-forum/
 BEGIN:VALARM

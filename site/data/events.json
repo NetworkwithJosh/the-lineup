@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-16T15:30-05:00",
+ "generatedAt": "2026-11-16T23:11-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 370,
+ "count": 368,
  "changes": {
-  "new": 15,
-  "updated": 5,
-  "cancelled": 12
+  "new": 19,
+  "updated": 6,
+  "cancelled": 18
  },
  "sources": [
   {
@@ -113,7 +113,7 @@
   {
    "source": "AWS New York",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Azure NYC",
@@ -558,7 +558,7 @@
   {
    "source": "STL Cyber (St. Louis)",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "OWASP Cleveland",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 72
+   "events": 70
   },
   {
    "source": "NY AI Engineers",
@@ -743,7 +743,7 @@
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 10
+   "events": 9
   },
   {
    "source": "AI Collective Atlanta",
@@ -763,12 +763,12 @@
   {
    "source": "confs.tech: general",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "confs.tech: devops",
    "ok": true,
-   "events": 7
+   "events": 8
   },
   {
    "source": "confs.tech: sre",
@@ -778,7 +778,7 @@
   {
    "source": "confs.tech: networking",
    "ok": true,
-   "events": 5
+   "events": 6
   }
  ],
  "events": [
@@ -1023,10 +1023,11 @@
    "url": "https://www.meetup.com/aws-nyc/events/317274346/",
    "about": "AWS New York | Official Meetup The price of a token decreases each year, but AI bills increase. This session shows where tokens go and how to measure the cost of each business outcome. It also shows the levers that decre",
    "source": "AWS New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "id": "cbe1a6356aaa",
@@ -1079,10 +1080,11 @@
    "url": "https://www.meetup.com/stl-cyber-meetup/events/317444071/",
    "about": "STL CYBER Meetup ​This Monday's presentation and group session will recap on Lecture 5: Multilayer Perceptrons (L05) and Lecture 6: Backpropogation (L06) as part of a series on ML Deep Learning. [Lecture notes from Roger",
    "source": "STL Cyber (St. Louis)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "id": "93e3168610b0",
@@ -1134,10 +1136,11 @@
    "url": "https://www.meetup.com/dc608madison/events/317169795/",
    "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
    "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "id": "e2666bba821b",
@@ -1161,10 +1164,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-sa-11-16 Address: Oracle do Brasil Sistemas São Paulo, SP Brazil Hosted by The AI Collective, Luiz Real & Edd Martins",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "id": "8a3d4196e3e7",
@@ -1242,10 +1246,11 @@
    "url": "https://luma.com/event/evt-2qHFv5XIrPkPqqy",
    "about": "Get up-to-date information at: https://luma.com/aic-kul-sne2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "title": "The Official Cybersecurity Summit: New York",
@@ -6220,7 +6225,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-DQisopGtHNvKpHw",
-   "about": "Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective, Vik Ghai & Sunil Grover",
+   "about": "Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective & 7 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -6656,33 +6661,6 @@
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-pBKW8j8QhoYmrfT",
    "about": "Get up-to-date information at: https://luma.com/aic-sw-ai-ready-2 Hosted by The AI Collective, Neelima Misra & Data & AI Stockholm",
-   "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "5c955720e74f",
-   "title": "Build & Pitch: Cria e Apresenta o Teu Projeto num Dia",
-   "start": "2026-12-04T09:30+00:00",
-   "end": "2026-12-04T18:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Coimbra",
-   "online": false,
-   "city": "Coimbra",
-   "country": "Portugal",
-   "metro": "Coimbra",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/build-pitch Address: Coimbra Coimbra, Portugal Hosted by Pedro Costa & The AI Collective",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -7187,15 +7165,14 @@
    "metro": "New York area",
    "state": "NY",
    "format": "In person",
-   "cost": "$195",
+   "cost": "Check listing",
    "tags": [
     "ai",
-    "cyber",
-    "it"
+    "cyber"
    ],
    "kind": "Event",
    "url": "https://www.wicys.org/event/financial-services-ai-security-forum/",
-   "about": "As a proud partner of the inaugural Financial Services AI Security Forum, we are pleased to offer the WiCyS community an exclusive registration rate of just $195. Artificial intelligence is rapidly reshaping financial se",
+   "about": "WiCyS is a Proud Partner of the Financial Services AI Security Forum, taking place on December 9 at the New York Hilton Midtown, and we are inviting you to join us! Explore trust, risk, and resilience in the age of AI al",
    "source": "WiCyS events",
    "status": "listed",
    "cancelReason": null,
@@ -8149,6 +8126,37 @@
    "seq": 0
   },
   {
+   "id": "5c955720e74f",
+   "title": "Build & Pitch: Cria e Apresenta o Teu Projeto num Dia",
+   "start": "2026-12-16T09:30+00:00",
+   "end": "2026-12-16T18:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Coimbra",
+   "online": false,
+   "city": "Coimbra",
+   "country": "Portugal",
+   "metro": "Coimbra",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/build-pitch Address: Coimbra Coimbra, Portugal Hosted by Pedro Costa & The AI Collective",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Dec 16 at 9:30 AM (was Dec 4 at 9:30 AM)"
+   ],
+   "changedAt": "2026-11-16T23:11-05:00"
+  },
+  {
    "id": "688a6aa2f4e6",
    "title": "AI Builders Amsterdam - Dec 16",
    "start": "2026-12-16T16:30+00:00",
@@ -8793,6 +8801,32 @@
    "seq": 0
   },
   {
+   "id": "a1d9412a9980",
+   "title": "M365 Con",
+   "start": "2027-01-11",
+   "end": "2027-01-21",
+   "allDay": true,
+   "tz": null,
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "it"
+   ],
+   "kind": "Conference",
+   "url": "https://m365con.net",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T23:11-05:00",
+   "seq": 0
+  },
+  {
    "id": "8dd1f53a9076",
    "title": "DC608 Coding Night",
    "start": "2027-01-11T19:30-06:00",
@@ -8842,10 +8876,11 @@
    "url": "https://luma.com/techequity-ai-community",
    "about": "Get up-to-date information at: https://luma.com/izataj4q Address: 135 Constitution Dr Menlo Park, CA United States Hosted by TechEquity Ai & 4 others",
    "source": "TechEquity AI (Silicon Valley)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-16T23:11-05:00"
   },
   {
    "id": "4c177301f760",
@@ -8926,6 +8961,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "4ec284774b5e",
+   "title": "DC608 Coding Night",
+   "start": "2027-01-18T19:30-06:00",
+   "end": "2027-01-18T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/hgpsttykccbxb/",
+   "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-16T23:11-05:00",
    "seq": 0
   },
   {
@@ -10431,6 +10493,33 @@
    "seq": 0
   },
   {
+   "id": "2612d0aa7098",
+   "title": "Enterprise Private AI UAE",
+   "start": "2027-03-17",
+   "end": "2027-03-18",
+   "allDay": true,
+   "tz": null,
+   "venue": "Dubai",
+   "online": false,
+   "city": "Dubai",
+   "country": "United Arab Emirates",
+   "metro": "Dubai",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Conference",
+   "url": "https://airswipe-global.com",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T23:11-05:00",
+   "seq": 0
+  },
+  {
    "id": "940813b50752",
    "title": "International Conference on Artificial Intelligence and Machine Learning",
    "start": "2027-03-20",
@@ -10666,6 +10755,32 @@
    "source": "confs.tech",
    "status": "listed",
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "e92441aff46f",
+   "title": "DevOpsDay LA",
+   "start": "2027-04-02",
+   "end": "2027-04-02",
+   "allDay": true,
+   "tz": null,
+   "venue": "Pasadena",
+   "online": false,
+   "city": "Pasadena",
+   "country": "United States",
+   "metro": "Los Angeles area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "it"
+   ],
+   "kind": "Event",
+   "url": "https://devopsdays.org/events/2027-los-angeles",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "firstSeen": "2026-11-16T23:11-05:00",
    "seq": 0
   },
   {

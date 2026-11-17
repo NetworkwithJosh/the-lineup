@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5c955720e74f@the-lineup
-DTSTAMP:20261116T203122Z
-SEQUENCE:0
-DTSTART:20261204T093000Z
-DTEND:20261204T180000Z
+DTSTAMP:20261117T041247Z
+SEQUENCE:1
+DTSTART:20261216T093000Z
+DTEND:20261216T180000Z
 SUMMARY:Build & Pitch: Cria e Apresenta o Teu Projeto num Dia
 LOCATION:Coimbra\, Coimbra\, Portugal
 DESCRIPTION:Get up-to-date information at: https://luma.com/build-pitch Address: Coimbra Coimbra\, Portugal Hosted by Pedro Costa & The AI Collective https://luma.com/genai-collective
