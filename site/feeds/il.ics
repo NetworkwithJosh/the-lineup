@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:75bfed4dded6@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261119T143000Z
 DTEND:20261120T010000Z
@@ -20,7 +20,7 @@ URL:https://events.vtools.ieee.org/m/591951
 END:VEVENT
 BEGIN:VEVENT
 UID:7bb59ad7bb28@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261120T000000Z
 DTEND:20261120T030000Z
@@ -32,7 +32,7 @@ URL:https://www.meetup.com/burbsec/events/316485910/
 END:VEVENT
 BEGIN:VEVENT
 UID:26ff4ef77a58@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261125T010000Z
 DTEND:20261125T030000Z
@@ -44,31 +44,19 @@ URL:https://www.meetup.com/aws-chicago/events/317382216/
 END:VEVENT
 BEGIN:VEVENT
 UID:7a216408101a@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261126T000000Z
 DTEND:20261126T055500Z
-SUMMARY:BurbSec East - Sponsors Wanted!
+SUMMARY:BurbSec East - Sponsored by Glow Security
 LOCATION:Location on listing\, Chicago\, United States
-DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/316679057/
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events **[THIS MONTH’S SPONSOR IS GLOW SECURITY](https://www.glow.io/)** 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making  https://www.meetup.com/burbsec/events/316679057/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/burbsec/events/316679057/
 END:VEVENT
 BEGIN:VEVENT
-UID:e9d04a9f3ed7@the-lineup
-DTSTAMP:20261117T041247Z
-SEQUENCE:0
-DTSTART:20261127T000000Z
-DTEND:20261127T055500Z
-SUMMARY:BurbSec East - Sponsors Wanted!
-LOCATION:Location on listing\, Chicago\, United States
-DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of infosec? L https://www.meetup.com/burbsec/events/317320238/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/burbsec/events/317320238/
-END:VEVENT
-BEGIN:VEVENT
 UID:c45821c22821@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261127T000000Z
 DTEND:20261127T020000Z
@@ -80,7 +68,7 @@ URL:https://www.meetup.com/burbsec/events/317320678/
 END:VEVENT
 BEGIN:VEVENT
 UID:a634bd397f3b@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261203T200000Z
 DTEND:20261203T230000Z
@@ -92,7 +80,7 @@ URL:https://www.meetup.com/burbsec/events/317285209/
 END:VEVENT
 BEGIN:VEVENT
 UID:0c638af75784@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261204T000000Z
 DTEND:20261204T020000Z
@@ -104,7 +92,7 @@ URL:https://www.meetup.com/burbsec/events/317373436/
 END:VEVENT
 BEGIN:VEVENT
 UID:28b1c5d5e557@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261206T010000Z
 DTEND:20261208T030000Z
@@ -116,7 +104,7 @@ URL:https://www.meetup.com/aws-chicago/events/317382465/
 END:VEVENT
 BEGIN:VEVENT
 UID:46bd4d3ca804@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261210T230000Z
 DTEND:20261211T020000Z
@@ -128,7 +116,7 @@ URL:https://www.meetup.com/burbsec/events/316614480/
 END:VEVENT
 BEGIN:VEVENT
 UID:3501c4597180@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261211T000000Z
 DTEND:20261211T055900Z
@@ -140,7 +128,7 @@ URL:https://www.meetup.com/burbsec/events/316727056/
 END:VEVENT
 BEGIN:VEVENT
 UID:f969423022f0@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20261211T000000Z
 DTEND:20261211T030000Z
@@ -151,8 +139,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/burbsec/events/317263940/
 END:VEVENT
 BEGIN:VEVENT
+UID:cdee48bb00ef@the-lineup
+DTSTAMP:20261117T191312Z
+SEQUENCE:0
+DTSTART:20261218T000000Z
+DTEND:20261218T030000Z
+SUMMARY:BurbSec West - Sponsored By Orca Security!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events This month's event is sponsored by Orca Security! 🚀🔐 **Unlock the Excitement at Burbsec West!** 🍻🎉 Are you ready for a night of geeking out\, making new friends https://www.meetup.com/burbsec/events/315725357/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/315725357/
+END:VEVENT
+BEGIN:VEVENT
 UID:1628e9e6ae44@the-lineup
-DTSTAMP:20261117T041247Z
+DTSTAMP:20261117T191312Z
 SEQUENCE:0
 DTSTART:20270311T233000Z
 DTEND:20270312T013000Z

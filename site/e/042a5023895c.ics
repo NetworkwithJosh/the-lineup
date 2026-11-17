@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:042a5023895c@the-lineup
-DTSTAMP:20261117T041247Z
-SEQUENCE:0
-DTSTART:20261120T030000Z
-DTEND:20261120T060000Z
-SUMMARY:From Prompt to Checkout: A Private Dinner for Shopify Operators
+DTSTAMP:20261117T191311Z
+SEQUENCE:1
+DTSTART:20261120T000000Z
+DTEND:20261120T020000Z
+SUMMARY:From Prompt to Checkout: An Afternoon for Shopify Operators
 LOCATION:San Francisco\, San Francisco\, United States
 DESCRIPTION:Get up-to-date information at: https://luma.com/yywc4cqm Address: San Francisco San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
 STATUS:CONFIRMED

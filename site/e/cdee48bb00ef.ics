@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cdee48bb00ef@the-lineup
+DTSTAMP:20261117T191311Z
+SEQUENCE:0
+DTSTART:20261218T000000Z
+DTEND:20261218T030000Z
+SUMMARY:BurbSec West - Sponsored By Orca Security!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events This month's event is sponsored by Orca Security! 🚀🔐 **Unlock the Excitement at Burbsec West!** 🍻🎉 Are you ready for a night of geeking out\, making new friends https://www.meetup.com/burbsec/events/315725357/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/315725357/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

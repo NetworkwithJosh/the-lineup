@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:48e679b654b4@the-lineup
-DTSTAMP:20261117T041247Z
-SEQUENCE:1
+DTSTAMP:20261117T191311Z
+SEQUENCE:2
 DTSTART:20261119T000000Z
 DTEND:20261119T020000Z
 SUMMARY:The AI Search Afternoon
-LOCATION:San Francisco\, San Francisco\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/lvzwkmc2 Address: San Francisco San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
+LOCATION:16th Street\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/lvzwkmc2 Address: 16th Street San Francisco\, CA United States Hosted by Harshul Lodha https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 BEGIN:VALARM
