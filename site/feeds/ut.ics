@@ -8,13 +8,13 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:dfda08a6caf2@the-lineup
-DTSTAMP:20261117T191312Z
+DTSTAMP:20261118T030934Z
 SEQUENCE:0
 DTSTART:20261118T190000Z
 DTEND:20261118T203000Z
 SUMMARY:November Meetup - SAINTCON Recap
 LOCATION:Location on listing\, Salt Lake City\, United States
-DESCRIPTION:OWASP SLC / Wasatch AppSec SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s conference. What talks were worth your time? What missed the mark? Which  https://www.meetup.com/owasp-slc/events/317303101/
+DESCRIPTION:OWASP SLC / Wasatch AppSec **UPDATE: Note the location has moved. Please double check the address.** SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s https://www.meetup.com/owasp-slc/events/317303101/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/owasp-slc/events/317303101/
 END:VEVENT

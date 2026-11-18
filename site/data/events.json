@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-17T14:12-05:00",
+ "generatedAt": "2026-11-17T22:08-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
  "count": 371,
  "changes": {
-  "new": 27,
-  "updated": 8,
-  "cancelled": 14
+  "new": 32,
+  "updated": 9,
+  "cancelled": 19
  },
  "sources": [
   {
@@ -33,12 +33,12 @@
   {
    "source": "OWASP NYC",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "NY Enterprise Information Security",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "DC212 (DEF CON NYC)",
@@ -108,7 +108,7 @@
   {
    "source": "Microsoft Reactor New York",
    "ok": true,
-   "events": 8
+   "events": 9
   },
   {
    "source": "AWS New York",
@@ -198,7 +198,7 @@
   {
    "source": "ISSA Hampton Roads",
    "ok": true,
-   "events": 5
+   "events": 4
   },
   {
    "source": "Bay Area OWASP",
@@ -483,7 +483,7 @@
   {
    "source": "AI Sec Eng Austin",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "AWS Dallas-Fort Worth",
@@ -513,7 +513,7 @@
   {
    "source": "BlackHack Society Atlanta",
    "ok": true,
-   "events": 7
+   "events": 6
   },
   {
    "source": "AWS Atlanta",
@@ -553,7 +553,7 @@
   {
    "source": "CSA Denver",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "STL Cyber (St. Louis)",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 68
+   "events": 69
   },
   {
    "source": "NY AI Engineers",
@@ -748,7 +748,7 @@
   {
    "source": "AI Collective Atlanta",
    "ok": true,
-   "events": 12
+   "events": 13
   },
   {
    "source": "confs.tech: security",
@@ -1323,10 +1323,11 @@
    "url": "https://www.meetup.com/issa-hampton-roads/events/317115177/",
    "about": "Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd i",
    "source": "ISSA Hampton Roads",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "eb36fc2d469a",
@@ -1351,10 +1352,11 @@
    "url": "https://www.meetup.com/denver-cloud-security-alliance-meetup/events/317272268/",
    "about": "Colorado Cloud Security Alliance - Meeting RSVP Group Join the Cloud Security Alliance - Colorado Chapter for a special November meetup as we bring together some of Colorado’s leading voices in cloud and cybersecurity fo",
    "source": "CSA Denver",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "27b02a001c6d",
@@ -1379,10 +1381,11 @@
    "url": "https://www.meetup.com/blackhack-society-atlanta/events/314101557/",
    "about": "BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black",
    "source": "BlackHack Society Atlanta",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "8f27c1d53f79",
@@ -1514,10 +1517,11 @@
    "url": "https://luma.com/event/evt-PiBjiykQ8dchfYA",
    "about": "Get up-to-date information at: https://luma.com/aic-kul-ggs2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "fdcd7ab602eb",
@@ -1769,7 +1773,7 @@
    ],
    "kind": "Meetup",
    "url": "https://www.meetup.com/owasp-slc/events/317303101/",
-   "about": "OWASP SLC / Wasatch AppSec SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s conference. What talks were worth your time? What missed the mark? Which ",
+   "about": "OWASP SLC / Wasatch AppSec **UPDATE: Note the location has moved. Please double check the address.** SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s",
    "source": "Wasatch AppSec (OWASP Salt Lake City)",
    "status": "listed",
    "cancelReason": null,
@@ -2732,6 +2736,33 @@
    "seq": 1
   },
   {
+   "id": "11ed68291610",
+   "title": "TRACE THE UNSEEN: Reclaimed!",
+   "start": "2026-11-19T13:30+00:00",
+   "end": "2026-11-19T23:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-pMpJb4eLyzM1cvd",
+   "about": "Get up-to-date information at: https://luma.com/etc-climate-nyc Address: Check event page for more details. Hosted by Ethical Tech CoLab & 5 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-17T22:08-05:00",
+   "seq": 0
+  },
+  {
    "id": "75bfed4dded6",
    "title": "GCSI CIOTManuSec 2026 Conference – AI Adoption & Cyber Readiness",
    "start": "2026-11-19T14:30+00:00",
@@ -2889,34 +2920,6 @@
    "url": "https://luma.com/event/evt-rO6HFT7NRwHo46H",
    "about": "Get up-to-date information at: https://luma.com/aic-ha-11-19 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "8ca98052d0b9",
-   "title": "November Meetup",
-   "start": "2026-11-19T17:00-08:00",
-   "end": "2026-11-19T20:00-08:00",
-   "allDay": false,
-   "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "San Francisco",
-   "country": "United States",
-   "metro": "San Francisco Bay Area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/bay-area-owasp/events/317378254/",
-   "about": "Bay Area OWASP Join us for the November Bay Area OWASP Meetup, proudly sponsored by **Endor Labs.** Spend the evening with fellow security professionals for talks, networking, and discussion on how AI agents are changing",
-   "source": "Bay Area OWASP",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3601,6 +3604,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0194129b4685",
+   "title": "SoCal ThinkingAI Executive Dinner: Driving ROI with Agents",
+   "start": "2026-11-20T03:00+00:00",
+   "end": "2026-11-20T05:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Paul Martin's American Grill",
+   "online": false,
+   "city": "El Segundo",
+   "country": "United States",
+   "metro": "El Segundo",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/tj89s7k9 Address: Paul Martin's American Grill El Segundo, CA United States Hosted by Daniel Usedom & 3 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-17T22:08-05:00",
    "seq": 0
   },
   {
@@ -5669,6 +5699,34 @@
    "seq": 0
   },
   {
+   "id": "0d6f01c3874c",
+   "title": "What the Heck Is Fabric IQ?",
+   "start": "2026-12-01T20:00-05:00",
+   "end": "2026-12-01T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/microsoft-reactor-new-york/events/317103652/",
+   "about": "Microsoft Reactor New York ACFabric IQ sounds important, but what is it actually doing? We’ll break down how it uses business context to help AI understand your data, how Copilot fits in, and what grounded answers could ",
+   "source": "Microsoft Reactor New York",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-17T22:08-05:00",
+   "seq": 0
+  },
+  {
    "id": "a3e6e0479f15",
    "title": "Stamford AI Meetup | w/ The AI Collective",
    "start": "2026-12-01T23:00+00:00",
@@ -5769,7 +5827,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-TJBoc37gxop6DiF",
-   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 4 others",
+   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 5 others",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
@@ -6966,6 +7024,33 @@
    "seq": 0
   },
   {
+   "id": "9daa1806a8f7",
+   "title": "DC608 Coding Night",
+   "start": "2026-12-07T19:30-06:00",
+   "end": "2026-12-07T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/317476623/",
+   "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-17T22:08-05:00",
+   "seq": 0
+  },
+  {
    "id": "e6f17a12f04d",
    "title": "DC608 Coding Night",
    "start": "2026-12-07T19:30-06:00",
@@ -6987,10 +7072,11 @@
    "url": "https://www.meetup.com/dc608madison/events/hgpsttyjcqbkb/",
    "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
    "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "0a1ef5d3e4d6",
@@ -7454,6 +7540,38 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
+  },
+  {
+   "id": "8ca98052d0b9",
+   "title": "December Meetup",
+   "start": "2026-12-10T17:00-08:00",
+   "end": "2026-12-10T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/bay-area-owasp/events/317378254/",
+   "about": "Bay Area OWASP Join us for the December Bay Area OWASP Meetup, proudly sponsored by **Endor Labs.** Spend the evening with fellow security professionals for talks, networking, and discussion on how AI agents are changing",
+   "source": "Bay Area OWASP",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Dec 10 at 5:00 PM (was Nov 19 at 5:00 PM)"
+   ],
+   "changedAt": "2026-11-17T22:08-05:00"
   },
   {
    "id": "a2299449d1ae",
@@ -9239,6 +9357,35 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "22f200bd9796",
+   "title": "New Year, New Threats: AI Security Engineers x Elastic",
+   "start": "2027-01-27T17:00-06:00",
+   "end": "2027-01-27T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/",
+   "about": "AI Security Engineers - Austin, TX Our first meetup of 2027 is a joint night with Elastic, hosted at their office in downtown Austin. It’s Chapter Five for the Austin chapter. There are two talks, one from each side: * *",
+   "source": "AI Sec Eng Austin",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-17T22:08-05:00",
    "seq": 0
   },
   {

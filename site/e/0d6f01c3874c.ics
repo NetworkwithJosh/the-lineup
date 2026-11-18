@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d6f01c3874c@the-lineup
+DTSTAMP:20261118T030934Z
+SEQUENCE:0
+DTSTART:20261202T010000Z
+DTEND:20261202T020000Z
+SUMMARY:What the Heck Is Fabric IQ?
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York ACFabric IQ sounds important\, but what is it actually doing? We’ll break down how it uses business context to help AI understand your data\, how Copilot fits in\, and what grounded answers could  https://www.meetup.com/microsoft-reactor-new-york/events/317103652/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317103652/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
