@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebcf544cca76@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART:20261202T150000Z
+DTEND:20261202T160000Z
+SUMMARY:Replacing Azure Communication Services Without Rebuilding Your Application
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Microsoft Reactor New York In this webinar\, you'll learn what Infobip and Microsoft have prepared to make your ACS migration smooth - from signup and onboarding with Infobip\, to configuring your connection points back to https://www.meetup.com/microsoft-reactor-new-york/events/317129740/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/microsoft-reactor-new-york/events/317129740/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

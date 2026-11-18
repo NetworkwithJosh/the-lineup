@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:89f296b903dd@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART:20270119T163000Z
+DTEND:20270119T203000Z
+SUMMARY:AI Builders Berlin
+LOCATION:Aethos\, Berlin\, Germany
+DESCRIPTION:Get up-to-date information at: https://luma.com/ber-jan19 Address: Aethos\, Lohmühlenstraße 65\, 12435 Berlin\, Germany Hosted by AI Builders & Andrei Mărcuţ https://luma.com/ai-builders
+STATUS:CONFIRMED
+URL:https://luma.com/ai-builders
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:86044c479a33@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261118T163000Z
 DTEND:20261118T200000Z
 SUMMARY:AI Builders Amsterdam - Nov 18
 LOCATION:StartDock Coworking Prins Hendrikkade\, Amsterdam\, Netherlands
-DESCRIPTION:Get up-to-date information at: https://luma.com/ams-nov18 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders & 3 others https://luma.com/ai-builders
+DESCRIPTION:Get up-to-date information at: https://luma.com/ams-nov18 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam\, Netherlands Hosted by AI Builders & 4 others https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

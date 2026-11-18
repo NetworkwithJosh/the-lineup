@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f4ff98097444@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270520
+SUMMARY:Open Source Summit North America
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:https://openssf.org/event/open-source-summit-north-america-3/
+STATUS:CONFIRMED
+URL:https://openssf.org/event/open-source-summit-north-america-3/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

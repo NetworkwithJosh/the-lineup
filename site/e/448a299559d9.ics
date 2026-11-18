@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:448a299559d9@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:1
 DTSTART:20261209T103000Z
 DTEND:20261209T113000Z
 SUMMARY:India Threat Landscape 2027
 LOCATION:Location on listing\, Location on listing\, India
-DESCRIPTION:Get up-to-date information at: https://luma.com/INDthreatintelcloudsek Hosted by Aarthi Srinivasan https://luma.com/event/evt-TegLG74O34ftdwq
+DESCRIPTION:Get up-to-date information at: https://luma.com/INDthreatintelcloudsek Hosted by Team CloudSEK https://luma.com/event/evt-TegLG74O34ftdwq
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-TegLG74O34ftdwq
 BEGIN:VALARM

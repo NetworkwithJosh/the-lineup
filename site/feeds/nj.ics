@@ -7,44 +7,8 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:dd0f0c5a99cf@the-lineup
-DTSTAMP:20261118T030934Z
-SEQUENCE:0
-DTSTART:20261118T150000Z
-DTEND:20261118T160000Z
-SUMMARY:Doing More with Limited Resources: Prioritizing Public Sector AI Projects
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Learn how to balance innovation with governance\, risk management\, and accountability while building a practical roadmap for AI adoption that delivers measurable results. This session e https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317256027/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317256027/
-END:VEVENT
-BEGIN:VEVENT
-UID:7173c4098718@the-lineup
-DTSTAMP:20261118T030934Z
-SEQUENCE:1
-DTSTART:20261118T160000Z
-DTEND:20261118T173000Z
-SUMMARY:(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide
-LOCATION:Location on listing\, Newark\, United States
-DESCRIPTION:Newark Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
-END:VEVENT
-BEGIN:VEVENT
-UID:97558f389331@the-lineup
-DTSTAMP:20261118T030934Z
-SEQUENCE:0
-DTSTART:20261118T170000Z
-DTEND:20261118T180000Z
-SUMMARY:AI-Ready Infrastructure: Cisco Insights for Networks & Data Centers | Free
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup ## Is Your IT Infrastructure AI-Ready? Cisco Insights for Data Centers & Networks **AI is transforming enterprise IT. Are your infrastructure and skills ready for what's next?** 🔗 **[R https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317299475/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317299475/
-END:VEVENT
-BEGIN:VEVENT
 UID:2f068950ac79@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261119T150000Z
 DTEND:20261119T230000Z
@@ -56,7 +20,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317269074/
 END:VEVENT
 BEGIN:VEVENT
 UID:ae50ca754be4@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
@@ -68,7 +32,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317191284/
 END:VEVENT
 BEGIN:VEVENT
 UID:2a75ca4fd859@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261119T233000Z
 DTEND:20261120T020000Z
@@ -80,7 +44,7 @@ URL:https://engage.isaca.org/newjerseychapter/home
 END:VEVENT
 BEGIN:VEVENT
 UID:946b2dfe41eb@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261120T000000Z
 DTEND:20261120T020000Z
@@ -92,7 +56,7 @@ URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
 UID:7fa991e1deb7@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261120T140000Z
 DTEND:20261120T220000Z
@@ -104,7 +68,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317302648/
 END:VEVENT
 BEGIN:VEVENT
 UID:dd98ded891e8@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
@@ -116,7 +80,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
 END:VEVENT
 BEGIN:VEVENT
 UID:8d48d9421f1e@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261130T170000Z
 DTEND:20261130T180000Z
@@ -128,7 +92,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
 END:VEVENT
 BEGIN:VEVENT
 UID:86321fbc6c3c@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261130T183000Z
 DTEND:20261130T193000Z
@@ -139,8 +103,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
 END:VEVENT
 BEGIN:VEVENT
+UID:7173c4098718@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:2
+DTSTART:20261202T180000Z
+DTEND:20261202T193000Z
+SUMMARY:(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide
+LOCATION:Location on listing\, Newark\, United States
+DESCRIPTION:Newark Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
+END:VEVENT
+BEGIN:VEVENT
 UID:e91f836ab561@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T030000Z
@@ -152,7 +128,7 @@ URL:https://isc2njchapter.curated.co
 END:VEVENT
 BEGIN:VEVENT
 UID:f8c1d1706583@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261207T150000Z
 DTEND:20261207T160000Z
@@ -164,7 +140,7 @@ URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
 END:VEVENT
 BEGIN:VEVENT
 UID:0a1ef5d3e4d6@the-lineup
-DTSTAMP:20261118T030934Z
+DTSTAMP:20261118T185325Z
 SEQUENCE:0
 DTSTART:20261208T170000Z
 DTEND:20261208T190000Z
@@ -173,5 +149,29 @@ LOCATION:Location on listing\, Iselin\, United States
 DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to explor https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5efc44b8ac@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART:20261215T170000Z
+DTEND:20261215T190000Z
+SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
+LOCATION:Location on listing\, Iselin\, United States
+DESCRIPTION:New Jersey Business and Tech Meetup As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our **LIVE Masterclass** to discover how **Microsoft Security Copilot\, Defender & https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
+END:VEVENT
+BEGIN:VEVENT
+UID:fa87929cd955@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART:20261217T170000Z
+DTEND:20261217T190000Z
+SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
+LOCATION:Location on listing\, Iselin\, United States
+DESCRIPTION:New Jersey Business and Tech Meetup # [AWS Discovery Day: Engineering Modern Applications on AWS](https://www.netcomlearning.com/webinar/aws-discovery-day-engineering-modern-applications-on-aws?advid=1196&utm_source=meet https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
 END:VEVENT
 END:VCALENDAR

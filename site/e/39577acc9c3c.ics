@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:39577acc9c3c@the-lineup
-DTSTAMP:20261118T030934Z
-SEQUENCE:1
-DTSTART:20261118T160000Z
-DTEND:20261118T173000Z
+DTSTAMP:20261118T185325Z
+SEQUENCE:2
+DTSTART:20261202T180000Z
+DTEND:20261202T193000Z
 SUMMARY:(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide
 LOCATION:Location on listing\, Toronto\, Canada
 DESCRIPTION:Toronto Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) take https://www.meetup.com/toronto-cyber-security-for-control-systems/events/317408131/

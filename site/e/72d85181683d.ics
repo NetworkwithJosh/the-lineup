@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:72d85181683d@the-lineup
+DTSTAMP:20261118T185325Z
+SEQUENCE:0
+DTSTART:20261214T230000Z
+DTEND:20261215T010000Z
+SUMMARY:Agentic AI & Amazon Bedrock: Building Practical AI Agents on AWS
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Atlanta AWS User Group **Ready to explore the power of Agentic AI?** Join the **Atlanta AWS User Group** for an exciting 90-minute hands-on workshop exploring how to build and run intelligent AI agents using Amazon Bedro https://www.meetup.com/atlanta-aws-user-group/events/317485119/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atlanta-aws-user-group/events/317485119/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
