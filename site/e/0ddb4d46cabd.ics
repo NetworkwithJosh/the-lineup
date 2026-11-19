@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0ddb4d46cabd@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261214T110000Z
+DTEND:20261214T133000Z
+SUMMARY:Div0 EOY Meetup
+LOCATION:Location on listing\, Singapore\, Singapore
+DESCRIPTION:Division Zero (Div0) – Singapore Cybersecurity Community **All attendees must be pre-registered via LUMA (**[https://luma.com/27y7efsw](https://luma.com/27y7efsw)) **by 5 December 2026\, 2359 (SGT).** — Another year down! https://www.meetup.com/div0_sg/events/317492475/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/div0_sg/events/317492475/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

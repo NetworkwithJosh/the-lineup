@@ -4,16 +4,16 @@ PRODID:-//The Lineup//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:f32199d40dcf@the-lineup
-DTSTAMP:20261118T185325Z
+UID:87c4c0fdc3e5@the-lineup
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261118T230000Z
 DTEND:20261119T010000Z
 SUMMARY:Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)
 LOCATION:Revival Wines\, Fayetteville\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/aicatl
 STATUS:CONFIRMED
-URL:https://luma.com/genai-collective
+URL:https://luma.com/aicatl
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

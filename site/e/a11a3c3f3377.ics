@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a11a3c3f3377@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261208T223000Z
+DTEND:20261209T010000Z
+SUMMARY:Prompt and Connect (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-12-8 Address: Check event page for more details. Hosted by The AI Collective\, Meredith Sommers & Erich🕺Starrett https://luma.com/event/evt-tiBEvByuvoFy2F6
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-tiBEvByuvoFy2F6
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

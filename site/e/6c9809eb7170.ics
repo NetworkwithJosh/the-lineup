@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6c9809eb7170@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20270324T220000Z
+DTEND:20270324T233000Z
+SUMMARY:Community Voices: First-Time Speakers in Cyber
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta Your first talk shouldn't be in front of 500 strangers. It should be here\, with people who want you to do well. Community Voices hands the stage to three or four first-time speakers\, about 10 m https://www.meetup.com/cover6-community-atlanta/events/317486593/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317486593/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

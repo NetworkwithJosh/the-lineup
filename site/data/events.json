@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-18T13:52-05:00",
+ "generatedAt": "2026-11-18T21:49-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
  "count": 369,
  "changes": {
-  "new": 45,
-  "updated": 11,
-  "cancelled": 18
+  "new": 56,
+  "updated": 10,
+  "cancelled": 32
  },
  "sources": [
   {
@@ -198,7 +198,7 @@
   {
    "source": "ISSA Hampton Roads",
    "ok": true,
-   "events": 4
+   "events": 3
   },
   {
    "source": "Bay Area OWASP",
@@ -233,7 +233,7 @@
   {
    "source": "ISSA Los Angeles",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "CSA Southern California",
@@ -398,7 +398,7 @@
   {
    "source": "Div0 Singapore",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "OWASP New Zealand",
@@ -503,7 +503,7 @@
   {
    "source": "Cover6 Community Atlanta",
    "ok": true,
-   "events": 1
+   "events": 4
   },
   {
    "source": "DC404 (DEF CON Atlanta)",
@@ -538,7 +538,7 @@
   {
    "source": "NashSec (Nashville)",
    "ok": true,
-   "events": 4
+   "events": 3
   },
   {
    "source": "Seattle CyberSecurity (CSNP)",
@@ -568,7 +568,7 @@
   {
    "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
    "ok": true,
-   "events": 7
+   "events": 6
   },
   {
    "source": "Tampa Bay Cybersecurity",
@@ -648,7 +648,7 @@
   {
    "source": "Wasatch AppSec (OWASP Salt Lake City)",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "OKC InfoSec",
@@ -663,7 +663,7 @@
   {
    "source": "Charleston Infosec Group",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "TriSecAI Low Country",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 71
+   "events": 69
   },
   {
    "source": "NY AI Engineers",
@@ -1272,10 +1272,11 @@
    "url": "https://www.meetup.com/owasp-slc/events/317303101/",
    "about": "OWASP SLC / Wasatch AppSec **UPDATE: Note the location has moved. Please double check the address.** SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s",
    "source": "Wasatch AppSec (OWASP Salt Lake City)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-16T08:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "f689362259e5",
@@ -1409,10 +1410,11 @@
    "url": "https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/",
    "about": "Join WiCyS Northeast Ohio for its annual year-end event as it closes out the year with an evening of networking, awards, announcements, and career-building insights! Food and drink will be provided! Connect with fellow c",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "79a8a5f57cfb",
@@ -1520,10 +1522,11 @@
    "url": "https://www.meetup.com/issa-hampton-roads/events/315950066/",
    "about": "Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. W",
    "source": "ISSA Hampton Roads",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "c64a3f7e88be",
@@ -1547,10 +1550,11 @@
    "url": "https://www.meetup.com/cover6-community-atlanta/events/316737279/",
    "about": "Cover6 Community - Atlanta 📅 New date: we moved this session to Wednesday, November 18, same time (6 PM ET). See you there. Every path we've walked this fall ends up in the same room: the one where somebody decides what ",
    "source": "Cover6 Community Atlanta",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "9f33fdd8ae26",
@@ -1574,10 +1578,11 @@
    "url": "https://www.meetup.com/nashsec/events/316818009/",
    "about": "NashSec 📍 **Meetup Location: TBD** We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town, so we want to switch things up and check them out! We’ll upd",
    "source": "NashSec (Nashville)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "21495a010108",
@@ -1601,10 +1606,11 @@
    "url": "https://www.meetup.com/centralflcitysec/events/317197995/",
    "about": "Central Florida CitySec CigarCitySec is a Tampa, FL, CitySec group. CigarCitySec's goal is to discuss topics of interest in a non-work, non-vendor setting; preferably while drinking. Parking: available in nearby parking ",
    "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "13fdaad5ca5d",
@@ -1628,10 +1634,11 @@
    "url": "https://www.meetup.com/chsinfosec/events/317364814/",
    "about": "Charleston InfoSec Group Hey Ninjas it is time to get ready for our monthly meet up a little early this month, on the \"next to last\" Wednesday of the month (November 18!) and not long after our recent local double securi",
    "source": "Charleston Infosec Group",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-16T08:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "bb7c4e9c99af",
@@ -1655,9 +1662,37 @@
    "url": "https://www.wicys.org/event/wicys-florida-affiliate-the-voice-of-deception-how-vishing-exploits-human-emotion/",
    "about": "Would you recognize a social engineering attack if you heard one? Explore how voice phishing exploits human emotion, trust, and influence. Would you recognize a social engineering attack if you heard one? Not every phish",
    "source": "WiCyS events",
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
+   "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
+  },
+  {
+   "id": "22c99a4a0fe3",
+   "title": "Agent Demo Night (w/ The AI Collective Atlanta)",
+   "start": "2026-11-18T22:30+00:00",
+   "end": "2026-11-19T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Tech North Atlanta",
+   "online": false,
+   "city": "Alpharetta",
+   "country": "United States",
+   "metro": "Alpharetta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/aicatl",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta, GA United States Hosted by The AI Collective & 5 others",
+   "source": "AI Collective Atlanta",
    "status": "listed",
    "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -1682,10 +1717,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta, GA United States Hosted by The AI Collective & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "ad0143cc641c",
@@ -1707,7 +1743,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-fxoopZoQaUosqK1",
-   "about": "Get up-to-date information at: https://luma.com/fonzinyc-86ay Address: Check event page for more details. Hosted by Gwendolyn Canada, Lauren Cotta & Brett Martin",
+   "about": "Get up-to-date information at: https://luma.com/fonzinyc-86ay Address: Check event page for more details. Hosted by Gwendolyn Canada & 3 others",
    "source": "NY AI Engineers",
    "status": "listed",
    "cancelReason": null,
@@ -1763,14 +1799,42 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford, CT United States Hosted by Isadore Johnson & 4 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
+   "seq": 2,
    "changes": [
     "Now Nov 18 at 11:00 PM (was Nov 18 at 10:30 PM)"
    ],
-   "changedAt": "2026-11-16T15:30-05:00"
+   "changedAt": "2026-11-16T15:30-05:00",
+   "cancelledAt": "2026-11-18T21:49-05:00"
+  },
+  {
+   "id": "87c4c0fdc3e5",
+   "title": "Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)",
+   "start": "2026-11-18T23:00+00:00",
+   "end": "2026-11-19T01:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Revival Wines",
+   "online": false,
+   "city": "Fayetteville",
+   "country": "United States",
+   "metro": "Fayetteville",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/aicatl",
+   "about": "Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville, GA United States Hosted by The AI Collective & 5 others",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
   },
   {
    "id": "f32199d40dcf",
@@ -1794,10 +1858,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville, GA United States Hosted by The AI Collective & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "7d9be887aea8",
@@ -1955,19 +2020,20 @@
    "url": "https://luma.com/event/evt-ef1ewezdW777hbC",
    "about": "Get up-to-date information at: https://luma.com/aic-ny-11-18 Hosted by The AI Collective & Kirsten Co",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "48e679b654b4",
    "title": "The AI Search Afternoon",
    "start": "2026-11-19T00:00+00:00",
-   "end": "2026-11-19T02:00+00:00",
+   "end": "2026-11-19T01:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "16th Street",
+   "venue": "CENTRL Office North Waterfront",
    "online": false,
    "city": "San Francisco",
    "country": "United States",
@@ -1980,16 +2046,17 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/techequity-ai-community",
-   "about": "Get up-to-date information at: https://luma.com/lvzwkmc2 Address: 16th Street San Francisco, CA United States Hosted by Harshul Lodha",
+   "about": "Get up-to-date information at: https://luma.com/lvzwkmc2 Address: CENTRL Office North Waterfront Meeting room 3A, 3rd floor (Suite 300), 50 Francisco St. Take the elevator to the 3rd floor and turn right. Map: https://ma",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 2,
+   "seq": 3,
    "changes": [
-    "New venue: 16th Street"
+    "Now Nov 19 at 12:00 AM (was Nov 19 at 12:00 AM)",
+    "New venue: CENTRL Office North Waterfront"
    ],
-   "changedAt": "2026-11-17T14:12-05:00"
+   "changedAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "a2cd6d6f7969",
@@ -2040,10 +2107,11 @@
    "url": "https://luma.com/event/evt-zPNg5Q96GCdlKqF",
    "about": "Get up-to-date information at: https://luma.com/zzs80ht1 Address: Check event page for more details. Hosted by Adam Becker & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-18T13:52-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "8d4679009e5a",
@@ -2065,7 +2133,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-2RSySnTIHgcmHmW",
-   "about": "Get up-to-date information at: https://luma.com/ai-uogj Address: Check event page for more details. Hosted by Gwendolyn Canada & 3 others",
+   "about": "Get up-to-date information at: https://luma.com/ai-uogj Address: Check event page for more details. Hosted by Gwendolyn Canada & 4 others",
    "source": "SF AI Engineers",
    "status": "listed",
    "cancelReason": null,
@@ -2960,7 +3028,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk, VA United States Hosted by The AI Collective, Tiffany Richardson & Howard Hesson",
+   "about": "Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk, VA United States Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -5359,7 +5427,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-TJBoc37gxop6DiF",
-   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 5 others",
+   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 6 others",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
@@ -5590,6 +5658,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "49383b027376",
+   "title": "AI in Cyber Pathway: Where AI Fits in Your Security Career",
+   "start": "2026-12-02T18:00-05:00",
+   "end": "2026-12-02T19:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cover6-community-atlanta/events/317487497/",
+   "about": "Cover6 Community - Atlanta AI is already in the tools you use at work. The question is whether you know when to trust it, when to check it, and when to keep it away from your data. AI in Cyber is the newest of our eight ",
+   "source": "Cover6 Community Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -6890,6 +6986,33 @@
    "seq": 0
   },
   {
+   "id": "a11a3c3f3377",
+   "title": "Prompt and Connect (w/ The AI Collective)",
+   "start": "2026-12-08T22:30+00:00",
+   "end": "2026-12-09T01:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-tiBEvByuvoFy2F6",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-12-8 Address: Check event page for more details. Hosted by The AI Collective, Meredith Sommers & Erich🕺Starrett",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "id": "d468ed8716e3",
    "title": "Financial Services AI Security Forum",
    "start": "2026-12-09",
@@ -7162,6 +7285,33 @@
    "seq": 0
   },
   {
+   "id": "d7cb427e987b",
+   "title": "Threat Intel Tradecraft: Live with Marcelle Lee",
+   "start": "2026-12-09T18:00-05:00",
+   "end": "2026-12-09T19:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cover6-community-atlanta/events/317487500/",
+   "about": "Cover6 Community - Atlanta Threat intel reports are everywhere. The hard part is turning one into something your SOC can actually hunt. Tyrone sits down with Marcelle Lee, founder of Fractal Security Group and Board Pres",
+   "source": "Cover6 Community Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "id": "a5bd4ef44e5d",
    "title": "Cyberdeck Show & Tell",
    "start": "2026-12-09T18:30-05:00",
@@ -7213,6 +7363,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "aa075655ac68",
+   "title": "AI x Bio Pitch Contest",
+   "start": "2026-12-10T01:30+00:00",
+   "end": "2026-12-10T04:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "AWS Builder Loft",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/dec9thaixbiopitch Address: AWS Builder Loft San Francisco, CA United States Hosted by Bonneville Labs & Ash Kumra",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -7408,6 +7586,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d9c81886a953",
+   "title": "From AI Hype to Actual Impact (w/ The AI Collective)",
+   "start": "2026-12-10T19:00+00:00",
+   "end": "2026-12-10T20:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-w5kL9z7mEreKiYc",
+   "about": "Get up-to-date information at: https://luma.com/aic-gl-12 Hosted by The AI Collective, Adelina Martiniuc & Adelina Martiniuc",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -7709,6 +7914,33 @@
    "seq": 0
   },
   {
+   "id": "0ddb4d46cabd",
+   "title": "Div0 EOY Meetup",
+   "start": "2026-12-14T19:00+08:00",
+   "end": "2026-12-14T21:30+08:00",
+   "allDay": false,
+   "tz": "Asia/Singapore",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Singapore",
+   "country": "Singapore",
+   "metro": "Singapore",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/div0_sg/events/317492475/",
+   "about": "Division Zero (Div0) – Singapore Cybersecurity Community **All attendees must be pre-registered via LUMA (**[https://luma.com/27y7efsw](https://luma.com/27y7efsw)) **by 5 December 2026, 2359 (SGT).** — Another year down!",
+   "source": "Div0 Singapore",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "id": "42f175d97182",
    "title": "DC608 Coding Night",
    "start": "2026-12-14T19:30-06:00",
@@ -7838,7 +8070,7 @@
    ],
    "kind": "Meetup",
    "url": "https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/",
-   "about": "Cloud Security Alliance - Las Vegas **Join us for the Las Vegas Cyber Holiday Party!** **The Cloud Security Alliance Las Vegas Chapter is bringing together members of Las Vegas’ technology, cybersecurity and professional",
+   "about": "Cloud Security Alliance - Las Vegas # Join Us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking, good conversation and ho",
    "source": "CSA Las Vegas",
    "status": "listed",
    "cancelReason": null,
@@ -7896,6 +8128,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0a1b7d8475dc",
+   "title": "ISSA Los Angeles Winter Gala",
+   "start": "2026-12-15T18:00-08:00",
+   "end": "2026-12-15T23:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Los Angeles",
+   "country": "United States",
+   "metro": "Los Angeles area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/issa-la/events/317488452/",
+   "about": "ISSA Los Angeles **You must purchase tickets on Eventbrite to attend: [PURCHASE TICKETS HERE:](https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505?aff=meetup)** Join us for an elevated e",
+   "source": "ISSA Los Angeles",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -8011,6 +8270,34 @@
    "seq": 0
   },
   {
+   "id": "9122984d240d",
+   "title": "Cover6 Community Year in Review + 2027 Roadmap",
+   "start": "2026-12-16T18:00-05:00",
+   "end": "2026-12-16T19:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cover6-community-atlanta/events/317486586/",
+   "about": "Cover6 Community - Atlanta What did this year teach us about getting into cybersecurity, and what's coming next? Our last session of 2026 is a look back and a look ahead. Tyrone walks through every path we covered this y",
+   "source": "Cover6 Community Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "id": "b3b23ad49b98",
    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
    "start": "2026-12-16T18:00-05:00",
@@ -8038,6 +8325,33 @@
    "seq": 0
   },
   {
+   "id": "3c822ecf01f5",
+   "title": "NashSec",
+   "start": "2026-12-16T18:30-06:00",
+   "end": "2026-12-16T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Nashville",
+   "country": "United States",
+   "metro": "Nashville",
+   "state": "TN",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/nashsec/events/317489553/",
+   "about": "NashSec 📍 **Meetup Location: TBD** We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town, so we want to switch things up and check them out! We’ll upd",
+   "source": "NashSec (Nashville)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "id": "a573c454ce53",
    "title": "NashSec",
    "start": "2026-12-16T18:30-06:00",
@@ -8059,10 +8373,11 @@
    "url": "https://www.meetup.com/nashsec/events/gtbdbvyjcqbvb/",
    "about": "NashSec 📍 **Meetup Location: TBD** We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town, so we want to switch things up and check them out! We’ll upd",
    "source": "NashSec (Nashville)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "afb42ddcce96",
@@ -9982,6 +10297,33 @@
    "seq": 0
   },
   {
+   "id": "d92d2f610a79",
+   "title": "WiCyS Austin Affiliate | Monthly Social",
+   "start": "2027-02-20T09:00-06:00",
+   "end": "2027-02-20T11:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Austin",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-02-20/",
+   "about": "Join the WiCyS Austin Monthly Social! It’s a relaxed, casual, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
    "title": "The Official Cybersecurity Summit: New York (spring)",
    "venue": "Sheraton New York Times Square",
    "format": "In person",
@@ -10086,6 +10428,33 @@
    "source": "Checked by hand",
    "status": "confirmed",
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "5cf9ffa51d05",
+   "title": "WiCyS Student Chapter Leaders Only Meeting",
+   "start": "2027-02-25T19:00+00:00",
+   "end": "2027-02-25T20:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-student-chapter-leaders-only-meeting-15/2027-02-25/",
+   "about": "WiCyS Student Chapter Leaders-Only Meeting: WiCyS Student Chapters are being developed and launched rapidly around the world, and help showcase the collective strength of the Women in CyberSecurity community. Each month,",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {
@@ -10672,6 +11041,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6c9809eb7170",
+   "title": "Community Voices: First-Time Speakers in Cyber",
+   "start": "2027-03-24T18:00-04:00",
+   "end": "2027-03-24T19:30-04:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cover6-community-atlanta/events/317486593/",
+   "about": "Cover6 Community - Atlanta Your first talk shouldn't be in front of 500 strangers. It should be here, with people who want you to do well. Community Voices hands the stage to three or four first-time speakers, about 10 m",
+   "source": "Cover6 Community Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
   },
   {

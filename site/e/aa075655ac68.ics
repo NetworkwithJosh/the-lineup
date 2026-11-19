@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aa075655ac68@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261210T013000Z
+DTEND:20261210T043000Z
+SUMMARY:AI x Bio Pitch Contest
+LOCATION:AWS Builder Loft\, San Francisco\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/dec9thaixbiopitch Address: AWS Builder Loft San Francisco\, CA United States Hosted by Bonneville Labs & Ash Kumra https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0a1b7d8475dc@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261216T020000Z
+DTEND:20261216T070000Z
+SUMMARY:ISSA Los Angeles Winter Gala
+LOCATION:Location on listing\, Los Angeles\, United States
+DESCRIPTION:ISSA Los Angeles **You must purchase tickets on Eventbrite to attend: [PURCHASE TICKETS HERE:](https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505?aff=meetup)** Join us for an elevated e https://www.meetup.com/issa-la/events/317488452/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-la/events/317488452/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

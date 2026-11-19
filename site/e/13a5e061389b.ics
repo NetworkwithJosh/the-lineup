@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:13a5e061389b@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261120T000000Z
 DTEND:20261120T023000Z
 SUMMARY:AI Alien Alert! An Out-of-This-World App Build Night (w/ The AI Collective)
 LOCATION:Cafe Stella\, Norfolk\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk\, VA United States Hosted by The AI Collective\, Tiffany Richardson & Howard Hesson https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk\, VA United States Hosted by The AI Collective & 3 others https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d7cb427e987b@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261209T230000Z
+DTEND:20261210T003000Z
+SUMMARY:Threat Intel Tradecraft: Live with Marcelle Lee
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta Threat intel reports are everywhere. The hard part is turning one into something your SOC can actually hunt. Tyrone sits down with Marcelle Lee\, founder of Fractal Security Group and Board Pres https://www.meetup.com/cover6-community-atlanta/events/317487500/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317487500/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

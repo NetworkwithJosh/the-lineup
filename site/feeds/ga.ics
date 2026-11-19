@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:993f16c6935d@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261117T233000Z
 DTEND:20261118T020000Z
@@ -19,44 +19,32 @@ STATUS:CONFIRMED
 URL:https://luma.com/aicatl
 END:VEVENT
 BEGIN:VEVENT
-UID:c64a3f7e88be@the-lineup
-DTSTAMP:20261118T185325Z
-SEQUENCE:0
-DTSTART:20261118T230000Z
-DTEND:20261119T003000Z
-SUMMARY:vCISO Pathway: From Analyst to CISO
-LOCATION:Location on listing\, Atlanta\, United States
-DESCRIPTION:Cover6 Community - Atlanta 📅 New date: we moved this session to Wednesday\, November 18\, same time (6 PM ET). See you there. Every path we've walked this fall ends up in the same room: the one where somebody decides what  https://www.meetup.com/cover6-community-atlanta/events/316737279/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/cover6-community-atlanta/events/316737279/
-END:VEVENT
-BEGIN:VEVENT
-UID:5e343f311d94@the-lineup
-DTSTAMP:20261118T185325Z
+UID:22c99a4a0fe3@the-lineup
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261118T223000Z
 DTEND:20261119T013000Z
 SUMMARY:Agent Demo Night (w/ The AI Collective Atlanta)
 LOCATION:Tech North Atlanta\, Alpharetta\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta\, GA United States Hosted by The AI Collective & 5 others https://luma.com/aicatl
 STATUS:CONFIRMED
-URL:https://luma.com/genai-collective
+URL:https://luma.com/aicatl
 END:VEVENT
 BEGIN:VEVENT
-UID:f32199d40dcf@the-lineup
-DTSTAMP:20261118T185325Z
+UID:87c4c0fdc3e5@the-lineup
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261118T230000Z
 DTEND:20261119T010000Z
 SUMMARY:Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)
 LOCATION:Revival Wines\, Fayetteville\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville\, GA United States Hosted by The AI Collective & 5 others https://luma.com/aicatl
 STATUS:CONFIRMED
-URL:https://luma.com/genai-collective
+URL:https://luma.com/aicatl
 END:VEVENT
 BEGIN:VEVENT
 UID:4ef92e9fe276@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261119T223000Z
 DTEND:20261120T010000Z
@@ -68,7 +56,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:ee1b72589d1a@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261121T220000Z
 DTEND:20261122T010000Z
@@ -79,8 +67,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/aicatl
 END:VEVENT
 BEGIN:VEVENT
+UID:49383b027376@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261202T230000Z
+DTEND:20261203T003000Z
+SUMMARY:AI in Cyber Pathway: Where AI Fits in Your Security Career
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta AI is already in the tools you use at work. The question is whether you know when to trust it\, when to check it\, and when to keep it away from your data. AI in Cyber is the newest of our eight  https://www.meetup.com/cover6-community-atlanta/events/317487497/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317487497/
+END:VEVENT
+BEGIN:VEVENT
 UID:f921a3d7b48a@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261203T233000Z
 DTEND:20261204T013000Z
@@ -92,7 +92,7 @@ URL:https://www.meetup.com/blackhack-society-atlanta/events/317364983/
 END:VEVENT
 BEGIN:VEVENT
 UID:655502189f4a@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261204T230000Z
 DTEND:20261205T010000Z
@@ -103,8 +103,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/ethical-hackers/events/315395636/
 END:VEVENT
 BEGIN:VEVENT
+UID:d7cb427e987b@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261209T230000Z
+DTEND:20261210T003000Z
+SUMMARY:Threat Intel Tradecraft: Live with Marcelle Lee
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta Threat intel reports are everywhere. The hard part is turning one into something your SOC can actually hunt. Tyrone sits down with Marcelle Lee\, founder of Fractal Security Group and Board Pres https://www.meetup.com/cover6-community-atlanta/events/317487500/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317487500/
+END:VEVENT
+BEGIN:VEVENT
 UID:72d85181683d@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261214T230000Z
 DTEND:20261215T010000Z
@@ -116,7 +128,7 @@ URL:https://www.meetup.com/atlanta-aws-user-group/events/317485119/
 END:VEVENT
 BEGIN:VEVENT
 UID:3fe73379ab73@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20261215T233000Z
 DTEND:20261216T013000Z
@@ -127,8 +139,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/blackhack-society-atlanta/events/316031991/
 END:VEVENT
 BEGIN:VEVENT
+UID:9122984d240d@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T003000Z
+SUMMARY:Cover6 Community Year in Review + 2027 Roadmap
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta What did this year teach us about getting into cybersecurity\, and what's coming next? Our last session of 2026 is a look back and a look ahead. Tyrone walks through every path we covered this y https://www.meetup.com/cover6-community-atlanta/events/317486586/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317486586/
+END:VEVENT
+BEGIN:VEVENT
 UID:79007d35673b@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270101T230000Z
 DTEND:20270102T010000Z
@@ -140,7 +164,7 @@ URL:https://www.meetup.com/ethical-hackers/events/315395638/
 END:VEVENT
 BEGIN:VEVENT
 UID:c1f28ff4904d@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270119T233000Z
 DTEND:20270120T013000Z
@@ -152,7 +176,7 @@ URL:https://www.meetup.com/blackhack-society-atlanta/events/314101558/
 END:VEVENT
 BEGIN:VEVENT
 UID:0317cbfabe5b@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270205T230000Z
 DTEND:20270206T010000Z
@@ -164,7 +188,7 @@ URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcdbhb/
 END:VEVENT
 BEGIN:VEVENT
 UID:05a253ee6fc2@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270216T233000Z
 DTEND:20270217T013000Z
@@ -176,7 +200,7 @@ URL:https://www.meetup.com/blackhack-society-atlanta/events/316031992/
 END:VEVENT
 BEGIN:VEVENT
 UID:e7e60f4d54ed@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270305T230000Z
 DTEND:20270306T010000Z
@@ -188,7 +212,7 @@ URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcfbhb/
 END:VEVENT
 BEGIN:VEVENT
 UID:699f2ce757a5@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270316T223000Z
 DTEND:20270317T003000Z
@@ -199,8 +223,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/blackhack-society-atlanta/events/314101559/
 END:VEVENT
 BEGIN:VEVENT
+UID:6c9809eb7170@the-lineup
+DTSTAMP:20261119T025002Z
+SEQUENCE:0
+DTSTART:20270324T220000Z
+DTEND:20270324T233000Z
+SUMMARY:Community Voices: First-Time Speakers in Cyber
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:Cover6 Community - Atlanta Your first talk shouldn't be in front of 500 strangers. It should be here\, with people who want you to do well. Community Voices hands the stage to three or four first-time speakers\, about 10 m https://www.meetup.com/cover6-community-atlanta/events/317486593/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cover6-community-atlanta/events/317486593/
+END:VEVENT
+BEGIN:VEVENT
 UID:7b09b67409bb@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270402T220000Z
 DTEND:20270403T000000Z
@@ -212,7 +248,7 @@ URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
 END:VEVENT
 BEGIN:VEVENT
 UID:b1704138e82b@the-lineup
-DTSTAMP:20261118T185325Z
+DTSTAMP:20261119T025002Z
 SEQUENCE:0
 DTSTART:20270420T223000Z
 DTEND:20270421T003000Z
