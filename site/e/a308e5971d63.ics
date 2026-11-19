@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a308e5971d63@the-lineup
+DTSTAMP:20261119T190034Z
+SEQUENCE:0
+DTSTART:20261124T110000Z
+DTEND:20261124T120000Z
+SUMMARY:Be Part of the Collective Transformation (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-ws-series-3 Hosted by The AI Collective & Neelima Misra https://luma.com/event/evt-IEXavRs9KvsZTJ0
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-IEXavRs9KvsZTJ0
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

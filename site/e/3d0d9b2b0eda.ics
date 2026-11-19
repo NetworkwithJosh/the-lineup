@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3d0d9b2b0eda@the-lineup
+DTSTAMP:20261119T190034Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:WiCyS | Target Cyber Defense Challenge
+LOCATION:Online
+DESCRIPTION:The challenge will give WiCyS members hands-on experience and a taste of what it’s like to be on a cyber defense team. From tackling intel-driven scenarios to experiencing current threats in the landscape\, this challenge https://www.wicys.org/event/wicys-target-cyber-defense-challenge/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-target-cyber-defense-challenge/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

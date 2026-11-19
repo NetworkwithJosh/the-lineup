@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0807a2418a44@the-lineup
-DTSTAMP:20261119T025002Z
+DTSTAMP:20261119T190034Z
 SEQUENCE:0
 DTSTART:20261201T170000Z
 DTEND:20261201T200000Z
 SUMMARY:AI Builders Warsaw - Dec 1
 LOCATION:Just Join IT\, Just Join IT\, Poland
-DESCRIPTION:Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa\, Poland Hosted by AI Builders & 3 others https://luma.com/ai-builders
+DESCRIPTION:Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa\, Poland Hosted by AI Builders https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

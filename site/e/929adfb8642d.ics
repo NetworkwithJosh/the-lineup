@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:929adfb8642d@the-lineup
+DTSTAMP:20261119T190034Z
+SEQUENCE:0
+DTSTART:20261217T103000Z
+DTEND:20261217T140000Z
+SUMMARY:Gemini Build Night (Eng/中文)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-12-17 Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-3KK2VGTe46sDe1s
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-3KK2VGTe46sDe1s
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

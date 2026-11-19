@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-18T21:49-05:00",
+ "generatedAt": "2026-11-19T13:59-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 369,
+ "count": 363,
  "changes": {
-  "new": 56,
-  "updated": 10,
-  "cancelled": 32
+  "new": 63,
+  "updated": 11,
+  "cancelled": 20
  },
  "sources": [
   {
@@ -23,7 +23,7 @@
   {
    "source": "Cybersecurity conference calendar (Smart Calendars)",
    "ok": true,
-   "events": 12
+   "events": 11
   },
   {
    "source": "Major security conferences (Smart Calendars)",
@@ -108,7 +108,7 @@
   {
    "source": "Microsoft Reactor New York",
    "ok": true,
-   "events": 9
+   "events": 8
   },
   {
    "source": "AWS New York",
@@ -398,7 +398,7 @@
   {
    "source": "Div0 Singapore",
    "ok": true,
-   "events": 1
+   "events": 2
   },
   {
    "source": "OWASP New Zealand",
@@ -513,7 +513,7 @@
   {
    "source": "BlackHack Society Atlanta",
    "ok": true,
-   "events": 6
+   "events": 7
   },
   {
    "source": "AWS Atlanta",
@@ -713,7 +713,7 @@
   {
    "source": "Aikido Security",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "Alchemy Cyber",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 69
+   "events": 67
   },
   {
    "source": "NY AI Engineers",
@@ -738,17 +738,17 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 28
+   "events": 26
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 11
+   "events": 10
   },
   {
    "source": "AI Collective Atlanta",
    "ok": true,
-   "events": 11
+   "events": 9
   },
   {
    "source": "confs.tech: security",
@@ -971,142 +971,6 @@
    "seq": 0
   },
   {
-   "id": "ae5997b2c0e4",
-   "title": "Cyber Mission 2026 – Hack the Attack",
-   "start": "2026-11-17T23:00+00:00",
-   "end": "2026-11-18T02:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Innovation Hub",
-   "online": false,
-   "city": "Panamá",
-   "country": "Panama",
-   "metro": "Panamá",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://events.vtools.ieee.org/m/593790",
-   "about": "Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/593790 Source: https://events.vtools.ieee.org/m/593790",
-   "source": "Cybersecurity conference calendar (Smart Calendars)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "993f16c6935d",
-   "title": "Knowns and Unknowns: Testing AI-Generated Code",
-   "start": "2026-11-17T23:30+00:00",
-   "end": "2026-11-18T02:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Roam Dunwoody",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/aicatl",
-   "about": "Get up-to-date information at: https://luma.com/ajug-uuog Address: Roam Dunwoody Atlanta, GA United States Hosted by Atlanta Java Users Group",
-   "source": "AI Collective Atlanta",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "title": "SecureWorld East (virtual)",
-   "venue": "Online",
-   "format": "Online",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Virtual conference",
-   "url": "https://www.secureworld.io/events",
-   "about": "Regional SecureWorld content streamed virtually.",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "state": "",
-   "id": "5817d268a83c",
-   "start": "2026-11-18",
-   "end": "2026-11-18",
-   "allDay": true,
-   "tz": "America/New_York",
-   "source": "Checked by hand",
-   "status": "confirmed",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "2f7a51554fa6",
-   "title": "GBS Global Summit 2026",
-   "start": "2026-11-18T00:00+00:00",
-   "end": "2026-11-18T09:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-PiBjiykQ8dchfYA",
-   "about": "Get up-to-date information at: https://luma.com/aic-kul-ggs2026 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-17T22:08-05:00"
-  },
-  {
-   "id": "fdcd7ab602eb",
-   "title": "AI Infrastructure Night",
-   "start": "2026-11-18T01:00+00:00",
-   "end": "2026-11-18T03:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-AHPQAW3LgSsBeua",
-   "about": "Get up-to-date information at: https://luma.com/1ihtxydc Address: Check event page for more details. Hosted by Sharone Ofer & 4 others",
-   "source": "TechEquity AI (Silicon Valley)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
    "id": "481a1819da7d",
    "title": "IEEE Design Methodologies Conference (DMC) 2026",
    "start": "2026-11-18T07:00+00:00",
@@ -1135,540 +999,6 @@
    "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
-   "id": "1e9077deaeac",
-   "title": "From Insight to “What If?”: Planning in Microsoft Fabric (Option 2)",
-   "start": "2026-11-18T08:00-05:00",
-   "end": "2026-11-18T09:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/microsoft-reactor-new-york/events/317094650/",
-   "about": "Microsoft Reactor New York Knowing what happened is just the beginning. With Planning in Microsoft Fabric, turn insights into forecasts, scenarios, and plans that help answer the bigger question: what if? Bring data, ana",
-   "source": "Microsoft Reactor New York",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "916f3b17b2d3",
-   "title": "Solo Travellers' Tea Break",
-   "start": "2026-11-18T08:30+00:00",
-   "end": "2026-11-18T11:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-saszhj6lQHIVkaa",
-   "about": "Get up-to-date information at: https://luma.com/aic-kul-20261118 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "dd0f0c5a99cf",
-   "title": "Doing More with Limited Resources: Prioritizing Public Sector AI Projects",
-   "start": "2026-11-18T10:00-05:00",
-   "end": "2026-11-18T11:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317256027/",
-   "about": "New Jersey Business and Tech Meetup Learn how to balance innovation with governance, risk management, and accountability while building a practical roadmap for AI adoption that delivers measurable results. This session e",
-   "source": "NJ Business and Tech",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "97558f389331",
-   "title": "AI-Ready Infrastructure: Cisco Insights for Networks & Data Centers | Free",
-   "start": "2026-11-18T12:00-05:00",
-   "end": "2026-11-18T13:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
-   "cost": "Free",
-   "tags": [
-    "ai",
-    "cyber",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317299475/",
-   "about": "New Jersey Business and Tech Meetup ## Is Your IT Infrastructure AI-Ready? Cisco Insights for Data Centers & Networks **AI is transforming enterprise IT. Are your infrastructure and skills ready for what's next?** 🔗 **[R",
-   "source": "NJ Business and Tech",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "dfda08a6caf2",
-   "title": "November Meetup - SAINTCON Recap",
-   "start": "2026-11-18T12:00-07:00",
-   "end": "2026-11-18T13:30-07:00",
-   "allDay": false,
-   "tz": "America/Denver",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Salt Lake City",
-   "country": "United States",
-   "metro": "Salt Lake City",
-   "state": "UT",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/owasp-slc/events/317303101/",
-   "about": "OWASP SLC / Wasatch AppSec **UPDATE: Note the location has moved. Please double check the address.** SAINTCON 26 wrapped up last week in Provo. Let’s talk about it! Join us in person for an open discussion of this year’s",
-   "source": "Wasatch AppSec (OWASP Salt Lake City)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-16T08:15-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "f689362259e5",
-   "title": "Webinar | Empowered by Certifications: A Career Panel",
-   "start": "2026-11-18T14:00+00:00",
-   "end": "2026-11-18T15:00+00:00",
-   "allDay": false,
-   "tz": "UTC",
-   "venue": "Online",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "state": "",
-   "format": "Online",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/webinar-empowered-by-certifications-a-career-panel/",
-   "about": "Are certifications worth the time, cost, and effort? In this WiCyS webinar, Dell will bring together two cybersecurity professionals to share how credentials like CISSP, PMP, CRISC, and others have shaped their career pa",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 2,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "77ba22c00355",
-   "title": "Nashville ETA AI Workshop",
-   "start": "2026-11-18T15:30+00:00",
-   "end": "2026-11-18T17:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Nashville Entrepreneur Center",
-   "online": false,
-   "city": "Nashville",
-   "country": "United States",
-   "metro": "Nashville",
-   "state": "TN",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/aicatl",
-   "about": "Get up-to-date information at: https://luma.com/pxvl12rc Address: Nashville Entrepreneur Center Nashville, TN United States Hosted by Joseph Steigman",
-   "source": "AI Collective Atlanta",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "86044c479a33",
-   "title": "AI Builders Amsterdam - Nov 18",
-   "start": "2026-11-18T16:30+00:00",
-   "end": "2026-11-18T20:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "StartDock Coworking Prins Hendrikkade",
-   "online": false,
-   "city": "Amsterdam",
-   "country": "Netherlands",
-   "metro": "Amsterdam",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/ams-nov18 Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam, Netherlands Hosted by AI Builders & 4 others",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "1e5504a4ab6a",
-   "title": "The AI Collective Podcast with AJ & Catherine: Wednesday, Nov 18",
-   "start": "2026-11-18T17:00+00:00",
-   "end": "2026-11-18T18:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-3CtqKWoMhwqp50o",
-   "about": "Get up-to-date information at: https://luma.com/genai-ey6f Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "ca9245538aa6",
-   "title": "WiCyS NE Ohio | Cracking the Interview Code: Year-End Event",
-   "start": "2026-11-18T17:30+00:00",
-   "end": "2026-11-18T20:00+00:00",
-   "allDay": false,
-   "tz": "UTC",
-   "venue": "TrustedSec",
-   "online": false,
-   "city": "Fairlawn",
-   "country": "United States",
-   "metro": "Fairlawn",
-   "state": "OH",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/wicys-ne-ohio-cracking-the-interview-code-year-end-event/",
-   "about": "Join WiCyS Northeast Ohio for its annual year-end event as it closes out the year with an evening of networking, awards, announcements, and career-building insights! Food and drink will be provided! Connect with fellow c",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "79a8a5f57cfb",
-   "title": "AI Builders Lisbon - Nov 18",
-   "start": "2026-11-18T18:00+00:00",
-   "end": "2026-11-18T21:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "IDEA Spaces - São Sebastião",
-   "online": false,
-   "city": "IDEA Spaces - São Sebastião",
-   "country": "Portugal",
-   "metro": "IDEA Spaces - São Sebastião",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/lis-nov18 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal Hosted by AI Builders & Filipe Mendes",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "20a88585c2c5",
-   "title": "AI Collective Connect: Madrid × Barcelona (w/ The AI Collective)",
-   "start": "2026-11-18T18:00+00:00",
-   "end": "2026-11-18T19:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Barcelona",
-   "country": "Spain",
-   "metro": "Barcelona",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-6YqNoKFO4uJK5W0",
-   "about": "Get up-to-date information at: https://luma.com/AICollective_Madrid_Barcelona Hosted by The AI Collective & 7 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "0f92984fb7d9",
-   "title": "AI and Biotech Happy Hour @ London Life Sciences Week",
-   "start": "2026-11-18T18:00+00:00",
-   "end": "2026-11-18T21:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "London",
-   "country": "United Kingdom",
-   "metro": "London",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-3CE10EwUHDDgkbM",
-   "about": "Get up-to-date information at: https://luma.com/504n8w32 Address: Check event page for more details. Hosted by Kevin Barona",
-   "source": "Cycore Secure",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 2,
-   "cancelledAt": "2026-11-18T13:52-05:00"
-  },
-  {
-   "id": "eda2bae61d42",
-   "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
-   "start": "2026-11-18T18:00-05:00",
-   "end": "2026-11-18T20:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Virginia Beach",
-   "country": "United States",
-   "metro": "Virginia Beach",
-   "state": "VA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/issa-hampton-roads/events/315950066/",
-   "about": "Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. W",
-   "source": "ISSA Hampton Roads",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "c64a3f7e88be",
-   "title": "vCISO Pathway: From Analyst to CISO",
-   "start": "2026-11-18T18:00-05:00",
-   "end": "2026-11-18T19:30-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/cover6-community-atlanta/events/316737279/",
-   "about": "Cover6 Community - Atlanta 📅 New date: we moved this session to Wednesday, November 18, same time (6 PM ET). See you there. Every path we've walked this fall ends up in the same room: the one where somebody decides what ",
-   "source": "Cover6 Community Atlanta",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "9f33fdd8ae26",
-   "title": "NashSec",
-   "start": "2026-11-18T18:30-06:00",
-   "end": "2026-11-18T20:30-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Nashville",
-   "country": "United States",
-   "metro": "Nashville",
-   "state": "TN",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/nashsec/events/316818009/",
-   "about": "NashSec 📍 **Meetup Location: TBD** We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town, so we want to switch things up and check them out! We’ll upd",
-   "source": "NashSec (Nashville)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "21495a010108",
-   "title": "CigarCitySec",
-   "start": "2026-11-18T19:00-05:00",
-   "end": "2026-11-18T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Tampa",
-   "country": "United States",
-   "metro": "Tampa",
-   "state": "FL",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/centralflcitysec/events/317197995/",
-   "about": "Central Florida CitySec CigarCitySec is a Tampa, FL, CitySec group. CigarCitySec's goal is to discuss topics of interest in a non-work, non-vendor setting; preferably while drinking. Parking: available in nearby parking ",
-   "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "13fdaad5ca5d",
-   "title": "Next to Last Wednesday Talks on Tap",
-   "start": "2026-11-18T19:00-05:00",
-   "end": "2026-11-18T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Charleston",
-   "country": "United States",
-   "metro": "Charleston",
-   "state": "SC",
-   "format": "In person",
-   "cost": "Free",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/chsinfosec/events/317364814/",
-   "about": "Charleston InfoSec Group Hey Ninjas it is time to get ready for our monthly meet up a little early this month, on the \"next to last\" Wednesday of the month (November 18!) and not long after our recent local double securi",
-   "source": "Charleston Infosec Group",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-16T08:15-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
-   "id": "bb7c4e9c99af",
-   "title": "WiCyS Florida Affiliate | The Voice of Deception: How Vishing Exploits Human Emotion",
-   "start": "2026-11-18T19:00-05:00",
-   "end": "2026-11-18T20:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Online",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "state": "",
-   "format": "Online",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/wicys-florida-affiliate-the-voice-of-deception-how-vishing-exploits-human-emotion/",
-   "about": "Would you recognize a social engineering attack if you heard one? Explore how voice phishing exploits human emotion, trust, and influence. Would you recognize a social engineering attack if you heard one? Not every phish",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
    "id": "22c99a4a0fe3",
    "title": "Agent Demo Night (w/ The AI Collective Atlanta)",
    "start": "2026-11-18T22:30+00:00",
@@ -1694,34 +1024,6 @@
    "cancelReason": null,
    "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
-  },
-  {
-   "id": "5e343f311d94",
-   "title": "Agent Demo Night (w/ The AI Collective Atlanta)",
-   "start": "2026-11-18T22:30+00:00",
-   "end": "2026-11-19T01:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Tech North Atlanta",
-   "online": false,
-   "city": "Alpharetta",
-   "country": "United States",
-   "metro": "Alpharetta",
-   "state": "GA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/aic-at-11-18 Address: Tech North Atlanta Alpharetta, GA United States Hosted by The AI Collective & 5 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "ad0143cc641c",
@@ -1778,38 +1080,6 @@
    "seq": 0
   },
   {
-   "id": "32992b4f1ea3",
-   "title": "Building With AI | ART-ificial Intelligence | w/The AI Collective",
-   "start": "2026-11-18T23:00+00:00",
-   "end": "2026-11-19T01:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Serendipity Labs - Stamford",
-   "online": false,
-   "city": "Stamford",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "CT",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/aic-st-11-18 Address: Serendipity Labs - Stamford Stamford, CT United States Hosted by Isadore Johnson & 4 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 2,
-   "changes": [
-    "Now Nov 18 at 11:00 PM (was Nov 18 at 10:30 PM)"
-   ],
-   "changedAt": "2026-11-16T15:30-05:00",
-   "cancelledAt": "2026-11-18T21:49-05:00"
-  },
-  {
    "id": "87c4c0fdc3e5",
    "title": "Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)",
    "start": "2026-11-18T23:00+00:00",
@@ -1835,34 +1105,6 @@
    "cancelReason": null,
    "firstSeen": "2026-11-18T21:49-05:00",
    "seq": 0
-  },
-  {
-   "id": "f32199d40dcf",
-   "title": "Fayetteville AI Tasting Monthly Meeting (w/ The AI Collective)",
-   "start": "2026-11-18T23:00+00:00",
-   "end": "2026-11-19T01:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Revival Wines",
-   "online": false,
-   "city": "Fayetteville",
-   "country": "United States",
-   "metro": "Fayetteville",
-   "state": "GA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/aic-fa-11-18 Address: Revival Wines Fayetteville, GA United States Hosted by The AI Collective & 5 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-18T21:49-05:00"
   },
   {
    "id": "7d9be887aea8",
@@ -2162,10 +1404,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/d1kj9otd Address: The Commonwealth Club San Francisco, CA United States Hosted by Commonwealth Club World Affairs & 4 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "9949b21f75ed",
@@ -2271,10 +1514,11 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/317094727/",
    "about": "Microsoft Reactor New York There are a lot of new names in the Fabric AI story. Let’s slow down and connect the pieces. We’ll look at how Copilot, Fabric IQ, Fabric Apps, and your data work together, what each one is for",
    "source": "Microsoft Reactor New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "ae50ca754be4",
@@ -2326,10 +1570,11 @@
    "url": "https://www.wicys.org/event/webinar-cyberphysical-cybersecurity/",
    "about": "In this WiCyS webinar, Ford Motor Company will do a deep dive into the cyber physical realm, discussing what it means to secure the physical environment against cyber threats. WiCyS is proud to provide members the opport",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1
+   "seq": 2,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "11ed68291610",
@@ -2353,10 +1598,11 @@
    "url": "https://luma.com/event/evt-pMpJb4eLyzM1cvd",
    "about": "Get up-to-date information at: https://luma.com/etc-climate-nyc Address: Check event page for more details. Hosted by Ethical Tech CoLab & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-17T22:08-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "75bfed4dded6",
@@ -2408,10 +1654,11 @@
    "url": "https://luma.com/event/evt-8vy6vi8ySC79v2d",
    "about": "Get up-to-date information at: https://luma.com/aic-st-11-19 Address: Check event page for more details. Hosted by The AI Collective & Connecticut AI Collective",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "cf2248ad1f5d",
@@ -2462,10 +1709,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/ai-scale-up Address: Infinum Zagreb, Croatia Hosted by Tanja Dzido & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "90abbf450c12",
@@ -2489,10 +1737,11 @@
    "url": "https://luma.com/event/evt-qRLBds6HtL6DDmn",
    "about": "Get up-to-date information at: https://luma.com/genai-y97s Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "b0242064207a",
@@ -2516,10 +1765,11 @@
    "url": "https://luma.com/event/evt-rO6HFT7NRwHo46H",
    "about": "Get up-to-date information at: https://luma.com/aic-ha-11-19 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "f00ba826349f",
@@ -2605,33 +1855,6 @@
    "seq": 0
   },
   {
-   "id": "419da5716738",
-   "title": "Monthly Meeting November 2026",
-   "start": "2026-11-19T18:00-05:00",
-   "end": "2026-11-19T20:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Fort Lauderdale",
-   "country": "United States",
-   "metro": "Fort Lauderdale",
-   "state": "FL",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/south-florida-issa-chapter/events/314336919/",
-   "about": "South Florida ISSA Chapter **Part 1:** Join us for our November chapter meeting, where we will hold elections for the following Board positions: * **Vice President** * **Treasurer** * **Director of Membership** * **Direc",
-   "source": "South Florida ISSA",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
    "id": "9ea8cba5bf74",
    "title": "November 19th - bAWSton User Group!",
    "start": "2026-11-19T18:00-05:00",
@@ -2657,6 +1880,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "419da5716738",
+   "title": "UPDATE: Now Virtual – Monthly Meeting November 2026",
+   "start": "2026-11-19T18:00-05:00",
+   "end": "2026-11-19T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fort Lauderdale",
+   "country": "United States",
+   "metro": "Fort Lauderdale",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/south-florida-issa-chapter/events/314336919/",
+   "about": "South Florida ISSA Chapter **UPDATE: Due to the weather, tonight's meeting is now VIRTUAL (same time, 6:00–8:00 PM).** We will NOT meet at the DeSantis Building. Join on Google Meet using the event link on this page (vis",
+   "source": "South Florida ISSA",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
   },
   {
@@ -3508,8 +2758,8 @@
   {
    "id": "d3875f6ad5e0",
    "title": "AI Paper Discussion ft. AIC Delhi Paper Club (w/ The AI Collective)",
-   "start": "2026-11-21T05:00+00:00",
-   "end": "2026-11-21T07:15+00:00",
+   "start": "2026-11-21T05:30+00:00",
+   "end": "2026-11-21T08:30+00:00",
    "allDay": false,
    "tz": null,
    "venue": "Location on listing",
@@ -3530,7 +2780,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "Now Nov 21 at 5:30 AM (was Nov 21 at 5:00 AM)"
+   ],
+   "changedAt": "2026-11-19T13:59-05:00"
   },
   {
    "id": "cd8bffc936a1",
@@ -3778,6 +3032,33 @@
    "seq": 0
   },
   {
+   "id": "a308e5971d63",
+   "title": "Be Part of the Collective Transformation (w/ The AI Collective)",
+   "start": "2026-11-24T11:00+00:00",
+   "end": "2026-11-24T12:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-IEXavRs9KvsZTJ0",
+   "about": "Get up-to-date information at: https://luma.com/aic-sw-ws-series-3 Hosted by The AI Collective & Neelima Misra",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
+  },
+  {
    "id": "0b00da2da836",
    "title": "Webinar | From Design to Deploy — Continuous Security with AWS Security Agent",
    "start": "2026-11-24T13:00+00:00",
@@ -3913,6 +3194,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "df10303b3c5c",
+   "title": "{div0-AISQ} Workshop — How do you build securely with AI?",
+   "start": "2026-11-24T19:00+08:00",
+   "end": "2026-11-24T21:00+08:00",
+   "allDay": false,
+   "tz": "Asia/Singapore",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Singapore",
+   "country": "Singapore",
+   "metro": "Singapore",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/div0_sg/events/317492865/",
+   "about": "Division Zero (Div0) – Singapore Cybersecurity Community Brought to you by Div0's AI Security Quarter (AISQ), together with C4AIL, Relw.AI and ARCS. Register via Luma ([https://luma.com/fzc6yw8r](https://luma.com/fzc6yw8",
+   "source": "Div0 Singapore",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
    "seq": 0
   },
   {
@@ -5155,7 +4464,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa, Poland Hosted by AI Builders & 3 others",
+   "about": "Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa, Poland Hosted by AI Builders",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
@@ -5977,7 +5286,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-QQHNJAPGXHAkgJw",
-   "about": "Get up-to-date information at: https://luma.com/aic-ta-12-3 Address: Check event page for more details. Hosted by The AI Collective & Alix",
+   "about": "Get up-to-date information at: https://luma.com/aic-ta-12-3 Address: Check event page for more details. Hosted by The AI Collective & Alix Zerd",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -6311,6 +5620,33 @@
    "seq": 0
   },
   {
+   "id": "626dd9e82f04",
+   "title": "Aikido Security Recruitment Event",
+   "start": "2026-12-03T23:00+00:00",
+   "end": "2026-12-04T02:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Kindling | Downtown Cookout & Cocktails",
+   "online": false,
+   "city": "Chicago",
+   "country": "United States",
+   "metro": "Chicago",
+   "state": "IL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/aikidosecurity",
+   "about": "Get up-to-date information at: https://luma.com/z6m4qolh Address: Kindling | Downtown Cookout & Cocktails Chicago, IL United States Hosted by Lauren Sikora & louis jonckheere",
+   "source": "Aikido Security",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
+  },
+  {
    "id": "3f866d62f1d9",
    "title": "CISO Strategy Salon - AWS ReInvent 2026",
    "start": "2026-12-04T01:00+00:00",
@@ -6417,6 +5753,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f1c1f1d34126",
+   "title": "Rogue AI Agents: Hype or Real Risk? What AI safety is, and why every Zimbabwean should care. (w/ The AI Collective)",
+   "start": "2026-12-04T14:00+00:00",
+   "end": "2026-12-04T16:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "31 Josiah Chinamano Ave",
+   "online": false,
+   "city": "Zimbabwe",
+   "country": "Unknown",
+   "metro": "Zimbabwe",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/ai-safety-lecture01 Address: 31 Josiah Chinamano Ave Harare, Zimbabwe Hosted by The AI Collective & Ishe Hove",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
    "seq": 0
   },
   {
@@ -8070,7 +7433,7 @@
    ],
    "kind": "Meetup",
    "url": "https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/",
-   "about": "Cloud Security Alliance - Las Vegas # Join Us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking, good conversation and ho",
+   "about": "Cloud Security Alliance - Las Vegas # Join us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking, good conversation and ho",
    "source": "CSA Las Vegas",
    "status": "listed",
    "cancelReason": null,
@@ -8241,6 +7604,33 @@
     "Now Dec 16 at 9:30 AM (was Dec 4 at 9:30 AM)"
    ],
    "changedAt": "2026-11-16T23:11-05:00"
+  },
+  {
+   "id": "82fabc9a6149",
+   "title": "AI Governance as an enabler for value realisation (w/ The AI Collective)",
+   "start": "2026-12-16T16:00+00:00",
+   "end": "2026-12-16T19:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-86BB8YzePsq9wlr",
+   "about": "Get up-to-date information at: https://luma.com/aic-sw-12-16 Address: Check event page for more details. Hosted by The AI Collective & Jenny Andersson",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
   },
   {
    "id": "688a6aa2f4e6",
@@ -8513,6 +7903,33 @@
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 1,
    "cancelledAt": "2026-11-16T08:15-05:00"
+  },
+  {
+   "id": "929adfb8642d",
+   "title": "Gemini Build Night (Eng/中文)",
+   "start": "2026-12-17T10:30+00:00",
+   "end": "2026-12-17T14:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-3KK2VGTe46sDe1s",
+   "about": "Get up-to-date information at: https://luma.com/aic-ta-12-17 Address: Check event page for more details. Hosted by The AI Collective & 4 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
   },
   {
    "id": "fa87929cd955",
@@ -9618,7 +9035,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/lis-jan27 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal Hosted by AI Builders",
+   "about": "Get up-to-date information at: https://luma.com/lis-jan27 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal Hosted by AI Builders & Filipe Mendes",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
@@ -10484,6 +9901,33 @@
    "seq": 0
   },
   {
+   "id": "3d0d9b2b0eda",
+   "title": "WiCyS | Target Cyber Defense Challenge",
+   "start": "2027-03-01",
+   "end": "2027-03-01",
+   "allDay": true,
+   "tz": null,
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.wicys.org/event/wicys-target-cyber-defense-challenge/",
+   "about": "The challenge will give WiCyS members hands-on experience and a taste of what it’s like to be on a cyber defense team. From tackling intel-driven scenarios to experiencing current threats in the landscape, this challenge",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
+  },
+  {
    "id": "de025e1fa0e6",
    "title": "Microsoft Reactor: MVP Feature Series",
    "start": "2027-03-02T18:00-05:00",
@@ -11009,7 +10453,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/lis-mar24 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal Hosted by AI Builders",
+   "about": "Get up-to-date information at: https://luma.com/lis-mar24 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal Hosted by AI Builders & Filipe Mendes",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
@@ -11678,6 +11122,60 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-18T13:52-05:00",
+   "seq": 0
+  },
+  {
+   "id": "5f5380f1abef",
+   "title": "NYSEC",
+   "start": "2027-05-18T18:00-04:00",
+   "end": "2027-05-18T21:00-04:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "d.b.a., 41 1st Ave",
+   "online": false,
+   "city": "Manhattan",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://sockpuppet.org/nysec",
+   "about": "Informal infosec drinks meetup. No dues, no talks.",
+   "source": "Standing meetup",
+   "status": "recurring",
+   "firstSeen": "2026-11-19T13:59-05:00",
+   "seq": 0
+  },
+  {
+   "id": "11bf13df7da0",
+   "title": "Cybersecurity n' Chill Networking Monthly Meetup by BlackHack Society",
+   "start": "2027-05-18T18:30-04:00",
+   "end": "2027-05-18T20:30-04:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/blackhack-society-atlanta/events/hcflttykchbxb/",
+   "about": "BlackHack Society - Atlanta ***This event happens the third Tuesday of every month at Hudson Grille Sandy Springs*** **[BlackHack Society - Home for Ethical Hackers](https://linktr.ee/BlackHackSociety)** Join the **Black",
+   "source": "BlackHack Society Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T13:59-05:00",
    "seq": 0
   }
  ]

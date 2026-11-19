@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:08fcd68509d7@the-lineup
-DTSTAMP:20261119T025002Z
+DTSTAMP:20261119T190034Z
 SEQUENCE:0
 DTSTART:20270127T180000Z
 DTEND:20270127T213000Z
 SUMMARY:AI Builders Lisbon - Jan 27
 LOCATION:IDEA Spaces - São Sebastião\, IDEA Spaces - São Sebastião\, Portugal
-DESCRIPTION:Get up-to-date information at: https://luma.com/lis-jan27 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa\, Portugal Hosted by AI Builders https://luma.com/ai-builders
+DESCRIPTION:Get up-to-date information at: https://luma.com/lis-jan27 Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa\, Portugal Hosted by AI Builders & Filipe Mendes https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

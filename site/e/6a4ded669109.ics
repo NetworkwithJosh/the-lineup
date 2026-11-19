@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6a4ded669109@the-lineup
-DTSTAMP:20261119T025002Z
+DTSTAMP:20261119T190034Z
 SEQUENCE:0
 DTSTART:20261216T013000Z
 DTEND:20261216T043000Z
 SUMMARY:Las Vegas Cyber Holiday Party
 LOCATION:Location on listing\, Las Vegas\, United States
-DESCRIPTION:Cloud Security Alliance - Las Vegas # Join Us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking\, good conversation and ho https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/
+DESCRIPTION:Cloud Security Alliance - Las Vegas # Join us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking\, good conversation and ho https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/
 BEGIN:VALARM

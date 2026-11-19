@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:df10303b3c5c@the-lineup
+DTSTAMP:20261119T190034Z
+SEQUENCE:0
+DTSTART:20261124T110000Z
+DTEND:20261124T130000Z
+SUMMARY:{div0-AISQ} Workshop — How do you build securely with AI?
+LOCATION:Location on listing\, Singapore\, Singapore
+DESCRIPTION:Division Zero (Div0) – Singapore Cybersecurity Community Brought to you by Div0's AI Security Quarter (AISQ)\, together with C4AIL\, Relw.AI and ARCS. Register via Luma ([https://luma.com/fzc6yw8r](https://luma.com/fzc6yw8 https://www.meetup.com/div0_sg/events/317492865/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/div0_sg/events/317492865/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
