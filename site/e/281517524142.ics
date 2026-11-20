@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:281517524142@the-lineup
+DTSTAMP:20261120T023749Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270320
+SUMMARY:WiCyS 2027 Annual Conference
+LOCATION:Gaylord Rockies Resort and Convention Center\, Aurora\, United States
+DESCRIPTION:The 13th annual Women in CyberSecurity (WiCyS) Conference is March 17-19\, 2027\, in Aurora\, CO. The WiCyS conference is the premier event to RECRUIT\, RETAIN and ADVANCE women in cybersecurity. WiCyS brings together women  https://www.wicys.org/event/wicys-2027-annual-conference/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-2027-annual-conference/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:adb3bafcd080@the-lineup
+DTSTAMP:20261120T023749Z
+SEQUENCE:0
+DTSTART:20261122T223000Z
+DTEND:20261123T003000Z
+SUMMARY:Breaking Models 🚨AI Security
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Breaking Models | AI Security Research **Breaking Models 🚨 AI Security (Supply Chain Attacks\, Part 2)** ​Last time\, we mapped the AI supply chain and broke the model file and the model hub. This time\, we finish the map:  https://www.meetup.com/bay-area-ai-security-research/events/317505284/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/bay-area-ai-security-research/events/317505284/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

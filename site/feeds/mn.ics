@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:c40958703175@the-lineup
-DTSTAMP:20261119T190034Z
+DTSTAMP:20261120T023749Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
@@ -17,17 +17,5 @@ LOCATION:JW Marriot Minneapolis Mall of America\, Bloomington\, United States
 DESCRIPTION:WiCyS Minnesota will have a table in the Networking Hall at SecureWorld Twin Cities. Stop by to meet the affiliate\, hear about upcoming events\, and connect with women and allies in the Twin Cities cybersecurity community https://www.wicys.org/event/wicys-minnesota-affiliate-secureworld-twin-cities/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-minnesota-affiliate-secureworld-twin-cities/
-END:VEVENT
-BEGIN:VEVENT
-UID:cf2248ad1f5d@the-lineup
-DTSTAMP:20261119T190034Z
-SEQUENCE:0
-DTSTART:20261119T163000Z
-DTEND:20261119T190000Z
-SUMMARY:WiCyS Minnesota Affiliate | 4th Annual End of Year Cheer
-LOCATION:Mall of America Studio on 4\, Bloomington\, United States
-DESCRIPTION:Join WiCyS Minnesota and their partners for the 4th Annual End of Year Cheer! This annual tradition brings the Twin Cities cybersecurity community together to kick off the holiday season\, celebrate the power of connectio https://www.wicys.org/event/wicys-minnesota-affiliate-4th-annual-end-of-year-cheer/
-STATUS:CONFIRMED
-URL:https://www.wicys.org/event/wicys-minnesota-affiliate-4th-annual-end-of-year-cheer/
 END:VEVENT
 END:VCALENDAR

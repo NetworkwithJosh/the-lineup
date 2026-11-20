@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-19T13:59-05:00",
+ "generatedAt": "2026-11-19T21:36-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 363,
+ "count": 350,
  "changes": {
-  "new": 63,
-  "updated": 11,
-  "cancelled": 20
+  "updated": 10,
+  "new": 69,
+  "cancelled": 40
  },
  "sources": [
   {
@@ -98,12 +98,12 @@
   {
    "source": "AICamp NYC",
    "ok": true,
-   "events": 4
+   "events": 3
   },
   {
    "source": "NYC Big Data / AI",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Microsoft Reactor New York",
@@ -133,7 +133,7 @@
   {
    "source": "NJ Business and Tech",
    "ok": true,
-   "events": 10
+   "events": 8
   },
   {
    "source": "New Jersey Red Hat Users",
@@ -178,7 +178,7 @@
   {
    "source": "Boston Security Meetup",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Boston Security Group",
@@ -213,7 +213,7 @@
   {
    "source": "Bay Area AI Security Research",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "AI Security Community",
@@ -243,7 +243,7 @@
   {
    "source": "South Florida ISSA",
    "ok": true,
-   "events": 2
+   "events": 1
   },
   {
    "source": "CSA Houston",
@@ -263,7 +263,7 @@
   {
    "source": "CSA Triangle (NC)",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "OWASP Denver",
@@ -363,7 +363,7 @@
   {
    "source": "OWASP London",
    "ok": true,
-   "events": 2
+   "events": 1
   },
   {
    "source": "OWASP Cambridge",
@@ -448,7 +448,7 @@
   {
    "source": "Austin Cybersecurity Collective",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Dallas Cloud Security",
@@ -488,7 +488,7 @@
   {
    "source": "AWS Dallas-Fort Worth",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Atlanta IT Security Networking",
@@ -598,7 +598,7 @@
   {
    "source": "We Protect PHX",
    "ok": true,
-   "events": 3
+   "events": 2
   },
   {
    "source": "DC617 (Boston)",
@@ -608,7 +608,7 @@
   {
    "source": "AWS Boston",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "Chicago CyberSecurity (CSNP)",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 67
+   "events": 61
   },
   {
    "source": "NY AI Engineers",
@@ -1209,10 +1209,11 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2026-11-19/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "1b67dc3fa2d2",
@@ -1432,10 +1433,11 @@
    "url": "https://www.meetup.com/protectphx/events/317270974/",
    "about": "PROTECTPHX Here is a special invitation from the Tucson Chapter of ISACA. I know some of you live in Tucson so this is a perfect opportunity to learn from great speakers and to network with others in a beautiful setting.",
    "source": "We Protect PHX",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "title": "NY AI Security & Data Protection Summit",
@@ -1486,10 +1488,11 @@
    "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317269074/",
    "about": "New Jersey Business and Tech Meetup Want to get more out of Google Workspace? Join us to explore how Gemini can make everyday tasks easier, from drafting emails and creating documents to working with spreadsheets and pre",
    "source": "NJ Business and Tech",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "63e4ad1b9c07",
@@ -1542,10 +1545,11 @@
    "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317191284/",
    "about": "New Jersey Business and Tech Meetup Discover how Microsoft Fabric brings data engineering, data integration, and business intelligence together to simplify analytics and support smarter business decisions. Explore how On",
    "source": "NJ Business and Tech",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "559214e24beb",
@@ -1682,10 +1686,11 @@
    "url": "https://www.wicys.org/event/wicys-minnesota-affiliate-4th-annual-end-of-year-cheer/",
    "about": "Join WiCyS Minnesota and their partners for the 4th Annual End of Year Cheer! This annual tradition brings the Twin Cities cybersecurity community together to kick off the holiday season, celebrate the power of connectio",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-16T15:30-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "5deade943fa7",
@@ -1794,10 +1799,11 @@
    "url": "https://www.meetup.com/cloud-security-alliance-triangle-chapter/events/317177583/",
    "about": "Cloud Security Alliance Triangle Chapter Panel Discussion Topic: \"Surviving 2027: Live and Unscripted – A Candid, No-Pitch Look at Cloud Data and Privacy Risk\" Highlights of Panel discussion: Vendors and their customers,",
    "source": "CSA Triangle (NC)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "e433b4e90bcd",
@@ -1822,10 +1828,11 @@
    "url": "https://www.meetup.com/aittg-nyc/events/317292418/",
    "about": "NYC AI Developers Group **Important:** Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026111914) is required for admission. (RSVP on meetup is turned off) Welcome to the Enterprise AI Showcase",
    "source": "AICamp NYC",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "2513e639f57a",
@@ -1849,10 +1856,11 @@
    "url": "https://www.meetup.com/owasp-london/events/317164660/",
    "about": "OWASP London Chapter **NOTE: REGISTRATION IS ON EVENTBRITE** You can register to attend this event here: https://www.eventbrite.co.uk/e/owasp-london-chapter-meetup-in-person-tickets-2003898415103?aff=mu",
    "source": "OWASP London",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "9ea8cba5bf74",
@@ -1877,10 +1885,11 @@
    "url": "https://www.meetup.com/the-boston-amazon-web-services-meetup-group/events/317278544/",
    "about": "The bAWSton User Group Join us in the Seaport office for the next installment of The bAWSton Users Group! In this session, we will have a presentation from AWS Sr. Solutions Architect Abe Raghib who will present \"Buildin",
    "source": "AWS Boston",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "419da5716738",
@@ -1904,10 +1913,11 @@
    "url": "https://www.meetup.com/south-florida-issa-chapter/events/314336919/",
    "about": "South Florida ISSA Chapter **UPDATE: Due to the weather, tonight's meeting is now VIRTUAL (same time, 6:00–8:00 PM).** We will NOT meet at the DeSantis Building. Join on Google Meet using the event link on this page (vis",
    "source": "South Florida ISSA",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "7bb59ad7bb28",
@@ -1959,10 +1969,11 @@
    "url": "https://www.meetup.com/austin-cybersecurity-collective/events/317414387/",
    "about": "Austin Cybersecurity Collective Come join the **Austin Cybersecurity Collective** for a Fall Happy Hour at B.D. Riley’s Irish Pub in Mueller! As we head into the holiday season, we'd love to bring our community together ",
    "source": "Austin Cybersecurity Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "d85231761eef",
@@ -1986,10 +1997,11 @@
    "url": "https://www.meetup.com/the-boston-security-meetup/events/317374220/",
    "about": "Boston Security Meetup ***Important Notices*** **Starting in May 2026 we will start using Meetup's QR code check-in process to make sure only registered users are allowed at our events. We will also start tracking regist",
    "source": "Boston Security Meetup",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "title": "ISACA New Jersey Chapter Membership Meeting",
@@ -2040,10 +2052,11 @@
    "url": "https://www.meetup.com/aws-dallas/events/317255874/",
    "about": "AWS User Group DFW - Dallas Fort Worth This session introduces decision models and explores how they can improve AI agent workflows beyond traditional LLM-based reasoning. Using Jev, Bharadwaj will show us how decision-m",
    "source": "AWS Dallas-Fort Worth",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "title": "DC908 talk: The Com and the Cybercrime Ecosystem",
@@ -2072,6 +2085,33 @@
    "seq": 0
   },
   {
+   "id": "78828fd09f1f",
+   "title": "Sandy Springs AI Meetup (w/ The AI Collective)",
+   "start": "2026-11-19T22:30+00:00",
+   "end": "2026-11-20T01:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Mutation Brewing and Distilling Company",
+   "online": false,
+   "city": "Sandy Springs",
+   "country": "United States",
+   "metro": "Sandy Springs",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/aicatl",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-11-19-2 Address: Mutation Brewing and Distilling Company Sandy Springs, GA United States Hosted by The AI Collective & 3 others",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "4ef92e9fe276",
    "title": "Sandy Springs AI Meetup (w/ The AI Collective)",
    "start": "2026-11-19T22:30+00:00",
@@ -2093,10 +2133,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-at-11-19-2 Address: Mutation Brewing and Distilling Company Sandy Springs, GA United States Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "ec2ed223612f",
@@ -2147,10 +2188,11 @@
    "url": "https://luma.com/event/evt-W9PmRHrllH16NlF",
    "about": "Get up-to-date information at: https://luma.com/aic-si-11-19 Address: Check event page for more details. Hosted by The AI Collective, Meheret Egzerab & chaitanya gunupudi",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "8539d340991c",
@@ -2180,6 +2222,33 @@
    "seq": 1
   },
   {
+   "id": "5c7791367092",
+   "title": "Get Together. Explore AI. (w/ The AI Collective)",
+   "start": "2026-11-19T23:30+00:00",
+   "end": "2026-11-20T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-DnET1dbY4CHYIo4",
+   "about": "Get up-to-date information at: https://luma.com/aic-duluth-nov2026 Address: Check event page for more details. Hosted by The AI Collective, Nick Cybela & Mark Michelson",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "34f6786cb5a9",
    "title": "Get Together. Explore AI. (w/ The AI Collective)",
    "start": "2026-11-19T23:30+00:00",
@@ -2201,10 +2270,11 @@
    "url": "https://luma.com/event/evt-DnET1dbY4CHYIo4",
    "about": "Get up-to-date information at: https://luma.com/aic-duluth-nov2026 Address: Check event page for more details. Hosted by The AI Collective, Nick Cybela & Mark Michelson",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "2c00542b0b4f",
@@ -2280,10 +2350,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/ai-alien-alert-757 Address: Cafe Stella Limited street parking is available Norfolk, VA United States Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "042a5023895c",
@@ -2317,6 +2388,33 @@
    "changedAt": "2026-11-17T14:12-05:00"
   },
   {
+   "id": "a91b7f94f394",
+   "title": "People, Pints, + Possibilities @ Creature Comforts",
+   "start": "2026-11-20T00:00+00:00",
+   "end": "2026-11-20T02:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-tJE6qoHB1AtULei",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-11-17 Address: Check event page for more details. Hosted by The AI Collective, Charlie Ye & Kristen Morales",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "c99f352cfc39",
    "title": "People, Pints, + Possibilities @ Creature Comforts",
    "start": "2026-11-20T00:00+00:00",
@@ -2338,10 +2436,11 @@
    "url": "https://luma.com/event/evt-tJE6qoHB1AtULei",
    "about": "Get up-to-date information at: https://luma.com/aic-at-11-17 Address: Check event page for more details. Hosted by The AI Collective, Charlie Ye & Kristen Morales",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "90e8b8912b1e",
@@ -2393,14 +2492,15 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-cos-nov-townhall Address: ACA, 905 Garden of the Gods Rd, Suite E Hosted by The AI Collective & 6 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
+   "seq": 2,
    "changes": [
     "Now Nov 20 at 12:30 AM (was Nov 20 at 12:30 AM)"
    ],
-   "changedAt": "2026-11-18T13:52-05:00"
+   "changedAt": "2026-11-18T13:52-05:00",
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "ca2eb058ec6b",
@@ -2451,10 +2551,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/gtm-ai-sf Address: Palio San Francisco, CA United States Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-19T21:36-05:00"
   },
   {
    "id": "0194129b4685",
@@ -2920,6 +3021,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "adb3bafcd080",
+   "title": "Breaking Models 🚨AI Security",
+   "start": "2026-11-22T14:30-08:00",
+   "end": "2026-11-22T16:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/bay-area-ai-security-research/events/317505284/",
+   "about": "Breaking Models | AI Security Research **Breaking Models 🚨 AI Security (Supply Chain Attacks, Part 2)** ​Last time, we mapped the AI supply chain and broke the model file and the model hub. This time, we finish the map: ",
+   "source": "Bay Area AI Security Research",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
    "seq": 0
   },
   {
@@ -5729,6 +5858,33 @@
    "seq": 0
   },
   {
+   "id": "ded9c45dbfbd",
+   "title": "Your Career Post AI (w/ The AI Collective)",
+   "start": "2026-12-04T11:00+00:00",
+   "end": "2026-12-04T13:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-tQKCu5Y41ynH0KK",
+   "about": "Get up-to-date information at: https://luma.com/aic-si-12-4 Address: Check event page for more details. Hosted by The AI Collective & 4 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "3e99aac4d3a8",
    "title": "Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini",
    "start": "2026-12-04T12:00-05:00",
@@ -6097,7 +6253,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-wsiDDBkIp12prag",
-   "about": "Get up-to-date information at: https://luma.com/aic-brunch Address: Check event page for more details. Hosted by The AI Collective & 3 others",
+   "about": "Get up-to-date information at: https://luma.com/aic-brunch Address: Check event page for more details. Hosted by The AI Collective & 4 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -6350,7 +6506,7 @@
   },
   {
    "id": "a11a3c3f3377",
-   "title": "Prompt and Connect (w/ The AI Collective)",
+   "title": "Prompt and Connect",
    "start": "2026-12-08T22:30+00:00",
    "end": "2026-12-09T01:00+00:00",
    "allDay": false,
@@ -7433,7 +7589,7 @@
    ],
    "kind": "Meetup",
    "url": "https://www.meetup.com/cloud-security-alliance-las-vegas/events/317294473/",
-   "about": "Cloud Security Alliance - Las Vegas # Join us for the 2026 Las Vegas Cyber Holiday Party! Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking, good conversation and ho",
+   "about": "Cloud Security Alliance - Las Vegas **Join us for the 2026 Holiday Party!** Let’s bring the Las Vegas cybersecurity and technology communities together for an evening of networking, good conversation and holiday celebrat",
    "source": "CSA Las Vegas",
    "status": "listed",
    "cancelReason": null,
@@ -10325,6 +10481,60 @@
    "source": "confs.tech",
    "status": "listed",
    "firstSeen": "2026-11-16T23:11-05:00",
+   "seq": 0
+  },
+  {
+   "id": "281517524142",
+   "title": "WiCyS 2027 Annual Conference",
+   "start": "2027-03-17",
+   "end": "2027-03-19",
+   "allDay": true,
+   "tz": null,
+   "venue": "Gaylord Rockies Resort and Convention Center",
+   "online": false,
+   "city": "Aurora",
+   "country": "United States",
+   "metro": "Aurora",
+   "state": "CO",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Conference",
+   "url": "https://www.wicys.org/event/wicys-2027-annual-conference/",
+   "about": "The 13th annual Women in CyberSecurity (WiCyS) Conference is March 17-19, 2027, in Aurora, CO. The WiCyS conference is the premier event to RECRUIT, RETAIN and ADVANCE women in cybersecurity. WiCyS brings together women ",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ecf0617cd62a",
+   "title": "WiCyS | Executive Leaders Network",
+   "start": "2027-03-18",
+   "end": "2027-03-18",
+   "allDay": true,
+   "tz": null,
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-03-18/",
+   "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-19T21:36-05:00",
    "seq": 0
   },
   {
