@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1e0949e7a84b@the-lineup
-DTSTAMP:20261120T023749Z
+DTSTAMP:20261120T183843Z
 SEQUENCE:0
 DTSTART:20261124T140000Z
 DTEND:20261124T200000Z
 SUMMARY:Lovable Promptathon Bucharest: From Vibe to Live (w/ The AI Collective)
 LOCATION:Builders House\, Builders House\, Romania
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-11-24 Address: Builders House 1st floor (Etaj 1)\, Open Space area București\, Romania Hosted by The AI Collective & 7 others https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ta-11-24 Address: Builders House 1st floor (Etaj 1)\, Open Space area București\, Romania Hosted by The AI Collective & 8 others https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aad20ba375f4@the-lineup
+DTSTAMP:20261120T183843Z
+SEQUENCE:0
+DTSTART:20261223T000000Z
+DTEND:20261223T055500Z
+SUMMARY:East Holiday Party by Push Security!!
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events **# [This year's holiday sponsor is PUSH SECURITY!!!](pushsecurity.com)** ## Details 🎁🤣 **Get Ready for a Hilarious Night! 🎉🤖** We're excited to once again ann https://www.meetup.com/burbsec/events/317436463/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsec/events/317436463/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

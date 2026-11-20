@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dbaee0804ebe@the-lineup
+DTSTAMP:20261120T183843Z
+SEQUENCE:0
+DTSTART:20261212T023000Z
+DTEND:20261212T060000Z
+SUMMARY:Poker Night for B2B Founders
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/b2b-founders-poker Address: Check event page for more details. Hosted by The AI Collective\, Melody Yang & Lily Yang https://luma.com/event/evt-FPjL0rPiXXii3Zy
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-FPjL0rPiXXii3Zy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

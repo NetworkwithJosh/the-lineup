@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0807a2418a44@the-lineup
-DTSTAMP:20261120T023749Z
+DTSTAMP:20261120T183843Z
 SEQUENCE:0
 DTSTART:20261201T170000Z
 DTEND:20261201T200000Z
-SUMMARY:AI Builders Warsaw - Dec 1
+SUMMARY:AI Builders Warsaw - Bring Your Own Laptop Edition - Dec 1
 LOCATION:Just Join IT\, Just Join IT\, Poland
 DESCRIPTION:Get up-to-date information at: https://luma.com/waw-dec1 Address: Just Join IT Just Join IT Warszawa\, Poland Hosted by AI Builders https://luma.com/ai-builders
 STATUS:CONFIRMED

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3ba8686016d6@the-lineup
-DTSTAMP:20261120T023749Z
+DTSTAMP:20261120T183843Z
 SEQUENCE:0
 DTSTART:20261126T173000Z
 DTEND:20261126T200000Z
-SUMMARY:AI Builders Barcelona - Nov 26
+SUMMARY:AI Builders Barcelona - Bring Your Own Laptop Edition - Nov 26
 LOCATION:eDreams ODIGEO\, Barcelona\, Spain
 DESCRIPTION:Get up-to-date information at: https://luma.com/bcn-nov26 Address: eDreams ODIGEO eDreams ODIGEO Barcelona\, Spain Hosted by AI Builders https://luma.com/ai-builders
 STATUS:CONFIRMED

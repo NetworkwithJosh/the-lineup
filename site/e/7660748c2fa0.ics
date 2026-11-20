@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7660748c2fa0@the-lineup
+DTSTAMP:20261120T183843Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20270101
+SUMMARY:WiCyS | Your Experience Can Help Shape Cybersecurity Standards with ISC2
+LOCATION:Online
+DESCRIPTION:Cybersecurity professionals don’t just implement standards. They help shape them. WiCyS has partnered with the ISC2 Standards Development Group to bring together practitioners and stakeholders to contribute to consensus- https://www.wicys.org/event/wicys-your-experience-can-help-shape-cybersecurity-standards-with-isc2/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-your-experience-can-help-shape-cybersecurity-standards-with-isc2/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

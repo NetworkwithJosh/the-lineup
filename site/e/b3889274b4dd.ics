@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b3889274b4dd@the-lineup
-DTSTAMP:20261120T023749Z
-SEQUENCE:0
-DTSTART:20261121T030000Z
-DTEND:20261121T040000Z
+DTSTAMP:20261120T183843Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261201
 SUMMARY:Nerds Winter of Code
 LOCATION:Paytm\, Noida\, India
 DESCRIPTION:Get up-to-date information at: https://luma.com/nerds-winter-of-code Address: Paytm Noida\, India Hosted by Aditya & 4 others https://luma.com/genai-collective
