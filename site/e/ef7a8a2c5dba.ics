@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ef7a8a2c5dba@the-lineup
+DTSTAMP:20261121T025128Z
+SEQUENCE:0
+DTSTART:20261210T020000Z
+DTEND:20261210T050000Z
+SUMMARY:AI Tinkerers San Jose · Dec. 9 🛠️🤖
+LOCATION:California Miramar University - San Jose\, San Jose\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya\, Denis Belyavsky & Sahar Mor (Bond AI) https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
