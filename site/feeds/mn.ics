@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:b2c04097f8e5@the-lineup
+DTSTAMP:20261121T173603Z
+SEQUENCE:0
+DTSTART:20261210T000000Z
+DTEND:20261210T020000Z
+SUMMARY:December meetup: Open Discussion
+LOCATION:Location on listing\, Minneapolis\, United States
+DESCRIPTION:OWASP MSP Chapter **Open discussion** For December's meeting we welcome all to engage in an interactive\, lively discussion of security topics. Recent events certainly give us plenty to talk about\, but consider this a no- https://www.meetup.com/owasp-msp-meetup/events/317526764/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-msp-meetup/events/317526764/
+END:VEVENT
+END:VCALENDAR

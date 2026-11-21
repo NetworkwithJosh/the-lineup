@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:57f718ba46d9@the-lineup
+DTSTAMP:20261121T173603Z
+SEQUENCE:0
+DTSTART:20270320T140000Z
+DTEND:20270320T160000Z
+SUMMARY:WiCyS Austin Affiliate | Monthly Social
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-03-20/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-03-20/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

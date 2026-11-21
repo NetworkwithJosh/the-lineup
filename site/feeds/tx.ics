@@ -7,32 +7,8 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:8539d340991c@the-lineup
-DTSTAMP:20261121T025128Z
-SEQUENCE:1
-DTSTART:20261119T233000Z
-DTEND:20261120T033000Z
-SUMMARY:CISO Strategy Salon - Houston
-LOCATION:Location on listing\, Houston\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/h310rny8 Address: Check event page for more details. Hosted by Alchemy Cyber https://luma.com/event/evt-iYDmzHo4xHtyHNk
-STATUS:CONFIRMED
-URL:https://luma.com/event/evt-iYDmzHo4xHtyHNk
-END:VEVENT
-BEGIN:VEVENT
-UID:cd8bffc936a1@the-lineup
-DTSTAMP:20261121T025128Z
-SEQUENCE:0
-DTSTART:20261121T150000Z
-DTEND:20261121T170000Z
-SUMMARY:WiCyS Austin Affiliate | Monthly Social
-LOCATION:Austin\, Austin\, United States
-DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/
-STATUS:CONFIRMED
-URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/
-END:VEVENT
-BEGIN:VEVENT
 UID:5bce2a4ab826@the-lineup
-DTSTAMP:20261121T025128Z
+DTSTAMP:20261121T173603Z
 SEQUENCE:0
 DTSTART:20261219T150000Z
 DTEND:20261219T170000Z
@@ -44,7 +20,7 @@ URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:4a68f8b9f50f@the-lineup
-DTSTAMP:20261121T025128Z
+DTSTAMP:20261121T173603Z
 SEQUENCE:0
 DTSTART:20270116T150000Z
 DTEND:20270116T170000Z
@@ -56,7 +32,7 @@ URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-01-
 END:VEVENT
 BEGIN:VEVENT
 UID:22f200bd9796@the-lineup
-DTSTAMP:20261121T025128Z
+DTSTAMP:20261121T173603Z
 SEQUENCE:0
 DTSTART:20270127T230000Z
 DTEND:20270128T020000Z
@@ -68,7 +44,7 @@ URL:https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
 END:VEVENT
 BEGIN:VEVENT
 UID:d92d2f610a79@the-lineup
-DTSTAMP:20261121T025128Z
+DTSTAMP:20261121T173603Z
 SEQUENCE:0
 DTSTART:20270220T150000Z
 DTEND:20270220T170000Z
@@ -77,5 +53,17 @@ LOCATION:Austin\, Austin\, United States
 DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-02-20/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-02-20/
+END:VEVENT
+BEGIN:VEVENT
+UID:57f718ba46d9@the-lineup
+DTSTAMP:20261121T173603Z
+SEQUENCE:0
+DTSTART:20270320T140000Z
+DTEND:20270320T160000Z
+SUMMARY:WiCyS Austin Affiliate | Monthly Social
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:Join the WiCyS Austin Monthly Social! It’s a relaxed\, casual\, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-03-20/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-03-20/
 END:VEVENT
 END:VCALENDAR

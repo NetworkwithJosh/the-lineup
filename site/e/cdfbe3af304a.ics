@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cdfbe3af304a@the-lineup
+DTSTAMP:20261121T173603Z
+SEQUENCE:0
+DTSTART:20261125T150000Z
+DTEND:20261125T160000Z
+SUMMARY:Building Together: Share Your Work\, Find Your People (w/ The AI Collective)
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-du-11-25 Hosted by The AI Collective https://luma.com/event/evt-XULaC5zGCiNGkWG
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-XULaC5zGCiNGkWG
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
