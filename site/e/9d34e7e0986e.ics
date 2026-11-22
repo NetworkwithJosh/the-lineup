@@ -4,16 +4,16 @@ PRODID:-//The Lineup//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:4c4df41300e2@the-lineup
-DTSTAMP:20261122T013634Z
+UID:9d34e7e0986e@the-lineup
+DTSTAMP:20261122T175145Z
 SEQUENCE:0
 DTSTART:20261212T160000Z
 DTEND:20261212T180000Z
 SUMMARY:Study Hall / Work on CTFs
 LOCATION:Location on listing\, Philadelphia\, United States
-DESCRIPTION:DC215 Time to get together and work on or just discuss the CTF. https://www.meetup.com/dc_215/events/pplcztyjcqbqb/
+DESCRIPTION:DC215 Time to get together and work on or just discuss the CTF. https://www.meetup.com/dc_215/events/317539431/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/dc_215/events/pplcztyjcqbqb/
+URL:https://www.meetup.com/dc_215/events/317539431/
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

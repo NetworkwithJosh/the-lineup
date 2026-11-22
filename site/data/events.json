@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-21T20:35-05:00",
+ "generatedAt": "2026-11-22T12:50-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 325,
+ "count": 323,
  "changes": {
   "updated": 6,
-  "new": 79,
-  "cancelled": 15
+  "new": 80,
+  "cancelled": 10
  },
  "sources": [
   {
@@ -163,7 +163,7 @@
   {
    "source": "DC610 (Easton PA)",
    "ok": true,
-   "events": 7
+   "events": 6
   },
   {
    "source": "OWASP Philadelphia",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 59
+   "events": 60
   },
   {
    "source": "NY AI Engineers",
@@ -738,22 +738,22 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 24
+   "events": 25
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 6
+   "events": 5
   },
   {
    "source": "AI Collective Atlanta",
    "ok": true,
-   "events": 3
+   "events": 4
   },
   {
    "source": "confs.tech: security",
    "ok": true,
-   "events": 10
+   "events": 9
   },
   {
    "source": "confs.tech: data",
@@ -768,12 +768,12 @@
   {
    "source": "confs.tech: devops",
    "ok": true,
-   "events": 7
+   "events": 6
   },
   {
    "source": "confs.tech: sre",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "confs.tech: networking",
@@ -865,64 +865,6 @@
    "seq": 0
   },
   {
-   "id": "1b67dc3fa2d2",
-   "title": "X-Ops Conference Madrid",
-   "start": "2026-11-19",
-   "end": "2026-11-21",
-   "allDay": true,
-   "tz": null,
-   "venue": "Madrid",
-   "online": false,
-   "city": "Madrid",
-   "country": "Spain",
-   "metro": "Madrid",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Conference",
-   "url": "https://xopsconference.com",
-   "about": "",
-   "source": "confs.tech",
-   "status": "listed",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "b3889274b4dd",
-   "title": "Nerds Winter of Code",
-   "start": "2026-11-21",
-   "end": "2026-11-30",
-   "allDay": true,
-   "tz": null,
-   "venue": "Paytm",
-   "online": false,
-   "city": "Noida",
-   "country": "India",
-   "metro": "Noida",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Conference",
-   "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/nerds-winter-of-code Address: Paytm Noida, India Hosted by Aditya & 4 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 2,
-   "changes": [
-    "Now Nov 21 to 30 (was Nov 21 at 3:00 AM)"
-   ],
-   "changedAt": "2026-11-20T13:37-05:00",
-   "cancelledAt": "2026-11-21T12:35-05:00"
-  },
-  {
    "id": "b22b3c5f6fb2",
    "title": "OWASP AppSec Days India 2026",
    "start": "2026-11-21",
@@ -948,203 +890,6 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 0
-  },
-  {
-   "id": "1da6ea2cc5eb",
-   "title": "From Community to Pipeline",
-   "start": "2026-11-21T01:00+00:00",
-   "end": "2026-11-21T03:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "576 Folsom St floor 3",
-   "online": false,
-   "city": "San Francisco",
-   "country": "United States",
-   "metro": "San Francisco Bay Area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
-   "about": "Get up-to-date information at: https://luma.com/promptql-communitytopipeline Address: 576 Folsom St floor 3 We’re looking forward to seeing you! Doors open at 5 pm, so please wait until then to ring the buzzer. Thanks fo",
-   "source": "TechEquity AI (Silicon Valley)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-17T14:12-05:00",
-   "seq": 0
-  },
-  {
-   "id": "d3875f6ad5e0",
-   "title": "AI Paper Discussion ft. AIC Delhi Paper Club (w/ The AI Collective)",
-   "start": "2026-11-21T05:30+00:00",
-   "end": "2026-11-21T08:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Delhi",
-   "country": "India",
-   "metro": "Delhi",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-4MQDVDKwGZO3dRW",
-   "about": "Get up-to-date information at: https://luma.com/aic-de-11-7 Address: Check event page for more details. Hosted by The AI Collective, Albert Jokelin & Shresth Shukla",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 2,
-   "changes": [
-    "Now Nov 21 at 5:30 AM (was Nov 21 at 5:00 AM)"
-   ],
-   "changedAt": "2026-11-19T13:59-05:00",
-   "cancelledAt": "2026-11-21T12:35-05:00"
-  },
-  {
-   "id": "cd8bffc936a1",
-   "title": "WiCyS Austin Affiliate | Monthly Social",
-   "start": "2026-11-21T09:00-06:00",
-   "end": "2026-11-21T11:00-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Austin",
-   "online": false,
-   "city": "Austin",
-   "country": "United States",
-   "metro": "Austin",
-   "state": "TX",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-11-21/",
-   "about": "Join the WiCyS Austin Monthly Social! It’s a relaxed, casual, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-21T12:35-05:00"
-  },
-  {
-   "id": "6ba78cece6e7",
-   "title": "AI Over Coffee (w/ The AI Collective - Abu Dhabi)",
-   "start": "2026-11-21T12:00+00:00",
-   "end": "2026-11-21T14:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Abu Dhabi",
-   "country": "United Arab Emirates",
-   "metro": "Abu Dhabi",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-Sru73Einfc5XKrd",
-   "about": "Get up-to-date information at: https://luma.com/aic-ab-11-21 Address: Check event page for more details. Hosted by The AI Collective & 4 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-16T15:30-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-21T12:35-05:00"
-  },
-  {
-   "id": "ebf90032a320",
-   "title": "The 610 Netrun! A Capture the Flag in Downtown Easton!",
-   "start": "2026-11-21T12:00-05:00",
-   "end": "2026-11-21T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Easton",
-   "country": "United States",
-   "metro": "Easton",
-   "state": "PA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/defcon610/events/316241205/",
-   "about": "DEF CON 610 Join DEF CON 610 for our 7th annual 610 Netrun! NOTE: We've had to move the event from Nov 7 to Nov 21 due to Baconfest! You should check out Baconfest in Easton, PA on the 7th, but come back on the 21st for ",
-   "source": "DC610 (Easton PA)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "e65223b0439d",
-   "title": "AI Architect Me!",
-   "start": "2026-11-21T18:00+00:00",
-   "end": "2026-11-21T22:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-lfWs5Aje4xdu6kg",
-   "about": "Get up-to-date information at: https://luma.com/aic-ch-11-21 Address: Check event page for more details. Hosted by The AI Collective & 5 others",
-   "source": "AI Collective Atlanta",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-21T20:35-05:00",
-   "seq": 0
-  },
-  {
-   "id": "cd44650a479f",
-   "title": "AI Architect Me!",
-   "start": "2026-11-21T18:00+00:00",
-   "end": "2026-11-21T22:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-lfWs5Aje4xdu6kg",
-   "about": "Get up-to-date information at: https://luma.com/aic-ch-11-21 Address: Check event page for more details. Hosted by The AI Collective & 5 others",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-21T20:35-05:00"
   },
   {
    "id": "ee1b72589d1a",
@@ -3553,6 +3298,33 @@
    "seq": 0
   },
   {
+   "id": "949746de8551",
+   "title": "Brookhaven Monthly Meetup (w/ The AI Collective)",
+   "start": "2026-12-02T22:30+00:00",
+   "end": "2026-12-03T00:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-gSF4Iu4OCFF5A3e",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-12-2b Address: Check event page for more details. Hosted by The AI Collective & 5 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-22T12:50-05:00",
+   "seq": 0
+  },
+  {
    "id": "9d4326a1bf6e",
    "title": "Fonzi's Devs & Drinks",
    "start": "2026-12-02T23:00+00:00",
@@ -4493,7 +4265,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-mNmJhVZsaX5VNSn",
-   "about": "Get up-to-date information at: https://luma.com/aic-be-12-5 Address: Check event page for more details. Hosted by The AI Collective, Rajat Kharbanda & Women in Product Marketing™",
+   "about": "Get up-to-date information at: https://luma.com/aic-be-12-5 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -4954,7 +4726,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-tiBEvByuvoFy2F6",
-   "about": "Get up-to-date information at: https://luma.com/aic-at-12-8 Address: Check event page for more details. Hosted by The AI Collective, Meredith Sommers & Erich🕺Starrett",
+   "about": "Get up-to-date information at: https://luma.com/aic-at-12-8 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -5836,6 +5608,33 @@
    "seq": 0
   },
   {
+   "id": "9d34e7e0986e",
+   "title": "Study Hall / Work on CTFs",
+   "start": "2026-12-12T11:00-05:00",
+   "end": "2026-12-12T13:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Philadelphia",
+   "country": "United States",
+   "metro": "Philadelphia area",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc_215/events/317539431/",
+   "about": "DC215 Time to get together and work on or just discuss the CTF.",
+   "source": "DC215 (DEF CON Philly)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-22T12:50-05:00",
+   "seq": 0
+  },
+  {
    "id": "4c4df41300e2",
    "title": "Study Hall / Work on CTFs",
    "start": "2026-12-12T11:00-05:00",
@@ -5857,10 +5656,11 @@
    "url": "https://www.meetup.com/dc_215/events/pplcztyjcqbqb/",
    "about": "DC215 Time to get together and work on or just discuss the CTF.",
    "source": "DC215 (DEF CON Philly)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-22T12:50-05:00"
   },
   {
    "id": "70a78c96fbb8",
@@ -6051,6 +5851,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-18T13:52-05:00",
+   "seq": 0
+  },
+  {
+   "id": "3f2afccc995b",
+   "title": "AI Builders Brussels",
+   "start": "2026-12-15T17:00+00:00",
+   "end": "2026-12-15T20:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Commons Hub Brussels",
+   "online": false,
+   "city": "Brussels",
+   "country": "Belgium",
+   "metro": "Brussels",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/ai-builders",
+   "about": "Get up-to-date information at: https://luma.com/bru-dec15 Address: Commons Hub Brussels Commons Hub Brussels Bruxelles, Belgium",
+   "source": "AI Builders",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-22T12:50-05:00",
    "seq": 0
   },
   {
