@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-21T12:35-05:00",
+ "generatedAt": "2026-11-21T20:35-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 324,
+ "count": 325,
  "changes": {
   "updated": 6,
-  "new": 77,
-  "cancelled": 14
+  "new": 79,
+  "cancelled": 15
  },
  "sources": [
   {
@@ -558,7 +558,7 @@
   {
    "source": "STL Cyber (St. Louis)",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "OWASP Cleveland",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 60
+   "events": 59
   },
   {
    "source": "NY AI Engineers",
@@ -1092,6 +1092,33 @@
    "seq": 0
   },
   {
+   "id": "e65223b0439d",
+   "title": "AI Architect Me!",
+   "start": "2026-11-21T18:00+00:00",
+   "end": "2026-11-21T22:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-lfWs5Aje4xdu6kg",
+   "about": "Get up-to-date information at: https://luma.com/aic-ch-11-21 Address: Check event page for more details. Hosted by The AI Collective & 5 others",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-21T20:35-05:00",
+   "seq": 0
+  },
+  {
    "id": "cd44650a479f",
    "title": "AI Architect Me!",
    "start": "2026-11-21T18:00+00:00",
@@ -1113,10 +1140,11 @@
    "url": "https://luma.com/event/evt-lfWs5Aje4xdu6kg",
    "about": "Get up-to-date information at: https://luma.com/aic-ch-11-21 Address: Check event page for more details. Hosted by The AI Collective & 5 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-21T20:35-05:00"
   },
   {
    "id": "ee1b72589d1a",
@@ -1139,7 +1167,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/aicatl",
-   "about": "Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta, GA United States Hosted by Moring AI & Balaji Nagaraj Kumar",
+   "about": "Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta, GA United States Hosted by Moring AI, Balaji Nagaraj Kumar & nihal yaldizli",
    "source": "AI Collective Atlanta",
    "status": "listed",
    "cancelReason": null,
@@ -1172,6 +1200,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-19T21:36-05:00",
+   "seq": 0
+  },
+  {
+   "id": "3c72bc5ad515",
+   "title": "Live Demo: ARTEX, LLM-Driven Pentesting vs. NGINX2Root (CVE-2026-123007)",
+   "start": "2026-11-22T16:00-06:00",
+   "end": "2026-11-22T17:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "St. Louis",
+   "country": "United States",
+   "metro": "St. Louis",
+   "state": "MO",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/stl-cyber-meetup/events/317530315/",
+   "about": "STL CYBER Meetup Can an LLM run a penetration test from start to finish? Join us online to watch one try, live. ​In this session I'll demo **ARTEX**, an open-source, LLM-driven penetration testing framework. We'll run it",
+   "source": "STL Cyber (St. Louis)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-21T20:35-05:00",
    "seq": 0
   },
   {

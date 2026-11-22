@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3c72bc5ad515@the-lineup
+DTSTAMP:20261122T013634Z
+SEQUENCE:0
+DTSTART:20261122T220000Z
+DTEND:20261122T230000Z
+SUMMARY:Live Demo: ARTEX\, LLM-Driven Pentesting vs. NGINX2Root (CVE-2026-123007)
+LOCATION:Location on listing\, St. Louis\, United States
+DESCRIPTION:STL CYBER Meetup Can an LLM run a penetration test from start to finish? Join us online to watch one try\, live. ​In this session I'll demo **ARTEX**\, an open-source\, LLM-driven penetration testing framework. We'll run it https://www.meetup.com/stl-cyber-meetup/events/317530315/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/stl-cyber-meetup/events/317530315/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
