@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ef7a8a2c5dba@the-lineup
-DTSTAMP:20261122T175145Z
+DTSTAMP:20261123T015933Z
 SEQUENCE:0
 DTSTART:20261210T020000Z
 DTEND:20261210T050000Z
-SUMMARY:AI Tinkerers San Jose · Dec. 9 🛠️🤖
+SUMMARY:AI Tinkerers San Jose · Demo Night 🛠️🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya\, Denis Belyavsky & Sahar Mor (Bond AI) https://luma.com/techequity-ai-community
+DESCRIPTION:Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya & 3 others https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 BEGIN:VALARM

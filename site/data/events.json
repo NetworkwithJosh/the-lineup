@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-22T12:50-05:00",
+ "generatedAt": "2026-11-22T20:58-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 323,
+ "count": 321,
  "changes": {
   "updated": 6,
-  "new": 80,
-  "cancelled": 10
+  "new": 78,
+  "cancelled": 12
  },
  "sources": [
   {
@@ -213,7 +213,7 @@
   {
    "source": "Bay Area AI Security Research",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "AI Security Community",
@@ -558,7 +558,7 @@
   {
    "source": "STL Cyber (St. Louis)",
    "ok": true,
-   "events": 1
+   "events": 0
   },
   {
    "source": "OWASP Cleveland",
@@ -942,10 +942,11 @@
    "url": "https://www.meetup.com/bay-area-ai-security-research/events/317505284/",
    "about": "Breaking Models | AI Security Research **Breaking Models 🚨 AI Security (Supply Chain Attacks, Part 2)** ​Last time, we mapped the AI supply chain and broke the model file and the model hub. This time, we finish the map: ",
    "source": "Bay Area AI Security Research",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T21:36-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-22T20:58-05:00"
   },
   {
    "id": "3c72bc5ad515",
@@ -970,10 +971,11 @@
    "url": "https://www.meetup.com/stl-cyber-meetup/events/317530315/",
    "about": "STL CYBER Meetup Can an LLM run a penetration test from start to finish? Join us online to watch one try, live. ​In this session I'll demo **ARTEX**, an open-source, LLM-driven penetration testing framework. We'll run it",
    "source": "STL Cyber (St. Louis)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-21T20:35-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-22T20:58-05:00"
   },
   {
    "id": "0a754e8e6c25",
@@ -5144,7 +5146,7 @@
   },
   {
    "id": "ef7a8a2c5dba",
-   "title": "AI Tinkerers San Jose · Dec. 9 🛠️🤖",
+   "title": "AI Tinkerers San Jose · Demo Night 🛠️🤖",
    "start": "2026-12-10T02:00+00:00",
    "end": "2026-12-10T05:00+00:00",
    "allDay": false,
@@ -5162,7 +5164,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/techequity-ai-community",
-   "about": "Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose, CA United States Hosted by Amer Yahya, Denis Belyavsky & Sahar Mor (Bond AI)",
+   "about": "Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose, CA United States Hosted by Amer Yahya & 3 others",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
