@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:62bd60f8bb51@the-lineup
-DTSTAMP:20261123T015933Z
-SEQUENCE:1
+DTSTAMP:20261123T220438Z
+SEQUENCE:2
 DTSTART:20261126T093000Z
 DTEND:20261126T130000Z
 SUMMARY:WiCyS Nigeria Affiliate | Progress\, Priorities\, partnerships: Shaping the Next Chapter of WiCyS Nigeria
-LOCATION:Location on listing\, Location on listing\, Nigeria
+LOCATION:AZ\, Location on listing\, Nigeria
 DESCRIPTION:This year’s Leadership Forum will bring together a select group of accomplished women and men from technology\, cybersecurity\, government\, industry\, and academia for a candid\, forward-looking conversation on strengthening https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/

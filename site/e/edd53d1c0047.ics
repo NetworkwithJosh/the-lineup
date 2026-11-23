@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:edd53d1c0047@the-lineup
-DTSTAMP:20261123T015933Z
+DTSTAMP:20261123T220438Z
 SEQUENCE:0
 DTSTART:20261205T160000Z
 DTEND:20261205T220000Z
 SUMMARY:LAUNCH WKND feat. Lovable and Vernon & Friends (w/ The AI Collective)
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ch-12-5 Address: Check event page for more details. Hosted by The AI Collective\, Vernon T. Foster II & Himanshu P https://luma.com/event/evt-1LLMwxCDrIrKCVW
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ch-12-5 Address: Check event page for more details. Hosted by The AI Collective\, Vernon T. Foster II & Himanshu Palerwal https://luma.com/event/evt-1LLMwxCDrIrKCVW
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-1LLMwxCDrIrKCVW
 BEGIN:VALARM

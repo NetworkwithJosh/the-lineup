@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:10b662c7c910@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20261210T130000Z
+DTEND:20261210T140000Z
+SUMMARY:Webinar | Contextualizing Tech and Cyber Risk
+LOCATION:Online
+DESCRIPTION:In this WiCyS webinar\, JPMorgan Chase will explore how providing a comprehensive and timely view of the tech and cyber operational risk and control environment informs key leadership decisions in a rapidly evolving techn https://www.wicys.org/event/664051/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/664051/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

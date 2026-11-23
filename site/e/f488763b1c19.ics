@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f488763b1c19@the-lineup
-DTSTAMP:20261123T015933Z
+DTSTAMP:20261123T220438Z
 SEQUENCE:0
 DTSTART:20261124T233000Z
 DTEND:20261125T020000Z
 SUMMARY:Toronto Revenue Leaders Dinner
 LOCATION:Lucie\, Toronto\, Canada
-DESCRIPTION:Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto\, ON Canada Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto\, ON Canada Hosted by The AI Collective\, Melody Yang & Alykhan Kara https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

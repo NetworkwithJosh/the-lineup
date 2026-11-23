@@ -7,8 +7,20 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:0040f996dc25@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20261202T220000Z
+DTEND:20261203T010000Z
+SUMMARY:WiCyS Healthcare and Northeast Ohio Affiliates | Cybersecurity Movie Night: Midnight in the War Room
+LOCATION:WellLink\, Cleveland\, United States
+DESCRIPTION:Join WiCyS Healthcare Affiliate and WiCyS Northeast Ohio Affiliate for an evening of networking and a special screening of Midnight in the War Room: A Documentary on Cyber War\, produced by Semperis Studios. Connect with  https://www.wicys.org/event/wicys-healthcare-and-northeast-ohio-affiliates-cybersecurity-movie-night-midnight-in-the-war-room/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/wicys-healthcare-and-northeast-ohio-affiliates-cybersecurity-movie-night-midnight-in-the-war-room/
+END:VEVENT
+BEGIN:VEVENT
 UID:b855b1b964cc@the-lineup
-DTSTAMP:20261123T015933Z
+DTSTAMP:20261123T220438Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T003000Z

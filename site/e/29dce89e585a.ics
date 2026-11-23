@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:29dce89e585a@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20261202T070000Z
+DTEND:20261202T080000Z
+SUMMARY:OWASP Melbourne - December 2026 Lean Coffee Style Meetup
+LOCATION:Location on listing\, Melbourne\, Australia
+DESCRIPTION:OWASP Melbourne - Application Security G'day to all\, It was good to see some familiar faces last month. On **2nd December 2026 at 6:00 PM**\, we'll be meeting at [Chai N Dosa](http://www.chaidosa.com.au/) (near Southern C https://www.meetup.com/application-security-owasp-melbourne/events/317479178/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/application-security-owasp-melbourne/events/317479178/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

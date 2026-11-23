@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:87f74fdc2a89@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20261216T130000Z
+DTEND:20261216T140000Z
+SUMMARY:Webinar | Security Across the Stack: Coordinating Across Teams from First Ticket to Fix
+LOCATION:Online
+DESCRIPTION:Security incidents rarely stay within one team. In this WiCyS webinar\, four ServiceNow practitioners follow a fictional vulnerability from the first customer ticket to the final customer update and show how customer secu https://www.wicys.org/event/webinar-security-across-the-stack-coordinating-across-teams-from-first-ticket-to-fix/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/webinar-security-across-the-stack-coordinating-across-teams-from-first-ticket-to-fix/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:86321fbc6c3c@the-lineup
-DTSTAMP:20261123T015933Z
-SEQUENCE:0
-DTSTART:20261130T183000Z
-DTEND:20261130T193000Z
+DTSTAMP:20261123T220438Z
+SEQUENCE:1
+DTSTART:20261216T170000Z
+DTEND:20261216T180000Z
 SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
 LOCATION:Location on listing\, Iselin\, United States
 DESCRIPTION:New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real opportunity li https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/

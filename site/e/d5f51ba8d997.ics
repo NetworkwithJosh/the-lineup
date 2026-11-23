@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d5f51ba8d997@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20270120T170000Z
+DTEND:20270120T210000Z
+SUMMARY:Kodi Connect Cybersecurity (CISO) Leadership: Austin | Executive Networking Exchange
+LOCATION:Austin\, Austin\, United States
+DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer eng https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-austin-executive-networking-exchange/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-austin-executive-networking-exchange/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

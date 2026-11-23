@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8404855a0608@the-lineup
+DTSTAMP:20261123T220438Z
+SEQUENCE:0
+DTSTART:20261218T150000Z
+DTEND:20261218T230000Z
+SUMMARY:Empower Decision Makers with Generative AI
+LOCATION:Location on listing\, Iselin\, United States
+DESCRIPTION:New Jersey Business and Tech Meetup Discover how Generative AI can improve business decision-making\, streamline operations\, and drive innovation with this **COMPLIMENTARY** session. Explore Google's generative AI tools\,  https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

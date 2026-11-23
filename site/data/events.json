@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-22T20:58-05:00",
+ "generatedAt": "2026-11-23T17:03-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 321,
+ "count": 326,
  "changes": {
-  "updated": 6,
-  "new": 78,
-  "cancelled": 12
+  "new": 79,
+  "updated": 5,
+  "cancelled": 19
  },
  "sources": [
   {
@@ -23,7 +23,7 @@
   {
    "source": "Cybersecurity conference calendar (Smart Calendars)",
    "ok": true,
-   "events": 9
+   "events": 8
   },
   {
    "source": "Major security conferences (Smart Calendars)",
@@ -133,7 +133,7 @@
   {
    "source": "NJ Business and Tech",
    "ok": true,
-   "events": 7
+   "events": 9
   },
   {
    "source": "New Jersey Red Hat Users",
@@ -408,7 +408,7 @@
   {
    "source": "OWASP Melbourne",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "OWASP Brisbane",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 60
+   "events": 62
   },
   {
    "source": "NY AI Engineers",
@@ -738,7 +738,7 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 25
+   "events": 27
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
@@ -748,7 +748,7 @@
   {
    "source": "AI Collective Atlanta",
    "ok": true,
-   "events": 4
+   "events": 3
   },
   {
    "source": "confs.tech: security",
@@ -865,119 +865,6 @@
    "seq": 0
   },
   {
-   "id": "b22b3c5f6fb2",
-   "title": "OWASP AppSec Days India 2026",
-   "start": "2026-11-21",
-   "end": "2026-11-22",
-   "allDay": true,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "India",
-   "metro": "Location on listing",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Conference",
-   "url": "https://india.appsecdays.org/",
-   "about": "OWASP AppSec Days event. Event details: https://india.appsecdays.org/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://india.appsecdays.org/",
-   "source": "Cybersecurity conference calendar (Smart Calendars)",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "ee1b72589d1a",
-   "title": "Services is the new SaaS: A Gathering of IT services leaders in Atlanta",
-   "start": "2026-11-21T22:00+00:00",
-   "end": "2026-11-22T01:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "190 Bluegrass Valley Pkwy",
-   "online": false,
-   "city": "Alpharetta",
-   "country": "United States",
-   "metro": "Alpharetta",
-   "state": "GA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/aicatl",
-   "about": "Get up-to-date information at: https://luma.com/moringai-qtgq Address: 190 Bluegrass Valley Pkwy Alpharetta, GA United States Hosted by Moring AI, Balaji Nagaraj Kumar & nihal yaldizli",
-   "source": "AI Collective Atlanta",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "adb3bafcd080",
-   "title": "Breaking Models 🚨AI Security",
-   "start": "2026-11-22T14:30-08:00",
-   "end": "2026-11-22T16:30-08:00",
-   "allDay": false,
-   "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "San Francisco",
-   "country": "United States",
-   "metro": "San Francisco Bay Area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/bay-area-ai-security-research/events/317505284/",
-   "about": "Breaking Models | AI Security Research **Breaking Models 🚨 AI Security (Supply Chain Attacks, Part 2)** ​Last time, we mapped the AI supply chain and broke the model file and the model hub. This time, we finish the map: ",
-   "source": "Bay Area AI Security Research",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-19T21:36-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-22T20:58-05:00"
-  },
-  {
-   "id": "3c72bc5ad515",
-   "title": "Live Demo: ARTEX, LLM-Driven Pentesting vs. NGINX2Root (CVE-2026-123007)",
-   "start": "2026-11-22T16:00-06:00",
-   "end": "2026-11-22T17:00-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "St. Louis",
-   "country": "United States",
-   "metro": "St. Louis",
-   "state": "MO",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/stl-cyber-meetup/events/317530315/",
-   "about": "STL CYBER Meetup Can an LLM run a penetration test from start to finish? Join us online to watch one try, live. ​In this session I'll demo **ARTEX**, an open-source, LLM-driven penetration testing framework. We'll run it",
-   "source": "STL Cyber (St. Louis)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-21T20:35-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-22T20:58-05:00"
-  },
-  {
    "id": "0a754e8e6c25",
    "title": "The AI Collective Podcast with AJ & Catherine: Monday, Nov 23",
    "start": "2026-11-23T17:00+00:00",
@@ -999,10 +886,11 @@
    "url": "https://luma.com/event/evt-4csaOZKt3NiBvOQ",
    "about": "Get up-to-date information at: https://luma.com/genai-em4z Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "d21776781217",
@@ -1088,7 +976,7 @@
   },
   {
    "id": "a308e5971d63",
-   "title": "Be Part of the Collective Transformation (w/ The AI Collective)",
+   "title": "Be Part of the Collective Transformation (w/ The AI Collective Nordics)",
    "start": "2026-11-24T11:00+00:00",
    "end": "2026-11-24T12:00+00:00",
    "allDay": false,
@@ -1353,7 +1241,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/genai-collective",
-   "about": "Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto, ON Canada Hosted by The AI Collective & 3 others",
+   "about": "Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto, ON Canada Hosted by The AI Collective, Melody Yang & Alykhan Kara",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -1692,7 +1580,7 @@
    "end": "2026-11-26T14:00+01:00",
    "allDay": false,
    "tz": "Europe/Paris",
-   "venue": "Location on listing",
+   "venue": "AZ",
    "online": false,
    "city": "Location on listing",
    "country": "Nigeria",
@@ -1710,11 +1598,11 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1,
+   "seq": 2,
    "changes": [
-    "New venue: Location on listing"
+    "New venue: AZ"
    ],
-   "changedAt": "2026-11-17T14:12-05:00"
+   "changedAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "e83786fae95f",
@@ -1817,7 +1705,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/ai-builders",
-   "about": "Get up-to-date information at: https://luma.com/bcn-nov26 Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain Hosted by AI Builders",
+   "about": "Get up-to-date information at: https://luma.com/bcn-nov26 Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain Hosted by AI Builders, Joshua & Narci Joy",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
@@ -2287,34 +2175,6 @@
    "seq": 0
   },
   {
-   "id": "86321fbc6c3c",
-   "title": "From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap",
-   "start": "2026-11-30T13:30-05:00",
-   "end": "2026-11-30T14:30-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/",
-   "about": "New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot, but deployment alone does not guarantee productivity gains, workflow transformation, or measurable returns. The real opportunity li",
-   "source": "NJ Business and Tech",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
    "id": "57e5a8917c3d",
    "title": "The AI Collective Podcast with AJ & Catherine: Monday, Nov 30",
    "start": "2026-11-30T17:00+00:00",
@@ -2526,6 +2386,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "abc39a117fa9",
+   "title": "FrontierX – Intro",
+   "start": "2026-12-01T08:30-05:00",
+   "end": "2026-12-01T09:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/microsoft-reactor-new-york/events/317173812/",
+   "about": "Microsoft Reactor New York Introducing the FrontierX Series! What is the FrontierX Series, who is it for, and how can you get started building with AI? This series is designed for developers, architects, technology enthu",
+   "source": "Microsoft Reactor New York",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -3138,6 +3026,60 @@
    "seq": 0
   },
   {
+   "id": "0040f996dc25",
+   "title": "WiCyS Healthcare and Northeast Ohio Affiliates | Cybersecurity Movie Night: Midnight in the War Room",
+   "start": "2026-12-02T17:00-05:00",
+   "end": "2026-12-02T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "WellLink",
+   "online": false,
+   "city": "Cleveland",
+   "country": "United States",
+   "metro": "Cleveland",
+   "state": "OH",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-healthcare-and-northeast-ohio-affiliates-cybersecurity-movie-night-midnight-in-the-war-room/",
+   "about": "Join WiCyS Healthcare Affiliate and WiCyS Northeast Ohio Affiliate for an evening of networking and a special screening of Midnight in the War Room: A Documentary on Cyber War, produced by Semperis Studios. Connect with ",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
+   "id": "29dce89e585a",
+   "title": "OWASP Melbourne - December 2026 Lean Coffee Style Meetup",
+   "start": "2026-12-02T18:00+11:00",
+   "end": "2026-12-02T19:00+11:00",
+   "allDay": false,
+   "tz": "Australia/Melbourne",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Melbourne",
+   "country": "Australia",
+   "metro": "Melbourne",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/application-security-owasp-melbourne/events/317479178/",
+   "about": "OWASP Melbourne - Application Security G'day to all, It was good to see some familiar faces last month. On **2nd December 2026 at 6:00 PM**, we'll be meeting at [Chai N Dosa](http://www.chaidosa.com.au/) (near Southern C",
+   "source": "OWASP Melbourne",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "49383b027376",
    "title": "AI in Cyber Pathway: Where AI Fits in Your Security Career",
    "start": "2026-12-02T18:00-05:00",
@@ -3346,7 +3288,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-EIHjVVX9DzFs821",
-   "about": "Get up-to-date information at: https://luma.com/ai-6w25 Address: Check event page for more details. Hosted by Gwendolyn Canada & Lauren Cotta",
+   "about": "Get up-to-date information at: https://luma.com/ai-6w25 Address: Check event page for more details. Hosted by Gwendolyn Canada, Lauren Cotta & Sebastian Cuadros",
    "source": "NY AI Engineers",
    "status": "listed",
    "cancelReason": null,
@@ -3537,10 +3479,11 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316696251/",
    "about": "Microsoft Reactor New York What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry",
    "source": "Microsoft Reactor New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-20T21:50-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "7d51cdc18409",
@@ -3844,7 +3787,7 @@
   },
   {
    "id": "626dd9e82f04",
-   "title": "Aikido Security Recruitment Event",
+   "title": "Aikido Security Networking Event",
    "start": "2026-12-03T23:00+00:00",
    "end": "2026-12-04T02:00+00:00",
    "allDay": false,
@@ -4348,7 +4291,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-1LLMwxCDrIrKCVW",
-   "about": "Get up-to-date information at: https://luma.com/aic-ch-12-5 Address: Check event page for more details. Hosted by The AI Collective, Vernon T. Foster II & Himanshu P",
+   "about": "Get up-to-date information at: https://luma.com/aic-ch-12-5 Address: Check event page for more details. Hosted by The AI Collective, Vernon T. Foster II & Himanshu Palerwal",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -4736,34 +4679,6 @@
    "seq": 0
   },
   {
-   "id": "d468ed8716e3",
-   "title": "Financial Services AI Security Forum",
-   "start": "2026-12-09",
-   "end": "2026-12-09",
-   "allDay": true,
-   "tz": null,
-   "venue": "New York Hilton Midtown",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Event",
-   "url": "https://www.wicys.org/event/financial-services-ai-security-forum/",
-   "about": "WiCyS is a Proud Partner of the Financial Services AI Security Forum, taking place on December 9 at the New York Hilton Midtown, and we are inviting you to join us! Explore trust, risk, and resilience in the age of AI al",
-   "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
    "id": "72241ab11097",
    "title": "Great International AI Native Summit (GAINS)",
    "start": "2026-12-09",
@@ -4836,6 +4751,34 @@
    "kind": "Event",
    "url": "https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/",
    "about": "WiCyS 2027 is the go-to event for cybersecurity professionals, students, and organizations. The conference is the flagship event to recruit, retain and advance women in cybersecurity. Join the WiCyS Community in Denver, ",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d468ed8716e3",
+   "title": "WiCyS NY Metro Affiliate | Financial Services AI Security Forum",
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "allDay": true,
+   "tz": null,
+   "venue": "New York Hilton Midtown",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.wicys.org/event/financial-services-ai-security-forum/",
+   "about": "WiCyS NY Metro Affiliate is a Proud Partner of the Financial Services AI Security Forum, taking place on December 9 at the New York Hilton Midtown, and we are inviting you to join! Explore trust, risk, and resilience in ",
    "source": "WiCyS events",
    "status": "listed",
    "cancelReason": null,
@@ -4949,6 +4892,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "66a0e04b89c5",
+   "title": "The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027",
+   "start": "2026-12-09T12:00-05:00",
+   "end": "2026-12-09T13:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Iselin",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/",
+   "about": "New Jersey Business and Tech Meetup **Building an AI-ready enterprise starts with building the right skills.** As Gemini, Vertex AI, and AI agents reshape business operations, organizations need a workforce equipped to d",
+   "source": "NJ Business and Tech",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -5117,6 +5088,33 @@
    "seq": 0
   },
   {
+   "id": "392a141f7450",
+   "title": "AI Dinner Club - The AI Collective SLC Edition ✨",
+   "start": "2026-12-10T01:00+00:00",
+   "end": "2026-12-10T03:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-YIuQpAteQiRVdF8",
+   "about": "Get up-to-date information at: https://luma.com/aic-sl-12-9 Address: Check event page for more details. Hosted by The AI Collective & 3 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "aa075655ac68",
    "title": "AI x Bio Pitch Contest",
    "start": "2026-12-10T01:30+00:00",
@@ -5169,6 +5167,34 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-20T21:50-05:00",
+   "seq": 0
+  },
+  {
+   "id": "10b662c7c910",
+   "title": "Webinar | Contextualizing Tech and Cyber Risk",
+   "start": "2026-12-10T13:00+00:00",
+   "end": "2026-12-10T14:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/664051/",
+   "about": "In this WiCyS webinar, JPMorgan Chase will explore how providing a comprehensive and timely view of the tech and cyber operational risk and control environment informs key leadership decisions in a rapidly evolving techn",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -5583,6 +5609,33 @@
    "seq": 0
   },
   {
+   "id": "da2e5875daa8",
+   "title": "WiCyS Minnesota Affiliate | Winter Walk & Talk: Como Zoo & Conservatory",
+   "start": "2026-12-12T10:00-06:00",
+   "end": "2026-12-12T12:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Como Park Zoo & Conservatory",
+   "online": false,
+   "city": "Saint Paul",
+   "country": "United States",
+   "metro": "Saint Paul",
+   "state": "MN",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-como-zoo-conservatory/",
+   "about": "Kick off WiCyS Minnesota affiliate’s first-ever Winter Walk & Talks at the Holiday Flower Show! Join them to stroll the Conservatory and Sunken Garden, plus the zoo, for anyone who wants to bundle up for the outdoor path",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "141bc522a663",
    "title": "Soldering Village Workshop",
    "start": "2026-12-12T11:00-05:00",
@@ -5663,6 +5716,34 @@
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 1,
    "cancelledAt": "2026-11-22T12:50-05:00"
+  },
+  {
+   "id": "3c4eda69e216",
+   "title": "WiCyS Central Alabama Affiliate | IT & Security Holiday & End-of-Year Party",
+   "start": "2026-12-14T16:00+00:00",
+   "end": "2026-12-14T19:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Fairway Social",
+   "online": false,
+   "city": "Birmingham",
+   "country": "United States",
+   "metro": "Birmingham",
+   "state": "AL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/",
+   "about": "Join the WiCyS Central Alabama Affiliate for an in-person Christmas and year-end bash for the IT and security crew to celebrate, unwind, and have a blast! Join your local IT and Security groups (CA-ISSA, CSA, DC205, Infr",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
   },
   {
    "id": "70a78c96fbb8",
@@ -5853,6 +5934,35 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-18T13:52-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d641c1caac8c",
+   "title": "Webinar | Building a Defense-in-Depth AI Security Strategy on AWS",
+   "start": "2026-12-15T13:00+00:00",
+   "end": "2026-12-15T14:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/webinar-building-a-defense-in-depth-ai-security-strategy-on-aws/",
+   "about": "As organizations race to deploy generative AI, security teams must combat prompt injection, jailbreaking, and data leakage alongside traditional risks. In this WiCyS webinar, Amazon Web Services presents a defense-in-dep",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -6102,6 +6212,66 @@
    ],
    "changedAt": "2026-11-16T23:11-05:00",
    "cancelledAt": "2026-11-20T13:37-05:00"
+  },
+  {
+   "id": "86321fbc6c3c",
+   "title": "From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap",
+   "start": "2026-12-16T12:00-05:00",
+   "end": "2026-12-16T13:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Iselin",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/",
+   "about": "New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot, but deployment alone does not guarantee productivity gains, workflow transformation, or measurable returns. The real opportunity li",
+   "source": "NJ Business and Tech",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "Now Dec 16 at 12:00 PM (was Nov 30 at 1:30 PM)"
+   ],
+   "changedAt": "2026-11-23T17:03-05:00"
+  },
+  {
+   "id": "87f74fdc2a89",
+   "title": "Webinar | Security Across the Stack: Coordinating Across Teams from First Ticket to Fix",
+   "start": "2026-12-16T13:00+00:00",
+   "end": "2026-12-16T14:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/webinar-security-across-the-stack-coordinating-across-teams-from-first-ticket-to-fix/",
+   "about": "Security incidents rarely stay within one team. In this WiCyS webinar, four ServiceNow practitioners follow a fictional vulnerability from the first customer ticket to the final customer update and show how customer secu",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
   },
   {
    "id": "82fabc9a6149",
@@ -6484,6 +6654,34 @@
    "seq": 0
   },
   {
+   "id": "8404855a0608",
+   "title": "Empower Decision Makers with Generative AI",
+   "start": "2026-12-18T10:00-05:00",
+   "end": "2026-12-18T18:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Iselin",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/",
+   "about": "New Jersey Business and Tech Meetup Discover how Generative AI can improve business decision-making, streamline operations, and drive innovation with this **COMPLIMENTARY** session. Explore Google's generative AI tools, ",
+   "source": "NJ Business and Tech",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "d3c9195a79a3",
    "title": "Third Friday Lockpicking Workshop",
    "start": "2026-12-18T18:00-05:00",
@@ -6617,6 +6815,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-20T13:37-05:00",
+   "seq": 0
+  },
+  {
+   "id": "343c126c8c9b",
+   "title": "Founders Holiday Mixer (w/ The AI Collective)",
+   "start": "2026-12-22T23:00+00:00",
+   "end": "2026-12-23T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-ogKzPlFw5EEQxpU",
+   "about": "Get up-to-date information at: https://luma.com/aic-ny-12-22 Address: Check event page for more details. Hosted by The AI Collective, Jenny Ge @ Syndicat & Jonathan K",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -7022,6 +7247,33 @@
    "seq": 0
   },
   {
+   "id": "177402c945d7",
+   "title": "WiCyS Minnesota Affiliate | Winter Walk & Talk: Minneapolis Institute of Art",
+   "start": "2027-01-09T10:00-06:00",
+   "end": "2027-01-09T12:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Minneapolis Institute of Art",
+   "online": false,
+   "city": "Minneapolis",
+   "country": "United States",
+   "metro": "Minneapolis",
+   "state": "MN",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/",
+   "about": "Join the WiCyS Minnesota Affiliate for Art, conversation, and a warm place to walk in January. Arrive by 10 am when Mia opens, and meet in the lobby outside the museum shop. Stay as long as you like! Everyone is welcome:",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "a1d9412a9980",
    "title": "M365 Con",
    "start": "2027-01-11",
@@ -7155,6 +7407,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "84ae7657619f",
+   "title": "Kodi Connect Cybersecurity (CISO) Leadership: Atlanta | Executive Networking Exchange",
+   "start": "2027-01-14T17:00+00:00",
+   "end": "2027-01-14T21:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Atlanta",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-atlanta-executive-networking-exchange/",
+   "about": "WiCyS is partnering with Kodi Connect, which hosts exclusive, invite-only gatherings that unite senior cybersecurity leaders in a highly curated, collaborative setting. Through focused discussions and meaningful peer eng",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -7320,6 +7599,33 @@
    "seq": 0
   },
   {
+   "id": "d5f51ba8d997",
+   "title": "Kodi Connect Cybersecurity (CISO) Leadership: Austin | Executive Networking Exchange",
+   "start": "2027-01-20T17:00+00:00",
+   "end": "2027-01-20T21:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Austin",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-austin-executive-networking-exchange/",
+   "about": "WiCyS is partnering with Kodi Connect, which hosts exclusive, invite-only gatherings that unite senior cybersecurity leaders in a highly curated, collaborative setting. Through focused discussions and meaningful peer eng",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
    "id": "0f46b2954b91",
    "title": "AI Builders London - Jan 20",
    "start": "2027-01-20T18:00+00:00",
@@ -7395,9 +7701,37 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-01-21/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
+   "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
+  },
+  {
+   "id": "5836ea714f47",
+   "title": "AI x Philosophy Series Session 1: Being Human in the Age of Intelligent Machines (w/ Johns Hopkins Human Capital Development Lab)",
+   "start": "2027-01-21T23:00+00:00",
+   "end": "2027-01-22T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Johns Hopkins University Bloomberg Center",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/aic-dc-1-21 Address: Johns Hopkins University Bloomberg Center Washington, DC United States Hosted by The AI Collective, Elif Nisa Polat & Mady Fredriksz",
+   "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
-   "firstSeen": "2026-11-15T12:04-05:00",
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -7452,11 +7786,7 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "changes": [
-    "Now Jan 22 at 2:00 AM (was Nov 21 at 2:00 AM)"
-   ],
-   "changedAt": "2026-11-16T08:15-05:00"
+   "seq": 1
   },
   {
    "id": "93e9a34b4cfc",
@@ -7697,10 +8027,11 @@
    "url": "https://www.wicys.org/event/wicys-sans-executive-cybersecurity-exercise/",
    "about": "The 90 minute SANS Introductory Cyber Crisis Exercise (Virtual) places participants in a realistic, facilitated cyber incident where they will work alongside peers from multiple organizations to navigate complex business",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "2898f8fc3904",
@@ -8203,14 +8534,15 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-02-18/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 2,
+   "seq": 3,
    "changes": [
     "Back on after being cancelled"
    ],
-   "changedAt": "2026-11-18T13:52-05:00"
+   "changedAt": "2026-11-18T13:52-05:00",
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "3b48206ad7ad",
@@ -8315,10 +8647,11 @@
    "url": "https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-02-20/",
    "about": "Join the WiCyS Austin Monthly Social! It’s a relaxed, casual, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "title": "The Official Cybersecurity Summit: New York (spring)",
@@ -8371,6 +8704,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "fe4473e91f2e",
+   "title": "AI Builders Barcelona - Feb 24",
+   "start": "2027-02-24T17:30+00:00",
+   "end": "2027-02-24T20:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "eDreams ODIGEO",
+   "online": false,
+   "city": "Barcelona",
+   "country": "Spain",
+   "metro": "Barcelona",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/ai-builders",
+   "about": "Get up-to-date information at: https://luma.com/bcn-feb24 Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain",
+   "source": "AI Builders",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
@@ -8449,10 +8809,11 @@
    "url": "https://www.wicys.org/event/wicys-student-chapter-leaders-only-meeting-15/2027-02-25/",
    "about": "WiCyS Student Chapter Leaders-Only Meeting: WiCyS Student Chapters are being developed and launched rapidly around the world, and help showcase the collective strength of the Women in CyberSecurity community. Each month,",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "b1c7cb0fd228",
@@ -8502,10 +8863,11 @@
    "url": "https://www.wicys.org/event/wicys-target-cyber-defense-challenge/",
    "about": "The challenge will give WiCyS members hands-on experience and a taste of what it’s like to be on a cyber defense team. From tackling intel-driven scenarios to experiencing current threats in the landscape, this challenge",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T13:59-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "de025e1fa0e6",
@@ -8929,10 +9291,11 @@
    "url": "https://www.wicys.org/event/wicys-2027-annual-conference/",
    "about": "The 13th annual Women in CyberSecurity (WiCyS) Conference is March 17-19, 2027, in Aurora, CO. The WiCyS conference is the premier event to RECRUIT, RETAIN and ADVANCE women in cybersecurity. WiCyS brings together women ",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T21:36-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "ecf0617cd62a",
@@ -8956,14 +9319,15 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-03-18/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T21:36-05:00",
-   "seq": 2,
+   "seq": 3,
    "changes": [
     "Back on after being cancelled"
    ],
-   "changedAt": "2026-11-21T12:35-05:00"
+   "changedAt": "2026-11-21T12:35-05:00",
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "id": "940813b50752",
@@ -9040,10 +9404,11 @@
    "url": "https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-03-20/",
    "about": "Join the WiCyS Austin Monthly Social! It’s a relaxed, casual, and family-friendly meetup where good conversation and great connections come easy. The hosting spots vary across Austin to better accommodate different areas",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-21T12:35-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-23T17:03-05:00"
   },
   {
    "title": "Cloud Security USA",
@@ -9096,6 +9461,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f5df225c6db2",
+   "title": "AI Builders Barcelona - Mar 24",
+   "start": "2027-03-24T17:30+00:00",
+   "end": "2027-03-24T20:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "eDreams ODIGEO",
+   "online": false,
+   "city": "Barcelona",
+   "country": "Spain",
+   "metro": "Barcelona",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/ai-builders",
+   "about": "Get up-to-date information at: https://luma.com/bcn-mar24 Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain",
+   "source": "AI Builders",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-23T17:03-05:00",
    "seq": 0
   },
   {
