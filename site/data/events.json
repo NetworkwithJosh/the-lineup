@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-23T17:03-05:00",
+ "generatedAt": "2026-11-24T00:32-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
- "count": 326,
+ "count": 328,
  "changes": {
   "new": 79,
   "updated": 5,
-  "cancelled": 19
+  "cancelled": 17
  },
  "sources": [
   {
@@ -363,7 +363,7 @@
   {
    "source": "OWASP London",
    "ok": true,
-   "events": 1
+   "events": 3
   },
   {
    "source": "OWASP Cambridge",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 62
+   "events": 61
   },
   {
    "source": "NY AI Engineers",
@@ -865,62 +865,7 @@
    "seq": 0
   },
   {
-   "id": "0a754e8e6c25",
-   "title": "The AI Collective Podcast with AJ & Catherine: Monday, Nov 23",
-   "start": "2026-11-23T17:00+00:00",
-   "end": "2026-11-23T18:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Unknown",
-   "metro": "",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/event/evt-4csaOZKt3NiBvOQ",
-   "about": "Get up-to-date information at: https://luma.com/genai-em4z Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-23T17:03-05:00"
-  },
-  {
-   "id": "d21776781217",
-   "title": "DC608 Coding Night",
-   "start": "2026-11-23T19:30-06:00",
-   "end": "2026-11-23T20:30-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Madison",
-   "country": "United States",
-   "metro": "Madison",
-   "state": "WI",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/dc608madison/events/317279553/",
-   "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
-   "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "763775ae921b",
+   "id": "42e248a06416",
    "title": "Build Your First AI Agent with n8n | AI Collective x n8n Douglasville",
    "start": "2026-11-23T23:30+00:00",
    "end": "2026-11-24T01:30+00:00",
@@ -940,10 +885,10 @@
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-qC1ZkEM7NjlIN7Y",
    "about": "Get up-to-date information at: https://luma.com/aic-do-11-23 Address: Check event page for more details. Hosted by The AI Collective, Cheryl Tibbs & Mark Michelson",
-   "source": "The AI Collective",
+   "source": "AI Collective Atlanta",
    "status": "listed",
    "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
+   "firstSeen": "2026-11-24T00:32-05:00",
    "seq": 0
   },
   {
@@ -3053,6 +2998,33 @@
    "seq": 0
   },
   {
+   "id": "3b9b06d6b17f",
+   "title": "OWASP London Chapter Meetup -NOTE: REGISTER ON EVENTBRITE!",
+   "start": "2026-12-02T18:00+00:00",
+   "end": "2026-12-02T21:00+00:00",
+   "allDay": false,
+   "tz": "Europe/London",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "London",
+   "country": "United Kingdom",
+   "metro": "London",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-london/events/317559603/",
+   "about": "OWASP London Chapter **NOTE: REGISTRATION IS ON EVENTBRITE** You can register to attend this event here: [https://www.eventbrite.co.uk/e/2004987896772](https://www.eventbrite.co.uk/e/2004987896772/?aff=mu)",
+   "source": "OWASP London",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T00:32-05:00",
+   "seq": 0
+  },
+  {
    "id": "29dce89e585a",
    "title": "OWASP Melbourne - December 2026 Lean Coffee Style Meetup",
    "start": "2026-12-02T18:00+11:00",
@@ -3342,7 +3314,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-DQisopGtHNvKpHw",
-   "about": "Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective & 8 others",
+   "about": "Get up-to-date information at: https://luma.com/fundorfold Address: Check event page for more details. Hosted by The AI Collective & 9 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -4838,6 +4810,34 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
+  },
+  {
+   "id": "98737f561a9d",
+   "title": "OWASP AI & Agentic Security Summit - Register on Luma",
+   "start": "2026-12-09T10:00+00:00",
+   "end": "2026-12-09T19:00+00:00",
+   "allDay": false,
+   "tz": "Europe/London",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "London",
+   "country": "United Kingdom",
+   "metro": "London",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-london/events/317560325/",
+   "about": "OWASP London Chapter Register here: https://luma.com/cyc69yq9 ## OWASP GeAI Project Agentic AI Security Summit Europe, 2026 Join OWASP GenAI Security Project leaders, researchers and security practitioners for a full day",
+   "source": "OWASP London",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T00:32-05:00",
+   "seq": 0
   },
   {
    "id": "448a299559d9",
@@ -7867,6 +7867,33 @@
    "source": "Checked by hand",
    "status": "confirmed",
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "080255892b95",
+   "title": "DC608 Coding Night",
+   "start": "2027-01-25T19:30-06:00",
+   "end": "2027-01-25T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/hgpsttykccbhc/",
+   "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T00:32-05:00",
    "seq": 0
   },
   {

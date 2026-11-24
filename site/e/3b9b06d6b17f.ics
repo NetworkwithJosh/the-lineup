@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3b9b06d6b17f@the-lineup
+DTSTAMP:20261124T053308Z
+SEQUENCE:0
+DTSTART:20261202T180000Z
+DTEND:20261202T210000Z
+SUMMARY:OWASP London Chapter Meetup -NOTE: REGISTER ON EVENTBRITE!
+LOCATION:Location on listing\, London\, United Kingdom
+DESCRIPTION:OWASP London Chapter **NOTE: REGISTRATION IS ON EVENTBRITE** You can register to attend this event here: [https://www.eventbrite.co.uk/e/2004987896772](https://www.eventbrite.co.uk/e/2004987896772/?aff=mu) https://www.meetup.com/owasp-london/events/317559603/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-london/events/317559603/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
