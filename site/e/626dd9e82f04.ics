@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:626dd9e82f04@the-lineup
-DTSTAMP:20261124T053308Z
-SEQUENCE:0
+DTSTAMP:20261124T204114Z
+SEQUENCE:1
 DTSTART:20261203T230000Z
 DTEND:20261204T020000Z
-SUMMARY:Aikido Security Networking Event
-LOCATION:Kindling | Downtown Cookout & Cocktails\, Chicago\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/z6m4qolh Address: Kindling | Downtown Cookout & Cocktails Chicago\, IL United States Hosted by Lauren Sikora & louis jonckheere https://luma.com/aikidosecurity
+SUMMARY:Aikido Security Networking Happy Hour
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/z6m4qolh Address: Check event page for more details. Hosted by Lauren Sikora\, louis jonckheere & Jeff Poczatek https://luma.com/event/evt-1JqwZlvcnXdGHCH
 STATUS:CONFIRMED
-URL:https://luma.com/aikidosecurity
+URL:https://luma.com/event/evt-1JqwZlvcnXdGHCH
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

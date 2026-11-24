@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e82b9de95042@the-lineup
+DTSTAMP:20261124T204114Z
+SEQUENCE:0
+DTSTART:20270112T020000Z
+DTEND:20270112T050000Z
+SUMMARY:Demo Night @ AIT SJ • Jan 11 🛠️🤖
+LOCATION:California Miramar University - San Jose\, San Jose\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/dymahd8g Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya & 3 others https://luma.com/techequity-ai-community
+STATUS:CONFIRMED
+URL:https://luma.com/techequity-ai-community
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

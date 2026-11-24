@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cf171a35c97e@the-lineup
+DTSTAMP:20261124T204114Z
+SEQUENCE:0
+DTSTART:20261201T223000Z
+DTEND:20261202T013000Z
+SUMMARY:Vibe Night in Sandy Springs (w/ The AI Collective)
+LOCATION:Hudson Grille Sandy Springs\, Sandy Springs\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-us-12-1 Address: Hudson Grille Sandy Springs Sandy Springs\, GA United States Hosted by The AI Collective & 3 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

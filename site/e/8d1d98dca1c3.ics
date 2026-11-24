@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8d1d98dca1c3@the-lineup
+DTSTAMP:20261124T204114Z
+SEQUENCE:0
+DTSTART:20261201T170000Z
+DTEND:20261201T190000Z
+SUMMARY:[Virtual] Google Agents in Production for Enterprises with Oracle
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:NYC Big Data Meetup **Important:** Register on the[ ](https://www.aicamp.ai/event/eventdetails/W2026101209)[Event Website](https://www.aicamp.ai/event/eventdetails/W2026120109) to receive the joining link. (RSVP on Meetu https://www.meetup.com/big-data/events/317563636/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/big-data/events/317563636/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

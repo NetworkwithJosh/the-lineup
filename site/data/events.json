@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-24T00:32-05:00",
+ "generatedAt": "2026-11-24T15:40-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
  "count": 328,
  "changes": {
-  "new": 79,
-  "updated": 5,
-  "cancelled": 17
+  "new": 76,
+  "updated": 7,
+  "cancelled": 23
  },
  "sources": [
   {
@@ -103,12 +103,12 @@
   {
    "source": "NYC Big Data / AI",
    "ok": true,
-   "events": 1
+   "events": 2
   },
   {
    "source": "Microsoft Reactor New York",
    "ok": true,
-   "events": 8
+   "events": 7
   },
   {
    "source": "AWS New York",
@@ -398,7 +398,7 @@
   {
    "source": "Div0 Singapore",
    "ok": true,
-   "events": 2
+   "events": 1
   },
   {
    "source": "OWASP New Zealand",
@@ -703,7 +703,7 @@
   {
    "source": "Cycore Secure",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "CloudSEK Events",
@@ -723,7 +723,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 61
+   "events": 58
   },
   {
    "source": "NY AI Engineers",
@@ -738,17 +738,17 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 27
+   "events": 28
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 5
+   "events": 6
   },
   {
    "source": "AI Collective Atlanta",
    "ok": true,
-   "events": 3
+   "events": 5
   },
   {
    "source": "confs.tech: security",
@@ -914,10 +914,11 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316683505/",
    "about": "Microsoft Reactor New York Crear un agente lleva diez minutos. Gobernarlo, no. En esta sesión vemos lo que pasa después del \"qué chulo\": permisos sobre datos internos, DLPs, licencias y costes reales de los agentes en Co",
    "source": "Microsoft Reactor New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "a308e5971d63",
@@ -941,10 +942,11 @@
    "url": "https://luma.com/event/evt-IEXavRs9KvsZTJ0",
    "about": "Get up-to-date information at: https://luma.com/aic-sw-ws-series-3 Hosted by The AI Collective & Neelima Misra",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T13:59-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "0b00da2da836",
@@ -970,10 +972,11 @@
    "url": "https://www.wicys.org/event/webinar-from-design-to-deploy-continuous-security-with-aws-security-agent/",
    "about": "As organizations struggle with manual penetration testing, code review bottlenecks, and outdated threat models, the AWS Security Agent changes the equation by proactively securing applications from design through deploym",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1
+   "seq": 2,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "efcf61051be7",
@@ -998,10 +1001,11 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/317164178/",
    "about": "Microsoft Reactor New York Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements, connect it to a .NET backend and dashboard, and create a first end-to-end interaction. This hands-",
    "source": "Microsoft Reactor New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "1e0949e7a84b",
@@ -1025,10 +1029,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/aic-ta-11-24 Address: Builders House 1st floor (Etaj 1), Open Space area București, Romania Hosted by The AI Collective & 8 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "3799934c8ffa",
@@ -1052,10 +1057,11 @@
    "url": "https://luma.com/event/evt-JUcqkT7kGgvIS7Y",
    "about": "Get up-to-date information at: https://luma.com/aic-du-11-24 Hosted by The AI Collective & AI Governance Corridor",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-21T12:35-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "595c8233d2aa",
@@ -1079,10 +1085,11 @@
    "url": "https://luma.com/event/evt-AugGgSt8JozkbRV",
    "about": "Get up-to-date information at: https://luma.com/aic-sw-11-24 Hosted by The AI Collective & 4 others",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "fec077ee404e",
@@ -1106,10 +1113,11 @@
    "url": "https://luma.com/event/evt-2ww88d7v3XpT4gu",
    "about": "Get up-to-date information at: https://luma.com/genai-jymn Address: Check event page for more details. Hosted by The AI Collective, AJ Green & Catherine McMillan",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "df10303b3c5c",
@@ -1134,10 +1142,11 @@
    "url": "https://www.meetup.com/div0_sg/events/317492865/",
    "about": "Division Zero (Div0) – Singapore Cybersecurity Community Brought to you by Div0's AI Security Quarter (AISQ), together with C4AIL, Relw.AI and ARCS. Register via Luma ([https://luma.com/fzc6yw8r](https://luma.com/fzc6yw8",
    "source": "Div0 Singapore",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-19T13:59-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "26ff4ef77a58",
@@ -1932,6 +1941,33 @@
    "seq": 0
   },
   {
+   "id": "e0d66d1026d8",
+   "title": "Meet and Greet",
+   "start": "2026-11-28T10:00+00:00",
+   "end": "2026-11-28T14:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-zJcuExdCJpOWm6s",
+   "about": "Get up-to-date information at: https://luma.com/aic-kul-20261128 Address: Check event page for more details. Hosted by The AI Collective, Jean Ng & FIRUZ ALIMOV",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
    "id": "ca13e3b028fe",
    "title": "Study Hall / Work on CTFs",
    "start": "2026-11-28T11:00-05:00",
@@ -2362,6 +2398,34 @@
    "seq": 0
   },
   {
+   "id": "8d1d98dca1c3",
+   "title": "[Virtual] Google Agents in Production for Enterprises with Oracle",
+   "start": "2026-12-01T12:00-05:00",
+   "end": "2026-12-01T14:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/big-data/events/317563636/",
+   "about": "NYC Big Data Meetup **Important:** Register on the[ ](https://www.aicamp.ai/event/eventdetails/W2026101209)[Event Website](https://www.aicamp.ai/event/eventdetails/W2026120109) to receive the joining link. (RSVP on Meetu",
+   "source": "NYC Big Data / AI",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
    "id": "a1a354c86f2a",
    "title": "PHX~CURRENTS",
    "start": "2026-12-01T12:00-07:00",
@@ -2637,6 +2701,33 @@
    "seq": 0
   },
   {
+   "id": "cf171a35c97e",
+   "title": "Vibe Night in Sandy Springs (w/ The AI Collective)",
+   "start": "2026-12-01T22:30+00:00",
+   "end": "2026-12-02T01:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Hudson Grille Sandy Springs",
+   "online": false,
+   "city": "Sandy Springs",
+   "country": "United States",
+   "metro": "Sandy Springs",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/genai-collective",
+   "about": "Get up-to-date information at: https://luma.com/aic-us-12-1 Address: Hudson Grille Sandy Springs Sandy Springs, GA United States Hosted by The AI Collective & 3 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
    "id": "a3e6e0479f15",
    "title": "Stamford AI Meetup | w/ The AI Collective",
    "start": "2026-12-01T23:00+00:00",
@@ -2737,7 +2828,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-TJBoc37gxop6DiF",
-   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 6 others",
+   "about": "Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 7 others",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
@@ -3451,11 +3542,14 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316696251/",
    "about": "Microsoft Reactor New York What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry",
    "source": "Microsoft Reactor New York",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
+   "status": "listed",
+   "cancelReason": null,
    "firstSeen": "2026-11-20T21:50-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-23T17:03-05:00"
+   "seq": 2,
+   "changes": [
+    "Back on after being cancelled"
+   ],
+   "changedAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "7d51cdc18409",
@@ -3506,7 +3600,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-vq68NeVmLEQdg6R",
-   "about": "Get up-to-date information at: https://luma.com/aic-la-12-3 Hosted by The AI Collective & Harmony Abayomi",
+   "about": "Get up-to-date information at: https://luma.com/aic-la-12-3 Hosted by The AI Collective, Harmony Abayomi & Pablo Naicker",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -3759,30 +3853,34 @@
   },
   {
    "id": "626dd9e82f04",
-   "title": "Aikido Security Networking Event",
+   "title": "Aikido Security Networking Happy Hour",
    "start": "2026-12-03T23:00+00:00",
    "end": "2026-12-04T02:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "Kindling | Downtown Cookout & Cocktails",
+   "venue": "Location on listing",
    "online": false,
-   "city": "Chicago",
-   "country": "United States",
-   "metro": "Chicago",
-   "state": "IL",
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/aikidosecurity",
-   "about": "Get up-to-date information at: https://luma.com/z6m4qolh Address: Kindling | Downtown Cookout & Cocktails Chicago, IL United States Hosted by Lauren Sikora & louis jonckheere",
+   "url": "https://luma.com/event/evt-1JqwZlvcnXdGHCH",
+   "about": "Get up-to-date information at: https://luma.com/z6m4qolh Address: Check event page for more details. Hosted by Lauren Sikora, louis jonckheere & Jeff Poczatek",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-19T13:59-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Location on listing"
+   ],
+   "changedAt": "2026-11-24T15:40-05:00"
   },
   {
    "id": "3f866d62f1d9",
@@ -5144,7 +5242,7 @@
   },
   {
    "id": "ef7a8a2c5dba",
-   "title": "AI Tinkerers San Jose · Demo Night 🛠️🤖",
+   "title": "Demo Night @ AIT SJ • Dec 09 🛠️🤖",
    "start": "2026-12-10T02:00+00:00",
    "end": "2026-12-10T05:00+00:00",
    "allDay": false,
@@ -5444,6 +5542,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "673839260c3f",
+   "title": "Builders Night: ATL",
+   "start": "2026-12-10T23:00+00:00",
+   "end": "2026-12-11T00:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "RenderATL HQ & Tech Lounge",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/aicatl",
+   "about": "Get up-to-date information at: https://luma.com/xudhizgs Address: RenderATL HQ & Tech Lounge Atlanta, GA United States Hosted by RenderATL, Coder & Agentic AI Foundation",
+   "source": "AI Collective Atlanta",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
    "seq": 0
   },
   {
@@ -5967,7 +6092,7 @@
   },
   {
    "id": "3f2afccc995b",
-   "title": "AI Builders Brussels",
+   "title": "AI Builders Brussels - Bring Your Own Laptop Edition - Dec 15",
    "start": "2026-12-15T17:00+00:00",
    "end": "2026-12-15T20:00+00:00",
    "allDay": false,
@@ -6654,6 +6779,34 @@
    "seq": 0
   },
   {
+   "id": "4b29a67ae135",
+   "title": "Health Tech Flock + Cycore Meetup",
+   "start": "2026-12-17T22:30+00:00",
+   "end": "2026-12-18T00:30+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Rum Room Restaurant & Venu",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/cycore-secure",
+   "about": "Get up-to-date information at: https://luma.com/yo2sgij1 Address: Rum Room Restaurant & Venu Miami Beach, FL United States Hosted by Dave Boerner & Kevin Barona",
+   "source": "Cycore Secure",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
    "id": "8404855a0608",
    "title": "Empower Decision Makers with Generative AI",
    "start": "2026-12-18T10:00-05:00",
@@ -7327,6 +7480,33 @@
    "seq": 0
   },
   {
+   "id": "e82b9de95042",
+   "title": "Demo Night @ AIT SJ • Jan 11 🛠️🤖",
+   "start": "2027-01-12T02:00+00:00",
+   "end": "2027-01-12T05:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "California Miramar University - San Jose",
+   "online": false,
+   "city": "San Jose",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/techequity-ai-community",
+   "about": "Get up-to-date information at: https://luma.com/dymahd8g Address: California Miramar University - San Jose San Jose, CA United States Hosted by Amer Yahya & 3 others",
+   "source": "TechEquity AI (Silicon Valley)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
    "id": "a39963315ea4",
    "title": "AI Agent Workshop + Company Brain Hackathon",
    "start": "2027-01-12T17:00+00:00",
@@ -7701,11 +7881,41 @@
    "url": "https://www.wicys.org/event/wicys-senior-leaders-network-2-2-2/2027-01-21/",
    "about": "The Executive Leaders Network brings together top cybersecurity leaders to share insights, solve challenges, and build a trusted community of peers. In a field that is constantly changing and where leadership can often f",
    "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
+   "status": "listed",
+   "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-23T17:03-05:00"
+   "seq": 2,
+   "changes": [
+    "Back on after being cancelled"
+   ],
+   "changedAt": "2026-11-24T15:40-05:00"
+  },
+  {
+   "id": "7659a853e2b7",
+   "title": "AI Builders Barcelona - Jan 21",
+   "start": "2027-01-21T17:30+00:00",
+   "end": "2027-01-21T20:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "eDreams ODIGEO",
+   "online": false,
+   "city": "Barcelona",
+   "country": "Spain",
+   "metro": "Barcelona",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/ai-builders",
+   "about": "Get up-to-date information at: https://luma.com/bcn-jan21 Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain",
+   "source": "AI Builders",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
   },
   {
    "id": "5836ea714f47",
