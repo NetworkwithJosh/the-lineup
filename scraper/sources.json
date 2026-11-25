@@ -1238,6 +1238,6 @@
       "drop_unplaced": true
     }
   ],
-  "submissions_csv": "",
+  "submissions_csv": "https://docs.google.com/spreadsheets/d/1At5JtqQWBX6r5Ac3Uhcl9QDB2MJsK1yBhEGjFuZIqyI/gviz/tq?tqx=out:csv&sheet=Approved",
   "_note_submissions": "Published CSV of the Approved tab of the submissions sheet. Empty = off."
 }

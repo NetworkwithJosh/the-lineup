@@ -34,7 +34,7 @@ h2{font:500 .78rem/1 "Geist Mono",ui-monospace,monospace;letter-spacing:.08em;te
 <p class="lede">Free or paid events that are open to the public: chapter meetings (ISACA, ISSA, OWASP, ISC2, CSA), DEF CON groups and CitySec nights, BSides, AI and cloud user groups, career and networking nights. No sales webinars or private events. Every submission is checked by a person before it goes live, usually within a few days.</p>
 <div class="formbox" id="formbox"><p class="lede">The form is loading. If it doesn't show up, <a id="formlink" href="#">open it in a new tab</a>.</p></div>
 <script>
-  const FORM = "";  // Google Form link (viewform). Set once the form exists.
+  const FORM = "https://docs.google.com/forms/d/e/1FAIpQLScPyhhcYiZ8YPYWSBUaIGwtOPQv2QklPkd4g6of_osWGKq9Tw/viewform";  // Google Form link (viewform). Set once the form exists.
   if (FORM) {
     document.getElementById("formlink").href = FORM;
     document.getElementById("formbox").innerHTML = `<iframe src="${FORM}?embedded=true" title="Submit a meetup" loading="lazy"></iframe><p class="lede" style="margin-top:12px">Trouble with the form? <a href="${FORM}" target="_blank" rel="noopener">Open it in a new tab</a>.</p>`;
