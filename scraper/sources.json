@@ -1192,7 +1192,9 @@
       "name": "The AI Collective",
       "tags": [
         "ai"
-      ]
+      ],
+      "skip_titles": "podcast|movie|music night|poker|party|celebration|office hours?|ecosystem partner|trumpet|yoga|wellness|sound bath|book club|watch party|livestream",
+      "drop_unplaced": true
     },
     {
       "slug": "nyaiengineers",
@@ -1213,21 +1215,27 @@
       "name": "AI Builders",
       "tags": [
         "ai"
-      ]
+      ],
+      "skip_titles": "podcast|movie|music night|poker|party|celebration|office hours?|ecosystem partner|trumpet|yoga|wellness|sound bath|book club|watch party|livestream",
+      "drop_unplaced": true
     },
     {
       "slug": "techequity-ai-community",
       "name": "TechEquity AI (Silicon Valley)",
       "tags": [
         "ai"
-      ]
+      ],
+      "skip_titles": "podcast|movie|music night|poker|party|celebration|office hours?|ecosystem partner|trumpet|yoga|wellness|sound bath|book club|watch party|livestream",
+      "drop_unplaced": true
     },
     {
       "slug": "aicatl",
       "name": "AI Collective Atlanta",
       "tags": [
         "ai"
-      ]
+      ],
+      "skip_titles": "podcast|movie|music night|poker|party|celebration|office hours?|ecosystem partner|trumpet|yoga|wellness|sound bath|book club|watch party|livestream",
+      "drop_unplaced": true
     }
   ],
   "submissions_csv": "",

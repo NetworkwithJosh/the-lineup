@@ -51,10 +51,12 @@ def page(title: str, desc: str, canonical: str, body: str, ld: str = "") -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="The Lineup"><meta property="og:image" content="{BASE}/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0b0d10">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>{STYLE}</style>{ld}</head>
+<style>{STYLE}</style>{ld}<script src="/a.js" defer></script></head>
 <body><div class="wrap"><a class="top" href="/"><i></i>The Lineup</a>{body}
 <p class="foot">The Lineup lists events other people organize and refreshes every day. Check the organizer's page before you go.</p></div></body></html>
 """
@@ -69,12 +71,84 @@ def when(e: dict) -> tuple[str, str]:
     return f"{d:%a} {d:%b} {d.day}", d.strftime("%I:%M %p").lstrip("0")
 
 
+COUNTRY_CODES = {"United States": "US", "Canada": "CA", "United Kingdom": "GB", "Australia": "AU", "Germany": "DE", "France": "FR",
+                 "Netherlands": "NL", "India": "IN", "Singapore": "SG", "Ireland": "IE", "Spain": "ES", "Italy": "IT", "Brazil": "BR",
+                 "Japan": "JP", "New Zealand": "NZ", "Belgium": "BE", "Sweden": "SE", "Switzerland": "CH", "Finland": "FI",
+                 "Mexico": "MX", "Israel": "IL", "United Arab Emirates": "AE", "Poland": "PL", "Portugal": "PT", "Denmark": "DK"}
+
+
 def event_ld(e: dict) -> dict:
-    return {"@type": "Event", "name": e["title"], "startDate": e["start"], "endDate": e["end"],
-            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-            "eventStatus": "https://schema.org/EventScheduled", "url": e.get("url") or BASE,
-            "location": {"@type": "Place", "name": e.get("venue") or e["city"],
-                         "address": {"@type": "PostalAddress", "addressLocality": e["city"], "addressRegion": e["state"], "addressCountry": "US"}}}
+    online = bool(e.get("online"))
+    ld = {"@type": "Event", "name": e["title"], "startDate": e["start"], "endDate": e["end"],
+          "eventAttendanceMode": "https://schema.org/" + ("OnlineEventAttendanceMode" if online else "OfflineEventAttendanceMode"),
+          "eventStatus": "https://schema.org/" + ("EventCancelled" if e["status"] == "cancelled" else "EventScheduled"),
+          "image": [f"{BASE}/og.png"], "url": e.get("url") or BASE,
+          "organizer": {"@type": "Organization", "name": re.sub(r" \((?:CSNP|DEF CON.*?)\)$", "", e.get("source") or "The Lineup"), "url": e.get("url") or BASE}}
+    if e.get("about"):
+        ld["description"] = e["about"][:300]
+    if online:
+        ld["location"] = {"@type": "VirtualLocation", "url": e.get("url") or BASE}
+    else:
+        addr = {"@type": "PostalAddress", "addressLocality": e["city"] if e["city"] != "Location on listing" else ""}
+        if e.get("state"):
+            addr["addressRegion"] = e["state"]
+        if e.get("country") in COUNTRY_CODES:
+            addr["addressCountry"] = COUNTRY_CODES[e["country"]]
+        venue = e.get("venue") if e.get("venue") not in (None, "", "Location on listing") else e["city"]
+        ld["location"] = {"@type": "Place", "name": venue, "address": addr}
+    cost = (e.get("cost") or "").lower()
+    if cost.startswith("free"):
+        ld["isAccessibleForFree"] = True
+        ld["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "USD", "url": e.get("url") or BASE, "availability": "https://schema.org/InStock"}
+    else:
+        m = re.search(r"\$\s?(\d+(?:\.\d{2})?)", e.get("cost") or "")
+        if m:
+            ld["offers"] = {"@type": "Offer", "price": m.group(1), "priceCurrency": "USD", "url": e.get("url") or BASE, "availability": "https://schema.org/InStock"}
+    return ld
+
+
+def event_slug(e: dict) -> str:
+    return (slug(e["title"])[:60].strip("-") or "event") + "-" + e["id"][:8]
+
+
+def build_events(events: list[dict], state_names: dict, now: datetime, site: Path) -> list[str]:
+    """One crawlable page per upcoming event, with Google's Event markup so it can show up in event search."""
+    import json
+    out = site / "event"
+    shutil.rmtree(out, ignore_errors=True)
+    out.mkdir(parents=True)
+    esc = html.escape
+    urls = []
+    for x in events:
+        if x["status"] == "cancelled":
+            continue
+        sl = event_slug(x)
+        day, t = when(x)
+        d0 = date.fromisoformat(x["start"][:10])
+        place = "Online" if x.get("online") else ", ".join(v for v in dict.fromkeys([
+            x.get("venue") if x.get("venue") not in (x["city"], "Location on listing") else "",
+            x["city"] if x["city"] != "Location on listing" else "",
+            state_names.get(x.get("state"), "") if x.get("state") else (x["country"] if x["country"] not in ("Unknown", "Online") else "")]) if v)
+        where_short = "online" if x.get("online") else (x["city"] if x["city"] != "Location on listing" else x["country"])
+        title = f"{x['title']} | {d0:%b} {d0.day}, {d0.year} | The Lineup"
+        desc = (f"{x['title']} on {d0:%A, %B} {d0.day}" + (f", {where_short}" if where_short and where_short != "Unknown" else "")
+                + f". {', '.join(TAG.get(t, t) for t in x['tags'])} event. " + (x.get("about") or "")[:110]).strip()
+        ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", **event_ld(x)}) + "</script>"
+        st = x.get("state")
+        back = (f'<a class="btn" href="/us/{slug(state_names[st])}/">More in {esc(state_names[st])}</a>' if st in state_names else "")
+        body = (f'<p class="when" style="margin:0 0 8px"><b style="display:inline">{esc(day)}</b> · {esc(t)}</p>'
+                f"<h1>{esc(x['title'])}</h1>"
+                f'<p class="lede">{esc(place or "Location on listing")}'
+                f'{" · " + esc(x["cost"]) if x.get("cost") and x["cost"] != "Check listing" else ""}</p>'
+                + (f'<p class="lede">{esc(x["about"])}</p>' if x.get("about") else "")
+                + '<div class="cta">'
+                + (f'<a class="btn btn--solid" href="{esc(x["url"])}" rel="noopener">Details and RSVP</a>' if x.get("url") else "")
+                + f'<a class="btn" href="/e/{x["id"]}.ics">Add to calendar</a>{back}<a class="btn" href="/">All events</a></div>'
+                f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>')
+        (out / sl).mkdir(parents=True, exist_ok=True)
+        (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld))
+        urls.append(f"{BASE}/event/{sl}/")
+    return urls
 
 
 def build(events: list[dict], state_names: dict, write_ics, now: datetime, site: Path) -> list[str]:
@@ -107,7 +181,7 @@ def build(events: list[dict], state_names: dict, write_ics, now: datetime, site:
                 month = m
             day, t = when(x)
             where = ", ".join(v for v in dict.fromkeys([x.get("venue") if x.get("venue") not in (x["city"], "Location on listing") else "", x["city"]]) if v and v != "Location on listing")
-            title = f'<a href="{e(x["url"])}" rel="noopener">{e(x["title"])}</a>' if x.get("url") else e(x["title"])
+            title = f'<a href="/event/{event_slug(x)}/">{e(x["title"])}</a>'
             rows.append(f'<article class="ev"><div class="when"><b>{e(day)}</b>{e(t)}</div><div><h3>{title}</h3>'
                         f'<p class="meta">{e(where)}{" · " + e(x["cost"]) if x.get("cost") and x["cost"] != "Check listing" else ""}</p>'
                         f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])}</div></div></article>')

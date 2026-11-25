@@ -11,7 +11,12 @@
 <meta property="og:url" content="https://thelineup.dev/">
 <meta property="og:title" content="The Lineup: cyber, AI and IT meetups you can actually make">
 <meta property="og:description" content="Cybersecurity, AI and IT meetups and conferences worldwide, updated every day. Tell it when you get off work and it shows what you can still make.">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://thelineup.dev/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="The Lineup">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://thelineup.dev/og.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Lineup","url":"https://thelineup.dev/","description":"Cybersecurity, AI and IT meetups and conferences worldwide, updated every day."}</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
 <link rel="alternate" type="text/calendar" title="The Lineup feed" href="lineup.ics">
@@ -139,6 +144,12 @@
   .ev__act { display: flex; flex-direction: column; gap: var(--sc-1); align-items: flex-end; }
   .btn { display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; padding: 0.35rem 0.65rem; border-radius: var(--sc-r-sm); border: 1px solid var(--sc-hairline-strong); background: transparent; color: var(--sc-ink); cursor: pointer; text-decoration: none; white-space: nowrap; transition: border-color 150ms var(--sc-ease-out), background-color 150ms var(--sc-ease-out), transform 120ms var(--sc-ease-out); }
   .btn:active { transform: scale(0.97); }
+  .near { display: flex; gap: var(--sc-2); align-items: center; flex-wrap: wrap; }
+  .near .pick { flex: 1 1 130px; width: auto; }
+  #near-btn[aria-pressed="true"] { background: var(--sc-accent); color: #17120a; border-color: var(--sc-accent); }
+  .near__msg { margin: var(--sc-2) 0 0; font-size: 0.8rem; color: var(--sc-ink-dim); }
+  .near__msg[hidden], .near .pick[hidden] { display: none; }
+  .is-muted { opacity: 0.4; pointer-events: none; }
   .pick-link { display: inline-block; margin-top: var(--sc-2); font-size: 0.8rem; color: var(--sc-ink-dim); }
   .pick-link:hover { color: var(--sc-accent); }
   .board__row { display: flex; align-items: center; justify-content: space-between; gap: var(--sc-3); }
@@ -204,6 +215,7 @@
   .ev.is-cx .ev__date { color: var(--sc-ink-soft); }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>
+<script src="/a.js" defer></script>
 </head>
 <body>
 <header class="bar">
@@ -250,6 +262,17 @@
       </div>
     </div>
     <div class="group">
+      <span class="sc-label">Where</span>
+      <div class="near">
+        <button class="btn" type="button" id="near-btn" aria-pressed="false">Near me</button>
+        <select class="pick" id="near-r" aria-label="Distance" hidden>
+          <option value="10">within 10 mi</option><option value="25">within 25 mi</option>
+          <option value="50" selected>within 50 mi</option><option value="100">within 100 mi</option><option value="250">within 250 mi</option>
+        </select>
+      </div>
+      <p class="near__msg" id="near-msg" hidden></p>
+    </div>
+    <div class="group" id="country-g">
       <label class="sc-label" for="country">Country</label>
       <select class="pick" id="country"></select>
     </div>
@@ -258,7 +281,7 @@
       <select class="pick" id="state"></select>
       <a class="pick-link" id="state-page" href="/us/">Every state at a glance</a>
     </div>
-    <div class="group">
+    <div class="group" id="metro-g">
       <label class="sc-label" for="metro">City</label>
       <select class="pick" id="metro"></select>
       <p class="pick-hint" id="metro-hint">Pick your city and the slider tells you what you can reach after work.</p>
@@ -334,7 +357,8 @@
 (() => {
   const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "America/New_York";
   const $ = (s) => document.querySelector(s);
-  const state = { off: 1080, trip: 45, topic: "all", when: "all", country: "", region: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
+  let NEAR = null;  // {lat, lng} for this visit only; never saved or sent anywhere
+  const state = { radius: 50, off: 1080, trip: 45, topic: "all", when: "all", country: "", region: "", metro: "", online: true, make: false, free: false, change: "", q: "" };
   const STATES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",DC:"Washington DC"};
   const NEWSLETTER = "";  // Buttondown username; the signup box stays hidden until this is set
   const slugOf = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -388,8 +412,15 @@
   const changeOf = (e) => isCx(e) ? "cancelled" : isNew(e) ? "new" : isUpd(e) ? "updated" : "";
 
   // ---------- filters
+  const milesTo = (e) => {
+    if (!NEAR || e.lat == null) return Infinity;
+    const R = 3958.8, rad = Math.PI / 180, dLat = (e.lat - NEAR.lat) * rad, dLng = (e.lng - NEAR.lng) * rad;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos(NEAR.lat * rad) * Math.cos(e.lat * rad) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  };
   function inPlace(e) {
     if (e.online) return state.online;
+    if (NEAR) return milesTo(e) <= state.radius;
     if (state.metro) return e.metro === state.metro;  // a metro can cross state lines (NYC + North Jersey)
     if (state.country && e.country !== state.country) return false;
     if (isUS() && state.region && e.state !== state.region) return false;
@@ -434,7 +465,7 @@
     return out;
   }
   const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: tzOf(e), month: "long", year: "numeric" }).format(toDate(e, "start"));
-  const placeLabel = () => state.metro || (isUS() && state.region ? STATES[state.region] : "") || state.country || "worldwide";
+  const placeLabel = () => NEAR ? `within ${state.radius} miles of you` : state.metro || (isUS() && state.region ? STATES[state.region] : "") || state.country || "worldwide";
 
   function render(animate) {
     const list = visible();
@@ -445,7 +476,7 @@
     const emptyState = isUS() && state.region && !state.metro && !EVENTS.some(e => e.state === state.region && !e.online && !isCx(e));
     if (emptyState) {
       $("#board-sub").innerHTML = `Nothing listed in ${esc(STATES[state.region])} yet${live ? `, so here ${live === 1 ? "is 1 online event" : `are ${live} online events`} you can join from there` : ""}. Know a group in ${esc(STATES[state.region])}? <a href="/submit/">Add it</a>.`;
-    } else $("#board-sub").textContent = `${live} ${noun} ${state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
+    } else $("#board-sub").textContent = `${live} ${noun} ${NEAR ? placeLabel() : state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (NEAR || state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
     if (!list.length) {
       const noneInState = isUS() && state.region && !EVENTS.some(e => e.state === state.region && !isCx(e));
       $("#list").innerHTML = noneInState
@@ -460,7 +491,8 @@
       for (const e of evs) {
         const w = when(e), r = reach(e), ch = changeOf(e);
         const where = e.online ? ["Online"] : [e.venue !== e.city ? e.venue : "", e.city + (e.state && !(isUS() && state.region) ? ", " + e.state : ""), e.country !== "United States" || !state.country ? e.country : ""];
-        const meta = [...where, e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("");
+        const mi = NEAR && !e.online ? milesTo(e) : Infinity;
+        const meta = [...where, mi < Infinity ? (mi < 1 ? "under 1 mi" : `${Math.round(mi)} mi away`) : "", e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("");
         const flag = ch === "new" ? `<span class="flag flag--new">New</span>` : ch === "updated" ? `<span class="flag flag--upd">Updated</span>` : ch === "cancelled" ? `<span class="flag flag--cx">Cancelled</span>` : "";
         const confirm = !ch && (e.status === "verify" || e.status === "recurring") ? ` <span class="ev__day">(confirm)</span>` : "";
         html += `<article class="ev${r.k === "off" && !isCx(e) ? " is-off" : ""}${isCx(e) ? " is-cx" : ""}${animate ? " is-new" : ""}">
@@ -473,7 +505,7 @@
             ${isCx(e) ? "" : `<div class="ev__reach reach--${r.k}">${esc(r.t)}</div>`}
             <div class="ev__tags">${e.tags.map(t => `<span>${({ ai: "AI", it: "IT", cyber: "Cyber" })[t] || t}</span>`).join("")}<span class="ev__src">via ${esc(({ "Checked by hand": "hand-checked list", "Standing meetup": "standing schedule" })[e.source] || e.source)}</span></div>
           </div>
-          <div class="ev__act">${isCx(e) ? "" : `<a class="btn" href="e/${e.id}.ics" data-add="${e.id}">Add to calendar</a><a class="btn btn--ghost" href="${gcal(e)}" target="_blank" rel="noopener">Google</a>`}</div>
+          <div class="ev__act">${isCx(e) ? "" : `<a class="btn" href="e/${e.id}.ics" data-add="${e.id}">Add to calendar</a><a class="btn btn--ghost" href="${gcal(e)}" target="_blank" rel="noopener">Google</a><a class="btn btn--ghost" href="/event/${eventSlug(e)}/">Details</a>`}</div>
         </article>`;
       }
       html += `</section>`;
@@ -569,6 +601,15 @@
   function syncUrl() { try { history.replaceState(null, "", viewUrl()); } catch (_) {} }
 
   // ---------- a calendar feed for the place you picked
+  function nearUi() {
+    const on = !!NEAR;
+    $("#near-btn").setAttribute("aria-pressed", String(on));
+    $("#near-btn").textContent = on ? "Near me ✓" : "Near me";
+    $("#near-r").hidden = !on; $("#near-r").value = String(state.radius);
+    $("#near-msg").hidden = !on;
+    if (on) $("#near-msg").textContent = "Using your location for this visit only. It isn't saved or sent anywhere.";
+    for (const id of ["#country-g", "#state-g", "#metro-g"]) { const g = $(id); if (g) g.classList.toggle("is-muted", on); }
+  }
   function mailBox() {
     if (!NEWSLETTER) return;
     $("#mail").hidden = false;
@@ -590,7 +631,7 @@
     ["#t-make", "#t-free"].forEach(id => $(id).setAttribute("aria-pressed", "false")); $("#t-online").setAttribute("aria-pressed", "true");
     $("#q").value = ""; save(); update(true);
   }
-  function save() { try { localStorage.setItem("lineup2", JSON.stringify({ off: state.off, trip: state.trip, country: state.country, region: state.region, metro: state.metro, topic: state.topic, online: state.online })); } catch (_) {} }
+  function save() { try { localStorage.setItem("lineup2", JSON.stringify({ off: state.off, trip: state.trip, country: state.country, region: state.region, metro: state.metro, topic: state.topic, online: state.online, radius: state.radius })); } catch (_) {} }
   function load() { try { const v = JSON.parse(localStorage.getItem("lineup2") || "null"); if (v) Object.assign(state, v); else state.country = guessCountry(); } catch (_) { state.country = guessCountry(); } }
 
   // ---------- single-event .ics
@@ -609,6 +650,10 @@
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   }
 
+  function eventSlug(e) {
+    const s = e.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60).replace(/^-+|-+$/g, "");
+    return (s || "event") + "-" + e.id.slice(0, 8);
+  }
   function gcal(e) {
     const f = (d) => icsDate(new Date(d));
     let dates;
@@ -642,6 +687,20 @@
       });
     });
     $("#country").addEventListener("change", (ev) => { state.country = ev.target.value; state.region = ""; state.metro = ""; fillStates(); save(); update(true); });
+    $("#near-btn").addEventListener("click", () => {
+      const b = $("#near-btn"), msg = $("#near-msg");
+      if (NEAR) { NEAR = null; nearUi(); update(true); return; }
+      if (!navigator.geolocation) { msg.hidden = false; msg.textContent = "Your browser can't share a location. Pick a state or city below."; return; }
+      b.textContent = "Finding you…";
+      navigator.geolocation.getCurrentPosition((pos) => {
+        NEAR = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        nearUi(); update(true);
+      }, () => {
+        b.textContent = "Near me"; msg.hidden = false;
+        msg.textContent = "Location is off for this site. Pick a state or city below instead.";
+      }, { maximumAge: 600000, timeout: 10000 });
+    });
+    $("#near-r").addEventListener("change", (ev) => { state.radius = +ev.target.value; save(); update(true); });
     $("#state").addEventListener("change", (ev) => { state.region = ev.target.value; state.metro = ""; fillStates(); save(); update(true); });
     $("#metro").addEventListener("change", (ev) => { state.metro = ev.target.value; save(); update(true); });
     [["#t-make", "make"], ["#t-free", "free"], ["#t-online", "online"]].forEach(([id, key]) => {

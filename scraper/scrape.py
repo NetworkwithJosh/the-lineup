@@ -38,7 +38,7 @@ UTC = timezone.utc
 NY = ZoneInfo("America/New_York")
 UA = "TheLineupBot/2.0 (+https://github.com/NetworkwithJosh/the-lineup; reads public calendar feeds once a day)"
 WEEKDAYS = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
-SCRAPER_VERSION = "2.5"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
+SCRAPER_VERSION = "2.6"  # bump when parsing rules change, so the next run re-baselines instead of reporting fake changes
 NEW_DAYS = 7          # how long "New" / "Updated" badges stay up
 CANCEL_KEEP_DAYS = 14  # how long a cancelled event stays on the board
 
@@ -390,8 +390,28 @@ def iso_local(dt: datetime, all_day: bool, tzname: str | None) -> str:
     return dt.astimezone(ZoneInfo(tzname) if tzname else UTC).isoformat(timespec="minutes")
 
 
+STREET = re.compile(r"\b\d{1,5}\s+(?:[NSEW]\.?\s+)?[A-Z0-9][\w.'-]*(?:\s+[\w.'-]+){0,4}\s+(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Way|Pl|Place|Ln|Lane|Pkwy|Parkway|Hwy|Highway|Sq|Square|Ct|Court|Plaza)\b\.?"
+                    r"(?:[^\n,]{0,30})?,\s*[A-Z][A-Za-z .'-]+,\s*(?:[A-Z]{2}|[A-Z][a-z]+(?: [A-Z][a-z]+)?)(?:\s+\d{5}(?:-\d{4})?)?")
+
+
+def tidy_about(text: str) -> str:
+    """Readable one-paragraph blurb from an event description full of markdown, links and boilerplate."""
+    t = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)            # images
+    t = re.sub(r"\[([^\]]+)\]\((?:[^)]*)\)", r"\1", t)          # [text](link) -> text
+    t = re.sub(r"https?://\S+", " ", t)                           # bare links
+    t = re.sub(r"(?im)^(event data from|source|event details|hosted by|get up-to-date information at)\b.*$", " ", t)
+    t = re.sub(r"[#*_>|`]+", " ", t)
+    t = re.sub(r"\s+", " ", t).strip(" -:·")
+    if len(t) > 220:
+        cut = t[:220]
+        t = (cut[:cut.rfind(" ")] if " " in cut else cut).rstrip(",;:-") + "…"
+    return t
+
+
 def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) -> dict | None:
     if src.get("skip_titles") and re.search(src["skip_titles"], e["title"], re.I):
+        return None
+    if src.get("keep_titles") and not re.search(src["keep_titles"], e["title"], re.I):
         return None
     if SKIP_TITLES.search(e["title"]):
         return None
@@ -415,6 +435,10 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
         loc = m.group(1).strip()
     if PLACEHOLDER_LOC.search(loc):
         loc = ""
+    if not loc:  # no location field: look for a street address written in the description
+        sm = STREET.search(e["description"])
+        if sm:
+            loc = sm.group(0).strip()
     p = place(loc)
     if p["country"] == "Unknown" or p["city"] == "Location on listing":
         hc, hco = hint_place(f"{e['title']} {e['description'][:300]}")
@@ -422,6 +446,8 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
             p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing", "state": ""}
     if (p["country"] == "Unknown" or p["city"] == "Location on listing") and src.get("home"):
         p = place("", src["home"])  # a local group's events default to its home city
+    if src.get("drop_unplaced") and not p["online"] and (p["country"] == "Unknown" or p["city"] == "Location on listing"):
+        return None  # big global calendars: an event we can't place on a map isn't useful to anyone
     uid = e["uid"] or norm_title(e["title"])
     key = uid if uid_counts[uid] <= 1 else f"{uid}{e['start'].date()}"
     return {
@@ -438,7 +464,7 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
         "tags": tags,
         "kind": "Conference" if e["allDay"] and e["end"].date() > e["start"].date() else ("Event" if e["allDay"] else "Meetup"),
         "url": url or src.get("page", ""),
-        "about": re.sub(r"\s+", " ", e["description"])[:220],
+        "about": tidy_about(e["description"]),
         "source": source_name,
         "status": "cancelled" if e["cancelled"] else "listed",
         "cancelReason": "Cancelled by the organizer" if e["cancelled"] else None,
@@ -795,6 +821,8 @@ def main() -> int:
     if args.offline and prev:  # offline test runs must not cancel feed events
         failed |= {e["source"] for e in prev.get("events", [])} - {"Checked by hand", "Standing meetup", "Fixture feed"}
     events = dedupe(events)
+    import geo  # coordinates for "Near me", one cached lookup per city
+    geo.attach(events, offline=args.offline)
     events, baseline, stats = track_changes(events, prev, failed, now)
     events.sort(key=lambda e: (e["start"][:10], e["start"], e["title"]))
 
@@ -818,7 +846,8 @@ def main() -> int:
             f.unlink()
     import pages  # per-state pages and feeds
     state_urls = pages.build(events, STATE_NAMES, write_ics, datetime.now(UTC), ROOT / "site")
-    urls = ["https://thelineup.dev/", "https://thelineup.dev/submit/"] + state_urls
+    event_urls = pages.build_events(events, STATE_NAMES, datetime.now(UTC), ROOT / "site")
+    urls = ["https://thelineup.dev/", "https://thelineup.dev/submit/"] + state_urls + event_urls
     (ROOT / "site" / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls)
