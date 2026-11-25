@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:0040f996dc25@the-lineup
-DTSTAMP:20261125T043713Z
+DTSTAMP:20261125T174620Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T010000Z
@@ -20,13 +20,25 @@ URL:https://www.wicys.org/event/wicys-healthcare-and-northeast-ohio-affiliates-c
 END:VEVENT
 BEGIN:VEVENT
 UID:b855b1b964cc@the-lineup
-DTSTAMP:20261125T043713Z
+DTSTAMP:20261125T174620Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T003000Z
 SUMMARY:AI Open Mic and Networking (w/ The AI Collective)
 LOCATION:Missing Falls Brewery\, Akron\, United States
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cl-12-2 Address: Missing Falls Brewery Akron\, OH United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b258a0ac4d@the-lineup
+DTSTAMP:20261125T174620Z
+SEQUENCE:0
+DTSTART:20261208T230000Z
+DTEND:20261209T013000Z
+SUMMARY:Holiday Mixer (w/ The AI Collective)
+LOCATION:Maumee Bay Brewing Company\, Toledo\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-toledo-holiday-mixer Address: Maumee Bay Brewing Company Toledo\, OH United States Hosted by The AI Collective\, Justin Beaudry & Keith Instone https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 END:VEVENT

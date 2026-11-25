@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a6b258a0ac4d@the-lineup
+DTSTAMP:20261125T174620Z
+SEQUENCE:0
+DTSTART:20261208T230000Z
+DTEND:20261209T013000Z
+SUMMARY:Holiday Mixer (w/ The AI Collective)
+LOCATION:Maumee Bay Brewing Company\, Toledo\, United States
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-toledo-holiday-mixer Address: Maumee Bay Brewing Company Toledo\, OH United States Hosted by The AI Collective\, Justin Beaudry & Keith Instone https://luma.com/genai-collective
+STATUS:CONFIRMED
+URL:https://luma.com/genai-collective
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

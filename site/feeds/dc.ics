@@ -8,19 +8,19 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:5836ea714f47@the-lineup
-DTSTAMP:20261125T043713Z
+DTSTAMP:20261125T174620Z
 SEQUENCE:0
 DTSTART:20270121T230000Z
 DTEND:20270122T013000Z
 SUMMARY:AI x Philosophy Series Session 1: Being Human in the Age of Intelligent Machines (w/ Johns Hopkins Human Capital Development Lab)
 LOCATION:Johns Hopkins University Bloomberg Center\, Washington\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dc-1-21 Address: Johns Hopkins University Bloomberg Center Washington\, DC United States Hosted by The AI Collective\, Elif Nisa Polat & Mady Fredriksz https://luma.com/genai-collective
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dc-1-21 Address: Johns Hopkins University Bloomberg Center Washington\, DC United States Hosted by The AI Collective & 9 others https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:2f7544652736@the-lineup
-DTSTAMP:20261125T043713Z
+DTSTAMP:20261125T174620Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
