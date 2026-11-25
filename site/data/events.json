@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-24T15:40-05:00",
+ "generatedAt": "2026-11-24T23:36-05:00",
  "baselineAt": "2026-11-15T18:41-05:00",
  "scraperVersion": "2.5",
  "windowDays": 180,
  "count": 328,
  "changes": {
   "new": 76,
-  "updated": 7,
-  "cancelled": 23
+  "updated": 6,
+  "cancelled": 25
  },
  "sources": [
   {
@@ -618,7 +618,7 @@
   {
    "source": "AWS Chicago",
    "ok": true,
-   "events": 3
+   "events": 2
   },
   {
    "source": "EvolveSec LA",
@@ -743,7 +743,7 @@
   {
    "source": "TechEquity AI (Silicon Valley)",
    "ok": true,
-   "events": 6
+   "events": 7
   },
   {
    "source": "AI Collective Atlanta",
@@ -1170,10 +1170,11 @@
    "url": "https://www.meetup.com/aws-chicago/events/317382216/",
    "about": "AWS Chicago User Group RSVP with IndyPy to get the Zoom info: [https://sixfeetup.zoom.us/meeting/register/QiJIN4D8QMeULjCmI7Rftw#/registration ](https://sixfeetup.zoom.us/meeting/register/QiJIN4D8QMeULjCmI7Rftw#/registra",
    "source": "AWS Chicago",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T23:36-05:00"
   },
   {
    "id": "f488763b1c19",
@@ -1197,10 +1198,11 @@
    "url": "https://luma.com/genai-collective",
    "about": "Get up-to-date information at: https://luma.com/toronto-revenue-leaders-nov24 Address: Lucie Toronto, ON Canada Hosted by The AI Collective, Melody Yang & Alykhan Kara",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T23:36-05:00"
   },
   {
    "id": "947a9c088b7e",
@@ -3440,6 +3442,33 @@
    "seq": 0
   },
   {
+   "id": "376e6265139c",
+   "title": "Practical AI at Work: Stay on brand with AI Images",
+   "start": "2026-12-03T02:00+00:00",
+   "end": "2026-12-03T03:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Location on listing",
+   "country": "Unknown",
+   "metro": "",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/event/evt-zDPHl0OT91DQ9NN",
+   "about": "Get up-to-date information at: https://luma.com/l7lm0xx0 Hosted by Bill Raymond & 3 others",
+   "source": "The AI Collective",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T23:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "2740ef290084",
    "title": "Bluehost AI Builder Tour - New York",
    "start": "2026-12-03T09:00-05:00",
@@ -5403,11 +5432,7 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "changes": [
-    "Now Dec 10 at 5:00 PM (was Nov 19 at 5:00 PM)"
-   ],
-   "changedAt": "2026-11-17T22:08-05:00"
+   "seq": 1
   },
   {
    "id": "a2299449d1ae",
@@ -5726,7 +5751,7 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/event/evt-FPjL0rPiXXii3Zy",
-   "about": "Get up-to-date information at: https://luma.com/b2b-founders-poker Address: Check event page for more details. Hosted by The AI Collective & 4 others",
+   "about": "Get up-to-date information at: https://luma.com/b2b-founders-poker Address: Check event page for more details. Hosted by The AI Collective & 6 others",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
@@ -5980,6 +6005,33 @@
    "seq": 0
   },
   {
+   "id": "90deb88ab8ad",
+   "title": "DC608 Coding Night",
+   "start": "2026-12-14T19:30-06:00",
+   "end": "2026-12-14T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/317574510/",
+   "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T23:36-05:00",
+   "seq": 0
+  },
+  {
    "id": "42f175d97182",
    "title": "DC608 Coding Night",
    "start": "2026-12-14T19:30-06:00",
@@ -6001,10 +6053,11 @@
    "url": "https://www.meetup.com/dc608madison/events/hgpsttyjcqbsb/",
    "about": "DC608 **Join the event on our Discord!** Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned program",
    "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-24T23:36-05:00"
   },
   {
    "title": "Microsoft workshop: Defender for Cloud posture management",
@@ -8131,6 +8184,33 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "bd4062d9a5ff",
+   "title": "Co-Founder Mixer Night · AIT SJ 🤖",
+   "start": "2027-01-27T02:00+00:00",
+   "end": "2027-01-27T05:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "California Miramar University - San Jose",
+   "online": false,
+   "city": "San Jose",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/techequity-ai-community",
+   "about": "Get up-to-date information at: https://luma.com/iwwbesuv Address: California Miramar University - San Jose San Jose, CA United States Hosted by Amer Yahya & 3 others",
+   "source": "TechEquity AI (Silicon Valley)",
+   "status": "listed",
+   "cancelReason": null,
+   "firstSeen": "2026-11-24T23:36-05:00",
    "seq": 0
   },
   {

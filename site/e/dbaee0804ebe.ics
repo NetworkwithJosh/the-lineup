@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:dbaee0804ebe@the-lineup
-DTSTAMP:20261124T204114Z
+DTSTAMP:20261125T043713Z
 SEQUENCE:0
 DTSTART:20261212T023000Z
 DTEND:20261212T060000Z
 SUMMARY:Poker Night for B2B Founders
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:Get up-to-date information at: https://luma.com/b2b-founders-poker Address: Check event page for more details. Hosted by The AI Collective & 4 others https://luma.com/event/evt-FPjL0rPiXXii3Zy
+DESCRIPTION:Get up-to-date information at: https://luma.com/b2b-founders-poker Address: Check event page for more details. Hosted by The AI Collective & 6 others https://luma.com/event/evt-FPjL0rPiXXii3Zy
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-FPjL0rPiXXii3Zy
 BEGIN:VALARM

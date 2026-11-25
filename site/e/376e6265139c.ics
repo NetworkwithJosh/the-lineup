@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:376e6265139c@the-lineup
+DTSTAMP:20261125T043713Z
+SEQUENCE:0
+DTSTART:20261203T020000Z
+DTEND:20261203T030000Z
+SUMMARY:Practical AI at Work: Stay on brand with AI Images
+LOCATION:Location on listing\, Location on listing
+DESCRIPTION:Get up-to-date information at: https://luma.com/l7lm0xx0 Hosted by Bill Raymond & 3 others https://luma.com/event/evt-zDPHl0OT91DQ9NN
+STATUS:CONFIRMED
+URL:https://luma.com/event/evt-zDPHl0OT91DQ9NN
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
