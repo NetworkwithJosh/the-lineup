@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8a2520a6ff2a@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:Securing Tomorrow: Aikido Security Dinner | Nashville
 LOCATION:888\, Nashville\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/securing-tomorrow-nashville Address: 888 Nashville\, TN United States Hosted by Alexa\, Brandon Brodkin & John Amaral https://luma.com/aikidosecurity
+DESCRIPTION:Address: 888 Nashville\, TN United States https://luma.com/aikidosecurity
 STATUS:CONFIRMED
 URL:https://luma.com/aikidosecurity
 BEGIN:VALARM

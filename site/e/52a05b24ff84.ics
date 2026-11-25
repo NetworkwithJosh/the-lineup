@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:52a05b24ff84@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261125T180000Z
 DTEND:20261125T210000Z
 SUMMARY:Joint CTF [IN-PERSON]: OWASP London Chapter & Security Builders Club
 LOCATION:Location on listing\, London\, United Kingdom
-DESCRIPTION:OWASP London Chapter **IMPORTANT: REGISTER on Eventbrite:** [https://www.eventbrite.co.uk/e/joint-ctf-owasp-london-chapter-security-builders-club-tickets-2004550817456?aff=mu](https://www.eventbrite.co.uk/e/joint-ctf-owa https://www.meetup.com/owasp-london/events/317357985/
+DESCRIPTION:OWASP London Chapter IMPORTANT: REGISTER on Eventbrite https://www.meetup.com/owasp-london/events/317357985/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/owasp-london/events/317357985/
 BEGIN:VALARM

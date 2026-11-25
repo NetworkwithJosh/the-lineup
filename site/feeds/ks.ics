@@ -8,13 +8,13 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:2b44fe7f838d@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261203T150000Z
 DTEND:20261203T180000Z
 SUMMARY:OpenAI Technical Practitioner Training (Lawrence\, KS)
 LOCATION:2033 Becker Dr\, Lawrence\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/OpenAITraining Address: 2033 Becker Dr Lawrence\, KS United States Hosted by The AI Collective\, Ted Kihm & Daniel Green https://luma.com/genai-collective
+DESCRIPTION:Address: 2033 Becker Dr Lawrence\, KS United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 END:VEVENT

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1628e9e6ae44@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270311T233000Z
 DTEND:20270312T013000Z
 SUMMARY:AWS GameDay - Terraform
-LOCATION:Location on listing\, Chicago\, United States
-DESCRIPTION:AWS Chicago User Group *** **Terraform & AWS GameDay** Join the Chicago AWS User Group for a Terraform & AWS GameDay\, a hands-on\, team-based challenge that puts your cloud skills to the test in ways a typical workshop do https://www.meetup.com/aws-chicago/events/317382276/
+LOCATION:71 S Wacker Dr\, Chicago\, United States
+DESCRIPTION:AWS Chicago User Group Terraform & AWS GameDay Join the Chicago AWS User Group for a Terraform & AWS GameDay\, a hands-on\, team-based challenge that puts your cloud skills to the test in ways a typical workshop doesn't.… https://www.meetup.com/aws-chicago/events/317382276/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/aws-chicago/events/317382276/
 BEGIN:VALARM

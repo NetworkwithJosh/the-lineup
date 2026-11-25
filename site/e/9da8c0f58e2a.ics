@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9da8c0f58e2a@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261205T033000Z
 DTEND:20261205T103000Z
 SUMMARY:CyberShield: Student Workshop on Cybersecurity Essentials and Digital Safety
 LOCATION:kozhikode\, Kerala\, India
-DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/580275 Source: https://events.vtools.ieee.org/m/580275 https://events.vtools.ieee.org/m/580275
+DESCRIPTION:https://events.vtools.ieee.org/m/580275
 STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/580275
 BEGIN:VALARM

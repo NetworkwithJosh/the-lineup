@@ -8,43 +8,43 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:dd98ded891e8@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Beyond Prompts: Microsoft Copilot Agents & Cowork for Business Unlocked
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information\, analyze data\, and handle tasks across different business function https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
+DESCRIPTION:New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information\, analyze data\, and handle tasks across different business… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
 END:VEVENT
 BEGIN:VEVENT
 UID:8d48d9421f1e@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261130T170000Z
 DTEND:20261130T180000Z
 SUMMARY:The Future of IT: AI\, Automation & Intelligent Networking | Free Webinar
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup ## From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 **[Register for Free – Reserve Your Seat](https://www.netcomlearning.com/webinar/from-cli-to-agenticops-fut https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
+DESCRIPTION:New Jersey Business and Tech Meetup From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 Register for Free – Reserve Your Seat AI is changing how IT teams manage networks\, troubleshoot issues\, and… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
 END:VEVENT
 BEGIN:VEVENT
 UID:7173c4098718@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:2
 DTSTART:20261202T180000Z
 DTEND:20261202T193000Z
 SUMMARY:(CS)²AI Online: Cyber-Informed Engineering (CIE): Bridging the OT Divide
 LOCATION:Location on listing\, Newark\, United States
-DESCRIPTION:Newark Cyber Security for Control Systems **Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
+DESCRIPTION:Newark Cyber Security for Control Systems Control systems are under constant threat\, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes… https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/newark-cyber-security-for-control-systems/events/317408155/
 END:VEVENT
 BEGIN:VEVENT
 UID:e91f836ab561@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T030000Z
@@ -56,85 +56,85 @@ URL:https://isc2njchapter.curated.co
 END:VEVENT
 BEGIN:VEVENT
 UID:f8c1d1706583@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261207T150000Z
 DTEND:20261207T160000Z
 SUMMARY:Building a Project-Ready Public Sector Workforce for 2027
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Success starts with having the right skills\, capabilities\, and people in place. Discover how public sector organizations can plan workforce capabilities\, bridge skill gaps\, and build p https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
+DESCRIPTION:New Jersey Business and Tech Meetup Success starts with having the right skills\, capabilities\, and people in place. Discover how public sector organizations can plan workforce capabilities\, bridge skill gaps\, and build… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
 END:VEVENT
 BEGIN:VEVENT
 UID:0a1ef5d3e4d6@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261208T170000Z
 DTEND:20261208T190000Z
 SUMMARY:Microsoft AI for Healthcare Masterclass
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to explor https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
+DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
 END:VEVENT
 BEGIN:VEVENT
 UID:66a0e04b89c5@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261209T170000Z
 DTEND:20261209T180000Z
 SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup **Building an AI-ready enterprise starts with building the right skills.** As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce equipped to d https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
+DESCRIPTION:New Jersey Business and Tech Meetup Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce equipped to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5efc44b8ac@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261215T170000Z
 DTEND:20261215T190000Z
 SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our **LIVE Masterclass** to discover how **Microsoft Security Copilot\, Defender & https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
+DESCRIPTION:New Jersey Business and Tech Meetup As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot\, Defender &… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
 END:VEVENT
 BEGIN:VEVENT
 UID:86321fbc6c3c@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20261216T170000Z
 DTEND:20261216T180000Z
 SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real opportunity li https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
+DESCRIPTION:New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real opportunity… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
 END:VEVENT
 BEGIN:VEVENT
 UID:fa87929cd955@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261217T170000Z
 DTEND:20261217T190000Z
 SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup # [AWS Discovery Day: Engineering Modern Applications on AWS](https://www.netcomlearning.com/webinar/aws-discovery-day-engineering-modern-applications-on-aws?advid=1196&utm_source=meet https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
+DESCRIPTION:New Jersey Business and Tech Meetup AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
 END:VEVENT
 BEGIN:VEVENT
 UID:8404855a0608@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261218T150000Z
 DTEND:20261218T230000Z
 SUMMARY:Empower Decision Makers with Generative AI
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Discover how Generative AI can improve business decision-making\, streamline operations\, and drive innovation with this **COMPLIMENTARY** session. Explore Google's generative AI tools\,  https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/
+DESCRIPTION:New Jersey Business and Tech Meetup Discover how Generative AI can improve business decision-making\, streamline operations\, and drive innovation with this COMPLIMENTARY session. Explore Google's generative AI tools… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317551545/
 END:VEVENT

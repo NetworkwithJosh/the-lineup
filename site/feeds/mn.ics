@@ -8,37 +8,37 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:b2c04097f8e5@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261210T000000Z
 DTEND:20261210T020000Z
 SUMMARY:December meetup: Open Discussion
 LOCATION:Location on listing\, Minneapolis\, United States
-DESCRIPTION:OWASP MSP Chapter **Open discussion** For December's meeting we welcome all to engage in an interactive\, lively discussion of security topics. Recent events certainly give us plenty to talk about\, but consider this a no- https://www.meetup.com/owasp-msp-meetup/events/317526764/
+DESCRIPTION:OWASP MSP Chapter Open discussion For December's meeting we welcome all to engage in an interactive\, lively discussion of security topics. Recent events certainly give us plenty to talk about\, but consider this a… https://www.meetup.com/owasp-msp-meetup/events/317526764/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/owasp-msp-meetup/events/317526764/
 END:VEVENT
 BEGIN:VEVENT
 UID:da2e5875daa8@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261212T160000Z
 DTEND:20261212T180000Z
 SUMMARY:WiCyS Minnesota Affiliate | Winter Walk & Talk: Como Zoo & Conservatory
 LOCATION:Como Park Zoo & Conservatory\, Saint Paul\, United States
-DESCRIPTION:Kick off WiCyS Minnesota affiliate’s first-ever Winter Walk & Talks at the Holiday Flower Show! Join them to stroll the Conservatory and Sunken Garden\, plus the zoo\, for anyone who wants to bundle up for the outdoor path https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-como-zoo-conservatory/
+DESCRIPTION:Kick off WiCyS Minnesota affiliate’s first-ever Winter Walk & Talks at the Holiday Flower Show! Join them to stroll the Conservatory and Sunken Garden\, plus the zoo\, for anyone who wants to bundle up for the outdoor… https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-como-zoo-conservatory/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-como-zoo-conservatory/
 END:VEVENT
 BEGIN:VEVENT
 UID:177402c945d7@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270109T160000Z
 DTEND:20270109T180000Z
 SUMMARY:WiCyS Minnesota Affiliate | Winter Walk & Talk: Minneapolis Institute of Art
 LOCATION:Minneapolis Institute of Art\, Minneapolis\, United States
-DESCRIPTION:Join the WiCyS Minnesota Affiliate for Art\, conversation\, and a warm place to walk in January. Arrive by 10 am when Mia opens\, and meet in the lobby outside the museum shop. Stay as long as you like! Everyone is welcome: https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
+DESCRIPTION:Join the WiCyS Minnesota Affiliate for Art\, conversation\, and a warm place to walk in January. Arrive by 10 am when Mia opens\, and meet in the lobby outside the museum shop. Stay as long as you like! Everyone is… https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
 END:VEVENT

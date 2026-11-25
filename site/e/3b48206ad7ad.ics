@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3b48206ad7ad@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270218T180000Z
 DTEND:20270218T210000Z
 SUMMARY:AI Builders London - AI Software Factory Edition - Feb 18
 LOCATION:Civo Tech Junction\, London\, United Kingdom
-DESCRIPTION:Get up-to-date information at: https://luma.com/lon-feb18 Address: Civo Tech Junction Civo Tech Junction London\, United Kingdom Hosted by AI Builders\, Neo4j & Port.io - https://luma.com/ai-builders
+DESCRIPTION:Address: Civo Tech Junction Civo Tech Junction London\, United Kingdom https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0a1ef5d3e4d6@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261208T170000Z
 DTEND:20261208T190000Z
 SUMMARY:Microsoft AI for Healthcare Masterclass
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to explor https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
+DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:19b8698b7568@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261212T060000Z
 DTEND:20261212T100000Z
 SUMMARY:SHELLGym
 LOCATION:Location on listing\, Singapore\, Singapore
-DESCRIPTION:Division Zero (Div0) – Singapore Cybersecurity Community **Please register via [LUMA](https://luma.com/p3yqr4ut).** — **ABSTRACT** SHELLGym is the regular cybersecurity workout you have been looking for! Whether you're j https://www.meetup.com/div0_sg/events/317576846/
+DESCRIPTION:Division Zero (Div0) – Singapore Cybersecurity Community Please register via LUMA. — ABSTRACT SHELLGym is the regular cybersecurity workout you have been looking for! Whether you're just starting out and need some… https://www.meetup.com/div0_sg/events/317576846/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/div0_sg/events/317576846/
 BEGIN:VALARM

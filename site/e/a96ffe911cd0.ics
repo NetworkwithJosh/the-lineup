@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a96ffe911cd0@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T080000Z
 DTEND:20261202T090000Z
 SUMMARY:WiCyS Professional Affiliate International Leaders Only Meeting
 LOCATION:Online
-DESCRIPTION:WiCyS Professional Affiliate Leaders-Only Meeting: We are all Stronger Together. As WiCyS professional affiliates trail blaze through their regional\, specialty\, or corporate affiliate programs\, we collectively meet month https://www.wicys.org/event/wicys-professional-affiliate-international-leaders-only-meeting-10/2026-12-02/
+DESCRIPTION:WiCyS Professional Affiliate Leaders-Only Meeting: We are all Stronger Together. As WiCyS professional affiliates trail blaze through their regional\, specialty\, or corporate affiliate programs\, we collectively meet… https://www.wicys.org/event/wicys-professional-affiliate-international-leaders-only-meeting-10/2026-12-02/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-professional-affiliate-international-leaders-only-meeting-10/2026-12-02/
 BEGIN:VALARM

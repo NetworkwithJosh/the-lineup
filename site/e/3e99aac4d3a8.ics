@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3e99aac4d3a8@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T170000Z
 DTEND:20261204T180000Z
 SUMMARY:Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:NYC AI Developers Group **Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event  https://www.meetup.com/aittg-nyc/events/317412006/
+DESCRIPTION:NYC AI Developers Group Important : Register on the event website to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event for our AI global community\, please double-check your… https://www.meetup.com/aittg-nyc/events/317412006/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/aittg-nyc/events/317412006/
 BEGIN:VALARM

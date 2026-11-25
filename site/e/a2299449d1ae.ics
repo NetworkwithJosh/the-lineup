@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a2299449d1ae@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261210T230000Z
 DTEND:20261211T010000Z
 SUMMARY:Holiday Party
 LOCATION:Location on listing\, Fort Lauderdale\, United States
-DESCRIPTION:South Florida ISSA Chapter **Join us for our annual Holiday Party as we wrap up the year with the South Florida cybersecurity community.** We’re getting together at Dave & Buster’s in Hollywood for a night of great conve https://www.meetup.com/south-florida-issa-chapter/events/314337168/
+DESCRIPTION:South Florida ISSA Chapter Join us for our annual Holiday Party as we wrap up the year with the South Florida cybersecurity community. We’re getting together at Dave & Buster’s in Hollywood for a night of great… https://www.meetup.com/south-florida-issa-chapter/events/314337168/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/south-florida-issa-chapter/events/314337168/
 BEGIN:VALARM

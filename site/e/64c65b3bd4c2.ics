@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:64c65b3bd4c2@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20261202T020000Z
 DTEND:20261202T050000Z
 SUMMARY:Omega Mart After Hours @re:Invent
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:Get up-to-date information at: https://luma.com/omega-mart-after-hours Address: Check event page for more details. Hosted by Alexa & 7 others https://luma.com/event/evt-TJBoc37gxop6DiF
+DESCRIPTION:Address: Check event page for more details. https://luma.com/event/evt-TJBoc37gxop6DiF
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-TJBoc37gxop6DiF
 BEGIN:VALARM

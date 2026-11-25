@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0c638af75784@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T000000Z
 DTEND:20261204T020000Z
 SUMMARY:Burbsec Prime - Sponsor Ops Available!
 LOCATION:Location on listing\, Chicago\, United States
-DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec Prime! 🍻🎉** Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of info https://www.meetup.com/burbsec/events/317373436/
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 Unlock the Excitement at Burbsec Prime! 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of… https://www.meetup.com/burbsec/events/317373436/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/burbsec/events/317373436/
 BEGIN:VALARM

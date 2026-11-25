@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d468ed8716e3@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:WiCyS NY Metro Affiliate | Financial Services AI Security Forum
 LOCATION:New York Hilton Midtown\, New York\, United States
-DESCRIPTION:WiCyS NY Metro Affiliate is a Proud Partner of the Financial Services AI Security Forum\, taking place on December 9 at the New York Hilton Midtown\, and we are inviting you to join! Explore trust\, risk\, and resilience in  https://www.wicys.org/event/financial-services-ai-security-forum/
+DESCRIPTION:WiCyS NY Metro Affiliate is a Proud Partner of the Financial Services AI Security Forum\, taking place on December 9 at the New York Hilton Midtown\, and we are inviting you to join! Explore trust\, risk\, and resilience in… https://www.wicys.org/event/financial-services-ai-security-forum/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/financial-services-ai-security-forum/
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7659a853e2b7@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270121T173000Z
 DTEND:20270121T200000Z
 SUMMARY:AI Builders Barcelona - Jan 21
 LOCATION:eDreams ODIGEO\, Barcelona\, Spain
-DESCRIPTION:Get up-to-date information at: https://luma.com/bcn-jan21 Address: eDreams ODIGEO eDreams ODIGEO Barcelona\, Spain https://luma.com/ai-builders
+DESCRIPTION:Address: eDreams ODIGEO eDreams ODIGEO Barcelona\, Spain https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

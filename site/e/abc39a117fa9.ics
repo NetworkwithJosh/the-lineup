@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:abc39a117fa9@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261201T133000Z
 DTEND:20261201T143000Z
 SUMMARY:FrontierX – Intro
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York Introducing the FrontierX Series! What is the FrontierX Series\, who is it for\, and how can you get started building with AI? This series is designed for developers\, architects\, technology enthu https://www.meetup.com/microsoft-reactor-new-york/events/317173812/
+DESCRIPTION:Microsoft Reactor New York Introducing the FrontierX Series! What is the FrontierX Series\, who is it for\, and how can you get started building with AI? This series is designed for developers\, architects\, technology… https://www.meetup.com/microsoft-reactor-new-york/events/317173812/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/microsoft-reactor-new-york/events/317173812/
 BEGIN:VALARM

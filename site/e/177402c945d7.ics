@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:177402c945d7@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270109T160000Z
 DTEND:20270109T180000Z
 SUMMARY:WiCyS Minnesota Affiliate | Winter Walk & Talk: Minneapolis Institute of Art
 LOCATION:Minneapolis Institute of Art\, Minneapolis\, United States
-DESCRIPTION:Join the WiCyS Minnesota Affiliate for Art\, conversation\, and a warm place to walk in January. Arrive by 10 am when Mia opens\, and meet in the lobby outside the museum shop. Stay as long as you like! Everyone is welcome: https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
+DESCRIPTION:Join the WiCyS Minnesota Affiliate for Art\, conversation\, and a warm place to walk in January. Arrive by 10 am when Mia opens\, and meet in the lobby outside the museum shop. Stay as long as you like! Everyone is… https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-institute-of-art/
 BEGIN:VALARM

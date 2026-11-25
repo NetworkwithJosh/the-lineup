@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b855b1b964cc@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T003000Z
 SUMMARY:AI Open Mic and Networking (w/ The AI Collective)
 LOCATION:Missing Falls Brewery\, Akron\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-cl-12-2 Address: Missing Falls Brewery Akron\, OH United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+DESCRIPTION:Address: Missing Falls Brewery Akron\, OH United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

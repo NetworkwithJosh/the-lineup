@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:dd98ded891e8@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Beyond Prompts: Microsoft Copilot Agents & Cowork for Business Unlocked
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information\, analyze data\, and handle tasks across different business function https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
+DESCRIPTION:New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information\, analyze data\, and handle tasks across different business… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/
 BEGIN:VALARM

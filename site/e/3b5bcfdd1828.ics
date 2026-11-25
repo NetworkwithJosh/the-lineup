@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3b5bcfdd1828@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T093000Z
 DTEND:20261204T120000Z
 SUMMARY:IEEE ComSoc WICE Workshop on 6G - AI\, Cybersecurity & Next-Generation Communications
 LOCATION:Room: 4.1.D03\, Madrid\, Spain
-DESCRIPTION:Event data from IEEE vTools Events Event details: https://events.vtools.ieee.org/m/595742 Source: https://events.vtools.ieee.org/m/595742 https://events.vtools.ieee.org/m/595742
+DESCRIPTION:https://events.vtools.ieee.org/m/595742
 STATUS:CONFIRMED
 URL:https://events.vtools.ieee.org/m/595742
 BEGIN:VALARM

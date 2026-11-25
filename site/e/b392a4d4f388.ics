@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b392a4d4f388@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T010000Z
 SUMMARY:Cracking : Subverting Legacy Software
 LOCATION:Location on listing\, Philadelphia\, United States
-DESCRIPTION:DC215 Legacy software: the stuff nobody wants to touch and everybody still depends on. Join DC215's AppSec Village session as Ag digs into how he cracked some legacy business software\, and why that matters for anyone def https://www.meetup.com/dc_215/events/317398760/
+DESCRIPTION:DC215 Legacy software: the stuff nobody wants to touch and everybody still depends on. Join DC215's AppSec Village session as Ag digs into how he cracked some legacy business software\, and why that matters for anyone… https://www.meetup.com/dc_215/events/317398760/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/dc_215/events/317398760/
 BEGIN:VALARM

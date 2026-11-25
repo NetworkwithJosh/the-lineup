@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2d42df4820ec@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261211T230000Z
 DTEND:20261212T010000Z
 SUMMARY:Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)
 LOCATION:Location on listing\, Virginia Beach\, United States
-DESCRIPTION:Information Systems Security Association ISSA Hampton Roads ### **Moved to Tap It Local in Chesapeake** ## **Attention Information Security and Cybersecurity Professionals!** Are you looking to meet new people who share  https://www.meetup.com/issa-hampton-roads/events/316842274/
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads Moved to Tap It Local in Chesapeake Attention Information Security and Cybersecurity Professionals! Are you looking to meet new people who share your… https://www.meetup.com/issa-hampton-roads/events/316842274/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/issa-hampton-roads/events/316842274/
 BEGIN:VALARM

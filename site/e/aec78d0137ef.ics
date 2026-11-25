@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:aec78d0137ef@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270218T233000Z
 DTEND:20270219T043000Z
 SUMMARY:Monthly Ai Forum: Talks + AI Agent Workshops
 LOCATION:135 Constitution Dr\, Menlo Park\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/ai-forum-feb-2027 Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States Hosted by TechEquity Ai  https://luma.com/techequity-ai-community
+DESCRIPTION:Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 BEGIN:VALARM

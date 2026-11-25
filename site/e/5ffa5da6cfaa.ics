@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5ffa5da6cfaa@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T183000Z
 DTEND:20261204T203000Z
 SUMMARY:Founder Fridays: The AI Collective x Unstuck Labs
 LOCATION:Unstuck Labs\, Arlington\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dc-12-4 Address: Unstuck Labs Come and meet us on 8th floor! Arlington\, VA United States Hosted by The AI Collective & 4 others https://luma.com/genai-collective
+DESCRIPTION:Address: Unstuck Labs Come and meet us on 8th floor! Arlington\, VA United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

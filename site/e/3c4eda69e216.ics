@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3c4eda69e216@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261214T160000Z
 DTEND:20261214T190000Z
 SUMMARY:WiCyS Central Alabama Affiliate | IT & Security Holiday & End-of-Year Party
 LOCATION:Fairway Social\, Birmingham\, United States
-DESCRIPTION:Join the WiCyS Central Alabama Affiliate for an in-person Christmas and year-end bash for the IT and security crew to celebrate\, unwind\, and have a blast! Join your local IT and Security groups (CA-ISSA\, CSA\, DC205\, Infr https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
+DESCRIPTION:Join the WiCyS Central Alabama Affiliate for an in-person Christmas and year-end bash for the IT and security crew to celebrate\, unwind\, and have a blast! Join your local IT and Security groups (CA-ISSA\, CSA\, DC205… https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
 BEGIN:VALARM

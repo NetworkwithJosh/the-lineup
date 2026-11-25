@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c45821c22821@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261127T000000Z
 DTEND:20261127T020000Z
 SUMMARY:Burbsec Northwest - Sponsors Welcome!
 LOCATION:Location on listing\, Chicago\, United States
-DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 **Unlock the Excitement at Burbsec Northwest!** 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of  https://www.meetup.com/burbsec/events/317320678/
+DESCRIPTION:BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 Unlock the Excitement at Burbsec Northwest! 🍻🎉 Are you ready for a night of geeking out\, making new friends\, and expanding your network in the world of… https://www.meetup.com/burbsec/events/317320678/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/burbsec/events/317320678/
 BEGIN:VALARM

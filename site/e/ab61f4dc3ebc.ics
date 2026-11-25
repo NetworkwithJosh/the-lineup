@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ab61f4dc3ebc@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:2
 DTSTART:20261203T170000Z
 DTEND:20261203T180000Z
 SUMMARY:.NET + Foundry\, better together
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities\, cool projects\, and the latest Foundry https://www.meetup.com/microsoft-reactor-new-york/events/316696251/
+DESCRIPTION:Microsoft Reactor New York What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities\, cool projects\, and the latest… https://www.meetup.com/microsoft-reactor-new-york/events/316696251/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/microsoft-reactor-new-york/events/316696251/
 BEGIN:VALARM

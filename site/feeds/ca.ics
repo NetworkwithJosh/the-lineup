@@ -8,127 +8,115 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:8a135c4179cd@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T020000Z
 DTEND:20261202T043000Z
 SUMMARY:How to train LLMs to beat frontier models
 LOCATION:AWS Builder Loft\, San Francisco\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/skwlv4im Address: AWS Builder Loft San Francisco\, CA United States Hosted by Wahaj Ahmed\, AWS Builder Loft & Sahar Mor (Bond AI) https://luma.com/techequity-ai-community
+DESCRIPTION:Address: AWS Builder Loft San Francisco\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:aa075655ac68@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261210T013000Z
 DTEND:20261210T043000Z
 SUMMARY:AI x Bio Pitch Contest
 LOCATION:AWS Builder Loft\, San Francisco\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/dec9thaixbiopitch Address: AWS Builder Loft San Francisco\, CA United States Hosted by Bonneville Labs & Ash Kumra https://luma.com/genai-collective
+DESCRIPTION:Address: AWS Builder Loft San Francisco\, CA United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7a8a2c5dba@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261210T020000Z
 DTEND:20261210T050000Z
 SUMMARY:Demo Night @ AIT SJ • Dec 09 🛠️🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/0n3nde0c Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya & 3 others https://luma.com/techequity-ai-community
+DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:8ca98052d0b9@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20261211T010000Z
 DTEND:20261211T040000Z
 SUMMARY:December Meetup
 LOCATION:Location on listing\, San Francisco\, United States
-DESCRIPTION:Bay Area OWASP Join us for the December Bay Area OWASP Meetup\, proudly sponsored by **Endor Labs.** Spend the evening with fellow security professionals for talks\, networking\, and discussion on how AI agents are changing https://www.meetup.com/bay-area-owasp/events/317378254/
+DESCRIPTION:Bay Area OWASP Join us for the December Bay Area OWASP Meetup\, proudly sponsored by Endor Labs. Spend the evening with fellow security professionals for talks\, networking\, and discussion on how AI agents are changing… https://www.meetup.com/bay-area-owasp/events/317378254/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/bay-area-owasp/events/317378254/
 END:VEVENT
 BEGIN:VEVENT
 UID:0a1b7d8475dc@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261216T020000Z
 DTEND:20261216T070000Z
 SUMMARY:ISSA Los Angeles Winter Gala
 LOCATION:Location on listing\, Los Angeles\, United States
-DESCRIPTION:ISSA Los Angeles **You must purchase tickets on Eventbrite to attend: [PURCHASE TICKETS HERE:](https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505?aff=meetup)** Join us for an elevated e https://www.meetup.com/issa-la/events/317488452/
+DESCRIPTION:ISSA Los Angeles You must purchase tickets on Eventbrite to attend: PURCHASE TICKETS HERE: Join us for an elevated evening featuring a top speaker\, great networking\, food\, and drinks! Southern California’s security… https://www.meetup.com/issa-la/events/317488452/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/issa-la/events/317488452/
 END:VEVENT
 BEGIN:VEVENT
-UID:b3e1585036f3@the-lineup
-DTSTAMP:20261125T174620Z
-SEQUENCE:0
-DTSTART:20261217T010000Z
-DTEND:20261217T040000Z
-SUMMARY:Reception | Holiday Party @Downtown SF
-LOCATION:447 Sutter St\, San Francisco\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/holiday-party-2026 Address: 447 Sutter St San Francisco\, CA United States Hosted by TechEquity Ai & 4 others https://luma.com/techequity-ai-community
-STATUS:CONFIRMED
-URL:https://luma.com/techequity-ai-community
-END:VEVENT
-BEGIN:VEVENT
 UID:e82b9de95042@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270112T020000Z
 DTEND:20270112T050000Z
 SUMMARY:Demo Night @ AIT SJ • Jan 11 🛠️🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/dymahd8g Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya & 3 others https://luma.com/techequity-ai-community
+DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:c73404167991@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20270122T020000Z
 DTEND:20270122T050000Z
 SUMMARY:AI Builders Los Angeles - Jan 21
 LOCATION:Location on listing\, Los Angeles\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/lax-jan21 Hosted by AI Builders & angel.pichardo https://luma.com/event/evt-E0nbQoWy51h0kCK
+DESCRIPTION:https://luma.com/event/evt-E0nbQoWy51h0kCK
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-E0nbQoWy51h0kCK
 END:VEVENT
 BEGIN:VEVENT
 UID:416a3eb0082e@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270126T233000Z
 DTEND:20270127T043000Z
 SUMMARY:Monthly Ai Forum: Talks + AI Agent Workshops
 LOCATION:135 Constitution Dr\, Menlo Park\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/ai-forum-jan-2027 Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States Hosted by TechEquity Ai  https://luma.com/techequity-ai-community
+DESCRIPTION:Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:bd4062d9a5ff@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270127T020000Z
 DTEND:20270127T050000Z
 SUMMARY:Co-Founder Mixer Night · AIT SJ 🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/iwwbesuv Address: California Miramar University - San Jose San Jose\, CA United States Hosted by Amer Yahya & 3 others https://luma.com/techequity-ai-community
+DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:ae5cb5be58e5@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270205
@@ -140,19 +128,19 @@ URL:https://compute.daytona.io
 END:VEVENT
 BEGIN:VEVENT
 UID:aec78d0137ef@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270218T233000Z
 DTEND:20270219T043000Z
 SUMMARY:Monthly Ai Forum: Talks + AI Agent Workshops
 LOCATION:135 Constitution Dr\, Menlo Park\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/ai-forum-feb-2027 Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States Hosted by TechEquity Ai  https://luma.com/techequity-ai-community
+DESCRIPTION:Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:97085202a78e@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270319
@@ -164,7 +152,7 @@ URL:https://www.nvidia.com/en-us/gtc/faq/
 END:VEVENT
 BEGIN:VEVENT
 UID:7a37c7d72ad1@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270405
@@ -176,7 +164,7 @@ URL:https://www.socallinuxexpo.org/scale/24x
 END:VEVENT
 BEGIN:VEVENT
 UID:e8bbb2ccfb47@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270403
@@ -188,7 +176,7 @@ URL:https://www.sunseccon.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:e92441aff46f@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
@@ -200,7 +188,7 @@ URL:https://devopsdays.org/events/2027-los-angeles
 END:VEVENT
 BEGIN:VEVENT
 UID:02fc02acbccd@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270529

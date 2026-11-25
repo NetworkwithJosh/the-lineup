@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1e15112e86fc@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Why Should I Care About the EU AI Act?
 LOCATION:Maria 01\, Helsinki\, Finland
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-why-should-i-care-about-the-eu-ai-act Address: Maria 01 Event Space\, Building 1 (main building) Helsinki\, Finland Hosted by The AI Collective & 6 others https://luma.com/genai-collective
+DESCRIPTION:Address: Maria 01 Event Space\, Building 1 (main building) Helsinki\, Finland https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

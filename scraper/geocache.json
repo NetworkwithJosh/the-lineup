@@ -1,1 +1,300 @@
-{}
+{
+"Akron|OH|United States": [
+41.083,
+-81.518
+],
+"Amsterdam||Netherlands": [
+52.373,
+4.892
+],
+"Arlington|VA|United States": [
+38.89,
+-77.084
+],
+"Atlanta|GA|United States": [
+33.754,
+-84.39
+],
+"Austin|TX|United States": [
+30.265,
+-97.747
+],
+"Bangalore||India": [
+12.977,
+77.59
+],
+"Barcelona||Spain": [
+41.383,
+2.177
+],
+"Berlin||Germany": [
+52.517,
+13.395
+],
+"Birmingham|AL|United States": [
+33.521,
+-86.802
+],
+"Brooklyn|NY|United States": [
+40.653,
+-73.95
+],
+"Brussels||Belgium": [
+50.847,
+4.352
+],
+"Chicago|IL|United States": [
+41.876,
+-87.624
+],
+"Cleveland|OH|United States": [
+41.5,
+-81.694
+],
+"Delhi||India": [
+28.666,
+77.217
+],
+"Denver|CO|United States": [
+39.739,
+-104.985
+],
+"Dubai||United Arab Emirates": [
+25.265,
+55.292
+],
+"Easton|PA|United States": [
+40.692,
+-75.21
+],
+"Fort Lauderdale|FL|United States": [
+26.122,
+-80.143
+],
+"Frankfurt am Main||Germany": [
+50.111,
+8.682
+],
+"GEORGES||Australia": [
+-33.913,
+150.982
+],
+"Hamburg||Germany": [
+53.55,
+10.001
+],
+"Helsinki||Finland": [
+60.167,
+24.944
+],
+"Huntsville|AL|United States": [
+34.73,
+-86.586
+],
+"Hyderabad||India": [
+17.361,
+78.474
+],
+"Hồ Chí Minh||Vietnam": [
+10.774,
+106.717
+],
+"IDEA Spaces - São Sebastião||Portugal": [
+38.733,
+-9.153
+],
+"Iselin|NJ|United States": [
+40.572,
+-74.316
+],
+"Just Join IT||Poland": null,
+"Kathmandu||Nepal": [
+27.708,
+85.321
+],
+"Kerala||India": [
+10.353,
+76.512
+],
+"Las Vegas|NV|United States": [
+36.167,
+-115.148
+],
+"Lawrence|KS|United States": [
+38.972,
+-95.236
+],
+"London||United Kingdom": [
+51.507,
+-0.128
+],
+"Los Angeles|CA|United States": [
+34.054,
+-118.243
+],
+"Madison|WI|United States": [
+43.075,
+-89.384
+],
+"Madrid||Spain": [
+40.417,
+-3.704
+],
+"Manhattan|NY|United States": [
+40.758,
+-73.986
+],
+"McLean|VA|United States": [
+38.934,
+-77.178
+],
+"Melbourne|FL|United States": [
+28.079,
+-80.608
+],
+"Melbourne||Australia": [
+-37.814,
+144.963
+],
+"Menlo Park|CA|United States": [
+37.452,
+-122.178
+],
+"Miami|FL|United States": [
+25.774,
+-80.194
+],
+"Minneapolis|MN|United States": [
+44.977,
+-93.265
+],
+"Munich||Germany": [
+48.137,
+11.575
+],
+"Nashville|TN|United States": [
+36.162,
+-86.774
+],
+"New York|NY|United States": [
+40.713,
+-74.006
+],
+"Newark|NJ|United States": [
+40.736,
+-74.172
+],
+"Oracle Austria GmbH||Austria": null,
+"Orlando|FL|United States": [
+28.542,
+-81.379
+],
+"Paris||France": [
+48.859,
+2.32
+],
+"Pasadena|CA|United States": [
+34.148,
+-118.144
+],
+"Perth Amboy|NJ|United States": [
+40.513,
+-74.272
+],
+"Philadelphia|PA|United States": [
+39.953,
+-75.164
+],
+"Phoenix|AZ|United States": [
+33.448,
+-112.074
+],
+"Portland|OR|United States": [
+45.52,
+-122.674
+],
+"Prague||Czech Republic": [
+50.087,
+14.421
+],
+"Riyadh||Saudi Arabia": [
+24.639,
+46.716
+],
+"Rome||Italy": [
+41.893,
+12.483
+],
+"Saint Paul|MN|United States": [
+44.95,
+-93.093
+],
+"San Diego|CA|United States": [
+32.716,
+-117.164
+],
+"San Francisco|CA|United States": [
+37.788,
+-122.408
+],
+"San Jose|CA|United States": [
+37.336,
+-121.891
+],
+"Sandy Springs|GA|United States": [
+33.924,
+-84.379
+],
+"Seoul||South Korea": [
+37.567,
+126.978
+],
+"Singapore||Singapore": [
+1.29,
+103.852
+],
+"Stockholm||Sweden": [
+59.325,
+18.071
+],
+"São Paulo||Brazil": [
+-23.551,
+-46.633
+],
+"Tel Aviv||Israel": [
+32.085,
+34.782
+],
+"Toledo|OH|United States": [
+41.653,
+-83.538
+],
+"Toronto||Canada": [
+43.653,
+-79.384
+],
+"Tunis||Tunisia": [
+36.8,
+10.186
+],
+"Virginia Beach|VA|United States": [
+36.85,
+-75.976
+],
+"Warsaw||Poland": [
+52.232,
+21.007
+],
+"Washington|DC|United States": [
+38.895,
+-77.036
+],
+"Washington|FL|United States": [
+30.601,
+-85.676
+],
+"West Des Moines|IA|United States": [
+41.564,
+-93.759
+]
+}

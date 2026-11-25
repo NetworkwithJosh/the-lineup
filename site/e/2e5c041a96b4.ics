@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2e5c041a96b4@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T230000Z
 DTEND:20261205T020000Z
 SUMMARY:Open House
 LOCATION:Location on listing\, Philadelphia\, United States
-DESCRIPTION:DC215 Join us at Ex Machina Parlor and Reclaimers Hall as we celebrate the hacker spirit! Show off your latest toy or project. Whether it's your war driving rig or your shiny new Flipper Zero we want to see what you're d https://www.meetup.com/dc_215/events/316815980/
+DESCRIPTION:DC215 Join us at Ex Machina Parlor and Reclaimers Hall as we celebrate the hacker spirit! Show off your latest toy or project. Whether it's your war driving rig or your shiny new Flipper Zero we want to see what you're… https://www.meetup.com/dc_215/events/316815980/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/dc_215/events/316815980/
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fa2ba6091da0@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:OWASP BASC 2027
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:OWASP AppSec Days event. Event details: https://basconf.org/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://basconf.org/ https://basconf.org/
+DESCRIPTION:OWASP AppSec Days event. https://basconf.org/
 STATUS:CONFIRMED
 URL:https://basconf.org/
 BEGIN:VALARM

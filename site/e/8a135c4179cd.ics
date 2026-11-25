@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8a135c4179cd@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T020000Z
 DTEND:20261202T043000Z
 SUMMARY:How to train LLMs to beat frontier models
 LOCATION:AWS Builder Loft\, San Francisco\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/skwlv4im Address: AWS Builder Loft San Francisco\, CA United States Hosted by Wahaj Ahmed\, AWS Builder Loft & Sahar Mor (Bond AI) https://luma.com/techequity-ai-community
+DESCRIPTION:Address: AWS Builder Loft San Francisco\, CA United States https://luma.com/techequity-ai-community
 STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 BEGIN:VALARM

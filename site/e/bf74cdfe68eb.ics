@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bf74cdfe68eb@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270121T003000Z
 DTEND:20270121T023000Z
 SUMMARY:NashSec
 LOCATION:Location on listing\, Nashville\, United States
-DESCRIPTION:NashSec 📍 **Meetup Location: TBD** We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town\, so we want to switch things up and check them out! We’ll upd https://www.meetup.com/nashsec/events/gtbdbvykccbbc/
+DESCRIPTION:NashSec 📍 Meetup Location: TBD We’re currently moving the meetup around Nashville and trying out some new venues. There are a lot of fun spots around town\, so we want to switch things up and check them out! We’ll update… https://www.meetup.com/nashsec/events/gtbdbvykccbbc/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/nashsec/events/gtbdbvykccbbc/
 BEGIN:VALARM

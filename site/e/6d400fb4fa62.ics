@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6d400fb4fa62@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20261209T070000Z
 DTEND:20261209T073000Z
 SUMMARY:Middle East Threat Landscape 2027
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:Get up-to-date information at: https://luma.com/MEthreatintelcloudsek Hosted by Team CloudSEK https://luma.com/event/evt-cuZ0xJCCJeeu5V2
+DESCRIPTION:https://luma.com/event/evt-cuZ0xJCCJeeu5V2
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-cuZ0xJCCJeeu5V2
 BEGIN:VALARM

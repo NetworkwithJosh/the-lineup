@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:98737f561a9d@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261209T100000Z
 DTEND:20261209T190000Z
 SUMMARY:OWASP AI & Agentic Security Summit - Register on Luma
 LOCATION:Location on listing\, London\, United Kingdom
-DESCRIPTION:OWASP London Chapter Register here: https://luma.com/cyc69yq9 ## OWASP GeAI Project Agentic AI Security Summit Europe\, 2026 Join OWASP GenAI Security Project leaders\, researchers and security practitioners for a full day https://www.meetup.com/owasp-london/events/317560325/
+DESCRIPTION:OWASP London Chapter Register here: OWASP GeAI Project Agentic AI Security Summit Europe\, 2026 Join OWASP GenAI Security Project leaders\, researchers and security practitioners for a full day dedicated to the research… https://www.meetup.com/owasp-london/events/317560325/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/owasp-london/events/317560325/
 BEGIN:VALARM

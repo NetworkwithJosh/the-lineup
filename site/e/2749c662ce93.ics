@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2749c662ce93@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261222
 SUMMARY:WiCyS | Share your Experience to Build a Global Benchmark for Workforce Planning with SANS Survey
 LOCATION:Online
-DESCRIPTION:What’s helping organizations build and retain capable cybersecurity teams? Where are the challenges? HR and cybersecurity managers and senior leaders: contribute your experience to the 2027 Cybersecurity Workforce Resear https://www.wicys.org/event/wicys-share-your-experience-to-build-a-global-benchmark-for-workforce-planning-with-sans-survey/
+DESCRIPTION:What’s helping organizations build and retain capable cybersecurity teams? Where are the challenges? HR and cybersecurity managers and senior leaders: contribute your experience to the 2027 Cybersecurity Workforce… https://www.wicys.org/event/wicys-share-your-experience-to-build-a-global-benchmark-for-workforce-planning-with-sans-survey/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-share-your-experience-to-build-a-global-benchmark-for-workforce-planning-with-sans-survey/
 BEGIN:VALARM

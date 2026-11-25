@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:eaf52da390ac@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261202T080000Z
 DTEND:20261202T103000Z
 SUMMARY:WiCyS | Women in Security Breakfast at AWS re:Invent
 LOCATION:Braseria by EDO\, Las Vegas\, United States
-DESCRIPTION:AWS re:Invent runs more than 2\,000 sessions and few are built for the women who run security. This one is. Join Fortinet\, AWS and WiCyS for a private breakfast on Wednesday\, December 2 at Braseria by EDO\, 1 mile from the https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinvent/
+DESCRIPTION:AWS re:Invent runs more than 2\,000 sessions and few are built for the women who run security. This one is. Join Fortinet\, AWS and WiCyS for a private breakfast on Wednesday\, December 2 at Braseria by EDO\, 1 mile from… https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinvent/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-women-in-security-breakfast-at-aws-reinvent/
 BEGIN:VALARM

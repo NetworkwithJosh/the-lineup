@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b498ca52898a@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270106T230000Z
 DTEND:20270107T010000Z
 SUMMARY:Hi\, this is Gabe from help desk\, can you download this malware?
 LOCATION:Location on listing\, Philadelphia\, United States
-DESCRIPTION:DC215 “Hi\, this is Gabe from help desk\, can you download this malware?” It’s the call nobody wants\, but it makes for a great talk. Join DC215's Malware Village session as we tear into real malware\, peeling back layer aft https://www.meetup.com/dc_215/events/317262568/
+DESCRIPTION:DC215 “Hi\, this is Gabe from help desk\, can you download this malware?” It’s the call nobody wants\, but it makes for a great talk. Join DC215's Malware Village session as we tear into real malware\, peeling back layer… https://www.meetup.com/dc_215/events/317262568/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/dc_215/events/317262568/
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:28c7558191e1@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261208T150000Z
 DTEND:20261208T170000Z
 SUMMARY:Vision AI - How crowded spaces are powered by VAELLA (and they are hiring!)
 LOCATION:Maria 01\, Helsinki\, Finland
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-12-8 Address: Maria 01 Event space\, 2nd floor\, Building 1 (Main building) Helsinki\, Finland Hosted by The AI Collective & Bambi Dang https://luma.com/genai-collective
+DESCRIPTION:Address: Maria 01 Event space\, 2nd floor\, Building 1 (Main building) Helsinki\, Finland https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM

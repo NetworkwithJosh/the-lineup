@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:730fdfe10a9f@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261204T000000Z
 DTEND:20261204T030000Z
 SUMMARY:SecDSM Monthly Meeting
 LOCATION:Location on listing\, West Des Moines\, United States
-DESCRIPTION:Iowa InfoSec Talk Time: 7:00PM Speaker: Craig Leabhart **Talk Title: Everything is a Date** Abstract: Tips and tricks to make Excel work for you. Because why work harder when you can work smarter. About Craig Leabhart: C https://www.meetup.com/iowa-infosec/events/317265556/
+DESCRIPTION:Iowa InfoSec Talk Time: 7:00PM Speaker: Craig Leabhart Talk Title: Everything is a Date Abstract: Tips and tricks to make Excel work for you. Because why work harder when you can work smarter. About Craig Leabhart: CTI… https://www.meetup.com/iowa-infosec/events/317265556/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/iowa-infosec/events/317265556/
 BEGIN:VALARM

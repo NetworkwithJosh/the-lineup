@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e83786fae95f@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261126T133000Z
 DTEND:20261126T163000Z
 SUMMARY:AI Builders Dubai - Nov 26
 LOCATION:Oracle Systems Limited\, Dubai\, United Arab Emirates
-DESCRIPTION:Get up-to-date information at: https://luma.com/dxb-nov26 Address: Oracle Systems Limited Oracle Systems Limited Dubai\, United Arab Emirates Hosted by AI Builders\, Ahsan Mahmud & Bon Consultancy https://luma.com/ai-builders
+DESCRIPTION:Address: Oracle Systems Limited Oracle Systems Limited Dubai\, United Arab Emirates https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

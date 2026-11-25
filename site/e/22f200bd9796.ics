@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:22f200bd9796@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270127T230000Z
 DTEND:20270128T020000Z
 SUMMARY:New Year\, New Threats: AI Security Engineers x Elastic
-LOCATION:Location on listing\, Austin\, United States
-DESCRIPTION:AI Security Engineers - Austin\, TX Our first meetup of 2027 is a joint night with Elastic\, hosted at their office in downtown Austin. It’s Chapter Five for the Austin chapter. There are two talks\, one from each side: * * https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
+LOCATION:823 Congress Ave\, Austin\, United States
+DESCRIPTION:AI Security Engineers - Austin\, TX Our first meetup of 2027 is a joint night with Elastic\, hosted at their office in downtown Austin. It’s Chapter Five for the Austin chapter. There are two talks\, one from each side… https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
 BEGIN:VALARM

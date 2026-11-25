@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:63fe8f707af9@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261215T010000Z
 DTEND:20261215T023000Z
 SUMMARY:Tacos+Tech
 LOCATION:Location on listing\, Phoenix\, United States
-DESCRIPTION:PROTECTPHX **NO AGENDA >> JUST TACOS** Mostly an excuse to eat tacos — and a good time to network. Don’t wait until you’re job‑hunting or graduating. Build connections early and often. This is **cross‑group\, multidiscipl https://www.meetup.com/protectphx/events/314852197/
+DESCRIPTION:PROTECTPHX NO AGENDA JUST TACOS Mostly an excuse to eat tacos — and a good time to network. Don’t wait until you’re job‑hunting or graduating. Build connections early and often. This is cross‑group\, multidisciplinary… https://www.meetup.com/protectphx/events/314852197/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/protectphx/events/314852197/
 BEGIN:VALARM

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d3c9195a79a3@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261218T230000Z
 DTEND:20261219T020000Z
 SUMMARY:Third Friday Lockpicking Workshop
 LOCATION:Location on listing\, Philadelphia\, United States
-DESCRIPTION:DC215 Come join us for our monthly Third Friday Lockpicking Workshop at Wooden Shoe Books! Whether you're a novice who just stumbled upon LockpickingLawyer\, a seasoned safecracker\, or somewhere in between\, come join us f https://www.meetup.com/dc_215/events/317481568/
+DESCRIPTION:DC215 Come join us for our monthly Third Friday Lockpicking Workshop at Wooden Shoe Books! Whether you're a novice who just stumbled upon LockpickingLawyer\, a seasoned safecracker\, or somewhere in between\, come join us… https://www.meetup.com/dc_215/events/317481568/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/dc_215/events/317481568/
 BEGIN:VALARM

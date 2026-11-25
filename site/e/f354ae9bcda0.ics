@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f354ae9bcda0@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261203T170000Z
 DTEND:20261203T200000Z
 SUMMARY:AI on the Software Development Life Cycle | The AI Collective × Amsterdam JUG
 LOCATION:Location on listing\, Amsterdam\, Netherlands
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ne-12-3 Address: Check event page for more details. Hosted by The AI Collective & 5 others https://luma.com/event/evt-KJWiTl4FjvpRPrx
+DESCRIPTION:Address: Check event page for more details. https://luma.com/event/evt-KJWiTl4FjvpRPrx
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-KJWiTl4FjvpRPrx
 BEGIN:VALARM

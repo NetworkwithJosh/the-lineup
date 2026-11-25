@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:84ae7657619f@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270114T170000Z
 DTEND:20270114T210000Z
 SUMMARY:Kodi Connect Cybersecurity (CISO) Leadership: Atlanta | Executive Networking Exchange
 LOCATION:Atlanta\, Atlanta\, United States
-DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer eng https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-atlanta-executive-networking-exchange/
+DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer… https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-atlanta-executive-networking-exchange/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-atlanta-executive-networking-exchange/
 BEGIN:VALARM

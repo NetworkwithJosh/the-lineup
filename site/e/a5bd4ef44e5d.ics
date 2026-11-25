@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a5bd4ef44e5d@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261209T233000Z
 DTEND:20261210T013000Z
 SUMMARY:Cyberdeck Show & Tell
 LOCATION:Location on listing\, Melbourne\, United States
-DESCRIPTION:SpaceCoastSec - Space Coast's Information Security Community 💾🕶️ JACK IN. From *Neuromancer* and *Snow Crash* to *Johnny Mnemonic*\, *Ghost in the Shell*\, *Hackers*\, and decades of cyberpunk fever dreams… the cyberdeck es https://www.meetup.com/spacecoastsec/events/316438270/
+DESCRIPTION:SpaceCoastSec - Space Coast's Information Security Community 💾🕶️ JACK IN. From Neuromancer and Snow Crash to Johnny Mnemonic \, Ghost in the Shell \, Hackers \, and decades of cyberpunk fever dreams… the cyberdeck escaped… https://www.meetup.com/spacecoastsec/events/316438270/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/spacecoastsec/events/316438270/
 BEGIN:VALARM

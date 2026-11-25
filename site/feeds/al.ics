@@ -8,25 +8,25 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:3c4eda69e216@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261214T160000Z
 DTEND:20261214T190000Z
 SUMMARY:WiCyS Central Alabama Affiliate | IT & Security Holiday & End-of-Year Party
 LOCATION:Fairway Social\, Birmingham\, United States
-DESCRIPTION:Join the WiCyS Central Alabama Affiliate for an in-person Christmas and year-end bash for the IT and security crew to celebrate\, unwind\, and have a blast! Join your local IT and Security groups (CA-ISSA\, CSA\, DC205\, Infr https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
+DESCRIPTION:Join the WiCyS Central Alabama Affiliate for an in-person Christmas and year-end bash for the IT and security crew to celebrate\, unwind\, and have a blast! Join your local IT and Security groups (CA-ISSA\, CSA\, DC205… https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-year-party/
 END:VEVENT
 BEGIN:VEVENT
 UID:93e9a34b4cfc@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270123T000000Z
 DTEND:20270123T020000Z
 SUMMARY:Huntsville Hack The Box: Meetup #18
 LOCATION:UAH I2C\, Huntsville\, United States
-DESCRIPTION:Hack The Box Meetup: Huntsville\, AL\, US Huntsville Hack The Box – Monthly Meetup (In-Person + Online) Location: UAH I2C\, Huntsville\, AL Time: Starts at 6:00 PM – drop in anytime! Discord (join us online!): https://discor https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/
+DESCRIPTION:Hack The Box Meetup: Huntsville\, AL\, US Huntsville Hack The Box – Monthly Meetup (In-Person + Online) Location: UAH I2C\, Huntsville\, AL Time: Starts at 6:00 PM – drop in anytime! Discord (join us online!): This month's… https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/hack-the-box-meetup-huntsville-al-us/events/317412942/
 END:VEVENT

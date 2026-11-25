@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:36c8afc8f056@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:WiCyS Conference 2027 | General Registration NOW Open
 LOCATION:Online
-DESCRIPTION:WiCyS 2027 is the go-to event for cybersecurity professionals\, students\, and organizations. The conference is the flagship event to recruit\, retain and advance women in cybersecurity. Join the WiCyS Community in Denver\,  https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
+DESCRIPTION:WiCyS 2027 is the go-to event for cybersecurity professionals\, students\, and organizations. The conference is the flagship event to recruit\, retain and advance women in cybersecurity. Join the WiCyS Community in Denver… https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-conference-2027-general-registration-now-open/
 BEGIN:VALARM

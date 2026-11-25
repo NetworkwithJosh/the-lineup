@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d641c1caac8c@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261215T130000Z
 DTEND:20261215T140000Z
 SUMMARY:Webinar | Building a Defense-in-Depth AI Security Strategy on AWS
 LOCATION:Online
-DESCRIPTION:As organizations race to deploy generative AI\, security teams must combat prompt injection\, jailbreaking\, and data leakage alongside traditional risks. In this WiCyS webinar\, Amazon Web Services presents a defense-in-dep https://www.wicys.org/event/webinar-building-a-defense-in-depth-ai-security-strategy-on-aws/
+DESCRIPTION:As organizations race to deploy generative AI\, security teams must combat prompt injection\, jailbreaking\, and data leakage alongside traditional risks. In this WiCyS webinar\, Amazon Web Services presents a… https://www.wicys.org/event/webinar-building-a-defense-in-depth-ai-security-strategy-on-aws/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/webinar-building-a-defense-in-depth-ai-security-strategy-on-aws/
 BEGIN:VALARM

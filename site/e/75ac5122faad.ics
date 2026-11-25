@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:75ac5122faad@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270108T000000Z
 DTEND:20270108T030000Z
 SUMMARY:SecDSM Monthly Meeting
 LOCATION:Location on listing\, West Des Moines\, United States
-DESCRIPTION:Iowa InfoSec Hosted by: SecDSM About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying som https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/
+DESCRIPTION:Iowa InfoSec About SecDSM: a monthly meetup group to network with other InfoSec pros and listen to short tech talks presented by your fellow members (or give a presentation yourself!) while enjoying some… https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/iowa-infosec/events/fvlwbvykccbkb/
 BEGIN:VALARM

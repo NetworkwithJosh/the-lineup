@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d964ab467f2e@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:OWASP BeNeLux 2026
 LOCATION:Location on listing\, Location on listing
-DESCRIPTION:OWASP AppSec Days event. Event details: https://2026.owaspbenelux.eu/ Source: OWASP Foundation (CC BY-SA 4.0). Source: https://2026.owaspbenelux.eu/ https://2026.owaspbenelux.eu/
+DESCRIPTION:OWASP AppSec Days event. https://2026.owaspbenelux.eu/
 STATUS:CONFIRMED
 URL:https://2026.owaspbenelux.eu/
 BEGIN:VALARM

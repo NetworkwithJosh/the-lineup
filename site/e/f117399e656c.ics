@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f117399e656c@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261210T223000Z
 DTEND:20261211T013000Z
 SUMMARY:AI Builders Washington DC
 LOCATION:Refraction Innovation Hub\, McLean\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/dc-dec10 Address: Refraction Innovation Hub Refraction Innovation Hub McLean\, VA United States Hosted by AI Builders & Lucky Bakhtawar https://luma.com/ai-builders
+DESCRIPTION:Address: Refraction Innovation Hub Refraction Innovation Hub McLean\, VA United States https://luma.com/ai-builders
 STATUS:CONFIRMED
 URL:https://luma.com/ai-builders
 BEGIN:VALARM

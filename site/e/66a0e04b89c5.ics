@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:66a0e04b89c5@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261209T170000Z
 DTEND:20261209T180000Z
 SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
 LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup **Building an AI-ready enterprise starts with building the right skills.** As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce equipped to d https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
+DESCRIPTION:New Jersey Business and Tech Meetup Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce equipped to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
 BEGIN:VALARM

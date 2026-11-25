@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7b09b67409bb@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20270402T220000Z
 DTEND:20270403T000000Z
 SUMMARY:Monthly 2600 Meeting!
-LOCATION:Location on listing\, Atlanta\, United States
-DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: https://atl2600.org . Video chat is at: https://rsvz.userserviceable.com/b/bri-kha-6kx Monthly meeting usually involve https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
+LOCATION:483 Moreland Ave NE Ste 3\, Atlanta\, United States
+DESCRIPTION:Ethical Hackers\, Penetration Testers\, & Information Security Check the 2600 website for more details: . Video chat is at: Monthly meeting usually involves a CTF (if you want to participate)\, in which case bring a… https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/ethical-hackers/events/jnlmbvykcgbdb/
 BEGIN:VALARM

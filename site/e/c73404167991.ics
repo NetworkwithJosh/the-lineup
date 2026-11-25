@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c73404167991@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:1
 DTSTART:20270122T020000Z
 DTEND:20270122T050000Z
 SUMMARY:AI Builders Los Angeles - Jan 21
 LOCATION:Location on listing\, Los Angeles\, United States
-DESCRIPTION:Get up-to-date information at: https://luma.com/lax-jan21 Hosted by AI Builders & angel.pichardo https://luma.com/event/evt-E0nbQoWy51h0kCK
+DESCRIPTION:https://luma.com/event/evt-E0nbQoWy51h0kCK
 STATUS:CONFIRMED
 URL:https://luma.com/event/evt-E0nbQoWy51h0kCK
 BEGIN:VALARM

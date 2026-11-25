@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2740ef290084@the-lineup
-DTSTAMP:20261125T174620Z
+DTSTAMP:20261125T175852Z
 SEQUENCE:0
 DTSTART:20261203T140000Z
 DTEND:20261203T220000Z
 SUMMARY:Bluehost AI Builder Tour - New York
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:NYC AI Developers Group **Important**: Registration on the[ event website](https://www.aicamp.ai/event/eventdetails/W2026120306) is required for admission. (RSVP on meetup is turned off) Join us for the Bluehost AI Build https://www.meetup.com/aittg-nyc/events/317479236/
+DESCRIPTION:NYC AI Developers Group Important : Registration on the event website is required for admission. (RSVP on meetup is turned off) Join us for the Bluehost AI Builder Tour - New York\, an in-person experience bringing… https://www.meetup.com/aittg-nyc/events/317479236/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/aittg-nyc/events/317479236/
 BEGIN:VALARM
