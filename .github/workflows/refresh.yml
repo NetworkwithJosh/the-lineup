@@ -39,8 +39,28 @@ jobs:
             git pull --rebase origin main && git push || echo "Push skipped; the site still deploys from this run"
           fi
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+      # GitHub's Pages service sometimes can't see a fresh upload yet. Try again before giving up,
+      # so one hiccup never leaves the site stale until the next refresh.
       - id: deploy
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait a minute if the publish hiccuped
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Upload again under a new name
+        if: steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+          name: github-pages-retry
+      - if: steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-retry
