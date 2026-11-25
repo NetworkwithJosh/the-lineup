@@ -1,13 +1,12 @@
 {
- "generatedAt": "2026-11-25T12:56-05:00",
+ "generatedAt": "2026-11-25T14:57-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 284,
+ "count": 283,
  "changes": {
-  "new": 0,
-  "updated": 0,
-  "cancelled": 0
+  "updated": 1,
+  "cancelled": 1
  },
  "sources": [
   {
@@ -139,7 +138,7 @@
   {
    "source": "NJ Business and Tech",
    "ok": true,
-   "events": 9
+   "events": 8
   },
   {
    "source": "New Jersey Red Hat Users",
@@ -921,12 +920,13 @@
    "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/",
    "about": "New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information, analyze data, and handle tasks across different business…",
    "source": "NJ Business and Tech",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 40.572,
    "lng": -74.316,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T14:57-05:00"
   },
   {
    "id": "4be49358649e",
@@ -3601,11 +3601,11 @@
   {
    "id": "a6b258a0ac4d",
    "title": "Holiday Mixer (w/ The AI Collective)",
-   "start": "2026-12-08T23:00+00:00",
-   "end": "2026-12-09T01:30+00:00",
+   "start": "2026-12-08T22:30+00:00",
+   "end": "2026-12-09T01:00+00:00",
    "allDay": false,
    "tz": null,
-   "venue": "Maumee Bay Brewing Company",
+   "venue": "Maumee Bay Brew Pub Warehouse",
    "online": false,
    "city": "Toledo",
    "country": "United States",
@@ -3618,14 +3618,19 @@
    ],
    "kind": "Meetup",
    "url": "https://luma.com/genai-collective",
-   "about": "Address: Maumee Bay Brewing Company Toledo, OH United States",
+   "about": "Address: Maumee Bay Brew Pub Warehouse Toledo, OH United States",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
    "lat": 41.653,
    "lng": -83.538,
    "firstSeen": "2026-11-25T12:45-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "Now Dec 8 at 10:30 PM (was Dec 8 at 11:00 PM)",
+    "New venue: Maumee Bay Brew Pub Warehouse"
+   ],
+   "changedAt": "2026-11-25T14:57-05:00"
   },
   {
    "id": "72241ab11097",

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a6b258a0ac4d@the-lineup
-DTSTAMP:20261125T175852Z
-SEQUENCE:0
-DTSTART:20261208T230000Z
-DTEND:20261209T013000Z
+DTSTAMP:20261125T195817Z
+SEQUENCE:1
+DTSTART:20261208T223000Z
+DTEND:20261209T010000Z
 SUMMARY:Holiday Mixer (w/ The AI Collective)
-LOCATION:Maumee Bay Brewing Company\, Toledo\, United States
-DESCRIPTION:Address: Maumee Bay Brewing Company Toledo\, OH United States https://luma.com/genai-collective
+LOCATION:Maumee Bay Brew Pub Warehouse\, Toledo\, United States
+DESCRIPTION:Address: Maumee Bay Brew Pub Warehouse Toledo\, OH United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
 BEGIN:VALARM
