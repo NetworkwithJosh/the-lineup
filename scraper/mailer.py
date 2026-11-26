@@ -5,7 +5,7 @@
 
 Needs SUPABASE_URL, SUPABASE_SERVICE_KEY and RESEND_API_KEY (GitHub secrets). Without them it does nothing.
 Add --dry to print instead of sending."""
-import html, json, os, sys, urllib.request
+import html, json, os, sys, urllib.error, urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -37,7 +37,7 @@ def env(k):
 def http(url, body=None, headers=None, method=None):
     req = urllib.request.Request(url, data=json.dumps(body).encode() if body is not None else None,
                                  method=method or ("POST" if body is not None else "GET"),
-                                 headers={"Content-Type": "application/json", **(headers or {})})
+                                 headers={"Content-Type": "application/json", "User-Agent": "thelineup-mailer/1.0", **(headers or {})})
     with urllib.request.urlopen(req, timeout=60) as r:
         t = r.read()
         return json.loads(t) if t else None
@@ -57,6 +57,9 @@ def send(to, subject, body_html, text, unsub_url):
     try:
         http("https://api.resend.com/emails", msg, {"Authorization": f"Bearer {env('RESEND_API_KEY')}"})
         return True
+    except urllib.error.HTTPError as exc:
+        print("send failed:", to.split("@")[-1], exc, exc.read()[:300], file=sys.stderr)
+        return False
     except Exception as exc:
         print("send failed:", to.split("@")[-1], exc, file=sys.stderr)
         return False
