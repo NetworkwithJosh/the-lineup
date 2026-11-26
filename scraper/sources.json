@@ -1339,6 +1339,291 @@
         "cyber"
       ],
       "home": "Jersey City, NJ"
+    },
+    {
+      "slug": "Cyber-Security-Berlin-Meetup",
+      "name": "Cyber Security Berlin",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Berlin, Germany"
+    },
+    {
+      "slug": "berlin-cybersecurity-social",
+      "name": "Berlin Cybersecurity Social",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Berlin, Germany"
+    },
+    {
+      "slug": "Berlin-Cyber-Security-Innovation",
+      "name": "Berlin Cyber Security Startups",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Berlin, Germany"
+    },
+    {
+      "slug": "muc-sec",
+      "name": "MUC:SEC (Munich)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Munich, Germany"
+    },
+    {
+      "slug": "Trust-in-Tech-Cologne",
+      "name": "Security Ninjas Germany",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Cologne, Germany"
+    },
+    {
+      "slug": "bangalore-cyber-security-meetup",
+      "name": "Bangalore Cyber Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Bangalore, India",
+      "require_keywords": true
+    },
+    {
+      "slug": "hack-the-box-meetup-mumbai-in",
+      "name": "Hack The Box Mumbai",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Mumbai, India"
+    },
+    {
+      "slug": "hack-the-box-meetup-chennai-in",
+      "name": "Hack The Box Chennai",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Chennai, India"
+    },
+    {
+      "slug": "rapid7-pune-cybersecurity-meetups",
+      "name": "Rapid7 Pune Cybersecurity",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Pune, India"
+    },
+    {
+      "slug": "aiseceng-india",
+      "name": "AI Security Engineering India",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Pune, India"
+    },
+    {
+      "slug": "vancouver-cybersecurity-meetup-group",
+      "name": "Vancouver Cybersecurity",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Vancouver, Canada"
+    },
+    {
+      "slug": "infosec-dublin",
+      "name": "InfoSec Dublin",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dublin, Ireland"
+    },
+    {
+      "slug": "dub-sec",
+      "name": "Dub|Sec",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dublin, Ireland"
+    },
+    {
+      "slug": "OWASP-Dublin",
+      "name": "OWASP Dublin",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dublin, Ireland"
+    },
+    {
+      "slug": "Barcelona-Cybersecurity",
+      "name": "Barcelona Cybersecurity",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Barcelona, Spain"
+    },
+    {
+      "slug": "helsinki-security-meetup",
+      "name": "Helsinki Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Helsinki, Finland"
+    },
+    {
+      "slug": "singapore-owasp-meetup-group",
+      "name": "OWASP Singapore",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Singapore, Singapore"
+    },
+    {
+      "slug": "stack-community",
+      "name": "GovTech STACK Singapore",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Singapore, Singapore",
+      "require_keywords": true
+    },
+    {
+      "slug": "ai-security-circle",
+      "name": "AI Security Circle (Sydney)",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Sydney, Australia"
+    },
+    {
+      "slug": "hack-the-box-meetup-lagos-ng",
+      "name": "Hack The Box Lagos",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Lagos, Nigeria"
+    },
+    {
+      "slug": "hack-the-box-meetup-stockholm-se",
+      "name": "Hack The Box Stockholm",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Stockholm, Sweden"
+    },
+    {
+      "slug": "hack-the-box-meetup-guadalajara-mx",
+      "name": "Hack The Box Guadalajara",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Guadalajara, Mexico"
+    },
+    {
+      "slug": "hack-the-box-meetup-mexico-city-mx",
+      "name": "Hack The Box Mexico City",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Mexico City, Mexico"
+    },
+    {
+      "slug": "NoTrustSec",
+      "name": "NoTrustSec (Mexico City)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Mexico City, Mexico"
+    },
+    {
+      "slug": "SecParis",
+      "name": "SecParis",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Paris, France"
+    },
+    {
+      "slug": "devsecops-london-gathering",
+      "name": "DevSecOps London Gathering",
+      "tags": [
+        "cyber"
+      ],
+      "home": "London, United Kingdom"
+    },
+    {
+      "slug": "Cyber-Scotland-Connect",
+      "name": "Cyber Scotland Connect",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Edinburgh, United Kingdom"
+    },
+    {
+      "slug": "OWASP-Israel",
+      "name": "OWASP Israel",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tel Aviv, Israel"
+    },
+    {
+      "slug": "SecSessions",
+      "name": "SecSessions (Tel Aviv)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tel Aviv, Israel"
+    },
+    {
+      "slug": "hack-the-box-meetup-dubai-ae",
+      "name": "Hack The Box Dubai",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dubai, United Arab Emirates"
+    },
+    {
+      "slug": "owasp-bangalore",
+      "name": "OWASP Bangalore",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Bangalore, India"
+    },
+    {
+      "slug": "OWASP-Vancouver-Chapter",
+      "name": "OWASP Vancouver",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Vancouver, Canada"
+    },
+    {
+      "slug": "DC604",
+      "name": "DEF CON Vancouver (DC604)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Vancouver, Canada"
+    },
+    {
+      "slug": "DC416",
+      "name": "DEF CON Toronto (DC416)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Toronto, Canada"
+    },
+    {
+      "slug": "hack-the-box-meetup-toronto-on-ca",
+      "name": "Hack The Box Toronto",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Toronto, Canada"
     }
   ],
   "luma_calendars": [
