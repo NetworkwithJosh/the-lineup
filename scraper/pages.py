@@ -147,7 +147,7 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 + (f'<div id="going" data-event="{esc(x["id"])}" data-start="{esc(x["start"])}" data-state="{esc(st or "")}"></div>'
                    if not x.get("online") and st else "")
                 + f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>'
-                + '<script src="/acct.js?v=4" defer></script>')
+                + '<script src="/acct.js?v=5" defer></script>')
         (out / sl).mkdir(parents=True, exist_ok=True)
         (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld))
         urls.append(f"{BASE}/event/{sl}/")
@@ -176,10 +176,10 @@ TERMS = """<h1>Terms</h1><p class="lede">Last updated November 26, 2026.</p>
 def build_static(site: Path) -> None:
     for path, title, desc, body in [
         ("account", "Your account | The Lineup", "Sign in to mark events you're going to and connect with others going.",
-         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=4" defer></script>'
+         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=5" defer></script>'
          '<p class="meta"><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>'),
         ("unsubscribe", "Unsubscribe | The Lineup", "Stop emails from The Lineup.",
-         '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=4" defer></script>'
+         '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=5" defer></script>'
          '<p class="meta"><a href="/account/">Account</a> · <a href="/">All events</a></p>'),
         ("privacy", "Privacy | The Lineup", "What The Lineup collects and who can see it.", PRIVACY),
         ("terms", "Terms | The Lineup", "Rules for using The Lineup.", TERMS)]:

@@ -4,7 +4,7 @@
   var CFG = {
     url: "https://pwthxugduzlcceedxqwk.supabase.co",
     key: "sb_publishable_Xx5NcuHzeKpRc_D9l8eSOQ_t_sGck7r", // public by design
-    states: ["NJ", "NY"], // "Going" is live here first. Add states to widen.
+    states: null, // null = "Going" is live on every US in-person event. Or list states, e.g. ["NJ","NY"].
     maxRequests: 5
   };
   var ROLES = ["Student", "IT Support / Help Desk", "SOC / Analyst", "GRC / Audit", "Security Engineer", "Pentest / Red Team",
@@ -64,7 +64,7 @@
   /* ---------------- event page: going + who's going ---------------- */
   function eventBox(box) {
     var id = box.dataset.event, start = new Date(box.dataset.start), st = box.dataset.state;
-    if (CFG.states.indexOf(st) < 0) return; // not live in this state yet
+    if (CFG.states && CFG.states.indexOf(st) < 0) return; // not live in this state yet
     css();
     var card = el("div", { class: "acct" });
     box.appendChild(card);
@@ -97,7 +97,14 @@
           } });
           card.appendChild(el("div", { style: "margin:12px 0" }, [b]));
           card.appendChild(msg);
-          if (going) attendees();
+          if (going) {
+            var cal = document.querySelector('a[href^="/e/"]');
+            card.appendChild(el("p", { style: "margin:0 0 12px" }, ["Put it on your calendar so you actually go: ",
+              el("a", { href: "/e/" + id + ".ics", text: "Apple / Outlook" }), " · ",
+              el("a", { href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(document.querySelector("h1").textContent) +
+                "&details=" + encodeURIComponent(location.href), target: "_blank", rel: "noopener", text: "Google" })]));
+            attendees();
+          }
         });
       });
     }
