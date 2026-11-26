@@ -441,9 +441,14 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
             loc = sm.group(0).strip()
     p = place(loc)
     if p["country"] == "Unknown" or p["city"] == "Location on listing":
-        hc, hco = hint_place(f"{e['title']} {e['description'][:300]}")
-        if hc or hco:
-            p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing", "state": ""}
+        # A place named in the TITLE wins. Then the group's home city. Only then cities mentioned in the
+        # description, which often name somewhere else entirely ("DEF CON started in Las Vegas...").
+        texts = [e["title"]] + ([] if src.get("home") else [f"{e['title']} {e['description'][:300]}"])
+        for t in texts:
+            hc, hco = hint_place(t)
+            if hc or hco:
+                p = place("", hc or "", hco) if hc else {**p, "country": hco, "city": "Location on listing", "metro": "Location on listing", "state": ""}
+                break
     if (p["country"] == "Unknown" or p["city"] == "Location on listing") and src.get("home"):
         p = place("", src["home"])  # a local group's events default to its home city
     if src.get("drop_unplaced") and not p["online"] and (p["country"] == "Unknown" or p["city"] == "Location on listing"):

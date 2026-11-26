@@ -9,6 +9,7 @@
   };
   var ROLES = ["Student", "IT Support / Help Desk", "SOC / Analyst", "GRC / Audit", "Security Engineer", "Pentest / Red Team",
     "Cloud / DevOps", "Network Engineer", "Software / AI Engineer", "Data / ML", "Manager / Leader", "Recruiter", "Founder", "Other"];
+  var STATES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
   var EXP = ["Student", "0-2 years", "3-5 years", "6-10 years", "10+ years"];
   var DAY = 864e5;
 
@@ -150,6 +151,7 @@
     var card = el("div", { class: "acct" });
     card.appendChild(el("h3", { text: "Hey " + profile.first_name }));
     card.appendChild(el("p", { text: "Others going to the same event see: " + profile.first_name + " " + profile.last_name.charAt(0) + ". · " + profile.role + " · " + profile.experience + ". Never your email." }));
+    if (!profile.home_state) card.appendChild(el("p", { style: "color:var(--acc)", text: "Add your home state (Edit profile) to get the Monday lineup for your area." }));
     card.appendChild(el("a", { class: "btn btn--solid", href: "/", style: "margin-right:8px", text: "← Back to events" }));
     card.appendChild(el("button", { class: "btn", text: "Edit profile", onclick: function () { root.innerHTML = ""; profileForm(root, null, false); } }));
     card.appendChild(el("button", { class: "btn", style: "margin-left:8px", text: "Sign out", onclick: function () { sb.auth.signOut().then(function () { location.reload(); }); } }));
@@ -191,12 +193,18 @@
     var role = sel(ROLES, p.role), exp = sel(EXP, p.experience);
     var co = el("input", { type: "text", maxlength: "80", value: p.company || "", placeholder: "Optional" });
     var show = el("input", { type: "checkbox" }); show.checked = !!p.show_company;
+    var home = el("select"); home.appendChild(el("option", { value: "", text: "Outside the US / skip" }));
+    Object.keys(STATES).sort(function (a, b) { return STATES[a].localeCompare(STATES[b]); }).forEach(function (k) {
+      var o = el("option", { value: k, text: STATES[k] }); if (k === p.home_state) o.selected = true; home.appendChild(o); });
+    var dig = el("input", { type: "checkbox" }); dig.checked = p.weekly_digest !== false;
+    var ntf = el("input", { type: "checkbox" }); ntf.checked = p.notify !== false;
     var msg = el("div", { class: "msg" });
     var b = el("button", { class: "btn btn--solid", text: isNew ? "Save and continue" : "Save", onclick: function () {
       if (!fn.value.trim() || !ln.value.trim()) return (msg.textContent = "First and last name are required.");
       b.disabled = true;
       sb.from("profiles").upsert({ id: user.id, first_name: fn.value.trim(), last_name: ln.value.trim(), role: role.value, experience: exp.value,
-        company: co.value.trim() || null, show_company: show.checked && !!co.value.trim(), is_adult: true }).then(function (r) {
+        company: co.value.trim() || null, show_company: show.checked && !!co.value.trim(), is_adult: true,
+        home_state: home.value || null, weekly_digest: dig.checked, notify: ntf.checked }).then(function (r) {
         b.disabled = false;
         if (r.error) return (msg.textContent = nice(r.error));
         location.href = next || "/account/";
@@ -208,6 +216,9 @@
      el("label", { text: "Role" }), role, el("label", { text: "Experience" }), exp,
      el("label", { text: "Company" }), co,
      el("label", { class: "chk" }, [show, " Show my company to people I connect with (off by default)."]),
+     el("label", { text: "Home state" }), home,
+     el("label", { class: "chk" }, [dig, " Email me the Monday lineup for my state (one email a week)."]),
+     el("label", { class: "chk" }, [ntf, " Email me when someone wants to connect, or accepts."]),
      b, msg].forEach(function (n) { card.appendChild(n); });
     root.appendChild(card);
   }
@@ -276,7 +287,20 @@
 
   var box = document.getElementById("going"), acct = document.getElementById("account");
   // Pages with nothing account-related (like the homepage) only load the login library if you're signed in.
-  if (!box && !acct && !hasSession()) return;
+  if (!box && !acct && !document.getElementById("unsub") && !hasSession()) return;
+  var unsub = document.getElementById("unsub");
+  if (unsub) {
+    loadLib(function () {
+      sb = window.supabase.createClient(CFG.url, CFG.key);
+      var q = new URLSearchParams(location.search), t = q.get("t"), what = q.get("w") || "all";
+      if (!/^[0-9a-f-]{36}$/i.test(t || "")) { unsub.textContent = "That unsubscribe link looks broken. Change your emails from your account page."; return; }
+      sb.rpc("unsubscribe", { token: t, what: what }).then(function (r) {
+        unsub.textContent = r.error || !r.data ? "Couldn't find that subscription. Change your emails from your account page."
+          : what === "digest" ? "Done. No more Monday emails. Connect emails still come." : "Done. You won't get emails from The Lineup anymore.";
+      });
+    });
+    return;
+  }
   boot(function () {
     if (acct) accountPage(acct);
     if (box) eventBox(box);

@@ -1,0 +1,31 @@
+name: Connect emails
+
+on:
+  schedule:
+    - cron: "11 * * * *"   # every hour
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  notices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: scraper
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Email new connect requests and accepts
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python scraper/mailer.py notices

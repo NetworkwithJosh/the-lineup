@@ -147,7 +147,7 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 + (f'<div id="going" data-event="{esc(x["id"])}" data-start="{esc(x["start"])}" data-state="{esc(st or "")}"></div>'
                    if not x.get("online") and st else "")
                 + f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>'
-                + '<script src="/acct.js?v=3" defer></script>')
+                + '<script src="/acct.js?v=4" defer></script>')
         (out / sl).mkdir(parents=True, exist_ok=True)
         (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld))
         urls.append(f"{BASE}/event/{sl}/")
@@ -158,7 +158,8 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
 PRIVACY = """<h1>Privacy</h1><p class="lede">Plain-English version. Last updated November 26, 2026.</p>
 <h2>What we collect</h2><p>Browsing The Lineup needs no account. If you make one, we store your email, first and last name, role, experience level, optional company, which events you mark as going, and your connect requests, blocks and reports. We use privacy-friendly analytics (no ad cookies). If you use "Near me", your location stays in your browser and is never sent to us.</p>
 <h2>Who sees what</h2><p>Anyone can see how many people are going to an event. Only signed-in people who are also going can see who: first name, last initial, role and experience. Your email and full last name are shared only with someone after you both accept a connect request. Your company is shown only to connections, and only if you turn it on.</p>
-<h2>Where it lives</h2><p>Account data is stored with Supabase (our database provider). Sign-in emails are sent by our email provider. We don't sell or rent your data, and we don't share it with advertisers or recruiters.</p>
+<h2>Emails</h2><p>With an account you get sign-in links, and (if you leave them on) an email when someone wants to connect or accepts, plus a Monday email with your home state's events. Every email has a one-click unsubscribe, and you can change these any time on your account page.</p>
+<h2>Where it lives</h2><p>Account data is stored with Supabase (our database provider). Emails are sent through Resend (our email provider). We don't sell or rent your data, and we don't share it with advertisers or recruiters.</p>
 <h2>Your controls</h2><p>Edit your profile, un-mark going, block people or delete your account any time from your <a href="/account/">account page</a>. Deleting your account removes your data from our database right away (backups roll off within 30 days).</p>
 <h2>Age</h2><p>Accounts are for people 18 and older.</p>
 <h2>Contact</h2><p>Questions or data requests: use the report button in your account or the <a href="/submit/">contact form</a>.</p>"""
@@ -175,8 +176,11 @@ TERMS = """<h1>Terms</h1><p class="lede">Last updated November 26, 2026.</p>
 def build_static(site: Path) -> None:
     for path, title, desc, body in [
         ("account", "Your account | The Lineup", "Sign in to mark events you're going to and connect with others going.",
-         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=3" defer></script>'
+         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=4" defer></script>'
          '<p class="meta"><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>'),
+        ("unsubscribe", "Unsubscribe | The Lineup", "Stop emails from The Lineup.",
+         '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=4" defer></script>'
+         '<p class="meta"><a href="/account/">Account</a> · <a href="/">All events</a></p>'),
         ("privacy", "Privacy | The Lineup", "What The Lineup collects and who can see it.", PRIVACY),
         ("terms", "Terms | The Lineup", "Rules for using The Lineup.", TERMS)]:
         (site / path).mkdir(parents=True, exist_ok=True)
