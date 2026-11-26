@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5220f8923261@the-lineup
+DTSTAMP:20261126T204259Z
+SEQUENCE:0
+DTSTART:20270127T170000Z
+DTEND:20270127T210000Z
+SUMMARY:Kodi Connect IT (CIO) Leadership: Phoenix | Executive Networking Exchange
+LOCATION:Phoenix\, Phoenix\, United States
+DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer… https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

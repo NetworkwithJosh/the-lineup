@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:a1a354c86f2a@the-lineup
-DTSTAMP:20261126T204117Z
+DTSTAMP:20261126T204259Z
 SEQUENCE:0
 DTSTART:20261201T190000Z
 DTEND:20261201T200000Z
@@ -20,7 +20,7 @@ URL:https://www.meetup.com/protectphx/events/316780172/
 END:VEVENT
 BEGIN:VEVENT
 UID:e1cebb2aa757@the-lineup
-DTSTAMP:20261126T204117Z
+DTSTAMP:20261126T204259Z
 SEQUENCE:0
 DTSTART:20261202T153000Z
 DTEND:20261202T183000Z
@@ -32,7 +32,7 @@ URL:https://luma.com/event/evt-qUGv2h03rWXmX1F
 END:VEVENT
 BEGIN:VEVENT
 UID:63fe8f707af9@the-lineup
-DTSTAMP:20261126T204117Z
+DTSTAMP:20261126T204259Z
 SEQUENCE:0
 DTSTART:20261215T010000Z
 DTEND:20261215T023000Z
@@ -41,5 +41,17 @@ LOCATION:Location on listing\, Phoenix\, United States
 DESCRIPTION:PROTECTPHX NO AGENDA JUST TACOS Mostly an excuse to eat tacos — and a good time to network. Don’t wait until you’re job‑hunting or graduating. Build connections early and often. This is cross‑group\, multidisciplinary… https://www.meetup.com/protectphx/events/314852197/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/protectphx/events/314852197/
+END:VEVENT
+BEGIN:VEVENT
+UID:5220f8923261@the-lineup
+DTSTAMP:20261126T204259Z
+SEQUENCE:0
+DTSTART:20270127T170000Z
+DTEND:20270127T210000Z
+SUMMARY:Kodi Connect IT (CIO) Leadership: Phoenix | Executive Networking Exchange
+LOCATION:Phoenix\, Phoenix\, United States
+DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer… https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
 END:VEVENT
 END:VCALENDAR
