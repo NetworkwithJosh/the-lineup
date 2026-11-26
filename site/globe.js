@@ -23,13 +23,12 @@ if (hero && canvas && webglOK()) {
 
   const size = () => {
     width = canvas.offsetWidth || canvas.parentElement.offsetWidth || 360;
-    if (canvas.width !== width * 2) { canvas.width = width * 2; canvas.height = width * 2; }
   };
   size(); addEventListener("resize", size);
   await new Promise((r) => requestAnimationFrame(r)); size();  // measure after the hero is laid out
 
   const globe = createGlobe(canvas, {
-    devicePixelRatio: 2,
+    devicePixelRatio: Math.min(2, Math.max(1, window.devicePixelRatio || 1)),
     width: width * 2, height: width * 2,
     phi, theta, dark: 1, diffuse: 1.25, mapSamples: 16000, mapBrightness: 5.5,
     baseColor: [0.22, 0.25, 0.29], markerColor: [1, 0.71, 0.28], glowColor: [0.16, 0.18, 0.22],
@@ -43,7 +42,7 @@ if (hero && canvas && webglOK()) {
         phi += velocity; velocity *= 0.95;
         if (!reduce && Date.now() - idleSince > 2500) phi += 0.0022;  // gentle spin when nobody's touching it
       }
-      s.phi = phi; s.theta = theta; s.width = width * 2; s.height = width * 2; s.markers = markers;
+      s.phi = phi; s.theta = theta; s.width = canvas.width; s.height = canvas.height;  // always match the real drawing buffer s.markers = markers;
     },
   });
   requestAnimationFrame(() => canvas.classList.add("on"));
