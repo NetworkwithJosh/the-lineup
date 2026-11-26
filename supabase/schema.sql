@@ -249,3 +249,12 @@ revoke all on function public.attendees(text), public.my_requests(), public.my_c
 grant execute on function public.attendees(text), public.my_requests(), public.my_connections(), public.delete_me() to authenticated;
 grant execute on function public.going_counts(text[]) to anon, authenticated;
 revoke all on function public.is_blocked(uuid,uuid), public.is_going(uuid,text) from public, anon;
+
+-- Table access for the site (works whether or not "grant API access automatically" was on).
+-- Row level security above still decides which ROWS each person can touch.
+grant usage on schema public to anon, authenticated;
+grant select on public.events to anon, authenticated;
+grant select, insert, update, delete on public.profiles, public.rsvps, public.blocks to authenticated;
+grant insert on public.reports to authenticated;
+grant select, insert, update, delete on public.connections to authenticated;
+revoke all on public.profiles, public.rsvps, public.blocks, public.reports, public.connections from anon;
