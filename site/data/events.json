@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-26T16:37-05:00",
+ "generatedAt": "2026-11-26T17:09-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 385,
+ "count": 386,
  "changes": {
   "updated": 5,
-  "new": 16,
+  "new": 17,
   "cancelled": 7
  },
  "sources": [
@@ -479,7 +479,7 @@
   {
    "source": "DC512 (DEF CON Austin)",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "Dallas CyberSecurity (CSNP)",
@@ -4036,6 +4036,35 @@
    "lat": 40.572,
    "lng": -74.316,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a87c5825f613",
+   "title": "DC512 December Meetup",
+   "start": "2026-12-07T19:00-06:00",
+   "end": "2026-12-07T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc512atx/events/317598910/",
+   "about": "DC512 December meetup for DC512: Monday , December 7th, 2026 7pm-10pm @ Celis Brewery Beer Garden Meetup Details: -Attendees are welcome to present a firetalk (5-10 minutes) on a topic of their choosing. Sign-ups will…",
+   "source": "DC512 (DEF CON Austin)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T17:09-05:00",
    "seq": 0
   },
   {
