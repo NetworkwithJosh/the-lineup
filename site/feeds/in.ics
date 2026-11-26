@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ad4111f79e75@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20261204T220000Z
+DTEND:20261205T000000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:458c0fff0cd3@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270101T220000Z
+DTEND:20270102T000000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e69d2c0fb3@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270205T220000Z
+DTEND:20270206T000000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bd770d0e0b80@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270305T220000Z
+DTEND:20270306T000000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:187b4ddc9c06@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270402T210000Z
+DTEND:20270402T230000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aec5846f2d88@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270507T210000Z
+DTEND:20270507T230000Z
+SUMMARY:South Bend 2600
+LOCATION:Cloud Walking Cafe\, South Bend\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+END:VCALENDAR

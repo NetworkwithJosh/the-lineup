@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e851b0c16c3d@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20261204T230000Z
+DTEND:20261205T010000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:1b9a90444748@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270101T230000Z
+DTEND:20270102T010000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:70cedf288700@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270205T230000Z
+DTEND:20270206T010000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:97b726e3e8db@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270305T230000Z
+DTEND:20270306T010000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e3e1a7e0204d@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270402T220000Z
+DTEND:20270403T000000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:23424ed9cfe9@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270507T220000Z
+DTEND:20270508T000000Z
+SUMMARY:Burlington-area 2600
+LOCATION:Old Town Cafe & Comics\, 31 Cottonwood Dr\, Suite 106\, Williston\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+END:VCALENDAR

@@ -35,9 +35,17 @@
 33.521,
 -86.802
 ],
+"Boise|ID|United States": [
+43.617,
+-116.201
+],
 "Boston|MA|United States": [
 42.359,
 -71.058
+],
+"Bozeman|MT|United States": [
+45.679,
+-111.044
 ],
 "Brooklyn|NY|United States": [
 40.653,
@@ -46,6 +54,14 @@
 "Brussels||Belgium": [
 50.847,
 4.352
+],
+"Charleston|WV|United States": [
+38.351,
+-81.633
+],
+"Cheshire|CT|United States": [
+41.499,
+-72.901
 ],
 "Chicago|IL|United States": [
 41.876,
@@ -79,6 +95,10 @@
 26.122,
 -80.143
 ],
+"Fort Smith|AR|United States": [
+35.388,
+-94.427
+],
 "Frankfurt am Main||Germany": [
 50.111,
 8.682
@@ -94,6 +114,10 @@
 "Helsinki||Finland": [
 60.167,
 24.944
+],
+"Hermon|ME|United States": [
+44.81,
+-68.912
 ],
 "Huntsville|AL|United States": [
 34.73,
@@ -123,6 +147,10 @@
 "Kerala||India": [
 10.353,
 76.512
+],
+"Lansing|MI|United States": [
+42.734,
+-84.555
 ],
 "Las Vegas|NV|United States": [
 36.167,
@@ -176,6 +204,10 @@
 44.977,
 -93.265
 ],
+"Missoula|MT|United States": [
+46.87,
+-113.995
+],
 "Munich||Germany": [
 48.137,
 11.575
@@ -184,6 +216,10 @@
 36.162,
 -86.774
 ],
+"New Orleans|LA|United States": [
+29.957,
+-90.063
+],
 "New York|NY|United States": [
 40.713,
 -74.006
@@ -191,6 +227,10 @@
 "Newark|NJ|United States": [
 40.736,
 -74.172
+],
+"Oklahoma City|OK|United States": [
+35.473,
+-97.517
 ],
 "Oracle Austria GmbH||Austria": null,
 "Orlando|FL|United States": [
@@ -208,6 +248,10 @@
 "Perth Amboy|NJ|United States": [
 40.513,
 -74.272
+],
+"Peterborough|NH|United States": [
+42.878,
+-71.949
 ],
 "Philadelphia|PA|United States": [
 39.953,
@@ -229,6 +273,10 @@
 50.087,
 14.421
 ],
+"Raleigh|NC|United States": [
+35.78,
+-78.639
+],
 "Riyadh||Saudi Arabia": [
 24.639,
 46.716
@@ -240,6 +288,10 @@
 "Saint Paul|MN|United States": [
 44.95,
 -93.093
+],
+"Salt Lake City|UT|United States": [
+40.76,
+-111.887
 ],
 "San Diego|CA|United States": [
 32.716,
@@ -268,6 +320,14 @@
 "Singapore||Singapore": [
 1.29,
 103.852
+],
+"South Bend|IN|United States": [
+41.683,
+-86.25
+],
+"St. Louis|MO|United States": [
+38.625,
+-90.19
 ],
 "Stockholm||Sweden": [
 59.325,
@@ -312,5 +372,9 @@
 "West Des Moines|IA|United States": [
 41.564,
 -93.759
+],
+"Williston|VT|United States": [
+44.439,
+-73.073
 ]
 }

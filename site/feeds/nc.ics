@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ad42ec4ff41e@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20261205T000000Z
+DTEND:20261205T020000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:48c1ad71f198@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270102T000000Z
+DTEND:20270102T020000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:096a10ba01f7@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270206T000000Z
+DTEND:20270206T020000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:4b09bd3372e4@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270306T000000Z
+DTEND:20270306T020000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:44fd349d75de@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270402T230000Z
+DTEND:20270403T010000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:1417bb6abafb@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270507T230000Z
+DTEND:20270508T010000Z
+SUMMARY:Raleigh 2600
+LOCATION:Transfer Co Food Hall\, 500 E Davie St\, Raleigh\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+END:VCALENDAR

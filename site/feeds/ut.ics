@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:364d2b6995d7@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20261204T230000Z
+DTEND:20261205T010000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:66f588a6bfc5@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270101T230000Z
+DTEND:20270102T010000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:9c75b1cb0eb0@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270205T230000Z
+DTEND:20270206T010000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:8c7028f3b223@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270305T230000Z
+DTEND:20270306T010000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:93a4616f5905@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270402T220000Z
+DTEND:20270403T000000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b9d2b6a1bd34@the-lineup
+DTSTAMP:20261126T182612Z
+SEQUENCE:0
+DTSTART:20270507T220000Z
+DTEND:20270508T000000Z
+SUMMARY:Salt Lake City 2600
+LOCATION:801labs Hackerspace\, 353 E 200 S\, Ste B\, Salt Lake City\, United States
+DESCRIPTION:Monthly 2600 hacker meetup\, first Friday\, open to anyone. Listed on 2600.com\; meetings can lapse\, so check before going. https://2600.com/meetings/mtg.html
+STATUS:CONFIRMED
+URL:https://2600.com/meetings/mtg.html
+END:VEVENT
+END:VCALENDAR
