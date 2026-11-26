@@ -11,7 +11,7 @@ def main():
              "city": e.get("city") or None} for e in evs if e.get("status") != "cancelled"]
     for i in range(0, len(rows), 500):
         req = urllib.request.Request(f"{url}/rest/v1/events?on_conflict=id", data=json.dumps(rows[i:i+500]).encode(),
-              method="POST", headers={"apikey": key, "Authorization": f"Bearer {key}", "Content-Type": "application/json",
+              method="POST", headers={"apikey": key, **({} if key.startswith("sb_") else {"Authorization": f"Bearer {key}"}), "Content-Type": "application/json",
               "Prefer": "resolution=merge-duplicates,return=minimal"})
         urllib.request.urlopen(req, timeout=60).read()
     print(f"supabase sync: upserted {len(rows)} events")
