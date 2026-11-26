@@ -15,7 +15,7 @@ UA = "Mozilla/5.0 (compatible; TheLineupBot/1.0; +https://thelineup.dev)"
 # stricter than the site's filter on purpose: a new group has to *be* a security group, not mention it once
 STRICT = re.compile(r"\b(cyber\w*|infosec|info ?sec|security|hackers?|hacking|owasp|def ?con|dc\d{3}|bsides|ctf|pen ?test\w*|red team|blue team|isc2|isaca|issa|osint|malware|appsec|devsecops|2600)\b", re.I)
 # groups that look cyber but aren't useful here (online reposts, AI-safety reading groups, generic data clubs)
-NOISE = re.compile(r"control-systems|cyber-security-for-control|ai-safety-awareness|analytics\.?club|^ac-|^lfdt-|code-for-|real-estate|humanist|toastmaster", re.I)
+NOISE = re.compile(r"control-systems|cyber-security-for-control|ai-safety-awareness|analytics\.?club|^ac-|^lfdt-|code-for-|real-estate|humanist|toastmaster|travel.?hack|indie.?hack|founders|rust|progressive|makerspace|learn.?to.?code", re.I)
 KEYWORDS = ["cybersecurity", "hacking", "information security"]
 CITIES = {
  "AL":["Huntsville","Birmingham"],"AK":["Anchorage"],"AZ":["Phoenix","Tucson"],"AR":["Little Rock","Fayetteville"],

@@ -1,0 +1,458 @@
+{
+  "blocked": [
+    "Learn_to_Code_for_Free_in_SouthFlorida",
+    "chicago-indie-hackers",
+    "foundershub-networking",
+    "h-f-minneapolis",
+    "hacking-the-young-korean-academy",
+    "leftistprogressivenightout",
+    "nashville-travel-hacking-enthusiasts",
+    "orlando-travel-hacking-enthusiasts",
+    "sacmadestudio",
+    "san-francisco-rust-study-group",
+    "silicon-valley-ai-executive-community-by-open-future-forum",
+    "tampa-travel-hacking-enthusiasts"
+  ],
+  "groups": [
+    {
+      "slug": "801labs",
+      "name": "801 LABS",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Salt Lake City, UT",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "ai-security-engineers-miami",
+      "name": "AI Security Engineers - Miami, FL",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Miami, FL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "aicyberit",
+      "name": "AI, Cybersecurity and IT Professionals",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Culver City, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "aiseceng-chicago",
+      "name": "AI Security Engineers - Chicago, IL",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Chicago, IL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "albany-2600",
+      "name": "Albany 2600",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Albany, NY",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "Atlanta-White-Hat-Hacking-The-Acropolis-Guard-Meetup",
+      "name": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dunwoody, GA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "ATX-2600",
+      "name": "ATX 2600",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "burbsecvegas",
+      "name": "Las Vegas Cybersecurity Meetup | BurbsecVegas",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Las Vegas, NV",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "Cloud-Security-Alliance-San-Diego",
+      "name": "Cloud Security Alliance- San Diego",
+      "tags": [
+        "cyber"
+      ],
+      "home": "San Diego, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "cyberlunch",
+      "name": "CYBERLUNCH",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Round Rock, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "cybersecurity-technology-explorers",
+      "name": "Cybersecurity & Technology Explorers",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Kenosha, WI",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "dallas-hackers-association",
+      "name": "Dallas Hackers Association",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Dallas, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "dc414group",
+      "name": "dc414",
+      "tags": [
+        "cyber"
+      ],
+      "home": "West Allis, WI",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "dc512atx",
+      "name": "DC512",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Austin, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "defcon401",
+      "name": "DC401",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Providence, RI",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "elastic-chicago-user-group",
+      "name": "Elastic Chicago User Group",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Chicago, IL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "evsecaz",
+      "name": "EVSec",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Scottsdale, AZ",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "h4ck3яs-️-computer-social-club-defcon-502-louisville",
+      "name": "H4cK3Яs ❤️ Computer Social Club + DefCon 502 Louisville",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Louisville, KY",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "hac-dc",
+      "name": "HacDC",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Washington, DC",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "hackersguild",
+      "name": "Hackers Guild",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Pittsburgh, PA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "hackmanhattan",
+      "name": "Hack Manhattan",
+      "tags": [
+        "cyber"
+      ],
+      "home": "New York, NY",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "hackmiami",
+      "name": "HackMiami %27",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Davie, FL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "houston-area-hackers-association",
+      "name": "Houston Area Hackers Anonymous",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Houston, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "indyaws",
+      "name": "IndyAWS",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Indianapolis, IN",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "ISC-Pittsburgh-Chapter",
+      "name": "ISC2 Pittsburgh Chapter",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Pittsburgh, PA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "Jax2600",
+      "name": "2600/DC904",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Jacksonville, FL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "loudoun-cybertech",
+      "name": "Loudoun CyberTech",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Sterling, VA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "noisebridge",
+      "name": "Noisebridge Hackerspace",
+      "tags": [
+        "cyber"
+      ],
+      "home": "San Francisco, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "nova-hackers",
+      "name": "NoVA Hackers",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Reston, VA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "oc2600",
+      "name": "OC2600",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Fullerton, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "Open-Web-Application-Security-Project-San-Diego-OWASP-SD",
+      "name": "Open Web Application Security Project San Diego (OWASP-SD)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "San Diego, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "owasp-atlanta",
+      "name": "OWASP Atlanta Chapter",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Atlanta, GA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "owasp-maine",
+      "name": "OWASP Portland, Maine",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Portland, ME",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "owasp-phoenix-chapter",
+      "name": "OWASP Phoenix Chapter",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Mesa, AZ",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "rabbit-labs",
+      "name": "Rabbit-Labs Learning Lab",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Parlin, NJ",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "rainsec",
+      "name": "RainSec - PDX Information Security Meetup",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Portland, OR",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "rocky-mountain-artificial-intelligence-network",
+      "name": "Rocky Mountain Artificial Intelligence Network",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Denver, CO",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "rvasec",
+      "name": "RVAsec Security Community",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Richmond, VA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "san-diego-cyber-meetup",
+      "name": "San Diego Cyber Group",
+      "tags": [
+        "cyber"
+      ],
+      "home": "San Diego, CA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "seattle-2600",
+      "name": "Seattle 2600",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Seattle, WA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "Symbol-Crash-Proper-Hacker-Training",
+      "name": "Symbol Crash: Proper Hacker Training",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Seattle, WA",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "tampa-cybersecurity-training",
+      "name": "Tampa Cybersecurity Training",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tampa, FL",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "techlife-cincinnati",
+      "name": "TechLife Cincinnati",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Cincinnati, OH",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    },
+    {
+      "slug": "WIST-Dallas-Women-in-Security-and-Tech",
+      "name": "WoSEC Dallas: Women of Security",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Plano, TX",
+      "require_keywords": true,
+      "found": "2026-11-26"
+    }
+  ]
+}
