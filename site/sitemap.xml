@@ -6,14 +6,13 @@
   <url><loc>https://thelineup.dev/us/illinois/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/pennsylvania/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/nevada/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/washington/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/new-jersey/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/wisconsin/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/new-york/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/arizona/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/georgia/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/california/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/ohio/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/new-jersey/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/kansas/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/iowa/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/massachusetts/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -33,6 +32,7 @@
   <url><loc>https://thelineup.dev/us/arkansas/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/new-hampshire/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/north-carolina/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/washington/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/minnesota/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/florida/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/tennessee/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -59,7 +59,6 @@
   <url><loc>https://thelineup.dev/event/devopscon-munich-96bb4d1d/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/espc-f4d469f0/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/it-security-summit-munich-5806a3a3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/the-future-of-it-ai-automation-intelligent-networking-free-w-183c9dda/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/the-future-of-it-ai-automation-intelligent-networking-free-w-8d48d942/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/dc608-coding-night-028981fe/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/black-hat-mea-2026-613ac9e4/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -86,7 +85,6 @@
   <url><loc>https://thelineup.dev/event/replacing-azure-communication-services-without-rebuilding-yo-ebcf544c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/webinar-post-quantum-migration-in-practice-assessing-readine-7bed77d9/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cs-ai-online-cyber-informed-engineering-cie-bridging-the-ot-7173c409/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/cs-ai-online-cyber-informed-engineering-cie-bridging-the-ot-39577acc/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/checking-the-checkers-ai-evidence-and-health-claims-w-the-ai-e1cebb2a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-healthcare-and-northeast-ohio-affiliates-cybersecurity-0040f996/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/owasp-london-chapter-meetup-note-register-on-eventbrite-3b9b06d6/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>

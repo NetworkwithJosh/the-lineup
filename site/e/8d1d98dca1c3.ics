@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8d1d98dca1c3@the-lineup
-DTSTAMP:20261126T205913Z
-SEQUENCE:0
+DTSTAMP:20261126T211026Z
+SEQUENCE:1
 DTSTART:20261201T170000Z
 DTEND:20261201T190000Z
 SUMMARY:[Virtual] Google Agents in Production for Enterprises with Oracle
-LOCATION:Location on listing\, New York\, United States
+LOCATION:Online
 DESCRIPTION:NYC Big Data Meetup Important: Register on the Event Website to receive the joining link. (RSVP on Meetup will NOT receive the joining link.) Brought to you by Google Cloud and AI Camp\, Agents in Production for… https://www.meetup.com/big-data/events/317563636/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/big-data/events/317563636/

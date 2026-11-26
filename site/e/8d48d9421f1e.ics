@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8d48d9421f1e@the-lineup
-DTSTAMP:20261126T205913Z
-SEQUENCE:0
+DTSTAMP:20261126T211026Z
+SEQUENCE:1
 DTSTART:20261130T170000Z
 DTEND:20261130T180000Z
 SUMMARY:The Future of IT: AI\, Automation & Intelligent Networking | Free Webinar
-LOCATION:Location on listing\, Iselin\, United States
+LOCATION:Online
 DESCRIPTION:New Jersey Business and Tech Meetup From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 Register for Free – Reserve Your Seat AI is changing how IT teams manage networks\, troubleshoot issues\, and… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317360022/

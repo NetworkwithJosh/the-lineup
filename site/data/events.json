@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T15:58-05:00",
+ "generatedAt": "2026-11-26T16:09-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 387,
+ "count": 385,
  "changes": {
-  "new": 17,
-  "updated": 1,
-  "cancelled": 5
+  "updated": 5,
+  "new": 16,
+  "cancelled": 7
  },
  "sources": [
   {
@@ -1533,12 +1533,13 @@
    "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317360033/",
    "about": "Seattle Business and Technology Meetup Group From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 Register for Free – Reserve Your Seat AI is changing how IT teams manage networks, troubleshoot…",
    "source": "Seattle Business and Technology",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 47.604,
    "lng": -122.33,
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "8d48d9421f1e",
@@ -1547,13 +1548,13 @@
    "end": "2026-11-30T13:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Free",
    "tags": [
     "ai",
@@ -1565,10 +1566,12 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "028981fe8782",
@@ -1779,13 +1782,13 @@
    "end": "2026-12-01T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -1797,10 +1800,12 @@
    "source": "NYC Big Data / AI",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
    "firstSeen": "2026-11-24T15:40-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "a1a354c86f2a",
@@ -2295,13 +2300,13 @@
    "end": "2026-12-02T14:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Newark",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -2312,10 +2317,12 @@
    "source": "Newark OT/ICS Security",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.736,
-   "lng": -74.172,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 2
+   "seq": 3,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "39577acc9c3c",
@@ -2339,12 +2346,13 @@
    "url": "https://www.meetup.com/toronto-cyber-security-for-control-systems/events/317408131/",
    "about": "Toronto Cyber Security for Control Systems Control systems are under constant threat, and patching and monitoring alone can’t stop an attacker who is determined and well resourced. Cyber-Informed Engineering (CIE) takes…",
    "source": "Toronto OT/ICS Security",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 43.653,
    "lng": -79.384,
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 2
+   "seq": 3,
+   "cancelledAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "e1cebb2aa757",
@@ -4562,13 +4570,13 @@
    "end": "2026-12-09T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -4580,10 +4588,12 @@
    "source": "AICamp NYC",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
    "firstSeen": "2026-11-16T15:30-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T16:09-05:00"
   },
   {
    "id": "68493921ee06",

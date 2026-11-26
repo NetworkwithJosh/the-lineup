@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8854c9a2a421@the-lineup
-DTSTAMP:20261126T205913Z
-SEQUENCE:0
+DTSTAMP:20261126T211026Z
+SEQUENCE:1
 DTSTART:20261209T180000Z
 DTEND:20261209T190000Z
 SUMMARY:AI Webinar (Diagrid and AWS) - Durable Execution for Agents
-LOCATION:Location on listing\, New York\, United States
+LOCATION:Online
 DESCRIPTION:NYC AI Developers Group Important : Register on the event website to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event for our AI global community\, please double-check your… https://www.meetup.com/aittg-nyc/events/317458985/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/aittg-nyc/events/317458985/
