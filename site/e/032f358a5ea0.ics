@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:032f358a5ea0@the-lineup
+DTSTAMP:20261126T034748Z
+SEQUENCE:0
+DTSTART:20270128T010000Z
+DTEND:20270128T020000Z
+SUMMARY:Red Team Night
+LOCATION:Location on listing\, Madison\, United States
+DESCRIPTION:DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?… https://www.meetup.com/dc608madison/events/316673029/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/316673029/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

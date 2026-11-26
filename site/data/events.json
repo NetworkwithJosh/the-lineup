@@ -1,12 +1,13 @@
 {
- "generatedAt": "2026-11-25T14:57-05:00",
+ "generatedAt": "2026-11-25T22:46-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 283,
+ "count": 281,
  "changes": {
+  "new": 3,
   "updated": 1,
-  "cancelled": 1
+  "cancelled": 6
  },
  "sources": [
   {
@@ -368,7 +369,7 @@
   {
    "source": "OWASP London",
    "ok": true,
-   "events": 3
+   "events": 2
   },
   {
    "source": "OWASP Cambridge",
@@ -573,7 +574,7 @@
   {
    "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
    "ok": true,
-   "events": 6
+   "events": 5
   },
   {
    "source": "Tampa Bay Cybersecurity",
@@ -951,12 +952,13 @@
    "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316558001/",
    "about": "Microsoft Reactor New York Generar ideas con inteligencia artificial es fácil. El verdadero reto es identificar cuáles tienen potencial y decidir qué hacer con ellas. En esta sesión práctica utilizaremos Microsoft…",
    "source": "Microsoft Reactor New York",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 40.713,
    "lng": -74.006,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T22:46-05:00"
   },
   {
    "id": "52a05b24ff84",
@@ -980,12 +982,13 @@
    "url": "https://www.meetup.com/owasp-london/events/317357985/",
    "about": "OWASP London Chapter IMPORTANT: REGISTER on Eventbrite",
    "source": "OWASP London",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T22:46-05:00"
   },
   {
    "id": "7a216408101a",
@@ -1038,12 +1041,13 @@
    "url": "https://www.meetup.com/centralflcitysec/events/317306770/",
    "about": "Central Florida CitySec CitrusSec is a Central Florida CitySec group located in the Orlando area. CitrusSec's goal is to discuss topics of interest in a non-work, non-vendor setting; preferably while drinking.",
    "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 28.542,
    "lng": -81.379,
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T22:46-05:00"
   },
   {
    "id": "135b7a26b894",
@@ -1067,12 +1071,13 @@
    "url": "https://www.meetup.com/dc608madison/events/316673024/",
    "about": "DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?…",
    "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T22:46-05:00"
   },
   {
    "id": "d964ab467f2e",
@@ -3166,6 +3171,36 @@
    "seq": 0
   },
   {
+   "id": "10dbcddf87a6",
+   "title": "Toma mejores decisiones con Copilot: de la información a la acción",
+   "start": "2026-12-04T16:00-05:00",
+   "end": "2026-12-04T17:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316558049/",
+   "about": "Microsoft Reactor New York En esta sesión práctica aprenderemos a utilizar Microsoft Copilot como apoyo para estructurar y analizar decisiones, construyendo juntos un framework sencillo que nos permita evaluar…",
+   "source": "Microsoft Reactor New York",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-25T22:46-05:00",
+   "seq": 0
+  },
+  {
    "id": "b2c7d1c4012f",
    "title": "NYC2600",
    "start": "2026-12-04T17:00-05:00",
@@ -5026,6 +5061,35 @@
    "seq": 0
   },
   {
+   "id": "ebc58101cc41",
+   "title": "Norfolk Cybersecurity Networking & Happy Hour",
+   "start": "2026-12-15T18:00-05:00",
+   "end": "2026-12-15T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Virginia Beach",
+   "country": "United States",
+   "metro": "Virginia Beach",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/issa-hampton-roads/events/317585882/",
+   "about": "Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd…",
+   "source": "ISSA Hampton Roads",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 36.85,
+   "lng": -75.976,
+   "firstSeen": "2026-11-25T22:46-05:00",
+   "seq": 0
+  },
+  {
    "id": "fd99a5c64b1f",
    "title": "Norfolk Cybersecurity Networking & Happy Hour",
    "start": "2026-12-15T18:00-05:00",
@@ -5047,12 +5111,13 @@
    "url": "https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcqbtb/",
    "about": "Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd…",
    "source": "ISSA Hampton Roads",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 36.85,
    "lng": -75.976,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-25T22:46-05:00"
   },
   {
    "id": "0a1b7d8475dc",
@@ -5074,7 +5139,7 @@
    ],
    "kind": "Meetup",
    "url": "https://www.meetup.com/issa-la/events/317488452/",
-   "about": "ISSA Los Angeles You must purchase tickets on Eventbrite to attend: PURCHASE TICKETS HERE: Join us for an elevated evening featuring a top speaker, great networking, food, and drinks! Southern California’s security…",
+   "about": "ISSA Los Angeles You must purchase tickets on Eventbrite to attend: PURCHASE TICKETS HERE: \\ Please note: Listed ticket prices do not include standard Eventbrite processing fees, which will be added at checkout. Join us…",
    "source": "ISSA Los Angeles",
    "status": "listed",
    "cancelReason": null,
@@ -6869,6 +6934,35 @@
    "lat": 28.542,
    "lng": -81.379,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "032f358a5ea0",
+   "title": "Red Team Night",
+   "start": "2027-01-27T19:00-06:00",
+   "end": "2027-01-27T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/316673029/",
+   "about": "DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?…",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.075,
+   "lng": -89.384,
+   "firstSeen": "2026-11-25T22:46-05:00",
    "seq": 0
   },
   {

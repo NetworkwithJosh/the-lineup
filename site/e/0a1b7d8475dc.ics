@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0a1b7d8475dc@the-lineup
-DTSTAMP:20261125T195817Z
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261216T020000Z
 DTEND:20261216T070000Z
 SUMMARY:ISSA Los Angeles Winter Gala
 LOCATION:Location on listing\, Los Angeles\, United States
-DESCRIPTION:ISSA Los Angeles You must purchase tickets on Eventbrite to attend: PURCHASE TICKETS HERE: Join us for an elevated evening featuring a top speaker\, great networking\, food\, and drinks! Southern California’s security… https://www.meetup.com/issa-la/events/317488452/
+DESCRIPTION:ISSA Los Angeles You must purchase tickets on Eventbrite to attend: PURCHASE TICKETS HERE: \\ Please note: Listed ticket prices do not include standard Eventbrite processing fees\, which will be added at checkout. Join us… https://www.meetup.com/issa-la/events/317488452/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/issa-la/events/317488452/
 BEGIN:VALARM

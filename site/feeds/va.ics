@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:5ffa5da6cfaa@the-lineup
-DTSTAMP:20261125T195817Z
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261204T183000Z
 DTEND:20261204T203000Z
@@ -20,7 +20,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:f117399e656c@the-lineup
-DTSTAMP:20261125T195817Z
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261210T223000Z
 DTEND:20261211T013000Z
@@ -32,7 +32,7 @@ URL:https://luma.com/ai-builders
 END:VEVENT
 BEGIN:VEVENT
 UID:2d42df4820ec@the-lineup
-DTSTAMP:20261125T195817Z
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261211T230000Z
 DTEND:20261212T010000Z
@@ -43,20 +43,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/issa-hampton-roads/events/316842274/
 END:VEVENT
 BEGIN:VEVENT
-UID:fd99a5c64b1f@the-lineup
-DTSTAMP:20261125T195817Z
+UID:ebc58101cc41@the-lineup
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261215T230000Z
 DTEND:20261216T020000Z
 SUMMARY:Norfolk Cybersecurity Networking & Happy Hour
 LOCATION:Location on listing\, Virginia Beach\, United States
-DESCRIPTION:Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View\, Norfolk. Happy hour is till 8pm with fantastic deals\, check the 2nd… https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcqbtb/
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View\, Norfolk. Happy hour is till 8pm with fantastic deals\, check the 2nd… https://www.meetup.com/issa-hampton-roads/events/317585882/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcqbtb/
+URL:https://www.meetup.com/issa-hampton-roads/events/317585882/
 END:VEVENT
 BEGIN:VEVENT
 UID:b3b23ad49b98@the-lineup
-DTSTAMP:20261125T195817Z
+DTSTAMP:20261126T034748Z
 SEQUENCE:0
 DTSTART:20261216T230000Z
 DTEND:20261217T010000Z
