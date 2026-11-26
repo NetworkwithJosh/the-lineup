@@ -77,9 +77,9 @@ if (hero && canvas && webglOK()) {
     const live = events.filter((e) => !e.online && e.lat != null && e.status !== "cancelled");
     const byCity = new Map();
     for (const e of live) {
-      const nm = (e.metro || e.city).replace(/ area$/i, ""), k = nm + "|" + (e.state || e.country);
-      const c = byCity.get(k) || { name: nm, metro: e.metro || e.city, state: e.state, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
-      c.n++; byCity.set(k, c);
+      const nm = (e.metro || e.city).replace(/ area$/i, ""), k = nm + "|" + e.country;
+      const c = byCity.get(k) || { name: nm, metro: e.metro || e.city, state: e.state, states: new Set(), metros: {}, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
+      c.n++; c.states.add(e.state); const mm = e.metro || e.city; c.metros[mm] = (c.metros[mm] || 0) + 1; byCity.set(k, c);
     }
     const cities = [...byCity.values()].sort((a, b) => b.n - a.n);
     markers = cities.map((c) => ({ location: [c.lat, c.lng], size: Math.min(0.11, 0.035 + Math.sqrt(c.n) * 0.016) }));
@@ -94,7 +94,7 @@ if (hero && canvas && webglOK()) {
       const b = e.target.closest(".g-chip"); if (!b) return;
       const c = cities[+b.dataset.i];
       [targetPhi, targetTheta] = toAngles(c.lat, c.lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
-      dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" ? c.state : "", metro: c.metro } }));
+      dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" && c.states.size === 1 ? c.state : "", metro: Object.entries(c.metros).sort((a, b) => b[1] - a[1])[0][0] } }));
     };
 
     // fly to whatever the filters point at (a state, a city, or near me)
