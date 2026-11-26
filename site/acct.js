@@ -59,6 +59,11 @@
     var m = (err && err.message) || "Something went wrong. Try again.";
     return m.replace(/^.*?exception:?\s*/i, "");
   }
+  function gdates(d) {
+    if (isNaN(d)) return "";
+    var z = function (x) { return x.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); };
+    return z(d) + "/" + z(new Date(+d + 2 * 36e5));
+  }
   function fmt(d) { return d.toLocaleDateString(undefined, { month: "short", day: "numeric" }); }
 
   /* ---------------- event page: going + who's going ---------------- */
@@ -102,7 +107,7 @@
             card.appendChild(el("p", { style: "margin:0 0 12px" }, ["Put it on your calendar so you actually go: ",
               el("a", { href: "/e/" + id + ".ics", text: "Apple / Outlook" }), " · ",
               el("a", { href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(document.querySelector("h1").textContent) +
-                "&details=" + encodeURIComponent(location.href), target: "_blank", rel: "noopener", text: "Google" })]));
+                "&dates=" + gdates(start) + "&details=" + encodeURIComponent(location.href), target: "_blank", rel: "noopener", text: "Google" })]));
             attendees();
           }
         });
