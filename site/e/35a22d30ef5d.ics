@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:35a22d30ef5d@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270114T150000Z
 DTEND:20270114T233000Z
 SUMMARY:AI Builders x Base44 Buildathon
 LOCATION:The HUB @ Office Logic\, Miami\, United States
-DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/ai-builders
+DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/mia-jan14-hday
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/mia-jan14-hday
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

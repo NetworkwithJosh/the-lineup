@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb87df19392c@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261210T230000Z
+DTEND:20261211T020000Z
+SUMMARY:BarCode - BSides Philly Happy Hour
+LOCATION:Center Bar at Live! Casino & Hotel Philadelphia\, Philadelphia\, United States
+DESCRIPTION:The night before BSides Philly. Real conversations with the Philly security community. No booths\, no badge scans\, no pitches. https://www.eventbrite.com/e/barcode-bsides-philly-happy-hour-tickets-2005394800833
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/barcode-bsides-philly-happy-hour-tickets-2005394800833
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

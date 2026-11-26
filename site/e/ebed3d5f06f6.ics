@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebed3d5f06f6@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261128T000000Z
+DTEND:20261128T020000Z
+SUMMARY:️ NYC Cybersecurity & InfoSec Social Mixer – Every Friday @ 7PM
+LOCATION:The Irish American Pub\, New York\, United States
+DESCRIPTION:Calling all cybersecurity professionals\, ethical hackers\, SOC analysts https://www.eventbrite.com/e/nyc-cybersecurity-infosec-social-mixer-every-friday-7pm-tickets-1507681478889
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/nyc-cybersecurity-infosec-social-mixer-every-friday-7pm-tickets-1507681478889
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:91021f1da338@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270218T230000Z
 DTEND:20270219T020000Z
 SUMMARY:AI Builders Miami - Feb 18
 LOCATION:The HUB @ Office Logic\, Miami\, United States
-DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/ai-builders
+DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/mia-feb18
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/mia-feb18
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

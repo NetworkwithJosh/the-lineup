@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb773a54cbcd@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270107T170000Z
+DTEND:20270107T230000Z
+SUMMARY:Global Converged Intelligence & Security Summit
+LOCATION:1475 N Scottsdale Rd\, Scottsdale\, United States
+DESCRIPTION:Join us for a day of cutting-edge table tops\, talks and networking on the future of intelligence and security. https://www.eventbrite.com/e/global-converged-intelligence-security-summit-tickets-2003248536298
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/global-converged-intelligence-security-summit-tickets-2003248536298
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6b3fa1810558@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261201T070000Z
 DTEND:20261201T110000Z
 SUMMARY:C-Suite Dinner: AI Disasters in Critical Infrastuctures (w/ The AI Collective\, FACCI and Visione Group)
 LOCATION:GEORGES\, GEORGES\, Australia
-DESCRIPTION:Address: GEORGES Adelaide\, SA Australia https://luma.com/genai-collective
+DESCRIPTION:Address: GEORGES Adelaide\, SA Australia https://luma.com/aic-ad-12-1
 STATUS:CONFIRMED
-URL:https://luma.com/genai-collective
+URL:https://luma.com/aic-ad-12-1
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

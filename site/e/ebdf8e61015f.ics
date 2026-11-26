@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebdf8e61015f@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261202T150000Z
+DTEND:20261202T173000Z
+SUMMARY:Danger at the Door: A Cybersecurity Power Breakfast
+LOCATION:Forge Event Center\, Loveland\, United States
+DESCRIPTION:Bringing together leading experts across banking\, healthcare\, insurance and IT to confront the reality head-on. https://www.eventbrite.com/e/danger-at-the-door-a-cybersecurity-power-breakfast-tickets-2004791271661
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/danger-at-the-door-a-cybersecurity-power-breakfast-tickets-2004791271661
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

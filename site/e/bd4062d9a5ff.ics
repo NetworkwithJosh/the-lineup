@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bd4062d9a5ff@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270127T020000Z
 DTEND:20270127T050000Z
 SUMMARY:Co-Founder Mixer Night · AIT SJ 🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/techequity-ai-community
+DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/iwwbesuv
 STATUS:CONFIRMED
-URL:https://luma.com/techequity-ai-community
+URL:https://luma.com/iwwbesuv
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

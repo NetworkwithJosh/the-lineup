@@ -7,8 +7,20 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:ebaff799cd95@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261202T150000Z
+DTEND:20261202T190000Z
+SUMMARY:Learn Cybersecurity and Get Certified for Free ! - Fort Lauderdale - LIVE
+LOCATION:The Academy\, Computer Training Centers\, Fort Lauderdale\, United States
+DESCRIPTION:This event will teach you how to apply for free training grants to those who are starting a career in STEM. https://www.eventbrite.com/e/learn-cybersecurity-and-get-certified-for-free-fort-lauderdale-live-tickets-1980412984548
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/learn-cybersecurity-and-get-certified-for-free-fort-lauderdale-live-tickets-1980412984548
+END:VEVENT
+BEGIN:VEVENT
 UID:afab6aa2c39a@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261202T233000Z
 DTEND:20261203T013000Z
@@ -19,8 +31,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/ai-security-engineers-miami/events/317179923/
 END:VEVENT
 BEGIN:VEVENT
+UID:eb49184b10e0@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261203T230000Z
+DTEND:20261204T030000Z
+SUMMARY:WOVEN: An Exhibition by Pa'lante x The Cyber Ox
+LOCATION:Cyber Ox Studio\, Miami\, United States
+DESCRIPTION:An exhibition exploring identity\, material memory and place through work by 11 artists\, with a surround sound installation by P1NO. https://www.eventbrite.com/e/woven-an-exhibition-by-palante-x-the-cyber-ox-tickets-2005291356428
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/woven-an-exhibition-by-palante-x-the-cyber-ox-tickets-2005291356428
+END:VEVENT
+BEGIN:VEVENT
 UID:bd1f11801d63@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261205T170000Z
 DTEND:20261205T220000Z
@@ -32,7 +56,7 @@ URL:https://www.meetup.com/hackmiami/events/316245755/
 END:VEVENT
 BEGIN:VEVENT
 UID:a5bd4ef44e5d@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261209T233000Z
 DTEND:20261210T013000Z
@@ -44,7 +68,7 @@ URL:https://www.meetup.com/spacecoastsec/events/316438270/
 END:VEVENT
 BEGIN:VEVENT
 UID:a2299449d1ae@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261210T230000Z
 DTEND:20261211T010000Z
@@ -56,7 +80,7 @@ URL:https://www.meetup.com/south-florida-issa-chapter/events/314337168/
 END:VEVENT
 BEGIN:VEVENT
 UID:bade3ebd3420@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261214T220000Z
 DTEND:20261215T010000Z
@@ -68,19 +92,19 @@ URL:https://www.meetup.com/tampa-cybersecurity-training/events/317076142/
 END:VEVENT
 BEGIN:VEVENT
 UID:4b29a67ae135@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261217T223000Z
 DTEND:20261218T003000Z
 SUMMARY:Health Tech Flock + Cycore Meetup
 LOCATION:Rum Room Restaurant & Venu\, Washington\, United States
-DESCRIPTION:Address: Rum Room Restaurant & Venu Miami Beach\, FL United States https://luma.com/cycore-secure
+DESCRIPTION:Address: Rum Room Restaurant & Venu Miami Beach\, FL United States https://luma.com/yo2sgij1
 STATUS:CONFIRMED
-URL:https://luma.com/cycore-secure
+URL:https://luma.com/yo2sgij1
 END:VEVENT
 BEGIN:VEVENT
 UID:a8e42695f33d@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261224T000000Z
 DTEND:20261224T020000Z
@@ -92,31 +116,31 @@ URL:https://www.meetup.com/centralflcitysec/events/mlhwctyjcqbfc/
 END:VEVENT
 BEGIN:VEVENT
 UID:35a22d30ef5d@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270114T150000Z
 DTEND:20270114T233000Z
 SUMMARY:AI Builders x Base44 Buildathon
 LOCATION:The HUB @ Office Logic\, Miami\, United States
-DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/ai-builders
+DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/mia-jan14-hday
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/mia-jan14-hday
 END:VEVENT
 BEGIN:VEVENT
 UID:171f7abafef1@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270122T230000Z
 DTEND:20270123T020000Z
 SUMMARY:AI Builders Miami - Jan 22
 LOCATION:The HUB @ Office Logic\, Miami\, United States
-DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/ai-builders
+DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/mia-jan22
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/mia-jan22
 END:VEVENT
 BEGIN:VEVENT
 UID:e0e94a2c01ef@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270128T000000Z
 DTEND:20270128T020000Z
@@ -128,7 +152,7 @@ URL:https://www.meetup.com/centralflcitysec/events/mlhwctykccbkc/
 END:VEVENT
 BEGIN:VEVENT
 UID:15551dca0682@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270220
@@ -140,19 +164,19 @@ URL:https://infosec-conferences.com/event/20270217-zero-trust-world-2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:91021f1da338@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270218T230000Z
 DTEND:20270219T020000Z
 SUMMARY:AI Builders Miami - Feb 18
 LOCATION:The HUB @ Office Logic\, Miami\, United States
-DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/ai-builders
+DESCRIPTION:Address: The HUB @ Office Logic The Hub @LOGIC Miami\, FL United States https://luma.com/mia-feb18
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/mia-feb18
 END:VEVENT
 BEGIN:VEVENT
 UID:bfd0eaf2215e@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270225T000000Z
 DTEND:20270225T020000Z
@@ -164,7 +188,7 @@ URL:https://www.meetup.com/centralflcitysec/events/mlhwctykcdbgc/
 END:VEVENT
 BEGIN:VEVENT
 UID:f5f779fa21ee@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270324T230000Z
 DTEND:20270325T010000Z
@@ -176,7 +200,7 @@ URL:https://www.meetup.com/centralflcitysec/events/mlhwctykcfbgc/
 END:VEVENT
 BEGIN:VEVENT
 UID:b1d68d361b0c@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270428T230000Z
 DTEND:20270429T010000Z

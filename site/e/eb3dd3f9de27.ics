@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb3dd3f9de27@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261217T233000Z
+DTEND:20261218T003000Z
+SUMMARY:Cybersecurity 101
+LOCATION:Columbia Pike Library\, Arlington\, United States
+DESCRIPTION:learn the current cybersecurity landscape\, tools and techniques to protect yourself from scams and fraud. https://www.eventbrite.com/e/cybersecurity-101-tickets-1998911145044
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/cybersecurity-101-tickets-1998911145044
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

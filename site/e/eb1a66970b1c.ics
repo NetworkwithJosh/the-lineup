@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb1a66970b1c@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270216T150000Z
+DTEND:20270216T170000Z
+SUMMARY:CyberForge | National Entreprenuership Week | Cybersecurity
+LOCATION:3020 Market St suite 415\, Philadelphia\, United States
+DESCRIPTION:Join us in person for National Entrepreneurship Week to explore cybersecurity\, spark ideas\, and forge what’s next. https://www.eventbrite.com/e/cyberforge-national-entreprenuership-week-cybersecurity-tickets-2004116585657
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/cyberforge-national-entreprenuership-week-cybersecurity-tickets-2004116585657
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

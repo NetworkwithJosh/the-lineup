@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb49184b10e0@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261203T230000Z
+DTEND:20261204T030000Z
+SUMMARY:WOVEN: An Exhibition by Pa'lante x The Cyber Ox
+LOCATION:Cyber Ox Studio\, Miami\, United States
+DESCRIPTION:An exhibition exploring identity\, material memory and place through work by 11 artists\, with a surround sound installation by P1NO. https://www.eventbrite.com/e/woven-an-exhibition-by-palante-x-the-cyber-ox-tickets-2005291356428
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/woven-an-exhibition-by-palante-x-the-cyber-ox-tickets-2005291356428
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6998f7ce31fc@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261203T173000Z
 DTEND:20261203T210000Z
 SUMMARY:AI Builders Hamburg - Bring Your Own Laptop Edition - Dec 3
 LOCATION:House of AI Hamburg\, Hamburg\, Germany
-DESCRIPTION:Address: House of AI Hamburg House of AI Hamburg\, Germany https://luma.com/ai-builders
+DESCRIPTION:Address: House of AI Hamburg House of AI Hamburg\, Germany https://luma.com/hamburg-dec3
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/hamburg-dec3
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

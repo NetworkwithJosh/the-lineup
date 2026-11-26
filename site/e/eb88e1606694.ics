@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb88e1606694@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270108T130000Z
+DTEND:20270108T203000Z
+SUMMARY:Critical Infrastructure Security Summit
+LOCATION:Hyatt Regency Tysons Corner Center\, Tysons\, United States
+DESCRIPTION:Federal & industry leaders will discuss the evolving threat landscape\, technologies and policies shaping resilience across the nation. https://www.eventbrite.com/e/critical-infrastructure-security-summit-tickets-1997094340934
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/critical-infrastructure-security-summit-tickets-1997094340934
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

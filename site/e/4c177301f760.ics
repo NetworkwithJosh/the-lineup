@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4c177301f760@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270113T170000Z
 DTEND:20270113T200000Z
 SUMMARY:AI Builders Warsaw - Jan 13
 LOCATION:Warsaw\, Warsaw\, Poland
-DESCRIPTION:Address: Warsaw Warsaw\, Poland https://luma.com/ai-builders
+DESCRIPTION:Address: Warsaw Warsaw\, Poland https://luma.com/waw-jan13
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/waw-jan13
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

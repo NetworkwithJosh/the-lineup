@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb9d2c73799f@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261216T020000Z
+DTEND:20261216T070000Z
+SUMMARY:ISSA Los Angeles 2026 Holiday Gala
+LOCATION:The Grand\, Long Beach\, United States
+DESCRIPTION:Celebrate 45 years of ISSA at our joint SoCal InfoSec Holiday Gala! Enjoy dinner\, networking\, Cindy Cohn keynote\, awards & Cyber Jeopardy. https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,4 +1,8 @@
 {
+"ALEXANDRIA|VA|United States": [
+38.805,
+-77.047
+],
 "Akron|OH|United States": [
 41.083,
 -81.518
@@ -78,6 +82,10 @@
 "Clifton|NJ|United States": [
 40.858,
 -74.164
+],
+"Columbia|MD|United States": [
+39.216,
+-76.858
 ],
 "Culver City|CA|United States": [
 34.021,
@@ -188,6 +196,10 @@
 10.353,
 76.512
 ],
+"Lake Forest|CA|United States": [
+33.647,
+-117.686
+],
 "Lansing|MI|United States": [
 42.734,
 -84.555
@@ -204,6 +216,10 @@
 51.507,
 -0.128
 ],
+"Long Beach|CA|United States": [
+33.769,
+-118.192
+],
 "Los Angeles|CA|United States": [
 34.054,
 -118.243
@@ -211,6 +227,10 @@
 "Louisville|KY|United States": [
 38.254,
 -85.759
+],
+"Loveland|CO|United States": [
+40.398,
+-105.075
 ],
 "Madison|WI|United States": [
 43.075,
@@ -259,6 +279,10 @@
 "Munich||Germany": [
 48.137,
 11.575
+],
+"Muskogee|OK|United States": [
+35.748,
+-95.37
 ],
 "Nashville|TN|United States": [
 36.162,
@@ -409,6 +433,10 @@
 38.625,
 -90.19
 ],
+"Stamford|CT|United States": [
+41.053,
+-73.539
+],
 "Sterling|VA|United States": [
 39.002,
 -77.403
@@ -440,6 +468,10 @@
 "Tunis||Tunisia": [
 36.8,
 10.186
+],
+"Tysons|VA|United States": [
+38.919,
+-77.231
 ],
 "Virginia Beach|VA|United States": [
 36.85,

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb2ee0bd9c30@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261202T023000Z
+DTEND:20261202T040000Z
+SUMMARY:Beyond the Web App: What the OWASP Top 10 Means for SDKs
+LOCATION:108 W Main St\, Mesa\, United States
+DESCRIPTION:Beyond the Web App: What the OWASP Top 10 Means for SDKs https://www.eventbrite.com/e/beyond-the-web-app-what-the-owasp-top-10-means-for-sdks-tickets-2002942819892
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/beyond-the-web-app-what-the-owasp-top-10-means-for-sdks-tickets-2002942819892
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb54bc6bdc2b@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270126T210000Z
+DTEND:20270127T000000Z
+SUMMARY:Cyber Howard Accelerator Cohort IV Graduation and Pitch Competition
+LOCATION:6751 Columbia Gateway Dr\, Columbia\, United States
+DESCRIPTION:Showcasing innovation\, progress\, and program impact\, plus a pitch competition and networking reception. https://www.eventbrite.com/e/cyber-howard-accelerator-cohort-iv-graduation-and-pitch-competition-tickets-2004018899475
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/cyber-howard-accelerator-cohort-iv-graduation-and-pitch-competition-tickets-2004018899475
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

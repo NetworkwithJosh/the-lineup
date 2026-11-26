@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1e4beb3abcb5@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261208T173000Z
 DTEND:20261208T213000Z
 SUMMARY:CISO Strategy Salon - London
 LOCATION:estiatorio Milos\, London\, United Kingdom
-DESCRIPTION:Address: estiatorio Milos London\, United Kingdom https://luma.com/alchemycyber
+DESCRIPTION:Address: estiatorio Milos London\, United Kingdom https://luma.com/4goilkdv
 STATUS:CONFIRMED
-URL:https://luma.com/alchemycyber
+URL:https://luma.com/4goilkdv
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

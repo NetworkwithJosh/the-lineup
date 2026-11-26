@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:beafdc55aeab@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270211T094500Z
 DTEND:20270211T160000Z
 SUMMARY:WTC BUILDATHON - Feb 11
 LOCATION:World Trade Center (Amsterdam)\, Amsterdam\, Netherlands
-DESCRIPTION:Address: World Trade Center (Amsterdam) WTC Amsterdam Amsterdam\, Netherlands https://luma.com/ai-builders
+DESCRIPTION:Address: World Trade Center (Amsterdam) WTC Amsterdam Amsterdam\, Netherlands https://luma.com/ams-feb11
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/ams-feb11
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

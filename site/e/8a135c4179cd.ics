@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8a135c4179cd@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261202T020000Z
 DTEND:20261202T043000Z
 SUMMARY:How to train LLMs to beat frontier models
 LOCATION:AWS Builder Loft\, San Francisco\, United States
-DESCRIPTION:Address: AWS Builder Loft San Francisco\, CA United States https://luma.com/techequity-ai-community
+DESCRIPTION:Address: AWS Builder Loft San Francisco\, CA United States https://luma.com/skwlv4im
 STATUS:CONFIRMED
-URL:https://luma.com/techequity-ai-community
+URL:https://luma.com/skwlv4im
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

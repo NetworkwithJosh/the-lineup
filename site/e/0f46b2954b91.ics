@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0f46b2954b91@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270120T180000Z
 DTEND:20270120T210000Z
 SUMMARY:AI Builders London - Jan 20
 LOCATION:beyond The Bower\, London\, United Kingdom
-DESCRIPTION:Address: beyond The Bower beyond The Bower London\, United Kingdom https://luma.com/ai-builders
+DESCRIPTION:Address: beyond The Bower beyond The Bower London\, United Kingdom https://luma.com/lon-jan20
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/lon-jan20
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

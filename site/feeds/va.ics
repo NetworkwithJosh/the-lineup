@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:2d10e350db4b@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261201T223000Z
 DTEND:20261202T003000Z
@@ -20,7 +20,7 @@ URL:https://www.meetup.com/loudoun-cybertech/events/317472945/
 END:VEVENT
 BEGIN:VEVENT
 UID:5ffa5da6cfaa@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261204T183000Z
 DTEND:20261204T203000Z
@@ -32,7 +32,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:b98d86321ee4@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261205T143000Z
 DTEND:20261205T173000Z
@@ -44,7 +44,7 @@ URL:https://www.meetup.com/rvasec/events/316498140/
 END:VEVENT
 BEGIN:VEVENT
 UID:49839b7d8f3e@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261210T230000Z
 DTEND:20261211T020000Z
@@ -56,19 +56,19 @@ URL:https://www.meetup.com/rvasec/events/315297026/
 END:VEVENT
 BEGIN:VEVENT
 UID:f117399e656c@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261210T223000Z
 DTEND:20261211T013000Z
 SUMMARY:AI Builders Washington DC
 LOCATION:Refraction Innovation Hub\, McLean\, United States
-DESCRIPTION:Address: Refraction Innovation Hub Refraction Innovation Hub McLean\, VA United States https://luma.com/ai-builders
+DESCRIPTION:Address: Refraction Innovation Hub Refraction Innovation Hub McLean\, VA United States https://luma.com/dc-dec10
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/dc-dec10
 END:VEVENT
 BEGIN:VEVENT
 UID:2d42df4820ec@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261211T230000Z
 DTEND:20261212T010000Z
@@ -80,7 +80,7 @@ URL:https://www.meetup.com/issa-hampton-roads/events/316842274/
 END:VEVENT
 BEGIN:VEVENT
 UID:b69f430652ea@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261214T233000Z
 DTEND:20261215T013000Z
@@ -92,7 +92,7 @@ URL:https://www.meetup.com/nova-hackers/events/316970127/
 END:VEVENT
 BEGIN:VEVENT
 UID:ebc58101cc41@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261215T230000Z
 DTEND:20261216T020000Z
@@ -104,7 +104,7 @@ URL:https://www.meetup.com/issa-hampton-roads/events/317585882/
 END:VEVENT
 BEGIN:VEVENT
 UID:bc038b8c1429@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261216T230000Z
 DTEND:20261217T010000Z
@@ -116,7 +116,7 @@ URL:https://www.meetup.com/issa-hampton-roads/events/317599540/
 END:VEVENT
 BEGIN:VEVENT
 UID:119f4c3c0404@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261217T220000Z
 DTEND:20261218T010000Z
@@ -125,5 +125,41 @@ LOCATION:Location on listing\, Richmond\, United States
 DESCRIPTION:RVAsec Security Community RVAsec Monthly is Richmond's unparalleled networking event for security professionals and anyone looking to break into the industry. Come by our relaxed meetings and socialize with others in… https://www.meetup.com/rvasec/events/312117162/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/rvasec/events/312117162/
+END:VEVENT
+BEGIN:VEVENT
+UID:eb3dd3f9de27@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261217T233000Z
+DTEND:20261218T003000Z
+SUMMARY:Cybersecurity 101
+LOCATION:Columbia Pike Library\, Arlington\, United States
+DESCRIPTION:learn the current cybersecurity landscape\, tools and techniques to protect yourself from scams and fraud. https://www.eventbrite.com/e/cybersecurity-101-tickets-1998911145044
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/cybersecurity-101-tickets-1998911145044
+END:VEVENT
+BEGIN:VEVENT
+UID:eba1acb1d701@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261219T223000Z
+DTEND:20261220T040000Z
+SUMMARY:ESFP 9th Annual  Dinner Gala - AI & Cybersecurity:  the Future of Finance
+LOCATION:TBD\, ALEXANDRIA\, United States
+DESCRIPTION:ESFP's  9th annual conference. Theme: AI & Cybersecurity:  Navigating Risks and Opportunities and the Future of Finance https://www.eventbrite.com/e/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-finance-tickets-2005159453904
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-finance-tickets-2005159453904
+END:VEVENT
+BEGIN:VEVENT
+UID:eb88e1606694@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270108T130000Z
+DTEND:20270108T203000Z
+SUMMARY:Critical Infrastructure Security Summit
+LOCATION:Hyatt Regency Tysons Corner Center\, Tysons\, United States
+DESCRIPTION:Federal & industry leaders will discuss the evolving threat landscape\, technologies and policies shaping resilience across the nation. https://www.eventbrite.com/e/critical-infrastructure-security-summit-tickets-1997094340934
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/critical-infrastructure-security-summit-tickets-1997094340934
 END:VEVENT
 END:VCALENDAR

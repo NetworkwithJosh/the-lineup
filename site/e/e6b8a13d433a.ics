@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e6b8a13d433a@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261128T060000Z
 DTEND:20261128T110000Z
 SUMMARY:LEADERSHIP LINKEDIN NETWORKING SUMMIT 2026
 LOCATION:Nina Next Space\, Hồ Chí Minh\, Vietnam
-DESCRIPTION:Address: Nina Next Space Thành phố Hồ Chí Minh\, Vietnam https://luma.com/genai-collective
+DESCRIPTION:Address: Nina Next Space Thành phố Hồ Chí Minh\, Vietnam https://luma.com/pr9k3uap
 STATUS:CONFIRMED
-URL:https://luma.com/genai-collective
+URL:https://luma.com/pr9k3uap
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

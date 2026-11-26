@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebaff799cd95@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261202T150000Z
+DTEND:20261202T190000Z
+SUMMARY:Learn Cybersecurity and Get Certified for Free ! - Fort Lauderdale - LIVE
+LOCATION:The Academy\, Computer Training Centers\, Fort Lauderdale\, United States
+DESCRIPTION:This event will teach you how to apply for free training grants to those who are starting a career in STEM. https://www.eventbrite.com/e/learn-cybersecurity-and-get-certified-for-free-fort-lauderdale-live-tickets-1980412984548
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/learn-cybersecurity-and-get-certified-for-free-fort-lauderdale-live-tickets-1980412984548
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

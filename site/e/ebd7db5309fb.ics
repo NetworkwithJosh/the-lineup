@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebd7db5309fb@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261210T223000Z
+DTEND:20261210T234500Z
+SUMMARY:TechXel Stamford Venture Expert ZOOM\, Eric Anahory\, Cybersecurity
+LOCATION:Ferguson Library - Board Room\, Stamford\, United States
+DESCRIPTION:With the advent of AI\, building cybersecurity into your venture and training staff to avoid external threats is now increasingly important. https://www.eventbrite.com/e/techxel-stamford-venture-expert-zoom-eric-anahory-cybersecurity-tickets-1998550859420
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/techxel-stamford-venture-expert-zoom-eric-anahory-cybersecurity-tickets-1998550859420
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -15,10 +15,10 @@
   <url><loc>https://thelineup.dev/us/virginia/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/texas/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/arizona/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/colorado/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/florida/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/ohio/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/new-jersey/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/florida/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/colorado/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/kansas/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/kentucky/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/iowa/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -44,6 +44,7 @@
   <url><loc>https://thelineup.dev/us/tennessee/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/alabama/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/oregon/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/maryland/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-your-experience-can-help-shape-cybersecurity-standards-7660748c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/fossapalooza-26bfe889/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-share-your-experience-to-build-a-global-benchmark-for-2749c662/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -58,7 +59,9 @@
   <url><loc>https://thelineup.dev/event/hardware-hacking-night-6d9f899e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/resident-electronics-monthly-meetup-f44534f2/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/workplace-ninjas-india-1409518c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/youth-cybersecurity-ai-weekly-class-ages-7-17-ebafd79b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cybersecurity-workshop-essentials-1403b92a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/nyc-cybersecurity-infosec-social-mixer-every-friday-7pm-ebed3d5f/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/foss-for-all-conference-1ba7c649/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/leadership-linkedin-networking-summit-2026-e6b8a13d/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/study-hall-work-on-ctfs-ca13e3b0/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -90,12 +93,14 @@
   <url><loc>https://thelineup.dev/event/ai-builders-warsaw-bring-your-own-laptop-edition-dec-1-0807a241/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-in-review-lessons-from-2026-and-what-s-ahead-in-2027-2d10e350/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/planet-cyber-sec-ai-joint-holiday-party-and-jeopardy-game-ccaa980f/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/planet-cyber-sec-ai-holiday-community-celebration-dec-1-2026-eb13005e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/microsoft-reactor-mvp-feature-series-f8601a75/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/women-of-security-last-meetup-of-2026-a74bb82f/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-professional-affiliate-leaders-only-meeting-c495dfd3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/defcon-north-atlanta-dc770-e265f953/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hack-manhattan-open-house-1206bac7/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/december-2026-meeting-d3154f38/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/beyond-the-web-app-what-the-owasp-top-10-means-for-sdks-eb2ee0bd/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/what-the-heck-is-fabric-iq-0d6f01c3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/vibe-night-in-sandy-springs-w-the-ai-collective-cf171a35/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/oh-my-hack-aa55e5d5/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -103,7 +108,9 @@
   <url><loc>https://thelineup.dev/event/omega-mart-after-hours-re-invent-64c65b3b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-professional-affiliate-international-leaders-only-meet-a96ffe91/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-women-in-security-breakfast-at-aws-re-invent-eaf52da3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/danger-at-the-door-a-cybersecurity-power-breakfast-ebdf8e61/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/replacing-azure-communication-services-without-rebuilding-yo-ebcf544c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/learn-cybersecurity-and-get-certified-for-free-fort-lauderda-ebaff799/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/webinar-post-quantum-migration-in-practice-assessing-readine-7bed77d9/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cs-ai-online-cyber-informed-engineering-cie-bridging-the-ot-7173c409/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/checking-the-checkers-ai-evidence-and-health-claims-w-the-ai-e1cebb2a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -136,6 +143,7 @@
   <url><loc>https://thelineup.dev/event/h4ck3-s-computer-social-club-defcon-502-louisville-8fc2cf24/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/burbsec-prime-sponsor-ops-available-0c638af7/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/secdsm-monthly-meeting-730fdfe1/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/woven-an-exhibition-by-pa-lante-x-the-cyber-ox-eb49184b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ethical-hacker-tactics-ctf-tech-talks-monthly-by-blackhack-s-f921a3d7/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-1a3523a4/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/breaking-video-game-anti-tamper-9754b1ce/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -200,6 +208,7 @@
   <url><loc>https://thelineup.dev/event/microsoft-ai-for-healthcare-masterclass-0a1ef5d3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/vision-ai-how-crowded-spaces-are-powered-by-vaella-and-they-28c75581/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ciso-strategy-salon-london-1e4beb3a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/new-england-cybersecurity-professionals-2026-holiday-meetup-ebde087c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/atlanta-cybersecurity-holiday-party-d6ae952a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/building-with-ai-elastic-ai-security-engineers-baff5d87/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hack-manhattan-open-house-11649766/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -230,10 +239,12 @@
   <url><loc>https://thelineup.dev/event/december-meetup-8ca98052/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/owasp-maine-2026-holiday-party-and-networking-event-e059f16d/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/las-vegas-cybersecurity-meetup-dec-2026-burbsecvegas-39c37757/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/techxel-stamford-venture-expert-zoom-eric-anahory-cybersecur-ebd7db53/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/holiday-party-a2299449/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/the-system-the-attacker-and-the-defender-rvasec-deep-dive-de-49839b7d/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/burbsec-pilsen-sponsors-wanted-3501c459/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/burbsec-south-sponsor-wanted-f9694230/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/barcode-bsides-philly-happy-hour-eb87df19/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-61f53b63/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hack-manhattan-open-house-73437c4f/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hardware-hacking-night-b9b3b1e7/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -242,6 +253,7 @@
   <url><loc>https://thelineup.dev/event/builders-night-atl-67383926/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/securing-tomorrow-aikido-security-dinner-nashville-8a2520a6/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ieee-vehicular-technology-society-student-young-professional-b4975fdc/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/2026-state-of-arizona-cyber-summit-ebcad4d6/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/bsides-philadelphia-345e0a13/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/bsides-philly-8d87c8f8/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cyberlunch-december-2026-6fc92a6e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -270,6 +282,7 @@
   <url><loc>https://thelineup.dev/event/nysec-080d9ef1/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/norfolk-cybersecurity-networking-happy-hour-ebc58101/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/issa-los-angeles-winter-gala-0a1b7d84/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/issa-los-angeles-2026-holiday-gala-eb9d2c73/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cybersecurity-n-chill-networking-monthly-meetup-by-blackhack-3fe73379/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/htb-toronto-meetup-21-6217e8a8/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cybersecurity-summit-grc-virtual-7420cc10/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -293,6 +306,7 @@
   <url><loc>https://thelineup.dev/event/monthly-meeting-331e574b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cinpa-security-sig-38c42987/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-41948ac4/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/cybersecurity-101-eb3dd3f9/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hardware-hacking-night-733de242/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hack-the-box-meetup-26668c08/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/health-tech-flock-cycore-meetup-4b29a67a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -300,6 +314,7 @@
   <url><loc>https://thelineup.dev/event/empower-decision-makers-with-generative-ai-8404855a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/third-friday-lockpicking-workshop-d3c9195a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-austin-affiliate-monthly-social-5bce2a4a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-f-eba1acb1/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/first-discussion-at-cafe-intermezzo-dunwoody-the-apple-fbi-i-cc5c3b51/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/intro-to-3d-printing-52c213a1/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/dc608-coding-night-a706c082/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -346,10 +361,13 @@
   <url><loc>https://thelineup.dev/event/def-con-610-monthly-meetup-f70e5b34/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hi-this-is-gabe-from-help-desk-can-you-download-this-malware-b498ca52/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cinpa-monthly-meeting-8e091bc5/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/global-converged-intelligence-security-summit-eb773a54/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/secdsm-monthly-meeting-75ac5122/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-b010dba4/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/haha-meeting-56482b68/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/cyber-security-eb3b682e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/stop-wasting-ad-spend-ai-google-ads-automation-in-plain-engl-233cd026/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/critical-infrastructure-security-summit-eb88e160/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cyberlunch-january-2027-f0387e2a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-conf-asia-9de7e769/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-minnesota-affiliate-winter-walk-talk-minneapolis-insti-177402c9/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -386,7 +404,9 @@
   <url><loc>https://thelineup.dev/event/ai-builders-miami-jan-22-171f7aba/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/first-discussion-at-cafe-intermezzo-dunwoody-the-apple-fbi-i-d9d57132/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cybertech-global-tel-aviv-2027-76c47517/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/comprehensive-cybersecurity-defense-eb347d53/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/dc608-coding-night-08025589/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/cyber-howard-accelerator-cohort-iv-graduation-and-pitch-comp-eb54bc6b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/rainsec-pdx-information-security-meetup-a11e3454/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/monthly-ai-forum-talks-ai-agent-workshops-416a3eb0/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/co-founder-mixer-night-ait-sj-bd4062d9/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -431,6 +451,7 @@
   <url><loc>https://thelineup.dev/event/wtc-buildathon-feb-11-beafdc55/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/las-vegas-cybersecurity-meetup-feb-2027-burbsecvegas-a6966908/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cyberlunch-february-2027-d5f30c04/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/cyberforge-national-entreprenuership-week-cybersecurity-eb1a6697/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/nysec-cec3d133/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cybersecurity-n-chill-networking-monthly-meetup-by-blackhack-05a253ee/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wild-west-hackin-fest-mile-high-91a659f5/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>

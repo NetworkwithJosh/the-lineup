@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8a2520a6ff2a@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:Securing Tomorrow: Aikido Security Dinner | Nashville
 LOCATION:888\, Nashville\, United States
-DESCRIPTION:Address: 888 Nashville\, TN United States https://luma.com/aikidosecurity
+DESCRIPTION:Address: 888 Nashville\, TN United States https://luma.com/securing-tomorrow-nashville
 STATUS:CONFIRMED
-URL:https://luma.com/aikidosecurity
+URL:https://luma.com/securing-tomorrow-nashville
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

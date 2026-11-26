@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebafd79b9579@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261128T000000Z
+DTEND:20261128T020000Z
+SUMMARY:Youth Cybersecurity & AI Weekly Class | Ages 7–17
+LOCATION:Valhallan Esports Lake Forest\, Lake Forest\, United States
+DESCRIPTION:Give your gamer a head start in cybersecurity and AI! Our weekly\, hands-on classes introduce ages 7–17 to ethical hacking\, network security\, https://www.eventbrite.com/e/youth-cybersecurity-ai-weekly-class-ages-717-tickets-2002227613691
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/youth-cybersecurity-ai-weekly-class-ages-717-tickets-2002227613691
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

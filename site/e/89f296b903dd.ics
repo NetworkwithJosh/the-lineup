@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:89f296b903dd@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270119T163000Z
 DTEND:20270119T203000Z
 SUMMARY:AI Builders Berlin
 LOCATION:Aethos\, Berlin\, Germany
-DESCRIPTION:Address: Aethos\, Lohmühlenstraße 65\, 12435 Berlin\, Germany https://luma.com/ai-builders
+DESCRIPTION:Address: Aethos\, Lohmühlenstraße 65\, 12435 Berlin\, Germany https://luma.com/ber-jan19
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/ber-jan19
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

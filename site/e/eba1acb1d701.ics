@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eba1acb1d701@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261219T223000Z
+DTEND:20261220T040000Z
+SUMMARY:ESFP 9th Annual  Dinner Gala - AI & Cybersecurity:  the Future of Finance
+LOCATION:TBD\, ALEXANDRIA\, United States
+DESCRIPTION:ESFP's  9th annual conference. Theme: AI & Cybersecurity:  Navigating Risks and Opportunities and the Future of Finance https://www.eventbrite.com/e/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-finance-tickets-2005159453904
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-finance-tickets-2005159453904
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

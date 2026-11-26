@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb347d5361d9@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20270125T140000Z
+DTEND:20270128T223000Z
+SUMMARY:Comprehensive Cybersecurity Defense
+LOCATION:Indian Capital Technology Center\, Muskogee\, United States
+DESCRIPTION:CCD provides participants with foundational knowledge required to design\, implement\, administer\, and monitor cybersecurity defenses. https://www.eventbrite.com/e/comprehensive-cybersecurity-defense-tickets-1999049562053
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/comprehensive-cybersecurity-defense-tickets-1999049562053
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

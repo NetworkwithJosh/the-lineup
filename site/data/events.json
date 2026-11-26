@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-26T18:15-05:00",
+ "generatedAt": "2026-11-26T18:39-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 523,
+ "count": 543,
  "changes": {
   "updated": 26,
-  "new": 155,
+  "new": 175,
   "cancelled": 8
  },
  "sources": [
@@ -1320,6 +1320,12 @@
    "source": "confs.tech: networking",
    "ok": true,
    "events": 5
+  },
+  {
+   "source": "Eventbrite",
+   "ok": false,
+   "events": 20,
+   "note": "search failed for GA/Atlanta, GA/Augusta, GA/Augusta, HI/Honolulu, HI/Honolulu, ID/Boise, ID/Boise, IL/Chicago, IL/Chicago, IN/Indianapolis, IN/Indianapolis, IA/Des Moines, IA/Des Moines, KS/Wichita, KS/Wichita, KS/Kansas City, KS/Kansas City, KY/Louisville, KY/Louisville, KY/Lexington, KY/Lexington, LA/New Orleans, LA/New Orleans, LA/Baton Rouge, LA/Baton Rouge, ME/Portland, ME/Portland, MD/Baltimore, MD/Baltimore, MD/Columbia, MD/Columbia, MA/Boston, MA/Boston, MI/Detroit, MI/Detroit, MI/Grand Rapids, MI/Grand Rapids, MN/Minneapolis, MN/Minneapolis, MS/Jackson, MS/Jackson, MO/St. Louis, MO/St. Louis, MO/Kansas City, MO/Kansas City, MT/Billings, MT/Billings, MT/Missoula, MT/Missoula, NE/Omaha, NE/Omaha, NE/Lincoln, NE/Lincoln, NV/Las Vegas, NV/Las Vegas, NV/Reno, NV/Reno, NH/Manchester, NH/Manchester, NJ/Newark, NJ/Newark, NJ/Princeton, NJ/Princeton, NM/Albuquerque, NM/Albuquerque, NY/New York, NY/New York, NY/Albany, NY/Albany, NC/Charlotte, NC/Charlotte, NC/Raleigh, NC/Raleigh, ND/Fargo, ND/Fargo, OH/Columbus, OH/Columbus, OH/Cleveland, OH/Cleveland, OK/Oklahoma City, OK/Oklahoma City, OK/Tulsa, OK/Tulsa, OR/Portland, OR/Portland, PA/Philadelphia, PA/Philadelphia, PA/Pittsburgh, PA/Pittsburgh, RI/Providence, RI/Providence, SC/Columbia, SC/Columbia, SC/Charleston, SC/Charleston, SD/Sioux Falls, SD/Sioux Falls, TN/Nashville, TN/Nashville, TN/Knoxville, TN/Knoxville, TX/Austin, TX/Austin, TX/Dallas, TX/Dallas, UT/Salt Lake City, UT/Salt Lake City, VT/Burlington, VT/Burlington, VA/Arlington, VA/Arlington, VA/Richmond, VA/Richmond, WA/Seattle, WA/Seattle, WV/Charleston, WV/Charleston, WI/Milwaukee, WI/Milwaukee, WI/Madison, WI/Madison, WY/Cheyenne, WY/Cheyenne"
   }
  ],
  "events": [
@@ -1799,7 +1805,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -1838,6 +1844,36 @@
    "seq": 0
   },
   {
+   "id": "ebafd79b9579",
+   "title": "Youth Cybersecurity & AI Weekly Class | Ages 7–17",
+   "start": "2026-11-27T16:00:00-08:00",
+   "end": "2026-11-27T18:00:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Valhallan Esports Lake Forest",
+   "online": false,
+   "city": "Lake Forest",
+   "country": "United States",
+   "metro": "Lake Forest",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "ai"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/youth-cybersecurity-ai-weekly-class-ages-717-tickets-2002227613691",
+   "about": "Give your gamer a head start in cybersecurity and AI! Our weekly, hands-on classes introduce ages 7–17 to ethical hacking, network security,",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.647,
+   "lng": -117.686,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "1403b92ae60a",
    "title": "Cybersecurity Workshop Essentials",
    "start": "2026-11-27T18:00+00:00",
@@ -1862,6 +1898,35 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ebed3d5f06f6",
+   "title": "️ NYC Cybersecurity & InfoSec Social Mixer – Every Friday @ 7PM",
+   "start": "2026-11-27T19:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "The Irish American Pub",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/nyc-cybersecurity-infosec-social-mixer-every-friday-7pm-tickets-1507681478889",
+   "about": "Calling all cybersecurity professionals, ethical hackers, SOC analysts",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -1911,11 +1976,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
+   "url": "https://luma.com/pr9k3uap",
    "about": "Address: Nina Next Space Thành phố Hồ Chí Minh, Vietnam",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 65,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 235,
+    "near": false
+   },
    "lat": 10.774,
    "lng": 106.717,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2052,7 +2125,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 10,
+    "going": 11,
     "max": 12,
     "waitlist": 0,
     "full": false
@@ -2340,7 +2413,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 10,
     "waitlist": 0,
     "full": false
@@ -2411,7 +2484,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2483,7 +2556,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 8,
+    "going": 9,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2568,11 +2641,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
+   "url": "https://luma.com/aic-ad-12-1",
    "about": "Address: GEORGES Adelaide, SA Australia",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": -33.913,
    "lng": 150.982,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2639,6 +2720,14 @@
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2843,11 +2932,19 @@
     "it"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/waw-dec1",
    "about": "Address: Just Join IT Just Join IT Warszawa, Poland",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 90,
+    "near": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
   },
@@ -2950,6 +3047,36 @@
    "lat": 34.021,
    "lng": -118.396,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb13005eee33",
+   "title": "PLANET CYBER SEC AI - HOLIDAY COMMUNITY CELEBRATION Dec 1, 2026",
+   "start": "2026-12-01T17:30:00-08:00",
+   "end": "2026-12-01T20:30:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Veterans Memorial Building",
+   "online": false,
+   "city": "Culver City",
+   "country": "United States",
+   "metro": "Culver City",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "ai"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/planet-cyber-sec-ai-holiday-community-celebration-dec-1-2026-tickets-2004445941770",
+   "about": "Join Planet Cyber Sec AI and community friends for a holiday reception featuring speaker talk, Holiday Jeopardy, networking, and cheer!",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 34.021,
+   "lng": -118.396,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -3150,6 +3277,35 @@
    "seq": 0
   },
   {
+   "id": "eb2ee0bd9c30",
+   "title": "Beyond the Web App: What the OWASP Top 10 Means for SDKs",
+   "start": "2026-12-01T19:30:00-07:00",
+   "end": "2026-12-01T21:00:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "108 W Main St",
+   "online": false,
+   "city": "Mesa",
+   "country": "United States",
+   "metro": "Mesa",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/beyond-the-web-app-what-the-owasp-top-10-means-for-sdks-tickets-2002942819892",
+   "about": "Beyond the Web App: What the OWASP Top 10 Means for SDKs",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.415,
+   "lng": -111.831,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "0d6f01c3874c",
    "title": "What the Heck Is Fabric IQ?",
    "start": "2026-12-01T20:00-05:00",
@@ -3206,11 +3362,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
+   "url": "https://luma.com/aic-us-12-1",
    "about": "Address: Hudson Grille Sandy Springs Sandy Springs, GA United States",
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 45,
+    "near": false
+   },
    "lat": 33.924,
    "lng": -84.379,
    "firstSeen": "2026-11-24T15:40-05:00",
@@ -3264,11 +3428,19 @@
     "it"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/skwlv4im",
    "about": "Address: AWS Builder Loft San Francisco, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 208,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.788,
    "lng": -122.408,
    "firstSeen": "2026-11-17T14:12-05:00",
@@ -3298,6 +3470,14 @@
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 88,
+    "near": false
+   },
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
   },
@@ -3360,6 +3540,35 @@
    "seq": 0
   },
   {
+   "id": "ebdf8e61015f",
+   "title": "Danger at the Door: A Cybersecurity Power Breakfast",
+   "start": "2026-12-02T08:00:00-07:00",
+   "end": "2026-12-02T10:30:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Forge Event Center",
+   "online": false,
+   "city": "Loveland",
+   "country": "United States",
+   "metro": "Loveland",
+   "state": "CO",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/danger-at-the-door-a-cybersecurity-power-breakfast-tickets-2004791271661",
+   "about": "Bringing together leading experts across banking, healthcare, insurance and IT to confront the reality head-on.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.398,
+   "lng": -105.075,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "ebcf544cca76",
    "title": "Replacing Azure Communication Services Without Rebuilding Your Application",
    "start": "2026-12-02T10:00-05:00",
@@ -3395,6 +3604,35 @@
     "New venue: Online"
    ],
    "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "ebaff799cd95",
+   "title": "Learn Cybersecurity and Get Certified for Free ! - Fort Lauderdale - LIVE",
+   "start": "2026-12-02T10:00:00-05:00",
+   "end": "2026-12-02T14:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "The Academy, Computer Training Centers",
+   "online": false,
+   "city": "Fort Lauderdale",
+   "country": "United States",
+   "metro": "Fort Lauderdale",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/learn-cybersecurity-and-get-certified-for-free-fort-lauderdale-live-tickets-1980412984548",
+   "about": "This event will teach you how to apply for free training grants to those who are starting a career in STEM.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 26.122,
+   "lng": -80.143,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
   },
   {
    "id": "7bed77d9804b",
@@ -3514,6 +3752,14 @@
    "source": "The AI Collective",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 20,
+    "near": false
+   },
    "lat": 33.448,
    "lng": -112.074,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3955,7 +4201,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 3,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4018,6 +4264,14 @@
    "source": "NY AI Engineers",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
   },
@@ -4072,6 +4326,14 @@
    "source": "SF AI Engineers",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 42,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 0
   },
@@ -4352,11 +4614,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/hamburg-dec3",
    "about": "Address: House of AI Hamburg House of AI Hamburg, Germany",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 53.55,
    "lng": 10.001,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -4465,6 +4735,35 @@
    "lat": 41.564,
    "lng": -93.759,
    "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb49184b10e0",
+   "title": "WOVEN: An Exhibition by Pa'lante x The Cyber Ox",
+   "start": "2026-12-03T18:00:00-05:00",
+   "end": "2026-12-03T22:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Cyber Ox Studio",
+   "online": false,
+   "city": "Miami",
+   "country": "United States",
+   "metro": "Miami",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/woven-an-exhibition-by-palante-x-the-cyber-ox-tickets-2005291356428",
+   "about": "An exhibition exploring identity, material memory and place through work by 11 artists, with a surround sound installation by P1NO.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 25.774,
+   "lng": -80.194,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -4773,6 +5072,14 @@
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "firstSeen": "2026-11-19T13:59-05:00",
    "seq": 1
   },
@@ -4801,6 +5108,14 @@
    "source": "Alchemy Cyber",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 56,
+    "max": 0,
+    "waitlist": 1,
+    "full": true,
+    "left": 0,
+    "near": false
+   },
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
   },
@@ -5783,7 +6098,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -5980,7 +6295,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 20,
     "waitlist": 0,
     "full": false
@@ -6520,14 +6835,58 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/alchemycyber",
+   "url": "https://luma.com/4goilkdv",
    "about": "Address: estiatorio Milos London, United Kingdom",
    "source": "Alchemy Cyber",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 14,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 21,
+    "near": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ebde087c4391",
+   "title": "New England Cybersecurity Professionals 2026 Holiday Meetup",
+   "start": "2026-12-08T17:30:00-05:00",
+   "end": "2026-12-08T20:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Rhode Island College - Institute for Cybersecurity & Emerging Technologies",
+   "online": false,
+   "city": "Providence",
+   "country": "United States",
+   "metro": "Providence",
+   "state": "RI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/new-england-cybersecurity-professionals-2026-holiday-meetup-tickets-2003731608179",
+   "about": "Join us at the New England Cyber Defense Professionals event to connect, learn, and share strategies for combating cyber threats.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "near": true
+   },
+   "lat": 41.824,
+   "lng": -71.413,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -6836,6 +7195,14 @@
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 100,
+    "near": false
+   },
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
   },
@@ -6938,6 +7305,14 @@
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 91,
+    "near": false
+   },
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
   },
@@ -7100,7 +7475,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 5,
+    "going": 6,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7267,11 +7642,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/0n3nde0c",
    "about": "Address: California Miramar University - San Jose San Jose, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.336,
    "lng": -121.891,
    "firstSeen": "2026-11-20T21:50-05:00",
@@ -7359,6 +7742,14 @@
    "source": "CloudSEK Events",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 100,
+    "near": false
+   },
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
   },
@@ -7506,6 +7897,35 @@
    "seq": 0
   },
   {
+   "id": "ebd7db5309fb",
+   "title": "TechXel Stamford Venture Expert ZOOM, Eric Anahory, Cybersecurity",
+   "start": "2026-12-10T17:30:00-05:00",
+   "end": "2026-12-10T18:45:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Ferguson Library - Board Room",
+   "online": false,
+   "city": "Stamford",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "CT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/techxel-stamford-venture-expert-zoom-eric-anahory-cybersecurity-tickets-1998550859420",
+   "about": "With the advent of AI, building cybersecurity into your venture and training staff to avoid external threats is now increasingly important.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 41.053,
+   "lng": -73.539,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "a2299449d1ae",
    "title": "Holiday Party",
    "start": "2026-12-10T18:00-05:00",
@@ -7645,6 +8065,35 @@
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb87df19392c",
+   "title": "BarCode - BSides Philly Happy Hour",
+   "start": "2026-12-10T18:00:00-05:00",
+   "end": "2026-12-10T21:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Center Bar at Live! Casino & Hotel Philadelphia",
+   "online": false,
+   "city": "Philadelphia",
+   "country": "United States",
+   "metro": "Philadelphia area",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/barcode-bsides-philly-happy-hour-tickets-2005394800833",
+   "about": "The night before BSides Philly. Real conversations with the Philly security community. No booths, no badge scans, no pitches.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.953,
+   "lng": -75.164,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -7809,11 +8258,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/dc-dec10",
    "about": "Address: Refraction Innovation Hub Refraction Innovation Hub McLean, VA United States",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 94,
+    "near": false
+   },
    "lat": 38.934,
    "lng": -77.178,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -7838,11 +8295,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/aicatl",
+   "url": "https://luma.com/xudhizgs",
    "about": "Address: RenderATL HQ & Tech Lounge Atlanta, GA United States",
    "source": "AI Collective Atlanta",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 90,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 10,
+    "near": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-24T15:40-05:00",
@@ -7867,11 +8332,19 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/aikidosecurity",
+   "url": "https://luma.com/securing-tomorrow-nashville",
    "about": "Address: 888 Nashville, TN United States",
    "source": "Aikido Security",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 36.162,
    "lng": -86.774,
    "firstSeen": "2026-11-15T12:04-05:00",
@@ -7904,6 +8377,42 @@
    "lat": 17.361,
    "lng": 78.474,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ebcad4d6e3c5",
+   "title": "2026 State of Arizona Cyber Summit",
+   "start": "2026-12-11T07:30:00-07:00",
+   "end": "2026-12-11T17:00:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "Hyatt Regency Phoenix",
+   "online": false,
+   "city": "Phoenix",
+   "country": "United States",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Conference",
+   "url": "https://www.eventbrite.com/e/2026-state-of-arizona-cyber-summit-tickets-1990922760571",
+   "about": "We’re back! Join the 2026 State of Arizona Cyber Summit, the state's premier government cybersecurity event!",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "near": true
+   },
+   "lat": 33.448,
+   "lng": -112.074,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -8679,11 +9188,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/bru-dec15",
    "about": "Address: Commons Hub Brussels Commons Hub Brussels Bruxelles, Belgium",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 50.847,
    "lng": 4.352,
    "firstSeen": "2026-11-22T12:50-05:00",
@@ -8708,11 +9225,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ber-dec15",
    "about": "Address: Mindspace Zimmerstrasse Mindspace Zimmerstrasse Berlin, Germany",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 102,
+    "near": false
+   },
    "lat": 52.517,
    "lng": 13.395,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -8880,6 +9405,35 @@
    "lat": 34.054,
    "lng": -118.243,
    "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb9d2c73799f",
+   "title": "ISSA Los Angeles 2026 Holiday Gala",
+   "start": "2026-12-15T18:00:00-08:00",
+   "end": "2026-12-15T23:00:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "The Grand",
+   "online": false,
+   "city": "Long Beach",
+   "country": "United States",
+   "metro": "Long Beach",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/issa-los-angeles-2026-holiday-gala-tickets-2004938660505",
+   "about": "Celebrate 45 years of ISSA at our joint SoCal InfoSec Holiday Gala! Enjoy dinner, networking, Cindy Cohn keynote, awards & Cyber Jeopardy.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.769,
+   "lng": -118.192,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -9105,11 +9659,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ams-dec16",
    "about": "Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam, Netherlands",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.373,
    "lng": 4.892,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -9632,6 +10194,12 @@
    "source": "TechLife Cincinnati",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 60,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.101,
    "lng": -84.513,
    "firstSeen": "2026-11-26T18:15-05:00",
@@ -9661,9 +10229,44 @@
    "source": "Hackers Guild",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.441,
    "lng": -80.003,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb3dd3f9de27",
+   "title": "Cybersecurity 101",
+   "start": "2026-12-17T18:30:00-05:00",
+   "end": "2026-12-17T19:30:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Columbia Pike Library",
+   "online": false,
+   "city": "Arlington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/cybersecurity-101-tickets-1998911145044",
+   "about": "learn the current cybersecurity landscape, tools and techniques to protect yourself from scams and fraud.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.89,
+   "lng": -77.084,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -9744,11 +10347,19 @@
     "cyber"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/cycore-secure",
+   "url": "https://luma.com/yo2sgij1",
    "about": "Address: Rum Room Restaurant & Venu Miami Beach, FL United States",
    "source": "Cycore Secure",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 50,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 30.601,
    "lng": -85.676,
    "firstSeen": "2026-11-24T15:40-05:00",
@@ -9870,6 +10481,36 @@
    "lat": 30.265,
    "lng": -97.747,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eba1acb1d701",
+   "title": "ESFP 9th Annual  Dinner Gala - AI & Cybersecurity:  the Future of Finance",
+   "start": "2026-12-19T17:30:00-05:00",
+   "end": "2026-12-19T23:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "TBD",
+   "online": false,
+   "city": "ALEXANDRIA",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "ai"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/esfp-9th-annual-dinner-gala-ai-cybersecurity-the-future-of-finance-tickets-2005159453904",
+   "about": "ESFP's  9th annual conference. Theme: AI & Cybersecurity:  Navigating Risks and Opportunities and the Future of Finance",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.805,
+   "lng": -77.047,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -11191,6 +11832,35 @@
    "seq": 0
   },
   {
+   "id": "eb773a54cbcd",
+   "title": "Global Converged Intelligence & Security Summit",
+   "start": "2027-01-07T10:00:00-07:00",
+   "end": "2027-01-07T16:00:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "1475 N Scottsdale Rd",
+   "online": false,
+   "city": "Scottsdale",
+   "country": "United States",
+   "metro": "Scottsdale",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Conference",
+   "url": "https://www.eventbrite.com/e/global-converged-intelligence-security-summit-tickets-2003248536298",
+   "about": "Join us for a day of cutting-edge table tops, talks and networking on the future of intelligence and security.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.597,
+   "lng": -111.891,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "75ac5122faad",
    "title": "SecDSM Monthly Meeting",
    "start": "2027-01-07T18:00-06:00",
@@ -11279,6 +11949,35 @@
    "seq": 0
   },
   {
+   "id": "eb3b682ec11c",
+   "title": "Cyber Security",
+   "start": "2027-01-07T19:00:00-07:00",
+   "end": "2027-01-07T20:00:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "The Church of Jesus Christ of Latter-day Saints",
+   "online": false,
+   "city": "Phoenix",
+   "country": "United States",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/cyber-security-tickets-2003809752912",
+   "about": "Cyber Security",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.448,
+   "lng": -112.074,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "233cd02687d7",
    "title": "Stop Wasting Ad Spend: AI Google Ads Automation in Plain English - Live Demo",
    "start": "2027-01-07T20:00+05:30",
@@ -11306,6 +12005,35 @@
    "lat": 12.977,
    "lng": 77.59,
    "firstSeen": "2026-11-26T17:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb88e1606694",
+   "title": "Critical Infrastructure Security Summit",
+   "start": "2027-01-08T08:00:00-05:00",
+   "end": "2027-01-08T15:30:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Hyatt Regency Tysons Corner Center",
+   "online": false,
+   "city": "Tysons",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Conference",
+   "url": "https://www.eventbrite.com/e/critical-infrastructure-security-summit-tickets-1997094340934",
+   "about": "Federal & industry leaders will discuss the evolving threat landscape, technologies and policies shaping resilience across the nation.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.919,
+   "lng": -77.231,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -11499,11 +12227,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/dymahd8g",
    "about": "Address: California Miramar University - San Jose San Jose, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.336,
    "lng": -121.891,
    "firstSeen": "2026-11-24T15:40-05:00",
@@ -11528,11 +12264,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/waw-jan13",
    "about": "Address: Warsaw Warsaw, Poland",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.232,
    "lng": 21.007,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -11557,11 +12301,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/mia-jan14-hday",
    "about": "Address: The HUB @ Office Logic The Hub @LOGIC Miami, FL United States",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 25.774,
    "lng": -80.194,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -11790,11 +12542,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ber-jan19",
    "about": "Address: Aethos, Lohmühlenstraße 65, 12435 Berlin, Germany",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.517,
    "lng": 13.395,
    "firstSeen": "2026-11-18T13:52-05:00",
@@ -11877,11 +12637,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ams-jan20",
    "about": "Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam, Netherlands",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.373,
    "lng": 4.892,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -11935,11 +12703,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/lon-jan20",
    "about": "Address: beyond The Bower beyond The Bower London, United Kingdom",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -12049,11 +12825,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/bcn-jan21",
    "about": "Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 41.383,
    "lng": 2.177,
    "firstSeen": "2026-11-24T15:40-05:00",
@@ -12229,6 +13013,14 @@
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 34.054,
    "lng": -118.243,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -12282,11 +13074,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/mia-jan22",
    "about": "Address: The HUB @ Office Logic The Hub @LOGIC Miami, FL United States",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 25.774,
    "lng": -80.194,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -12351,6 +13151,35 @@
    "seq": 0
   },
   {
+   "id": "eb347d5361d9",
+   "title": "Comprehensive Cybersecurity Defense",
+   "start": "2027-01-25T08:00:00-06:00",
+   "end": "2027-01-28T16:30:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Indian Capital Technology Center",
+   "online": false,
+   "city": "Muskogee",
+   "country": "United States",
+   "metro": "Muskogee",
+   "state": "OK",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Conference",
+   "url": "https://www.eventbrite.com/e/comprehensive-cybersecurity-defense-tickets-1999049562053",
+   "about": "CCD provides participants with foundational knowledge required to design, implement, administer, and monitor cybersecurity defenses.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 35.748,
+   "lng": -95.37,
+   "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
    "id": "080255892b95",
    "title": "DC608 Coding Night",
    "start": "2027-01-25T19:30-06:00",
@@ -12377,6 +13206,35 @@
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-24T00:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb54bc6bdc2b",
+   "title": "Cyber Howard Accelerator Cohort IV Graduation and Pitch Competition",
+   "start": "2027-01-26T16:00:00-05:00",
+   "end": "2027-01-26T19:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "6751 Columbia Gateway Dr",
+   "online": false,
+   "city": "Columbia",
+   "country": "United States",
+   "metro": "Columbia",
+   "state": "MD",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/cyber-howard-accelerator-cohort-iv-graduation-and-pitch-competition-tickets-2004018899475",
+   "about": "Showcasing innovation, progress, and program impact, plus a pitch competition and networking reception.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.216,
+   "lng": -76.858,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -12427,11 +13285,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/ai-forum-jan-2027",
    "about": "Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 40,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.452,
    "lng": -122.178,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -12456,11 +13322,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/iwwbesuv",
    "about": "Address: California Miramar University - San Jose San Jose, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.336,
    "lng": -121.891,
    "firstSeen": "2026-11-24T23:36-05:00",
@@ -12546,11 +13420,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/lis-jan27",
    "about": "Address: IDEA Spaces - São Sebastião IDEA Spaces - São Sebastião Lisboa, Portugal",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 38.733,
    "lng": -9.153,
    "firstSeen": "2026-11-17T14:12-05:00",
@@ -13600,11 +14482,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ams-feb11",
    "about": "Address: World Trade Center (Amsterdam) WTC Amsterdam Amsterdam, Netherlands",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.373,
    "lng": 4.892,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -13669,6 +14559,35 @@
    "lat": 30.509,
    "lng": -97.679,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb1a66970b1c",
+   "title": "CyberForge | National Entreprenuership Week | Cybersecurity",
+   "start": "2027-02-16T10:00:00-05:00",
+   "end": "2027-02-16T12:00:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "3020 Market St suite 415",
+   "online": false,
+   "city": "Philadelphia",
+   "country": "United States",
+   "metro": "Philadelphia area",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Event",
+   "url": "https://www.eventbrite.com/e/cyberforge-national-entreprenuership-week-cybersecurity-tickets-2004116585657",
+   "about": "Join us in person for National Entrepreneurship Week to explore cybersecurity, spark ideas, and forge what’s next.",
+   "source": "Eventbrite",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.953,
+   "lng": -75.164,
+   "firstSeen": "2026-11-26T18:39-05:00",
    "seq": 0
   },
   {
@@ -13833,11 +14752,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/lon-feb18",
    "about": "Address: Civo Tech Junction Civo Tech Junction London, United Kingdom",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -13921,11 +14848,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/mia-feb18",
    "about": "Address: The HUB @ Office Logic The Hub @LOGIC Miami, FL United States",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 25.774,
    "lng": -80.194,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -13950,11 +14885,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/techequity-ai-community",
+   "url": "https://luma.com/ai-forum-feb-2027",
    "about": "Address: 135 Constitution Dr 8th Floor. Download the arrival guide here at bit.ly/SVAI-Arrival-Guide Menlo Park, CA United States",
    "source": "TechEquity AI (Silicon Valley)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 25,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 37.452,
    "lng": -122.178,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -14036,11 +14979,19 @@
     "ai"
    ],
    "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
+   "url": "https://luma.com/ams-feb24",
    "about": "Address: StartDock Coworking Prins Hendrikkade StartDock Coworking Prins Hendrikkade Amsterdam, Netherlands",
    "source": "AI Builders",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": null,
+    "near": false
+   },
    "lat": 52.373,
    "lng": 4.892,
    "firstSeen": "2026-11-15T17:32-05:00",

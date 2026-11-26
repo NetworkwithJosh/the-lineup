@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e82b9de95042@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20270112T020000Z
 DTEND:20270112T050000Z
 SUMMARY:Demo Night @ AIT SJ • Jan 11 🛠️🤖
 LOCATION:California Miramar University - San Jose\, San Jose\, United States
-DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/techequity-ai-community
+DESCRIPTION:Address: California Miramar University - San Jose San Jose\, CA United States https://luma.com/dymahd8g
 STATUS:CONFIRMED
-URL:https://luma.com/techequity-ai-community
+URL:https://luma.com/dymahd8g
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

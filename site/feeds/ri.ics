@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:6c9c8a11219b@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261130T233000Z
 DTEND:20261201T013000Z
@@ -17,5 +17,17 @@ LOCATION:Location on listing\, Providence\, United States
 DESCRIPTION:DC401 Blorfus will be presenting "CYDs: Trust Your Gadget Lust\," a talk about Cheap Yellow Displays and what they can do for pentesting\, fun and counter-intelligence. The event space is behind the bar with entrances to… https://www.meetup.com/defcon401/events/317474320/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/defcon401/events/317474320/
+END:VEVENT
+BEGIN:VEVENT
+UID:ebde087c4391@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261208T223000Z
+DTEND:20261209T010000Z
+SUMMARY:New England Cybersecurity Professionals 2026 Holiday Meetup
+LOCATION:Rhode Island College - Institute for Cybersecurity & Emerging Technologies\, Providence\, United States
+DESCRIPTION:Join us at the New England Cyber Defense Professionals event to connect\, learn\, and share strategies for combating cyber threats. https://www.eventbrite.com/e/new-england-cybersecurity-professionals-2026-holiday-meetup-tickets-2003731608179
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/new-england-cybersecurity-professionals-2026-holiday-meetup-tickets-2003731608179
 END:VEVENT
 END:VCALENDAR

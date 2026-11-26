@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebde087c4391@the-lineup
+DTSTAMP:20261126T234249Z
+SEQUENCE:0
+DTSTART:20261208T223000Z
+DTEND:20261209T010000Z
+SUMMARY:New England Cybersecurity Professionals 2026 Holiday Meetup
+LOCATION:Rhode Island College - Institute for Cybersecurity & Emerging Technologies\, Providence\, United States
+DESCRIPTION:Join us at the New England Cyber Defense Professionals event to connect\, learn\, and share strategies for combating cyber threats. https://www.eventbrite.com/e/new-england-cybersecurity-professionals-2026-holiday-meetup-tickets-2003731608179
+STATUS:CONFIRMED
+URL:https://www.eventbrite.com/e/new-england-cybersecurity-professionals-2026-holiday-meetup-tickets-2003731608179
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

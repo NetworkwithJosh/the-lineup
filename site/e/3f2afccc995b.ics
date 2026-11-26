@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3f2afccc995b@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261215T170000Z
 DTEND:20261215T200000Z
 SUMMARY:AI Builders Brussels - Bring Your Own Laptop Edition - Dec 15
 LOCATION:Commons Hub Brussels\, Brussels\, Belgium
-DESCRIPTION:Address: Commons Hub Brussels Commons Hub Brussels Bruxelles\, Belgium https://luma.com/ai-builders
+DESCRIPTION:Address: Commons Hub Brussels Commons Hub Brussels Bruxelles\, Belgium https://luma.com/bru-dec15
 STATUS:CONFIRMED
-URL:https://luma.com/ai-builders
+URL:https://luma.com/bru-dec15
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

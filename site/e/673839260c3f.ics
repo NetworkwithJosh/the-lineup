@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:673839260c3f@the-lineup
-DTSTAMP:20261126T231747Z
+DTSTAMP:20261126T234249Z
 SEQUENCE:0
 DTSTART:20261210T230000Z
 DTEND:20261211T000000Z
 SUMMARY:Builders Night: ATL
 LOCATION:RenderATL HQ & Tech Lounge\, Atlanta\, United States
-DESCRIPTION:Address: RenderATL HQ & Tech Lounge Atlanta\, GA United States https://luma.com/aicatl
+DESCRIPTION:Address: RenderATL HQ & Tech Lounge Atlanta\, GA United States https://luma.com/xudhizgs
 STATUS:CONFIRMED
-URL:https://luma.com/aicatl
+URL:https://luma.com/xudhizgs
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
