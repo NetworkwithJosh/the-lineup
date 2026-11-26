@@ -150,36 +150,47 @@ if (hero && canvas && webglOK()) {
   // the page tells us whenever the filters change
   addEventListener("lineup:update", (ev) => {
     const { events, placeLabel, focus } = ev.detail;
-    const live = events.filter((e) => !e.online && e.lat != null && e.status !== "cancelled");
+    const world = (ev.detail.world || events).filter((e) => !e.online && e.lat != null && e.status !== "cancelled");
+    const inView = new Set(events.map((e) => e.id));
     const byCity = new Map();
-    for (const e of live) {
+    for (const e of world) {
       const nm = (e.metro || e.city).replace(/ area$/i, ""), k = nm + "|" + e.country;
-      const c = byCity.get(k) || { name: nm, metro: e.metro || e.city, state: e.state, states: new Set(), metros: {}, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
-      c.n++; c.states.add(e.state); const mm = e.metro || e.city; c.metros[mm] = (c.metros[mm] || 0) + 1; byCity.set(k, c);
+      const c = byCity.get(k) || { name: nm, metro: e.metro || e.city, state: e.state, states: new Set(), metros: {}, country: e.country, lat: e.lat, lng: e.lng, n: 0, v: 0, events: [] };
+      c.n++; if (inView.has(e.id)) c.v++; c.events.push(e); c.states.add(e.state);
+      const mm = e.metro || e.city; c.metros[mm] = (c.metros[mm] || 0) + 1; byCity.set(k, c);
     }
     cities = [...byCity.values()].sort((a, b) => b.n - a.n);
-    for (const c of cities) c.events = live.filter((e) => ((e.metro || e.city).replace(/ area$/i, "") + "|" + e.country) === c.name + "|" + c.country)
-      .sort((a, b) => new Date(a.start) - new Date(b.start));
-    cities.forEach((c) => { c.size = Math.min(0.11, 0.035 + Math.sqrt(c.n) * 0.016); c.key = c.name + "|" + c.country; });
+    for (const c of cities) {
+      c.events.sort((a, b) => new Date(a.start) - new Date(b.start));
+      c.key = c.name + "|" + c.country;
+      // everything worldwide glows; whatever your filters point at glows brighter
+      c.size = Math.min(0.11, 0.035 + Math.sqrt(c.n) * 0.016) * (c.v ? 1 : 0.55);
+    }
+    const viewCities = cities.filter((c) => c.v).sort((a, b) => b.v - a.v);
+    const live = world.filter((e) => inView.has(e.id));
     hovered = -1; hideTip();
+    countUp($("#g-countries"), new Set(world.map((e) => e.country)).size);
 
     countUp($("#g-events"), events.filter((e) => e.status !== "cancelled").length);
-    countUp($("#g-cities"), cities.length);
+    countUp($("#g-cities"), viewCities.length);
     $("#g-where").textContent = placeLabel;
 
-    $("#g-chips").innerHTML = cities.slice(0, 8).map((c, i) =>
-      `<button type="button" class="g-chip" data-i="${i}">${esc(c.name)}<span>${c.n}</span></button>`).join("")
-      + (ev.detail.narrowed ? `<button type="button" class="g-chip g-chip--all" data-all="1">← All cities</button>` : "");
+    $("#g-chips").innerHTML = viewCities.slice(0, 8).map((c, i) =>
+      `<button type="button" class="g-chip" data-i="${i}">${esc(c.name)}<span>${c.v}</span></button>`).join("")
+      + (ev.detail.narrowed ? `<button type="button" class="g-chip g-chip--all" data-all="1">← All cities</button>` : "")
+      + (ev.detail.country ? `<button type="button" class="g-chip g-chip--all" data-world="1">🌍 Whole world</button>` : "");
     $("#g-chips").onclick = (e) => {
       const b = e.target.closest(".g-chip"); if (!b) return;
+      if (b.dataset.world) { [targetPhi, targetTheta] = toAngles(30, -20); targetTheta = 0.35;
+        dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: "", region: "", metro: "" } })); return; }
       if (b.dataset.all) { dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: ev.detail.country, region: "", metro: "" } })); return; }
-      pickCity(cities[+b.dataset.i]);
+      pickCity(viewCities[+b.dataset.i]);
     };
 
     // fly to whatever the filters point at (a state, a city, or near me)
-    if (focus && cities.length) {
-      const lat = cities.reduce((s, c) => s + c.lat * c.n, 0) / cities.reduce((s, c) => s + c.n, 0);
-      const lng = cities.reduce((s, c) => s + c.lng * c.n, 0) / cities.reduce((s, c) => s + c.n, 0);
+    if (focus && viewCities.length) {
+      const lat = viewCities.reduce((s, c) => s + c.lat * c.v, 0) / viewCities.reduce((s, c) => s + c.v, 0);
+      const lng = viewCities.reduce((s, c) => s + c.lng * c.v, 0) / viewCities.reduce((s, c) => s + c.v, 0);
       [targetPhi, targetTheta] = toAngles(lat, lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
     } else if (first) {
       [targetPhi, targetTheta] = toAngles(39, -82); targetTheta = 0.42;  // open on the US east coast

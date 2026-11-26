@@ -267,7 +267,7 @@
 </style>
 <script src="/a.js" defer></script>
 <script src="/acct.js?v=7" defer></script>
-<script type="module" src="/globe.js?v=11"></script>
+<script type="module" src="/globe.js?v=12"></script>
 </head>
 <body>
 <header class="bar">
@@ -367,7 +367,7 @@
     <section class="hero" id="hero" hidden aria-label="Live map of meetups">
       <div>
         <p class="hero__kick"><i></i>Live lineup</p>
-        <div class="hero__stats"><div><b id="g-events">0</b><span>meetups</span></div><div><b id="g-cities">0</b><span>cities</span></div></div>
+        <div class="hero__stats"><div><b id="g-events">0</b><span>meetups</span></div><div><b id="g-cities">0</b><span>cities</span></div><div><b id="g-countries">0</b><span>countries</span></div></div>
         <p class="hero__where">in view: <span id="g-where">worldwide</span></p>
         <div class="g-chips" id="g-chips"></div>
         <p class="g-next" id="g-next"></p>
@@ -663,7 +663,12 @@
     const focus = key !== lastFocusKey && lastFocusKey !== null && (state.country || state.region || state.metro || NEAR);
     lastFocusKey = key;
     const evs = visible().map(e => ({ ...e, page: "/event/" + eventSlug(e) + "/" }));
-    dispatchEvent(new CustomEvent("lineup:update", { detail: { events: evs, placeLabel: placeLabel(), focus, narrowed: !!(state.region || state.metro), country: state.country } }));
+    const qq = state.q.trim().toLowerCase();
+    const world = EVENTS.filter(e => !isCx(e) && !e.online && (state.topic === "all" || e.tags.includes(state.topic)) && inWhen(e)
+      && (!state.free || /^free/i.test(e.cost))
+      && (!qq || `${e.title} ${e.city} ${e.country} ${e.about} ${e.source}`.toLowerCase().includes(qq)))
+      .map(e => ({ ...e, page: "/event/" + eventSlug(e) + "/" }));
+    dispatchEvent(new CustomEvent("lineup:update", { detail: { events: evs, world, placeLabel: placeLabel(), focus, narrowed: !!(state.region || state.metro), country: state.country } }));
   }
   addEventListener("lineup:globe-ready", () => { if (EVENTS.length) tellGlobe(); });
   addEventListener("lineup:pick", (ev) => {
