@@ -17,11 +17,15 @@ if (hero && canvas && webglOK()) {
   let dragging = false, lastX = 0, lastY = 0, velocity = 0, width = 0, idleSince = 0;
   const toAngles = (lat, lng) => [Math.PI - ((lng * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180];
 
-  const size = () => { width = canvas.offsetWidth; };
+  const size = () => {
+    width = canvas.offsetWidth || canvas.parentElement.offsetWidth || 360;
+    if (canvas.width !== width * 2) { canvas.width = width * 2; canvas.height = width * 2; }
+  };
   size(); addEventListener("resize", size);
+  await new Promise((r) => requestAnimationFrame(r)); size();  // measure after the hero is laid out
 
   const globe = createGlobe(canvas, {
-    devicePixelRatio: Math.min(2, devicePixelRatio || 1),
+    devicePixelRatio: 2,
     width: width * 2, height: width * 2,
     phi, theta, dark: 1, diffuse: 1.25, mapSamples: 16000, mapBrightness: 5.5,
     baseColor: [0.22, 0.25, 0.29], markerColor: [1, 0.71, 0.28], glowColor: [0.16, 0.18, 0.22],
@@ -73,8 +77,8 @@ if (hero && canvas && webglOK()) {
     const live = events.filter((e) => !e.online && e.lat != null && e.status !== "cancelled");
     const byCity = new Map();
     for (const e of live) {
-      const k = (e.metro || e.city) + "|" + (e.state || e.country);
-      const c = byCity.get(k) || { name: e.metro || e.city, state: e.state, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
+      const nm = (e.metro || e.city).replace(/ area$/i, ""), k = nm + "|" + (e.state || e.country);
+      const c = byCity.get(k) || { name: nm, metro: e.metro || e.city, state: e.state, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
       c.n++; byCity.set(k, c);
     }
     const cities = [...byCity.values()].sort((a, b) => b.n - a.n);
@@ -90,7 +94,7 @@ if (hero && canvas && webglOK()) {
       const b = e.target.closest(".g-chip"); if (!b) return;
       const c = cities[+b.dataset.i];
       [targetPhi, targetTheta] = toAngles(c.lat, c.lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
-      dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" ? c.state : "", metro: c.name } }));
+      dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" ? c.state : "", metro: c.metro } }));
     };
 
     // fly to whatever the filters point at (a state, a city, or near me)
