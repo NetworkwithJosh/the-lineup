@@ -835,6 +835,11 @@ def main() -> int:
     if not args.offline:
         events += pull_ics_sources(sources, start, end, report)
         events += pull_confs_tech(sources.get("confs_tech", {}), start, end, report)
+        try:
+            import eventbrite, discover  # cyber events on Eventbrite, one search per state
+            events += eventbrite.pull(discover.CITIES, start, end, place, report)
+        except Exception as exc:
+            report.append({"source": "Eventbrite", "ok": False, "error": str(exc)[:140]})
 
     failed = {r["source"] for r in report if not r.get("ok")}
     if args.offline and prev:  # offline test runs must not cancel feed events
@@ -843,7 +848,7 @@ def main() -> int:
     if not args.offline:
         import enrich  # full / waitlist status and real online flag from each Meetup event page
         try:
-            enrich.attach(events, (prev or {}).get("events"), now)
+            enrich.attach(events, (prev or {}).get("events"), now, sources.get("luma_calendars"))
         except Exception as exc:
             print("enrich skipped:", exc)
     import geo  # coordinates for "Near me", one cached lookup per city

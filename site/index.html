@@ -544,6 +544,24 @@
   const monthKey = (e) => new Intl.DateTimeFormat("en-US", { timeZone: tzOf(e), month: "long", year: "numeric" }).format(toDate(e, "start"));
   const placeLabel = () => NEAR ? `within ${state.radius} miles of you` : state.metro || (isUS() && state.region ? STATES[state.region] : "") || state.country || "worldwide";
 
+  const STATE_CENTER = {AL:[32.8,-86.8],AK:[61.2,-149.9],AZ:[33.7,-111.9],AR:[34.8,-92.3],CA:[36.8,-119.4],CO:[39.7,-105],CT:[41.6,-72.7],DE:[39.2,-75.5],DC:[38.9,-77],
+    FL:[27.8,-81.7],GA:[33.7,-84.4],HI:[21.3,-157.9],ID:[43.6,-116.2],IL:[41.9,-87.6],IN:[39.8,-86.2],IA:[41.6,-93.6],KS:[38.5,-98],KY:[38.2,-85.7],LA:[30.5,-91.1],
+    ME:[44.3,-69.8],MD:[39.3,-76.6],MA:[42.4,-71.1],MI:[42.7,-84.5],MN:[45,-93.3],MS:[32.3,-90.2],MO:[38.6,-92.2],MT:[46.9,-110.4],NE:[41.3,-96],NV:[36.2,-115.1],
+    NH:[43.2,-71.5],NJ:[40.2,-74.5],NM:[35.1,-106.6],NY:[40.7,-74],NC:[35.8,-78.6],ND:[46.9,-96.8],OH:[40,-83],OK:[35.5,-97.5],OR:[45.5,-122.7],PA:[40.3,-76.9],
+    RI:[41.8,-71.4],SC:[34,-81],SD:[43.5,-96.7],TN:[36.2,-86.8],TX:[30.3,-97.7],UT:[40.8,-111.9],VT:[44.5,-73.2],VA:[37.5,-77.4],WA:[47.6,-122.3],WV:[38.4,-81.6],
+    WI:[43.1,-89.4],WY:[41.1,-104.8]};
+  const hav = (a, b, c, d) => { const R = 3959, r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(x)); };
+  function nearestStates(st) {
+    const c = STATE_CENTER[st]; if (!c) return [];
+    const by = {};
+    for (const e of EVENTS) if (!e.online && !isCx(e) && e.country === "United States" && e.state && e.state !== st && e.lat != null) {
+      const d = hav(c[0], c[1], e.lat, e.lng); const b = by[e.state] || (by[e.state] = { st: e.state, n: 0, d: Infinity }); b.n++; b.d = Math.min(b.d, d);
+    }
+    return Object.values(by).sort((a, b) => a.d - b.d).slice(0, 3);
+  }
+  function wireNear() {
+    document.querySelectorAll("[data-near]").forEach(b => b.onclick = () => { state.region = b.dataset.near; state.metro = ""; fillStates(); save(); update(true); });
+  }
   function render(animate) {
     const list = visible();
     const groups = new Map();
@@ -554,12 +572,18 @@
     if (emptyState) {
       $("#board-sub").innerHTML = `Nothing listed in ${esc(STATES[state.region])} yet${live ? `, so here ${live === 1 ? "is 1 online event" : `are ${live} online events`} you can join from there` : ""}. Know a group in ${esc(STATES[state.region])}? <a href="/submit/">Add it</a>.`;
     } else $("#board-sub").textContent = `${live} ${noun} ${NEAR ? placeLabel() : state.metro || state.country ? "in " + placeLabel() : "worldwide"}${state.online && (NEAR || state.metro || state.country) ? " plus online" : ""}${({ week: " in the next 7 days", weekend: " this weekend", month: " in the next 30 days" })[state.when] || ""}${state.make ? " you can make" : ""}.`;
+    const inPersonHere = isUS() && state.region && !EVENTS.some(e => e.state === state.region && !e.online && !isCx(e));
+    const near = inPersonHere ? nearestStates(state.region) : [];
+    const nearHtml = near.length ? `<div class="empty" style="margin-bottom:var(--sc-5)"><p>No in-person meetups in ${esc(STATES[state.region])} right now. Closest options:</p>`
+      + near.map(n => `<button class="btn" type="button" data-near="${n.st}" style="margin:0 6px 6px 0">${esc(STATES[n.st])} · ${n.n} · ~${Math.round(n.d)} mi</button>`).join("")
+      + ` <a class="btn btn--ghost" href="/submit/">Know a group in ${esc(STATES[state.region])}? Add it</a></div>` : "";
     if (!list.length) {
       const noneInState = isUS() && state.region && !EVENTS.some(e => e.state === state.region && !isCx(e));
       $("#list").innerHTML = noneInState
         ? `<div class="empty"><p>Nothing listed in ${esc(STATES[state.region])} yet. We only show meetups that publish a calendar we can follow, and we haven't found one there. If you know a cyber, AI or IT group in ${esc(STATES[state.region])}, add it and it'll show up here on the next refresh.</p><a class="btn btn--solid" href="/submit/">Add a group</a> <button class="btn" type="button" id="reset">See all states</button></div>`
         : `<div class="empty"><p>Nothing matches. Try another city, a later off time, or turn off some filters.</p><button class="btn" type="button" id="reset">Clear filters</button></div>`;
       $("#reset").onclick = noneInState ? () => { state.region = ""; state.metro = ""; fillStates(); save(); update(true); } : resetFilters;
+      if (nearHtml) { $("#list").insertAdjacentHTML("afterbegin", nearHtml); wireNear(); }
       return;
     }
     let html = "";
@@ -571,6 +595,8 @@
         const mi = NEAR && !e.online ? milesTo(e) : Infinity;
         const meta = [...where, mi < Infinity ? (mi < 1 ? "under 1 mi" : `${Math.round(mi)} mi away`) : "", e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("")
           + (e.rsvp && !isCx(e) ? (e.rsvp.full ? `<span class="cap cap--full">Full · waitlist</span>`
+            : e.rsvp.left != null && e.rsvp.left <= 15 ? `<span class="cap">Only ${e.rsvp.left} spot${e.rsvp.left === 1 ? "" : "s"} left</span>`
+            : e.rsvp.near ? `<span class="cap">Almost full</span>`
             : e.rsvp.max && e.rsvp.going / e.rsvp.max >= 0.8 ? `<span class="cap">Almost full · ${e.rsvp.going}/${e.rsvp.max}</span>`
             : e.rsvp.going >= 5 ? `<span>${e.rsvp.going} RSVP'd</span>` : "") : "");
         const flag = ch === "new" ? `<span class="flag flag--new">New</span>` : ch === "updated" ? `<span class="flag flag--upd">Updated</span>` : ch === "cancelled" ? `<span class="flag flag--cx">Cancelled</span>` : "";
@@ -590,7 +616,8 @@
       }
       html += `</section>`;
     }
-    $("#list").innerHTML = html;
+    $("#list").innerHTML = nearHtml + html;
+    if (nearHtml) wireNear();
   }
 
   function changesStrip() {

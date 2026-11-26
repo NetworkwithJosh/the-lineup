@@ -145,7 +145,9 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 f'{" · " + esc(x["cost"]) if x.get("cost") and x["cost"] != "Check listing" else ""}</p>'
                 + (f'<p class="lede">{esc(x["about"])}</p>' if x.get("about") else "")
                 + ((f'<p class="lede" style="color:#ff7a6b;font-weight:600">Full on the organizer\'s page. Join the waitlist there.</p>'
-                    if x["rsvp"]["full"] else f'<p class="lede" style="color:#ffb547">Almost full: {x["rsvp"]["going"]} of {x["rsvp"]["max"]} spots taken.</p>'
+                    if x["rsvp"]["full"] else f'<p class="lede" style="color:#ffb547">Only {x["rsvp"]["left"]} spots left. Grab one soon.</p>'
+                    if x["rsvp"].get("left") is not None and x["rsvp"]["left"] <= 15 else '<p class="lede" style="color:#ffb547">Almost full.</p>'
+                    if x["rsvp"].get("near") else f'<p class="lede" style="color:#ffb547">Almost full: {x["rsvp"]["going"]} of {x["rsvp"]["max"]} spots taken.</p>'
                     if x["rsvp"]["max"] and x["rsvp"]["going"] / x["rsvp"]["max"] >= 0.8 else "") if x.get("rsvp") else "")
                 + '<div class="cta">'
                 + (f'<a class="btn btn--solid" href="{esc(x["url"])}" rel="noopener">Details and RSVP</a>' if x.get("url") else "")
