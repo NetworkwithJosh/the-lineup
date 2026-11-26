@@ -144,11 +144,43 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 + '<div class="cta">'
                 + (f'<a class="btn btn--solid" href="{esc(x["url"])}" rel="noopener">Details and RSVP</a>' if x.get("url") else "")
                 + f'<a class="btn" href="/e/{x["id"]}.ics">Add to calendar</a>{back}<a class="btn" href="/">All events</a></div>'
-                f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>')
+                + (f'<div id="going" data-event="{esc(x["id"])}" data-start="{esc(x["start"])}" data-state="{esc(st or "")}"></div>'
+                   if not x.get("online") and st else "")
+                + f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>'
+                + '<script src="/acct.js" defer></script>')
         (out / sl).mkdir(parents=True, exist_ok=True)
         (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld))
         urls.append(f"{BASE}/event/{sl}/")
+    build_static(site)
     return urls
+
+
+PRIVACY = """<h1>Privacy</h1><p class="lede">Plain-English version. Last updated November 26, 2026.</p>
+<h2>What we collect</h2><p>Browsing The Lineup needs no account. If you make one, we store your email, first and last name, role, experience level, optional company, which events you mark as going, and your connect requests, blocks and reports. We use privacy-friendly analytics (no ad cookies). If you use "Near me", your location stays in your browser and is never sent to us.</p>
+<h2>Who sees what</h2><p>Anyone can see how many people are going to an event. Only signed-in people who are also going can see who: first name, last initial, role and experience. Your email and full last name are shared only with someone after you both accept a connect request. Your company is shown only to connections, and only if you turn it on.</p>
+<h2>Where it lives</h2><p>Account data is stored with Supabase (our database provider). Sign-in emails are sent by our email provider. We don't sell or rent your data, and we don't share it with advertisers or recruiters.</p>
+<h2>Your controls</h2><p>Edit your profile, un-mark going, block people or delete your account any time from your <a href="/account/">account page</a>. Deleting your account removes your data from our database right away (backups roll off within 30 days).</p>
+<h2>Age</h2><p>Accounts are for people 18 and older.</p>
+<h2>Contact</h2><p>Questions or data requests: use the report button in your account or the <a href="/submit/">contact form</a>.</p>"""
+
+TERMS = """<h1>Terms</h1><p class="lede">Last updated November 26, 2026.</p>
+<h2>What this is</h2><p>The Lineup lists events organized by other people. We don't organize, host, run or vouch for any event, organizer, venue or attendee. Details can be wrong or change; always check the organizer's page.</p>
+<h2>Accounts</h2><p>You must be 18 or older. Use your real name. One account per person.</p>
+<h2>Be decent</h2><p>Connect requests are for professional networking at events you're actually attending. No spam, selling, recruiting blasts, harassment, or contacting people who declined or blocked you. Don't scrape or bulk-collect other users' info. We can limit or remove accounts that break these rules, and report threats to the authorities.</p>
+<h2>Meeting people</h2><p>You choose who you meet and you're responsible for your own safety. Meet in the public event space. Use Block and Report if anything feels off.</p>
+<h2>No warranty</h2><p>The service is provided as is, without warranties. To the extent the law allows, The Lineup isn't liable for events, other users, or losses arising from using the site.</p>
+<h2>Changes</h2><p>We may update these terms; the date above will change when we do.</p>"""
+
+
+def build_static(site: Path) -> None:
+    for path, title, desc, body in [
+        ("account", "Your account | The Lineup", "Sign in to mark events you're going to and connect with others going.",
+         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js" defer></script>'
+         '<p class="meta"><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>'),
+        ("privacy", "Privacy | The Lineup", "What The Lineup collects and who can see it.", PRIVACY),
+        ("terms", "Terms | The Lineup", "Rules for using The Lineup.", TERMS)]:
+        (site / path).mkdir(parents=True, exist_ok=True)
+        (site / path / "index.html").write_text(page(title, desc, f"{BASE}/{path}/", body))
 
 
 def build(events: list[dict], state_names: dict, write_ics, now: datetime, site: Path) -> list[str]:
