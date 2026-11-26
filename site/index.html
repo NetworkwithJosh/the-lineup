@@ -66,6 +66,8 @@
   #globe { width: 100%; height: 100%; cursor: grab; opacity: 0; transition: opacity 1.2s ease; contain: layout paint size; }
   #globe.on { opacity: 1; } #globe:active { cursor: grabbing; }
   .hero__hint { position: absolute; bottom: 4px; right: 8px; font: 500 .66rem var(--sc-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-dim); pointer-events: none; }
+  @media (max-width: 640px) { .coffee__t { display: none; } .bar a.bar__link { white-space: nowrap; } }
+  @media (max-width: 900px) { .app > .hero { margin: var(--sc-4) var(--sc-gutter) 0; } }
   @media (max-width: 760px) {
     .hero { grid-template-columns: 1fr; padding: var(--sc-4); }
     .hero__globe { order: -1; max-width: 300px; justify-self: center; margin: -10px 0 -24px; }
@@ -246,7 +248,7 @@
 </style>
 <script src="/a.js" defer></script>
 <script src="/acct.js?v=3" defer></script>
-<script type="module" src="/globe.js?v=4"></script>
+<script type="module" src="/globe.js?v=5"></script>
 </head>
 <body>
 <header class="bar">
@@ -258,7 +260,7 @@
   <a class="bar__link" href="/submit/">Submit</a>
   <a class="bar__link" href="/account/">Sign in</a>
   <a class="bar__link" href="#feed">Feed</a>
-  <a class="bar__link" id="coffee" href="#" target="_blank" rel="noopener" hidden>☕ Buy me a coffee</a>
+  <a class="bar__link" id="coffee" href="#" target="_blank" rel="noopener" hidden aria-label="Buy me a coffee">☕<span class="coffee__t"> Buy me a coffee</span></a>
 </header>
 
 <div class="app">

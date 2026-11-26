@@ -12,6 +12,10 @@ function webglOK() {
 
 if (hero && canvas && webglOK()) {
   hero.hidden = false;
+  // phones: the filters stack first, so lift the globe to the very top of the page
+  const mq = matchMedia("(max-width: 900px)"), board = hero.parentElement, app = document.querySelector(".app");
+  const place = () => { if (mq.matches && app) app.insertBefore(hero, app.firstChild); else if (board) board.insertBefore(hero, board.firstChild); };
+  place(); mq.addEventListener("change", place);
   const TAU = Math.PI * 2;
   let markers = [], phi = -1.35, theta = 0.32, targetPhi = null, targetTheta = null;
   let dragging = false, lastX = 0, lastY = 0, velocity = 0, width = 0, idleSince = 0;
