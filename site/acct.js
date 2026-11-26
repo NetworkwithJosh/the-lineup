@@ -150,6 +150,7 @@
     var card = el("div", { class: "acct" });
     card.appendChild(el("h3", { text: "Hey " + profile.first_name }));
     card.appendChild(el("p", { text: "Others going to the same event see: " + profile.first_name + " " + profile.last_name.charAt(0) + ". · " + profile.role + " · " + profile.experience + ". Never your email." }));
+    card.appendChild(el("a", { class: "btn btn--solid", href: "/", style: "margin-right:8px", text: "← Back to events" }));
     card.appendChild(el("button", { class: "btn", text: "Edit profile", onclick: function () { root.innerHTML = ""; profileForm(root, null, false); } }));
     card.appendChild(el("button", { class: "btn", style: "margin-left:8px", text: "Sign out", onclick: function () { sb.auth.signOut().then(function () { location.reload(); }); } }));
     root.appendChild(card);
@@ -259,17 +260,26 @@
 
   /* ---------------- header link ---------------- */
   function headerLink() {
+    var label = user ? (profile ? profile.first_name : "Finish profile") : "Sign in";
+    var bar = document.querySelector('.bar__link[href="/account/"]');
+    if (bar) { bar.textContent = label; return; }
     var top = document.querySelector(".top");
     if (!top || document.getElementById("acct-link")) return;
-    var a = el("a", { id: "acct-link", href: "/account/", text: user ? (profile ? profile.first_name : "Account") : "Sign in",
+    var a = el("a", { id: "acct-link", href: "/account/", text: label,
       style: "float:right;font-size:.85rem;color:var(--soft);text-decoration:none;margin-top:-50px" });
     top.parentNode.insertBefore(a, top.nextSibling);
   }
+  function hasSession() {
+    try { for (var i = 0; i < localStorage.length; i++) if (/^sb-.*-auth-token$/.test(localStorage.key(i))) return true; } catch (e) {}
+    return /access_token=|code=/.test(location.hash + location.search);
+  }
 
+  var box = document.getElementById("going"), acct = document.getElementById("account");
+  // Pages with nothing account-related (like the homepage) only load the login library if you're signed in.
+  if (!box && !acct && !hasSession()) return;
   boot(function () {
-    var box = document.getElementById("going"), acct = document.getElementById("account");
     if (acct) accountPage(acct);
     if (box) eventBox(box);
-    if (box || acct) headerLink();
+    headerLink();
   });
 })();
