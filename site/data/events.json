@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T18:39-05:00",
+ "generatedAt": "2026-11-26T18:47-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
@@ -1323,9 +1323,9 @@
   },
   {
    "source": "Eventbrite",
-   "ok": false,
+   "ok": true,
    "events": 20,
-   "note": "search failed for GA/Atlanta, GA/Augusta, GA/Augusta, HI/Honolulu, HI/Honolulu, ID/Boise, ID/Boise, IL/Chicago, IL/Chicago, IN/Indianapolis, IN/Indianapolis, IA/Des Moines, IA/Des Moines, KS/Wichita, KS/Wichita, KS/Kansas City, KS/Kansas City, KY/Louisville, KY/Louisville, KY/Lexington, KY/Lexington, LA/New Orleans, LA/New Orleans, LA/Baton Rouge, LA/Baton Rouge, ME/Portland, ME/Portland, MD/Baltimore, MD/Baltimore, MD/Columbia, MD/Columbia, MA/Boston, MA/Boston, MI/Detroit, MI/Detroit, MI/Grand Rapids, MI/Grand Rapids, MN/Minneapolis, MN/Minneapolis, MS/Jackson, MS/Jackson, MO/St. Louis, MO/St. Louis, MO/Kansas City, MO/Kansas City, MT/Billings, MT/Billings, MT/Missoula, MT/Missoula, NE/Omaha, NE/Omaha, NE/Lincoln, NE/Lincoln, NV/Las Vegas, NV/Las Vegas, NV/Reno, NV/Reno, NH/Manchester, NH/Manchester, NJ/Newark, NJ/Newark, NJ/Princeton, NJ/Princeton, NM/Albuquerque, NM/Albuquerque, NY/New York, NY/New York, NY/Albany, NY/Albany, NC/Charlotte, NC/Charlotte, NC/Raleigh, NC/Raleigh, ND/Fargo, ND/Fargo, OH/Columbus, OH/Columbus, OH/Cleveland, OH/Cleveland, OK/Oklahoma City, OK/Oklahoma City, OK/Tulsa, OK/Tulsa, OR/Portland, OR/Portland, PA/Philadelphia, PA/Philadelphia, PA/Pittsburgh, PA/Pittsburgh, RI/Providence, RI/Providence, SC/Columbia, SC/Columbia, SC/Charleston, SC/Charleston, SD/Sioux Falls, SD/Sioux Falls, TN/Nashville, TN/Nashville, TN/Knoxville, TN/Knoxville, TX/Austin, TX/Austin, TX/Dallas, TX/Dallas, UT/Salt Lake City, UT/Salt Lake City, VT/Burlington, VT/Burlington, VA/Arlington, VA/Arlington, VA/Richmond, VA/Richmond, WA/Seattle, WA/Seattle, WV/Charleston, WV/Charleston, WI/Milwaukee, WI/Milwaukee, WI/Madison, WI/Madison, WY/Cheyenne, WY/Cheyenne"
+   "note": "search failed for AL/Huntsville, AL/Birmingham, AZ/Phoenix, AZ/Tucson, CO/Denver, CO/Colorado Springs, DC/Washington, FL/Miami, FL/Tampa, HI/Honolulu, ID/Boise, IN/Indianapolis, KY/Louisville, KY/Lexington, MA/Boston, ME/Portland, MN/Minneapolis, MS/Jackson, NC/Charlotte, NC/Raleigh, NE/Omaha, NE/Lincoln, NJ/Newark, NJ/Princeton, NV/Las Vegas, NV/Reno, OH/Columbus, OH/Cleveland, OR/Portland, RI/Providence, SD/Sioux Falls, TX/Austin, TX/Dallas, VA/Arlington, VA/Richmond, WA/Seattle, WV/Charleston"
   }
  ],
  "events": [
@@ -3434,7 +3434,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 208,
+    "going": 209,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -8301,11 +8301,11 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 90,
+    "going": 91,
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 10,
+    "left": 9,
     "near": false
    },
    "lat": 33.754,
@@ -14891,7 +14891,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 25,
+    "going": 26,
     "max": 0,
     "waitlist": 0,
     "full": false,
