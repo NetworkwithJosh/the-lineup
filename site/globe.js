@@ -143,6 +143,7 @@ if (hero && canvas && webglOK()) {
     if (e.pointerType === "touch" && hovered !== i) { hovered = i; showTip(i); idleSince = Date.now() + 6000; return; }  // first tap: peek
     pickCity(cities[i]); hovered = -1; hideTip();
   });
+  window.__lineupGlobe = { project, cities: () => cities, setR: (k) => { R_K = k; }, freeze: () => { idleSince = Date.now() + 1e9; velocity = 0; } };
   // keep the tooltip glued to its dot while the globe turns
   (function follow() { if (!tip.hidden && hovered >= 0) showTip(hovered); requestAnimationFrame(follow); })();
 
