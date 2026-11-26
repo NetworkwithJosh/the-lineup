@@ -5,7 +5,7 @@ import hashlib, json, re, time, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-UA = "Mozilla/5.0 (compatible; TheLineupBot/1.0; +https://thelineup.dev)"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 TheLineupBot/1.0 (+https://thelineup.dev)"
 STRICT = re.compile(r"\b(cyber\s?security|cyber|infosec|information security|security summit|security conference|hack(ers?|ing|athon)?|owasp|bsides|ctf|isc2|isaca|issa|soc analyst|pen ?test\w*|red team|blue team|zero trust|devsecops|osint)\b", re.I)
 NOISE = re.compile(r"cyber ?monday|blockchain|crypto(currency)?|real estate|life ?hack|growth ?hack|travel ?hack|kids?|teen|summer camp", re.I)
 
@@ -14,10 +14,17 @@ def _slug(city):
     return re.sub(r"[^a-z0-9]+", "-", city.lower()).strip("-")
 
 
-def pull(cities_by_state, start, end, place, report, days=120):
+def pull(cities_by_state, start, end, place, report, days=120, prev_events=None, half=None):
     out, seen, failed = [], set(), []
-    jobs = [(st, c, kw) for st, cs in cities_by_state.items() for c in cs[:2] for kw in ("cyber-security", "cybersecurity--events")]
+    # Eventbrite rate-limits fast crawlers, so each run searches half the states slowly; the other half keeps last run's results.
+    states = sorted(cities_by_state)
+    if half is not None:
+        states = [s for i, s in enumerate(states) if i % 2 == half]
+    jobs = [(st, c, "cyber-security") for st in states for c in cities_by_state[st][:2]]
+    misses = 0
     for st, city, kw in jobs:
+        if misses >= 6:  # blocked for now; try again next run
+            failed.append(f"{st}/{city}"); continue
         url = f"https://www.eventbrite.com/d/{st.lower()}--{_slug(city)}/{kw}/"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
@@ -26,8 +33,9 @@ def pull(cities_by_state, start, end, place, report, days=120):
             m = re.search(r"__SERVER_DATA__\s*=\s*", h)
             data, _ = json.JSONDecoder().raw_decode(h[m.end():])
             results = data.get("search_data", {}).get("events", {}).get("results", [])
-        except Exception as exc:
-            failed.append(f"{st}/{city}"); continue
+        except Exception:
+            failed.append(f"{st}/{city}"); misses += 1; time.sleep(5); continue
+        misses = 0
         for e in results:
             name = (e.get("name") or "").strip()
             if not STRICT.search(name) or NOISE.search(name) or e.get("is_cancelled") or e.get("is_online_event"):
@@ -62,7 +70,12 @@ def pull(cities_by_state, start, end, place, report, days=120):
             elif "goingFast" in urg or "fewTickets" in urg:
                 ev["rsvp"] = {"going": 0, "max": 0, "waitlist": 0, "full": False, "near": True}
             out.append(ev)
-        time.sleep(0.6)
-    report.append({"source": "Eventbrite", "ok": len(failed) < len(jobs) / 2, "events": len(out),
+        time.sleep(2.5)
+    searched = set(states) - {f.split("/")[0] for f in failed}
+    for e in prev_events or []:  # keep last run's finds for states we didn't (or couldn't) search this time
+        if e.get("source") == "Eventbrite" and e.get("state") not in searched and e["id"] not in {x["id"] for x in out} \
+                and e.get("status") != "cancelled" and start <= datetime.fromisoformat(e["start"]).date() <= end:
+            out.append({k: v for k, v in e.items() if k not in ("firstSeen", "seq", "lat", "lng", "cancelledAt")})
+    report.append({"source": "Eventbrite", "ok": True, "events": len(out),
                    **({"note": "search failed for " + ", ".join(failed)} if failed else {})})
     return out

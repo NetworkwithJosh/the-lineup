@@ -837,7 +837,7 @@ def main() -> int:
         events += pull_confs_tech(sources.get("confs_tech", {}), start, end, report)
         try:
             import eventbrite, discover  # cyber events on Eventbrite, one search per state
-            events += eventbrite.pull(discover.CITIES, start, end, place, report)
+            events += eventbrite.pull(discover.CITIES, start, end, place, report, prev_events=(prev or {}).get("events"), half=now.hour // 12 % 2)
         except Exception as exc:
             report.append({"source": "Eventbrite", "ok": False, "error": str(exc)[:140]})
 
