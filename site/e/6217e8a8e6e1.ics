@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6217e8a8e6e1@the-lineup
+DTSTAMP:20261126T221633Z
+SEQUENCE:0
+DTSTART:20261216T000000Z
+DTEND:20261216T030000Z
+SUMMARY:HTB Toronto Meetup #21
+LOCATION:Location on listing\, Toronto\, Canada
+DESCRIPTION:Hack The Box Meetup Toronto ON CA Join us for another community-focused learning session as we continue building practical offensive security knowledge together. 🎁 As always\, we'll be giving away month-long vouchers for… https://www.meetup.com/hack-the-box-meetup-toronto-on-ca/events/317462396/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hack-the-box-meetup-toronto-on-ca/events/317462396/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

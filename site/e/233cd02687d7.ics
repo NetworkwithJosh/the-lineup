@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:233cd02687d7@the-lineup
+DTSTAMP:20261126T221633Z
+SEQUENCE:0
+DTSTART:20270107T143000Z
+DTEND:20270107T153000Z
+SUMMARY:Stop Wasting Ad Spend: AI Google Ads Automation in Plain English - Live Demo
+LOCATION:Location on listing\, Bangalore\, India
+DESCRIPTION:Cyber Security Group Meetup Your Google Ads account is probably paying for clicks that will never convert. Irrelevant search terms\, weak keywords and budget-capped campaigns quietly leak spend every day. Finding the… https://www.meetup.com/bangalore-cyber-security-meetup/events/317591929/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/bangalore-cyber-security-meetup/events/317591929/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
