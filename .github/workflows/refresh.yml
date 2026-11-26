@@ -29,6 +29,11 @@ jobs:
           python-version: "3.12"
       - name: Pull the feeds
         run: python scraper/scrape.py --days 180
+      - name: Sync events to accounts database
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python scraper/supabase_sync.py
       - name: Save the new events
         run: |
           git config user.name "lineup-bot"
