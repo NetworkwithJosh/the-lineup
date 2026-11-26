@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:028981fe8782@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20261201T013000Z
 DTEND:20261201T023000Z
@@ -19,8 +19,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/dc608madison/events/317376591/
 END:VEVENT
 BEGIN:VEVENT
+UID:9754b1cec4c7@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261204T003000Z
+DTEND:20261204T023000Z
+SUMMARY:Breaking Video Game Anti-Tamper
+LOCATION:Location on listing\, Madison\, United States
+DESCRIPTION:DC608 Join us for our monthly meetup! This month's speaker is Truman Kilen with their talk Breaking Video Game Anti-Tamper. Modern video games are shipping with more and more protection layers\, from DRM\, to anti-tamper… https://www.meetup.com/dc608madison/events/317594667/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/317594667/
+END:VEVENT
+BEGIN:VEVENT
 UID:9daa1806a8f7@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20261208T013000Z
 DTEND:20261208T023000Z
@@ -32,7 +44,7 @@ URL:https://www.meetup.com/dc608madison/events/317476623/
 END:VEVENT
 BEGIN:VEVENT
 UID:90deb88ab8ad@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20261215T013000Z
 DTEND:20261215T023000Z
@@ -44,7 +56,7 @@ URL:https://www.meetup.com/dc608madison/events/317574510/
 END:VEVENT
 BEGIN:VEVENT
 UID:a706c082ba03@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20261222T013000Z
 DTEND:20261222T023000Z
@@ -56,7 +68,7 @@ URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqbcc/
 END:VEVENT
 BEGIN:VEVENT
 UID:e80297f81f81@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20261229T013000Z
 DTEND:20261229T023000Z
@@ -68,7 +80,7 @@ URL:https://www.meetup.com/dc608madison/events/hgpsttyjcqblc/
 END:VEVENT
 BEGIN:VEVENT
 UID:f3af3340ec01@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20270105T013000Z
 DTEND:20270105T023000Z
@@ -80,7 +92,7 @@ URL:https://www.meetup.com/dc608madison/events/hgpsttykccbgb/
 END:VEVENT
 BEGIN:VEVENT
 UID:8dd1f53a9076@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20270112T013000Z
 DTEND:20270112T023000Z
@@ -92,7 +104,7 @@ URL:https://www.meetup.com/dc608madison/events/hgpsttykccbpb/
 END:VEVENT
 BEGIN:VEVENT
 UID:4ec284774b5e@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20270119T013000Z
 DTEND:20270119T023000Z
@@ -104,7 +116,7 @@ URL:https://www.meetup.com/dc608madison/events/hgpsttykccbxb/
 END:VEVENT
 BEGIN:VEVENT
 UID:080255892b95@the-lineup
-DTSTAMP:20261126T034748Z
+DTSTAMP:20261126T181920Z
 SEQUENCE:0
 DTSTART:20270126T013000Z
 DTEND:20270126T023000Z
@@ -113,17 +125,5 @@ LOCATION:Location on listing\, Madison\, United States
 DESCRIPTION:DC608 Join the event on our Discord! Attention coding enthusiasts and tech aficionados of all skill levels! Join us for a night of coding camaraderie at one of DC608's Coding Nights! Whether you're a seasoned programmer… https://www.meetup.com/dc608madison/events/hgpsttykccbhc/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/dc608madison/events/hgpsttykccbhc/
-END:VEVENT
-BEGIN:VEVENT
-UID:032f358a5ea0@the-lineup
-DTSTAMP:20261126T034748Z
-SEQUENCE:0
-DTSTART:20270128T010000Z
-DTEND:20270128T020000Z
-SUMMARY:Red Team Night
-LOCATION:Location on listing\, Madison\, United States
-DESCRIPTION:DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?… https://www.meetup.com/dc608madison/events/316673029/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/dc608madison/events/316673029/
 END:VEVENT
 END:VCALENDAR

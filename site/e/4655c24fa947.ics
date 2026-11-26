@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4655c24fa947@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261205T000000Z
+DTEND:20261205T040000Z
+SUMMARY:DC862 - Holiday Party 2026
+LOCATION:Location on listing\, Clifton\, United States
+DESCRIPTION:DC862 🏴‍☠️ (DEF CON Group) ☠️ Happy Holidays from DC862! We look forward to seeing you at this fun-filled evening? 🎋 Hacker Jeopary hosted by OiScout 👚 Ugly sweater contest hosted by special guests: Digital Ascent 🎮… https://www.meetup.com/defcon862/events/317266306/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon862/events/317266306/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

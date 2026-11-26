@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9754b1cec4c7@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261204T003000Z
+DTEND:20261204T023000Z
+SUMMARY:Breaking Video Game Anti-Tamper
+LOCATION:Location on listing\, Madison\, United States
+DESCRIPTION:DC608 Join us for our monthly meetup! This month's speaker is Truman Kilen with their talk Breaking Video Game Anti-Tamper. Modern video games are shipping with more and more protection layers\, from DRM\, to anti-tamper… https://www.meetup.com/dc608madison/events/317594667/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc608madison/events/317594667/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

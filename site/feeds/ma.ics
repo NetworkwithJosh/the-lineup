@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:c3f211ecd544@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261204T000000Z
+DTEND:20261204T020000Z
+SUMMARY:Boston Hackers - December Meetup
+LOCATION:**\, Boston\, United States
+DESCRIPTION:Boston Hackers Where: K logix headquarters @ 1319 Beacon St 1\, Brookline\, MA 02446 Learn more about us! Travel & Parking: Venue is Accessible from the T (green line) via the Coolidge Corner station. Street and garage… https://www.meetup.com/boston-hackers/events/316815206/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/boston-hackers/events/316815206/
+END:VEVENT
+END:VCALENDAR

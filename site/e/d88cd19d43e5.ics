@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d88cd19d43e5@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261216T173000Z
+DTEND:20261216T183000Z
+SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

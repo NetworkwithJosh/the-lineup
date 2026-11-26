@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-25T22:46-05:00",
+ "generatedAt": "2026-11-26T13:18-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 281,
+ "count": 290,
  "changes": {
-  "new": 3,
+  "new": 15,
   "updated": 1,
-  "cancelled": 6
+  "cancelled": 4
  },
  "sources": [
   {
@@ -35,6 +35,16 @@
    "source": "Major security conferences (Smart Calendars)",
    "ok": true,
    "events": 0
+  },
+  {
+   "source": "InfoSec Conferences (all)",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "InfoSec Conferences (events)",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
   },
   {
    "source": "OWASP NYC",
@@ -404,7 +414,7 @@
   {
    "source": "Div0 Singapore",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "OWASP New Zealand",
@@ -633,8 +643,9 @@
   },
   {
    "source": "ARBSEC (Ann Arbor)",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
   },
   {
    "source": "MiSec Jackson",
@@ -673,13 +684,15 @@
   },
   {
    "source": "TriSecAI Low Country",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
   },
   {
    "source": "ColaSec (Columbia SC)",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
   },
   {
    "source": "CSA Alabama",
@@ -700,6 +713,125 @@
    "source": "Iowa InfoSec / SecDSM",
    "ok": true,
    "events": 4
+  },
+  {
+   "source": "Boston Hackers",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Boston Cybersecurity Meetup",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "CSA Boston",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Boston CyberSecurity (CSNP)",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Boston Business and Tech",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Seattle Data, AI & Security",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "WISPS (Women in InfoSec Puget Sound)",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "Cascade STEAM Cyber (Bellingham)",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Seattle Business and Technology",
+   "ok": true,
+   "events": 7
+  },
+  {
+   "source": "Veterans in Technology (Portland)",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Maryland Cyber Community",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "Hack The Box Baltimore",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "DMV AI and Cybersecurity",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "DC Cyber",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "NoVABeerSec",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "ISC2 Salt Lake City",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Cyber Security Grand Junction",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "Charlotte Cyber Tavern",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "Tampa Cybersecurity Network",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "DC862 (North Jersey)",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "NYC Cybersecurity Meetup",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
+  },
+  {
+   "source": "DC201 (DEF CON NJ)",
+   "ok": true,
+   "events": 0,
+   "note": "no upcoming events posted"
   },
   {
    "source": "Claude Community Events",
@@ -729,7 +861,7 @@
   {
    "source": "The AI Collective",
    "ok": true,
-   "events": 14
+   "events": 13
   },
   {
    "source": "NY AI Engineers",
@@ -899,187 +1031,6 @@
    "seq": 0
   },
   {
-   "id": "dd98ded891e8",
-   "title": "Beyond Prompts: Microsoft Copilot Agents & Cowork for Business Unlocked",
-   "start": "2026-11-25T12:00-05:00",
-   "end": "2026-11-25T14:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317144066/",
-   "about": "New Jersey Business and Tech Meetup AI is no longer limited to answering prompts. Microsoft Copilot agents and Cowork can help teams research information, analyze data, and handle tasks across different business…",
-   "source": "NJ Business and Tech",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 40.572,
-   "lng": -74.316,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-25T14:57-05:00"
-  },
-  {
-   "id": "4be49358649e",
-   "title": "De las ideas a la acción con Copilot: convierte una idea en un experimento",
-   "start": "2026-11-25T14:00-05:00",
-   "end": "2026-11-25T15:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "it"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/microsoft-reactor-new-york/events/316558001/",
-   "about": "Microsoft Reactor New York Generar ideas con inteligencia artificial es fácil. El verdadero reto es identificar cuáles tienen potencial y decidir qué hacer con ellas. En esta sesión práctica utilizaremos Microsoft…",
-   "source": "Microsoft Reactor New York",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 40.713,
-   "lng": -74.006,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-25T22:46-05:00"
-  },
-  {
-   "id": "52a05b24ff84",
-   "title": "Joint CTF [IN-PERSON]: OWASP London Chapter & Security Builders Club",
-   "start": "2026-11-25T18:00+00:00",
-   "end": "2026-11-25T21:00+00:00",
-   "allDay": false,
-   "tz": "Europe/London",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "London",
-   "country": "United Kingdom",
-   "metro": "London",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/owasp-london/events/317357985/",
-   "about": "OWASP London Chapter IMPORTANT: REGISTER on Eventbrite",
-   "source": "OWASP London",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 51.507,
-   "lng": -0.128,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-25T22:46-05:00"
-  },
-  {
-   "id": "7a216408101a",
-   "title": "BurbSec East - Sponsored by Glow Security",
-   "start": "2026-11-25T18:00-06:00",
-   "end": "2026-11-25T23:55-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Chicago",
-   "country": "United States",
-   "metro": "Chicago",
-   "state": "IL",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/burbsec/events/316679057/",
-   "about": "BurbSec Chicago: The Midwest's Favorite Cybersecurity Events THIS MONTH’S SPONSOR IS GLOW SECURITY 🚀🔐 Unlock the Excitement at Burbsec! 🍻🎉 Are you ready for a night of geeking out, making new friends, and expanding your…",
-   "source": "BurbSec (Chicago)",
-   "status": "listed",
-   "cancelReason": null,
-   "lat": 41.876,
-   "lng": -87.624,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "285bace3bc07",
-   "title": "CitrusSec Meetup",
-   "start": "2026-11-25T19:00-05:00",
-   "end": "2026-11-25T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Orlando",
-   "country": "United States",
-   "metro": "Orlando",
-   "state": "FL",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/centralflcitysec/events/317306770/",
-   "about": "Central Florida CitySec CitrusSec is a Central Florida CitySec group located in the Orlando area. CitrusSec's goal is to discuss topics of interest in a non-work, non-vendor setting; preferably while drinking.",
-   "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 28.542,
-   "lng": -81.379,
-   "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-25T22:46-05:00"
-  },
-  {
-   "id": "135b7a26b894",
-   "title": "Red Team Night",
-   "start": "2026-11-25T19:00-06:00",
-   "end": "2026-11-25T20:00-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Madison",
-   "country": "United States",
-   "metro": "Madison",
-   "state": "WI",
-   "format": "In person",
-   "cost": "Free",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/dc608madison/events/316673024/",
-   "about": "DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?…",
-   "source": "DCG Madison",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 43.075,
-   "lng": -89.384,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-25T22:46-05:00"
-  },
-  {
    "id": "d964ab467f2e",
    "title": "OWASP BeNeLux 2026",
    "start": "2026-11-26",
@@ -1128,10 +1079,11 @@
    "url": "https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/",
    "about": "This year’s Leadership Forum will bring together a select group of accomplished women and men from technology, cybersecurity, government, industry, and academia for a candid, forward-looking conversation on…",
    "source": "WiCyS events",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 2
+   "seq": 3,
+   "cancelledAt": "2026-11-26T13:18-05:00"
   },
   {
    "id": "e83786fae95f",
@@ -1184,12 +1136,13 @@
    "url": "https://luma.com/genai-collective",
    "about": "Address: Maria 01 Event Space, Building 1 (main building) Helsinki, Finland",
    "source": "The AI Collective",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 60.167,
    "lng": 24.944,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T13:18-05:00"
   },
   {
    "id": "ff456991a8e3",
@@ -1559,6 +1512,36 @@
    "lat": 48.137,
    "lng": 11.575,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "183c9dda9741",
+   "title": "The Future of IT: AI, Automation & Intelligent Networking | Free Webinar",
+   "start": "2026-11-30T09:00-08:00",
+   "end": "2026-11-30T10:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317360033/",
+   "about": "Seattle Business and Technology Meetup Group From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 Register for Free – Reserve Your Seat AI is changing how IT teams manage networks, troubleshoot…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
    "seq": 0
   },
   {
@@ -3028,6 +3011,64 @@
    "seq": 0
   },
   {
+   "id": "9754b1cec4c7",
+   "title": "Breaking Video Game Anti-Tamper",
+   "start": "2026-12-03T18:30-06:00",
+   "end": "2026-12-03T20:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Madison",
+   "country": "United States",
+   "metro": "Madison",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc608madison/events/317594667/",
+   "about": "DC608 Join us for our monthly meetup! This month's speaker is Truman Kilen with their talk Breaking Video Game Anti-Tamper. Modern video games are shipping with more and more protection layers, from DRM, to anti-tamper…",
+   "source": "DCG Madison",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.075,
+   "lng": -89.384,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
+   "id": "c3f211ecd544",
+   "title": "Boston Hackers - December Meetup",
+   "start": "2026-12-03T19:00-05:00",
+   "end": "2026-12-03T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "**",
+   "online": false,
+   "city": "Boston",
+   "country": "United States",
+   "metro": "Boston area",
+   "state": "MA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/boston-hackers/events/316815206/",
+   "about": "Boston Hackers Where: K logix headquarters @ 1319 Beacon St 1, Brookline, MA 02446 Learn more about us! Travel & Parking: Venue is Accessible from the T (green line) via the Coolidge Corner station. Street and garage…",
+   "source": "Boston Hackers",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 42.359,
+   "lng": -71.058,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "626dd9e82f04",
    "title": "Aikido Security Networking Happy Hour",
    "start": "2026-12-03T23:00+00:00",
@@ -3316,6 +3357,35 @@
    "seq": 0
   },
   {
+   "id": "4655c24fa947",
+   "title": "DC862 - Holiday Party 2026",
+   "start": "2026-12-04T19:00-05:00",
+   "end": "2026-12-04T23:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Clifton",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "$10",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/defcon862/events/317266306/",
+   "about": "DC862 🏴‍☠️ (DEF CON Group) ☠️ Happy Holidays from DC862! We look forward to seeing you at this fun-filled evening? 🎋 Hacker Jeopary hosted by OiScout 👚 Ugly sweater contest hosted by special guests: Digital Ascent 🎮…",
+   "source": "DC862 (North Jersey)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.858,
+   "lng": -74.164,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "5eca38956f5f",
    "title": "AICD Summit",
    "start": "2026-12-05",
@@ -3543,6 +3613,36 @@
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-17T22:08-05:00",
+   "seq": 0
+  },
+  {
+   "id": "4a8355fade1c",
+   "title": "Microsoft AI for Healthcare Masterclass",
+   "start": "2026-12-08T09:00-08:00",
+   "end": "2026-12-08T11:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317147654/",
+   "about": "Seattle Business and Technology Meetup Group AI is finding its way into more areas of healthcare, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
    "seq": 0
   },
   {
@@ -3835,6 +3935,36 @@
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
    "seq": 1
+  },
+  {
+   "id": "b5310f299210",
+   "title": "The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027",
+   "start": "2026-12-09T09:00-08:00",
+   "end": "2026-12-09T10:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/",
+   "about": "Seattle Business and Technology Meetup Group Building an AI-ready enterprise starts with building the right skills. As Gemini, Vertex AI, and AI agents reshape business operations, organizations need a workforce…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
   },
   {
    "id": "98737f561a9d",
@@ -4857,6 +4987,37 @@
    "seq": 0
   },
   {
+   "id": "f4ca16c6841e",
+   "title": "Securing AI Agents with Microsoft Security Copilot, Defender & Sentinel",
+   "start": "2026-12-15T09:00-08:00",
+   "end": "2026-12-15T11:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/",
+   "about": "Seattle Business and Technology Meetup Group As AI agents become part of the enterprise, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "title": "Microsoft workshop: Defender for Cloud posture management",
    "venue": "Microsoft NYC (confirm venue)",
    "format": "In person",
@@ -5205,6 +5366,36 @@
    "seq": 0
   },
   {
+   "id": "d88cd19d43e5",
+   "title": "From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap",
+   "start": "2026-12-16T09:30-08:00",
+   "end": "2026-12-16T10:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/",
+   "about": "Seattle Business and Technology Meetup Group Many enterprises have invested in Microsoft Copilot, but deployment alone does not guarantee productivity gains, workflow transformation, or measurable returns. The real…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "86321fbc6c3c",
    "title": "From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap",
    "start": "2026-12-16T12:00-05:00",
@@ -5433,6 +5624,35 @@
    "seq": 0
   },
   {
+   "id": "28b9c3f48653",
+   "title": "AWS Discovery Day: Engineering Modern Applications on AWS",
+   "start": "2026-12-17T09:00-08:00",
+   "end": "2026-12-17T11:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/",
+   "about": "Seattle Business and Technology Meetup Group AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures, resilient…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "fa87929cd955",
    "title": "AWS Discovery Day: Engineering Modern Applications on AWS",
    "start": "2026-12-17T12:00-05:00",
@@ -5518,6 +5738,36 @@
    "lat": 30.601,
    "lng": -85.676,
    "firstSeen": "2026-11-24T15:40-05:00",
+   "seq": 0
+  },
+  {
+   "id": "c32b55ed0be0",
+   "title": "Empower Decision Makers with Generative AI",
+   "start": "2026-12-18T07:00-08:00",
+   "end": "2026-12-18T15:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317551559/",
+   "about": "Seattle Business and Technology Meetup Group Discover how Generative AI can improve business decision-making, streamline operations, and drive innovation with this COMPLIMENTARY session. Explore Google's generative AI…",
+   "source": "Seattle Business and Technology",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T13:18-05:00",
    "seq": 0
   },
   {
@@ -5667,6 +5917,36 @@
    "seq": 0
   },
   {
+   "id": "581b34e02eaa",
+   "title": "{div0-AISQ} Workshop — the builders' Christmas special",
+   "start": "2026-12-22T18:30+08:00",
+   "end": "2026-12-22T21:30+08:00",
+   "allDay": false,
+   "tz": "Asia/Singapore",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Singapore",
+   "country": "Singapore",
+   "metro": "Singapore",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/div0_sg/events/317589998/",
+   "about": "Division Zero (Div0) – Singapore Cybersecurity Community How do you build an AI agent you can trust? Brought to you by Div0's AI Security Quarter (AISQ), together with C4AIL, Relw.AI and ARCS. Register via Luma (…",
+   "source": "Div0 Singapore",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 1.29,
+   "lng": 103.852,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "a8e42695f33d",
    "title": "CitrusSec Meetup",
    "start": "2026-12-23T19:00-05:00",
@@ -5693,6 +5973,35 @@
    "lat": 28.542,
    "lng": -81.379,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "45f58208a84a",
+   "title": "Burbsec Northwest - Sponsors Welcome!",
+   "start": "2026-12-24T18:00-06:00",
+   "end": "2026-12-24T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Chicago",
+   "country": "United States",
+   "metro": "Chicago",
+   "state": "IL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/burbsec/events/btbjbvyjcqbgc/",
+   "about": "BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 Unlock the Excitement at Burbsec Northwest! 🍻🎉 Are you ready for a night of geeking out, making new friends, and expanding your network in the world of…",
+   "source": "BurbSec (Chicago)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 41.876,
+   "lng": -87.624,
+   "firstSeen": "2026-11-26T13:18-05:00",
    "seq": 0
   },
   {
@@ -6587,6 +6896,35 @@
    "seq": 2
   },
   {
+   "id": "365058b97122",
+   "title": "Kodi Connect Cybersecurity (CISO) Leadership: Pittsburgh | Executive Networking Exchange",
+   "start": "2027-01-21T17:00+00:00",
+   "end": "2027-01-21T21:00+00:00",
+   "allDay": false,
+   "tz": "UTC",
+   "venue": "Pittsburgh",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-pittsburgh-executive-networking-exchange/",
+   "about": "WiCyS is partnering with Kodi Connect, which hosts exclusive, invite-only gatherings that unite senior cybersecurity leaders in a highly curated, collaborative setting. Through focused discussions and meaningful peer…",
+   "source": "WiCyS events",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
    "id": "7659a853e2b7",
    "title": "AI Builders Barcelona - Jan 21",
    "start": "2027-01-21T17:30+00:00",
@@ -6958,12 +7296,13 @@
    "url": "https://www.meetup.com/dc608madison/events/316673029/",
    "about": "DC608 Join us on our Discord as we team attack a Hack The Box or another capture the flag challenge. This is a free event where anyone can join in. Want to learn Penetration Testing skills or solve a tough Hack The Box?…",
    "source": "DCG Madison",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-25T22:46-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T13:18-05:00"
   },
   {
    "id": "823d782447e8",

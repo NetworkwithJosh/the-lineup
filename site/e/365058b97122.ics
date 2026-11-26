@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:365058b97122@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20270121T170000Z
+DTEND:20270121T210000Z
+SUMMARY:Kodi Connect Cybersecurity (CISO) Leadership: Pittsburgh | Executive Networking Exchange
+LOCATION:Pittsburgh\, Pittsburgh\, United States
+DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer… https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-pittsburgh-executive-networking-exchange/
+STATUS:CONFIRMED
+URL:https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-pittsburgh-executive-networking-exchange/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

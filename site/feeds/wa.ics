@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:183c9dda9741@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261130T170000Z
+DTEND:20261130T180000Z
+SUMMARY:The Future of IT: AI\, Automation & Intelligent Networking | Free Webinar
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group From CLI to AgenticOps: The Future of Network Engineering with Cisco AI 🔗 Register for Free – Reserve Your Seat AI is changing how IT teams manage networks\, troubleshoot… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317360033/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317360033/
+END:VEVENT
+BEGIN:VEVENT
+UID:4a8355fade1c@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261208T170000Z
+DTEND:20261208T190000Z
+SUMMARY:Microsoft AI for Healthcare Masterclass
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317147654/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317147654/
+END:VEVENT
+BEGIN:VEVENT
+UID:b5310f299210@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261209T170000Z
+DTEND:20261209T180000Z
+SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/
+END:VEVENT
+BEGIN:VEVENT
+UID:f4ca16c6841e@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261215T170000Z
+DTEND:20261215T190000Z
+SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/
+END:VEVENT
+BEGIN:VEVENT
+UID:d88cd19d43e5@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261216T173000Z
+DTEND:20261216T183000Z
+SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
+END:VEVENT
+BEGIN:VEVENT
+UID:28b9c3f48653@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261217T170000Z
+DTEND:20261217T190000Z
+SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
+END:VEVENT
+BEGIN:VEVENT
+UID:c32b55ed0be0@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261218T150000Z
+DTEND:20261218T230000Z
+SUMMARY:Empower Decision Makers with Generative AI
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group Discover how Generative AI can improve business decision-making\, streamline operations\, and drive innovation with this COMPLIMENTARY session. Explore Google's generative AI… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317551559/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317551559/
+END:VEVENT
+END:VCALENDAR

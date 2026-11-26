@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:28b9c3f48653@the-lineup
+DTSTAMP:20261126T181920Z
+SEQUENCE:0
+DTSTART:20261217T170000Z
+DTEND:20261217T190000Z
+SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Seattle Business and Technology Meetup Group AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
