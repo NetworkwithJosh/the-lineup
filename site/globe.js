@@ -89,9 +89,11 @@ if (hero && canvas && webglOK()) {
     $("#g-where").textContent = placeLabel;
 
     $("#g-chips").innerHTML = cities.slice(0, 8).map((c, i) =>
-      `<button type="button" class="g-chip" data-i="${i}">${esc(c.name)}<span>${c.n}</span></button>`).join("");
+      `<button type="button" class="g-chip" data-i="${i}">${esc(c.name)}<span>${c.n}</span></button>`).join("")
+      + (ev.detail.narrowed ? `<button type="button" class="g-chip g-chip--all" data-all="1">← All cities</button>` : "");
     $("#g-chips").onclick = (e) => {
       const b = e.target.closest(".g-chip"); if (!b) return;
+      if (b.dataset.all) { dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: ev.detail.country, region: "", metro: "" } })); return; }
       const c = cities[+b.dataset.i];
       [targetPhi, targetTheta] = toAngles(c.lat, c.lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
       dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" && c.states.size === 1 ? c.state : "", metro: Object.entries(c.metros).sort((a, b) => b[1] - a[1])[0][0] } }));
