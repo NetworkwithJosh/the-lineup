@@ -886,7 +886,7 @@ def main() -> int:
     print(f"{payload['count']} events ({stats}). Sources ok: {ok}/{len(report)}")
     for r in report:
         if not r.get("ok"):
-            print(f"  source failed: {r['source']}: {r['error']}", file=sys.stderr)
+            print(f"  source failed: {r['source']}: {r.get('error') or r.get('note', '')}", file=sys.stderr)
     return 0
 
 
