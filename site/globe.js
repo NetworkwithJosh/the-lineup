@@ -1,0 +1,119 @@
+// The Lineup globe: every in-person meetup in your current view, glowing on a spinning globe.
+// Drag to spin. Tap a city chip to fly there and filter the list. Follows every filter on the page.
+import createGlobe from "https://cdn.jsdelivr.net/npm/cobe@0.6.3/+esm";
+
+const hero = document.getElementById("hero");
+const canvas = document.getElementById("globe");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function webglOK() {
+  try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch (_) { return false; }
+}
+
+if (hero && canvas && webglOK()) {
+  hero.hidden = false;
+  const TAU = Math.PI * 2;
+  let markers = [], phi = -1.35, theta = 0.32, targetPhi = null, targetTheta = null;
+  let dragging = false, lastX = 0, lastY = 0, velocity = 0, width = 0, idleSince = 0;
+  const toAngles = (lat, lng) => [Math.PI - ((lng * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180];
+
+  const size = () => { width = canvas.offsetWidth; };
+  size(); addEventListener("resize", size);
+
+  const globe = createGlobe(canvas, {
+    devicePixelRatio: Math.min(2, devicePixelRatio || 1),
+    width: width * 2, height: width * 2,
+    phi, theta, dark: 1, diffuse: 1.25, mapSamples: 16000, mapBrightness: 5.5,
+    baseColor: [0.22, 0.25, 0.29], markerColor: [1, 0.71, 0.28], glowColor: [0.16, 0.18, 0.22],
+    markers: [], opacity: 0.92,
+    onRender: (s) => {
+      if (targetPhi !== null) {
+        let d = ((targetPhi - phi) % TAU + TAU * 1.5) % TAU - TAU / 2;  // shortest way round
+        phi += d * 0.08; theta += (targetTheta - theta) * 0.08;
+        if (Math.abs(d) < 0.002 && Math.abs(targetTheta - theta) < 0.002) targetPhi = null;
+      } else if (!dragging) {
+        phi += velocity; velocity *= 0.95;
+        if (!reduce && Date.now() - idleSince > 2500) phi += 0.0022;  // gentle spin when nobody's touching it
+      }
+      s.phi = phi; s.theta = theta; s.width = width * 2; s.height = width * 2; s.markers = markers;
+    },
+  });
+  requestAnimationFrame(() => canvas.classList.add("on"));
+
+  // drag to spin (mouse and touch)
+  canvas.addEventListener("pointerdown", (e) => { dragging = true; targetPhi = null; lastX = e.clientX; lastY = e.clientY; canvas.setPointerCapture(e.pointerId); });
+  canvas.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    const dx = e.clientX - lastX, dy = e.clientY - lastY; lastX = e.clientX; lastY = e.clientY;
+    velocity = dx / 220; phi += velocity; theta = Math.max(-0.6, Math.min(0.9, theta + dy / 300));
+  });
+  const end = () => { dragging = false; idleSince = Date.now(); };
+  canvas.addEventListener("pointerup", end); canvas.addEventListener("pointercancel", end);
+
+  const $ = (s) => hero.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  let first = true, nextTimer = 0;
+
+  function countUp(el, to) {
+    const from = +el.dataset.n || 0; el.dataset.n = to;
+    if (reduce || from === to) { el.textContent = to; return; }
+    const t0 = performance.now(), dur = first ? 1100 : 500;
+    const step = (t) => { const k = Math.min(1, (t - t0) / dur), v = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3))); el.textContent = v; if (k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  }
+  function fmtIn(ms) {
+    if (ms <= 0) return "happening now";
+    const m = Math.floor(ms / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60);
+    return d ? `in ${d}d ${h}h` : h ? `in ${h}h ${m % 60}m` : `in ${m}m`;
+  }
+
+  // the page tells us whenever the filters change
+  addEventListener("lineup:update", (ev) => {
+    const { events, placeLabel, focus } = ev.detail;
+    const live = events.filter((e) => !e.online && e.lat != null && e.status !== "cancelled");
+    const byCity = new Map();
+    for (const e of live) {
+      const k = (e.metro || e.city) + "|" + (e.state || e.country);
+      const c = byCity.get(k) || { name: e.metro || e.city, state: e.state, country: e.country, lat: e.lat, lng: e.lng, n: 0 };
+      c.n++; byCity.set(k, c);
+    }
+    const cities = [...byCity.values()].sort((a, b) => b.n - a.n);
+    markers = cities.map((c) => ({ location: [c.lat, c.lng], size: Math.min(0.11, 0.035 + Math.sqrt(c.n) * 0.016) }));
+
+    countUp($("#g-events"), events.filter((e) => e.status !== "cancelled").length);
+    countUp($("#g-cities"), cities.length);
+    $("#g-where").textContent = placeLabel;
+
+    $("#g-chips").innerHTML = cities.slice(0, 8).map((c, i) =>
+      `<button type="button" class="g-chip" data-i="${i}">${esc(c.name)}<span>${c.n}</span></button>`).join("");
+    $("#g-chips").onclick = (e) => {
+      const b = e.target.closest(".g-chip"); if (!b) return;
+      const c = cities[+b.dataset.i];
+      [targetPhi, targetTheta] = toAngles(c.lat, c.lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
+      dispatchEvent(new CustomEvent("lineup:pick", { detail: { country: c.country, region: c.country === "United States" ? c.state : "", metro: c.name } }));
+    };
+
+    // fly to whatever the filters point at (a state, a city, or near me)
+    if (focus && cities.length) {
+      const lat = cities.reduce((s, c) => s + c.lat * c.n, 0) / cities.reduce((s, c) => s + c.n, 0);
+      const lng = cities.reduce((s, c) => s + c.lng * c.n, 0) / cities.reduce((s, c) => s + c.n, 0);
+      [targetPhi, targetTheta] = toAngles(lat, lng); targetTheta = Math.max(-0.6, Math.min(0.9, targetTheta * 0.85));
+    } else if (first) {
+      [targetPhi, targetTheta] = toAngles(39, -82); targetTheta = 0.42;  // open on the US east coast
+    }
+
+    // live countdown to the next in-person event in view
+    clearInterval(nextTimer);
+    const next = live.filter((e) => new Date(e.end || e.start) > new Date()).sort((a, b) => new Date(a.start) - new Date(b.start))[0];
+    const tick = () => {
+      if (!next) { $("#g-next").textContent = "No in-person events in this view yet."; return; }
+      $("#g-next").innerHTML = `<i></i>Next up ${esc(fmtIn(new Date(next.start) - new Date()))}: <a href="${esc(next.page || "#")}">${esc(next.title)}</a> · ${esc(next.metro || next.city)}`;
+    };
+    tick(); nextTimer = setInterval(tick, 30000);
+    first = false;
+  });
+
+  // if the page loaded its events before this module, ask it to resend
+  dispatchEvent(new CustomEvent("lineup:globe-ready"));
+  addEventListener("pagehide", () => globe.destroy());
+}

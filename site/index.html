@@ -41,6 +41,34 @@
   }
   body { letter-spacing: 0.002em; line-height: 1.64; }
 
+
+  /* hero globe */
+  .hero { position: relative; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.05fr); align-items: center; gap: var(--sc-5);
+          margin: 0 0 var(--sc-6); padding: var(--sc-5) var(--sc-5) var(--sc-4); border: 1px solid var(--sc-hairline); border-radius: 14px; overflow: hidden;
+          background: radial-gradient(120% 90% at 85% 50%, #1a1f26 0%, var(--sc-canvas) 62%); }
+  .hero[hidden] { display: none; }
+  .hero__kick { font: 500 .72rem/1 var(--sc-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--sc-accent); display: flex; align-items: center; gap: 8px; margin: 0 0 14px; }
+  .hero__kick i, .g-next i { width: 7px; height: 7px; border-radius: 50%; background: var(--sc-accent); box-shadow: 0 0 0 0 rgba(255,181,71,.6); animation: ping 1.8s infinite; display: inline-block; }
+  @keyframes ping { 70% { box-shadow: 0 0 0 9px rgba(255,181,71,0); } 100% { box-shadow: 0 0 0 0 rgba(255,181,71,0); } }
+  .hero__stats { display: flex; gap: var(--sc-5); margin: 0 0 6px; }
+  .hero__stats b { display: block; font: 600 clamp(2.2rem, 5vw, 3.4rem)/1 var(--sc-font-display); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+  .hero__stats span { font: 500 .72rem var(--sc-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-dim); }
+  .hero__where { color: var(--sc-ink-soft); font-size: .92rem; margin: 8px 0 16px; }
+  .g-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+  .g-chip { font: 500 .8rem var(--sc-font-text); color: var(--sc-ink); background: color-mix(in oklab, var(--sc-ink) 6%, transparent); border: 1px solid var(--sc-hairline);
+            border-radius: 999px; padding: 6px 10px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; transition: border-color .15s, transform .15s; }
+  .g-chip span { font-family: var(--sc-font-mono); color: var(--sc-accent); font-size: .74rem; }
+  .g-chip:hover { border-color: var(--sc-accent); transform: translateY(-1px); }
+  .g-next { font-size: .85rem; color: var(--sc-ink-soft); display: flex; gap: 8px; align-items: baseline; margin: 0; }
+  .g-next a { color: var(--sc-ink); }
+  .hero__globe { position: relative; aspect-ratio: 1; width: 100%; max-width: 420px; justify-self: end; touch-action: pan-y; }
+  #globe { width: 100%; height: 100%; cursor: grab; opacity: 0; transition: opacity 1.2s ease; contain: layout paint size; }
+  #globe.on { opacity: 1; } #globe:active { cursor: grabbing; }
+  .hero__hint { position: absolute; bottom: 4px; right: 8px; font: 500 .66rem var(--sc-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-dim); pointer-events: none; }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; padding: var(--sc-4); }
+    .hero__globe { order: -1; max-width: 300px; justify-self: center; margin: -10px 0 -24px; }
+  }
   /* app chrome: the status bar is the nav */
   .bar {
     position: sticky; top: 0; z-index: 60;
@@ -217,6 +245,7 @@
 </style>
 <script src="/a.js" defer></script>
 <script src="/acct.js?v=3" defer></script>
+<script type="module" src="/globe.js?v=1"></script>
 </head>
 <body>
 <header class="bar">
@@ -313,6 +342,16 @@
   </aside>
 
   <main class="board" id="board">
+    <section class="hero" id="hero" hidden aria-label="Live map of meetups">
+      <div>
+        <p class="hero__kick"><i></i>Live lineup</p>
+        <div class="hero__stats"><div><b id="g-events">0</b><span>meetups</span></div><div><b id="g-cities">0</b><span>cities</span></div></div>
+        <p class="hero__where">in view: <span id="g-where">worldwide</span></p>
+        <div class="g-chips" id="g-chips"></div>
+        <p class="g-next" id="g-next"></p>
+      </div>
+      <div class="hero__globe"><canvas id="globe" aria-label="Globe showing where meetups are; drag to spin"></canvas><span class="hero__hint">drag to spin</span></div>
+    </section>
     <div class="board__head">
       <div class="board__row"><h2 id="board-h">Coming up</h2><button class="btn btn--ghost" type="button" id="share">Share this view</button></div>
       <p class="sc-body" id="board-sub"></p>
@@ -587,7 +626,20 @@
   }
 
   function paintKnob(el) { el.style.setProperty("--fill", ((el.value - el.min) / (el.max - el.min) * 100) + "%"); }
-  function update(animate) { render(animate); verdict(); changesStrip(); syncUrl(); feedScope(); }
+  let lastFocusKey = null;
+  function tellGlobe() {
+    const key = [state.country, state.region, state.metro, NEAR ? "near" : ""].join("|");
+    const focus = key !== lastFocusKey && lastFocusKey !== null && (state.country || state.region || state.metro || NEAR);
+    lastFocusKey = key;
+    const evs = visible().map(e => ({ ...e, page: "/event/" + eventSlug(e) + "/" }));
+    dispatchEvent(new CustomEvent("lineup:update", { detail: { events: evs, placeLabel: placeLabel(), focus } }));
+  }
+  addEventListener("lineup:globe-ready", () => { if (EVENTS.length) tellGlobe(); });
+  addEventListener("lineup:pick", (ev) => {
+    const d = ev.detail; state.country = d.country; state.region = d.region || ""; state.metro = d.metro || "";
+    fillPickers(); save(); update(true);
+  });
+  function update(animate) { render(animate); verdict(); changesStrip(); syncUrl(); feedScope(); tellGlobe(); }
 
   // ---------- shareable links: the address bar always describes what you're looking at
   const URL_KEYS = { country: "country", region: "state", metro: "city", topic: "topic", when: "when", q: "q" };
