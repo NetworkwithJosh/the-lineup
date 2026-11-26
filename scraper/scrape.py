@@ -560,6 +560,10 @@ def pull_ics_sources(sources: dict, start: date, end: date, report: list) -> lis
         results = list(pool.map(grab, jobs))
     out = []
     for (src, url, name), (evs, err) in zip(jobs, results):
+        if evs is None and "meetup.com" in (url or "") and "404" in str(err):
+            # Meetup answers 404 for a group's calendar when it has nothing posted yet. Not broken: keep following it.
+            report.append({"source": name, "ok": True, "events": 0, "note": "no upcoming events posted"})
+            continue
         if evs is None:  # one dead feed never breaks the run
             report.append({"source": name, "ok": False, "error": str(err)[:140]})
             continue

@@ -34,6 +34,24 @@
         "cyber"
       ],
       "skip_titles": "call for|cfp|deadline|submission"
+    },
+    {
+      "name": "InfoSec Conferences (all)",
+      "url": "https://infosec-conferences.com/?ical=1",
+      "page": "https://infosec-conferences.com/",
+      "tags": [
+        "cyber"
+      ],
+      "skip_titles": "webinar|on-demand|virtual summit"
+    },
+    {
+      "name": "InfoSec Conferences (events)",
+      "url": "https://infosec-conferences.com/events/?ical=1",
+      "page": "https://infosec-conferences.com/",
+      "tags": [
+        "cyber"
+      ],
+      "skip_titles": "webinar|on-demand|virtual summit"
     }
   ],
   "confs_tech": {
@@ -1147,6 +1165,189 @@
         "cyber"
       ],
       "home": "West Des Moines, IA"
+    },
+    {
+      "slug": "boston-hackers",
+      "name": "Boston Hackers",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Brookline, MA"
+    },
+    {
+      "slug": "Boston-Cybersecurity-Meetup",
+      "name": "Boston Cybersecurity Meetup",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Boston, MA"
+    },
+    {
+      "slug": "cloud-security-alliance-csa-boston",
+      "name": "CSA Boston",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Boston, MA"
+    },
+    {
+      "slug": "bostonsecurity",
+      "name": "Boston CyberSecurity (CSNP)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Boston, MA"
+    },
+    {
+      "slug": "boston-business-and-tech-meetup",
+      "name": "Boston Business and Tech",
+      "tags": [
+        "it"
+      ],
+      "home": "Boston, MA",
+      "require_keywords": true
+    },
+    {
+      "slug": "seattledataaiandsecurity",
+      "name": "Seattle Data, AI & Security",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Seattle, WA"
+    },
+    {
+      "slug": "wisps-women-in-info-security-puget-sound",
+      "name": "WISPS (Women in InfoSec Puget Sound)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Seattle, WA"
+    },
+    {
+      "slug": "cascadesteam",
+      "name": "Cascade STEAM Cyber (Bellingham)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Bellingham, WA",
+      "require_keywords": true
+    },
+    {
+      "slug": "seattle-business-and-technology-meetup-group",
+      "name": "Seattle Business and Technology",
+      "tags": [
+        "it"
+      ],
+      "home": "Seattle, WA",
+      "require_keywords": true
+    },
+    {
+      "slug": "veterans-in-technology",
+      "name": "Veterans in Technology (Portland)",
+      "tags": [
+        "cyber",
+        "it"
+      ],
+      "home": "Portland, OR",
+      "require_keywords": true
+    },
+    {
+      "slug": "MDcybercommunity",
+      "name": "Maryland Cyber Community",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Columbia, MD"
+    },
+    {
+      "slug": "hack-the-box-meetup-baltimore-md-usa",
+      "name": "Hack The Box Baltimore",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Baltimore, MD"
+    },
+    {
+      "slug": "wust-edu",
+      "name": "DMV AI and Cybersecurity",
+      "tags": [
+        "cyber",
+        "ai"
+      ],
+      "home": "Washington, DC"
+    },
+    {
+      "slug": "DC-Cyber",
+      "name": "DC Cyber",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Washington, DC"
+    },
+    {
+      "slug": "NoVABeerSec",
+      "name": "NoVABeerSec",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Vienna, VA"
+    },
+    {
+      "slug": "isc2-salt-lake-city-chapter",
+      "name": "ISC2 Salt Lake City",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Salt Lake City, UT"
+    },
+    {
+      "slug": "cyber-security-grand-junction",
+      "name": "Cyber Security Grand Junction",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Grand Junction, CO"
+    },
+    {
+      "slug": "charlotte-cyber-tavern",
+      "name": "Charlotte Cyber Tavern",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Charlotte, NC"
+    },
+    {
+      "slug": "tampa-threat-analysis-meetup-group",
+      "name": "Tampa Cybersecurity Network",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Tampa, FL"
+    },
+    {
+      "slug": "defcon862",
+      "name": "DC862 (North Jersey)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Clifton, NJ"
+    },
+    {
+      "slug": "nyc-cybersecurity-meetup-group",
+      "name": "NYC Cybersecurity Meetup",
+      "tags": [
+        "cyber"
+      ],
+      "home": "New York, NY"
+    },
+    {
+      "slug": "DEFCON201",
+      "name": "DC201 (DEF CON NJ)",
+      "tags": [
+        "cyber"
+      ],
+      "home": "Jersey City, NJ"
     }
   ],
   "luma_calendars": [
