@@ -1,9 +1,366 @@
 {
   "_note": "Standing meetups that repeat on a rule. nth = which weekday of the month (1-5). Dates are expanded every run. Always confirm with the organizer.",
   "rules": [
-    {"title": "NYSEC", "nth": 3, "weekday": "TU", "start": "18:00", "end": "21:00", "venue": "d.b.a., 41 1st Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://sockpuppet.org/nysec", "about": "Informal infosec drinks meetup. No dues, no talks."},
-    {"title": "Brooklyn NYSEC", "nth": 5, "weekday": "TU", "start": "18:00", "end": "21:00", "venue": "Someday Bar, 364 Atlantic Ave", "city": "Brooklyn, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://securitycalendar.com/jersey-city-nj.html", "about": "The Brooklyn edition of NYSEC, only on fifth Tuesdays."},
-    {"title": "NYC2600", "nth": 1, "weekday": "FR", "start": "17:00", "end": "19:00", "venue": "Citigroup Center food court, 601 Lexington Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["cyber"], "kind": "Meetup", "url": "https://www.2600.com/meetings", "about": "Long-running hacker meetup. Not posted every month, so check before going."},
-    {"title": "Microsoft Reactor: MVP Feature Series", "nth": 1, "weekday": "TU", "start": "18:00", "end": "20:30", "venue": "Microsoft, 11 Times Square, 640 8th Ave", "city": "Manhattan, NY", "region": "local", "format": "In person", "cost": "Free", "tags": ["ai", "cyber"], "kind": "Meetup", "url": "https://developer.microsoft.com/en-us/reactor/series/S-1470", "about": "Two talks by Microsoft MVPs and an hour of networking. Register each month."}
+    {
+      "title": "NYSEC",
+      "nth": 3,
+      "weekday": "TU",
+      "start": "18:00",
+      "end": "21:00",
+      "venue": "d.b.a., 41 1st Ave",
+      "city": "Manhattan, NY",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://sockpuppet.org/nysec",
+      "about": "Informal infosec drinks meetup. No dues, no talks."
+    },
+    {
+      "title": "Brooklyn NYSEC",
+      "nth": 5,
+      "weekday": "TU",
+      "start": "18:00",
+      "end": "21:00",
+      "venue": "Someday Bar, 364 Atlantic Ave",
+      "city": "Brooklyn, NY",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://securitycalendar.com/jersey-city-nj.html",
+      "about": "The Brooklyn edition of NYSEC, only on fifth Tuesdays."
+    },
+    {
+      "title": "NYC2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Citigroup Center food court, 601 Lexington Ave",
+      "city": "Manhattan, NY",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://www.2600.com/meetings",
+      "about": "Long-running hacker meetup. Not posted every month, so check before going."
+    },
+    {
+      "title": "Microsoft Reactor: MVP Feature Series",
+      "nth": 1,
+      "weekday": "TU",
+      "start": "18:00",
+      "end": "20:30",
+      "venue": "Microsoft, 11 Times Square, 640 8th Ave",
+      "city": "Manhattan, NY",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "ai",
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://developer.microsoft.com/en-us/reactor/series/S-1470",
+      "about": "Two talks by Microsoft MVPs and an hour of networking. Register each month."
+    },
+    {
+      "title": "Fort Smith 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "19:00",
+      "end": "21:00",
+      "venue": "Fab Lab Fort Smith, 805 N Greenwood Ave",
+      "city": "Fort Smith, AR",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Cheshire 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "18:00",
+      "end": "20:00",
+      "venue": "Counter Weight Brewing Company, 7 Diana Ct",
+      "city": "Cheshire, CT",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Boise 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "BSU Student Union building, upstairs from the main entrance",
+      "city": "Boise, ID",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "South Bend 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Cloud Walking Cafe",
+      "city": "South Bend, IN",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "New Orleans 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Z'otz Cafe, 8210 Oak St",
+      "city": "New Orleans, LA",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Bangor 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Bangor Makerspace, 34 Freedom Pkwy",
+      "city": "Hermon, ME",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Lansing 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "18:00",
+      "end": "20:00",
+      "venue": "Meridian Mall food court",
+      "city": "Lansing, MI",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "St. Louis 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Arch Reactor Hackerspace, 2215 Scott Ave",
+      "city": "St. Louis, MO",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Bozeman 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "Barnes & Noble cafe, 2825 W Main St",
+      "city": "Bozeman, MT",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Missoula 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:30",
+      "end": "19:30",
+      "venue": "Barnes & Noble cafe",
+      "city": "Missoula, MT",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Peterborough 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "19:00",
+      "end": "21:00",
+      "venue": "Mi Jalisco, 19 Wilton Rd",
+      "city": "Peterborough, NH",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Raleigh 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "19:00",
+      "end": "21:00",
+      "venue": "Transfer Co Food Hall, 500 E Davie St",
+      "city": "Raleigh, NC",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Oklahoma City 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "18:00",
+      "end": "20:00",
+      "venue": "Big Truck Tacos, 530 NW 23rd St",
+      "city": "Oklahoma City, OK",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Salt Lake City 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "18:00",
+      "end": "20:00",
+      "venue": "801labs Hackerspace, 353 E 200 S, Ste B",
+      "city": "Salt Lake City, UT",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Burlington-area 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "18:00",
+      "end": "20:00",
+      "venue": "Old Town Cafe & Comics, 31 Cottonwood Dr, Suite 106",
+      "city": "Williston, VT",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    },
+    {
+      "title": "Charleston WV 2600",
+      "nth": 1,
+      "weekday": "FR",
+      "start": "17:00",
+      "end": "19:00",
+      "venue": "KDE Technology, 111 Hale St",
+      "city": "Charleston, WV",
+      "region": "local",
+      "format": "In person",
+      "cost": "Free",
+      "tags": [
+        "cyber"
+      ],
+      "kind": "Meetup",
+      "url": "https://2600.com/meetings/mtg.html",
+      "about": "Monthly 2600 hacker meetup, first Friday, open to anyone. Listed on 2600.com; meetings can lapse, so check before going."
+    }
   ]
 }

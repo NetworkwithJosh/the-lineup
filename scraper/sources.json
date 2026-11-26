@@ -43,15 +43,6 @@
         "cyber"
       ],
       "skip_titles": "webinar|on-demand|virtual summit"
-    },
-    {
-      "name": "InfoSec Conferences (events)",
-      "url": "https://infosec-conferences.com/events/?ical=1",
-      "page": "https://infosec-conferences.com/",
-      "tags": [
-        "cyber"
-      ],
-      "skip_titles": "webinar|on-demand|virtual summit"
     }
   ],
   "confs_tech": {
