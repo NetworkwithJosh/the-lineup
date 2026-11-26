@@ -24,6 +24,7 @@ import re
 import sys
 import time as _time
 from concurrent.futures import ThreadPoolExecutor
+import urllib.parse
 import urllib.request
 from collections import Counter
 from datetime import date, datetime, time, timedelta, timezone
@@ -542,7 +543,8 @@ def pull_ics_sources(sources: dict, start: date, end: date, report: list) -> lis
     for u in sources.get("ics_urls", []):
         jobs.append((u, u["url"], u["name"]))
     for g in sources.get("meetup_groups", []):
-        jobs.append(({**g, "page": f"https://www.meetup.com/{g['slug']}/events/"}, f"https://www.meetup.com/{g['slug']}/events/ical/", g["name"]))
+        sl = urllib.parse.quote(g["slug"], safe="-_")
+        jobs.append(({**g, "page": f"https://www.meetup.com/{sl}/events/"}, f"https://www.meetup.com/{sl}/events/ical/", g["name"]))
     for c in sources.get("luma_calendars", []):
         jobs.append(({**c, "page": f"https://luma.com/{c['slug']}"}, None, c["name"]))
     def grab(job):
@@ -798,6 +800,12 @@ def main() -> int:
     now = datetime.fromisoformat(args.now).astimezone(NY) if args.now else datetime.now(NY)
     start, end = now.date(), now.date() + timedelta(days=args.days)
     sources = json.loads((CFG / "sources.json").read_text())
+    disc = CFG / "discovered.json"  # groups found automatically by discover.py (weekly); hand-picked ones win
+    if disc.exists():
+        mine = {g["slug"].lower() for g in sources["meetup_groups"]}
+        d = json.loads(disc.read_text())
+        blocked = {b.lower() for b in d.get("blocked", [])}
+        sources["meetup_groups"] += [g for g in d.get("groups", []) if g["slug"].lower() not in mine | blocked]
     rules = json.loads((CFG / "recurring.json").read_text())["rules"]
     prev = json.loads(OUT_JSON.read_text()) if OUT_JSON.exists() else None
     report: list = []
@@ -832,6 +840,12 @@ def main() -> int:
     if args.offline and prev:  # offline test runs must not cancel feed events
         failed |= {e["source"] for e in prev.get("events", [])} - {"Checked by hand", "Standing meetup", "Fixture feed"}
     events = dedupe(events)
+    if not args.offline:
+        import enrich  # full / waitlist status and real online flag from each Meetup event page
+        try:
+            enrich.attach(events, (prev or {}).get("events"), now)
+        except Exception as exc:
+            print("enrich skipped:", exc)
     import geo  # coordinates for "Near me", one cached lookup per city
     geo.attach(events, offline=args.offline)
     events, baseline, stats = track_changes(events, prev, failed, now)
@@ -858,7 +872,7 @@ def main() -> int:
     import pages  # per-state pages and feeds
     state_urls = pages.build(events, STATE_NAMES, write_ics, datetime.now(UTC), ROOT / "site")
     event_urls = pages.build_events(events, STATE_NAMES, datetime.now(UTC), ROOT / "site")
-    urls = ["https://thelineup.dev/", "https://thelineup.dev/submit/"] + state_urls + event_urls
+    urls = ["https://thelineup.dev/", "https://thelineup.dev/submit/", "https://thelineup.dev/organizers/"] + state_urls + event_urls
     (ROOT / "site" / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{now.date().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls)

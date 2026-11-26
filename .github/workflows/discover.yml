@@ -1,0 +1,36 @@
+name: Find new groups
+
+on:
+  schedule:
+    - cron: "37 9 * * 0"   # Sundays, early morning New York time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Search Meetup in every state for cyber groups we don't track yet
+        run: python scraper/discover.py
+      - name: Save what it found
+        run: |
+          git config user.name "lineup-bot"
+          git config user.email "lineup-bot@users.noreply.github.com"
+          git add scraper/discovered.json
+          git diff --cached --quiet || git commit -m "Found new groups"
+          git pull --rebase origin main && git push
+      - name: Email the weekly coverage check
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          REPORT_TO: ${{ vars.REPORT_TO }}
+        run: python scraper/coverage.py

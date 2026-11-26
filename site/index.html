@@ -181,6 +181,7 @@
   .ev__title a { text-decoration: none; }
   .ev__title a:hover { text-decoration: underline; }
   .ev__meta { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); margin: 3px 0 0; line-height: 1.5; }
+  .cap { color: var(--sc-accent); font-weight: 600; } .cap--full { color: #ff7a6b; }
   .ev__meta span + span::before { content: "·"; margin: 0 0.45em; color: var(--ink-dim); }
   .ev__about { font-size: var(--sc-t-sm); color: var(--sc-ink-soft); margin: var(--sc-2) 0 0; max-width: 64ch; line-height: 1.55; }
   .ev__reach { margin-top: var(--sc-2); font-family: var(--sc-font-mono); font-size: 0.76rem; letter-spacing: 0.01em; display: flex; align-items: center; gap: 0.5em; }
@@ -421,6 +422,7 @@
       </div>
       <p class="colophon">The Lineup lists events other people organize. It does not run or sell tickets to any of them. Dates and venues change, so check the organizer's page before you go. Items marked "confirm" come from listings that disagree or from a standing schedule.</p>
       <p class="sources" id="sources"></p>
+      <p class="sources">Run a cyber, AI or IT meetup? <a href="/organizers/">Get it listed free</a>. Something wrong with a listing? Each event page has a report link.</p>
     </section>
   </main>
 </div>
@@ -567,7 +569,10 @@
         const w = when(e), r = reach(e), ch = changeOf(e);
         const where = e.online ? ["Online"] : [e.venue !== e.city ? e.venue : "", e.city + (e.state && !(isUS() && state.region) ? ", " + e.state : ""), e.country !== "United States" || !state.country ? e.country : ""];
         const mi = NEAR && !e.online ? milesTo(e) : Infinity;
-        const meta = [...where, mi < Infinity ? (mi < 1 ? "under 1 mi" : `${Math.round(mi)} mi away`) : "", e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("");
+        const meta = [...where, mi < Infinity ? (mi < 1 ? "under 1 mi" : `${Math.round(mi)} mi away`) : "", e.cost, e.kind].filter(x => x && x !== "Unknown" && x !== "Location on listing").filter((x, i, a) => a.indexOf(x) === i).map(x => `<span>${esc(x)}</span>`).join("")
+          + (e.rsvp && !isCx(e) ? (e.rsvp.full ? `<span class="cap cap--full">Full · waitlist</span>`
+            : e.rsvp.max && e.rsvp.going / e.rsvp.max >= 0.8 ? `<span class="cap">Almost full · ${e.rsvp.going}/${e.rsvp.max}</span>`
+            : e.rsvp.going >= 5 ? `<span>${e.rsvp.going} RSVP'd</span>` : "") : "");
         const flag = ch === "new" ? `<span class="flag flag--new">New</span>` : ch === "updated" ? `<span class="flag flag--upd">Updated</span>` : ch === "cancelled" ? `<span class="flag flag--cx">Cancelled</span>` : "";
         const confirm = !ch && (e.status === "verify" || e.status === "recurring") ? ` <span class="ev__day">(confirm)</span>` : "";
         html += `<article class="ev${r.k === "off" && !isCx(e) ? " is-off" : ""}${isCx(e) ? " is-cx" : ""}${animate ? " is-new" : ""}">

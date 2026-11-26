@@ -144,12 +144,16 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 f'<p class="lede">{esc(place or "Location on listing")}'
                 f'{" · " + esc(x["cost"]) if x.get("cost") and x["cost"] != "Check listing" else ""}</p>'
                 + (f'<p class="lede">{esc(x["about"])}</p>' if x.get("about") else "")
+                + ((f'<p class="lede" style="color:#ff7a6b;font-weight:600">Full on the organizer\'s page. Join the waitlist there.</p>'
+                    if x["rsvp"]["full"] else f'<p class="lede" style="color:#ffb547">Almost full: {x["rsvp"]["going"]} of {x["rsvp"]["max"]} spots taken.</p>'
+                    if x["rsvp"]["max"] and x["rsvp"]["going"] / x["rsvp"]["max"] >= 0.8 else "") if x.get("rsvp") else "")
                 + '<div class="cta">'
                 + (f'<a class="btn btn--solid" href="{esc(x["url"])}" rel="noopener">Details and RSVP</a>' if x.get("url") else "")
                 + f'<a class="btn" href="/e/{x["id"]}.ics">Add to calendar</a>{back}<a class="btn" href="/">All events</a></div>'
                 + (f'<div id="going" data-event="{esc(x["id"])}" data-start="{esc(x["start"])}" data-state="{esc(st or "")}"></div>'
                    if not x.get("online") and st else "")
                 + f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>'
+                + FLAG.replace("__ID__", esc(x["id"]))
                 + '<script src="/acct.js?v=7" defer></script>')
         (out / sl).mkdir(parents=True, exist_ok=True)
         img = ""
@@ -161,6 +165,22 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
     build_static(site)
     return urls
 
+
+SB_URL, SB_KEY = "https://pwthxugduzlcceedxqwk.supabase.co", "sb_publishable_Xx5NcuHzeKpRc_D9l8eSOQ_t_sGck7r"
+FLAG = ("""<details class="flag" style="margin:26px 0 0;color:var(--soft);font-size:.9rem"><summary style="cursor:pointer">Something wrong with this listing?</summary>
+<form id="flag" style="margin-top:10px;display:grid;gap:8px;max-width:420px">
+<select name="reason" required style="padding:.5rem;border-radius:8px;background:var(--card);color:var(--ink);border:1px solid var(--line)">
+<option value="">What's wrong?</option><option value="cancelled">It's cancelled</option><option value="online">It's online, not in person</option>
+<option value="wrong_place">Wrong city or venue</option><option value="wrong_time">Wrong date or time</option><option value="full">It's full</option>
+<option value="not_cyber">Not a cyber, AI or IT event</option><option value="duplicate">Listed twice</option><option value="other">Something else</option></select>
+<input name="note" maxlength="300" placeholder="Details (optional)" style="padding:.5rem;border-radius:8px;background:var(--card);color:var(--ink);border:1px solid var(--line)">
+<button class="btn" type="submit" style="justify-self:start;cursor:pointer;background:transparent;color:var(--ink)">Send</button><span id="flag-msg"></span></form></details>
+<script>document.getElementById("flag").onsubmit=function(ev){ev.preventDefault();var f=ev.target,m=document.getElementById("flag-msg");
+if(!f.reason.value){m.textContent="Pick what's wrong.";return}f.querySelector("button").disabled=true;
+fetch("SBURL/rest/v1/event_flags",{method:"POST",headers:{"apikey":"SBKEY","Content-Type":"application/json","Prefer":"return=minimal"},
+body:JSON.stringify({event_id:"__ID__",reason:f.reason.value,note:f.note.value.trim()||null})}).then(function(r){
+m.textContent=r.ok?"Thanks, we'll check it.":"Couldn't send that, try again later.";if(r.ok)f.reset();f.querySelector("button").disabled=false})};</script>"""
+        .replace("SBURL", SB_URL).replace("SBKEY", SB_KEY))
 
 PRIVACY = """<h1>Privacy</h1><p class="lede">Plain-English version. Last updated November 26, 2026.</p>
 <h2>What we collect</h2><p>Browsing The Lineup needs no account. If you make one, we store your email, first and last name, role, experience level, optional company, which events you mark as going, and your connect requests, blocks and reports. We use privacy-friendly analytics (no ad cookies). If you use "Near me", your location stays in your browser and is never sent to us.</p>
@@ -180,6 +200,21 @@ TERMS = """<h1>Terms</h1><p class="lede">Last updated November 26, 2026.</p>
 <h2>Changes</h2><p>We may update these terms; the date above will change when we do.</p>"""
 
 
+ORGANIZERS = """<h1>Run a cyber, AI or IT meetup? Get it in front of more people.</h1>
+<p class="lede">The Lineup is a free map of cybersecurity, AI and IT meetups. Listing your group costs nothing and takes about a minute.</p>
+<h2>What your group gets</h2>
+<p>Your events show up on your state's page, on the live map, and in the Monday email people get for their state. Attendees can mark that they're going and connect with each other before the event, so newcomers walk in already knowing someone. Every event gets its own page and a share image that looks like an invite on LinkedIn.</p>
+<h2>How to get listed</h2>
+<p><b>On Meetup or Luma?</b> Send us your group link and we follow your calendar automatically, twice a day. New events, changes and cancellations update on their own. Nothing to keep in sync.</p>
+<p><b>Somewhere else?</b> Submit a recurring meetup or a single event and we'll add it after a quick check.</p>
+<div class="cta"><a class="btn btn--solid" href="/submit/">Add your group</a><a class="btn" href="/">See the map</a></div>
+<h2>Our rules</h2>
+<p>We only list events that are open to the public and actually about cyber, AI or IT. We link straight to your page for RSVPs, we don't sell tickets, and we never copy your attendee list. If something about your listing is wrong, use the "Something wrong with this listing?" link on its page and we'll fix it.</p>
+<h2>Show it off (optional)</h2>
+<p>Paste this on your group page or site:</p>
+<pre style="white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:.85rem">Find us and other local cyber meetups on The Lineup: https://thelineup.dev</pre>"""
+
+
 def build_static(site: Path) -> None:
     for path, title, desc, body in [
         ("account", "Your account | The Lineup", "Sign in to mark events you're going to and connect with others going.",
@@ -188,6 +223,7 @@ def build_static(site: Path) -> None:
         ("unsubscribe", "Unsubscribe | The Lineup", "Stop emails from The Lineup.",
          '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=7" defer></script>'
          '<p class="meta"><a href="/account/">Account</a> · <a href="/">All events</a></p>'),
+        ("organizers", "List your meetup free | The Lineup", "Run a cybersecurity, AI or IT meetup? Get it on The Lineup's map, state pages and Monday email, free.", ORGANIZERS),
         ("privacy", "Privacy | The Lineup", "What The Lineup collects and who can see it.", PRIVACY),
         ("terms", "Terms | The Lineup", "Rules for using The Lineup.", TERMS)]:
         (site / path).mkdir(parents=True, exist_ok=True)
