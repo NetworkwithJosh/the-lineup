@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 TheLineupBot/1.0 (+https://thelineup.dev)"
 STRICT = re.compile(r"\b(cyber\s?security|cyber|infosec|information security|security summit|security conference|hack(ers?|ing|athon)?|owasp|bsides|ctf|isc2|isaca|issa|soc analyst|pen ?test\w*|red team|blue team|zero trust|devsecops|osint)\b", re.I)
-NOISE = re.compile(r"cyber ?monday|blockchain|crypto(currency)?|real estate|life ?hack|growth ?hack|travel ?hack|kids?|teen|summer camp", re.I)
+NOISE = re.compile(r"cyber ?monday|blockchain|crypto(currency)?|real estate|life ?hack|growth ?hack|travel ?hack|kids?|teens?|youth|summer camp|zoom|webinar|virtual|online|exhibition|get certified|bootcamp|course|class\b", re.I)
 
 
 def _slug(city):
