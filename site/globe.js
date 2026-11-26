@@ -120,7 +120,7 @@ if (hero && canvas && webglOK()) {
     tip.hidden = false;
     const w = canvas.offsetWidth;
     tip.style.left = Math.min(Math.max(p.x, 100), w - 100) + "px"; tip.style.top = p.y + "px";
-    tip.classList.toggle("g-tip--below", p.y < 130);
+    tip.classList.toggle("g-tip--below", p.y < 175);
   }
   let downAt = null;
   canvas.addEventListener("pointerdown", (e) => { downAt = { x: e.clientX, y: e.clientY }; });

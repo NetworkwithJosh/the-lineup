@@ -65,8 +65,9 @@ def send(to, subject, body_html, text, unsub_url):
         return False
 
 
-def shell(title, inner, unsub_url, why):
-    return f"""<!doctype html><html><body style="margin:0;background:#0b0d10;padding:24px 12px;font-family:-apple-system,Segoe UI,Roboto,sans-serif">
+def shell(title, inner, unsub_url, why, preheader=""):
+    pre = f'<div style="display:none;max-height:0;overflow:hidden;opacity:0">{E(preheader)}</div>' if preheader else ""
+    return f"""<!doctype html><html><body style="margin:0;background:#0b0d10;padding:24px 12px;font-family:-apple-system,Segoe UI,Roboto,sans-serif">{pre}
 <div style="max-width:560px;margin:0 auto;background:#12161b;border:1px solid #232a32;border-radius:12px;padding:24px;color:#e9edf1">
 <div style="font-weight:600;margin-bottom:18px"><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#ffb547;margin-right:8px"></span>The Lineup</div>
 <h1 style="font-size:20px;line-height:1.3;margin:0 0 14px">{E(title)}</h1>{inner}</div>
@@ -154,9 +155,12 @@ def digest():
         t = "" if e.get("allDay") else f" · {d:%I:%M %p}".replace(" 0", " ")
         g = counts.get(e["id"], 0)
         going = f' · <span style="color:#ffb547">{g} going</span>' if g else ""
+        fresh = e.get("firstSeen") and when(e["firstSeen"]) > now - timedelta(days=7)
+        badge = ('<span style="font:600 10px monospace;letter-spacing:.08em;color:#17120a;background:#ffb547;border-radius:4px;'
+                 'padding:2px 5px;margin-right:6px;vertical-align:2px">NEW</span>') if fresh else ""
         where = "Online" if e.get("online") else e.get("city") or ""
         return (f'<tr><td style="padding:10px 0;border-top:1px solid #232a32;vertical-align:top;width:78px;color:#9aa7b4;font:13px monospace">{d:%a}<br>{d:%b} {d.day}</td>'
-                f'<td style="padding:10px 0 10px 8px;border-top:1px solid #232a32"><a href="{SITE}/event/{slug(e)}/" style="color:#e9edf1;font-weight:600;text-decoration:none">{E(e["title"])}</a>'
+                f'<td style="padding:10px 0 10px 8px;border-top:1px solid #232a32">{badge}<a href="{SITE}/event/{slug(e)}/" style="color:#e9edf1;font-weight:600;text-decoration:none">{E(e["title"])}</a>'
                 f'<div style="color:#9aa7b4;font-size:13px">{E(where)}{t}{going}</div></td></tr>')
 
     sent = 0
@@ -168,18 +172,24 @@ def digest():
         if not local and not nearby:
             continue  # nothing worth an email this week; skipping beats spamming
         name = STATE_NAMES.get(st, st)
+        mine = [e for e in up if e["id"] in set(r.get("going") or [])]
+        local = [e for e in local if e not in mine]
         unsub = f"{SITE}/unsubscribe/?t={r['unsub_token']}&w=digest"
-        subj = (f"{len(local)} meetup{'s' if len(local) != 1 else ''} in {name} this week" if local
+        subj = (f"This week: {mine[0]['title'][:48]}" + (f" + {len(local)} more in {name}" if local else "") if mine
+                else f"{len(local)} meetup{'s' if len(local) != 1 else ''} in {name} this week" if local
                 else f"This week near {name}: {len(nearby)} meetups close by")
+        fresh_n = sum(1 for e in local if e.get("firstSeen") and when(e["firstSeen"]) > now - timedelta(days=7))
+        pre = (f"{fresh_n} new since last week. " if fresh_n else "") + (local or nearby)[0]["title"][:80] if (local or nearby) else ""
         sec = lambda h, evs: (f'<p style="font:600 12px monospace;letter-spacing:.08em;text-transform:uppercase;color:#7d8996;margin:18px 0 4px">{h}</p>'
                               f'<table style="width:100%;border-collapse:collapse">{"".join(row(e) for e in evs)}</table>') if evs else ""
         inner = (f'<p style="color:#9aa7b4;margin:0 0 6px">Hey {E(r["first_name"])}, here\'s your lineup for the week.</p>'
-                 + sec(f"In {name}", local[:10]) + sec("Close by", nearby) + sec("Online", online)
+                 + sec("You're going", mine) + sec(f"In {name}", local[:10]) + sec("Close by", nearby) + sec("Online", online)
                  + '<p style="margin:18px 0 0">' + button(f"{SITE}/?country=United%20States&state={st}", f"See everything in {name}")
-                 + '</p><p style="color:#7d8996;font-size:13px">Going to one? Tap "I\'m going" on its page. A week out you can see who else is going and connect.</p>')
+                 + '</p><p style="color:#7d8996;font-size:13px">Going to one? Tap "I\'m going" on its page. A week out you can see who else is going and connect.</p>'
+                 + f'<p style="color:#7d8996;font-size:13px;margin:0">Know a meetup we\'re missing? <a href="{SITE}/submit/" style="color:#ffb547">Add it</a>, it shows up for everyone.</p>')
         text = (f"Your lineup for the week in {name}:\n\n" + "\n".join(f"- {e['title']} ({nice_date(e['start'])}, {e.get('city') or 'online'}) {SITE}/event/{slug(e)}/"
-                for e in local[:10] + nearby + online) + f"\n\nUnsubscribe: {unsub}")
-        if send(r["email"], subj, shell(subj, inner, unsub, f"You got this because you picked {name} as your home state."), text, unsub):
+                for e in mine + local[:10] + nearby + online) + f"\n\nUnsubscribe: {unsub}")
+        if send(r["email"], subj, shell(subj, inner, unsub, f"You got this because you picked {name} as your home state.", pre), text, unsub):
             sent += 1
     print(f"digest: sent {sent}")
 
