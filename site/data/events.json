@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-26T15:42-05:00",
+ "generatedAt": "2026-11-26T15:58-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 386,
+ "count": 387,
  "changes": {
-  "new": 16,
+  "new": 17,
   "updated": 1,
   "cancelled": 5
  },
@@ -109,12 +109,12 @@
   {
    "source": "AICamp NYC",
    "ok": true,
-   "events": 3
+   "events": 4
   },
   {
    "source": "NYC Big Data / AI",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "Microsoft Reactor New York",
@@ -2010,10 +2010,10 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Las Vegas",
+   "city": "Atlanta",
    "country": "United States",
-   "metro": "Las Vegas",
-   "state": "NV",
+   "metro": "Atlanta",
+   "state": "GA",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -2025,8 +2025,8 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
-   "lat": 36.167,
-   "lng": -115.148,
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
@@ -4583,6 +4583,36 @@
    "lat": 40.713,
    "lng": -74.006,
    "firstSeen": "2026-11-16T15:30-05:00",
+   "seq": 0
+  },
+  {
+   "id": "68493921ee06",
+   "title": "Enterprise AI - LLM Observability",
+   "start": "2026-12-09T17:30-05:00",
+   "end": "2026-12-09T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/aittg-nyc/events/317598463/",
+   "about": "NYC AI Developers Group Important: Register on the event website is required for admission. (RSVP on meetup is turned off) Welcome to the Enterprise AI Showcase in New York. We're a community for practitioners building…",
+   "source": "AICamp NYC",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T15:58-05:00",
    "seq": 0
   },
   {
@@ -7163,10 +7193,10 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Las Vegas",
+   "city": "Atlanta",
    "country": "United States",
-   "metro": "Las Vegas",
-   "state": "NV",
+   "metro": "Atlanta",
+   "state": "GA",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -7178,8 +7208,8 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
-   "lat": 36.167,
-   "lng": -115.148,
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
@@ -8292,10 +8322,10 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Las Vegas",
+   "city": "Atlanta",
    "country": "United States",
-   "metro": "Las Vegas",
-   "state": "NV",
+   "metro": "Atlanta",
+   "state": "GA",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -8307,8 +8337,8 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
-   "lat": 36.167,
-   "lng": -115.148,
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
@@ -9454,10 +9484,10 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Las Vegas",
+   "city": "Atlanta",
    "country": "United States",
-   "metro": "Las Vegas",
-   "state": "NV",
+   "metro": "Atlanta",
+   "state": "GA",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -9469,8 +9499,8 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
-   "lat": 36.167,
-   "lng": -115.148,
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
@@ -11204,10 +11234,10 @@
    "tz": "America/New_York",
    "venue": "Location on listing",
    "online": false,
-   "city": "Las Vegas",
+   "city": "Atlanta",
    "country": "United States",
-   "metro": "Las Vegas",
-   "state": "NV",
+   "metro": "Atlanta",
+   "state": "GA",
    "format": "In person",
    "cost": "Check listing",
    "tags": [
@@ -11219,8 +11249,8 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
-   "lat": 36.167,
-   "lng": -115.148,
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },

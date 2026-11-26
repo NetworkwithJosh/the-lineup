@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:68493921ee06@the-lineup
+DTSTAMP:20261126T205913Z
+SEQUENCE:0
+DTSTART:20261209T223000Z
+DTEND:20261210T013000Z
+SUMMARY:Enterprise AI - LLM Observability
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:NYC AI Developers Group Important: Register on the event website is required for admission. (RSVP on meetup is turned off) Welcome to the Enterprise AI Showcase in New York. We're a community for practitioners building… https://www.meetup.com/aittg-nyc/events/317598463/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aittg-nyc/events/317598463/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
