@@ -45,14 +45,14 @@ def slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def page(title: str, desc: str, canonical: str, body: str, ld: str = "") -> str:
+def page(title: str, desc: str, canonical: str, body: str, ld: str = "", image: str = "") -> str:
     e = html.escape
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="The Lineup"><meta property="og:image" content="{BASE}/og.png">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website"><meta property="og:site_name" content="The Lineup"><meta property="og:image" content="{image or BASE + "/og.png"}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{image or BASE + "/og.png"}">
 <meta name="theme-color" content="#0b0d10">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b0d10'/><rect x='7' y='9' width='18' height='3' rx='1.5' fill='%23ffb547'/><rect x='7' y='15' width='12' height='3' rx='1.5' fill='%23e9edf1'/><rect x='7' y='21' width='15' height='3' rx='1.5' fill='%238b98a6'/></svg>">
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -117,6 +117,9 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
     out = site / "event"
     shutil.rmtree(out, ignore_errors=True)
     out.mkdir(parents=True)
+    import cards
+    og = site / "og"
+    shutil.rmtree(og, ignore_errors=True)
     esc = html.escape
     urls = []
     for x in events:
@@ -147,9 +150,13 @@ def build_events(events: list[dict], state_names: dict, now: datetime, site: Pat
                 + (f'<div id="going" data-event="{esc(x["id"])}" data-start="{esc(x["start"])}" data-state="{esc(st or "")}"></div>'
                    if not x.get("online") and st else "")
                 + f'<div class="tags">{" · ".join(TAG.get(t, t) for t in x["tags"])} · listed via {esc(x.get("source") or "")}</div>'
-                + '<script src="/acct.js?v=5" defer></script>')
+                + '<script src="/acct.js?v=7" defer></script>')
         (out / sl).mkdir(parents=True, exist_ok=True)
-        (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld))
+        img = ""
+        if cards.make(og / f"{x['id'][:12]}.jpg", x["title"], f"{day} · {t}",
+                      "Online" if x.get("online") else (place or "Location on listing"), " · ".join(TAG.get(g, g) for g in x["tags"])):
+            img = f"{BASE}/og/{x['id'][:12]}.jpg"
+        (out / sl / "index.html").write_text(page(title, desc[:300], f"{BASE}/event/{sl}/", body, ld, img))
         urls.append(f"{BASE}/event/{sl}/")
     build_static(site)
     return urls
@@ -176,10 +183,10 @@ TERMS = """<h1>Terms</h1><p class="lede">Last updated November 26, 2026.</p>
 def build_static(site: Path) -> None:
     for path, title, desc, body in [
         ("account", "Your account | The Lineup", "Sign in to mark events you're going to and connect with others going.",
-         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=5" defer></script>'
+         '<div id="account"><p class="lede">Loading…</p></div><script src="/acct.js?v=7" defer></script>'
          '<p class="meta"><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>'),
         ("unsubscribe", "Unsubscribe | The Lineup", "Stop emails from The Lineup.",
-         '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=5" defer></script>'
+         '<h1>Email settings</h1><p class="lede" id="unsub">Working on it…</p><script src="/acct.js?v=7" defer></script>'
          '<p class="meta"><a href="/account/">Account</a> · <a href="/">All events</a></p>'),
         ("privacy", "Privacy | The Lineup", "What The Lineup collects and who can see it.", PRIVACY),
         ("terms", "Terms | The Lineup", "Rules for using The Lineup.", TERMS)]:

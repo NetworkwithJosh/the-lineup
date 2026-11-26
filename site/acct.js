@@ -45,6 +45,14 @@
     document.head.appendChild(s);
   }
   var sb, user, profile;
+  // Quick signup from anywhere (homepage box): email + state -> magic link -> finish profile with state pre-filled.
+  window.lineupSignup = function (email, st, cb) {
+    loadLib(function () {
+      var c = sb || window.supabase.createClient(CFG.url, CFG.key, { auth: { persistSession: true, detectSessionInUrl: true } });
+      c.auth.signInWithOtp({ email: email, options: { emailRedirectTo: location.origin + "/account/" + (st ? "?state=" + st : "") } })
+        .then(function (r) { cb(r.error ? nice(r.error) : null); });
+    });
+  };
   function boot(cb) {
     loadLib(function () {
       sb = window.supabase.createClient(CFG.url, CFG.key, { auth: { persistSession: true, detectSessionInUrl: true } });
@@ -108,6 +116,16 @@
               el("a", { href: "/e/" + id + ".ics", text: "Apple / Outlook" }), " · ",
               el("a", { href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(document.querySelector("h1").textContent) +
                 "&dates=" + gdates(start) + "&details=" + encodeURIComponent(location.href), target: "_blank", rel: "noopener", text: "Google" })]));
+            var url = location.origin + location.pathname, ttl = document.querySelector("h1").textContent;
+            var line = "I'm going to " + ttl + " on " + fmt(start) + ". Come through?";
+            var share = el("button", { class: "btn btn--solid", text: "Bring a friend", onclick: function () {
+              if (navigator.share) { navigator.share({ title: ttl, text: line, url: url }).catch(function () {}); return; }
+              (navigator.clipboard ? navigator.clipboard.writeText(line + " " + url) : Promise.reject()).then(function () {
+                share.textContent = "Invite copied, paste it anywhere"; setTimeout(function () { share.textContent = "Bring a friend"; }, 2200); }, function () {});
+            } });
+            card.appendChild(el("div", { style: "display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px" }, [share,
+              el("a", { class: "btn", target: "_blank", rel: "noopener", text: "Post on LinkedIn",
+                href: "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(url) })]));
             attendees();
           }
         });
@@ -206,8 +224,9 @@
     var co = el("input", { type: "text", maxlength: "80", value: p.company || "", placeholder: "Optional" });
     var show = el("input", { type: "checkbox" }); show.checked = !!p.show_company;
     var home = el("select"); home.appendChild(el("option", { value: "", text: "Outside the US / skip" }));
+    var wantSt = p.home_state || new URLSearchParams(location.search).get("state");
     Object.keys(STATES).sort(function (a, b) { return STATES[a].localeCompare(STATES[b]); }).forEach(function (k) {
-      var o = el("option", { value: k, text: STATES[k] }); if (k === p.home_state) o.selected = true; home.appendChild(o); });
+      var o = el("option", { value: k, text: STATES[k] }); if (k === wantSt) o.selected = true; home.appendChild(o); });
     var dig = el("input", { type: "checkbox" }); dig.checked = p.weekly_digest !== false;
     var ntf = el("input", { type: "checkbox" }); ntf.checked = p.notify !== false;
     var msg = el("div", { class: "msg" });
