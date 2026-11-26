@@ -440,6 +440,8 @@ def shape_feed_event(e: dict, src: dict, source_name: str, uid_counts: Counter) 
         if sm:
             loc = sm.group(0).strip()
     p = place(loc)
+    if not loc and ONLINE_WORDS.search(e["title"]):
+        p = place("Online")  # no venue and the title says webinar/virtual/online: don't pin it to the group's home city
     if p["country"] == "Unknown" or p["city"] == "Location on listing":
         # A place named in the TITLE wins. Then the group's home city. Only then cities mentioned in the
         # description, which often name somewhere else entirely ("DEF CON started in Las Vegas...").

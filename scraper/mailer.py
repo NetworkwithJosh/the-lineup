@@ -68,7 +68,7 @@ def shell(title, inner, unsub_url, why):
 <div style="font-weight:600;margin-bottom:18px"><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#ffb547;margin-right:8px"></span>The Lineup</div>
 <h1 style="font-size:20px;line-height:1.3;margin:0 0 14px">{E(title)}</h1>{inner}</div>
 <p style="max-width:560px;margin:14px auto 0;color:#7d8996;font-size:12px;line-height:1.5;text-align:center">{E(why)}<br>
-<a href="{unsub_url}" style="color:#9aa7b4">Unsubscribe</a> · <a href="{SITE}/account/" style="color:#9aa7b4">Email settings</a></p></body></html>"""
+<a href="{unsub_url}" style="color:#9aa7b4">Unsubscribe</a> · <a href="{SITE}/account/" style="color:#9aa7b4">Email settings</a>{"<br>The Lineup · " + E(env("MAIL_ADDRESS")) if env("MAIL_ADDRESS") else ""}</p></body></html>"""
 
 
 def button(href, label):
