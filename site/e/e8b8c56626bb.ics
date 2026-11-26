@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e8b8c56626bb@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261227T143000Z
+DTEND:20261227T161500Z
+SUMMARY:First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case
+LOCATION:Location on listing\, Dunwoody\, United States
+DESCRIPTION:Atlanta White Hat Hacking\, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody\, across the street from Perimeter Mall\, is accessible by MARTA (take the red-line to Dunwoody Station\, walk through the mall… https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslyjcqbkc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslyjcqbkc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

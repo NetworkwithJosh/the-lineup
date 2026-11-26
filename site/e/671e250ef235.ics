@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:671e250ef235@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261206T190000Z
+DTEND:20261206T220000Z
+SUMMARY:Open Source System Administration Study Group
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan This group will learn about system administration topics with hands-on collaborative learning on a homelab setup of four Dell servers. A description of this session's plan in down below. We’ll deploy… https://www.meetup.com/hackmanhattan/events/316952669/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/316952669/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

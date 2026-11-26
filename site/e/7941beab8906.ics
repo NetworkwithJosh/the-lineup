@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7941beab8906@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261127T000000Z
+DTEND:20261127T030000Z
+SUMMARY:Hack Manhattan Open House
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317320232/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/317320232/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

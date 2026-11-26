@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2d10e350db4b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T223000Z
+DTEND:20261202T003000Z
+SUMMARY:AI in Review: Lessons from 2026 and What's Ahead in 2027
+LOCATION:Location on listing\, Sterling\, United States
+DESCRIPTION:Loudoun CyberTech AI moved fast in 2026\, but what did we actually learn? What should we be paying attention to in 2027? Join us for the next Loudoun CyberTech \, on Tuesday\, December 1\, 2026 at Honor Brewing Company \, as… https://www.meetup.com/loudoun-cybertech/events/317472945/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/loudoun-cybertech/events/317472945/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

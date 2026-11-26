@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b5310f299210@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261209T170000Z
 DTEND:20261209T180000Z
 SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
-LOCATION:Location on listing\, Seattle\, United States
+LOCATION:Online
 DESCRIPTION:Seattle Business and Technology Meetup Group Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/

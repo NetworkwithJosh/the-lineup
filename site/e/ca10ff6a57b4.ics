@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ca10ff6a57b4@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261130T000000Z
+DTEND:20261130T020000Z
+SUMMARY:Locksport Workshop
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan A lockpicking workshop with tools provided from The Open Organisation Of Lockpickers\, or TOOOL. Taught by a member at Hack Manhattan. https://www.meetup.com/hackmanhattan/events/317079133/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/317079133/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

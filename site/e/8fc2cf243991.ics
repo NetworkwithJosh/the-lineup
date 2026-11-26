@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8fc2cf243991@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T230000Z
+DTEND:20261204T010000Z
+SUMMARY:“H4cK3Яs ❤️ Computer” Social Club + DefCon 502 Louisville
+LOCATION:Location on listing\, Louisville\, United States
+DESCRIPTION:H4cK3Яs ❤️ Computer Social Club + DefCon 502 Louisville ❤️ Computer? Terminally online? Is ur favorite language DOS? Come make some new IRL friends over low-stakes 🍸 and 🍢! Welcoming all programmers\, hax0rs\, creative… https://www.meetup.com/h4ck3%D1%8Fs-%EF%B8%8F-computer-social-club-defcon-502-louisville/events/317264530/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/h4ck3%D1%8Fs-%EF%B8%8F-computer-social-club-defcon-502-louisville/events/317264530/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

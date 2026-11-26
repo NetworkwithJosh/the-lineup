@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f0387e2ab40e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270108T180000Z
+DTEND:20270108T193000Z
+SUMMARY:🍕 CYBERLUNCH 🔐 - JANUARY 2027
+LOCATION:Location on listing\, Round Rock\, United States
+DESCRIPTION:CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual\, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real… https://www.meetup.com/cyberlunch/events/313463921/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cyberlunch/events/313463921/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

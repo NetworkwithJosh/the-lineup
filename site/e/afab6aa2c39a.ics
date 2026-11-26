@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:afab6aa2c39a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T233000Z
+DTEND:20261203T013000Z
+SUMMARY:Hack AI for Fun & Profit — AI Sec Eng Miami
+LOCATION:Location on listing\, Miami\, United States
+DESCRIPTION:AI Security Engineers - Miami\, FL We are confirmed for Dec 2nd at AI Center MDC Wolfson Can you outsmart the AI? Come find out—and compete for gift card prizes. 💰 Join AI Sec Eng Miami for an evening of hands-on… https://www.meetup.com/ai-security-engineers-miami/events/317179923/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/ai-security-engineers-miami/events/317179923/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

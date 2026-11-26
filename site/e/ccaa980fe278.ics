@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ccaa980fe278@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:Planet Cyber Sec AI Joint Holiday Party and Jeopardy Game
+LOCATION:Location on listing\, Culver City\, United States
+DESCRIPTION:AI\, Cybersecurity and IT Professionals HOLIDAY CELEBRATION 2026 Celebrate the season. Expand your network. Make your next great connection. Our Keynote Speaker will be Michael Wylie \, MBA\, CISSP\, an author\, adjunct… https://www.meetup.com/aicyberit/events/317428904/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aicyberit/events/317428904/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

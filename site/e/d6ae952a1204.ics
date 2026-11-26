@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d6ae952a1204@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261208T230000Z
+DTEND:20261209T040000Z
+SUMMARY:Atlanta Cybersecurity Holiday Party
+LOCATION:Location on listing\, Atlanta\, United States
+DESCRIPTION:OWASP Atlanta Chapter 👾 MISSION: End-of-Year Celebration 2026 👾 STATUS: APTs blocked. Networks secured. Time to celebrate! 🛡️⚡ Join the Atlanta Cybersecurity Community as we toast to another successful year on the front… https://www.meetup.com/owasp-atlanta/events/317024209/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-atlanta/events/317024209/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

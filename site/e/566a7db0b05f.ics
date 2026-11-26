@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:566a7db0b05f@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T150000Z
+DTEND:20261205T160000Z
+SUMMARY:Coffee and Conversation on personal Cybersecurity
+LOCATION:Location on listing\, Kenosha\, United States
+DESCRIPTION:Cybersecurity & Technology Explorers Welcome to the Very First Meeting of the Cybersecurity & Technology Explorers! Thank you so much for being part of our inaugural event! Whether you’re a total beginner looking to get… https://www.meetup.com/cybersecurity-technology-explorers/events/317481729/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cybersecurity-technology-explorers/events/317481729/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c1a41760fba3@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261210T143000Z
 DTEND:20261210T153000Z
 SUMMARY:Automate Your Weekly Marketing Report: Google Ads\, GA4 & Meta in One Prompt
-LOCATION:Location on listing\, Bangalore\, India
+LOCATION:Online
 DESCRIPTION:Cyber Security Group Meetup What if your weekly marketing report took one prompt instead of half a day? Every Monday someone exports data from Google Ads\, GA4 and Meta\, pastes it into a spreadsheet and builds the same… https://www.meetup.com/bangalore-cyber-security-meetup/events/317591921/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/bangalore-cyber-security-meetup/events/317591921/

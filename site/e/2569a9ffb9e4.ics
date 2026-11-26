@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2569a9ffb9e4@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T233000Z
+DTEND:20261203T013000Z
+SUMMARY:CINPA Monthly Meeting
+LOCATION:Online
+DESCRIPTION:TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly… https://www.meetup.com/techlife-cincinnati/events/317403543/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/317403543/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

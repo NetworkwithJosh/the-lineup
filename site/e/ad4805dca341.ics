@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ad4805dca341@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:#2600 Meetup
+LOCATION:Location on listing\, Salt Lake City\, United States
+DESCRIPTION:801 LABS 2600 is an old-school hacker 'zine that is released quarterly and has awesome in-depth content for the enthusiast among us. is the site\, and you can find 2600 rooms in many places online. 2600 is one of the… https://www.meetup.com/801labs/events/317364403/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/801labs/events/317364403/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

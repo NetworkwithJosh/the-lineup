@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ef7159455380@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T020000Z
+SUMMARY:ISC2 Joint Holiday Party and Fall Meeting sponsored by Cloudflare
+LOCATION:Location on listing\, Pittsburgh\, United States
+DESCRIPTION:ISC2 Pittsburgh Chapter Join ISC2 for its annual Holiday Party at Hacker’s Guild. The party is sponsored by Cloudflare. https://www.meetup.com/isc-pittsburgh-chapter/events/317513252/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/isc-pittsburgh-chapter/events/317513252/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

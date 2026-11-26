@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:56482b68c908@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270108T010000Z
+DTEND:20270108T040000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/317301122/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/317301122/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

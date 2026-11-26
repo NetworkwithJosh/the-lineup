@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b499ccf45027@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T030000Z
+DTEND:20261201T043000Z
+SUMMARY:All things software infrastructure
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Bring a laptop if you can. Meeting format: Introductions. Background & goals/interests for the meeting. Lesson or Demo Questions & Discussion Readings & Exercises\, for future meetings Find past… https://www.meetup.com/noisebridge/events/317324440/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317324440/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

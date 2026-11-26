@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5807f7ff20c9@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261230T023000Z
+DTEND:20261230T060000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288344/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288344/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ab1fa1c2eb86@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261129T220000Z
+DTEND:20261130T000000Z
+SUMMARY:Laser Cutter Safety Training
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Learn how to be safe while using the laser cutter! We have a 150W\, CO2 laser cutter with a 3 x 4 ft bed. This training is required to use the laser cutter because we don't want people setting our… https://www.meetup.com/noisebridge/events/317361756/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317361756/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

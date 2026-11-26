@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c26a36cb2936@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+SUMMARY:Designing Interfaces for Musical Devices!
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Design and layout for musical electronic devices The topic is designing music electronics. Making your own guitar pedals\, synth modules\, or stand alone musical devices? Lets talk about where to… https://www.meetup.com/noisebridge/events/317532338/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317532338/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

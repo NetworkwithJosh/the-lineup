@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f44534f2c80b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261127T040000Z
+DTEND:20261127T060000Z
+SUMMARY:Resident Electronics Monthly meetup!
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace A recurring electronic music open mic. Every 4th Thursday of the month at 8pm INSTAGRAM: YOUTUBE: Playlist and upcoming live FREE Hosts Franck Martin TanukiSpiderCat Sign up / further info at https://www.meetup.com/noisebridge/events/317323645/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317323645/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

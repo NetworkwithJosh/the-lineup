@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0984de69d3f3@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T020000Z
+DTEND:20261205T040000Z
+SUMMARY:⚡ Seattle 2600 Monthly Meetup (December 6\, 2026) ⚡
+LOCATION:** Gearhouse Coffee \\(\, Seattle\, United States
+DESCRIPTION:Seattle 2600 Looking for your community of tech enthusiasts\, privacy advocates\, and hardware tinkerers? Look no further. Born from the global legacy of 2600 Magazine —the legendary\, anarchist-flavored quarterly by and… https://www.meetup.com/seattle-2600/events/317541479/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/seattle-2600/events/317541479/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

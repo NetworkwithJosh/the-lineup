@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9f44f35bdaca@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:dc414 - Public Hacker Meetup
+LOCATION:Location on listing\, West Allis\, United States
+DESCRIPTION:dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar\, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\… https://www.meetup.com/dc414group/events/317434819/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dc414group/events/317434819/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

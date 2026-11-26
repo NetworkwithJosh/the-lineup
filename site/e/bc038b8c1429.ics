@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bc038b8c1429@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261216T230000Z
+DTEND:20261217T010000Z
+SUMMARY:Cybersecurity Social/Happy Hour meetup for networking\, meeting new people
+LOCATION:Location on listing\, Virginia Beach\, United States
+DESCRIPTION:Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals\, come out and meet some new people. Have a night out on the town. Meet new people with similar interests.… https://www.meetup.com/issa-hampton-roads/events/317599540/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/issa-hampton-roads/events/317599540/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:52c213a16fa7@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261220T180000Z
+DTEND:20261220T203000Z
+SUMMARY:Intro to 3D Printing
+LOCATION:2247 Babcock Blvd\, Pittsburgh\, United States
+DESCRIPTION:Hackers Guild New to 3D printing? This session walks through how the Guild's printers work\, how a digital model becomes a physical object (slicing\, materials\, settings)\, and what to know before your first print.… https://www.meetup.com/hackersguild/events/317054246/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackersguild/events/317054246/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:31350b5a1c65@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270521T010000Z
+DTEND:20270521T030000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykchbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykchbbc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

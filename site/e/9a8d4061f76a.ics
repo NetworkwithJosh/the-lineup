@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a8d4061f76a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270121T233000Z
+DTEND:20270122T020000Z
+SUMMARY:CiNPA - Security SIG
+LOCATION:Location on listing\, Cincinnati\, United States
+DESCRIPTION:TechLife Cincinnati Meeting Topic: Speaker: William Ong Please stay tuned and check back later for our meeting topic(s) and speaker(s) announcement. About Us: The CiNPA Security SIG is the Cincinnati Networking… https://www.meetup.com/techlife-cincinnati/events/316997800/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/316997800/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

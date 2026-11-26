@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bd1f11801d63@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T170000Z
+DTEND:20261205T220000Z
+SUMMARY:Winter hacker fest
+LOCATION:Location on listing\, Davie\, United States
+DESCRIPTION:HackMiami %27 Hackers\, BBQ\, Drones & Good Times! It's that time of year again! Join HackMiami for our annual Winter Hacker Fest \, where South Florida's hacker community comes together for an afternoon of BBQ\, flying… https://www.meetup.com/hackmiami/events/316245755/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmiami/events/316245755/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

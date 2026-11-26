@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:6c9c8a11219b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261130T233000Z
+DTEND:20261201T013000Z
+SUMMARY:November Presentation
+LOCATION:Location on listing\, Providence\, United States
+DESCRIPTION:DC401 Blorfus will be presenting "CYDs: Trust Your Gadget Lust\," a talk about Cheap Yellow Displays and what they can do for pentesting\, fun and counter-intelligence. The event space is behind the bar with entrances to… https://www.meetup.com/defcon401/events/317474320/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/defcon401/events/317474320/
+END:VEVENT
+END:VCALENDAR

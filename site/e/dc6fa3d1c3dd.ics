@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dc6fa3d1c3dd@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261213T000000Z
+DTEND:20261213T020000Z
+SUMMARY:IndyAWS @ Indy Hackers Holiday Social - 2026
+LOCATION:Location on listing\, Indianapolis\, United States
+DESCRIPTION:IndyAWS Join IndyAWS @ Indy Hackers as we celebrate the holidays with other user groups from the Indy area! Register here: Overview Indy Hacker's largest event of the year brings everyone together for a night of… https://www.meetup.com/indyaws/events/314436825/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/indyaws/events/314436825/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

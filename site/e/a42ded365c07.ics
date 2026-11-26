@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a42ded365c07@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261231T233000Z
+DTEND:20270101T020000Z
+SUMMARY:Open Hack Night
+LOCATION:Location on listing\, Pittsburgh\, United States
+DESCRIPTION:Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn\, work\, and build community! Every Thursday from 6:30 to 9:00 PM\, Hackers Guild hosts Open Hack Night\, our standing… https://www.meetup.com/hackersguild/events/gvwzbvyjcqbpc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackersguild/events/gvwzbvyjcqbpc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

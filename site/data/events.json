@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T17:15-05:00",
+ "generatedAt": "2026-11-26T18:15-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 391,
+ "count": 523,
  "changes": {
-  "updated": 5,
-  "new": 22,
-  "cancelled": 7
+  "updated": 26,
+  "new": 155,
+  "cancelled": 8
  },
  "sources": [
   {
@@ -1017,6 +1017,226 @@
    "events": 1
   },
   {
+   "source": "801 LABS",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "AI Security Engineers - Miami, FL",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "AI, Cybersecurity and IT Professionals",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "AI Security Engineers - Chicago, IL",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Albany 2600",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "ok": true,
+   "events": 10
+  },
+  {
+   "source": "ATX 2600",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "Las Vegas Cybersecurity Meetup | BurbsecVegas",
+   "ok": true,
+   "events": 3
+  },
+  {
+   "source": "Cloud Security Alliance- San Diego",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "CYBERLUNCH",
+   "ok": true,
+   "events": 4
+  },
+  {
+   "source": "Cybersecurity & Technology Explorers",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Dallas Hackers Association",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "dc414",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "DC512",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "DC401",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Elastic Chicago User Group",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "EVSec",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "H4cK3Яs ❤️ Computer Social Club + DefCon 502 Louisville",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "HacDC",
+   "ok": true,
+   "events": 5
+  },
+  {
+   "source": "Hackers Guild",
+   "ok": true,
+   "events": 10
+  },
+  {
+   "source": "Hack Manhattan",
+   "ok": true,
+   "events": 10
+  },
+  {
+   "source": "HackMiami %27",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Houston Area Hackers Anonymous",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "IndyAWS",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "ISC2 Pittsburgh Chapter",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "2600/DC904",
+   "ok": true,
+   "events": 0
+  },
+  {
+   "source": "Loudoun CyberTech",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Noisebridge Hackerspace",
+   "ok": true,
+   "events": 10
+  },
+  {
+   "source": "NoVA Hackers",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "OC2600",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "ok": true,
+   "events": 7
+  },
+  {
+   "source": "OWASP Atlanta Chapter",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "OWASP Portland, Maine",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "OWASP Phoenix Chapter",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Rabbit-Labs Learning Lab",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "RainSec - PDX Information Security Meetup",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "Rocky Mountain Artificial Intelligence Network",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "RVAsec Security Community",
+   "ok": true,
+   "events": 3
+  },
+  {
+   "source": "San Diego Cyber Group",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Seattle 2600",
+   "ok": true,
+   "events": 1
+  },
+  {
+   "source": "Symbol Crash: Proper Hacker Training",
+   "ok": true,
+   "events": 6
+  },
+  {
+   "source": "Tampa Cybersecurity Training",
+   "ok": true,
+   "events": 2
+  },
+  {
+   "source": "TechLife Cincinnati",
+   "ok": true,
+   "events": 5
+  },
+  {
+   "source": "WoSEC Dallas: Women of Security",
+   "ok": true,
+   "events": 1
+  },
+  {
    "source": "Claude Community Events",
    "ok": true,
    "events": 0
@@ -1438,9 +1658,155 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f8b32dec1fea",
+   "title": "Open Hack Night",
+   "start": "2026-11-26T18:30-05:00",
+   "end": "2026-11-26T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/317452710/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7941beab8906",
+   "title": "Hack Manhattan Open House",
+   "start": "2026-11-26T19:00-05:00",
+   "end": "2026-11-26T22:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317320232/",
+   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 8,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6d9f899eb7e7",
+   "title": "Hardware Hacking Night",
+   "start": "2026-11-26T19:00-05:00",
+   "end": "2026-11-26T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/317320655/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f44534f2c80b",
+   "title": "Resident Electronics Monthly meetup!",
+   "start": "2026-11-26T20:00-08:00",
+   "end": "2026-11-26T22:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317323645/",
+   "about": "Noisebridge Hackerspace A recurring electronic music open mic. Every 4th Thursday of the month at 8pm INSTAGRAM: YOUTUBE: Playlist and upcoming live FREE Hosts Franck Martin TanukiSpiderCat Sign up / further info at",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -1579,9 +1945,191 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "563a62f994b5",
+   "title": "NYC Red Team Study Group!",
+   "start": "2026-11-28T18:00-05:00",
+   "end": "2026-11-28T19:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/316229051/",
+   "about": "Hack Manhattan Hey there! We're kicking off a bi-weekly Ethical Red Team Study Group every Saturday for anyone stoked about diving into the world of cybersecurity and red teaming. This is a chill, collaborative space…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 9,
+    "max": 15,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ff7071594fad",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2026-11-29T09:30-05:00",
+   "end": "2026-11-29T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/317355644/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "5a0a7818dff0",
+   "title": "Open Source System Administration Study Group",
+   "start": "2026-11-29T14:00-05:00",
+   "end": "2026-11-29T17:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/316952666/",
+   "about": "Hack Manhattan This group will learn about system administration topics with hands-on collaborative learning on a homelab setup of four Dell servers. A description of this session's plan in down below. We’ll deploy…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 10,
+    "max": 12,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ab1fa1c2eb86",
+   "title": "Laser Cutter Safety Training",
+   "start": "2026-11-29T14:00-08:00",
+   "end": "2026-11-29T16:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317361756/",
+   "about": "Noisebridge Hackerspace Learn how to be safe while using the laser cutter! We have a 150W, CO2 laser cutter with a 3 x 4 ft bed. This training is required to use the laser cutter because we don't want people setting our…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 4,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ca10ff6a57b4",
+   "title": "Locksport Workshop",
+   "start": "2026-11-29T19:00-05:00",
+   "end": "2026-11-29T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317079133/",
+   "about": "Hack Manhattan A lockpicking workshop with tools provided from The Open Organisation Of Lockpickers, or TOOOL. Taught by a member at Hack Manhattan.",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 9,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -1754,6 +2302,12 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 1,
    "changes": [
@@ -1762,19 +2316,125 @@
    "changedAt": "2026-11-26T16:09-05:00"
   },
   {
+   "id": "f96308270079",
+   "title": "Woodworking Workshop",
+   "start": "2026-11-30T18:00-08:00",
+   "end": "2026-11-30T21:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317376551/",
+   "about": "Noisebridge Hackerspace -please read the whole updated description!- Come to work on your own projects and get some feedback from your fellow woodchucks. We have a planer, drill presses, hand tools, a table saw, and…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 10,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6c9c8a11219b",
+   "title": "November Presentation",
+   "start": "2026-11-30T18:30-05:00",
+   "end": "2026-11-30T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Providence",
+   "country": "United States",
+   "metro": "Providence",
+   "state": "RI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/defcon401/events/317474320/",
+   "about": "DC401 Blorfus will be presenting \"CYDs: Trust Your Gadget Lust,\" a talk about Cheap Yellow Displays and what they can do for pentesting, fun and counter-intelligence. The event space is behind the bar with entrances to…",
+   "source": "DC401",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 41.824,
+   "lng": -71.413,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b499ccf45027",
+   "title": "All things software infrastructure",
+   "start": "2026-11-30T19:00-08:00",
+   "end": "2026-11-30T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317324440/",
+   "about": "Noisebridge Hackerspace Bring a laptop if you can. Meeting format: Introductions. Background & goals/interests for the meeting. Lesson or Demo Questions & Discussion Readings & Exercises, for future meetings Find past…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "028981fe8782",
    "title": "DC608 Coding Night",
    "start": "2026-11-30T19:30-06:00",
    "end": "2026-11-30T20:30-06:00",
    "allDay": false,
    "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Madison",
-   "country": "United States",
-   "metro": "Madison",
-   "state": "WI",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -1785,9 +2445,52 @@
    "source": "DCG Madison",
    "status": "listed",
    "cancelReason": null,
-   "lat": 43.075,
-   "lng": -89.384,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "a8f1e8910b5e",
+   "title": "Mozzi On Arduino (Circuit Hacking Mondays)",
+   "start": "2026-11-30T19:30-08:00",
+   "end": "2026-11-30T21:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317172030/",
+   "about": "Noisebridge Hackerspace Mozzi is a library of audio functions that run on Arduino and ESP 32 microprocessors. Mozzi is a well documented collection of audio programs with example sketches, detailed notes and a support…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 8,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -1882,13 +2585,13 @@
    "end": "2026-12-01T09:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "it"
@@ -1899,10 +2602,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "c1e1b7ba061d",
@@ -1940,13 +2651,13 @@
    "end": "2026-12-01T09:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -1958,10 +2669,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 10,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-23T17:03-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "8d1d98dca1c3",
@@ -1988,6 +2707,12 @@
    "source": "NYC Big Data / AI",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-24T15:40-05:00",
    "seq": 1,
    "changes": [
@@ -2002,13 +2727,13 @@
    "end": "2026-12-01T13:00-07:00",
    "allDay": false,
    "tz": "America/Phoenix",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Phoenix",
-   "country": "United States",
-   "metro": "Phoenix",
-   "state": "AZ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -2019,10 +2744,18 @@
    "source": "We Protect PHX",
    "status": "listed",
    "cancelReason": null,
-   "lat": 33.448,
-   "lng": -112.074,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T18:41-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "17c51b076c6c",
@@ -2059,13 +2792,13 @@
    "end": "2026-12-01T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -2077,10 +2810,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 12,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-17T14:12-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "0807a2418a44",
@@ -2139,6 +2880,79 @@
    "cancelledAt": "2026-11-15T12:05-05:00"
   },
   {
+   "id": "2d10e350db4b",
+   "title": "AI in Review: Lessons from 2026 and What's Ahead in 2027",
+   "start": "2026-12-01T17:30-05:00",
+   "end": "2026-12-01T19:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Sterling",
+   "country": "United States",
+   "metro": "Sterling",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/loudoun-cybertech/events/317472945/",
+   "about": "Loudoun CyberTech AI moved fast in 2026, but what did we actually learn? What should we be paying attention to in 2027? Join us for the next Loudoun CyberTech , on Tuesday, December 1, 2026 at Honor Brewing Company , as…",
+   "source": "Loudoun CyberTech",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 47,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 39.002,
+   "lng": -77.403,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ccaa980fe278",
+   "title": "Planet Cyber Sec AI Joint Holiday Party and Jeopardy Game",
+   "start": "2026-12-01T17:30-08:00",
+   "end": "2026-12-01T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Culver City",
+   "country": "United States",
+   "metro": "Culver City",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/aicyberit/events/317428904/",
+   "about": "AI, Cybersecurity and IT Professionals HOLIDAY CELEBRATION 2026 Celebrate the season. Expand your network. Make your next great connection. Our Keynote Speaker will be Michael Wylie , MBA, CISSP, an author, adjunct…",
+   "source": "AI, Cybersecurity and IT Professionals",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 34.021,
+   "lng": -118.396,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "f8601a75ea38",
    "title": "Microsoft Reactor: MVP Feature Series",
    "start": "2026-12-01T18:00-05:00",
@@ -2165,6 +2979,41 @@
    "lat": 40.758,
    "lng": -73.986,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a74bb82fe2a7",
+   "title": "Women of Security: Last meetup of 2026!!",
+   "start": "2026-12-01T18:00-06:00",
+   "end": "2026-12-01T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Plano",
+   "country": "United States",
+   "metro": "Plano",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/wist-dallas-women-in-security-and-tech/events/317257870/",
+   "about": "WoSEC Dallas: Women of Security Whether you are a seasoned professional, a student exploring career options, or simply interested in learning more about cybersecurity, this meetup is for you. Don't miss the chance to be…",
+   "source": "WoSEC Dallas: Women of Security",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 22,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.014,
+   "lng": -96.693,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -2218,16 +3067,22 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
    "seq": 0
   },
   {
-   "id": "0d6f01c3874c",
-   "title": "What the Heck Is Fabric IQ?",
-   "start": "2026-12-01T20:00-05:00",
-   "end": "2026-12-01T21:00-05:00",
+   "id": "1206bac7da54",
+   "title": "Hack Manhattan Open House",
+   "start": "2026-12-01T19:00-05:00",
+   "end": "2026-12-01T22:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
    "venue": "Location on listing",
@@ -2239,6 +3094,77 @@
    "format": "In person",
    "cost": "Check listing",
    "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317389053/",
+   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d3154f3854ee",
+   "title": "December 2026 Meeting",
+   "start": "2026-12-01T19:30-07:00",
+   "end": "2026-12-01T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Mesa",
+   "country": "United States",
+   "metro": "Mesa",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-phoenix-chapter/events/316852942/",
+   "about": "OWASP Phoenix Chapter Beyond the Web App: What the OWASP Top 10 Means for SDKs (\\~30 min) The OWASP Top 10 is written primarily for web applications—but what does it mean when your product is an SDK embedded inside…",
+   "source": "OWASP Phoenix Chapter",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 9,
+    "max": 40,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.415,
+   "lng": -111.831,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0d6f01c3874c",
+   "title": "What the Heck Is Fabric IQ?",
+   "start": "2026-12-01T20:00-05:00",
+   "end": "2026-12-01T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
     "ai",
     "it"
    ],
@@ -2248,10 +3174,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 11,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-17T22:08-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "cf171a35c97e",
@@ -2432,13 +3366,13 @@
    "end": "2026-12-02T11:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "it"
@@ -2449,10 +3383,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T13:52-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "7bed77d9804b",
@@ -2505,6 +3447,12 @@
    "source": "Newark OT/ICS Security",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 3,
    "changes": [
@@ -2624,6 +3572,12 @@
    "source": "OWASP London",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-24T00:32-05:00",
@@ -2653,6 +3607,12 @@
    "source": "OWASP Melbourne",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 10,
+    "max": 10,
+    "waitlist": 0,
+    "full": true
+   },
    "lat": -37.814,
    "lng": 144.963,
    "firstSeen": "2026-11-23T17:03-05:00",
@@ -2665,13 +3625,13 @@
    "end": "2026-12-02T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -2683,10 +3643,18 @@
    "source": "Cover6 Community Atlanta",
    "status": "listed",
    "cancelReason": null,
-   "lat": 33.754,
-   "lng": -84.39,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "b392a4d4f388",
@@ -2712,6 +3680,12 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2741,6 +3715,12 @@
    "source": "DC610 (Easton PA)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.692,
    "lng": -75.21,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2772,6 +3752,217 @@
    "lat": 40.513,
    "lng": -74.272,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "06935f319bb3",
+   "title": "Q4 San Diego Cybersecurity Mixer",
+   "start": "2026-12-02T18:00-08:00",
+   "end": "2026-12-02T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cloud-security-alliance-san-diego/events/317571516/",
+   "about": "Cloud Security Alliance- San Diego Come and meet the local cyber security groups. Everyone's welcome. See you soon!",
+   "source": "Cloud Security Alliance- San Diego",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "2569a9ffb9e4",
+   "title": "CINPA Monthly Meeting",
+   "start": "2026-12-02T18:30-05:00",
+   "end": "2026-12-02T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/techlife-cincinnati/events/317403543/",
+   "about": "TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly…",
+   "source": "TechLife Cincinnati",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "afab6aa2c39a",
+   "title": "Hack AI for Fun & Profit — AI Sec Eng Miami",
+   "start": "2026-12-02T18:30-05:00",
+   "end": "2026-12-02T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Miami",
+   "country": "United States",
+   "metro": "Miami",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/ai-security-engineers-miami/events/317179923/",
+   "about": "AI Security Engineers - Miami, FL We are confirmed for Dec 2nd at AI Center MDC Wolfson Can you outsmart the AI? Come find out—and compete for gift card prizes. 💰 Join AI Sec Eng Miami for an evening of hands-on…",
+   "source": "AI Security Engineers - Miami, FL",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 17,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 25.774,
+   "lng": -80.194,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "8a3d4e4bd955",
+   "title": "An Intro to Soldering",
+   "start": "2026-12-02T19:00-05:00",
+   "end": "2026-12-02T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/316857712/",
+   "about": "Hack Manhattan Welcome to our soldering basics class! This class is for beginners and designed to teach you a few important fundamentals on soldering, an essential skill for anyone interested in electronics or DIY…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 10,
+    "max": 10,
+    "waitlist": 0,
+    "full": true
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "79272a36c139",
+   "title": "2026.12.02/0x0091",
+   "start": "2026-12-02T19:00-06:00",
+   "end": "2026-12-02T21:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dallas",
+   "country": "United States",
+   "metro": "Dallas",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dallas-hackers-association/events/317531585/",
+   "about": "Dallas Hackers Association DHA: We do not solicit vendors or speakers to present. This is a community driven event and you get out of it what you put into it. So what will you talk about this month? Firetalks: No more…",
+   "source": "Dallas Hackers Association",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 16,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 32.776,
+   "lng": -96.797,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d52a2fe8ed9b",
+   "title": "Gamebridge Game Development Meetup",
+   "start": "2026-12-02T19:00-08:00",
+   "end": "2026-12-02T21:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "272 Capp St",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317406561/",
+   "about": "Noisebridge Hackerspace THE MEETUP IS HAPPENING IN PERSON AND ONLINE VIA STREAMING ON OUR DISCORD SERVER. ( IN THE \"Church Classroom\" CHANNEL. Learn to make games, music and art in free beginner-friendly class meetups…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -2908,6 +4099,12 @@
    "source": "AICamp NYC",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 12,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.713,
    "lng": -74.006,
    "firstSeen": "2026-11-18T13:52-05:00",
@@ -2948,13 +4145,13 @@
    "end": "2026-12-03T13:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -2966,10 +4163,54 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-20T21:50-05:00",
-   "seq": 2
+   "seq": 3,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "8210109d37b3",
+   "title": "RMAIN Winter AI Summit - Holiday Party - Cyber Security",
+   "start": "2026-12-03T12:00-07:00",
+   "end": "2026-12-03T17:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Denver",
+   "country": "United States",
+   "metro": "Denver",
+   "state": "CO",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rocky-mountain-artificial-intelligence-network/events/316799746/",
+   "about": "Rocky Mountain Artificial Intelligence Network Dear RMAIN Members, AI is rapidly changing the cybersecurity landscape for both attackers and defenders. Recent developments around autonomous AI agents and AI-enabled…",
+   "source": "Rocky Mountain Artificial Intelligence Network",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 13,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 39.739,
+   "lng": -104.985,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
   },
   {
    "id": "e85a1962f3da",
@@ -3023,6 +4264,12 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3116,6 +4363,41 @@
    "seq": 0
   },
   {
+   "id": "8fc2cf243991",
+   "title": "“H4cK3Яs ❤️ Computer” Social Club + DefCon 502 Louisville",
+   "start": "2026-12-03T18:00-05:00",
+   "end": "2026-12-03T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Louisville",
+   "country": "United States",
+   "metro": "Louisville",
+   "state": "KY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/h4ck3%D1%8Fs-%EF%B8%8F-computer-social-club-defcon-502-louisville/events/317264530/",
+   "about": "H4cK3Яs ❤️ Computer Social Club + DefCon 502 Louisville ❤️ Computer? Terminally online? Is ur favorite language DOS? Come make some new IRL friends over low-stakes 🍸 and 🍢! Welcoming all programmers, hax0rs, creative…",
+   "source": "H4cK3Яs ❤️ Computer Social Club + DefCon 502 Louisville",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.254,
+   "lng": -85.759,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "0c638af75784",
    "title": "Burbsec Prime - Sponsor Ops Available!",
    "start": "2026-12-03T18:00-06:00",
@@ -3139,6 +4421,12 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3168,6 +4456,12 @@
    "source": "Iowa InfoSec / SecDSM",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.564,
    "lng": -93.759,
    "firstSeen": "2026-11-16T08:15-05:00",
@@ -3197,9 +4491,50 @@
    "source": "BlackHack Society Atlanta",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "1a3523a4b390",
+   "title": "Open Hack Night",
+   "start": "2026-12-03T18:30-05:00",
+   "end": "2026-12-03T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/317421951/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -3226,6 +4561,12 @@
    "source": "DCG Madison",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-26T13:18-05:00",
@@ -3255,9 +4596,157 @@
    "source": "Boston Hackers",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 80,
+    "max": 80,
+    "waitlist": 18,
+    "full": true
+   },
    "lat": 42.359,
    "lng": -71.058,
    "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 0
+  },
+  {
+   "id": "28bc8f80dd9d",
+   "title": "Hack Manhattan Open House",
+   "start": "2026-12-03T19:00-05:00",
+   "end": "2026-12-03T22:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317422135/",
+   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "448dbcc78faa",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-03T19:00-05:00",
+   "end": "2026-12-03T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/317422573/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "3e8c80b922cc",
+   "title": "HAHA - Meeting",
+   "start": "2026-12-03T19:00-06:00",
+   "end": "2026-12-03T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/317301089/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 11,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "fc345f810553",
+   "title": "EVSec CitySec Meet-up: Security & Beer",
+   "start": "2026-12-03T19:00-07:00",
+   "end": "2026-12-03T21:30-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Scottsdale",
+   "country": "United States",
+   "metro": "Scottsdale",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/evsecaz/events/317079517/",
+   "about": "EVSec Do you work in the IT Industry and harbor a great interest and passion for Information Security? Are you interested in learning more about Network Security, System hardening, Penetration Testing, Application…",
+   "source": "EVSec",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 20,
+    "max": 35,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.597,
+   "lng": -111.891,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -3381,13 +4870,13 @@
    "end": "2026-12-04T13:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai"
@@ -3398,10 +4887,18 @@
    "source": "AICamp NYC",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 13,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "10dbcddf87a6",
@@ -3410,13 +4907,13 @@
    "end": "2026-12-04T17:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -3428,10 +4925,18 @@
    "source": "Microsoft Reactor New York",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.713,
-   "lng": -74.006,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-25T22:46-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "6af7212c7865",
@@ -3793,6 +5298,12 @@
    "source": "DC404 (DEF CON Atlanta)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
@@ -3850,6 +5361,12 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3881,6 +5398,76 @@
    "lat": 40.76,
    "lng": -111.887,
    "firstSeen": "2026-11-26T13:24-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ad4805dca341",
+   "title": "#2600 Meetup",
+   "start": "2026-12-04T18:00-07:00",
+   "end": "2026-12-04T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/317364403/",
+   "about": "801 LABS 2600 is an old-school hacker 'zine that is released quarterly and has awesome in-depth content for the enthusiast among us. is the site, and you can find 2600 rooms in many places online. 2600 is one of the…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0984de69d3f3",
+   "title": "⚡ Seattle 2600 Monthly Meetup (December 6, 2026) ⚡",
+   "start": "2026-12-04T18:00-08:00",
+   "end": "2026-12-04T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "** Gearhouse Coffee \\(",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/seattle-2600/events/317541479/",
+   "about": "Seattle 2600 Looking for your community of tech enthusiasts, privacy advocates, and hardware tinkerers? Look no further. Born from the global legacy of 2600 Magazine —the legendary, anarchist-flavored quarterly by and…",
+   "source": "Seattle 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 10,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -3936,6 +5523,12 @@
    "source": "DC862 (North Jersey)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 10,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.858,
    "lng": -74.164,
    "firstSeen": "2026-11-26T13:18-05:00",
@@ -3998,6 +5591,41 @@
    "seq": 0
   },
   {
+   "id": "d9a032e7384b",
+   "title": "Rabbit-Labs & DC862 Holiday Party",
+   "start": "2026-12-04T19:00-05:00",
+   "end": "2026-12-04T23:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Parlin",
+   "country": "United States",
+   "metro": "Parlin",
+   "state": "NJ",
+   "format": "In person",
+   "cost": "$10",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rabbit-labs/events/317290158/",
+   "about": "Rabbit-Labs Learning Lab Happy Holidays from Rabbit-Labs! Join us on December 4th for a jam-packed night full of festive fun. Wear your best Ugly Holiday Sweater! Winner gets a prize! Ugly sweater contest hosted by…",
+   "source": "Rabbit-Labs Learning Lab",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 30,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.463,
+   "lng": -74.311,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "ad42ec4ff41e",
    "title": "Raleigh 2600",
    "start": "2026-12-04T19:00-05:00",
@@ -4023,6 +5651,146 @@
    "lat": 35.78,
    "lng": -78.639,
    "firstSeen": "2026-11-26T13:24-05:00",
+   "seq": 0
+  },
+  {
+   "id": "088229a35bde",
+   "title": "ATX 2600",
+   "start": "2026-12-04T19:00-06:00",
+   "end": "2026-12-04T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/313486927/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "9f44f35bdaca",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2026-12-04T19:00-06:00",
+   "end": "2026-12-04T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/317434819/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7f114bab2e97",
+   "title": "OC2600 | Hacker Social",
+   "start": "2026-12-04T19:00-08:00",
+   "end": "2026-12-04T23:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/317025783/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "992ef1546fda",
+   "title": "Showcase Showdown",
+   "start": "2026-12-04T19:00-08:00",
+   "end": "2026-12-04T23:59-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317435904/",
+   "about": "Noisebridge Hackerspace WIKI: Showcase Showdown 2nd & 4th Fridays Showcase Showdown is an indie game showcase and fighting game tourney featuring Smash Melee competition. WHEN: 2 nd and 4th Fridays at Noisebridge at…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -4083,19 +5851,159 @@
    "seq": 0
   },
   {
+   "id": "566a7db0b05f",
+   "title": "Coffee and Conversation on personal Cybersecurity",
+   "start": "2026-12-05T09:00-06:00",
+   "end": "2026-12-05T10:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Kenosha",
+   "country": "United States",
+   "metro": "Kenosha",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cybersecurity-technology-explorers/events/317481729/",
+   "about": "Cybersecurity & Technology Explorers Welcome to the Very First Meeting of the Cybersecurity & Technology Explorers! Thank you so much for being part of our inaugural event! Whether you’re a total beginner looking to get…",
+   "source": "Cybersecurity & Technology Explorers",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 42.585,
+   "lng": -87.821,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b98d86321ee4",
+   "title": "RVAsec SecFun - CI/CD Pipeline Security",
+   "start": "2026-12-05T09:30-05:00",
+   "end": "2026-12-05T12:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Richmond",
+   "country": "United States",
+   "metro": "Richmond",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rvasec/events/316498140/",
+   "about": "RVAsec Security Community Please join the RVASec Discord for more information: RVAsec Discord Topic: Please see Discord Server for more information. Schedule: 9:30am - 9:45am: arrival and general socializing 9:45am …",
+   "source": "RVAsec Security Community",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 14,
+    "max": 30,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.539,
+   "lng": -77.434,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "bd1f11801d63",
+   "title": "Winter hacker fest",
+   "start": "2026-12-05T12:00-05:00",
+   "end": "2026-12-05T17:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Davie",
+   "country": "United States",
+   "metro": "Davie",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmiami/events/316245755/",
+   "about": "HackMiami %27 Hackers, BBQ, Drones & Good Times! It's that time of year again! Join HackMiami for our annual Winter Hacker Fest , where South Florida's hacker community comes together for an afternoon of BBQ, flying…",
+   "source": "HackMiami %27",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 31,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 26.063,
+   "lng": -80.233,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "c26a36cb2936",
+   "title": "Designing Interfaces for Musical Devices!",
+   "start": "2026-12-05T13:00-08:00",
+   "end": "2026-12-05T15:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317532338/",
+   "about": "Noisebridge Hackerspace Design and layout for musical electronic devices The topic is designing music electronics. Making your own guitar pedals, synth modules, or stand alone musical devices? Lets talk about where to…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 20,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "28b1c5d5e557",
    "title": "PyLadiesCon 2026",
    "start": "2026-12-05T19:00-06:00",
    "end": "2026-12-07T21:00-06:00",
    "allDay": false,
    "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Chicago",
-   "country": "United States",
-   "metro": "Chicago",
-   "state": "IL",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Free",
    "tags": [
     "it"
@@ -4106,9 +6014,123 @@
    "source": "AWS Chicago",
    "status": "listed",
    "cancelReason": null,
-   "lat": 41.876,
-   "lng": -87.624,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "ef7b15ad0d41",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2026-12-06T09:30-05:00",
+   "end": "2026-12-06T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/317453419/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "671e250ef235",
+   "title": "Open Source System Administration Study Group",
+   "start": "2026-12-06T14:00-05:00",
+   "end": "2026-12-06T17:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/316952669/",
+   "about": "Hack Manhattan This group will learn about system administration topics with hands-on collaborative learning on a homelab setup of four Dell servers. A description of this session's plan in down below. We’ll deploy…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 12,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d9c4d904c8b1",
+   "title": "Laser Cutter Safety Training",
+   "start": "2026-12-06T14:00-08:00",
+   "end": "2026-12-06T16:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317307970/",
+   "about": "Noisebridge Hackerspace Learn how to be safe while using the laser cutter! We have a 150W, CO2 laser cutter with a 3 x 4 ft bed. This training is required to use the laser cutter because we don't want people setting our…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 4,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -4204,13 +6226,13 @@
    "end": "2026-12-07T11:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "it"
@@ -4221,9 +6243,52 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "2d3191f2fe67",
+   "title": "Woodworking Workshop",
+   "start": "2026-12-07T18:00-08:00",
+   "end": "2026-12-07T21:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317476580/",
+   "about": "Noisebridge Hackerspace -please read the whole updated description!- Come to work on your own projects and get some feedback from your fellow woodchucks. We have a planer, drill presses, hand tools, a table saw, and…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 10,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -4250,6 +6315,12 @@
    "source": "DC512 (DEF CON Austin)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 30.265,
    "lng": -97.747,
    "firstSeen": "2026-11-26T17:09-05:00",
@@ -4262,13 +6333,13 @@
    "end": "2026-12-07T20:30-06:00",
    "allDay": false,
    "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Madison",
-   "country": "United States",
-   "metro": "Madison",
-   "state": "WI",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -4279,10 +6350,18 @@
    "source": "DCG Madison",
    "status": "listed",
    "cancelReason": null,
-   "lat": 43.075,
-   "lng": -89.384,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-17T22:08-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "4a8355fade1c",
@@ -4291,13 +6370,13 @@
    "end": "2026-12-08T11:00-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -4309,9 +6388,50 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "c929ac90a9e9",
+   "title": "Networking Intentionally: What Matters And Why",
+   "start": "2026-12-08T10:00-05:00",
+   "end": "2026-12-08T11:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/tampa-cybersecurity-training/events/317162750/",
+   "about": "Tampa Cybersecurity Training Come hang out and learn how to build real connections that actually matter in your networking game. A bigger network doesn't always create bigger opportunities. Many professionals focus on…",
+   "source": "Tampa Cybersecurity Training",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -4321,13 +6441,13 @@
    "end": "2026-12-08T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -4339,10 +6459,18 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-16T15:30-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "28c7558191e1",
@@ -4400,6 +6528,112 @@
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d6ae952a1204",
+   "title": "Atlanta Cybersecurity Holiday Party",
+   "start": "2026-12-08T18:00-05:00",
+   "end": "2026-12-08T23:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
+   "cost": "$0",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-atlanta/events/317024209/",
+   "about": "OWASP Atlanta Chapter 👾 MISSION: End-of-Year Celebration 2026 👾 STATUS: APTs blocked. Networks secured. Time to celebrate! 🛡️⚡ Join the Atlanta Cybersecurity Community as we toast to another successful year on the front…",
+   "source": "OWASP Atlanta Chapter",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 102,
+    "max": 280,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.754,
+   "lng": -84.39,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "baff5d877d3b",
+   "title": "Building with AI: Elastic × AI Security Engineers",
+   "start": "2026-12-08T18:00-06:00",
+   "end": "2026-12-08T20:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Chicago",
+   "country": "United States",
+   "metro": "Chicago",
+   "state": "IL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/aiseceng-chicago/events/317474248/",
+   "about": "AI Security Engineers - Chicago, IL Join Elastic and the AI Security Engineers community on Tuesday, December 8 for an evening of technical talks and networking with Chicago’s developer and security communities. Terry…",
+   "source": "AI Security Engineers - Chicago, IL",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 41.876,
+   "lng": -87.624,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "116497664efc",
+   "title": "Hack Manhattan Open House",
+   "start": "2026-12-08T19:00-05:00",
+   "end": "2026-12-08T22:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317079134/",
+   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -4612,13 +6846,13 @@
    "end": "2026-12-09T10:00-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -4630,10 +6864,18 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "98737f561a9d",
@@ -4660,6 +6902,12 @@
    "source": "OWASP London",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 51.507,
    "lng": -0.128,
    "firstSeen": "2026-11-24T00:32-05:00",
@@ -4729,13 +6977,13 @@
    "end": "2026-12-09T13:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -4747,10 +6995,18 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-23T17:03-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "860466f8789e",
@@ -4805,6 +7061,12 @@
    "source": "AICamp NYC",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 12,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-16T15:30-05:00",
    "seq": 1,
    "changes": [
@@ -4837,6 +7099,12 @@
    "source": "AICamp NYC",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.713,
    "lng": -74.006,
    "firstSeen": "2026-11-26T15:58-05:00",
@@ -4849,13 +7117,13 @@
    "end": "2026-12-09T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -4866,10 +7134,18 @@
    "source": "Cover6 Community Atlanta",
    "status": "listed",
    "cancelReason": null,
-   "lat": 33.754,
-   "lng": -84.39,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "b2c04097f8e5",
@@ -4896,6 +7172,12 @@
    "source": "OWASP Twin Cities",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 10,
+    "max": 35,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 44.977,
    "lng": -93.265,
    "firstSeen": "2026-11-21T12:35-05:00",
@@ -4925,6 +7207,12 @@
    "source": "Space Coast Sec (FL)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 28.079,
    "lng": -80.608,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -5098,6 +7386,12 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -5128,10 +7422,88 @@
    "source": "Bay Area OWASP",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 49,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 37.788,
    "lng": -122.408,
    "firstSeen": "2026-11-15T17:32-05:00",
    "seq": 1
+  },
+  {
+   "id": "e059f16dfaa2",
+   "title": "OWASP Maine 2026 Holiday Party and Networking Event!",
+   "start": "2026-12-10T17:30-05:00",
+   "end": "2026-12-10T19:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "ME",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-maine/events/317373812/",
+   "about": "OWASP Portland, Maine Thursday 12/10/26 Save the date!! OWASP Maine's annual holiday party! We want to get all the AppSec and security-minded Software Engineers and DevOps team members together for some drinks and…",
+   "source": "OWASP Portland, Maine",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 18,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 43.657,
+   "lng": -70.259,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "39c37757ef5b",
+   "title": "Las Vegas Cybersecurity Meetup [Dec 2026] | BurbsecVegas",
+   "start": "2026-12-10T17:30-08:00",
+   "end": "2026-12-10T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Las Vegas",
+   "country": "United States",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/burbsecvegas/events/317247558/",
+   "about": "Las Vegas Cybersecurity Meetup BurbsecVegas Join us for the Las Vegas Cybersecurity Meetup. ALWAYS THE 2ND THURSDAY OF EVERY MONTH! Whether you work in cybersecurity, IT, networking, cloud, or are simply interested in…",
+   "source": "Las Vegas Cybersecurity Meetup | BurbsecVegas",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 14,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 36.167,
+   "lng": -115.148,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
   },
   {
    "id": "a2299449d1ae",
@@ -5157,9 +7529,52 @@
    "source": "South Florida ISSA",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 9,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 26.122,
    "lng": -80.143,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "49839b7d8f3e",
+   "title": "The System, the Attacker, and the Defender - RVAsec Deep Dive - December",
+   "start": "2026-12-10T18:00-05:00",
+   "end": "2026-12-10T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Richmond",
+   "country": "United States",
+   "metro": "Richmond",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rvasec/events/315297026/",
+   "about": "RVAsec Security Community You must be registered to attend this event. Summary: Last month was a blue team night. This month we're looking at both sides: the relationship between attackers and defenders, the limits of…",
+   "source": "RVAsec Security Community",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 14,
+    "max": 40,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.539,
+   "lng": -77.434,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5186,6 +7601,12 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -5215,9 +7636,120 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "61f53b631277",
+   "title": "Open Hack Night",
+   "start": "2026-12-10T18:30-05:00",
+   "end": "2026-12-10T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/317519976/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "73437c4f560b",
+   "title": "Hack Manhattan Open House",
+   "start": "2026-12-10T19:00-05:00",
+   "end": "2026-12-10T22:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/317520264/",
+   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b9b3b1e74aa7",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-10T19:00-05:00",
+   "end": "2026-12-10T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/317520663/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5227,13 +7759,13 @@
    "end": "2026-12-10T21:00+05:30",
    "allDay": false,
    "tz": "Asia/Kolkata",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Bangalore",
-   "country": "India",
-   "metro": "Bangalore",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
    "state": "",
-   "format": "In person",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -5245,10 +7777,18 @@
    "source": "Bangalore Cyber Security",
    "status": "listed",
    "cancelReason": null,
-   "lat": 12.977,
-   "lng": 77.59,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T17:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "f117399e656c",
@@ -5418,9 +7958,52 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6fc92a6ea212",
+   "title": "🍕 CYBERLUNCH 🔐 - DECEMBER 2026",
+   "start": "2026-12-11T12:00-06:00",
+   "end": "2026-12-11T13:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Round Rock",
+   "country": "United States",
+   "metro": "Round Rock",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cyberlunch/events/313463914/",
+   "about": "CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real…",
+   "source": "CYBERLUNCH",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 16,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 30.509,
+   "lng": -97.679,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5448,6 +8031,12 @@
    "source": "ISSA Hampton Roads",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 36.85,
    "lng": -75.976,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -5506,6 +8095,12 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 10,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -5535,6 +8130,12 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-22T12:50-05:00",
@@ -5565,9 +8166,85 @@
    "source": "Div0 Singapore",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 1.29,
    "lng": 103.852,
    "firstSeen": "2026-11-25T12:45-05:00",
+   "seq": 0
+  },
+  {
+   "id": "dc6fa3d1c3dd",
+   "title": "IndyAWS @ Indy Hackers Holiday Social - 2026",
+   "start": "2026-12-12T19:00-05:00",
+   "end": "2026-12-12T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Indianapolis",
+   "country": "United States",
+   "metro": "Indianapolis",
+   "state": "IN",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/indyaws/events/314436825/",
+   "about": "IndyAWS Join IndyAWS @ Indy Hackers as we celebrate the holidays with other user groups from the Indy area! Register here: Overview Indy Hacker's largest event of the year brings everyone together for a night of…",
+   "source": "IndyAWS",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 39.768,
+   "lng": -86.158,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f21d38320678",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2026-12-13T09:30-05:00",
+   "end": "2026-12-13T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/317551090/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5624,9 +8301,50 @@
    "source": "OWASP Israel",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 32.085,
    "lng": 34.782,
    "firstSeen": "2026-11-26T17:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "bade3ebd3420",
+   "title": "6th Annual End Of Year Tech Meetup Extravaganza",
+   "start": "2026-12-14T17:00-05:00",
+   "end": "2026-12-14T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Tampa",
+   "country": "United States",
+   "metro": "Tampa",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/tampa-cybersecurity-training/events/317076142/",
+   "about": "Tampa Cybersecurity Training Tampa Bay's tech community has plenty to celebrate! The 6th Annual End Of Year Tech Meetup Extravaganza brings together local tech Meetup groups, professionals, and enthusiasts for an…",
+   "source": "Tampa Cybersecurity Training",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 13,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 27.945,
+   "lng": -82.458,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5654,6 +8372,12 @@
    "source": "AWS Atlanta",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 30,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-18T13:52-05:00",
@@ -5683,9 +8407,50 @@
    "source": "We Protect PHX",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.448,
    "lng": -112.074,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b69f430652ea",
+   "title": "NoVA Hackers December Meeting",
+   "start": "2026-12-14T18:30-05:00",
+   "end": "2026-12-14T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "2310 Colts Neck Rd",
+   "online": false,
+   "city": "Reston",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/nova-hackers/events/316970127/",
+   "about": "NoVA Hackers Inflow 6:00 PM - Talks Start \\~6:30 PM Reston Community Center - 2310 Colts Neck Rd, Reston, VA 20191 NoVA Hackers is a group located in the Northern Virginia area and is made up of Information Security…",
+   "source": "NoVA Hackers",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 11,
+    "max": 85,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.959,
+   "lng": -77.359,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -5712,6 +8477,12 @@
    "source": "Div0 Singapore",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 11,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 1.29,
    "lng": 103.852,
    "firstSeen": "2026-11-18T21:49-05:00",
@@ -5724,13 +8495,13 @@
    "end": "2026-12-14T20:30-06:00",
    "allDay": false,
    "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Madison",
-   "country": "United States",
-   "metro": "Madison",
-   "state": "WI",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -5741,10 +8512,18 @@
    "source": "DCG Madison",
    "status": "listed",
    "cancelReason": null,
-   "lat": 43.075,
-   "lng": -89.384,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-24T23:36-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "f4ca16c6841e",
@@ -5753,13 +8532,13 @@
    "end": "2026-12-15T11:00-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -5772,10 +8551,18 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "title": "Microsoft workshop: Defender for Cloud posture management",
@@ -5812,13 +8599,13 @@
    "end": "2026-12-15T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -5831,10 +8618,18 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T13:52-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "d641c1caac8c",
@@ -5948,6 +8743,12 @@
    "source": "CSA Las Vegas",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 66,
+    "max": 90,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 36.167,
    "lng": -115.148,
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -6005,6 +8806,12 @@
    "source": "ISSA Hampton Roads",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 36.85,
    "lng": -75.976,
    "firstSeen": "2026-11-25T22:46-05:00",
@@ -6064,6 +8871,12 @@
    "source": "ISSA Los Angeles",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 34.054,
    "lng": -118.243,
    "firstSeen": "2026-11-18T21:49-05:00",
@@ -6094,6 +8907,12 @@
    "source": "BlackHack Society Atlanta",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 7,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
@@ -6106,13 +8925,13 @@
    "end": "2026-12-15T22:00-05:00",
    "allDay": false,
    "tz": "America/Toronto",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Toronto",
-   "country": "Canada",
-   "metro": "Toronto",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
    "state": "",
-   "format": "In person",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber",
@@ -6124,10 +8943,18 @@
    "source": "Hack The Box Toronto",
    "status": "listed",
    "cancelReason": null,
-   "lat": 43.653,
-   "lng": -79.384,
+   "rsvp": {
+    "going": 29,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T17:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "title": "Cybersecurity Summit: GRC (virtual)",
@@ -6162,13 +8989,13 @@
    "end": "2026-12-16T10:30-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -6180,10 +9007,18 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "86321fbc6c3c",
@@ -6192,13 +9027,13 @@
    "end": "2026-12-16T13:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -6210,10 +9045,18 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1
+   "seq": 2,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "87f74fdc2a89",
@@ -6296,6 +9139,12 @@
    "source": "Dub|Sec",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 19,
+    "max": 50,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 53.349,
    "lng": -6.261,
    "firstSeen": "2026-11-26T17:15-05:00",
@@ -6308,13 +9157,13 @@
    "end": "2026-12-16T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber",
@@ -6326,9 +9175,52 @@
    "source": "Cover6 Community Atlanta",
    "status": "listed",
    "cancelReason": null,
-   "lat": 33.754,
-   "lng": -84.39,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T21:49-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "bc038b8c1429",
+   "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+   "start": "2026-12-16T18:00-05:00",
+   "end": "2026-12-16T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Virginia Beach",
+   "country": "United States",
+   "metro": "Virginia Beach",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/issa-hampton-roads/events/317599540/",
+   "about": "Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests.…",
+   "source": "ISSA Hampton Roads",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 36.85,
+   "lng": -75.976,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -6353,11 +9245,82 @@
    "url": "https://www.meetup.com/issa-hampton-roads/events/fqwmbvyjcqbvb/",
    "about": "Information Systems Security Association ISSA Hampton Roads Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests.…",
    "source": "ISSA Hampton Roads",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "lat": 36.85,
    "lng": -75.976,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 1,
+   "cancelledAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "ef7159455380",
+   "title": "ISC2 Joint Holiday Party and Fall Meeting sponsored by Cloudflare",
+   "start": "2026-12-16T18:00-05:00",
+   "end": "2026-12-16T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/isc-pittsburgh-chapter/events/317513252/",
+   "about": "ISC2 Pittsburgh Chapter Join ISC2 for its annual Holiday Party at Hacker’s Guild. The party is sponsored by Cloudflare.",
+   "source": "ISC2 Pittsburgh Chapter",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 9,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "14fdcb04a52a",
+   "title": "San Diego Cyber Group Meetup (December 2026 event)",
+   "start": "2026-12-16T18:00-08:00",
+   "end": "2026-12-16T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/san-diego-cyber-meetup/events/317332345/",
+   "about": "San Diego Cyber Group This is a fun meetup for the San Diego cyber community. Hosted by David Spark of the CISO Series. We'll have conversations about cyber, a few silly games, and a guided discussion. We're open to…",
+   "source": "San Diego Cyber Group",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 31,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -6384,6 +9347,12 @@
    "source": "NashSec (Nashville)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 36.162,
    "lng": -86.774,
    "firstSeen": "2026-11-18T21:49-05:00",
@@ -6449,13 +9418,13 @@
    "end": "2026-12-17T11:00-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "it"
@@ -6466,10 +9435,18 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 5,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
   },
   {
    "id": "fa87929cd955",
@@ -6478,13 +9455,13 @@
    "end": "2026-12-17T14:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "it"
@@ -6495,9 +9472,52 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-18T13:52-05:00",
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-26T18:15-05:00"
+  },
+  {
+   "id": "119f4c3c0404",
+   "title": "RVAsec Monthly Meeting - December",
+   "start": "2026-12-17T17:00-05:00",
+   "end": "2026-12-17T20:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Richmond",
+   "country": "United States",
+   "metro": "Richmond",
+   "state": "VA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rvasec/events/312117162/",
+   "about": "RVAsec Security Community RVAsec Monthly is Richmond's unparalleled networking event for security professionals and anyone looking to break into the industry. Come by our relaxed meetings and socialize with others in…",
+   "source": "RVAsec Security Community",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.539,
+   "lng": -77.434,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -6527,6 +9547,181 @@
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-17T14:12-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7002dc22bf3f",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2026-12-17T18:00-08:00",
+   "end": "2026-12-17T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/317332271/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "331e574bc302",
+   "title": "Monthly Meeting",
+   "start": "2026-12-17T18:00-08:00",
+   "end": "2026-12-17T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/315707457/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "38c429875cc9",
+   "title": "CiNPA - Security SIG",
+   "start": "2026-12-17T18:30-05:00",
+   "end": "2026-12-17T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Cincinnati",
+   "country": "United States",
+   "metro": "Cincinnati",
+   "state": "OH",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/techlife-cincinnati/events/315297851/",
+   "about": "TechLife Cincinnati Meeting Topic: Speaker: Daniel Schaupner Please stay tuned and check back later for our meeting topic(s) and speaker(s) announcement. About Us: The CiNPA Security SIG is the Cincinnati Networking…",
+   "source": "TechLife Cincinnati",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.101,
+   "lng": -84.513,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "41948ac466e4",
+   "title": "Open Hack Night",
+   "start": "2026-12-17T18:30-05:00",
+   "end": "2026-12-17T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvyjcqbwb/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "733de242397a",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-17T19:00-05:00",
+   "end": "2026-12-17T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/szjzwtyjcqbwb/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "26668c08a91a",
+   "title": "hack the box meetup!",
+   "start": "2026-12-17T19:00-07:00",
+   "end": "2026-12-17T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/316605726/",
+   "about": "801 LABS yes. hack. robot. Grab your caffeine and fire up your VMs! This is our monthly meetup under the HTB enterprise license to learn how to run exploits, bypass defenses, and pop shells together. Whether you are…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -6678,6 +9873,64 @@
    "seq": 0
   },
   {
+   "id": "cc5c3b51b640",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2026-12-20T09:30-05:00",
+   "end": "2026-12-20T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslyjcqbbc/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "52c213a16fa7",
+   "title": "Intro to 3D Printing",
+   "start": "2026-12-20T13:00-05:00",
+   "end": "2026-12-20T15:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "2247 Babcock Blvd",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/317054246/",
+   "about": "Hackers Guild New to 3D printing? This session walks through how the Guild's printers work, how a digital model becomes a physical object (slicing, materials, settings), and what to know before your first print.…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "a706c082ba03",
    "title": "DC608 Coding Night",
    "start": "2026-12-21T19:30-06:00",
@@ -6824,6 +10077,64 @@
    "seq": 0
   },
   {
+   "id": "05b69560e575",
+   "title": "Open Hack Night",
+   "start": "2026-12-24T18:30-05:00",
+   "end": "2026-12-24T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvyjcqbgc/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ddc559b7bf95",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-24T19:00-05:00",
+   "end": "2026-12-24T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/szjzwtyjcqbgc/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "4b56132467ac",
    "title": "Study Hall / Work on CTFs",
    "start": "2026-12-26T11:00-05:00",
@@ -6881,6 +10192,35 @@
    "seq": 0
   },
   {
+   "id": "e8b8c56626bb",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2026-12-27T09:30-05:00",
+   "end": "2026-12-27T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslyjcqbkc/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "e80297f81f81",
    "title": "DC608 Coding Night",
    "start": "2026-12-28T19:30-06:00",
@@ -6935,6 +10275,64 @@
    "lat": 40.653,
    "lng": -73.95,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "5807f7ff20c9",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2026-12-29T18:30-08:00",
+   "end": "2026-12-29T22:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/317288344/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a42ded365c07",
+   "title": "Open Hack Night",
+   "start": "2026-12-31T18:30-05:00",
+   "end": "2026-12-31T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvyjcqbpc/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -7388,6 +10786,35 @@
    "seq": 0
   },
   {
+   "id": "44825b9742cd",
+   "title": "#2600 Meetup",
+   "start": "2027-01-01T18:00-07:00",
+   "end": "2027-01-01T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/mphzbvykccbcb/",
+   "about": "801 LABS 2600 is an old-school hacker 'zine that is released quarterly and has awesome in-depth content for the enthusiast among us. is the site, and you can find 2600 rooms in many places online. 2600 is one of the…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "274994734892",
    "title": "Fort Smith 2600",
    "start": "2027-01-01T19:00-05:00",
@@ -7469,6 +10896,122 @@
    "lat": 35.78,
    "lng": -78.639,
    "firstSeen": "2026-11-26T13:24-05:00",
+   "seq": 0
+  },
+  {
+   "id": "1d0c459b41dc",
+   "title": "ATX 2600",
+   "start": "2027-01-01T19:00-06:00",
+   "end": "2027-01-01T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/313486929/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "5f3fa5587eba",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2027-01-01T19:00-06:00",
+   "end": "2027-01-01T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/cpdkbvykccbcb/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "3c0469a3e529",
+   "title": "OC2600 | Hacker Social",
+   "start": "2027-01-01T19:00-08:00",
+   "end": "2027-01-01T23:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/317025785/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "4a4c1806c935",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2027-01-03T09:30-05:00",
+   "end": "2027-01-03T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslykccbfb/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -7618,6 +11161,36 @@
    "seq": 0
   },
   {
+   "id": "8e091bc55b8b",
+   "title": "CINPA Monthly Meeting",
+   "start": "2027-01-06T18:30-05:00",
+   "end": "2027-01-06T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Cincinnati",
+   "country": "United States",
+   "metro": "Cincinnati",
+   "state": "OH",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/techlife-cincinnati/events/wtrrptykccbjb/",
+   "about": "TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly…",
+   "source": "TechLife Cincinnati",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.101,
+   "lng": -84.513,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "75ac5122faad",
    "title": "SecDSM Monthly Meeting",
    "start": "2027-01-07T18:00-06:00",
@@ -7644,6 +11217,65 @@
    "lat": 41.564,
    "lng": -93.759,
    "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b010dba4d241",
+   "title": "Open Hack Night",
+   "start": "2027-01-07T18:30-05:00",
+   "end": "2027-01-07T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvykccbkb/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "56482b68c908",
+   "title": "HAHA - Meeting",
+   "start": "2027-01-07T19:00-06:00",
+   "end": "2027-01-07T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/317301122/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -7674,6 +11306,37 @@
    "lat": 12.977,
    "lng": 77.59,
    "firstSeen": "2026-11-26T17:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f0387e2ab40e",
+   "title": "🍕 CYBERLUNCH 🔐 - JANUARY 2027",
+   "start": "2027-01-08T12:00-06:00",
+   "end": "2027-01-08T13:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Round Rock",
+   "country": "United States",
+   "metro": "Round Rock",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cyberlunch/events/313463921/",
+   "about": "CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real…",
+   "source": "CYBERLUNCH",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.509,
+   "lng": -97.679,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -7731,6 +11394,35 @@
    "lat": 44.977,
    "lng": -93.265,
    "firstSeen": "2026-11-23T17:03-05:00",
+   "seq": 0
+  },
+  {
+   "id": "19dc65cf17e2",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2027-01-10T09:30-05:00",
+   "end": "2027-01-10T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslykccbnb/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -7905,6 +11597,65 @@
    "seq": 0
   },
   {
+   "id": "eb4829f29697",
+   "title": "Las Vegas Cybersecurity Meetup [Jan 2027] | BurbsecVegas",
+   "start": "2027-01-14T17:30-08:00",
+   "end": "2027-01-14T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Las Vegas",
+   "country": "United States",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/burbsecvegas/events/317255227/",
+   "about": "Las Vegas Cybersecurity Meetup BurbsecVegas Join us for the Las Vegas Cybersecurity Meetup. ALWAYS THE 2ND THURSDAY OF EVERY MONTH! Whether you work in cybersecurity, IT, networking, cloud, or are simply interested in…",
+   "source": "Las Vegas Cybersecurity Meetup | BurbsecVegas",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 36.167,
+   "lng": -115.148,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "39838ac06178",
+   "title": "Open Hack Night",
+   "start": "2027-01-14T18:30-05:00",
+   "end": "2027-01-14T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvykccbsb/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "4a68f8b9f50f",
    "title": "WiCyS Austin Affiliate | Monthly Social",
    "start": "2027-01-16T09:00-06:00",
@@ -7931,6 +11682,64 @@
    "lat": 30.265,
    "lng": -97.747,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "54596921a7f6",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2027-01-17T09:30-05:00",
+   "end": "2027-01-17T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslykccbwb/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "8ba612eb3137",
+   "title": "Intro to 3D Printing",
+   "start": "2027-01-17T13:00-05:00",
+   "end": "2027-01-17T15:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "2247 Babcock Blvd",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/jrtrbvykccbwb/",
+   "about": "Hackers Guild New to 3D printing? This session walks through how the Guild's printers work, how a digital model becomes a physical object (slicing, materials, settings), and what to know before your first print.…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -8251,6 +12060,123 @@
    "seq": 0
   },
   {
+   "id": "08fc85f3bbaf",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2027-01-21T18:00-08:00",
+   "end": "2027-01-21T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykccbcc/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "1216fad7305a",
+   "title": "Monthly Meeting",
+   "start": "2027-01-21T18:00-08:00",
+   "end": "2027-01-21T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526840/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "9a8d4061f76a",
+   "title": "CiNPA - Security SIG",
+   "start": "2027-01-21T18:30-05:00",
+   "end": "2027-01-21T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Cincinnati",
+   "country": "United States",
+   "metro": "Cincinnati",
+   "state": "OH",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/techlife-cincinnati/events/316997800/",
+   "about": "TechLife Cincinnati Meeting Topic: Speaker: William Ong Please stay tuned and check back later for our meeting topic(s) and speaker(s) announcement. About Us: The CiNPA Security SIG is the Cincinnati Networking…",
+   "source": "TechLife Cincinnati",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.101,
+   "lng": -84.513,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "945c05eb20c8",
+   "title": "hack the box meetup!",
+   "start": "2027-01-21T19:00-07:00",
+   "end": "2027-01-21T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/316605728/",
+   "about": "801 LABS yes. hack. robot. Grab your caffeine and fire up your VMs! This is our monthly meetup under the HTB enterprise license to learn how to run exploits, bypass defenses, and pop shells together. Whether you are…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "5836ea714f47",
    "title": "AI x Philosophy Series Session 1: Being Human in the Age of Intelligent Machines (w/ Johns Hopkins Human Capital Development Lab)",
    "start": "2027-01-21T23:00+00:00",
@@ -8367,6 +12293,35 @@
    "seq": 0
   },
   {
+   "id": "d9d57132f4f0",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2027-01-24T09:30-05:00",
+   "end": "2027-01-24T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslykccbgc/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "title": "Cybertech Global Tel Aviv 2027",
    "venue": "Expo Tel Aviv, Pavilion 2",
    "format": "In person",
@@ -8422,6 +12377,35 @@
    "lat": 43.075,
    "lng": -89.384,
    "firstSeen": "2026-11-24T00:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a11e3454ac05",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2027-01-26T18:30-08:00",
+   "end": "2027-01-26T22:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/317288345/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -8632,6 +12616,35 @@
    "cancelledAt": "2026-11-26T13:18-05:00"
   },
   {
+   "id": "cf2e7fee7f74",
+   "title": "First Discussion at Cafe Intermezzo (Dunwoody): The Apple FBI iPhone case",
+   "start": "2027-01-31T09:30-05:00",
+   "end": "2027-01-31T11:15-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Dunwoody",
+   "country": "United States",
+   "metro": "Dunwoody",
+   "state": "GA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atlanta-white-hat-hacking-the-acropolis-guard-meetup/events/mkrjslykccbpc/",
+   "about": "Atlanta White Hat Hacking, The Acropolis Guard Meetup Cafe Intermezzo off Ashford Dunwoody, across the street from Perimeter Mall, is accessible by MARTA (take the red-line to Dunwoody Station, walk through the mall…",
+   "source": "Atlanta White Hat Hacking, The Acropolis Guard Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.946,
+   "lng": -84.334,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "823d782447e8",
    "title": "3rd International Conference on Artificial Intelligence and Data Science",
    "start": "2027-02-01",
@@ -8803,6 +12816,36 @@
    "seq": 0
   },
   {
+   "id": "0062a4124e66",
+   "title": "CINPA Monthly Meeting",
+   "start": "2027-02-03T18:30-05:00",
+   "end": "2027-02-03T20:30-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Cincinnati",
+   "country": "United States",
+   "metro": "Cincinnati",
+   "state": "OH",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/techlife-cincinnati/events/wtrrptykcdbfb/",
+   "about": "TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly…",
+   "source": "TechLife Cincinnati",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 39.101,
+   "lng": -84.513,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "7b15d7b0ffd6",
    "title": "SecDSM Monthly Meeting",
    "start": "2027-02-04T18:00-06:00",
@@ -8829,6 +12872,36 @@
    "lat": 41.564,
    "lng": -93.759,
    "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "94e9b835f83e",
+   "title": "HAHA - Meeting",
+   "start": "2027-02-04T19:00-06:00",
+   "end": "2027-02-04T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcdbgb/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -9253,6 +13326,35 @@
    "seq": 0
   },
   {
+   "id": "9aac060909fb",
+   "title": "#2600 Meetup",
+   "start": "2027-02-05T18:00-07:00",
+   "end": "2027-02-05T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/mphzbvykcdbhb/",
+   "about": "801 LABS 2600 is an old-school hacker 'zine that is released quarterly and has awesome in-depth content for the enthusiast among us. is the site, and you can find 2600 rooms in many places online. 2600 is one of the…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "027796b85709",
    "title": "Fort Smith 2600",
    "start": "2027-02-05T19:00-05:00",
@@ -9334,6 +13436,93 @@
    "lat": 35.78,
    "lng": -78.639,
    "firstSeen": "2026-11-26T13:24-05:00",
+   "seq": 0
+  },
+  {
+   "id": "40ce4ca3a6bb",
+   "title": "ATX 2600",
+   "start": "2027-02-05T19:00-06:00",
+   "end": "2027-02-05T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/313486930/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6a24518adfbd",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2027-02-05T19:00-06:00",
+   "end": "2027-02-05T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/cpdkbvykcdbhb/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "c1e81067f178",
+   "title": "OC2600 | Hacker Social",
+   "start": "2027-02-05T19:00-08:00",
+   "end": "2027-02-05T23:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/317025786/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -9419,6 +13608,67 @@
    "lat": 52.373,
    "lng": 4.892,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a696690853f8",
+   "title": "Las Vegas Cybersecurity Meetup [Feb 2027] | BurbsecVegas",
+   "start": "2027-02-11T17:30-08:00",
+   "end": "2027-02-11T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Las Vegas",
+   "country": "United States",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/burbsecvegas/events/317256046/",
+   "about": "Las Vegas Cybersecurity Meetup BurbsecVegas Join us for the Las Vegas Cybersecurity Meetup. ALWAYS THE 2ND THURSDAY OF EVERY MONTH! Whether you work in cybersecurity, IT, networking, cloud, or are simply interested in…",
+   "source": "Las Vegas Cybersecurity Meetup | BurbsecVegas",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 36.167,
+   "lng": -115.148,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d5f30c042a31",
+   "title": "🍕 CYBERLUNCH 🔐 - FEBRUARY 2027",
+   "start": "2027-02-12T12:00-06:00",
+   "end": "2027-02-12T13:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Round Rock",
+   "country": "United States",
+   "metro": "Round Rock",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cyberlunch/events/313463935/",
+   "about": "CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real…",
+   "source": "CYBERLUNCH",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.509,
+   "lng": -97.679,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -9594,6 +13844,65 @@
    "seq": 0
   },
   {
+   "id": "4d7a48b8dd2b",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2027-02-18T18:00-08:00",
+   "end": "2027-02-18T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcdbxb/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "295aef17a917",
+   "title": "Monthly Meeting",
+   "start": "2027-02-18T18:00-08:00",
+   "end": "2027-02-18T20:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526843/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "91021f1da338",
    "title": "AI Builders Miami - Feb 18",
    "start": "2027-02-18T23:00+00:00",
@@ -9677,6 +13986,35 @@
    "lat": 40.758,
    "lng": -73.986,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "9627acaad7ec",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2027-02-23T18:30-08:00",
+   "end": "2027-02-23T22:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/317288348/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -9935,6 +14273,36 @@
    "lat": 41.564,
    "lng": -93.759,
    "firstSeen": "2026-11-16T08:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6d718e909561",
+   "title": "HAHA - Meeting",
+   "start": "2027-03-04T19:00-06:00",
+   "end": "2027-03-04T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcfbgb/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -10359,6 +14727,35 @@
    "seq": 0
   },
   {
+   "id": "a69a7a033f7f",
+   "title": "#2600 Meetup",
+   "start": "2027-03-05T18:00-07:00",
+   "end": "2027-03-05T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Denver",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Salt Lake City",
+   "country": "United States",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/801labs/events/mphzbvykcfbhb/",
+   "about": "801 LABS 2600 is an old-school hacker 'zine that is released quarterly and has awesome in-depth content for the enthusiast among us. is the site, and you can find 2600 rooms in many places online. 2600 is one of the…",
+   "source": "801 LABS",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.76,
+   "lng": -111.887,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "4039cc6ab3a8",
    "title": "Fort Smith 2600",
    "start": "2027-03-05T19:00-05:00",
@@ -10443,6 +14840,93 @@
    "seq": 0
   },
   {
+   "id": "53ba29a5edb8",
+   "title": "ATX 2600",
+   "start": "2027-03-05T19:00-06:00",
+   "end": "2027-03-05T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/tppxtsykcfbhb/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b247d9fc3ae3",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2027-03-05T19:00-06:00",
+   "end": "2027-03-05T22:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/cpdkbvykcfbhb/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "f9ed4ad5d8e1",
+   "title": "OC2600 | Hacker Social",
+   "start": "2027-03-05T19:00-08:00",
+   "end": "2027-03-05T23:00-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/317025787/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "80955d65b065",
    "title": "Annual Global Summit on Artificial Intelligence and Machine Learning",
    "start": "2027-03-08",
@@ -10497,6 +14981,37 @@
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7a2a7c8614ed",
+   "title": "🍕 CYBERLUNCH 🔐 - MARCH 2027",
+   "start": "2027-03-12T12:00-06:00",
+   "end": "2027-03-12T13:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Round Rock",
+   "country": "United States",
+   "metro": "Round Rock",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/cyberlunch/events/313463940/",
+   "about": "CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real…",
+   "source": "CYBERLUNCH",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.509,
+   "lng": -97.679,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -10695,6 +15210,65 @@
    "lat": 25.265,
    "lng": 55.292,
    "firstSeen": "2026-11-16T23:11-05:00",
+   "seq": 0
+  },
+  {
+   "id": "71a2fb598e78",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2027-03-18T18:00-07:00",
+   "end": "2027-03-18T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcfbxb/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "8f6e109afd94",
+   "title": "Monthly Meeting",
+   "start": "2027-03-18T18:00-07:00",
+   "end": "2027-03-18T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcfbxb/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -10956,6 +15530,35 @@
    "seq": 0
   },
   {
+   "id": "95913210bf4b",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2027-03-30T18:30-07:00",
+   "end": "2027-03-30T22:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/317288353/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "7a37c7d72ad1",
    "title": "SCaLE",
    "start": "2027-04-01",
@@ -11009,6 +15612,36 @@
    "lat": 34.148,
    "lng": -118.144,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "d9dbc9bb6222",
+   "title": "HAHA - Meeting",
+   "start": "2027-04-01T19:00-05:00",
+   "end": "2027-04-01T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcgbcb/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -11545,6 +16178,93 @@
    "seq": 0
   },
   {
+   "id": "7355a41c79e3",
+   "title": "ATX 2600",
+   "start": "2027-04-02T19:00-05:00",
+   "end": "2027-04-02T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/tppxtsykcgbdb/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "e4746876115b",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2027-04-02T19:00-05:00",
+   "end": "2027-04-02T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/cpdkbvykcgbdb/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "1860a6cf7e19",
+   "title": "OC2600 | Hacker Social",
+   "start": "2027-04-02T19:00-07:00",
+   "end": "2027-04-02T23:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/317025788/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "fa2ba6091da0",
    "title": "OWASP BASC 2027",
    "start": "2027-04-03",
@@ -11743,6 +16463,65 @@
    "seq": 0
   },
   {
+   "id": "f3434dd78c2d",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2027-04-15T18:00-07:00",
+   "end": "2027-04-15T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcgbtb/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0e8bcbd2f6f0",
+   "title": "Monthly Meeting",
+   "start": "2027-04-15T18:00-07:00",
+   "end": "2027-04-15T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcgbtb/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "2386af22359d",
    "title": "NYSEC",
    "start": "2027-04-20T18:00-04:00",
@@ -11826,6 +16605,35 @@
    "lat": 41.893,
    "lng": 12.483,
    "firstSeen": "2026-11-15T12:04-05:00",
+   "seq": 0
+  },
+  {
+   "id": "393b78d48bee",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2027-04-27T18:30-07:00",
+   "end": "2027-04-27T22:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/317288356/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -11941,6 +16749,36 @@
    "lat": 40.692,
    "lng": -75.21,
    "firstSeen": "2026-11-15T17:32-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b45de1f87cb7",
+   "title": "HAHA - Meeting",
+   "start": "2027-05-06T19:00-05:00",
+   "end": "2027-05-06T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Houston",
+   "country": "United States",
+   "metro": "Houston",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/houston-area-hackers-association/events/qflhwtykchbjb/",
+   "about": "Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know, this is a spawn of the AHA group in Austin. As such, this will be pretty similar, but local to…",
+   "source": "Houston Area Hackers Anonymous",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 29.759,
+   "lng": -95.368,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -12420,6 +17258,93 @@
    "seq": 0
   },
   {
+   "id": "a5e16c131c34",
+   "title": "ATX 2600",
+   "start": "2027-05-07T19:00-05:00",
+   "end": "2027-05-07T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Austin",
+   "country": "United States",
+   "metro": "Austin",
+   "state": "TX",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/atx-2600/events/tppxtsykchbkb/",
+   "about": "ATX 2600 Hack the Planet!",
+   "source": "ATX 2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 30.265,
+   "lng": -97.747,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "cd612cbb7085",
+   "title": "dc414 - Public Hacker Meetup",
+   "start": "2027-05-07T19:00-05:00",
+   "end": "2027-05-07T22:00-05:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "West Allis",
+   "country": "United States",
+   "metro": "West Allis",
+   "state": "WI",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/dc414group/events/cpdkbvykchbkb/",
+   "about": "dc414 Come join us and connect with your fellow hackers at our monthly dc414 meeting. Food and drink available at the bar, and is welcome in the meeting. For more details visit dc414.org ( or email info@dc414.org \\-\\…",
+   "source": "dc414",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 43.017,
+   "lng": -88.007,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "a846cf264c70",
+   "title": "OC2600 | Hacker Social",
+   "start": "2027-05-07T19:00-07:00",
+   "end": "2027-05-07T23:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Fullerton",
+   "country": "United States",
+   "metro": "Fullerton",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/oc2600/events/svpgktykchbkb/",
+   "about": "OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups, we help each other by sharing our knowledge with others! We…",
+   "source": "OC2600",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.871,
+   "lng": -117.929,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "f4ff98097444",
    "title": "Open Source Summit North America",
    "start": "2027-05-17",
@@ -12505,6 +17430,65 @@
    "seq": 0
   },
   {
+   "id": "31350b5a1c65",
+   "title": "Hardware Hacking Hands-On Workshop",
+   "start": "2027-05-20T18:00-07:00",
+   "end": "2027-05-20T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Seattle",
+   "country": "United States",
+   "metro": "Seattle",
+   "state": "WA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykchbbc/",
+   "about": "Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some…",
+   "source": "Symbol Crash: Proper Hacker Training",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 47.604,
+   "lng": -122.33,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eb8d0513d75a",
+   "title": "Monthly Meeting",
+   "start": "2027-05-20T18:00-07:00",
+   "end": "2027-05-20T20:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Diego",
+   "country": "United States",
+   "metro": "San Diego",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykchbbc/",
+   "about": "Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting",
+   "source": "Open Web Application Security Project San Diego (OWASP-SD)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 32.716,
+   "lng": -117.164,
+   "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
    "id": "02fc02acbccd",
    "title": "DevOpsCon San Diego",
    "start": "2027-05-24",
@@ -12530,6 +17514,35 @@
    "lat": 32.716,
    "lng": -117.164,
    "firstSeen": "2026-11-25T12:45-05:00",
+   "seq": 0
+  },
+  {
+   "id": "ed50c22adb9e",
+   "title": "RainSec - PDX Information Security Meetup",
+   "start": "2027-05-25T18:30-07:00",
+   "end": "2027-05-25T22:00-07:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Portland",
+   "country": "United States",
+   "metro": "Portland",
+   "state": "OR",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/rainsec/events/gkvtktykchbhc/",
+   "about": "RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work, non-vendor setting. While our target…",
+   "source": "RainSec - PDX Information Security Meetup",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 45.52,
+   "lng": -122.674,
+   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   }
  ]

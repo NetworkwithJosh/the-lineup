@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:75fbfc828f23@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:New Year\, New Bot - Build Its AI Brain with .NET and Aspire
-LOCATION:Location on listing\, New York\, United States
+LOCATION:Online
 DESCRIPTION:Microsoft Reactor New York Build the bot's AI brain with a .NET backend orchestrated through .NET Aspire. Connect the backend to the StackChan from Episode 1\, add the services and observability needed for local… https://www.meetup.com/microsoft-reactor-new-york/events/317164431/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/microsoft-reactor-new-york/events/317164431/

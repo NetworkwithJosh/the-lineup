@@ -7,44 +7,56 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:960c7292acd6@the-lineup
-DTSTAMP:20261126T221633Z
+UID:7941beab8906@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261201T130000Z
-DTEND:20261201T140000Z
-SUMMARY:Seguridad\, Gobernanza y Resolución de Problemas para DevOps en Power Platform
+DTSTART:20261127T000000Z
+DTEND:20261127T030000Z
+SUMMARY:Hack Manhattan Open House
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York La sesión final presentará las mejores prácticas empresariales para operar Power Platform y Azure DevOps de forma segura y consistente. Se abordarán temas como los service principals\, la… https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317320232/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/316417529/
+URL:https://www.meetup.com/hackmanhattan/events/317320232/
 END:VEVENT
 BEGIN:VEVENT
-UID:abc39a117fa9@the-lineup
-DTSTAMP:20261126T221633Z
+UID:563a62f994b5@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261201T133000Z
-DTEND:20261201T143000Z
-SUMMARY:FrontierX – Intro
+DTSTART:20261128T230000Z
+DTEND:20261129T000000Z
+SUMMARY:NYC Red Team Study Group!
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York Introducing the FrontierX Series! What is the FrontierX Series\, who is it for\, and how can you get started building with AI? This series is designed for developers\, architects\, technology… https://www.meetup.com/microsoft-reactor-new-york/events/317173812/
+DESCRIPTION:Hack Manhattan Hey there! We're kicking off a bi-weekly Ethical Red Team Study Group every Saturday for anyone stoked about diving into the world of cybersecurity and red teaming. This is a chill\, collaborative space… https://www.meetup.com/hackmanhattan/events/316229051/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/317173812/
+URL:https://www.meetup.com/hackmanhattan/events/316229051/
 END:VEVENT
 BEGIN:VEVENT
-UID:75fbfc828f23@the-lineup
-DTSTAMP:20261126T221633Z
+UID:5a0a7818dff0@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261201T180000Z
-DTEND:20261201T190000Z
-SUMMARY:New Year\, New Bot - Build Its AI Brain with .NET and Aspire
+DTSTART:20261129T190000Z
+DTEND:20261129T220000Z
+SUMMARY:Open Source System Administration Study Group
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York Build the bot's AI brain with a .NET backend orchestrated through .NET Aspire. Connect the backend to the StackChan from Episode 1\, add the services and observability needed for local… https://www.meetup.com/microsoft-reactor-new-york/events/317164431/
+DESCRIPTION:Hack Manhattan This group will learn about system administration topics with hands-on collaborative learning on a homelab setup of four Dell servers. A description of this session's plan in down below. We’ll deploy… https://www.meetup.com/hackmanhattan/events/316952666/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/317164431/
+URL:https://www.meetup.com/hackmanhattan/events/316952666/
+END:VEVENT
+BEGIN:VEVENT
+UID:ca10ff6a57b4@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261130T000000Z
+DTEND:20261130T020000Z
+SUMMARY:Locksport Workshop
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan A lockpicking workshop with tools provided from The Open Organisation Of Lockpickers\, or TOOOL. Taught by a member at Hack Manhattan. https://www.meetup.com/hackmanhattan/events/317079133/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/317079133/
 END:VEVENT
 BEGIN:VEVENT
 UID:f8601a75ea38@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261201T230000Z
 DTEND:20261202T013000Z
@@ -55,32 +67,32 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
-UID:0d6f01c3874c@the-lineup
-DTSTAMP:20261126T221633Z
+UID:1206bac7da54@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261202T010000Z
-DTEND:20261202T020000Z
-SUMMARY:What the Heck Is Fabric IQ?
+DTSTART:20261202T000000Z
+DTEND:20261202T030000Z
+SUMMARY:Hack Manhattan Open House
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York ACFabric IQ sounds important\, but what is it actually doing? We’ll break down how it uses business context to help AI understand your data\, how Copilot fits in\, and what grounded answers could… https://www.meetup.com/microsoft-reactor-new-york/events/317103652/
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317389053/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/317103652/
+URL:https://www.meetup.com/hackmanhattan/events/317389053/
 END:VEVENT
 BEGIN:VEVENT
-UID:ebcf544cca76@the-lineup
-DTSTAMP:20261126T221633Z
+UID:8a3d4e4bd955@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261202T150000Z
-DTEND:20261202T160000Z
-SUMMARY:Replacing Azure Communication Services Without Rebuilding Your Application
+DTSTART:20261203T000000Z
+DTEND:20261203T020000Z
+SUMMARY:An Intro to Soldering
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York In this webinar\, you'll learn what Infobip and Microsoft have prepared to make your ACS migration smooth - from signup and onboarding with Infobip\, to configuring your connection points back… https://www.meetup.com/microsoft-reactor-new-york/events/317129740/
+DESCRIPTION:Hack Manhattan Welcome to our soldering basics class! This class is for beginners and designed to teach you a few important fundamentals on soldering\, an essential skill for anyone interested in electronics or DIY… https://www.meetup.com/hackmanhattan/events/316857712/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/317129740/
+URL:https://www.meetup.com/hackmanhattan/events/316857712/
 END:VEVENT
 BEGIN:VEVENT
 UID:2740ef290084@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261203T140000Z
 DTEND:20261203T220000Z
@@ -92,7 +104,7 @@ URL:https://www.meetup.com/aittg-nyc/events/317479236/
 END:VEVENT
 BEGIN:VEVENT
 UID:7c83815bc126@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261203T150000Z
 DTEND:20261203T170000Z
@@ -103,44 +115,20 @@ STATUS:CONFIRMED
 URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
-UID:ab61f4dc3ebc@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:2
-DTSTART:20261203T170000Z
-DTEND:20261203T180000Z
-SUMMARY:.NET + Foundry\, better together
-LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities\, cool projects\, and the latest… https://www.meetup.com/microsoft-reactor-new-york/events/316696251/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/316696251/
-END:VEVENT
-BEGIN:VEVENT
-UID:3e99aac4d3a8@the-lineup
-DTSTAMP:20261126T221633Z
+UID:28bc8f80dd9d@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261204T170000Z
-DTEND:20261204T180000Z
-SUMMARY:Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:Hack Manhattan Open House
 LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:NYC AI Developers Group Important : Register on the event website to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event for our AI global community\, please double-check your… https://www.meetup.com/aittg-nyc/events/317412006/
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317422135/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/aittg-nyc/events/317412006/
-END:VEVENT
-BEGIN:VEVENT
-UID:10dbcddf87a6@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261204T210000Z
-DTEND:20261204T220000Z
-SUMMARY:Toma mejores decisiones con Copilot: de la información a la acción
-LOCATION:Location on listing\, New York\, United States
-DESCRIPTION:Microsoft Reactor New York En esta sesión práctica aprenderemos a utilizar Microsoft Copilot como apoyo para estructurar y analizar decisiones\, construyendo juntos un framework sencillo que nos permita evaluar… https://www.meetup.com/microsoft-reactor-new-york/events/316558049/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/microsoft-reactor-new-york/events/316558049/
+URL:https://www.meetup.com/hackmanhattan/events/317422135/
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c7d1c4012f@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261204T220000Z
 DTEND:20261205T000000Z
@@ -151,8 +139,32 @@ STATUS:CONFIRMED
 URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:671e250ef235@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261206T190000Z
+DTEND:20261206T220000Z
+SUMMARY:Open Source System Administration Study Group
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan This group will learn about system administration topics with hands-on collaborative learning on a homelab setup of four Dell servers. A description of this session's plan in down below. We’ll deploy… https://www.meetup.com/hackmanhattan/events/316952669/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/316952669/
+END:VEVENT
+BEGIN:VEVENT
+UID:116497664efc@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261209T000000Z
+DTEND:20261209T030000Z
+SUMMARY:Hack Manhattan Open House
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317079134/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/317079134/
+END:VEVENT
+BEGIN:VEVENT
 UID:42d682ac128d@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
@@ -164,7 +176,7 @@ URL:https://newyork.theaisummit.com/experience/travel-accommodation/
 END:VEVENT
 BEGIN:VEVENT
 UID:d468ed8716e3@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
@@ -176,7 +188,7 @@ URL:https://www.wicys.org/event/financial-services-ai-security-forum/
 END:VEVENT
 BEGIN:VEVENT
 UID:68493921ee06@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261209T223000Z
 DTEND:20261210T013000Z
@@ -187,8 +199,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/aittg-nyc/events/317598463/
 END:VEVENT
 BEGIN:VEVENT
+UID:73437c4f560b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T030000Z
+SUMMARY:Hack Manhattan Open House
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan Bring your latest project and connect with local makers\, creators\, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics\, programming or craftwork\, Hack… https://www.meetup.com/hackmanhattan/events/317520264/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/317520264/
+END:VEVENT
+BEGIN:VEVENT
 UID:f097e6155617@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261215T160000Z
 DTEND:20261215T180000Z
@@ -200,7 +224,7 @@ URL:https://developer.microsoft.com/en-us/reactor/
 END:VEVENT
 BEGIN:VEVENT
 UID:080d9ef15c05@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261215T230000Z
 DTEND:20261216T020000Z
@@ -212,7 +236,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:456e7a66eb2d@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261229T230000Z
 DTEND:20261230T020000Z
@@ -224,7 +248,7 @@ URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
 UID:84847f6ae751@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270101T220000Z
 DTEND:20270102T000000Z
@@ -236,7 +260,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:5067265cfe98@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270105T230000Z
 DTEND:20270106T013000Z
@@ -248,7 +272,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:b45b9a756717@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270119T230000Z
 DTEND:20270120T020000Z
@@ -260,7 +284,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:2898f8fc3904@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270202T230000Z
 DTEND:20270203T013000Z
@@ -272,7 +296,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:85ee7019b4f4@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270205T220000Z
 DTEND:20270206T000000Z
@@ -284,7 +308,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:cec3d13343b7@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270216T230000Z
 DTEND:20270217T020000Z
@@ -296,7 +320,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:5eb52e47fec8@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270223T130000Z
 DTEND:20270223T230000Z
@@ -308,7 +332,7 @@ URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
 UID:de025e1fa0e6@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270302T230000Z
 DTEND:20270303T013000Z
@@ -320,7 +344,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:122bc13d408e@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270305T220000Z
 DTEND:20270306T000000Z
@@ -332,7 +356,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:b10d274db372@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270316T220000Z
 DTEND:20270317T010000Z
@@ -344,7 +368,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:e3802e0ad281@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
@@ -356,7 +380,7 @@ URL:https://infosec-conferences.com/event/20270324-cloud-usa-conference/
 END:VEVENT
 BEGIN:VEVENT
 UID:6e2a12eac8c3@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270330T220000Z
 DTEND:20270331T010000Z
@@ -368,7 +392,7 @@ URL:https://securitycalendar.com/jersey-city-nj.html
 END:VEVENT
 BEGIN:VEVENT
 UID:7888204faddc@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270402T210000Z
 DTEND:20270402T230000Z
@@ -380,7 +404,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0cfb696a00@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270406T220000Z
 DTEND:20270407T003000Z
@@ -392,7 +416,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:2386af22359d@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270420T220000Z
 DTEND:20270421T010000Z
@@ -404,7 +428,7 @@ URL:https://sockpuppet.org/nysec
 END:VEVENT
 BEGIN:VEVENT
 UID:60e514317bcb@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270504T220000Z
 DTEND:20270505T003000Z
@@ -416,7 +440,7 @@ URL:https://developer.microsoft.com/en-us/reactor/series/S-1470
 END:VEVENT
 BEGIN:VEVENT
 UID:d61b38844700@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270507T210000Z
 DTEND:20270507T230000Z
@@ -428,7 +452,7 @@ URL:https://www.2600.com/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:5f5380f1abef@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270518T220000Z
 DTEND:20270519T010000Z

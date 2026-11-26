@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a8f1e8910b5e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T033000Z
+DTEND:20261201T053000Z
+SUMMARY:Mozzi On Arduino (Circuit Hacking Mondays)
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Mozzi is a library of audio functions that run on Arduino and ESP 32 microprocessors. Mozzi is a well documented collection of audio programs with example sketches\, detailed notes and a support… https://www.meetup.com/noisebridge/events/317172030/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317172030/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

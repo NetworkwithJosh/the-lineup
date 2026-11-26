@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c929ac90a9e9@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261208T150000Z
+DTEND:20261208T160000Z
+SUMMARY:Networking Intentionally: What Matters And Why
+LOCATION:Online
+DESCRIPTION:Tampa Cybersecurity Training Come hang out and learn how to build real connections that actually matter in your networking game. A bigger network doesn't always create bigger opportunities. Many professionals focus on… https://www.meetup.com/tampa-cybersecurity-training/events/317162750/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/tampa-cybersecurity-training/events/317162750/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

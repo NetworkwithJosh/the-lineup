@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:baff5d877d3b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261209T000000Z
+DTEND:20261209T020000Z
+SUMMARY:Building with AI: Elastic × AI Security Engineers
+LOCATION:Location on listing\, Chicago\, United States
+DESCRIPTION:AI Security Engineers - Chicago\, IL Join Elastic and the AI Security Engineers community on Tuesday\, December 8 for an evening of technical talks and networking with Chicago’s developer and security communities. Terry… https://www.meetup.com/aiseceng-chicago/events/317474248/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aiseceng-chicago/events/317474248/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

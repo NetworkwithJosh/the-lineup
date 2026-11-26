@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b9b3b1e74aa7@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T020000Z
+SUMMARY:Hardware Hacking Night
+LOCATION:Location on listing\, Washington\, United States
+DESCRIPTION:HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)… https://www.meetup.com/hac-dc/events/317520663/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hac-dc/events/317520663/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

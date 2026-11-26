@@ -7,20 +7,20 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:a1a354c86f2a@the-lineup
-DTSTAMP:20261126T221633Z
+UID:d3154f3854ee@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261201T190000Z
-DTEND:20261201T200000Z
-SUMMARY:PHX~CURRENTS
-LOCATION:Location on listing\, Phoenix\, United States
-DESCRIPTION:PROTECTPHX So\, you just discuss the tech news? Well\, yes. But we do this because there are benefits for our careers. Here are some of those benefits: Learn faster with real‑world context Cut through hype and focus on… https://www.meetup.com/protectphx/events/316780172/
+DTSTART:20261202T023000Z
+DTEND:20261202T040000Z
+SUMMARY:December 2026 Meeting
+LOCATION:Location on listing\, Mesa\, United States
+DESCRIPTION:OWASP Phoenix Chapter Beyond the Web App: What the OWASP Top 10 Means for SDKs (\\~30 min) The OWASP Top 10 is written primarily for web applications—but what does it mean when your product is an SDK embedded inside… https://www.meetup.com/owasp-phoenix-chapter/events/316852942/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/protectphx/events/316780172/
+URL:https://www.meetup.com/owasp-phoenix-chapter/events/316852942/
 END:VEVENT
 BEGIN:VEVENT
 UID:e1cebb2aa757@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261202T153000Z
 DTEND:20261202T183000Z
@@ -31,8 +31,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/event/evt-qUGv2h03rWXmX1F
 END:VEVENT
 BEGIN:VEVENT
+UID:fc345f810553@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261204T020000Z
+DTEND:20261204T043000Z
+SUMMARY:EVSec CitySec Meet-up: Security & Beer
+LOCATION:Location on listing\, Scottsdale\, United States
+DESCRIPTION:EVSec Do you work in the IT Industry and harbor a great interest and passion for Information Security? Are you interested in learning more about Network Security\, System hardening\, Penetration Testing\, Application… https://www.meetup.com/evsecaz/events/317079517/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/evsecaz/events/317079517/
+END:VEVENT
+BEGIN:VEVENT
 UID:63fe8f707af9@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261215T010000Z
 DTEND:20261215T023000Z
@@ -44,7 +56,7 @@ URL:https://www.meetup.com/protectphx/events/314852197/
 END:VEVENT
 BEGIN:VEVENT
 UID:5220f8923261@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270127T170000Z
 DTEND:20270127T210000Z

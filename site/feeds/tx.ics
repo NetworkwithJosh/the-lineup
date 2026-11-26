@@ -7,8 +7,56 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:a74bb82fe2a7@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T000000Z
+DTEND:20261202T020000Z
+SUMMARY:Women of Security: Last meetup of 2026!!
+LOCATION:Location on listing\, Plano\, United States
+DESCRIPTION:WoSEC Dallas: Women of Security Whether you are a seasoned professional\, a student exploring career options\, or simply interested in learning more about cybersecurity\, this meetup is for you. Don't miss the chance to be… https://www.meetup.com/wist-dallas-women-in-security-and-tech/events/317257870/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/wist-dallas-women-in-security-and-tech/events/317257870/
+END:VEVENT
+BEGIN:VEVENT
+UID:79272a36c139@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+SUMMARY:2026.12.02/0x0091
+LOCATION:Location on listing\, Dallas\, United States
+DESCRIPTION:Dallas Hackers Association DHA: We do not solicit vendors or speakers to present. This is a community driven event and you get out of it what you put into it. So what will you talk about this month? Firetalks: No more… https://www.meetup.com/dallas-hackers-association/events/317531585/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dallas-hackers-association/events/317531585/
+END:VEVENT
+BEGIN:VEVENT
+UID:3e8c80b922cc@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/317301089/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/317301089/
+END:VEVENT
+BEGIN:VEVENT
+UID:088229a35bde@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/313486927/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/313486927/
+END:VEVENT
+BEGIN:VEVENT
 UID:a87c5825f613@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261208T010000Z
 DTEND:20261208T040000Z
@@ -19,8 +67,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/dc512atx/events/317598910/
 END:VEVENT
 BEGIN:VEVENT
+UID:6fc92a6ea212@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261211T180000Z
+DTEND:20261211T193000Z
+SUMMARY:🍕 CYBERLUNCH 🔐 - DECEMBER 2026
+LOCATION:Location on listing\, Round Rock\, United States
+DESCRIPTION:CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual\, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real… https://www.meetup.com/cyberlunch/events/313463914/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cyberlunch/events/313463914/
+END:VEVENT
+BEGIN:VEVENT
 UID:5bce2a4ab826@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261219T150000Z
 DTEND:20261219T170000Z
@@ -31,8 +91,44 @@ STATUS:CONFIRMED
 URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2026-12-19/
 END:VEVENT
 BEGIN:VEVENT
+UID:1d0c459b41dc@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270102T010000Z
+DTEND:20270102T040000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/313486929/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/313486929/
+END:VEVENT
+BEGIN:VEVENT
+UID:56482b68c908@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270108T010000Z
+DTEND:20270108T040000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/317301122/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/317301122/
+END:VEVENT
+BEGIN:VEVENT
+UID:f0387e2ab40e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270108T180000Z
+DTEND:20270108T193000Z
+SUMMARY:🍕 CYBERLUNCH 🔐 - JANUARY 2027
+LOCATION:Location on listing\, Round Rock\, United States
+DESCRIPTION:CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual\, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real… https://www.meetup.com/cyberlunch/events/313463921/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cyberlunch/events/313463921/
+END:VEVENT
+BEGIN:VEVENT
 UID:4a68f8b9f50f@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270116T150000Z
 DTEND:20270116T170000Z
@@ -44,7 +140,7 @@ URL:https://www.wicys.org/event/wicys-austin-affiliate-monthly-social-3/2027-01-
 END:VEVENT
 BEGIN:VEVENT
 UID:d5f51ba8d997@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270120T170000Z
 DTEND:20270120T210000Z
@@ -56,7 +152,7 @@ URL:https://www.wicys.org/event/kodi-connect-cybersecurity-ciso-leadership-austi
 END:VEVENT
 BEGIN:VEVENT
 UID:22f200bd9796@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270127T230000Z
 DTEND:20270128T020000Z
@@ -65,5 +161,125 @@ LOCATION:823 Congress Ave\, Austin\, United States
 DESCRIPTION:AI Security Engineers - Austin\, TX Our first meetup of 2027 is a joint night with Elastic\, hosted at their office in downtown Austin. It’s Chapter Five for the Austin chapter. There are two talks\, one from each side… https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/ai-security-engineers-austin-tx/events/317472790/
+END:VEVENT
+BEGIN:VEVENT
+UID:94e9b835f83e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270205T010000Z
+DTEND:20270205T040000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcdbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcdbgb/
+END:VEVENT
+BEGIN:VEVENT
+UID:40ce4ca3a6bb@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270206T010000Z
+DTEND:20270206T040000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/313486930/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/313486930/
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f30c042a31@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270212T180000Z
+DTEND:20270212T193000Z
+SUMMARY:🍕 CYBERLUNCH 🔐 - FEBRUARY 2027
+LOCATION:Location on listing\, Round Rock\, United States
+DESCRIPTION:CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual\, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real… https://www.meetup.com/cyberlunch/events/313463935/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cyberlunch/events/313463935/
+END:VEVENT
+BEGIN:VEVENT
+UID:6d718e909561@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270305T010000Z
+DTEND:20270305T040000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcfbgb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcfbgb/
+END:VEVENT
+BEGIN:VEVENT
+UID:53ba29a5edb8@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270306T010000Z
+DTEND:20270306T040000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/tppxtsykcfbhb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/tppxtsykcfbhb/
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2a7c8614ed@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270312T180000Z
+DTEND:20270312T193000Z
+SUMMARY:🍕 CYBERLUNCH 🔐 - MARCH 2027
+LOCATION:Location on listing\, Round Rock\, United States
+DESCRIPTION:CYBERLUNCH 🍕 Welcome to CYBERLUNCH 🔐 CYBERLUNCH is a casual\, practitioner-focused cybersecurity meetup built around one simple idea: grab lunch and talk shop. No slides. No sales pitches. No formal agenda. Just real… https://www.meetup.com/cyberlunch/events/313463940/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cyberlunch/events/313463940/
+END:VEVENT
+BEGIN:VEVENT
+UID:d9dbc9bb6222@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270402T000000Z
+DTEND:20270402T030000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcgbcb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/qflhwtykcgbcb/
+END:VEVENT
+BEGIN:VEVENT
+UID:7355a41c79e3@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270403T000000Z
+DTEND:20270403T030000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/tppxtsykcgbdb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/tppxtsykcgbdb/
+END:VEVENT
+BEGIN:VEVENT
+UID:b45de1f87cb7@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270507T000000Z
+DTEND:20270507T030000Z
+SUMMARY:HAHA - Meeting
+LOCATION:Location on listing\, Houston\, United States
+DESCRIPTION:Houston Area Hackers Anonymous Welcome to another meeting of Houston Area's Hacker's Anonymous! For those that do not know\, this is a spawn of the AHA group in Austin. As such\, this will be pretty similar\, but local to… https://www.meetup.com/houston-area-hackers-association/events/qflhwtykchbjb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/houston-area-hackers-association/events/qflhwtykchbjb/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5e16c131c34@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270508T000000Z
+DTEND:20270508T030000Z
+SUMMARY:ATX 2600
+LOCATION:Location on listing\, Austin\, United States
+DESCRIPTION:ATX 2600 Hack the Planet! https://www.meetup.com/atx-2600/events/tppxtsykchbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/atx-2600/events/tppxtsykchbkb/
 END:VEVENT
 END:VCALENDAR

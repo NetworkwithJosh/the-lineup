@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb4829f29697@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270115T013000Z
+DTEND:20270115T043000Z
+SUMMARY:Las Vegas Cybersecurity Meetup [Jan 2027] | BurbsecVegas
+LOCATION:Location on listing\, Las Vegas\, United States
+DESCRIPTION:Las Vegas Cybersecurity Meetup BurbsecVegas Join us for the Las Vegas Cybersecurity Meetup. ALWAYS THE 2ND THURSDAY OF EVERY MONTH! Whether you work in cybersecurity\, IT\, networking\, cloud\, or are simply interested in… https://www.meetup.com/burbsecvegas/events/317255227/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/burbsecvegas/events/317255227/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

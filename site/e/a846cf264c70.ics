@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a846cf264c70@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270508T020000Z
+DTEND:20270508T060000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/svpgktykchbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/svpgktykchbkb/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

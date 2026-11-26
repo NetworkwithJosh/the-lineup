@@ -7,8 +7,68 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:5807f7ff20c9@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261230T023000Z
+DTEND:20261230T060000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288344/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288344/
+END:VEVENT
+BEGIN:VEVENT
+UID:a11e3454ac05@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270127T023000Z
+DTEND:20270127T060000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288345/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288345/
+END:VEVENT
+BEGIN:VEVENT
+UID:9627acaad7ec@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270224T023000Z
+DTEND:20270224T060000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288348/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288348/
+END:VEVENT
+BEGIN:VEVENT
+UID:95913210bf4b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270331T013000Z
+DTEND:20270331T050000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288353/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288353/
+END:VEVENT
+BEGIN:VEVENT
+UID:393b78d48bee@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270428T013000Z
+DTEND:20270428T050000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/317288356/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/317288356/
+END:VEVENT
+BEGIN:VEVENT
 UID:be4ab16553fe@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270507
@@ -17,5 +77,17 @@ LOCATION:Portland\, Portland\, United States
 DESCRIPTION:https://events.itrevolution.com/2027-portland/
 STATUS:CONFIRMED
 URL:https://events.itrevolution.com/2027-portland/
+END:VEVENT
+BEGIN:VEVENT
+UID:ed50c22adb9e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270526T013000Z
+DTEND:20270526T050000Z
+SUMMARY:RainSec - PDX Information Security Meetup
+LOCATION:Location on listing\, Portland\, United States
+DESCRIPTION:RainSec - PDX Information Security Meetup RainSec is an informal group of like-minded security professionals who meet to network and discuss topics of interest in a non-work\, non-vendor setting. While our target… https://www.meetup.com/rainsec/events/gkvtktykchbhc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rainsec/events/gkvtktykchbhc/
 END:VEVENT
 END:VCALENDAR

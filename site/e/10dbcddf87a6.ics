@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:10dbcddf87a6@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261204T210000Z
 DTEND:20261204T220000Z
 SUMMARY:Toma mejores decisiones con Copilot: de la información a la acción
-LOCATION:Location on listing\, New York\, United States
+LOCATION:Online
 DESCRIPTION:Microsoft Reactor New York En esta sesión práctica aprenderemos a utilizar Microsoft Copilot como apoyo para estructurar y analizar decisiones\, construyendo juntos un framework sencillo que nos permita evaluar… https://www.meetup.com/microsoft-reactor-new-york/events/316558049/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/microsoft-reactor-new-york/events/316558049/

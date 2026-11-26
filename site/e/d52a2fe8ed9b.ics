@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d52a2fe8ed9b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T030000Z
+DTEND:20261203T050000Z
+SUMMARY:Gamebridge Game Development Meetup
+LOCATION:272 Capp St\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace THE MEETUP IS HAPPENING IN PERSON AND ONLINE VIA STREAMING ON OUR DISCORD SERVER. ( IN THE "Church Classroom" CHANNEL. Learn to make games\, music and art in free beginner-friendly class meetups… https://www.meetup.com/noisebridge/events/317406561/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317406561/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

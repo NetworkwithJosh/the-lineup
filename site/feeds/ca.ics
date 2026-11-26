@@ -7,8 +7,80 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:f44534f2c80b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261127T040000Z
+DTEND:20261127T060000Z
+SUMMARY:Resident Electronics Monthly meetup!
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace A recurring electronic music open mic. Every 4th Thursday of the month at 8pm INSTAGRAM: YOUTUBE: Playlist and upcoming live FREE Hosts Franck Martin TanukiSpiderCat Sign up / further info at https://www.meetup.com/noisebridge/events/317323645/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317323645/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab1fa1c2eb86@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261129T220000Z
+DTEND:20261130T000000Z
+SUMMARY:Laser Cutter Safety Training
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Learn how to be safe while using the laser cutter! We have a 150W\, CO2 laser cutter with a 3 x 4 ft bed. This training is required to use the laser cutter because we don't want people setting our… https://www.meetup.com/noisebridge/events/317361756/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317361756/
+END:VEVENT
+BEGIN:VEVENT
+UID:f96308270079@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T020000Z
+DTEND:20261201T050000Z
+SUMMARY:Woodworking Workshop
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace -please read the whole updated description!- Come to work on your own projects and get some feedback from your fellow woodchucks. We have a planer\, drill presses\, hand tools\, a table saw\, and… https://www.meetup.com/noisebridge/events/317376551/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317376551/
+END:VEVENT
+BEGIN:VEVENT
+UID:b499ccf45027@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T030000Z
+DTEND:20261201T043000Z
+SUMMARY:All things software infrastructure
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Bring a laptop if you can. Meeting format: Introductions. Background & goals/interests for the meeting. Lesson or Demo Questions & Discussion Readings & Exercises\, for future meetings Find past… https://www.meetup.com/noisebridge/events/317324440/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317324440/
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f1e8910b5e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T033000Z
+DTEND:20261201T053000Z
+SUMMARY:Mozzi On Arduino (Circuit Hacking Mondays)
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Mozzi is a library of audio functions that run on Arduino and ESP 32 microprocessors. Mozzi is a well documented collection of audio programs with example sketches\, detailed notes and a support… https://www.meetup.com/noisebridge/events/317172030/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317172030/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccaa980fe278@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:Planet Cyber Sec AI Joint Holiday Party and Jeopardy Game
+LOCATION:Location on listing\, Culver City\, United States
+DESCRIPTION:AI\, Cybersecurity and IT Professionals HOLIDAY CELEBRATION 2026 Celebrate the season. Expand your network. Make your next great connection. Our Keynote Speaker will be Michael Wylie \, MBA\, CISSP\, an author\, adjunct… https://www.meetup.com/aicyberit/events/317428904/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/aicyberit/events/317428904/
+END:VEVENT
+BEGIN:VEVENT
 UID:8a135c4179cd@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261202T020000Z
 DTEND:20261202T043000Z
@@ -19,8 +91,92 @@ STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
+UID:06935f319bb3@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T020000Z
+DTEND:20261203T040000Z
+SUMMARY:Q4 San Diego Cybersecurity Mixer
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Cloud Security Alliance- San Diego Come and meet the local cyber security groups. Everyone's welcome. See you soon! https://www.meetup.com/cloud-security-alliance-san-diego/events/317571516/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cloud-security-alliance-san-diego/events/317571516/
+END:VEVENT
+BEGIN:VEVENT
+UID:d52a2fe8ed9b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T030000Z
+DTEND:20261203T050000Z
+SUMMARY:Gamebridge Game Development Meetup
+LOCATION:272 Capp St\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace THE MEETUP IS HAPPENING IN PERSON AND ONLINE VIA STREAMING ON OUR DISCORD SERVER. ( IN THE "Church Classroom" CHANNEL. Learn to make games\, music and art in free beginner-friendly class meetups… https://www.meetup.com/noisebridge/events/317406561/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317406561/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f114bab2e97@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T030000Z
+DTEND:20261205T070000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/317025783/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/317025783/
+END:VEVENT
+BEGIN:VEVENT
+UID:992ef1546fda@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T030000Z
+DTEND:20261205T075900Z
+SUMMARY:Showcase Showdown
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace WIKI: Showcase Showdown 2nd & 4th Fridays Showcase Showdown is an indie game showcase and fighting game tourney featuring Smash Melee competition. WHEN: 2 nd and 4th Fridays at Noisebridge at… https://www.meetup.com/noisebridge/events/317435904/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317435904/
+END:VEVENT
+BEGIN:VEVENT
+UID:c26a36cb2936@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+SUMMARY:Designing Interfaces for Musical Devices!
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Design and layout for musical electronic devices The topic is designing music electronics. Making your own guitar pedals\, synth modules\, or stand alone musical devices? Lets talk about where to… https://www.meetup.com/noisebridge/events/317532338/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317532338/
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c4d904c8b1@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261206T220000Z
+DTEND:20261207T000000Z
+SUMMARY:Laser Cutter Safety Training
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace Learn how to be safe while using the laser cutter! We have a 150W\, CO2 laser cutter with a 3 x 4 ft bed. This training is required to use the laser cutter because we don't want people setting our… https://www.meetup.com/noisebridge/events/317307970/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317307970/
+END:VEVENT
+BEGIN:VEVENT
+UID:2d3191f2fe67@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261208T020000Z
+DTEND:20261208T050000Z
+SUMMARY:Woodworking Workshop
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace -please read the whole updated description!- Come to work on your own projects and get some feedback from your fellow woodchucks. We have a planer\, drill presses\, hand tools\, a table saw\, and… https://www.meetup.com/noisebridge/events/317476580/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317476580/
+END:VEVENT
+BEGIN:VEVENT
 UID:aa075655ac68@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261210T013000Z
 DTEND:20261210T043000Z
@@ -32,7 +188,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7a8a2c5dba@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261210T020000Z
 DTEND:20261210T050000Z
@@ -44,7 +200,7 @@ URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:8ca98052d0b9@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:1
 DTSTART:20261211T010000Z
 DTEND:20261211T040000Z
@@ -56,7 +212,7 @@ URL:https://www.meetup.com/bay-area-owasp/events/317378254/
 END:VEVENT
 BEGIN:VEVENT
 UID:0a1b7d8475dc@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261216T020000Z
 DTEND:20261216T070000Z
@@ -67,8 +223,44 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/issa-la/events/317488452/
 END:VEVENT
 BEGIN:VEVENT
+UID:14fdcb04a52a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261217T020000Z
+DTEND:20261217T040000Z
+SUMMARY:San Diego Cyber Group Meetup (December 2026 event)
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:San Diego Cyber Group This is a fun meetup for the San Diego cyber community. Hosted by David Spark of the CISO Series. We'll have conversations about cyber\, a few silly games\, and a guided discussion. We're open to… https://www.meetup.com/san-diego-cyber-meetup/events/317332345/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/san-diego-cyber-meetup/events/317332345/
+END:VEVENT
+BEGIN:VEVENT
+UID:331e574bc302@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261218T020000Z
+DTEND:20261218T040000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/315707457/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/315707457/
+END:VEVENT
+BEGIN:VEVENT
+UID:3c0469a3e529@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270102T030000Z
+DTEND:20270102T070000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/317025785/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/317025785/
+END:VEVENT
+BEGIN:VEVENT
 UID:e82b9de95042@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270112T020000Z
 DTEND:20270112T050000Z
@@ -79,8 +271,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
+UID:1216fad7305a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270122T020000Z
+DTEND:20270122T040000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526840/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526840/
+END:VEVENT
+BEGIN:VEVENT
 UID:c73404167991@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:1
 DTSTART:20270122T020000Z
 DTEND:20270122T050000Z
@@ -92,7 +296,7 @@ URL:https://luma.com/event/evt-E0nbQoWy51h0kCK
 END:VEVENT
 BEGIN:VEVENT
 UID:416a3eb0082e@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270126T233000Z
 DTEND:20270127T043000Z
@@ -104,7 +308,7 @@ URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:bd4062d9a5ff@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270127T020000Z
 DTEND:20270127T050000Z
@@ -116,7 +320,7 @@ URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
 UID:ae5cb5be58e5@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270205
@@ -127,8 +331,32 @@ STATUS:CONFIRMED
 URL:https://compute.daytona.io
 END:VEVENT
 BEGIN:VEVENT
+UID:c1e81067f178@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270206T030000Z
+DTEND:20270206T070000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/317025786/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/317025786/
+END:VEVENT
+BEGIN:VEVENT
+UID:295aef17a917@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270219T020000Z
+DTEND:20270219T040000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526843/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/316526843/
+END:VEVENT
+BEGIN:VEVENT
 UID:aec78d0137ef@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20270218T233000Z
 DTEND:20270219T043000Z
@@ -139,8 +367,20 @@ STATUS:CONFIRMED
 URL:https://luma.com/techequity-ai-community
 END:VEVENT
 BEGIN:VEVENT
+UID:f9ed4ad5d8e1@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270306T030000Z
+DTEND:20270306T070000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/317025787/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/317025787/
+END:VEVENT
+BEGIN:VEVENT
 UID:97085202a78e@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270319
@@ -151,8 +391,20 @@ STATUS:CONFIRMED
 URL:https://www.nvidia.com/en-us/gtc/faq/
 END:VEVENT
 BEGIN:VEVENT
+UID:8f6e109afd94@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270319T010000Z
+DTEND:20270319T030000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcfbxb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcfbxb/
+END:VEVENT
+BEGIN:VEVENT
 UID:7a37c7d72ad1@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270405
@@ -164,7 +416,7 @@ URL:https://www.socallinuxexpo.org/scale/24x
 END:VEVENT
 BEGIN:VEVENT
 UID:e8bbb2ccfb47@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270403
@@ -176,7 +428,7 @@ URL:https://www.sunseccon.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:e92441aff46f@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
@@ -187,8 +439,56 @@ STATUS:CONFIRMED
 URL:https://devopsdays.org/events/2027-los-angeles
 END:VEVENT
 BEGIN:VEVENT
+UID:1860a6cf7e19@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270403T020000Z
+DTEND:20270403T060000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/317025788/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/317025788/
+END:VEVENT
+BEGIN:VEVENT
+UID:0e8bcbd2f6f0@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270416T010000Z
+DTEND:20270416T030000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcgbtb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykcgbtb/
+END:VEVENT
+BEGIN:VEVENT
+UID:a846cf264c70@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270508T020000Z
+DTEND:20270508T060000Z
+SUMMARY:OC2600 | Hacker Social
+LOCATION:Location on listing\, Fullerton\, United States
+DESCRIPTION:OC2600 OC2600 is an amazing family of hackers that focuses on emerging ideas and concepts while socializing to improve the human condition. At OC2600 meetups\, we help each other by sharing our knowledge with others! We… https://www.meetup.com/oc2600/events/svpgktykchbkb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/oc2600/events/svpgktykchbkb/
+END:VEVENT
+BEGIN:VEVENT
+UID:eb8d0513d75a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270521T010000Z
+DTEND:20270521T030000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykchbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykchbbc/
+END:VEVENT
+BEGIN:VEVENT
 UID:02fc02acbccd@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270529

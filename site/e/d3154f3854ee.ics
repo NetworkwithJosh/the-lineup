@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d3154f3854ee@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T023000Z
+DTEND:20261202T040000Z
+SUMMARY:December 2026 Meeting
+LOCATION:Location on listing\, Mesa\, United States
+DESCRIPTION:OWASP Phoenix Chapter Beyond the Web App: What the OWASP Top 10 Means for SDKs (\\~30 min) The OWASP Top 10 is written primarily for web applications—but what does it mean when your product is an SDK embedded inside… https://www.meetup.com/owasp-phoenix-chapter/events/316852942/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-phoenix-chapter/events/316852942/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:0040f996dc25@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T010000Z
@@ -20,7 +20,7 @@ URL:https://www.wicys.org/event/wicys-healthcare-and-northeast-ohio-affiliates-c
 END:VEVENT
 BEGIN:VEVENT
 UID:b855b1b964cc@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261202T220000Z
 DTEND:20261203T003000Z
@@ -32,7 +32,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:a6b258a0ac4d@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:1
 DTSTART:20261208T223000Z
 DTEND:20261209T010000Z
@@ -41,5 +41,53 @@ LOCATION:Maumee Bay Brew Pub Warehouse\, Toledo\, United States
 DESCRIPTION:Address: Maumee Bay Brew Pub Warehouse Toledo\, OH United States https://luma.com/genai-collective
 STATUS:CONFIRMED
 URL:https://luma.com/genai-collective
+END:VEVENT
+BEGIN:VEVENT
+UID:38c429875cc9@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261217T233000Z
+DTEND:20261218T020000Z
+SUMMARY:CiNPA - Security SIG
+LOCATION:Location on listing\, Cincinnati\, United States
+DESCRIPTION:TechLife Cincinnati Meeting Topic: Speaker: Daniel Schaupner Please stay tuned and check back later for our meeting topic(s) and speaker(s) announcement. About Us: The CiNPA Security SIG is the Cincinnati Networking… https://www.meetup.com/techlife-cincinnati/events/315297851/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/315297851/
+END:VEVENT
+BEGIN:VEVENT
+UID:8e091bc55b8b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270106T233000Z
+DTEND:20270107T013000Z
+SUMMARY:CINPA Monthly Meeting
+LOCATION:Location on listing\, Cincinnati\, United States
+DESCRIPTION:TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly… https://www.meetup.com/techlife-cincinnati/events/wtrrptykccbjb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/wtrrptykccbjb/
+END:VEVENT
+BEGIN:VEVENT
+UID:9a8d4061f76a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270121T233000Z
+DTEND:20270122T020000Z
+SUMMARY:CiNPA - Security SIG
+LOCATION:Location on listing\, Cincinnati\, United States
+DESCRIPTION:TechLife Cincinnati Meeting Topic: Speaker: William Ong Please stay tuned and check back later for our meeting topic(s) and speaker(s) announcement. About Us: The CiNPA Security SIG is the Cincinnati Networking… https://www.meetup.com/techlife-cincinnati/events/316997800/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/316997800/
+END:VEVENT
+BEGIN:VEVENT
+UID:0062a4124e66@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270203T233000Z
+DTEND:20270204T013000Z
+SUMMARY:CINPA Monthly Meeting
+LOCATION:Location on listing\, Cincinnati\, United States
+DESCRIPTION:TechLife Cincinnati DO NOT USE MEETUP RSVP - USE THE LINK in the text in the Comments N.B.: Check comments here (below) or each month for new meeting LINK. Cincinnati Networking Professionals Association - CINPA Monthly… https://www.meetup.com/techlife-cincinnati/events/wtrrptykcdbfb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/techlife-cincinnati/events/wtrrptykcdbfb/
 END:VEVENT
 END:VCALENDAR

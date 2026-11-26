@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f96308270079@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261201T020000Z
+DTEND:20261201T050000Z
+SUMMARY:Woodworking Workshop
+LOCATION:Location on listing\, San Francisco\, United States
+DESCRIPTION:Noisebridge Hackerspace -please read the whole updated description!- Come to work on your own projects and get some feedback from your fellow woodchucks. We have a planer\, drill presses\, hand tools\, a table saw\, and… https://www.meetup.com/noisebridge/events/317376551/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/noisebridge/events/317376551/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

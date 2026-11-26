@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:14fdcb04a52a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261217T020000Z
+DTEND:20261217T040000Z
+SUMMARY:San Diego Cyber Group Meetup (December 2026 event)
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:San Diego Cyber Group This is a fun meetup for the San Diego cyber community. Hosted by David Spark of the CISO Series. We'll have conversations about cyber\, a few silly games\, and a guided discussion. We're open to… https://www.meetup.com/san-diego-cyber-meetup/events/317332345/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/san-diego-cyber-meetup/events/317332345/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

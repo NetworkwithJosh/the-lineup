@@ -7,68 +7,32 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:4a8355fade1c@the-lineup
-DTSTAMP:20261126T221633Z
+UID:0984de69d3f3@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261208T170000Z
-DTEND:20261208T190000Z
-SUMMARY:Microsoft AI for Healthcare Masterclass
-LOCATION:Location on listing\, Seattle\, United States
-DESCRIPTION:Seattle Business and Technology Meetup Group AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317147654/
+DTSTART:20261205T020000Z
+DTEND:20261205T040000Z
+SUMMARY:⚡ Seattle 2600 Monthly Meetup (December 6\, 2026) ⚡
+LOCATION:** Gearhouse Coffee \\(\, Seattle\, United States
+DESCRIPTION:Seattle 2600 Looking for your community of tech enthusiasts\, privacy advocates\, and hardware tinkerers? Look no further. Born from the global legacy of 2600 Magazine —the legendary\, anarchist-flavored quarterly by and… https://www.meetup.com/seattle-2600/events/317541479/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317147654/
+URL:https://www.meetup.com/seattle-2600/events/317541479/
 END:VEVENT
 BEGIN:VEVENT
-UID:b5310f299210@the-lineup
-DTSTAMP:20261126T221633Z
+UID:7002dc22bf3f@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261209T170000Z
-DTEND:20261209T180000Z
-SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
+DTSTART:20261218T020000Z
+DTEND:20261218T040000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
 LOCATION:Location on listing\, Seattle\, United States
-DESCRIPTION:Seattle Business and Technology Meetup Group Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/317332271/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317550756/
-END:VEVENT
-BEGIN:VEVENT
-UID:f4ca16c6841e@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261215T170000Z
-DTEND:20261215T190000Z
-SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
-LOCATION:Location on listing\, Seattle\, United States
-DESCRIPTION:Seattle Business and Technology Meetup Group As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/
-END:VEVENT
-BEGIN:VEVENT
-UID:d88cd19d43e5@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261216T173000Z
-DTEND:20261216T183000Z
-SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
-LOCATION:Location on listing\, Seattle\, United States
-DESCRIPTION:Seattle Business and Technology Meetup Group Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317396540/
-END:VEVENT
-BEGIN:VEVENT
-UID:28b9c3f48653@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261217T170000Z
-DTEND:20261217T190000Z
-SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
-LOCATION:Location on listing\, Seattle\, United States
-DESCRIPTION:Seattle Business and Technology Meetup Group AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317369177/
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/317332271/
 END:VEVENT
 BEGIN:VEVENT
 UID:c32b55ed0be0@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261218T150000Z
 DTEND:20261218T230000Z
@@ -77,5 +41,65 @@ LOCATION:Location on listing\, Seattle\, United States
 DESCRIPTION:Seattle Business and Technology Meetup Group Discover how Generative AI can improve business decision-making\, streamline operations\, and drive innovation with this COMPLIMENTARY session. Explore Google's generative AI… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317551559/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317551559/
+END:VEVENT
+BEGIN:VEVENT
+UID:08fc85f3bbaf@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270122T020000Z
+DTEND:20270122T040000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykccbcc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykccbcc/
+END:VEVENT
+BEGIN:VEVENT
+UID:4d7a48b8dd2b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270219T020000Z
+DTEND:20270219T040000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcdbxb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcdbxb/
+END:VEVENT
+BEGIN:VEVENT
+UID:71a2fb598e78@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270319T010000Z
+DTEND:20270319T030000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcfbxb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcfbxb/
+END:VEVENT
+BEGIN:VEVENT
+UID:f3434dd78c2d@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270416T010000Z
+DTEND:20270416T030000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcgbtb/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykcgbtb/
+END:VEVENT
+BEGIN:VEVENT
+UID:31350b5a1c65@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270521T010000Z
+DTEND:20270521T030000Z
+SUMMARY:Hardware Hacking Hands-On Workshop
+LOCATION:Location on listing\, Seattle\, United States
+DESCRIPTION:Symbol Crash: Proper Hacker Training IMPORTANT: This event has moved! It is at Seattle Makers' new location: 3012 16th Ave W Use this Discord invite to join our chatroom! --- Join us as we start actually hacking on some… https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykchbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/symbol-crash-proper-hacker-training/events/tpdkktykchbbc/
 END:VEVENT
 END:VCALENDAR

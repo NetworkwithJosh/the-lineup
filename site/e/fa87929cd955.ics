@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fa87929cd955@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261217T170000Z
 DTEND:20261217T190000Z
 SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
-LOCATION:Location on listing\, Iselin\, United States
+LOCATION:Online
 DESCRIPTION:New Jersey Business and Tech Meetup AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/

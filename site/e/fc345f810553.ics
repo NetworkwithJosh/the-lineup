@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fc345f810553@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261204T020000Z
+DTEND:20261204T043000Z
+SUMMARY:EVSec CitySec Meet-up: Security & Beer
+LOCATION:Location on listing\, Scottsdale\, United States
+DESCRIPTION:EVSec Do you work in the IT Industry and harbor a great interest and passion for Information Security? Are you interested in learning more about Network Security\, System hardening\, Penetration Testing\, Application… https://www.meetup.com/evsecaz/events/317079517/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/evsecaz/events/317079517/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

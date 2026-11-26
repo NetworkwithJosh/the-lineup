@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:e91f836ab561@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261202T230000Z
 DTEND:20261203T030000Z
@@ -20,7 +20,7 @@ URL:https://isc2njchapter.curated.co
 END:VEVENT
 BEGIN:VEVENT
 UID:4655c24fa947@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261205T000000Z
 DTEND:20261205T040000Z
@@ -31,80 +31,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/defcon862/events/317266306/
 END:VEVENT
 BEGIN:VEVENT
-UID:f8c1d1706583@the-lineup
-DTSTAMP:20261126T221633Z
+UID:d9a032e7384b@the-lineup
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
-DTSTART:20261207T150000Z
-DTEND:20261207T160000Z
-SUMMARY:Building a Project-Ready Public Sector Workforce for 2027
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Success starts with having the right skills\, capabilities\, and people in place. Discover how public sector organizations can plan workforce capabilities\, bridge skill gaps\, and build… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
+DTSTART:20261205T000000Z
+DTEND:20261205T040000Z
+SUMMARY:Rabbit-Labs & DC862 Holiday Party
+LOCATION:Location on listing\, Parlin\, United States
+DESCRIPTION:Rabbit-Labs Learning Lab Happy Holidays from Rabbit-Labs! Join us on December 4th for a jam-packed night full of festive fun. Wear your best Ugly Holiday Sweater! Winner gets a prize! Ugly sweater contest hosted by… https://www.meetup.com/rabbit-labs/events/317290158/
 STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317383426/
-END:VEVENT
-BEGIN:VEVENT
-UID:0a1ef5d3e4d6@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261208T170000Z
-DTEND:20261208T190000Z
-SUMMARY:Microsoft AI for Healthcare Masterclass
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AI is finding its way into more areas of healthcare\, from managing health data to supporting clinical workflows and improving everyday productivity. Join our live masterclass to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317147658/
-END:VEVENT
-BEGIN:VEVENT
-UID:66a0e04b89c5@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261209T170000Z
-DTEND:20261209T180000Z
-SUMMARY:The AI-Ready Enterprise: Google Cloud Skills Your Workforce Needs for 2027
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Building an AI-ready enterprise starts with building the right skills. As Gemini\, Vertex AI\, and AI agents reshape business operations\, organizations need a workforce equipped to… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317550776/
-END:VEVENT
-BEGIN:VEVENT
-UID:cf5efc44b8ac@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261215T170000Z
-DTEND:20261215T190000Z
-SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot\, Defender &… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
-END:VEVENT
-BEGIN:VEVENT
-UID:86321fbc6c3c@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:1
-DTSTART:20261216T170000Z
-DTEND:20261216T180000Z
-SUMMARY:From Microsoft Copilot License to Business Impact: Closing the AI Adoption Gap
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup Many enterprises have invested in Microsoft Copilot\, but deployment alone does not guarantee productivity gains\, workflow transformation\, or measurable returns. The real opportunity… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317396535/
-END:VEVENT
-BEGIN:VEVENT
-UID:fa87929cd955@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
-DTSTART:20261217T170000Z
-DTEND:20261217T190000Z
-SUMMARY:AWS Discovery Day: Engineering Modern Applications on AWS
-LOCATION:Location on listing\, Iselin\, United States
-DESCRIPTION:New Jersey Business and Tech Meetup AWS Discovery Day: Engineering Modern Applications on AWS Modern application development demands more than cloud infrastructure—it requires scalable architectures\, resilient… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317369171/
+URL:https://www.meetup.com/rabbit-labs/events/317290158/
 END:VEVENT
 BEGIN:VEVENT
 UID:8404855a0608@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART:20261218T150000Z
 DTEND:20261218T230000Z

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a3d4e4bd955@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T000000Z
+DTEND:20261203T020000Z
+SUMMARY:An Intro to Soldering
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan Welcome to our soldering basics class! This class is for beginners and designed to teach you a few important fundamentals on soldering\, an essential skill for anyone interested in electronics or DIY… https://www.meetup.com/hackmanhattan/events/316857712/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/316857712/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

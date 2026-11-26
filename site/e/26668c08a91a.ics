@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:26668c08a91a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261218T020000Z
+DTEND:20261218T040000Z
+SUMMARY:hack the box meetup!
+LOCATION:Location on listing\, Salt Lake City\, United States
+DESCRIPTION:801 LABS yes. hack. robot. Grab your caffeine and fire up your VMs! This is our monthly meetup under the HTB enterprise license to learn how to run exploits\, bypass defenses\, and pop shells together. Whether you are… https://www.meetup.com/801labs/events/316605726/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/801labs/events/316605726/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

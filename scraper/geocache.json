@@ -67,6 +67,10 @@
 41.876,
 -87.624
 ],
+"Cincinnati|OH|United States": [
+39.101,
+-84.513
+],
 "Cleveland|OH|United States": [
 41.5,
 -81.694
@@ -74,6 +78,18 @@
 "Clifton|NJ|United States": [
 40.858,
 -74.164
+],
+"Culver City|CA|United States": [
+34.021,
+-118.396
+],
+"Dallas|TX|United States": [
+32.776,
+-96.797
+],
+"Davie|FL|United States": [
+26.063,
+-80.233
 ],
 "Delhi||India": [
 28.666,
@@ -91,6 +107,10 @@
 53.349,
 -6.261
 ],
+"Dunwoody|GA|United States": [
+33.946,
+-84.334
+],
 "Easton|PA|United States": [
 40.692,
 -75.21
@@ -106,6 +126,10 @@
 "Frankfurt am Main||Germany": [
 50.111,
 8.682
+],
+"Fullerton|CA|United States": [
+33.871,
+-117.929
 ],
 "GEORGES||Australia": [
 -33.913,
@@ -123,6 +147,10 @@
 44.81,
 -68.912
 ],
+"Houston|TX|United States": [
+29.759,
+-95.368
+],
 "Huntsville|AL|United States": [
 34.73,
 -86.586
@@ -139,6 +167,10 @@
 38.733,
 -9.153
 ],
+"Indianapolis|IN|United States": [
+39.768,
+-86.158
+],
 "Iselin|NJ|United States": [
 40.572,
 -74.316
@@ -147,6 +179,10 @@
 "Kathmandu||Nepal": [
 27.708,
 85.321
+],
+"Kenosha|WI|United States": [
+42.585,
+-87.821
 ],
 "Kerala||India": [
 10.353,
@@ -171,6 +207,10 @@
 "Los Angeles|CA|United States": [
 34.054,
 -118.243
+],
+"Louisville|KY|United States": [
+38.254,
+-85.759
 ],
 "Madison|WI|United States": [
 43.075,
@@ -199,6 +239,10 @@
 "Menlo Park|CA|United States": [
 37.452,
 -122.178
+],
+"Mesa|AZ|United States": [
+33.415,
+-111.831
 ],
 "Miami|FL|United States": [
 25.774,
@@ -245,6 +289,10 @@
 48.859,
 2.32
 ],
+"Parlin|NJ|United States": [
+40.463,
+-74.311
+],
 "Pasadena|CA|United States": [
 34.148,
 -118.144
@@ -269,6 +317,14 @@
 40.441,
 -80.003
 ],
+"Plano|TX|United States": [
+33.014,
+-96.693
+],
+"Portland|ME|United States": [
+43.657,
+-70.259
+],
 "Portland|OR|United States": [
 45.52,
 -122.674
@@ -277,9 +333,21 @@
 50.087,
 14.421
 ],
+"Providence|RI|United States": [
+41.824,
+-71.413
+],
 "Raleigh|NC|United States": [
 35.78,
 -78.639
+],
+"Reston|VA|United States": [
+38.959,
+-77.359
+],
+"Richmond|VA|United States": [
+37.539,
+-77.434
 ],
 "Riyadh||Saudi Arabia": [
 24.639,
@@ -288,6 +356,10 @@
 "Rome||Italy": [
 41.893,
 12.483
+],
+"Round Rock|TX|United States": [
+30.509,
+-97.679
 ],
 "Saint Paul|MN|United States": [
 44.95,
@@ -313,6 +385,10 @@
 33.924,
 -84.379
 ],
+"Scottsdale|AZ|United States": [
+33.597,
+-111.891
+],
 "Seattle|WA|United States": [
 47.604,
 -122.33
@@ -333,6 +409,10 @@
 38.625,
 -90.19
 ],
+"Sterling|VA|United States": [
+39.002,
+-77.403
+],
 "Stockholm||Sweden": [
 59.325,
 18.071
@@ -340,6 +420,10 @@
 "São Paulo||Brazil": [
 -23.551,
 -46.633
+],
+"Tampa|FL|United States": [
+27.945,
+-82.458
 ],
 "Tel Aviv||Israel": [
 32.085,
@@ -372,6 +456,10 @@
 "Washington|FL|United States": [
 30.601,
 -85.676
+],
+"West Allis|WI|United States": [
+43.017,
+-88.007
 ],
 "West Des Moines|IA|United States": [
 41.564,

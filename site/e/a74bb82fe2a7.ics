@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a74bb82fe2a7@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261202T000000Z
+DTEND:20261202T020000Z
+SUMMARY:Women of Security: Last meetup of 2026!!
+LOCATION:Location on listing\, Plano\, United States
+DESCRIPTION:WoSEC Dallas: Women of Security Whether you are a seasoned professional\, a student exploring career options\, or simply interested in learning more about cybersecurity\, this meetup is for you. Don't miss the chance to be… https://www.meetup.com/wist-dallas-women-in-security-and-tech/events/317257870/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/wist-dallas-women-in-security-and-tech/events/317257870/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

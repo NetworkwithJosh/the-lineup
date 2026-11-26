@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b98d86321ee4@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T143000Z
+DTEND:20261205T173000Z
+SUMMARY:RVAsec SecFun - CI/CD Pipeline Security
+LOCATION:Location on listing\, Richmond\, United States
+DESCRIPTION:RVAsec Security Community Please join the RVASec Discord for more information: RVAsec Discord Topic: Please see Discord Server for more information. Schedule: 9:30am - 9:45am: arrival and general socializing 9:45am … https://www.meetup.com/rvasec/events/316498140/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rvasec/events/316498140/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

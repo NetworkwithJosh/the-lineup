@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cf5efc44b8ac@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261215T170000Z
 DTEND:20261215T190000Z
 SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
-LOCATION:Location on listing\, Iselin\, United States
+LOCATION:Online
 DESCRIPTION:New Jersey Business and Tech Meetup As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot\, Defender &… https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/new-jersey-business-and-tech-meetup/events/317209256/

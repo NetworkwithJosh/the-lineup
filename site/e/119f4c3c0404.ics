@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:119f4c3c0404@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261217T220000Z
+DTEND:20261218T010000Z
+SUMMARY:RVAsec Monthly Meeting - December
+LOCATION:Location on listing\, Richmond\, United States
+DESCRIPTION:RVAsec Security Community RVAsec Monthly is Richmond's unparalleled networking event for security professionals and anyone looking to break into the industry. Come by our relaxed meetings and socialize with others in… https://www.meetup.com/rvasec/events/312117162/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rvasec/events/312117162/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

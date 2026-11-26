@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:79272a36c139@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+SUMMARY:2026.12.02/0x0091
+LOCATION:Location on listing\, Dallas\, United States
+DESCRIPTION:Dallas Hackers Association DHA: We do not solicit vendors or speakers to present. This is a community driven event and you get out of it what you put into it. So what will you talk about this month? Firetalks: No more… https://www.meetup.com/dallas-hackers-association/events/317531585/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/dallas-hackers-association/events/317531585/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

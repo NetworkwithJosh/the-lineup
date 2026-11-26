@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f4ca16c6841e@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261215T170000Z
 DTEND:20261215T190000Z
 SUMMARY:Securing AI Agents with Microsoft Security Copilot\, Defender & Sentinel
-LOCATION:Location on listing\, Seattle\, United States
+LOCATION:Online
 DESCRIPTION:Seattle Business and Technology Meetup Group As AI agents become part of the enterprise\, new security risks demand a smarter defense strategy. Join our LIVE Masterclass to discover how Microsoft Security Copilot… https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/seattle-business-and-technology-meetup-group/events/317209249/

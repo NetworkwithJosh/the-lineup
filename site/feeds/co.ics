@@ -7,8 +7,20 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:8210109d37b3@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T190000Z
+DTEND:20261204T000000Z
+SUMMARY:RMAIN Winter AI Summit - Holiday Party - Cyber Security
+LOCATION:Location on listing\, Denver\, United States
+DESCRIPTION:Rocky Mountain Artificial Intelligence Network Dear RMAIN Members\, AI is rapidly changing the cybersecurity landscape for both attackers and defenders. Recent developments around autonomous AI agents and AI-enabled… https://www.meetup.com/rocky-mountain-artificial-intelligence-network/events/316799746/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rocky-mountain-artificial-intelligence-network/events/316799746/
+END:VEVENT
+BEGIN:VEVENT
 UID:91a659f5ea11@the-lineup
-DTSTAMP:20261126T221633Z
+DTSTAMP:20261126T231747Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270220

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d9a032e7384b@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261205T000000Z
+DTEND:20261205T040000Z
+SUMMARY:Rabbit-Labs & DC862 Holiday Party
+LOCATION:Location on listing\, Parlin\, United States
+DESCRIPTION:Rabbit-Labs Learning Lab Happy Holidays from Rabbit-Labs! Join us on December 4th for a jam-packed night full of festive fun. Wear your best Ugly Holiday Sweater! Winner gets a prize! Ugly sweater contest hosted by… https://www.meetup.com/rabbit-labs/events/317290158/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rabbit-labs/events/317290158/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

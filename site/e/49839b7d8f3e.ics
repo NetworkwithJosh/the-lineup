@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:49839b7d8f3e@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261210T230000Z
+DTEND:20261211T020000Z
+SUMMARY:The System\, the Attacker\, and the Defender - RVAsec Deep Dive - December
+LOCATION:Location on listing\, Richmond\, United States
+DESCRIPTION:RVAsec Security Community You must be registered to attend this event. Summary: Last month was a blue team night. This month we're looking at both sides: the relationship between attackers and defenders\, the limits of… https://www.meetup.com/rvasec/events/315297026/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/rvasec/events/315297026/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

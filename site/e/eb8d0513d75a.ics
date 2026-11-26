@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb8d0513d75a@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20270521T010000Z
+DTEND:20270521T030000Z
+SUMMARY:Monthly Meeting
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Open Web Application Security Project San Diego (OWASP-SD) Monthly OWASP meeting https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykchbbc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/sgmnttykchbbc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

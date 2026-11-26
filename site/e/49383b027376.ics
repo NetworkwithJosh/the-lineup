@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:49383b027376@the-lineup
-DTSTAMP:20261126T221633Z
-SEQUENCE:0
+DTSTAMP:20261126T231747Z
+SEQUENCE:1
 DTSTART:20261202T230000Z
 DTEND:20261203T003000Z
 SUMMARY:AI in Cyber Pathway: Where AI Fits in Your Security Career
-LOCATION:Location on listing\, Atlanta\, United States
+LOCATION:Online
 DESCRIPTION:Cover6 Community - Atlanta AI is already in the tools you use at work. The question is whether you know when to trust it\, when to check it\, and when to keep it away from your data. AI in Cyber is the newest of our eight… https://www.meetup.com/cover6-community-atlanta/events/317487497/
 STATUS:CONFIRMED
 URL:https://www.meetup.com/cover6-community-atlanta/events/317487497/

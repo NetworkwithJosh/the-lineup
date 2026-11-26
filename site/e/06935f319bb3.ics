@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:06935f319bb3@the-lineup
+DTSTAMP:20261126T231747Z
+SEQUENCE:0
+DTSTART:20261203T020000Z
+DTEND:20261203T040000Z
+SUMMARY:Q4 San Diego Cybersecurity Mixer
+LOCATION:Location on listing\, San Diego\, United States
+DESCRIPTION:Cloud Security Alliance- San Diego Come and meet the local cyber security groups. Everyone's welcome. See you soon! https://www.meetup.com/cloud-security-alliance-san-diego/events/317571516/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/cloud-security-alliance-san-diego/events/317571516/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
