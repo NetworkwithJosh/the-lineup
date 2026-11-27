@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T18:56-05:00",
+ "generatedAt": "2026-11-26T22:47-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
  "count": 543,
  "changes": {
   "updated": 26,
-  "new": 175,
-  "cancelled": 8
+  "new": 176,
+  "cancelled": 12
  },
  "sources": [
   {
@@ -1662,8 +1662,8 @@
    "url": "https://www.meetup.com/burbsec/events/317320678/",
    "about": "BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 Unlock the Excitement at Burbsec Northwest! 🍻🎉 Are you ready for a night of geeking out, making new friends, and expanding your network in the world of…",
    "source": "BurbSec (Chicago)",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 2,
     "max": 0,
@@ -1673,7 +1673,8 @@
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "f8b32dec1fea",
@@ -1697,8 +1698,8 @@
    "url": "https://www.meetup.com/hackersguild/events/317452710/",
    "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
    "source": "Hackers Guild",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 2,
     "max": 0,
@@ -1708,7 +1709,8 @@
    "lat": 40.441,
    "lng": -80.003,
    "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "7941beab8906",
@@ -1732,8 +1734,8 @@
    "url": "https://www.meetup.com/hackmanhattan/events/317320232/",
    "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
    "source": "Hack Manhattan",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 8,
     "max": 0,
@@ -1743,7 +1745,8 @@
    "lat": 40.713,
    "lng": -74.006,
    "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "6d9f899eb7e7",
@@ -1767,8 +1770,8 @@
    "url": "https://www.meetup.com/hac-dc/events/317320655/",
    "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
    "source": "HacDC",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 2,
     "max": 0,
@@ -1778,7 +1781,8 @@
    "lat": 38.895,
    "lng": -77.036,
    "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "f44534f2c80b",
@@ -1805,7 +1809,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 3,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2054,7 +2058,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 9,
+    "going": 10,
     "max": 15,
     "waitlist": 0,
     "full": false
@@ -2448,7 +2452,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 3,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -3230,7 +3234,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -3372,7 +3376,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 45,
+    "left": 44,
     "near": false
    },
    "lat": 33.924,
@@ -3434,7 +3438,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 209,
+    "going": 212,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -3856,7 +3860,7 @@
    "rsvp": {
     "going": 10,
     "max": 10,
-    "waitlist": 0,
+    "waitlist": 1,
     "full": true
    },
    "lat": -37.814,
@@ -4062,7 +4066,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4166,7 +4170,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 16,
+    "going": 17,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -5038,7 +5042,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 20,
+    "going": 22,
     "max": 35,
     "waitlist": 0,
     "full": false
@@ -6098,7 +6102,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 2,
+    "going": 3,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6260,7 +6264,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 31,
+    "going": 34,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6914,7 +6918,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 102,
+    "going": 103,
     "max": 280,
     "waitlist": 0,
     "full": false
@@ -6950,7 +6954,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7475,7 +7479,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 6,
+    "going": 8,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7492,13 +7496,13 @@
    "end": "2026-12-09T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Online",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "state": "",
-   "format": "Online",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -7515,12 +7519,14 @@
     "waitlist": 0,
     "full": false
    },
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 1,
+   "seq": 2,
    "changes": [
-    "New venue: Online"
+    "New venue: Location on listing"
    ],
-   "changedAt": "2026-11-26T18:15-05:00"
+   "changedAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "b2c04097f8e5",
@@ -8687,6 +8693,41 @@
    "seq": 0
   },
   {
+   "id": "5ec063fe4ea0",
+   "title": "NYC Red Team Study Group!",
+   "start": "2026-12-12T18:00-05:00",
+   "end": "2026-12-12T19:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "New York",
+   "country": "United States",
+   "metro": "New York area",
+   "state": "NY",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackmanhattan/events/316229055/",
+   "about": "Hack Manhattan Hey there! We're kicking off a bi-weekly Ethical Red Team Study Group every Saturday for anyone stoked about diving into the world of cybersecurity and red teaming. This is a chill, collaborative space…",
+   "source": "Hack Manhattan",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 15,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.713,
+   "lng": -74.006,
+   "firstSeen": "2026-11-26T22:47-05:00",
+   "seq": 0
+  },
+  {
    "id": "dc6fa3d1c3dd",
    "title": "IndyAWS @ Indy Hackers Holiday Social - 2026",
    "start": "2026-12-12T19:00-05:00",
@@ -9702,7 +9743,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 19,
+    "going": 20,
     "max": 50,
     "waitlist": 0,
     "full": false
@@ -9719,13 +9760,13 @@
    "end": "2026-12-16T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Online",
-   "online": true,
-   "city": "Online",
-   "country": "Online",
-   "metro": "Online",
-   "state": "",
-   "format": "Online",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Atlanta",
+   "country": "United States",
+   "metro": "Atlanta",
+   "state": "GA",
+   "format": "In person",
    "cost": "Check listing",
    "tags": [
     "cyber",
@@ -9743,12 +9784,14 @@
     "waitlist": 0,
     "full": false
    },
+   "lat": 33.754,
+   "lng": -84.39,
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 1,
+   "seq": 2,
    "changes": [
-    "New venue: Online"
+    "New venue: Location on listing"
    ],
-   "changedAt": "2026-11-26T18:15-05:00"
+   "changedAt": "2026-11-26T22:47-05:00"
   },
   {
    "id": "bc038b8c1429",
@@ -10106,6 +10149,12 @@
    "source": "BurbSec (Chicago)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 6,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 41.876,
    "lng": -87.624,
    "firstSeen": "2026-11-17T14:12-05:00",
@@ -10136,6 +10185,12 @@
    "source": "Symbol Crash: Proper Hacker Training",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 47.604,
    "lng": -122.33,
    "firstSeen": "2026-11-26T18:15-05:00",
@@ -10165,6 +10220,12 @@
    "source": "Open Web Application Security Project San Diego (OWASP-SD)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 32.716,
    "lng": -117.164,
    "firstSeen": "2026-11-26T18:15-05:00",
@@ -10293,6 +10354,12 @@
    "source": "HacDC",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 38.895,
    "lng": -77.036,
    "firstSeen": "2026-11-26T18:15-05:00",
@@ -10322,6 +10389,12 @@
    "source": "801 LABS",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 40.76,
    "lng": -111.887,
    "firstSeen": "2026-11-26T18:15-05:00",
@@ -10974,6 +11047,35 @@
    "lat": 40.441,
    "lng": -80.003,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "6361331b5ef6",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-31T19:00-05:00",
+   "end": "2026-12-31T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/szjzwtyjcqbpc/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-26T22:47-05:00",
    "seq": 0
   },
   {
@@ -11858,6 +11960,36 @@
    "lat": 33.597,
    "lng": -111.891,
    "firstSeen": "2026-11-26T18:39-05:00",
+   "seq": 0
+  },
+  {
+   "id": "926e165d9604",
+   "title": "CigarSec - Co-Working & Cigars before Prime!",
+   "start": "2027-01-07T14:00-06:00",
+   "end": "2027-01-07T17:00-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Chicago",
+   "country": "United States",
+   "metro": "Chicago",
+   "state": "IL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/burbsec/events/317285213/",
+   "about": "BurbSec Chicago: The Midwest's Favorite Cybersecurity Events Attention all IT enthusiasts and cigar aficionados! Get ready to kick off BurbsecPrime in style with CigarSec, the ultimate pre-event meetup that combines the…",
+   "source": "BurbSec (Chicago)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 41.876,
+   "lng": -87.624,
+   "firstSeen": "2026-11-26T22:47-05:00",
    "seq": 0
   },
   {
@@ -12929,6 +13061,35 @@
    "lat": 39.101,
    "lng": -84.513,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "23904593ab18",
+   "title": "Open Hack Night",
+   "start": "2027-01-21T18:30-05:00",
+   "end": "2027-01-21T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/gvwzbvykccbcc/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-26T22:47-05:00",
    "seq": 0
   },
   {

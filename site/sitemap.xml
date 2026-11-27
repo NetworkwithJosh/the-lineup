@@ -4,11 +4,9 @@
   <url><loc>https://thelineup.dev/submit/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/organizers/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/illinois/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/pennsylvania/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/new-york/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/us/washington-dc/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/california/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/new-york/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/pennsylvania/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/georgia/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/nevada/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/rhode-island/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -19,11 +17,13 @@
   <url><loc>https://thelineup.dev/us/florida/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/ohio/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/new-jersey/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/illinois/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/kansas/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/kentucky/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/iowa/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/wisconsin/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/massachusetts/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/us/washington-dc/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/maine/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/idaho/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/us/montana/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -53,10 +53,6 @@
   <url><loc>https://thelineup.dev/event/ai-builders-dubai-nov-26-e83786fa/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-builders-vienna-bring-your-own-laptop-edition-nov-26-ff456991/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-builders-barcelona-bring-your-own-laptop-edition-nov-26-3ba86860/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/burbsec-northwest-sponsors-welcome-c45821c2/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/open-hack-night-f8b32dec/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/hack-manhattan-open-house-7941beab/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://thelineup.dev/event/hardware-hacking-night-6d9f899e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/resident-electronics-monthly-meetup-f44534f2/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/workplace-ninjas-india-1409518c/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/youth-cybersecurity-ai-weekly-class-ages-7-17-ebafd79b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -262,6 +258,7 @@
   <url><loc>https://thelineup.dev/event/soldering-village-workshop-141bc522/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/study-hall-work-on-ctfs-9d34e7e0/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/shellgym-19b8698b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/nyc-red-team-study-group-5ec063fe/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/indyaws-indy-hackers-holiday-social-2026-dc6fa3d1/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/first-discussion-at-cafe-intermezzo-dunwoody-the-apple-fbi-i-f21d3832/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/wicys-central-alabama-affiliate-it-security-holiday-end-of-y-3c4eda69/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -331,6 +328,7 @@
   <url><loc>https://thelineup.dev/event/brooklyn-nysec-456e7a66/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/rainsec-pdx-information-security-meetup-5807f7ff/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-a42ded36/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/hardware-hacking-night-6361331b/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/bangor-2600-80c0dd8e/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/boise-2600-1d50ec59/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/bozeman-2600-b680258a/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -362,6 +360,7 @@
   <url><loc>https://thelineup.dev/event/hi-this-is-gabe-from-help-desk-can-you-download-this-malware-b498ca52/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cinpa-monthly-meeting-8e091bc5/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/global-converged-intelligence-security-summit-eb773a54/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/cigarsec-co-working-cigars-before-prime-926e165d/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/secdsm-monthly-meeting-75ac5122/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/open-hack-night-b010dba4/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/haha-meeting-56482b68/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
@@ -397,6 +396,7 @@
   <url><loc>https://thelineup.dev/event/hardware-hacking-hands-on-workshop-08fc85f3/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/monthly-meeting-1216fad7/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/cinpa-security-sig-9a8d4061/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://thelineup.dev/event/open-hack-night-23904593/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/hack-the-box-meetup-945c05eb/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-x-philosophy-series-session-1-being-human-in-the-age-of-i-5836ea71/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://thelineup.dev/event/ai-builders-los-angeles-jan-21-c7340416/</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq></url>

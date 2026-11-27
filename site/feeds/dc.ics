@@ -7,20 +7,8 @@ X-WR-CALNAME:The Lineup: cyber, AI + IT meetups
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:6d9f899eb7e7@the-lineup
-DTSTAMP:20261126T235821Z
-SEQUENCE:0
-DTSTART:20261127T000000Z
-DTEND:20261127T020000Z
-SUMMARY:Hardware Hacking Night
-LOCATION:Location on listing\, Washington\, United States
-DESCRIPTION:HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)… https://www.meetup.com/hac-dc/events/317320655/
-STATUS:CONFIRMED
-URL:https://www.meetup.com/hac-dc/events/317320655/
-END:VEVENT
-BEGIN:VEVENT
 UID:448dbcc78faa@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART:20261204T000000Z
 DTEND:20261204T020000Z
@@ -32,7 +20,7 @@ URL:https://www.meetup.com/hac-dc/events/317422573/
 END:VEVENT
 BEGIN:VEVENT
 UID:b9b3b1e74aa7@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART:20261211T000000Z
 DTEND:20261211T020000Z
@@ -44,7 +32,7 @@ URL:https://www.meetup.com/hac-dc/events/317520663/
 END:VEVENT
 BEGIN:VEVENT
 UID:733de242397a@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART:20261218T000000Z
 DTEND:20261218T020000Z
@@ -56,7 +44,7 @@ URL:https://www.meetup.com/hac-dc/events/szjzwtyjcqbwb/
 END:VEVENT
 BEGIN:VEVENT
 UID:ddc559b7bf95@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART:20261225T000000Z
 DTEND:20261225T020000Z
@@ -67,8 +55,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/hac-dc/events/szjzwtyjcqbgc/
 END:VEVENT
 BEGIN:VEVENT
+UID:6361331b5ef6@the-lineup
+DTSTAMP:20261127T035015Z
+SEQUENCE:0
+DTSTART:20270101T000000Z
+DTEND:20270101T020000Z
+SUMMARY:Hardware Hacking Night
+LOCATION:Location on listing\, Washington\, United States
+DESCRIPTION:HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)… https://www.meetup.com/hac-dc/events/szjzwtyjcqbpc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hac-dc/events/szjzwtyjcqbpc/
+END:VEVENT
+BEGIN:VEVENT
 UID:5836ea714f47@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART:20270121T230000Z
 DTEND:20270122T013000Z
@@ -80,7 +80,7 @@ URL:https://luma.com/genai-collective
 END:VEVENT
 BEGIN:VEVENT
 UID:2f7544652736@the-lineup
-DTSTAMP:20261126T235821Z
+DTSTAMP:20261127T035015Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5ec063fe4ea0@the-lineup
+DTSTAMP:20261127T035015Z
+SEQUENCE:0
+DTSTART:20261212T230000Z
+DTEND:20261213T000000Z
+SUMMARY:NYC Red Team Study Group!
+LOCATION:Location on listing\, New York\, United States
+DESCRIPTION:Hack Manhattan Hey there! We're kicking off a bi-weekly Ethical Red Team Study Group every Saturday for anyone stoked about diving into the world of cybersecurity and red teaming. This is a chill\, collaborative space… https://www.meetup.com/hackmanhattan/events/316229055/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/hackmanhattan/events/316229055/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
