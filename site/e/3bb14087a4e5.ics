@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3bb14087a4e5@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20261204T183000Z
+DTEND:20261204T223000Z
+SUMMARY:Phoenix ISACA December Chapter Meeting
+LOCATION:Location on listing\, Phoenix\, United States
+DESCRIPTION:PROTECTPHX Save the date for this event. This is a special invite for you to attend the Phoenix Chapter of ISACA December meeting. Because of this invitation you don't have to be a member to come. And if you can't make… https://www.meetup.com/protectphx/events/317607005/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/protectphx/events/317607005/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

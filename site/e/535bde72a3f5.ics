@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:535bde72a3f5@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20261210T130000Z
+DTEND:20261210T150000Z
+SUMMARY:CISO Collective by CloudSEK
+LOCATION:Aloft by Marriott New Delhi Aerocity\, New Delhi\, India
+DESCRIPTION:Address: Aloft by Marriott New Delhi Aerocity New Delhi\, India https://luma.com/cisocollectivecloudsek
+STATUS:CONFIRMED
+URL:https://luma.com/cisocollectivecloudsek
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

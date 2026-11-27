@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T22:47-05:00",
+ "generatedAt": "2026-11-27T14:29-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 543,
+ "count": 544,
  "changes": {
-  "updated": 26,
-  "new": 176,
-  "cancelled": 12
+  "updated": 27,
+  "new": 181,
+  "cancelled": 5
  },
  "sources": [
   {
@@ -579,7 +579,7 @@
   {
    "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
    "ok": true,
-   "events": 5
+   "events": 6
   },
   {
    "source": "Tampa Bay Cybersecurity",
@@ -609,7 +609,7 @@
   {
    "source": "We Protect PHX",
    "ok": true,
-   "events": 2
+   "events": 3
   },
   {
    "source": "DC617 (Boston)",
@@ -1184,7 +1184,7 @@
   {
    "source": "OWASP Phoenix Chapter",
    "ok": true,
-   "events": 1
+   "events": 2
   },
   {
    "source": "Rabbit-Labs Learning Lab",
@@ -1249,7 +1249,7 @@
   {
    "source": "CloudSEK Events",
    "ok": true,
-   "events": 3
+   "events": 4
   },
   {
    "source": "Aikido Security",
@@ -1279,7 +1279,7 @@
   {
    "source": "AI Builders",
    "ok": true,
-   "events": 28
+   "events": 25
   },
   {
    "source": "TechEquity AI (Silicon Valley)",
@@ -1412,34 +1412,6 @@
    "seq": 0
   },
   {
-   "id": "947a9c088b7e",
-   "title": "AI World Congress",
-   "start": "2026-11-25",
-   "end": "2026-11-26",
-   "allDay": true,
-   "tz": null,
-   "venue": "London",
-   "online": false,
-   "city": "London",
-   "country": "United Kingdom",
-   "metro": "London",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Conference",
-   "url": "https://aiconference.london",
-   "about": "",
-   "source": "confs.tech",
-   "status": "listed",
-   "lat": 51.507,
-   "lng": -0.128,
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
    "id": "d964ab467f2e",
    "title": "OWASP BeNeLux 2026",
    "start": "2026-11-26",
@@ -1464,359 +1436,6 @@
    "status": "listed",
    "cancelReason": null,
    "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 0
-  },
-  {
-   "id": "62bd60f8bb51",
-   "title": "WiCyS Nigeria Affiliate | Progress, Priorities, partnerships: Shaping the Next Chapter of WiCyS Nigeria",
-   "start": "2026-11-26T10:30+01:00",
-   "end": "2026-11-26T14:00+01:00",
-   "allDay": false,
-   "tz": "Europe/Paris",
-   "venue": "CA",
-   "online": false,
-   "city": "Location on listing",
-   "country": "Nigeria",
-   "metro": "Location on listing",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/wicys-nigeria-affiliate-progress-priorities-partnerships-shaping-the-next-chapter-of-wicys-nigeria/",
-   "about": "This year’s Leadership Forum will bring together a select group of accomplished women and men from technology, cybersecurity, government, industry, and academia for a candid, forward-looking conversation on…",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "firstSeen": "2026-11-15T12:04-05:00",
-   "seq": 3,
-   "cancelledAt": "2026-11-26T13:18-05:00"
-  },
-  {
-   "id": "e83786fae95f",
-   "title": "AI Builders Dubai - Nov 26",
-   "start": "2026-11-26T13:30+00:00",
-   "end": "2026-11-26T16:30+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Oracle Systems Limited",
-   "online": false,
-   "city": "Dubai",
-   "country": "United Arab Emirates",
-   "metro": "Dubai",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
-   "about": "Address: Oracle Systems Limited Oracle Systems Limited Dubai, United Arab Emirates",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "lat": 25.265,
-   "lng": 55.292,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "1e15112e86fc",
-   "title": "Why Should I Care About the EU AI Act?",
-   "start": "2026-11-26T15:00+00:00",
-   "end": "2026-11-26T17:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Maria 01",
-   "online": false,
-   "city": "Helsinki",
-   "country": "Finland",
-   "metro": "Helsinki",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/genai-collective",
-   "about": "Address: Maria 01 Event Space, Building 1 (main building) Helsinki, Finland",
-   "source": "The AI Collective",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 60.167,
-   "lng": 24.944,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T13:18-05:00"
-  },
-  {
-   "id": "ff456991a8e3",
-   "title": "AI Builders Vienna - Bring Your Own Laptop Edition - Nov 26",
-   "start": "2026-11-26T17:00+00:00",
-   "end": "2026-11-26T20:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "Oracle Austria GmbH",
-   "online": false,
-   "city": "Oracle Austria GmbH",
-   "country": "Austria",
-   "metro": "Oracle Austria GmbH",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
-   "about": "Address: Oracle Austria GmbH Oracle Austria GmbH Wien, Austria",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "3ba8686016d6",
-   "title": "AI Builders Barcelona - Bring Your Own Laptop Edition - Nov 26",
-   "start": "2026-11-26T17:30+00:00",
-   "end": "2026-11-26T20:00+00:00",
-   "allDay": false,
-   "tz": null,
-   "venue": "eDreams ODIGEO",
-   "online": false,
-   "city": "Barcelona",
-   "country": "Spain",
-   "metro": "Barcelona",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai"
-   ],
-   "kind": "Meetup",
-   "url": "https://luma.com/ai-builders",
-   "about": "Address: eDreams ODIGEO eDreams ODIGEO Barcelona, Spain",
-   "source": "AI Builders",
-   "status": "listed",
-   "cancelReason": null,
-   "lat": 41.383,
-   "lng": 2.177,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 0
-  },
-  {
-   "id": "276545435edc",
-   "title": "WiCyS Eastern Canada Affiliate | Securing What's Next: AI, Agents & the Security Leader's Agentic Era",
-   "start": "2026-11-26T18:00+00:00",
-   "end": "2026-11-26T20:30+00:00",
-   "allDay": false,
-   "tz": "UTC",
-   "venue": "Microsoft Canada",
-   "online": false,
-   "city": "Toronto",
-   "country": "Canada",
-   "metro": "Toronto",
-   "state": "",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "ai",
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.wicys.org/event/wicys-eastern-canada-affiliate-securing-whats-next-ai-agents-the-security-leaders-agentic-era/",
-   "about": "Join the ISC2 Toronto Chapter and WiCyS Eastern Canada Affiliate for the November monthly event, hosted and powered by Microsoft Canada. As AI agents move from pilots into production, security leaders are being asked to…",
-   "source": "WiCyS events",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "lat": 43.653,
-   "lng": -79.384,
-   "firstSeen": "2026-11-20T13:37-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T15:42-05:00"
-  },
-  {
-   "id": "c45821c22821",
-   "title": "Burbsec Northwest - Sponsors Welcome!",
-   "start": "2026-11-26T18:00-06:00",
-   "end": "2026-11-26T20:00-06:00",
-   "allDay": false,
-   "tz": "America/Chicago",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Chicago",
-   "country": "United States",
-   "metro": "Chicago",
-   "state": "IL",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/burbsec/events/317320678/",
-   "about": "BurbSec Chicago: The Midwest's Favorite Cybersecurity Events 🚀🔐 Unlock the Excitement at Burbsec Northwest! 🍻🎉 Are you ready for a night of geeking out, making new friends, and expanding your network in the world of…",
-   "source": "BurbSec (Chicago)",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "rsvp": {
-    "going": 2,
-    "max": 0,
-    "waitlist": 0,
-    "full": false
-   },
-   "lat": 41.876,
-   "lng": -87.624,
-   "firstSeen": "2026-11-15T17:32-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T22:47-05:00"
-  },
-  {
-   "id": "f8b32dec1fea",
-   "title": "Open Hack Night",
-   "start": "2026-11-26T18:30-05:00",
-   "end": "2026-11-26T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Pittsburgh",
-   "country": "United States",
-   "metro": "Pittsburgh",
-   "state": "PA",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/hackersguild/events/317452710/",
-   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
-   "source": "Hackers Guild",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "rsvp": {
-    "going": 2,
-    "max": 0,
-    "waitlist": 0,
-    "full": false
-   },
-   "lat": 40.441,
-   "lng": -80.003,
-   "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T22:47-05:00"
-  },
-  {
-   "id": "7941beab8906",
-   "title": "Hack Manhattan Open House",
-   "start": "2026-11-26T19:00-05:00",
-   "end": "2026-11-26T22:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "New York",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NY",
-   "format": "In person",
-   "cost": "Check listing",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/hackmanhattan/events/317320232/",
-   "about": "Hack Manhattan Bring your latest project and connect with local makers, creators, artists and more and learn about starting your own maker journey! Whether it's woodworking or electronics, programming or craftwork, Hack…",
-   "source": "Hack Manhattan",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "rsvp": {
-    "going": 8,
-    "max": 0,
-    "waitlist": 0,
-    "full": false
-   },
-   "lat": 40.713,
-   "lng": -74.006,
-   "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T22:47-05:00"
-  },
-  {
-   "id": "6d9f899eb7e7",
-   "title": "Hardware Hacking Night",
-   "start": "2026-11-26T19:00-05:00",
-   "end": "2026-11-26T21:00-05:00",
-   "allDay": false,
-   "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Washington",
-   "country": "United States",
-   "metro": "Washington DC area",
-   "state": "DC",
-   "format": "In person",
-   "cost": "Free",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/hac-dc/events/317320655/",
-   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
-   "source": "HacDC",
-   "status": "cancelled",
-   "cancelReason": "No longer listed by the organizer",
-   "rsvp": {
-    "going": 2,
-    "max": 0,
-    "waitlist": 0,
-    "full": false
-   },
-   "lat": 38.895,
-   "lng": -77.036,
-   "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 1,
-   "cancelledAt": "2026-11-26T22:47-05:00"
-  },
-  {
-   "id": "f44534f2c80b",
-   "title": "Resident Electronics Monthly meetup!",
-   "start": "2026-11-26T20:00-08:00",
-   "end": "2026-11-26T22:00-08:00",
-   "allDay": false,
-   "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "San Francisco",
-   "country": "United States",
-   "metro": "San Francisco Bay Area",
-   "state": "CA",
-   "format": "In person",
-   "cost": "Free",
-   "tags": [
-    "cyber"
-   ],
-   "kind": "Meetup",
-   "url": "https://www.meetup.com/noisebridge/events/317323645/",
-   "about": "Noisebridge Hackerspace A recurring electronic music open mic. Every 4th Thursday of the month at 8pm INSTAGRAM: YOUTUBE: Playlist and upcoming live FREE Hosts Franck Martin TanukiSpiderCat Sign up / further info at",
-   "source": "Noisebridge Hackerspace",
-   "status": "listed",
-   "cancelReason": null,
-   "rsvp": {
-    "going": 3,
-    "max": 0,
-    "waitlist": 0,
-    "full": false
-   },
-   "lat": 37.788,
-   "lng": -122.408,
-   "firstSeen": "2026-11-26T18:15-05:00",
    "seq": 0
   },
   {
@@ -1986,11 +1605,11 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 65,
+    "going": 67,
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 235,
+    "left": 233,
     "near": false
    },
    "lat": 10.774,
@@ -2058,7 +1677,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 10,
+    "going": 11,
     "max": 15,
     "waitlist": 0,
     "full": false
@@ -2946,7 +2565,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 90,
+    "left": 86,
     "near": false
    },
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -3006,7 +2625,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 47,
+    "going": 48,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -3376,7 +2995,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 44,
+    "left": 43,
     "near": false
    },
    "lat": 33.924,
@@ -3438,7 +3057,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 212,
+    "going": 218,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -3479,7 +3098,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 88,
+    "left": 83,
     "near": false
    },
    "firstSeen": "2026-11-15T12:04-05:00",
@@ -4030,7 +3649,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 7,
+    "going": 8,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4170,7 +3789,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 17,
+    "going": 18,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4331,7 +3950,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 42,
+    "going": 44,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -4661,7 +4280,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4830,7 +4449,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4865,7 +4484,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 7,
+    "going": 9,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -5183,6 +4802,41 @@
    "seq": 0
   },
   {
+   "id": "3bb14087a4e5",
+   "title": "Phoenix ISACA December Chapter Meeting",
+   "start": "2026-12-04T11:30-07:00",
+   "end": "2026-12-04T15:30-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Phoenix",
+   "country": "United States",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/protectphx/events/317607005/",
+   "about": "PROTECTPHX Save the date for this event. This is a special invite for you to attend the Phoenix Chapter of ISACA December meeting. Because of this invitation you don't have to be a member to come. And if you can't make…",
+   "source": "We Protect PHX",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 3,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 33.448,
+   "lng": -112.074,
+   "firstSeen": "2026-11-27T14:29-05:00",
+   "seq": 0
+  },
+  {
    "id": "3e99aac4d3a8",
    "title": "Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini",
    "start": "2026-12-04T12:00-05:00",
@@ -5207,7 +4861,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 13,
+    "going": 14,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6032,7 +5686,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6229,7 +5883,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 14,
+    "going": 15,
     "max": 30,
     "waitlist": 0,
     "full": false
@@ -6264,7 +5918,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 34,
+    "going": 35,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6299,7 +5953,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 4,
+    "going": 5,
     "max": 20,
     "waitlist": 0,
     "full": false
@@ -6635,7 +6289,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 5,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -6643,6 +6297,42 @@
    "lat": 30.265,
    "lng": -97.747,
    "firstSeen": "2026-11-26T17:09-05:00",
+   "seq": 0
+  },
+  {
+   "id": "eabb1981283f",
+   "title": "All things software infrastructure",
+   "start": "2026-12-07T19:00-08:00",
+   "end": "2026-12-07T20:30-08:00",
+   "allDay": false,
+   "tz": "America/Los_Angeles",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "San Francisco",
+   "country": "United States",
+   "metro": "San Francisco Bay Area",
+   "state": "CA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/noisebridge/events/317477559/",
+   "about": "Noisebridge Hackerspace Bring a laptop if you can. Meeting format: Introductions. Background & goals/interests for the meeting. Lesson or Demo Questions & Discussion Readings & Exercises, for future meetings Find past…",
+   "source": "Noisebridge Hackerspace",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 37.788,
+   "lng": -122.408,
+   "firstSeen": "2026-11-27T14:29-05:00",
    "seq": 0
   },
   {
@@ -7204,7 +6894,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 100,
+    "left": 98,
     "near": false
    },
    "firstSeen": "2026-11-15T12:04-05:00",
@@ -7479,7 +7169,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 8,
+    "going": 12,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7496,13 +7186,13 @@
    "end": "2026-12-09T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber"
@@ -7519,14 +7209,12 @@
     "waitlist": 0,
     "full": false
    },
-   "lat": 33.754,
-   "lng": -84.39,
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 2,
+   "seq": 3,
    "changes": [
-    "New venue: Location on listing"
+    "New venue: Online"
    ],
-   "changedAt": "2026-11-26T22:47-05:00"
+   "changedAt": "2026-11-27T14:29-05:00"
   },
   {
    "id": "b2c04097f8e5",
@@ -7654,7 +7342,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 6,
+    "going": 8,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -7664,6 +7352,44 @@
    "lat": 37.336,
    "lng": -121.891,
    "firstSeen": "2026-11-20T21:50-05:00",
+   "seq": 0
+  },
+  {
+   "id": "535bde72a3f5",
+   "title": "CISO Collective by CloudSEK",
+   "start": "2026-12-10T13:00+00:00",
+   "end": "2026-12-10T15:00+00:00",
+   "allDay": false,
+   "tz": null,
+   "venue": "Aloft by Marriott New Delhi Aerocity",
+   "online": false,
+   "city": "New Delhi",
+   "country": "India",
+   "metro": "New Delhi",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://luma.com/cisocollectivecloudsek",
+   "about": "Address: Aloft by Marriott New Delhi Aerocity New Delhi, India",
+   "source": "CloudSEK Events",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 0,
+    "max": 0,
+    "waitlist": 0,
+    "full": false,
+    "left": 30,
+    "near": false
+   },
+   "lat": 28.614,
+   "lng": 77.209,
+   "firstSeen": "2026-11-27T14:29-05:00",
    "seq": 0
   },
   {
@@ -7820,7 +7546,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 49,
+    "going": 50,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7856,7 +7582,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 18,
+    "going": 19,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -7993,7 +7719,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 14,
+    "going": 15,
     "max": 40,
     "waitlist": 0,
     "full": false
@@ -8233,7 +7959,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -8307,11 +8033,11 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 91,
+    "going": 94,
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 9,
+    "left": 6,
     "near": false
    },
    "lat": 33.754,
@@ -9276,7 +9002,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 102,
+    "left": 10,
     "near": false
    },
    "lat": 52.517,
@@ -9310,7 +9036,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 66,
+    "going": 67,
     "max": 90,
     "waitlist": 0,
     "full": false
@@ -9743,7 +9469,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 20,
+    "going": 25,
     "max": 50,
     "waitlist": 0,
     "full": false
@@ -9760,13 +9486,13 @@
    "end": "2026-12-16T19:30-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Atlanta",
-   "country": "United States",
-   "metro": "Atlanta",
-   "state": "GA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "cyber",
@@ -9784,14 +9510,12 @@
     "waitlist": 0,
     "full": false
    },
-   "lat": 33.754,
-   "lng": -84.39,
    "firstSeen": "2026-11-18T21:49-05:00",
-   "seq": 2,
+   "seq": 3,
    "changes": [
-    "New venue: Location on listing"
+    "New venue: Online"
    ],
-   "changedAt": "2026-11-26T22:47-05:00"
+   "changedAt": "2026-11-27T14:29-05:00"
   },
   {
    "id": "bc038b8c1429",
@@ -9953,7 +9677,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 4,
+    "going": 5,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -10445,13 +10169,13 @@
    "end": "2026-12-18T15:00-08:00",
    "allDay": false,
    "tz": "America/Los_Angeles",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Seattle",
-   "country": "United States",
-   "metro": "Seattle",
-   "state": "WA",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -10463,10 +10187,18 @@
    "source": "Seattle Business and Technology",
    "status": "listed",
    "cancelReason": null,
-   "lat": 47.604,
-   "lng": -122.33,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-26T13:18-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-27T14:29-05:00"
   },
   {
    "id": "8404855a0608",
@@ -10475,13 +10207,13 @@
    "end": "2026-12-18T18:00-05:00",
    "allDay": false,
    "tz": "America/New_York",
-   "venue": "Location on listing",
-   "online": false,
-   "city": "Iselin",
-   "country": "United States",
-   "metro": "New York area",
-   "state": "NJ",
-   "format": "In person",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
    "cost": "Check listing",
    "tags": [
     "ai",
@@ -10493,10 +10225,18 @@
    "source": "NJ Business and Tech",
    "status": "listed",
    "cancelReason": null,
-   "lat": 40.572,
-   "lng": -74.316,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "firstSeen": "2026-11-23T17:03-05:00",
-   "seq": 0
+   "seq": 1,
+   "changes": [
+    "New venue: Online"
+   ],
+   "changedAt": "2026-11-27T14:29-05:00"
   },
   {
    "id": "d3c9195a79a3",
@@ -12365,7 +12105,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -13489,7 +13229,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 0,
+    "going": 1,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -13771,6 +13511,36 @@
    "lat": 33.754,
    "lng": -84.39,
    "firstSeen": "2026-11-15T18:41-05:00",
+   "seq": 0
+  },
+  {
+   "id": "b025929dd1df",
+   "title": "February 2027 Meeting",
+   "start": "2027-02-02T19:30-07:00",
+   "end": "2027-02-02T21:00-07:00",
+   "allDay": false,
+   "tz": "America/Phoenix",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Mesa",
+   "country": "United States",
+   "metro": "Mesa",
+   "state": "AZ",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber",
+    "it"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/owasp-phoenix-chapter/events/317609397/",
+   "about": "OWASP Phoenix Chapter Ransomware Can Hold Your Business Hostage. Can You Get Back Up? (\\~30 min) Ransomware now targets backups first, so backups alone are not recovery. This session covers how attackers target backups…",
+   "source": "OWASP Phoenix Chapter",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 33.415,
+   "lng": -111.831,
+   "firstSeen": "2026-11-27T14:29-05:00",
    "seq": 0
   },
   {
@@ -18655,6 +18425,63 @@
    "lat": 45.52,
    "lng": -122.674,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "7c33ea20951d",
+   "title": "GITEX AI SERBIA",
+   "start": "2027-05-26",
+   "end": "2027-05-27",
+   "allDay": true,
+   "tz": null,
+   "venue": "Belgrade",
+   "online": false,
+   "city": "Belgrade",
+   "country": "Serbia",
+   "metro": "Belgrade",
+   "state": "",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "ai"
+   ],
+   "kind": "Conference",
+   "url": "https://www.gitexserbia.com",
+   "about": "",
+   "source": "confs.tech",
+   "status": "listed",
+   "lat": 44.818,
+   "lng": 20.457,
+   "firstSeen": "2026-11-27T14:29-05:00",
+   "seq": 0
+  },
+  {
+   "id": "e63945c10e85",
+   "title": "CitrusSec Meetup",
+   "start": "2027-05-26T19:00-04:00",
+   "end": "2027-05-26T21:00-04:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Orlando",
+   "country": "United States",
+   "metro": "Orlando",
+   "state": "FL",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/centralflcitysec/events/mlhwctykchbjc/",
+   "about": "Central Florida CitySec CitrusSec is a Central Florida CitySec group located in the Orlando area. CitrusSec's goal is to discuss topics of interest in a non-work, non-vendor setting; preferably while drinking.",
+   "source": "Central FL CitySec (CitrusSec / CigarCitySec)",
+   "status": "listed",
+   "cancelReason": null,
+   "lat": 28.542,
+   "lng": -81.379,
+   "firstSeen": "2026-11-27T14:29-05:00",
    "seq": 0
   }
  ]

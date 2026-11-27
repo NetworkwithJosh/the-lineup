@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b025929dd1df@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20270203T023000Z
+DTEND:20270203T040000Z
+SUMMARY:February 2027 Meeting
+LOCATION:Location on listing\, Mesa\, United States
+DESCRIPTION:OWASP Phoenix Chapter Ransomware Can Hold Your Business Hostage. Can You Get Back Up? (\\~30 min) Ransomware now targets backups first\, so backups alone are not recovery. This session covers how attackers target backups… https://www.meetup.com/owasp-phoenix-chapter/events/317609397/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-phoenix-chapter/events/317609397/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

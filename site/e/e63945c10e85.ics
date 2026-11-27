@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lineup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e63945c10e85@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20270526T230000Z
+DTEND:20270527T010000Z
+SUMMARY:CitrusSec Meetup
+LOCATION:Location on listing\, Orlando\, United States
+DESCRIPTION:Central Florida CitySec CitrusSec is a Central Florida CitySec group located in the Orlando area. CitrusSec's goal is to discuss topics of interest in a non-work\, non-vendor setting\; preferably while drinking. https://www.meetup.com/centralflcitysec/events/mlhwctykchbjc/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/centralflcitysec/events/mlhwctykchbjc/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

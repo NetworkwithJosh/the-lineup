@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:d3154f3854ee@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261202T023000Z
 DTEND:20261202T040000Z
@@ -20,7 +20,7 @@ URL:https://www.meetup.com/owasp-phoenix-chapter/events/316852942/
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2ee0bd9c30@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261202T023000Z
 DTEND:20261202T040000Z
@@ -32,7 +32,7 @@ URL:https://www.eventbrite.com/e/beyond-the-web-app-what-the-owasp-top-10-means-
 END:VEVENT
 BEGIN:VEVENT
 UID:e1cebb2aa757@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261202T153000Z
 DTEND:20261202T183000Z
@@ -44,7 +44,7 @@ URL:https://luma.com/event/evt-qUGv2h03rWXmX1F
 END:VEVENT
 BEGIN:VEVENT
 UID:fc345f810553@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261204T020000Z
 DTEND:20261204T043000Z
@@ -55,8 +55,20 @@ STATUS:CONFIRMED
 URL:https://www.meetup.com/evsecaz/events/317079517/
 END:VEVENT
 BEGIN:VEVENT
+UID:3bb14087a4e5@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20261204T183000Z
+DTEND:20261204T223000Z
+SUMMARY:Phoenix ISACA December Chapter Meeting
+LOCATION:Location on listing\, Phoenix\, United States
+DESCRIPTION:PROTECTPHX Save the date for this event. This is a special invite for you to attend the Phoenix Chapter of ISACA December meeting. Because of this invitation you don't have to be a member to come. And if you can't make… https://www.meetup.com/protectphx/events/317607005/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/protectphx/events/317607005/
+END:VEVENT
+BEGIN:VEVENT
 UID:ebcad4d6e3c5@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261211T143000Z
 DTEND:20261212T000000Z
@@ -68,7 +80,7 @@ URL:https://www.eventbrite.com/e/2026-state-of-arizona-cyber-summit-tickets-1990
 END:VEVENT
 BEGIN:VEVENT
 UID:63fe8f707af9@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20261215T010000Z
 DTEND:20261215T023000Z
@@ -80,7 +92,7 @@ URL:https://www.meetup.com/protectphx/events/314852197/
 END:VEVENT
 BEGIN:VEVENT
 UID:eb773a54cbcd@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20270107T170000Z
 DTEND:20270107T230000Z
@@ -92,7 +104,7 @@ URL:https://www.eventbrite.com/e/global-converged-intelligence-security-summit-t
 END:VEVENT
 BEGIN:VEVENT
 UID:eb3b682ec11c@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20270108T020000Z
 DTEND:20270108T030000Z
@@ -104,7 +116,7 @@ URL:https://www.eventbrite.com/e/cyber-security-tickets-2003809752912
 END:VEVENT
 BEGIN:VEVENT
 UID:5220f8923261@the-lineup
-DTSTAMP:20261127T035015Z
+DTSTAMP:20261127T193123Z
 SEQUENCE:0
 DTSTART:20270127T170000Z
 DTEND:20270127T210000Z
@@ -113,5 +125,17 @@ LOCATION:Phoenix\, Phoenix\, United States
 DESCRIPTION:WiCyS is partnering with Kodi Connect\, which hosts exclusive\, invite-only gatherings that unite senior cybersecurity leaders in a highly curated\, collaborative setting. Through focused discussions and meaningful peer… https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
 STATUS:CONFIRMED
 URL:https://www.wicys.org/event/kodi-connect-it-cio-leadership-phoenix-executive-networking-exchange/
+END:VEVENT
+BEGIN:VEVENT
+UID:b025929dd1df@the-lineup
+DTSTAMP:20261127T193123Z
+SEQUENCE:0
+DTSTART:20270203T023000Z
+DTEND:20270203T040000Z
+SUMMARY:February 2027 Meeting
+LOCATION:Location on listing\, Mesa\, United States
+DESCRIPTION:OWASP Phoenix Chapter Ransomware Can Hold Your Business Hostage. Can You Get Back Up? (\\~30 min) Ransomware now targets backups first\, so backups alone are not recovery. This session covers how attackers target backups… https://www.meetup.com/owasp-phoenix-chapter/events/317609397/
+STATUS:CONFIRMED
+URL:https://www.meetup.com/owasp-phoenix-chapter/events/317609397/
 END:VEVENT
 END:VCALENDAR
