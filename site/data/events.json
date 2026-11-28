@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-27T14:29-05:00",
+ "generatedAt": "2026-11-27T22:32-05:00",
  "baselineAt": "2026-11-25T12:56-05:00",
  "scraperVersion": "2.6",
  "windowDays": 180,
- "count": 544,
+ "count": 545,
  "changes": {
   "updated": 27,
-  "new": 181,
-  "cancelled": 5
+  "new": 182,
+  "cancelled": 7
  },
  "sources": [
   {
@@ -569,7 +569,7 @@
   {
    "source": "STL Cyber (St. Louis)",
    "ok": true,
-   "events": 0
+   "events": 1
   },
   {
    "source": "OWASP Cleveland",
@@ -1605,11 +1605,11 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 67,
+    "going": 68,
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 233,
+    "left": 232,
     "near": false
    },
    "lat": 10.774,
@@ -1677,7 +1677,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 11,
+    "going": 12,
     "max": 15,
     "waitlist": 0,
     "full": false
@@ -1748,10 +1748,10 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 11,
+    "going": 13,
     "max": 12,
     "waitlist": 0,
-    "full": false
+    "full": true
    },
    "lat": 40.713,
    "lng": -74.006,
@@ -1791,6 +1791,40 @@
    "lat": 37.788,
    "lng": -122.408,
    "firstSeen": "2026-11-26T18:15-05:00",
+   "seq": 0
+  },
+  {
+   "id": "0be050a55d78",
+   "title": "Can an LLM Hack Java4Shell? A Live AI Pentest with ARTEX",
+   "start": "2026-11-29T17:00-06:00",
+   "end": "2026-11-29T18:30-06:00",
+   "allDay": false,
+   "tz": "America/Chicago",
+   "venue": "Online",
+   "online": true,
+   "city": "Online",
+   "country": "Online",
+   "metro": "Online",
+   "state": "",
+   "format": "Online",
+   "cost": "Check listing",
+   "tags": [
+    "ai",
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/stl-cyber-meetup/events/317613604/",
+   "about": "STL CYBER Meetup \\ \\ \\ Can an LLM run a penetration test from start to finish? Join us online and watch one try, live. In this session I'll demo ARTEX, an open-source, LLM-driven penetration testing framework. We'll…",
+   "source": "STL Cyber (St. Louis)",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 4,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "firstSeen": "2026-11-27T22:32-05:00",
    "seq": 0
   },
   {
@@ -2142,7 +2176,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2179,7 +2213,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 9,
+    "going": 10,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2565,7 +2599,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 86,
+    "left": 84,
     "near": false
    },
    "firstSeen": "2026-11-15T17:32-05:00",
@@ -2625,7 +2659,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 48,
+    "going": 49,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -2889,7 +2923,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 9,
+    "going": 10,
     "max": 40,
     "waitlist": 0,
     "full": false
@@ -3057,7 +3091,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 218,
+    "going": 224,
     "max": 0,
     "waitlist": 0,
     "full": false,
@@ -3098,7 +3132,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 83,
+    "left": 78,
     "near": false
    },
    "firstSeen": "2026-11-15T12:04-05:00",
@@ -3789,7 +3823,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 18,
+    "going": 19,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4049,7 +4083,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 5,
+    "going": 6,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4150,7 +4184,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 6,
+    "going": 7,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4280,7 +4314,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 4,
+    "going": 5,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4414,7 +4448,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 5,
+    "going": 6,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4484,7 +4518,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 9,
+    "going": 10,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -4521,7 +4555,7 @@
    "rsvp": {
     "going": 80,
     "max": 80,
-    "waitlist": 18,
+    "waitlist": 19,
     "full": true
    },
    "lat": 42.359,
@@ -5848,7 +5882,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 5,
+    "going": 6,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -5883,7 +5917,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 15,
+    "going": 17,
     "max": 30,
     "waitlist": 0,
     "full": false
@@ -6608,7 +6642,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 103,
+    "going": 104,
     "max": 280,
     "waitlist": 0,
     "full": false
@@ -7242,7 +7276,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 10,
+    "going": 11,
     "max": 35,
     "waitlist": 0,
     "full": false
@@ -7546,7 +7580,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 50,
+    "going": 51,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -8000,7 +8034,7 @@
     "max": 0,
     "waitlist": 0,
     "full": false,
-    "left": 94,
+    "left": 93,
     "near": false
    },
    "lat": 38.934,
@@ -8273,7 +8307,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 3,
+    "going": 4,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -9265,7 +9299,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 29,
+    "going": 30,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -9542,7 +9576,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 1,
+    "going": 2,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -9642,7 +9676,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 31,
+    "going": 32,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -9677,7 +9711,7 @@
    "status": "listed",
    "cancelReason": null,
    "rsvp": {
-    "going": 5,
+    "going": 6,
     "max": 0,
     "waitlist": 0,
     "full": false
@@ -9991,6 +10025,41 @@
    "seq": 0
   },
   {
+   "id": "4748b716ee7a",
+   "title": "Open Hack Night",
+   "start": "2026-12-17T18:30-05:00",
+   "end": "2026-12-17T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "format": "In person",
+   "cost": "Check listing",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hackersguild/events/317611677/",
+   "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
+   "source": "Hackers Guild",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 40.441,
+   "lng": -80.003,
+   "firstSeen": "2026-11-27T22:32-05:00",
+   "seq": 0
+  },
+  {
    "id": "41948ac466e4",
    "title": "Open Hack Night",
    "start": "2026-12-17T18:30-05:00",
@@ -10012,8 +10081,8 @@
    "url": "https://www.meetup.com/hackersguild/events/gvwzbvyjcqbwb/",
    "about": "Hackers Guild Join us to discover how Hackers Guild is the best place in SW PA for tech people to learn, work, and build community! Every Thursday from 6:30 to 9:00 PM, Hackers Guild hosts Open Hack Night, our standing…",
    "source": "Hackers Guild",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 1,
     "max": 0,
@@ -10023,7 +10092,8 @@
    "lat": 40.441,
    "lng": -80.003,
    "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-27T22:32-05:00"
   },
   {
    "id": "eb3dd3f9de27",
@@ -10055,6 +10125,41 @@
    "seq": 0
   },
   {
+   "id": "c7017261b065",
+   "title": "Hardware Hacking Night",
+   "start": "2026-12-17T19:00-05:00",
+   "end": "2026-12-17T21:00-05:00",
+   "allDay": false,
+   "tz": "America/New_York",
+   "venue": "Location on listing",
+   "online": false,
+   "city": "Washington",
+   "country": "United States",
+   "metro": "Washington DC area",
+   "state": "DC",
+   "format": "In person",
+   "cost": "Free",
+   "tags": [
+    "cyber"
+   ],
+   "kind": "Meetup",
+   "url": "https://www.meetup.com/hac-dc/events/317612332/",
+   "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
+   "source": "HacDC",
+   "status": "listed",
+   "cancelReason": null,
+   "rsvp": {
+    "going": 1,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
+   "lat": 38.895,
+   "lng": -77.036,
+   "firstSeen": "2026-11-27T22:32-05:00",
+   "seq": 0
+  },
+  {
    "id": "733de242397a",
    "title": "Hardware Hacking Night",
    "start": "2026-12-17T19:00-05:00",
@@ -10076,8 +10181,8 @@
    "url": "https://www.meetup.com/hac-dc/events/szjzwtyjcqbwb/",
    "about": "HacDC Want to mess with some electronics? Or perhaps contribute to HacDC's main group project? HacDC's latest event brings hardware projects to the community. We will focus primarily on the main project (Space Blimp!)…",
    "source": "HacDC",
-   "status": "listed",
-   "cancelReason": null,
+   "status": "cancelled",
+   "cancelReason": "No longer listed by the organizer",
    "rsvp": {
     "going": 1,
     "max": 0,
@@ -10087,7 +10192,8 @@
    "lat": 38.895,
    "lng": -77.036,
    "firstSeen": "2026-11-26T18:15-05:00",
-   "seq": 0
+   "seq": 1,
+   "cancelledAt": "2026-11-27T22:32-05:00"
   },
   {
    "id": "26668c08a91a",
@@ -10262,6 +10368,12 @@
    "source": "DC215 (DEF CON Philly)",
    "status": "listed",
    "cancelReason": null,
+   "rsvp": {
+    "going": 2,
+    "max": 0,
+    "waitlist": 0,
+    "full": false
+   },
    "lat": 39.953,
    "lng": -75.164,
    "firstSeen": "2026-11-18T13:52-05:00",
